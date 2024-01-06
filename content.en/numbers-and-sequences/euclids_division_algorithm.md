@@ -1,5 +1,5 @@
 ---
-title: 'Euclid's Division Algorithm'
+title: 'Euclids Division Algorithm'
 weight: 2
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Euclid's Division Lemma'
+title: 'Euclids Division Lemma'
 weight: 1
 ---
 

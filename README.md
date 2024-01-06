@@ -1,2 +1,5 @@
-# 10th-maths
-10th std mathematics
+## Dev
+
+```sh
+hugo server --themesDir ../
+```
