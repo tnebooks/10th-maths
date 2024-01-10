@@ -126,7 +126,7 @@ to the ratio of the squares of their corresponding sides.
    
    Here,area(∆ABC)/area(∆PQR)=AD/DC
 
-![alt text](definition.png)
+
 
 **Illustration** Two triangles, ∆XYZ and ∆LMN are similar because the corresponding angles 
 are equal.
@@ -308,16 +308,16 @@ Steps of construction
 2. Draw a ray QX making an acute angle with QR on the![alt text](4.25.png)
 side opposite to vertex P.
 
-3. Locate 5 (the greater of 3 and 5 in 3/5) points.
+1. Locate 5 (the greater of 3 and 5 in 3/5) points.
    Q1,Q2,Q3,Q4 AND Q5 ON QX so that
    QQ1 = Q1Q2 = Q2Q3 = Q3Q4 = Q4Q5
 
-4. Join Q5R and draw a line through Q3 (the third 
+2. Join Q5R and draw a line through Q3 (the third 
 point, 3 being smaller of 3 and 5 in 3/5
 ) parallel to 
 Q5R to intersect QR at R' .
 
-5. Draw line through R' parallel to the line RP to 
+1. Draw line through R' parallel to the line RP to 
 intersect QP at P'. 
  Then, ∆P'QR' is the required triangle each of whose sides is three-fifths of the corresponding sides of ∆PQR .
 
