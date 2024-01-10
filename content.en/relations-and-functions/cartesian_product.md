@@ -8,7 +8,7 @@ extensions:
 {{< katex display >}}{{< /katex >}}
 
 
-[comment]: <> (add the katex entension and header for including maths expression )
+[comment]: <> (add the katex entension and header for including maths expression and refer https://katex.org/docs/supported.html)
 
 #  Cartesian Product
 
@@ -26,7 +26,7 @@ What are the possible ways of choosing a vegetable with a fruit? (Fig.1.2)
 | Brinjal (b)| Orange (o) | 
 | Ladies finger (l)| Strawberry (s) | 
 
-![alt text](image1.2.png)
+![alt text](image1_2.png)
 We can select them in 12 distinct pairs as given below.
 (c, a), (c, o), (c, g), (c, s), (b, a), (b, o), (b, g), (b, s), (l, a), (l, o), (l,g), (l, s)
 
@@ -56,7 +56,7 @@ Let A = {1, 2, 3} and B = {a, b}. Write A ×  B and B × A?
 
 \\(B × A = \\{a,b\\} × \\{1,2,3\\} =\\) {(a,1), (a,2), (a,3),(b,1), (b,2), (b,3)} (as shown in Fig.1.3)
 
-![alt text](image1.3.png)
+![alt text](image1_3.png)
 
 **Thinking Corner** 
 When will A × B be equal to B × A?
@@ -82,7 +82,7 @@ Real Numbers \\(\R = \mathbb{Q} \cup \mathbb{Q}'\\) , where \\(\\mathbb{Q'}\\) i
 ### Illustration 3
 
 For example, let A be the set of numbers in the interval [3, 5] and B be the set of numbers in the interval [2,3]. Then the Cartesian product A ×  B corresponds to the rectangular region shown in the Fig. 1.4. It consists of all points (x, y) within the region.
-![alt text](image1.4.png)
+![alt text](image1_4.png)
 
 ---
 **Progress Check**
@@ -222,13 +222,13 @@ Representing A x B in the XY - plane we get a picture shown in Fig.1.5.
 
 \\(= \\{(0, 0, 0),(0, 0,1),(0,1, 0),(0,1,1),(1, 0, 0),(1, 0,1)(1,1, 0),(1,1,1)\\}\\)
 
-![alt text](image1.5.png)
+![alt text](image1_5.png)
 
 Representing \\(A \times B \times C\\) in the \\(XYZ\\) - space we get a picture as shown in Fig. 1.6.
 
 Thus,\\(A \times B\\) represent vertices of a square in two dimensions and AxBxC represent vertices of a cube in three dimensions.
 
-![alt text](image1.6.png)
+![alt text](image1_6.png)
 
 ---
 **Note**

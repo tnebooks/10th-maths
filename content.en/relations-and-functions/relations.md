@@ -28,7 +28,7 @@ set of ordered pairs,
 ![Alt text](image-3.png)
 
 Let us define a relation between heights of corresponding
-students. (Fig.1.7) <img src="image1.7.png" alt="4.15" style="float:right; margin-right:10px;"/>
+students. (Fig.1.7) <img src="image1_7.png" alt="4.15" style="float:right; margin-right:10px;"/>
 R = {(heights, students)}
 ![Alt text](image-4.png)
 
@@ -49,7 +49,7 @@ of R = B and range of R U B .
 > 
 <span style="color:red;">Illustration 5</span>
 Let A = {1,2,3,4,5} and B = {Mathi, Arul, John} 
-A relation R between the above sets A and B can be represented by an arrow diagram (Fig. 1.8).  <img src="image1.8.png" alt="4.15" style="float:right; margin-right:10px;"/>
+A relation R between the above sets A and B can be represented by an arrow diagram (Fig. 1.8).  <img src="image1_8.png" alt="4.15" style="float:right; margin-right:10px;"/>
 Then, domain of R = {1,2,3,4} range of R = {Mathi, Arul, John} = co-domain of R . 
 Note that domain of R is a proper subset of A.
 
@@ -71,7 +71,7 @@ Equivalently R= {(1,4), (1,8), (3,4), (3,8), (5,8), (7,8)}
 R = {(1,4), (1,8), (3,4), (3,8), (5,8), (7,8)} We see that R is a subset of A´B .
 
 <span style="color:red;">Illustration 7</span>
-In a particular area of a town, let us consider ten families<img src="image1.9.png" alt="4.15" style="float:right; margin-right:10px;"/>
+In a particular area of a town, let us consider ten families<img src="image1_9.png" alt="4.15" style="float:right; margin-right:10px;"/>
 A, B, C, D, E, F, G, H, I and J with two children. Among 
 these, families B, F, I have two girls; D, G, J have one boy and
 one girl; the remaining have two boys. Let us define a relation
@@ -103,7 +103,7 @@ from A to B?
 
 
 <span style="color:red;">Example 1.5 </span> The arrow diagram shows (Fig.1.10) a relationship between the sets P and Q. Write the relation in (i) Set builder form (ii) Roster form (iii) What is the domain and range of R. 
-<span style="color:blue;">Solution </span> <img src="image1.9.png" alt="4.15" style="float:right; margin-right:10px;"/>
+<span style="color:blue;">Solution </span> <img src="image1_9.png" alt="4.15" style="float:right; margin-right:10px;"/>
 
 (i) Set builder form of R = {(x,y) | y = x −2, x ∈  P,y ∈ Q}
 
