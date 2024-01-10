@@ -18,7 +18,10 @@ Here are various real life situations illustrating some special relations:
 * In Economics, the quantity demanded can be expressed as Q = 360−4P , where P is the price of the commodity. We see that for each value of P, there is only one value of Q. Thus the quantity demanded Q depend on the price P of the commodity.
 
 We often come across certain relations, in which, for each element of a set A, there is only one corresponding element of a set B. Such relations are called functions. We usually use the symbol f to denote a functional relation. 
-> <span style="color:red;">Definition</span> ![alt text](image12a.png)
+**Definition** 
+
+![alt text](image12a.png)
+
 > A relation f between two non-empty sets X and Y is called a
 function from X to Y if, for each x ∈  X there exists only one y ∈ Y
 such that (x,y) ∈  f .
