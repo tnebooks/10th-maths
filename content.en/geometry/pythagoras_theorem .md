@@ -1,6 +1,6 @@
 ---
 title: 'Pythagoras Theorem '
-weight: 3
+weight: 4
 ---
 
 # Content Will be Added Soon
