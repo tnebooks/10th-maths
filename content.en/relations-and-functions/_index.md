@@ -1,9 +1,8 @@
 ---
 title: 'Relations and Functions'
 weight: 1
-extensions:
-    - katex
 ---
+{{< katex display >}}{{< /katex >}}
 
 ## Relations And Functions 
 

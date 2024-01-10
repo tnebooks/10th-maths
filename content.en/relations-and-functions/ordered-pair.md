@@ -2,6 +2,7 @@
 title: 'Ordered Pair'
 weight: 1
 ---
+{{< katex display >}}{{< /katex >}}
 
 #  Ordered Pair
 

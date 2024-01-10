@@ -2,6 +2,7 @@
 title: 'Geometry'
 weight: 4
 ---
+{{< katex display >}}{{< /katex >}}
 # Geometry
 
  <img src="omar.png" alt="omar" width="150" height="100" style="float:right; margin-left:10px;" />

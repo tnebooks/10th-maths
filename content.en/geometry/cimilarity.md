@@ -2,6 +2,7 @@
 title: 'Similarity'
 weight: 2
 ---
+{{< katex display >}}{{< /katex >}}
 # Geometry
 ## Similarity
 

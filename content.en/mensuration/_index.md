@@ -2,6 +2,7 @@
 title: 'Mensuration'
 weight: 7
 ---
+{{< katex display >}}{{< /katex >}}
 
 # Mensuration
 

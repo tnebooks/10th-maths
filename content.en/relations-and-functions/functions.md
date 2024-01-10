@@ -2,6 +2,7 @@
 title: 'Functions'
 weight: 4
 ---
+{{< katex display >}}{{< /katex >}}
 
 ## Functions
 

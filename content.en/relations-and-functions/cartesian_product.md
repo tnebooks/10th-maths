@@ -1,11 +1,11 @@
 ---
 title: 'Cartesian Product'
 weight: 2
-extensions:
-    - katex
 ---
 [comment]: <> (katex Header)
+
 {{< katex display >}}{{< /katex >}}
+
 
 
 [comment]: <> (add the katex entension and header for including maths expression and refer https://katex.org/docs/supported.html)

@@ -2,6 +2,7 @@
 title: 'Coordinate Geometry'
 weight: 5
 ---
+{{< katex display >}}{{< /katex >}}
 <img src="./media/image290.png" style="width:100%" >
 
 

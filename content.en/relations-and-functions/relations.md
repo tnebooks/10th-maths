@@ -2,6 +2,7 @@
 title: 'Relations'
 weight: 3
 ---
+{{< katex display >}}{{< /katex >}}
 
 # 1.4 Relations
 Many day-to-day occurrences involve two objects that are connected with each otherby some rule of correspondence. We say that the two objects are related under the specified rule. How shall we represent it? Here are some examples,
