@@ -1,6 +1,6 @@
 ---
 title: 'Cartesian Product'
-weight: 2
+weight: 3
 ---
 [comment]: <> (katex Header)
 {{< katex display >}}{{< /katex >}}
