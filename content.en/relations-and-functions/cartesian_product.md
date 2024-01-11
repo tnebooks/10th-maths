@@ -3,12 +3,13 @@ title: 'Cartesian Product'
 weight: 2
 ---
 [comment]: <> (katex Header)
-
 {{< katex display >}}{{< /katex >}}
 
+[Markdown]: <> (Markdown Refering Website https://www.markdownguide.org/cheat-sheet/)
+[Katex]: <> (add the katex entension and header for including maths expression and refer https://katex.org/docs/supported.html)
+[Table Creating Webiste]: <> (website for table creating https://www.tablesgenerator.com/markdown_tables)
 
 
-[comment]: <> (add the katex entension and header for including maths expression and refer https://katex.org/docs/supported.html)
 
 #  Cartesian Product
 
@@ -45,6 +46,7 @@ This collection represents the cartesian product of the set of vegetables and se
 - B × A is the set of all possible ordered pairs between the elements of A and B such that the first coordinate is an element of B and the second coordinate is an element of A.
 - In general \\((a, b) \ne (b, a)\\), in particular, if a = b, then (a, b) = (b, a).
 - The “cartesian product” is also referred as “cross product”.
+---
 ---
 
 ### Illustration 2
