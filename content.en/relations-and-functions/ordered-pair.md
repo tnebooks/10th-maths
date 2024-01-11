@@ -1,6 +1,6 @@
 ---
 title: 'Ordered Pair'
-weight: 1
+weight: 2
 ---
 {{< katex display >}}{{< /katex >}}
 

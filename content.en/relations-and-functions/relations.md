@@ -1,17 +1,17 @@
 ---
 title: 'Relations'
-weight: 3
+weight: 4
 ---
 {{< katex display >}}{{< /katex >}}
 
-# 1.4 Relations
+# Relations
 Many day-to-day occurrences involve two objects that are connected with each otherby some rule of correspondence. We say that the two objects are related under the specified rule. How shall we represent it? Here are some examples,
 |Relationship         | Expressing usung the symbol R       | Representation as ordered pair |
 |---------------------|-------------------|----------|
 | New Delhi is the capital of India       | New Delhi R India      | (New Delhi, India) |
 | Line AB is perpendicular to line XY        | line AB R line XY      |(line AB, line XY) |
 | –1 is greater than –5       | –1 R –5      | (–1, –5) |
-|ℓ is a line of symmetry for DPQR | ℓ R ▲PQR    | (ℓ, ▲PQR )  |
+|ℓ is a line of symmetry for DPQR | ℓ R △PQR    | (ℓ, △PQR )  |
 
 How are New Delhi and India related? We may expect the response, “New Delhi is the capital of India”. But there are several ways in which ‘New Delhi’ and‘India’ are related. Here are some possible answers.
 
@@ -29,18 +29,23 @@ set of ordered pairs,
 ![Alt text](image-3.png)
 
 Let us define a relation between heights of corresponding
+<<<<<<< Updated upstream
 students. (Fig.1.7) <img src="image1_7.png" alt="4.15" style="float:right; margin-right:10px;"/>
+=======
+students. (Fig.1.7)     
+ ![Alt text](image1.7.png)
+>>>>>>> Stashed changes
 R = {(heights, students)}
 ![Alt text](image-4.png)
 
-##
+
 > <span style="color:red;">Definition</span>
 > Let A and B be any two non-empty sets. A ‘relation’ R from A to B is a subset of
 A´B satisfying some specified conditions. If x Î A is related to y Î B through R , then
 we write it as x Ry. x Ry if and only if (x,y) Î R .
 
 
- <img src="qr3.png" alt="4.15" style="float:right; margin-right:10px;"/>
+ ![Alt text](qr3.png)
 The domain of the relation R ={x ∈ A | x Ry, for somey ∈ B}
 The co-domain of the relation R is B
 The range of the relation R ={y ∈ B | xRy, for some x ∈ A}
@@ -50,12 +55,17 @@ of R = B and range of R U B .
 > 
 <span style="color:red;">Illustration 5</span>
 Let A = {1,2,3,4,5} and B = {Mathi, Arul, John} 
+<<<<<<< Updated upstream
 A relation R between the above sets A and B can be represented by an arrow diagram (Fig. 1.8).  <img src="image1_8.png" alt="4.15" style="float:right; margin-right:10px;"/>
+=======
+A relation R between the above sets A and B can be represented by an arrow diagram (Fig. 1.8). 
+ ![Alt text](image1.8.png)
+>>>>>>> Stashed changes
 Then, domain of R = {1,2,3,4} range of R = {Mathi, Arul, John} = co-domain of R . 
 Note that domain of R is a proper subset of A.
 
 
-##
+
 > <span style="color:brown;">Activity 2</span>
 > Let A and B be the set of lines in xy-plane such that A consists of lines parallel to
 X-axis. For x Î A, y Î B , let R be a relation from A to B defined by xRy if x is perpendicular to y. Find the elements of B using a graph sheet.
@@ -104,7 +114,11 @@ from A to B?
 
 
 <span style="color:red;">Example 1.5 </span> The arrow diagram shows (Fig.1.10) a relationship between the sets P and Q. Write the relation in (i) Set builder form (ii) Roster form (iii) What is the domain and range of R. 
+<<<<<<< Updated upstream
 <span style="color:blue;">Solution </span> <img src="image1_9.png" alt="4.15" style="float:right; margin-right:10px;"/>
+=======
+<span style="color:blue;">Solution </span> 
+>>>>>>> Stashed changes
 
 (i) Set builder form of R = {(x,y) | y = x −2, x ∈  P,y ∈ Q}
 
@@ -112,7 +126,7 @@ from A to B?
 
 (iii) Domain of R = {5,6,7} and range of R = {3,4,5}
 
-##
+
 ![Alt text](image-5.png)         ![Alt text](image-6.png)
 
 <center><span style="color:Green;">Exercise 1.2</span></center>
