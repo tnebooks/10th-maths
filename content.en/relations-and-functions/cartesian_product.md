@@ -8,13 +8,13 @@ weight: 2
 [Markdown]: <> (Markdown Refering Website https://www.markdownguide.org/cheat-sheet/)
 [Katex]: <> (add the katex entension and header for including maths expression and refer https://katex.org/docs/supported.html)
 [Table Creating Webiste]: <> (website for table creating https://www.tablesgenerator.com/markdown_tables)
+[Ascii Flow Diagram]: <> (goat diagram website https://asciiflow.com/#/)
 
 
 
-#  Cartesian Product
+# Cartesian Product
 
-### Illustration 1
-
+#### Illustration 1
 
 Let us consider the following two sets.
 A is the set of 3 vegetables and B is the set of 4 fruits. That is,
@@ -25,12 +25,12 @@ What are the possible ways of choosing a vegetable with a fruit? (Fig.1.2)
 |----------|----------|
 | Carrot (c) | Apple (a) | 
 | Brinjal (b)| Orange (o) | 
-| Ladies finger (l)| Strawberry (s) | 
+| Ladies finger (l)| Strawberry (s) |
 
-![alt text](image1_2.png)
+
+![alt text](image1_2.png "float-end w-25")
 We can select them in 12 distinct pairs as given below.
 (c, a), (c, o), (c, g), (c, s), (b, a), (b, o), (b, g), (b, s), (l, a), (l, o), (l,g), (l, s)
-
 
 This collection represents the cartesian product of the set of vegetables and set of fruits.
 
@@ -38,7 +38,7 @@ This collection represents the cartesian product of the set of vegetables and se
 **Definition**
 - If A and B are two non-empty sets, then the set of all ordered pairs (a, b) such that \\(a \times A, b \times B\\) is called the Cartesian Product of A and B, and is denoted by \\(A \times B\\) .
 - Thus, \\(A \times B = \\{(a,b) |a \in A,b \in B\\}\\) (read as A cross B). Also note that  \\(A × \phi = \phi\\)
----
+--- 
 
 ---
 **Note**
@@ -49,7 +49,7 @@ This collection represents the cartesian product of the set of vegetables and se
 ---
 ---
 
-### Illustration 2
+#### Illustration 2
 
 Let A = {1, 2, 3} and B = {a, b}. Write A ×  B and B × A?
 
@@ -60,7 +60,7 @@ Let A = {1, 2, 3} and B = {a, b}. Write A ×  B and B × A?
 
 ![alt text](image1_3.png)
 
-**Thinking Corner** 
+**Thinking Corner**
 When will A × B be equal to B × A?
 
 ---
@@ -70,7 +70,7 @@ When will A × B be equal to B × A?
 - If \\(n(A) = p\\) and \\(n(B) = q\\) then \\(n(A × B) = pq\\) 
 ---
 
-### Recall of standard infinite sets
+#### Recall of standard infinite sets
 Natural Numbers \\(\N = \\{1,2,3,4 ...\\};\\)
 
 Whole Numbers \\(\mathbb{W} = \\{0,1,2,3, ...\\};\\)
@@ -81,7 +81,7 @@ Rational Numbers \\(\R\\) =  \\( \\{\dfrac{p}{q} |p,q \in \Z, q \ne 0| \\} \\)
 
 Real Numbers \\(\R = \mathbb{Q} \cup \mathbb{Q}'\\) , where \\(\\mathbb{Q'}\\) is the set of all irrational numbers.
 
-### Illustration 3
+#### Illustration 3
 
 For example, let A be the set of numbers in the interval [3, 5] and B be the set of numbers in the interval [2,3]. Then the Cartesian product A ×  B corresponds to the rectangular region shown in the Fig. 1.4. It consists of all points (x, y) within the region.
 ![alt text](image1_4.png)
@@ -108,7 +108,8 @@ Represent A ×  B and B × A in a graph sheet. Can you see the difference betwee
 ---
 
 
-### Example 1.1
+
+#### Example 1.1
 If \\(A = \\{1,3,5\\}\\) and \\(B = \\{2,3\\}\\) then
 
 (i) find \\(A × B\\) and \\(B × A.\\)
@@ -138,7 +139,7 @@ Hence, \\(n (A ×  B) = n (B × A) = n(A) × n (B) = 6.\\)
 Thus, \\(n (A ×  B) = n (B × A) = n(A) × n(B).\\)
 
 
-### Example 1.2
+#### Example 1.2
 
 If \\(A ×  B = \\{(3,2), (3,4), (5,2), (5,4)\\}\\) then find A and B.
 
@@ -152,7 +153,7 @@ We have \\(A = \\{\\)set of all first coordinates of elements of \\( A B \\} ∴
     
 Thus \\(A = \\{3,5\\} \\) and \\(B = \\{2,4\\}\\).
 
-### Example 1.3
+#### Example 1.3
 
 Let A = {\\(x \in \N | 1 \lt x \lt 4\\)}, B = { \\( x \in \mathbb{W}| 0 \le x \lt \\) 2} and C = { \\(x \in  \N | x \gt 3\\)}.
 

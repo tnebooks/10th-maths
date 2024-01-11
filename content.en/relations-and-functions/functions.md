@@ -8,7 +8,8 @@ weight: 4
 
 Among several relations that exist between two non-empty sets, some special relations are important for further exploration. Such relations are called“Functions”. 
 ![alt text](image1_11.png)
-<span style="color:red;">Illustration 8</span> 
+
+**Illustration 8**
 A company has 5 employees in different categories. If we consider their salary distribution for a month as shown by arrow diagram in Fig.1.11, we see that there is only one salary associated for every employee of the company.
 
 Here are various real life situations illustrating some special relations:
