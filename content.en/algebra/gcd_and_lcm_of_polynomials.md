@@ -2,6 +2,7 @@
 title: 'GCD and LCM of Polynomials'
 weight: 2
 ---
+{{< katex display >}}{{< /katex >}}
 
 # GCD and LCM of Polynomials
 

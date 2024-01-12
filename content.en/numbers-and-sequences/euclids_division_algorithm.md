@@ -2,6 +2,7 @@
 title: 'Euclids Division Algorithm'
 weight: 2
 ---
+{{< katex display >}}{{< /katex >}}
 ## Euclid’s Division Algorithm
 In the previous section, we have studied about Euclid’s division lemma and its applications. We now study the concept Euclid’s Division Algorithm. The word         ‘algorithm’ comes from the name of 9 th century Persian Mathematician Al-khwarizmi. An algorithm means a series of methodical step-by-step procedure of calculating successively on the results of earlier steps till the desired answer is obtained.
 

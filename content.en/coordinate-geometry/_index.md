@@ -2,7 +2,7 @@
 title: 'Coordinate Geometry'
 weight: 5
 ---
-![alt text](./media/image290.png)
+
 
 
 ![alt text](./media/image250.png)
