@@ -2,18 +2,15 @@
 title: 'Coordinate Geometry'
 weight: 5
 ---
-{{< katex display >}}{{< /katex >}}
-<img src="./media/image290.png" style="width:100%" >
 
 
-<img src="./media/image250.png" style="float:right">
+
+![alt text](./media/image250.png)
+
 
 
 >
-> Apollonius was born at Perga, in modern day Turkey. His greatest work
-> was called “conics” which introduced curves like circle, parabola
-> geometrically. He wrote six other books all related to the basics of
-> modern day coordinate geometry.
+> Apollonius was born at Perga, in modern day Turkey. His greatest work > was called “conics” which introduced curves like circle, parabola > geometrically. He wrote six other books all related to the basics of > modern day coordinate geometry.
 >
 > His ideas were applied to study planetary theory and solve practical
 > problems. He developed the sundial and contributed to other
@@ -44,29 +41,12 @@ weight: 5
 
 # 5.1 Introduction
 
-> Coordinate geometry, also called Analytical geometry is a branch of
-> mathematics, in which curves in a plane are represented by algebraic
-> equations. For example, the equation *x* <sup>2</sup> +
-> *y*<sup>2</sup> = 1 , describes a circle of unit radius in the plane.
-> Thus coordinate geometry can be seen as a branch of mathematics which
-> interlinks algebra and geometry, where algebraic equations are
-> represented by geometric curves. This connection makes it possible to
-> reformulate problems in geometry to problems in algebra and vice
-> versa. Thus, in coordinate geometry, the algebraic equations have
-> visual representations thereby making our understanding much deeper.
-> For instance, the first degree equation in two variables *ax* + *by* +
-> *c* = 0 represents a straight line in a plane. Overall, coordinate
-> geometry is a tool to understand concepts visually and created new
-> branches of mathematics in modern times.
+> Coordinate geometry, also called Analytical geometry is a branch of > mathematics, in which curves in a plane are represented by algebraic > equations. For example, the equation *x* <sup>2</sup> + > *y*<sup>2</sup> = 1 , describes a circle of unit radius in the plane. > Thus coordinate geometry can be seen as a branch of mathematics which > interlinks algebra and geometry, where algebraic equations are > represented by geometric curves. This connection makes it possible to > reformulate problems in geometry to problems in algebra and vice > versa. Thus, in coordinate geometry, the algebraic equations have > visual representations thereby making our understanding much deeper. > For instance, the first degree equation in two variables *ax* + *by* + > *c* = 0 represents a straight line in a plane. Overall, coordinate > geometry is a tool to understand concepts visually and created new > branches of mathematics in modern times.
 >
 > 
 
 >
-> In the earlier classes, we initiated the study of coordinate geometry
-> where we studied about coordinate axes, coordinate plane, plotting of
-> points in a plane, distance between two points, section formulae, etc.
-> All these concepts form the basics of coordinate geometry. Let us now
-> recall some of the basic formulae.
+> In the earlier classes, we initiated the study of coordinate geometry > where we studied about coordinate axes, coordinate plane, plotting of > points in a plane, distance between two points, section formulae, etc. > All these concepts form the basics of coordinate geometry. Let us now > recall some of the basic formulae.
 >
 
 ## Distance between two points
@@ -74,10 +54,10 @@ weight: 5
 > Distance between two points *A*(*x*1,*y*1 ) and *B*(*x*2,*y*2 ) is
 >
 > B(*x*2*, y*2)
+![alt text](./media/image263.png)
 
-<img src="./media/image263.png" Style="float:right">
+![alt text](./media/image251.png)
 
-<img src="./media/image251.png">
 
 > Fig. 5.1
 
@@ -85,10 +65,12 @@ weight: 5
 
 > The mid-point *M*, of the line segment joining
 
-<img src="./media/image265.png" Style="float:right">
+![alt text](./media/image265.png)
 
-><img src="./media/image252.png">
 
+![alt text](./media/image252.png)
+
+>
 
 > 
 ## Section Formula
@@ -96,7 +78,7 @@ weight: 5
 >Let A(*x*<sub>1</sub>,*y*<sub>1</sub>)and B(*x*<sub>2</sub>,*y*<sub>2</sub>)be two distinct points such that point 
 P (x ,y) divides AB internally in the ratio m:n.
 
-><img src="./media/image254.png">
+![alt text](./media/image254.png)
 >
 > A(*x*<sub>1</sub>, y<sub>1</sub>) Fig. 5.3
 
@@ -104,14 +86,17 @@ P (x ,y) divides AB internally in the ratio m:n.
 >Let A(*x*<sub>1</sub>,*y*<sub>1</sub>)and B(*x*<sub>2</sub>,*y*<sub>2</sub>)be two distinct points such that point 
 P (x ,y) divides AB externally in the ratio m:n.
 
-<img src="./media/image264.png" Style="float:right">
-><img src="./media/image253.png">
+![alt text](./media/image264.png)
+
+![alt text](./media/image253.png)
+
 
 
 ## Centroid of a triangle
 >The coordinates of the centroidG of a triangle with vertices.
 
-><img src="./media/image255.png">
+![alt text](./media/image255.png)
+
 
 <table style="width:100%;">
 <colgroup>
@@ -207,7 +192,7 @@ corresponding height (altitude) are given. You have used
 the formula
 > Area of triangle= (1/2)× base × altitude sq.units.
 
-><img src="./media/image256.png" style="float:right">
+![alt text](./media/image256.png)
 
 > Fig. 5.6
 >With any three non-collinear points A (*x*<sub>1</sub>,*y*<sub>1</sub>), 
@@ -222,7 +207,8 @@ and then calculating its area will be a tedious procedure.
 using the coordinates of its vertices. We shall discuss 
 such a method below.
 
-><img src="./media/image257.png" style="float:right">
+![alt text](./media/image257.png)
+>
 
 >Let ABC be any triangle whose vertices are at A (*x*<sub>1</sub>,*y*<sub>1</sub>), 
 B(*x*<sub>2</sub>,*y*<sub>2</sub>) and C(*x*<sub>3</sub>,*y*<sub>3</sub>)
@@ -235,7 +221,8 @@ and C to the x-axis, respectively.
 >Area of ABC= Area of trapezium ABQP + Area of trapezium APRC − Area of trapezium BQRC.
 You also know that, the area of trapeziumS
 
-><img src="./media/image258.png">
+![alt text](./media/image258.png)
+
 
 >The vertices A (*x*<sub>1</sub>,*y*<sub>1</sub>), B(*x*<sub>2</sub>,*y*<sub>2</sub>) and C(*x*<sub>3</sub>,*y*<sub>3</sub>) of DABC are said to be “taken in order” 
 if A, B, C are taken in anticlockwise direction. If we do this, then area of DABC will 
@@ -244,7 +231,8 @@ never be negative
 >The following pictorial representation helps us to 
 write the above formula very easily.
 
-><img src="./media/image259.png">
+![alt text](./media/image259.png)
+
 
 # process Check
 
@@ -276,7 +264,8 @@ Therefore, three points A (*x*<sub>1</sub>,*y*<sub>1</sub>), B(*x*<sub>2</sub>,*
 line. Thus, three distinct points A (*x*<sub>1</sub>,*y*<sub>1</sub>), B(*x*<sub>2</sub>,*y*<sub>2</sub>) and C(*x*<sub>3</sub>,*y*<sub>3</sub>)  will be collinear if and 
 only if area of ∆ = ABC 0 .
 
-><img src="./media/image260.png" style="float:right">
+![alt text](./media/image260.png)
+
 
 
 # 5.3 Area of a Quadrilateral
@@ -299,13 +288,15 @@ vertices of a quadrilateral ABCD.
 >Now, Area of quadrilateral ABCD
 = Area of the DABD +Area of the DBCD (Fig 5.9)
 
-><img src="./media/image261.png" style="float:right">
+![alt text](./media/image261.png)
+
 
 >The following pictorial representation helps us to write the above formula very easily. 
 Take the vertices A (*x*<sub>1</sub>,*y*<sub>1</sub>), B(*x*<sub>2</sub>,*y*<sub>2</sub>), C(*x*<sub>3</sub>,*y*<sub>3</sub>) and D(*x*<sub>4</sub>,*y*<sub>4</sub>) in counter-clockwise direction 
 and write them column-wise as that of the area of a triangle
 
-><img src="./media/image262.png">
+![alt text](./media/image262.png)
+
 
 >
 **Thinking Corner**
@@ -321,15 +312,17 @@ and write them column-wise as that of the area of a triangle
 
 >Let the vertices be A(-3,5), B(5,-2), C(5,6)
 
-<img src="./media/image266.png" style="float:right">
+![alt text](./media/image266.png)
 
-><img src="./media/image267.png">
+![alt text](./media/image267.png)
+
 
 <b>Example 5.2</b> Show that the points P(-1.5,3), Q(6,-2), R(-3,4) are collinear.
 
 <b>Solution</b> The points are P(-1.5,3), Q(6,-2), R(-3,4)
 
-<img src="./media/image268.png">
+![alt text](./media/image268.png)
+
 
 Therefore, the given points are collinear.
 
@@ -340,14 +333,15 @@ C(7,4) (taken in order) is 22 sq. units, find the value of k.
 <b>Solution</b> The vertices are A(-1,2), B(k,-2) and C(7,4)
 Area of triangle ABC is 22 sq.units
 
-<img src="./media/image269.png">
+![alt text](./media/image269.png)
+
 
 <b>Example 5.4</b> If the points P(-1,-4), Q(b,c) and R(5,-1) are collinear and if 2b+c=4 , 
 then find the values of b and c
 
 <b>Solution</b> Since the three points P(-1,-4), Q(b,c) and R(5,-1) are collinear,
 
-<img src="./media/image270.png">
+![alt text](./media/image270.png)
 
 <b>Example 5.5</b> The floor of a hall is covered with identical tiles which are in the shapes of 
 triangles. One such triangle has the vertices at (-3,2), (-1,-1) and (1,2). If the floor of 
@@ -356,8 +350,9 @@ the hall is completely covered by 110 tiles, find the area of the floor.
 <b>Solution</b> Vertices of one triangular tile are at 
  (-3,2), (-1,-1) and (1,2)
 
-<img src="./media/image272.png" style="float:right">
-<img src="./media/image271.png">
+![alt text](./media/image272.png)
+![alt text](./media/image271.png)
+
 
 
 <b>Example 5.6</b> Find the area of the quadrilateral formed by the points (8,6), (5,11), (-5,12) and (-4,3).
@@ -366,12 +361,13 @@ the hall is completely covered by 110 tiles, find the area of the floor.
 Let the vertices be A(8,6), B(5,11), C(–5,12) and D(–4,3)
 Therefore, area of the quadrilateral ABCD
 
-<img src="./media/image274.png" style="float:right">
-<img src="./media/image273.png">
+![alt text](./media/image274.png)
+![alt text](./media/image273.png)
+
 
 # process Check
 
-<img src="./media/image275.png" style="float:right">
+![alt text](./media/image275.png)
 
 Given a quadrilateral ABCD with vertices A(–3,–8), B(6,–6), C(4,2), D(–8,2)
 
@@ -394,12 +390,13 @@ making the parking lot?
 <b>Solution</b> The parking lot is a quadrilateral whose vertices are at 
 A(2,2), B(5,5), C(4,9) and D(1,7).
 
+![alt text](./media/image277.png)
+![alt text](./media/image276.png)
 
-<img src="./media/image277.png" style="float:right">
-<img src="./media/image276.png">
 
 Activity 1
-<img src="./media/image278.png" style="float:right">
+![alt text](./media/image278.png)
+
 
 -    Take a graph sheet.
 
@@ -419,7 +416,7 @@ Activity 1
 
 Activity 2
 
-<img src="./media/image279.png"> Find the area of the shaded region
+![alt text](./media/image279.png) Find the area of the shaded region
 
 
 <h3>Exercise 5.1 </h3>
@@ -430,17 +427,19 @@ Activity 2
 
 2. Determine whether the sets of points are collinear?
 
-<img src="./media/image280.png">
+![alt text](./media/image280.png)
+
 
 3. Vertices of given triangles are taken in order and their areas are provided aside. In each case, find the value of ‘p ’.
+![alt text](./media/image281.png)
 
-<img src="./media/image281.png">
 
 4. In each of the following, find the value of ‘a’ for which the given points are collinear.
 
 >(i) (2, 3), (4, a) and (6, –3) (ii) (a, 2–2a), (–a+1, 2a) and (–4–a, 6–2a)
 
-<img src="./media/image283.png" style="float:right">
+![alt text](./media/image283.png)
+
 
 5. Find the area of the quadrilateral whose vertices are at
 
@@ -463,7 +462,8 @@ this with area of PQR .
 shown is surrounded by concrete patio. Find the 
 area of the patio
 
-<img src="./media/image282.png" style="float:right">
+![alt text](./media/image282.png)
+
 
 10. A triangular shaped glass with vertices at 
 A(-5,-4), B(1,6) and C(7,-4) has to be painted. If 
@@ -497,7 +497,8 @@ denoted by q .
 
 > While laying roads one must know how steep the road will 
 be.
-<img src="./media/image101.jpeg" style="float:right">
+![alt text](./media/image101.jpeg)
+
 > Similarly, when constructing a staircase, we should consider its
 > steepness. For the same reason, anyone travelling along a hill or a
 > bridge, feels hard compared to travelling along a plain road.
@@ -576,7 +577,8 @@ undefined.</th>
 </tr>
 </table>
 
-<img src="./media/image289.png" style="float:right">
+![alt text](./media/image289.png)
+
 <h3>Activity 3</h3>
 
 
