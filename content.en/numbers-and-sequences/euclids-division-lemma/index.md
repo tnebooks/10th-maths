@@ -1,9 +1,9 @@
 ---
 title: 'Euclids Division Lemma'
-weight: 1
+weight: 2
 ---
 
-## Euclid’s Division Lemma
+# Euclid’s Division Lemma
 
 Euclid, one of the most important mathematicians wrote an important book named “Elements” in 13 volumes. The first six volumes were devoted to Geometry and for this reason, Euclid is called the **“Father of Geometry”**. But in the next few volumes, he made fundamental contributions to understand the properties of numbers. One among them is the “Euclid’s Divison Lemma”. This is a simplified version of the long division process that you were performing for division of numbers in earlier classes.
 
@@ -56,19 +56,15 @@ Euclid’s Division Lemma can be generalised to any two integers.
 If \(a\) and \(b\) are any two integers, then there exist unique integers \(q\) and \(r\) such that \[a = bq + r\] where \(0 \leq r < |b|\).
 
 
-<img src="thinking.png" alt="image" style="float:right;"/>
+<img src="thinking.png" alt="image" style="float:right; margin-right:10px;"/>
 
 **Example 2.2**  Find the quotient and remainder when a is divided by b in the following cases (i) a = −12 , b = 5 (ii) a = 17 , b = −3 (iii) a = −19 , b = −4
-
 *Solutions*
-(i) a = −12 , b = 5
-
-        By Euclid’s division lemma
-
-        a = bq + r , where 0 ≤ r < |b|− 12 = 5 × ( − 3 ) + 3   0 ≤ r < |5|
-
-        Therefore, Quotient q = −3, Remainder r = 3
-    (ii) 
+(i). a = −12 , b = 5
+By Euclid’s division lemma
+a = bq + r , where 0 ≤ r < |b|− 12 = 5 × ( − 3 ) + 3   0 ≤ r < |5|
+Therefore, Quotient q = −3, Remainder r = 3
+(ii.)
         a = 17 b = −3
 
         By Euclid’s division lemma
@@ -102,14 +98,7 @@ Show that the square of an odd integer is of the form 4 q + 1 , for some integer
 Let x be any odd integer. Since any odd integer is one more than an even integer,
 we have x = 2 k + 1 , for some integers k .
                    
-x<sup>2</sup> = (2k+1)<sup>2</sup>
-              = 4k<sup>2</sup>+4k+1
-              = 4k(k+1)+1
+x<sup>2</sup> = (2k+1)<sup>2</sup><br>
+              = 4k<sup>2</sup>+4k+1<br>
+              = 4k(k+1)+1<br>
               = = 4q + 1 , where q = k ( k + 1 ) is some integer.
-
-
-
-            
-
-
-

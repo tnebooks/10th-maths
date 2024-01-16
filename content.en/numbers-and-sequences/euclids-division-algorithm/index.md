@@ -1,8 +1,8 @@
 ---
 title: 'Euclids Division Algorithm'
-weight: 2
+weight: 3
 ---
-## Euclid’s Division Algorithm
+# Euclid’s Division Algorithm
 In the previous section, we have studied about Euclid’s division lemma and its applications. We now study the concept Euclid’s Division Algorithm. The word         ‘algorithm’ comes from the name of 9 th century Persian Mathematician Al-khwarizmi. An algorithm means a series of methodical step-by-step procedure of calculating successively on the results of earlier steps till the desired answer is obtained.
 
 Euclid’s division algorithm provides an easier way to compute the Highest Common Factor (HCF) of two given positive integers. Let us now prove the following theorem.
@@ -203,28 +203,3 @@ case.
 8. If d is the Highest Common Factor of 32 and 60 , find x and y satisfying d = 32 x + 60 y .
 9. A positive integer when divided by 88 gives the remainder 61 . What will be the remainder when the same number is divided by 11 ?
 10. Prove that two consecutive positive integers are always coprime.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
