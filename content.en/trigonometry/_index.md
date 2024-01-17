@@ -2,6 +2,7 @@
 title: 'Trigonometry'
 weight: 6
 ---
+{{< katex display >}}{{< /katex >}}
 ```
 TRIGONOMETRY
 “The deep study of nature is the most fruitful source of 

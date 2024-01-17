@@ -2,6 +2,7 @@
 title: 'Mensuration'
 weight: 7
 ---
+{{< katex display >}}{{< /katex >}}
 
 # Mensuration
 
@@ -24,10 +25,10 @@ modern Engineering Science.
 
 ![Figure with 50%](learn.png "w-50 float-end")
 
-## Introduction
+ ## Introduction
 
 The ancient cultures throughout the world sought the idea of measurements for 
-<!-- satisfying their daily needs. <img src="img2.png" alt="pappus" style="float:right; margin-right:10px;" height=350px; width=400px;/> -->
+ satisfying their daily needs.<!-- <img src="img2.png" alt="pappus" style="float:right; margin-right:10px;" height=350px; width=400px;/> -->
 ![Figure with 50%](img2.png "w-50 float-end")
 For 
 example, they had to know how 
@@ -61,7 +62,7 @@ objects measurements like surface area and volume exist.
 
 In this chapter, we shall study about the surface area and volume 
 of some of the standard solid shapes such as cylinder, cone, sphere, 
-hemisphere and frustum.
+hemisphere and frustum. -->
 
 
 
@@ -968,7 +969,7 @@ Therefore, volume of iron used = 9702 cm3
 (iii) find the ratios of the volumes of the cylinders A and B.
 
 **Solution** 
-
+![Figure with 50%](fig7.27.png "w-50 float-end")
 (i) Volume of cylinder = &#960;r^2h cu. units
 
 Volume of cylinder A= 22/7 x 7/2 x 7/2 x 21

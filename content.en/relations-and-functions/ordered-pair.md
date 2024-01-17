@@ -1,7 +1,8 @@
 ---
 title: 'Ordered Pair'
-weight: 1
+weight: 2
 ---
+{{< katex display >}}{{< /katex >}}
 
 #  Ordered Pair
 
@@ -10,7 +11,7 @@ Observe the seating plan in an auditorium (Fig.1.1). To help orderly occupation 
 
 
 This is one example where a pair of numbers, written in a particular order, precisely indicates a location. Such a number pair is called an ordered pair of numbers. This notion is skillfully used to mathematize the concept of a “Relation”.
-![alt text](qr2.png)
+
 
  
     

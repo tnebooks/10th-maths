@@ -2,6 +2,7 @@
 title: 'Introduction'
 weight: 1
 ---
+{{< katex display >}}{{< /katex >}}
 # Geometry
 ## Introduction
 
