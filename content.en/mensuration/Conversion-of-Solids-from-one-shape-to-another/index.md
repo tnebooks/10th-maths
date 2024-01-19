@@ -1,7 +1,8 @@
 ---
 title: 'Conversion of Solids from one shape to another with no change in Volume'
-weight: 5
+weight: 4
 ---
+{{< katex display >}}{{< /katex >}}
 
 # Conversion of Solids from one shape to another with no change in Volume
 
@@ -25,9 +26,9 @@ Here, R = 16 cm, r = 2 cm
 
 Now, n x (Volume of a small sphere) = Volume of big metallic sphere
 
- n (4/3 &#960; $r^{3}$) =  4/3 &#960; $R^{3}$
+ n (\\(\frac{4}{3}  \pi  r^{3}) =  \frac{4}{3}  \pi  R^{3}\\)
 
-n(4/3 &#960; x $2^{3}$)= 4/3 &#960; x $16^{3}$
+n(\\(\frac{4}{3} \pi  x 2^{3})= \frac{4}{3}  \pi  x 16^{3}\\)
 
  8 n= 4096  ⇒ n = 512
 
@@ -45,10 +46,10 @@ Given that, height of the cone h1 = 24 cm; radius of the cone and cylinder r = 6
 
 Since, Volume of cylinder = Volume of cone
 
- &#960; $r^{2}$ h2= 1/3 &#960; $r^{2}$ h1
+  \\(\pi  r^{2} h2= \frac{1}{3}  \pi  r^{2}\\) h1
  
- h2 = 1/3 x h1 ⇒ h2
-1/3 × 24 = 8
+ h2 =\\(\frac{1}{3}\\)  x h1 ⇒ h2 =
+\\(\frac{1}{3}\\) × 24 = 8
 
 Therefore, height of cylinder is 8 cm
 
@@ -64,9 +65,9 @@ cm, having a hemispherical cap. Find the number of cones needed to empty the con
  ---
 
 
- Volume of the container V = &#960;$r^{2}$ h cubic units.
+ Volume of the container V =  \\(\pi r^{2}\\) h cubic units.
 
- = 22/7 x 6 x 6 x 15
+ = \\(\frac{22}{7}\\) x 6 x 6 x 15
 
 Let, r1 = 3 cm, h1 = 9 cm be the radius and height of the cone. 
 
@@ -74,18 +75,16 @@ Also, r1 = 3 cm is the radius of the hemispherical cap.
 
 Volume of one ice cream cone =(Volume of the cone + Volume of the hemispherical cap)
 
- = 1/3 &#960; $r1^{2}$ h1 + 2/3 &#960; $r1^{3}$
+ = \\(\frac{1}{3}  \pi  r1^{2} h1 + \frac{2}{3}  \pi  r1^{3}\\)
 
- =1/3 x 22/7 x 3 x 3 x 9 + 2/3 x 22/7 x 3 x 3 x 3
+ =\\(\frac{1}{3} x \frac{22}{7} x 3 x 3 x 9 +\frac{2}{3} x \frac{22}{7}\\) x 3 x 3 x 3
 
- = 22/7 x 9(3 + 2) = 22/7 x 45
+ = \\(\frac{22}{7} x 9(3 + 2) = \frac{22}{7}\\) x 45
 
- Number of cones =   volume of the cylinder /
-volume of one ice cream cone
+ Number of cones =\\( \frac{volume of the cylinder }{volume of one ice cream cone }\\)
 
-Number of ice cream cones needed=
-22/7 x 6 x 6 x 15
-/ 22/7 x 45    = 12
+Number of ice cream cones needed=\\(\frac{
+\frac{22}{7} x 6 x 6 x 15}{\frac{22}{7} x 45}  \\)  = 12
 
 Thus 12 ice cream cones are required to empty the cylindrical container.
 
@@ -136,63 +135,83 @@ from the bowl into the cylindrical vessel.
 1. The curved surface area of a right circular cone of height 15 cm and 
 base diameter 16 cm is
 
-(A) 60p $cm^{2}$ (B) 68p $cm^{2}$ (C) 120p $cm^{2}$ (D) 136p $cm^{2}$
+(A)\\(60 \pi \\) \\(cm^{2} (B) 68\pi cm^{2} (C) 120\pi cm^{2} (D) 136\pi cm^{2}\\)
 
 2. If two solid hemispheres of same base radius r units are joined together along their 
 bases, then curved surface area of this new solid is
 
-(A) 4&#960;$r^{2}$ sq. units (B) 6&#960;$r^{2}$ sq. units (C) 3&#960;$r^{2}$ sq. units (D) 8&#960;$r^{2}$ sq. units
+(A) 4 \\(\pi r^{2} sq. units (B) 6 \pi r^{2} sq. units (C) 3 \pi r^{2} sq. units (D) 8 \pi r^{2}\\) sq. units
 
 3. The height of a right circular cone whose radius is 5 cm and slant height is 13 cm will be
+
 (A) 12 cm (B) 10 cm (C) 13 cm (D) 5 cm
 
 4. If the radius of the base of a right circular cylinder is halved keeping the same height, 
 then the ratio of the volume of the cylinder thus obtained to the volume of original 
 cylinder is
+
 (A) 1:2 (B) 1:4 (C) 1:6 (D) 1:8
 
 5. The total surface area of a cylinder whose radius is 1
 3 of its height is
 (A)
-9&#960;$h^{2}$ / 8 sq.units (B) 24 &#960;$h^{2}$ sq.units (C)
-8&#960;$h^{2}$ / 9 sq.units (D) 56&#960;$h^{2}$ / 9 sq.units
+ \\(\frac{9 \pi h^{2}}{8} sq.units (B) 24  \pi h^{2}\\) sq.units (C)
+ \\(\frac{8 \pi h^{2}}{9} \\) sq.units (D) \\(\frac{56 \pi h^{2}}{9} \\) sq.units
 
 6. In a hollow cylinder, the sum of the external and internal radii is 14 cm and the 
 width is 4 cm. If its height is 20 cm, the volume of the material in it is 
-(A) 5600&#960; $cm^{3}$ (B) 1120&#960; $cm^{3}$ (C) 56&#960; $cm^{3}$ (D) 3600&#960; $cm^{3}$
+
+(A) 5600 \\(\pi  cm^{3} (B) 1120 \pi  cm^{3} (C) 56 \pi  cm^{3} (D) 3600 \pi  cm^{3}\\)
 
 
 ---
 
 7. If the radius of the base of a cone is tripled and the height is doubled then the volume is
+
 (A) made 6 times (B) made 18 times (C) made 12 times (D) unchanged
+
 8. The total surface area of a hemi-sphere is how much times the square of its radius.
-(A) &#960; (B) 4&#960; (C) 3&#960; (D) 2&#960;
+
+(A)  \\(\pi  (B) 4\pi  (C) 3\pi  (D) 2\pi\\) 
+
 9. A solid sphere of radius x cm is melted and cast into a shape of a solid cone of same 
 radius. The height of the cone is 
+
 (A) 3x cm (B) x cm (C)4x cm (D)2x cm
+
 10. A frustum of a right circular cone is of height 16cm with radii of its ends as 8cm and 
 20cm. Then, the volume of the frustum is 
-(A) 3328&#960; $cm^{3}$ (B) 3228&#960; $cm^{3}$ (C) 3240&#960; $cm^{3}$ (D) 3340&#960; $cm^{3}$
+
+(A) 3328 \\(\pi  cm^{3} (B) 3228 \pi  cm^{3} (C) 3240 \pi  cm^{3} (D) 3340 \pi  cm^{3}\\)
+
 11. A shuttle cock used for playing badminton has the shape of the combination of 
+
 (A) a cylinder and a sphere (B) a hemisphere and a cone
 (C) a sphere and a cone (D) frustum of a cone and a hemisphere
+
 12. A spherical ball of radius r
 1 units is melted to make 8 new identical balls each of 
-radius r2 units. Then r r 1 2 : is
+radius r2 units. Then r1 : r2 is
+
 (A) 2:1 (B) 1:2 (C) 4:1 (D) 1:4
+
 13. The volume (in cm3) of the greatest sphere that can be cut off from a cylindrical log 
 of wood of base radius 1 cm and height 5 cm is 
-(A) 4/3&#960; (B)
-10/3&#960; (C) 5&#960; (D)
-20/3&#960;
+
+(A) \\(\frac{4}{3} \pi\\)  (B)
+\\(\frac{10}{3} \pi  (C) 5 \pi\\)  (D)
+\\(\frac{20}{3} \pi\\) 
+
 14. The height and radius of the cone of which the frustum is a part are h1 units and r
 1
 units respectively. Height of the frustum is h2 units and radius of the smaller base is 
-r2 units. If h h 2 1 : : = 1 2 then r r 2 1 : is 
-(A) 1 3: (B) 1 2: (C) 2 1: (D) 3 1:
+r2 units. If h2:h1 = 1 :2 then r2:r1  is 
+
+(A) 1 :3 (B) 1 :2 (C) 2: 1 (D) 3 :1
+
 15. The ratio of the volumes of a cylinder, a cone and a sphere, if each has the same 
 diameter and same height is
+
 (A) 1:2:3 (B) 2:1:3 (C) 1:3:2 (D) 3:1:2
 
 
@@ -224,11 +243,11 @@ Find the diameter of solid cylinder.
 7. The slant height of a frustum of a cone is 4 m and the perimeter of circular ends are 
 18 m and 16 m. Find the cost of painting its curved surface area at Rs100 per sq. m.
 
-8. A hemi-spherical hollow bowl has material of volume 436&#960;/3 cubic cm. Its external 
+8. A hemi-spherical hollow bowl has material of volume \\(\frac{436\pi}{3}\\) cubic cm. Its external 
 diameter is 14 cm. Find its thickness.
 
-9. The volume of a cone is 1005 5/7
- cu. cm. The area of its base is 201 1/7
+9. The volume of a cone is 1005 \\(\frac{5}{7}\\)
+ cu. cm. The area of its base is \\(201 \frac{1}{7}\\)
  sq. cm. Find the 
 slant height of the cone.
 
@@ -238,3 +257,8 @@ the volume of the cone formed.
 
 
 
+![Points to remember](points.png "w-50 ")
+
+![Points](points-2.png "w-50 ")
+
+![ICT CORNER](last.png "w-50 ")

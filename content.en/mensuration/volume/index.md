@@ -1,7 +1,9 @@
 ---
 title: 'Volume'
-weight: 3
+weight: 2
 ---
+[comment]: <> (katex Header)
+{{< katex display >}}{{< /katex >}}
 
 # Volume
 
@@ -17,10 +19,10 @@ The volume is measured in cubic units.
 
 
 The volume of a right circular cylinder of base radius ‘r’ and height ‘h’ 
-is given by V = (Base Area) × (Height) =&#960;$r^{2}$ x h  = &#960;$r^{2}$h cubic units.
+is given by V = (Base Area) × (Height) = \\(\pi\\) \\(r^{2}\\) x h  =  \\(\pi\\) \\(r^{2}\\)h cubic units.
 
 
-Therefore, Volume of a cylinder = &#960;$r^{2}$ h cu. units
+Therefore, Volume of a cylinder =  \\(\pi r^{2}\\) h cu. units
 
 
 ---
@@ -36,23 +38,23 @@ outer cylinder) - (
 volume of the 
 inner cylinder)
  
- V = &#960;$R^{2}$ h - &#960;$r^{2}$ h = &#960;($R^{2}$ - $r^{2}$)h
+ V =  \\(\pi R^{2} h -  \pi r^{2} h =  \pi (R^{2} - r^{2}\\))h
 
-Volume of a hollow cylinder =&#960;($R^{2}$ - $r^{2}$)h  cu. units.
+Volume of a hollow cylinder = \\(\pi (R^{2} - r^{2}\\))h  cu. units.
 
 
 **Example 7.15**   Find the volume of a cylinder whose height is 2 m and whose base area 
-is 250 m2.
+is 250 \\(m^{2}\\).
 
 **Solution**   Let r and h be the radius and height of the cylinder respectively.
 
- Given that, height h = 2 m, base area = 250 m2 
+ Given that, height h = 2 m, base area = 250 \\(m^{2}\\) 
 
-Now, volume of a cylinder = &#960;$r^{2}$ h cu. units
+Now, volume of a cylinder =  \\(\pi r^{2}\\) h cu. units
  =  base area x h
- =  250 x 2 = 500 m3 
+ =  250 x 2 = 500 \\(m^{3}\\) 
 
-Therefore, volume of the cylinder = 500 $m^{3}$ 
+Therefore, volume of the cylinder = 500 \\(m^{3}\\) 
 
 
 
@@ -70,13 +72,13 @@ of the tank is 7 m, find its height.
 
 **Solution**   Let r and h be the radius and height of the cylinder respectively.
 
-Given that, volume of the tank = 1.078 x $10^{6}$ = 1078000 litre
- = 1078 m3 ( 1l = 1/1000 $m^{3}$)
+Given that, volume of the tank = 1.078 x \\(10^{6}\\) = 1078000 litre
+ = 1078 \\(m^{3} ( 1l =\frac{1}{1000} m^{3}\\))
 
- diameter = 7m  => radius = 7/2 m
+ diameter = 7m  => radius =\\(\frac{7}{2}\\) m
 
- volume of the tank = &#960;$r^{2}$ h cu. units
- 1078 = 22/7 x 7/2 x 7/2 x h
+ volume of the tank =  \\(\pi r^{2}\\) h cu. units
+ 1078 = \\(\frac{22}{7} x \frac{7}{2} x \frac{7}{2} x h \\)
 
 
 Therefore, height of the tank is 28 m
@@ -92,51 +94,51 @@ cylinder respectively.
 
 Given that, r =21cm, R = 28 cm, h = 9 cm
 
- Now, volume of hollow cylinder = &#960;($R^{2}$ - $r^{2}$)h cu. units
+ Now, volume of hollow cylinder =  \\(\pi (R^{2} - r^{2}\\))h cu. units
 
- = 22/7 ($28^{2}$ - $21 ^{2}$) x 9
+ = \\(\frac{22}{7} (28^{2} - 21 ^{2}\\)) x 9
 
- = 22/7 (784 - 441) x 9
+ = \\(\frac{22}{7}\\) (784 - 441) x 9
   = 9702
 
-Therefore, volume of iron used = 9702 $cm^{3}$
+Therefore, volume of iron used = 9702 \\(cm^{3}\\)
 
 
 
 
 **Example 7.18**   For the cylinders A and B (Fig. 7.27), 
-(i) find out the cylinder whose volume is greater.
-(ii) verify whether the cylinder with greater volume has greater total surface area.
-(iii) find the ratios of the volumes of the cylinders A and B.
+1. find out the cylinder whose volume is greater.
+2. verify whether the cylinder with greater volume has greater total surface area.
+3. find the ratios of the volumes of the cylinders A and B.
 
 **Solution** 
 ![Figure with 50%](fig7.27.png "w-50 float-end")
-(i) Volume of cylinder = &#960;$r^{2}$h cu. units
+1. Volume of cylinder =  \\(\pi r^{2}\\)h cu. units
 
-Volume of cylinder A= 22/7 x 7/2 x 7/2 x 21
+Volume of cylinder A= \\(\frac{22}{7} x \frac{7}{2} x \frac{7}{2} x 21 \\)
 
- = 808.5 $cm^{3}$
+ = 808.5 \\(cm^{3}\\)
 
-Volume of cylinder B= 22/7 x 21/2 x 21/2 x 7
+Volume of cylinder B= \\(\frac{22}{7} x \frac{21}{2} x \frac{21}{2} x 7 \\)
 
-= 2425.5 $cm^{3}$
+= 2425.5 \\(cm^{3}\\)
 
 Therefore, volume of cylinder B is greater 
 than volume of cylinder A.
 
 
-(ii) T.S.A. of cylinder = 2&#960;r(h + r) sq. units
+2. T.S.A. of cylinder = 2 \\(\pi\\) r(h + r) sq. units
 
- T.S.A. of cylinder A = 2 x 22/7 x 7/2 x (21 + 3.5)= 539 $cm^{2}$
+ T.S.A. of cylinder A = 2 x \\(\frac{22}{7} x \frac{7}{2} x (21 + 3.5)= 539 cm^{2}\\)
 
- T.S.A. of cylinder B = 2 x 22/7 x 21/2 x (7 + 10.5) = 1155 $cm^{2}$
+ T.S.A. of cylinder B = 2 x \\(\frac{22}{7} x \frac{21}{2} x (7 + 10.5) = 1155 cm^{2}\\)
 
 Hence verified that cylinder B with greater volume has a greater surface area.
 
 
-(iii) Volume of cylinder A /
-Volume of cylinder
- = 808.5 / 2425.5 = 1/3
+3. \\(\frac{Volume of cylinder A}{
+Volume of cylinder}
+ = \frac{808.5}{2425.5} =\frac{1}{3} \\)
 
 
 Therefore, ratio of the volumes of cylinders A and B is 1:3.
@@ -147,31 +149,33 @@ Therefore, ratio of the volumes of cylinders A and B is 1:3.
 
 
 Let r and h be the radius and height of a cone then its volume 
- V  = 1/3 &#960;$r^{2}$ h cu. units.
+ V  =\\(\frac{1}{3} \pi r^{2}\\) h cu. units.
 
  <!-- <img src="fig7.28.png" alt="demonstration" style=" margin-right:10px;" /> -->
  ![Figure with 50%](fig7.28.png "w-50 float-end")
 
 
  From, Fig.7.28 we see that,
+
  3× (Volume of a cone) = Volume of cylinder
- = &#960;$r^{2}$ h  cu. units
+ =  \\(\pi r^{2}\\) h  cu. units
 
-Volume of a cone = 1/3&#960;$r^{2}$ h cu. units
+Volume of a cone =\\(\frac{1}{3} \pi r^{2}\\) h cu. units
 
 
 
-**Example 7.19**  The volume of a solid right circular cone is 11088 $cm^{3}$. If its height is 24 cm 
+**Example 7.19**  The volume of a solid right circular cone is 11088 \\(cm^{3}\\). If its height is 24 cm 
 then find the radius of the cone.
 
 **Solution**   Let r and h be the radius and height of the cone respectively.
 
- Given that, volume of the cone =11088 $cm^{3}$ 
+ Given that, volume of the cone =11088 \\(cm^{3}\\) 
 
-1/3&#960;$r^{2}$h = 11088
-1/3 x 22/7 x $r^{2}$ x 24 = 11088
+\\(\frac{1}{3} \pi r^{2}\\)h = 11088
 
-$r^{2}$ = 441
+\\(\frac{1}{3} x \frac{22}{7} x r^{2}\\) x 24 = 11088
+
+\\(r^{2}\\) = 441
 
 Therefore, radius of the cone r = 21 cm
 
@@ -197,16 +201,17 @@ the height of second cone is double the height of the first.
 radius and height of the cone-II.
 
 Given that, h2 = 2h1  and 
-(Volume of the cone I) / (Volume of the cone II)
-= 2/3
-1/3 &#960;$r1^{2}$ h1 / 1/3 &#960; $r2^{2}$ h2 = 2/3
+\\(\frac{Volume of the cone I}{ Volume of the cone II}\\)
+=\\(\frac{2}{3}\\)
 
- ⇒ $r1^{2}$ / $r2^{2}$ x h1 / 2h1 = 2/3
+\\(\frac{\frac{1}{3}  \pi r1^{2} h1}{ \frac{1}{3} \pi  r2^{2} h2} = \frac{2}{3}\\)
 
-$r1^{2}$ / $r2^{2}$ = 4 / 3 ⇒ r1 / r2 = 2/ $ \sqrt{3}$
+ ⇒ \\(\frac{r1^{2} }{ r2^{2}} x \frac{h1}{2h1} = \frac{2}{3}\\)
+
+\\(\frac{r1^{2}}{ r2^{2}} = \frac{4}{3} ⇒ \frac{r1}{r2} =\frac{2}{ \sqrt{3}}\\)
 
 
- Therefore, ratio of their radii = 2 : $ \sqrt{3}$
+ Therefore, ratio of their radii = 2 : \\( \sqrt{3}\\)
 
 
 **Progress Check**
@@ -217,20 +222,20 @@ original volume.
 3. Consider the cones given in Fig.7.29
  <!-- <img src="fig7.29.png" alt="fig7.29" style="float:right; margin-right:10px;" /> -->
  ![Figure with 50%](fig7.29.png "w-50 float-end")
-(i) Without doing any calculation, 
+1. Without doing any calculation, 
 find out whose volume is 
 greater?
-(ii) Verify whether the cone with 
+2. Verify whether the cone with 
 greater volume has greater 
 surface area.
-(iii) Volume of cone A : Volume of cone B =?
+3. Volume of cone A : Volume of cone B =?
 
 
 
 ### Volume of sphere 
 
 
-Let r be the radius of a sphere then its volume is given by V  = 4/3&#960;$r^{3}$ cu. units.
+Let r be the radius of a sphere then its volume is given by V  = \\(\frac{4}{3} \pi r^{3}\\) cu. units.
  
  <!-- <img src="fig7.30.png" alt="demonstration 7.30" style="margin-right:10px;" /> -->
  ![Figure with 50%](fig7.30.png "w-50 float-end")
@@ -243,25 +248,25 @@ Let r be the radius of a sphere then its volume is given by V  = 4/3&#960;$r^{3}
  Volume of a sphere = 2 × (Volume of a cone)
 where the diameters of sphere and cone are equal 
 to the height of the cone.
- =2 (1/3&#960;$r^{2}$ h)
 
- = 2/3&#960;$r^{2}$(2r),
-( h  = 2 r)
+ =\\(2 (\frac{1}{3} \pi r^{2}\\) h)
 
- Volume of a sphere = 4/3&#960;$r^{3}$ cu. units
+ = \\(\frac{2}{3} \pi r^{2}\\)(2r), ( h = 2 r )
+
+ Volume of a sphere =\\(\frac{4}{3} \pi r^{3}\\) cu. units
 
 
-### 7.3.5 Volume of a hollow sphere / spherical shell (volume of the material used)
+### Volume of a hollow sphere / spherical shell (volume of the material used)
 <!-- <img src="fig7.31.png" alt="fig" style="float:right; margin-right:10px;" /> -->
 ![Figure with 50%](fig7.31.png "w-50 float-end")
 
 Let r and R be the inner and outer radius of the hollow sphere.
 
 Volume enclosed between the outer and inner spheres
- = 4/3&#960;$R^{3}$ - 4/3&#960;$r^{3}$
+ =\\( \frac{4}{3} \pi R^{3}\\) - \\( \frac{4}{3} \pi r^{3}\\)
 
 
-Volume of a hollow sphere =  4/3&#960;($R^{3}$ - $r^{3}$) cu. units
+Volume of a hollow sphere =\\(\frac{4}{3} \pi (R^{3} - r^{3}\\)) cu. units
 
 
 
@@ -272,10 +277,10 @@ Volume of a hollow sphere =  4/3&#960;($R^{3}$ - $r^{3}$) cu. units
 
 Let r be the radius of the solid hemisphere.
 
-Volume of the solid hemisphere = 1/2 (volume of sphere)
- = 1/2(4/3&#960;$r^{3}$)
+Volume of the solid hemisphere =\\(\frac{1}{2}\\) (volume of sphere)
+ =\\(\frac{1}{2}(\frac{4}{3} \pi r^{3}\\))
 
-Volume of a solid hemisphere = 2/3 &#960;$r^{3}$  cu. units
+Volume of a solid hemisphere =\\(\frac{2}{3} \pi r^{3}\\)  cu. units
 
 
 ### Volume of hollow hemisphere (volume of the material used)
@@ -290,9 +295,9 @@ hemisphere = (Volume of outer
 hemisphere) −(Volume of inner
 hemisphere)
 
- = 2/3 &#960;$R^{3}$ - 2/3 &#960;$r^{3}$
+ =\\(\frac{2}{3} \pi R^{3} - \frac{2}{3}  \pi r^{3}\\)
 
-Volume of a hollow hemisphere = 2/3 &#960;($R^{3}$ - $r^{3}$) cu. units
+Volume of a hollow hemisphere =\\(\frac{2}{3}  \pi(R^{3} - r^{3}\\)) cu. units
 
 
 **Thinking Corner**
@@ -306,26 +311,26 @@ cylinder are equal and are same as the common radius. Are they equal in volume?
 ---
 
 
-**Example 7.21**  The volume of a solid hemisphere is 29106 $cm^{3}$. Another hemisphere whose 
+**Example 7.21**  The volume of a solid hemisphere is 29106 \\(cm^{3}\\). Another hemisphere whose 
 volume is two-third of the above is carved out. Find the radius of the new hemisphere.
 
 **Solution**   Let r be the radius of the hemisphere.
 
-Given that, volume of the hemisphere = 29106 $cm^{3}$ 
+Given that, volume of the hemisphere = 29106 \\(cm^{3}\\) 
 
- Now, volume of new hemisphere = 2/3
+ Now, volume of new hemisphere =\\(\frac{2}{3}\\)
 (Volume of original sphere)
 
- = 2/3 x 29106
+ = \\(\frac{2}{3}\\) x 29106
 
- Volume of new hemisphere = 19404 $cm^{3}$ 
+ Volume of new hemisphere = 19404 \\(cm^{3}\\) 
 
- 2/3&#960;$r^{3}$ = 19404
+ \\(\frac{2}{3} \pi r^{3}\\) = 19404
 
- $r^{3}$ = (19404 x 3 x 7) / (2 x 22)
+ \\(r^{3} = \frac{(19404 x 3 x 7)}{ (2 x 22)} \\)
  = 9261
 
- r =$3 \sqrt{9261}$  = 21 cm
+ r =\\( \sqrt[3]{9261}\\)  = 21 cm
 
 Therefore, r = 21 cm
 
@@ -340,20 +345,21 @@ of the sphere is ________.
 
 
 **Example 7.22**   Calculate the mass of a hollow brass sphere if the inner diameter is 14 cm 
-and thickness is 1mm, and whose density is 17.3 g/ $cm^{3}$. (Hint: mass = density × volume)
+and thickness is 1mm, and whose density is 17.3 g/ \\(cm^{3}\\). (Hint: mass = density × volume)
 
 
 **Solution**   Let r and R be the inner and outer radii of the hollow sphere.
 
-Given that, inner diameter d =14 cm; inner radius r = 7 cm; thickness = 1 mm = 1/10cm
+Given that, inner diameter d =14 cm; inner radius r = 7 cm; thickness = 1 mm = \\(\frac{1}{10}\\)cm
 
- Outer radius R = 7+1/10 = = 71/10 = 7.1 cm
+ Outer radius R =\\( 7+\frac{1}{10}  =\frac{71}{10} = 7.1 cm \\)
 
- Volume of hollow sphere = 4/3&#960;($R^{3}$ - $r^{3}$) cu. units
- = 4/3 x 22/7(357.91 - 343 )
-  = 62.48 $cm^{3}$ 
+ Volume of hollow sphere = \\(\frac{4}{3} \pi (R^{3} - r^{3}\\)) cu. units
 
-But, density of brass in 1 $cm^{3}$ = 17.3 gm
+ =\\(\frac{4}{3} x \frac{22}{7}\\)(357.91 - 343 )
+  = 62.48 \\(cm^{3}\\) 
+
+But, density of brass in 1 \\(cm^{3}\\) = 17.3 gm
 
 Total mass = 17.3 x 62.48 = 1080.90 gm
 
@@ -379,24 +385,24 @@ If R, r are the radii of the circular bases of the frustum,
 then volume of the frustum of the cone is the difference of the 
 volumes of the two cones. 
 
- V  = 1/3&#960;$r^{2}$ H - 1/3&#960;(H-h)
+ V  =\\(\frac{1}{3} \pi R^{2} H - \frac{1}{3} \pi r^{2}\\) (H-h)
 
 Since the triangles ABC and ADE are similar, the ratio of their corresponding sides 
 are proportional.
 
-Therefore, H-h / H = ⇒
-r / R ⇒ H = hR /R-r …(1)
+Therefore,\\( \frac{H-h}{H}  = \frac{r}{R} ⇒ H = \frac{hR}{R-r} \\) …(1)
 <!-- <img src="thinking.png" alt="thinking" style="float:right; margin-right:10px;" /> -->
 ![Figure with 50%](thinking.png "w-50 float-end")
- V = 1/3&#960; $r^{2}$ H - 1/3&#960;(H-h)
- =&#960;H( $R^{2}$ - $r^{2}$) + 1/3&#960; $r^{2}$ h
+ V =\\(\frac{1}{3} \pi  r^{2} H - \frac{1}{3} \pi r^{2}\\) (H-h)
+ 
+ = \\(\pi H( R^{2} - r^{2}) + \frac{1}{3} \pi  r^{2}\\) h
 
- =&#960;/3 (hR/ R-r) ( $R^{2}$ - $r^{2}$) + &#960;$r^{2}$ h      [using (1)]
+ = \\(\frac{\pi}{3} \frac{hR}{R-r} ( R^{2} - r^{2}) + \frac{\pi}{3} r^{2}\\) h      [using (1)]
 
- =&#960;/3 hR (R+r)+&#960;/3 $r^{2}$ h
+ = \\(\frac{\pi}{3} hR (R+r)+ \frac{\pi}{3} r^{2}\\) h
  
 
-Volume of a frustum = &#960;h/3($r^{2}$+Rr+$r^{2}$) cu. units
+Volume of a frustum =  \\(\frac{\pi h}{3}(R^{2}+Rr+r^{2}\\)) cu. units
 
 
 **Example 7.23** If the radii of the circular ends of a frustum which is 45 cm high are 28 cm 
@@ -407,12 +413,13 @@ and 7 cm, find the volume of the frustum.
 
 Given that, h = 45 cm, R = 28 cm, r = 7 cm
 
-Volume = &#960;1/3($r^{2}$+Rr+$r^{2}$)h cu. units
- = 1/3 x 22/7 x [$28^{2}$ + (28 x 7)+ $7^{2}$] x 45
+Volume =  \\(\frac{1}{3} \pi (R^{2}+Rr+r^{2}\\))h cu. units
 
-=1/3 x 22/7 x 1029 x 45 = 48510
+ =\\( \frac{1}{3} x \frac{22}{7} x [28^{2} + (28 x 7)+ 7^{2}]\\) x 45
 
-Therefore, volume of the frustum is 48510 $cm^{3}$
+=\\(\frac{1}{3} x \frac{22}{7}\\) x 1029 x 45 = 48510
+
+Therefore, volume of the frustum is 48510 \\(cm^{3}\\)
 
 
 ---
@@ -437,13 +444,13 @@ your answer to the nearest minute.
 5. A right angled triangle whose sides are 6 cm, 8 cm and 10 cm is revolved about the 
 sides containing the right angle in two ways. Find the difference in volumes of the 
 two solids so formed.
-6. The volumes of two cones of same base radius are 3600 $cm^{3}$ and 5040 $cm^{3}$. Find the 
+6. The volumes of two cones of same base radius are 3600 \\(cm^{3} and 5040 cm^{3}\\). Find the 
 ratio of heights.
 7. If the ratio of radii of two spheres is 4:7, find the ratio of their volumes.
 8. A solid sphere and a solid hemisphere have equal total surface area. Prove that the 
-ratio of their volume is 3 $ \sqrt{3}$ : 4.
-9. The outer and the inner surface areas of a spherical copper shell are 576&#960; $cm^{2}$ and 
-324&#960; $cm^{2}$ respectively. Find the volume of the material required to make the shell.
+ratio of their volume is 3 \\( \sqrt{3}\\) : 4.
+9. The outer and the inner surface areas of a spherical copper shell are 576 \\(\pi  cm^{2}\\) and 
+324 \\(\pi  cm^{2}\\) respectively. Find the volume of the material required to make the shell.
 10. A container open at the top is in the form of a frustum of a cone of height 16 cm with 
 radii of its lower and upper ends are 8 cm and 20 cm respectively. Find the cost of 
 milk which can completely fill a container at the rate of Rs.40 per litre.

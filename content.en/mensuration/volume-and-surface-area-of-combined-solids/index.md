@@ -1,8 +1,8 @@
 ---
 title: 'Volume and Surface Area of Combined Solids'
-weight: 4
+weight: 3
 ---
-
+{{< katex display >}}{{< /katex >}}
 
 # Volume and Surface Area of Combined Solids
 
@@ -46,20 +46,20 @@ respectively.
 
 Total height of the toy is 25 cm
 
-Therefore, height of the cylindrical portion = − 25 6 = 19 cm
+Therefore, height of the cylindrical portion =  25 - 6 = 19 cm
 
  T.S.A. of the toy =C.S.A. of the cylinder + C.S.A. of the hemisphere
  +Base Area of the cylinder
 
- = 2&#960;rh + 2&#960;$r^{2}$ + &#960;$r^{2}$
+ = 2 \\(\pi rh + 2 \pi r^{2} +  \pi r^{2}\\)
 
- = &#960;rh (2h+ 3r) sq.units
+ =  \\(\pi\\) r (2h+ 3r) sq.units
 
- = 22/7 x 6 x (38 + 18)
+ = \\(\frac{22}{7}\\) x 6 x (38 + 18)
  
- =22/7 x 6 x 56 = 1056
+ =\\(\frac{22}{7}\\) x 6 x 56 = 1056
 
-Therefore, T.S.A. of the toy is 1056 $cm^{2}$
+Therefore, T.S.A. of the toy is 1056 \\(cm^{2}\\)
 
 
 **Example 7.25**  A jewel box (Fig. 7.39) is in the shape of a cuboid of 
@@ -76,14 +76,15 @@ cylinder.
 
 ---
 
- Now, Volume of the box = Volume of the cuboid + 1/2
+ Now, Volume of the box = Volume of the cuboid + \\(\frac{1}{2}\\)
 (Volume of cylinder)
 
- = (l x b x h1) + 1/2(&#960;$r^{2}$ h2) cu. units
- =(30 x 15 x 10)+ 1/2(22/7 x 15/2 x 15/2 x 30)
+ = (l x b x h1) + \\(\frac{1}{2}( \pi r^{2}\\) h2) cu. units
+
+ =(30 x 15 x 10)+\\(\frac{1}{2}(\frac{22}{7} x \frac{15}{2} x \frac{15}{2} x 30) \\)
  = 4500 + 2651.79 = 7151.79
 
-Therefore, Volume of the box = 7151.79 $cm^{3}$
+Therefore, Volume of the box = 7151.79 \\(cm^{3}\\)
 
 
 
@@ -96,26 +97,26 @@ the height of cylindrical part is 8 m?
 **Solution**  Let h1 and h2 be the height of cylinder and cone respectively. 
 
  Area for one person = 4 sq. m
-
+![cone with cylinder](fig7.40.png "w-50 float-end")
  Total number of persons =150 
 
  Therefore, total base area =150 x 4
 
- &#960;$r^{2}$ = 600 ... (1)
+  \\(\pi r^{2}\\) = 600 ... (1)
 
-Volume of air required for 1 person = 40 $m^{3}$
+Volume of air required for 1 person = 40 \\(m^{3}\\)
 
-Total Volume of air required for 150 persons= 150 x 40 = 6000 $m^{3}$
+Total Volume of air required for 150 persons= 150 x 40 = 6000 \\(m^{3}\\)
 
- &#960;$r^{2}$ h1 + 1/3&#960;$r^{2}$ h2= 6000
+  \\(\pi r^{2} h1 + \frac{1}{3} \pi r^{2}\\) h2= 6000
 
- &#960;$r^{2}$ (h1 +1/3h2)= 6000
+  \\(\pi r^{2} (h1 +\frac{1}{3}h2)= 6000 \\)
 
- 600(8 +1/3h2) = 6000 [using (1)]
+ \\(600(8 +\frac{1}{3}h2) = 6000\\) [using (1)]
 
- 8 + 1/3 h2 = 6000 /600
+ 8 +\\( \frac{1}{3} h2 =\frac{6000}{600} \\)
 
- 1/3 h2 = 10 – 8 = 2
+ \\(\frac{1}{3}\\) h2 = 10 – 8 = 2
 
  h2 = 6 m
 
@@ -139,22 +140,22 @@ Given that, R = 12 cm, r = 6 cm, h2 = 12 cm
 ![cone with cylinder](fig7.41.png "w-50 float-end")
 Now, h1 = 20–12 = 8 cm
 
-Here, Slant height of the frustum l = $ \sqrt{(R-r)^{2}+h1^{2}}$ units
- = $ \sqrt{36+64}$
+Here, Slant height of the frustum l = \\( \sqrt{(R-r)^{2}+h1^{2}}\\) units
+ = \\( \sqrt{36+64}\\)
 
  l = 10 cm
 
- Outer surface area = 2&#960;rh2 + &#960;(R+ r) l sq. units
+ Outer surface area = 2 \\(\pi rh2 +  \pi\\) (R+ r) l sq. units
               
- = &#960;[2rh2 + (R + r) l ]
+ =  \\(\pi\\) [2rh2 + (R + r) l ]
 
- = &#960;[(2 x 6 x 12) + (18 x 10)]
+ =  \\(\pi\\) [(2 x 6 x 12) + (18 x 10)]
  
- =&#960;[144 + 180]
+ = \\(\pi\\) [144 + 180]
  
- =22/7 x 324 = 1018.28
+ =\\(\frac{22}{7}\\) x 324 = 1018.28
 
-Therefore, outer surface area of the funnel is 1018.28 $cm^{2}$
+Therefore, outer surface area of the funnel is 1018.28 \\(cm^{2}\\)
 
 
 **Example 7.28**  A hemispherical section is cut out from one face of ![cuboid](fig7.42.png "w-50 float-end")
@@ -167,18 +168,18 @@ the remaining solid.
 
 Given that, diameter of the hemisphere = side of the cube = l
 
-Radius of the hemisphere = l/2
+Radius of the hemisphere = \\(\frac{l}{2}\\)
 
  TSA of the remaining solid = Surface area of the cubical part + C.S.A. of the hemispherical part 
  − Area of the base of the hemispherical part
 
- = 6 x $(Edge)^{2}$ + 2&#960;$r^{2}$ - &#960;$r^{2}$
- = 6 x $(Edge)^{2}$ + &#960;$r^{2}$ 
+ = 6 x \\((Edge)^{2} + 2 \pi r^{2} -  \pi r^{2}\\)
+ = 6 x \\((Edge)^{2} +  \pi r^{2}\\) 
  
- = 6 x $(l)^{2}$ + &#960;$(l/2)^{2}$ = 1/4 (24 + &#960;)$l^{2}$
+ = 6 x \\((l)^{2} +  \pi(\frac{l}{2})^{2} =\frac{1}{4} (24 +  \pi )l^{2}\\)
 
 
- Total surface area of the remaining solid = 1/4 (24 + &#960;)$l^{2}$ sq. units
+ Total surface area of the remaining solid =\\(\frac{1}{4} (24 +  \pi )l^{2}\\) sq. units
 
 
  ---
@@ -208,10 +209,9 @@ capsule is 3 mm, how much medicine it can hold?
 6. As shown in figure a cubical block of side 7 cm is surmounted ![cuboid with 50%](exercise-2.png "w-50 float-end")
 by a hemisphere. Find the surface area of the solid.
 7. A right circular cylinder just enclose a sphere of radius r units. 
-Calculate 
-1. the surface area of the sphere 
-2. the curved surface area of the cylinder 
-3. the ratio of the areas obtained in 1 and 2
+Calculate 1. the surface area of the sphere 
+     2. the curved surface area of the cylinder 
+     3. the ratio of the areas obtained in 1 and 2
 
 
 ---
