@@ -1,7 +1,9 @@
 ---
 title: 'Surface Area'
-weight: 2
+weight: 1
 ---
+
+{{< katex display >}}{{< /katex >}}
 
 # Surface Area
 
@@ -49,7 +51,7 @@ Area’ (C.S.A.).
 
 1. Take a rectangle sheet of a paper of length l and breadth b.
 
-<!-- 2. Revolve the paper about one of its <img src="fig7.5.png" alt="cylinder" style="float:right; margin-right:10px;" /> -->
+ 2. Revolve the paper about one of its 
 ![Figure with 50%](fig7.5.png "w-50 float-end")
 
 sides, say b to complete a full rotation 
@@ -75,12 +77,13 @@ Curved surface area (C.S.A.) of a right circular cylinder
 
  = l x b
  
- =  2&#960;r x h ( l is the circumference 
+ =  2 \\(\pi\\) r x h ( l is the circumference 
  
- = 2&#960;rh of the base, b is the height)[see Fig. 7.5]
+ = 2 \\(\pi\\) rh of the base, b is the height)[see Fig. 7.5]
+ 
 
-<span style="background-color:blue; color:red;">
-C.S.A. of a right circular cylinder = 2&#960;rh sq. units.
+<!-- <span style="background-color:blue; color:red;"> -->
+C.S.A. of a right circular cylinder = 2  \\(\pi\\)  rh sq. units.
 </span>
 
 2. Total surface area
@@ -93,19 +96,19 @@ That is, total surface area (T.S.A.) of right circular cylinder
  = C.S.A + Area of top circular region
  +Area of bottom circular region.
 
- = 2&#960;rh+&#960;$r^{2}$+&#960;$r^{2}$ (Refer Fig7.4)
+ = 2 \\(\pi \\) rh+ \\(\pi\\) \\(r^{2}\\) +\\(\pi \\) \\(r^{2}\\) (Refer Fig7.4)
 
- =2&#960;rh+2&#960;$r^{2}$
+ =2 \\(\pi rh+2 \pi r^{2}\\)
 
- = 2&#960;r(h+r)
+ = 2 \\(\pi\\) r(h+r)
 
- <span style="background-color:blue; color:red;">
-T.S.A. of a right circular cylinder =  2&#960;r(h+r) sq. units </span>
+ <!-- <span style="background-color:blue; color:red;"> -->
+T.S.A. of a right circular cylinder =  2 \\(\pi\\) r(h+r) sq. units </span>
 
 
 <div style="border: 1px solid red; padding: 10px;">
 <ul style="color:red;">
- <li>We always consider p = 22/7 , unless otherwise stated. </li>
+ <li>We always consider p =  \\(\frac{22}{7}\\)  , unless otherwise stated. </li>
  <li> The term ‘surface area’ refers to ‘total surface area’</li></ul>
  </div>
 
@@ -116,18 +119,19 @@ curved surface area and the total surface area.
 
 **Solution**  Given that, height of the cylinder h = 20 cm ; radius r =14 cm
 
-Now, C.S.A. of the cylinder = 2&#960;rh sq. units
+Now, C.S.A. of the cylinder = 2 \\(\pi\\) rh sq. units
 
- C.S.A. of the cylinder = 2 × 22/7 × 14 × 20
+ C.S.A. of the cylinder = 2 ×  \\(\frac{22}{7}\\)  × 14 × 20
 
-= 2 x 22 x 2 x 20= 1760 $cm^{2}$
+= 2 x 22 x 2 x 20= 1760 \\(cm^{2}\\)
 
- T.S.A. of the cylinder =  2&#960;r(h + r)  sq. units
+ T.S.A. of the cylinder =  2 \\(\pi\\) r(h + r)  sq. units
 
- = 2x 22/7x14x(20+14)=2 x 22/7 x 14 x 34 
- = 2992 $cm^{2}$ 
+ = 2x  \\(\frac{22}{7} x 14 x (20+14)=2 x  \frac{22}{7}\\)  x 14 x 34 
+ 
+ = 2992 \\(cm^{2}\\) 
 
-Therefore, C.S.A. = 1760 $cm^{2}$ and T.S.A. = 2992 $cm^{2}$ 
+Therefore, C.S.A. = 1760 \\(cm^{2} and T.S.A. = 2992 cm^{2}\\) 
 
 
 ---
@@ -135,14 +139,16 @@ Therefore, C.S.A. = 1760 $cm^{2}$ and T.S.A. = 2992 $cm^{2}$
 
 
 **Example 7.2**  The curved surface area of a right circular cylinder of height 14 cm is 
-88 $cm^{2}$  . Find the diameter of the cylinder.
+88 \\(cm^{2}\\)  . Find the diameter of the cylinder.
 **Solution** Given that, C.S.A. of the cylinder =88 sq. cm 
- 2&#960;rh = 88
+ 
+ 2 \\(\pi\\) rh = 88
 
- 2 x 22/7 x r x 14 = 88 (h=14 cm)
+ 2 x  \\(\frac{22}{7}\\)  x r x 14 = 88 (h=14 cm)
 
  2r = 
-$ \frac{88x18}{22x14} = 2$
+\\( \frac{88 x 18}{22 x 14} = 2\\)
+
  Therefore, diameter = 2 cm
 
 
@@ -150,21 +156,22 @@ $ \frac{88x18}{22x14} = 2$
 rolled to level a garden. How much area will it cover in 8 revolutions?
 <!-- <img src="fig7.6.png" alt="cylinder" style="float:right; margin-right:10px;" /> -->
 ![Fig 7.6](fig7.6.png "w-50 float-end")
+
 **Solution** Given that, diameter d = 2.8 m and height = 3 m
 
  radius r = 1.4 m
 
  Area covered in one revolution = curved surface area of the cylinder
 
- = 2&#960;rh sq. units
+ = 2 \\(\pi\\) rh sq. units
 
- = 2 x 22/7 x 1.4 x 3 =26.4
+ = 2 x  \\(\frac{22}{7}\\)  x 1.4 x 3 =26.4
 
- Area covered in 1 revolution = 26.4 $m^{2}$  
+ Area covered in 1 revolution = 26.4 \\(m^{2}\\)  
 
 Area covered in 8 revolutions = 8 x 26.4 = 211.2
 
-Therefore, area covered is 211.2 m2
+Therefore, area covered is 211.2 \\(m^{2}\\)
 
 
 
@@ -190,10 +197,10 @@ Let R and r be the outer and inner radii of the cylinder. Let h be its height.
 
 C.S.A of the hollow cylinder = outer C.S.A. of the cylinder + inner C.S.A. of the cylinder
 
- = 2&#960;Rh + 2&#960;rh
+ = 2 \\(\pi Rh + 2 \pi\\) rh
 
- <span style="background-color:blue; color:red;">
-C.S.A of a hollow cylinder= 2&#960;(R+r)h sq. units
+ <!-- <span style="background-color:blue; color:red;"> -->
+C.S.A of a hollow cylinder= 2 \\(\pi\\) (R+r)h sq. units
 </span>
 
 
@@ -202,18 +209,19 @@ C.S.A of a hollow cylinder= 2&#960;(R+r)h sq. units
 
 T.S.A. of the hollow cylinder =C.S.A. + Area of two rings at the top and bottom.
 
- = 2&#960;(R+r)h + 2&#960;($R^{2} - r^{2}$)
+ = 2 \\(\pi (R+r)h + 2 \pi (R^{2} - r^{2}\\))
 
-<span style="background-color:blue; color:red;">
-T.S.A. of a hollow cylinder= 2&#960;(R+r)(R-r+h) sq. units. </span>
+<!-- <span style="background-color:blue; color:red;"> -->
+T.S.A. of a hollow cylinder= 2 \\(\pi\\) (R+r)(R-r+h) sq. units. </span>
 
 
-**Example 7.4**   If one litre of paint covers 10 m2, how many litres of paint is required to 
+**Example 7.4**   If one litre of paint covers 10 \\(m^{2}\\), how many litres of paint is required to 
 paint the internal and external surface areas of a cylindrical tunnel whose 
 thickness is 2 m, internal radius is 6 m and height is 25 m. 
 
 <!-- <img src="fig7.8.png" alt="cylinder3" style="float:right; margin-right:10px;" /> -->
 ![Figure with 50%](fig7.8.png "w-50 float-end")
+
 **Solution**   Given that, height h = 25 m; thickness = 2 m
 
  internal radius r = 6 m
@@ -222,15 +230,15 @@ Now, external radius R = 6 + 2 = 8 m
 
  C.S.A. of the cylindrical tunnel = C.S.A. of the hollow cylinder
 
- C.S.A. of the hollow cylinder = + 2&#960;(R+r) h sq. units
+ C.S.A. of the hollow cylinder =  2 \\(\pi\\) (R+r) h sq. units
 
- = 2 x 22/7(8+6) x 25
+ = 2 x  \\(\frac{22}{7}\\) (8+6) x 25
 
- Hence, C.S.A. of the cylindrical tunnel = 2200 $m^{2}$ 
+ Hence, C.S.A. of the cylindrical tunnel = 2200 \\(m^{2}\\) 
 
- Area covered by one litre of paint = 10 m2
+ Area covered by one litre of paint = 10 \\(m^{2}\\) 
 
-Number of litres required to paint the tunnel = 2200/10=220
+Number of litres required to paint the tunnel = \\(\frac{2200}{10}\\)=220
 
 Therefore, 220 litres of paint is needed to paint the tunnel.
 
@@ -249,6 +257,7 @@ area of its base.
 ### Right Circular Cone
 <!-- <img src="fig7.9.png" alt="cylinder" style="float:right; margin-right:10px;" /> -->
 ![Figure with 50%](fig7.9.png "w-50 float-end")
+
 Observe the given figures in Fig.7.9 
 and identify which solid shape they 
 represent?
@@ -286,20 +295,23 @@ a plane, the surface area will take the form of
 a sector ACD, of which the radius AC and the 
 arc CD are respectively the slant height and the 
 circumference of the base of the cone.
+
 Here the sector of radius ‘l’ and arc length ‘s’ will be similar to a circle of radius l .
 
 1. Curved surface area
 
-$\displaystyle \frac{Area  of  the sector}{Area of the circle} = \frac{Arc length of the sector}{Circumference of the circle }$
+\\(\displaystyle \frac{Area  of  the sector}{Area of the circle} = \frac{Arc length of the sector}{Circumference of the circle }\\)
 
-Area of the sector = $ \frac{Arc length of the sector}{Circumference of the circle }$ x Area of the circle 
-= s/2&#960;l x &#960;$ l^{2}$ =s/2 x l = 2&#960;r / 2 x l   (s=2&#960;r)
+Area of the sector = \\( \frac{Arc length of the sector}{Circumference of the circle }\\) x Area of the circle 
+
+=\\( \frac{s}{2 \pi l} \\) x \\( \pi  l^{2}\\)
+ =\\(\frac{s}{2} x l\\) =\\(\frac{2 \pi r}{2}\\) x l  \\( (s=2 \pi\\) r)
 
 
 
-∴ Curved Surface Area of the cone = Area of the Sector = &#960;rl sq. units.
+∴ Curved Surface Area of the cone = Area of the Sector =  \\(\pi\\) rl sq. units.
 
-C.S.A. of a right circular cone = &#960;rl sq. units.
+C.S.A. of a right circular cone =  \\(\pi\\) rl sq. units.
 
 
 **Thinking Corner**
@@ -323,25 +335,25 @@ C.S.A. of the cone.
 <span style="color:blue;">
 Derivation of slant height ‘l’  </span>
 
-<!-- ABC is a right angled triangle, right angled at B. The hypotenuse, <img src="fig7.12.png" alt="vertical cone" style="float:right; margin-right:10px;" /> -->
+ ABC is a right angled triangle, right angled at B. The hypotenuse,
 ![Figure with 50%](fig7.12.png "w-50 float-end")
 base and height of the triangle are represented by l, r and h respectively.
 
 Now, using Pythagoras theorem in DABC,
-$
- AC^{2} =  AB^{2} + BC^{2}$
 
- $l^{2} =  h^{2} + r^{2}$
+ \\(AC^{2} =  AB^{2} + BC^{2}\\)
 
- $ l = \sqrt{(h^{2}+r^{2})}$ units
+ \\(l^{2} =  h^{2} + r^{2}\\)
+
+ \\( l = \sqrt{(h^{2}+r^{2})}\\) units
 
 2. Total surface area
  Total surface area of a cone =C.S.A. + base area of the cone
 
- = &#960;rl+ &#960;r^2 ( the base is a circle)
+ =  \\(\pi rl+  \pi r^{2}\\) ( the base is a circle)
 
-<span style="background-color:blue; color:red;">
-T.S.A. of a right circular cone= &#960;r (l+r) sq. units. </span>
+<!-- <span style="background-color:blue; color:red;"> -->
+T.S.A. of a right circular cone=  \\(\pi\\) r (l+r) sq. units. </span>
 
 
 **Example 7.5**  The radius of a conical tent is 7 m and the height is 24 m. Calculate the 
@@ -350,31 +362,32 @@ length of the canvas used to make the tent if the width of the rectangular canva
 **Solution**  Let r and h be the radius and height of the cone respectively.
 Given that, radius r =7 m and height h = 24 m
 
- Hence, $ l= \sqrt{(h^{2}+r^{2})}$
+ Hence, \\( l= \sqrt{(h^{2}+r^{2})}\\)
         
-   $    = \sqrt{49 + 576}$
+   \\(    = \sqrt{49 + 576}\\)
 
- l = 625 = 25 m
+ \\(l = \sqrt{625}\\) = 25 m
 
- C.S.A. of the conical tent = &#960;rl sq. units
+ C.S.A. of the conical tent =  \\(\pi\\) rl sq. units
 
- Area of the canvas = 22/7 x 7 x 25 = 550 m2
+ Area of the canvas =  \\(\frac{22}{7}  x 7 x 25 = 550 m^{2}\\)
 
- Now, length of the canvas =$ \frac{Area of the canvas}{width}$  
- = 550 /4
+ Now, length of the canvas =\\( \frac{Area of the canvas}{width}\\)  
+ =\\(\frac{550}{4}\\)
 = 137.5 m
 
 Therefore, the length of the canvas is 137.5 m
 
 
-**Example 7.6**   If the total surface area of a cone of radius 7cm is 704 $cm^{2}$ , then find its 
+**Example 7.6**   If the total surface area of a cone of radius 7cm is 704 \\(cm^{2}\\) , then find its 
 slant height.
 
 **Solution**   Given that, radius r = 7 cm
-Now, total surface area of the cone = &#960;r(l+r) sq. units
- T.S.A. = 704 $cm^{2}$ 
+Now, total surface area of the cone =  \\(\pi\\) r(l+r) sq. units
+ 
+ T.S.A. = 704 \\(cm^{2}\\) 
 
- 704 = 22/7x 7(l+7)
+ 704 =  \\(\frac{22}{7}\\) x 7(l+7)
 
  32 = l+ 7 ⇒ l = 25 cm
 
@@ -386,7 +399,7 @@ Therefore, slant height of the cone is 25 cm.
 
 
 
-<!-- **Example 7.7**   From a solid cylinder whose height is 2.4 cm and <img src="fig7.13.png" alt="cone inside cylinder" style="float:right; margin-right:10px;" /> -->
+**Example 7.7**   From a solid cylinder whose height is 2.4 cm and 
 ![Figure with 50%](fig7.13.png "w-50 float-end")
 
 diameter 1.4 cm, a conical cavity of the same height and base is hollowed 
@@ -394,28 +407,28 @@ out (Fig.7.13). Find the total surface area of the remaining solid.
 
 **Solution**  Let h and r be the height and radius of the cone and cylinder.
 Let l be the slant height of the cone.
+
 Given that, h = 2.4 cm and d = 1.4 cm ; r = 0.7 cm
 
 Total surface area of the 
-remaining solid = C.S.A. of the cylinder + C.S.A. of the cone 
-+ area of the bottom
+remaining solid = C.S.A. of the cylinder + C.S.A. of the cone + area of the bottom
 
- = 2&#960;rh + &#960;rl + &#960;$r^{2} sq. units
+ = 2 \\(\pi rh +  \pi rl +  \pi r^{2}\\) sq. units
 
- =&#960;r(2h+l+r) sq. units
+ = \\(\pi\\) r(2h+l+r) sq. units
 
-Now,$ l  = \sqrt{(h^{2}+r^{2})}$
-= $\sqrt{(0.49+5.76)}$ = $\sqrt{(6.25)}$ = 2.5 cm
+Now,\\( l  = \sqrt{(h^{2}+r^{2})}\\)
+= \\(\sqrt{(0.49+5.76)} = \sqrt{(6.25)}\\) = 2.5 cm
 
  l = 2.5 cm
 
- Area of the remaining solid = &#960;r(2h+l+r) sq. units
+ Area of the remaining solid =  \\(\pi\\) r(2h+l+r) sq. units
 
- = 22/7x0.7x[(2x2.4)+2.5+0.7]
+ =  \\(\frac{22}{7}\\) x0.7x[(2x2.4)+2.5+0.7]
 
  = 17.6
 
-Therefore, total surface area of the remaining solid is 17.6 $cm^{2}$  
+Therefore, total surface area of the remaining solid is 17.6 \\(cm^{2}\\)  
 
 
 **Progress Check**
@@ -447,7 +460,7 @@ Definition : A sphere is a solid generated by the revolution of a semicircle abo
 
 
 Every plane section of a sphere is a circle. The line of section of a sphere by a plane 
-<!-- passing through the centre of the sphere is called a great circle <img src="fig7.14-fig7.15.png" alt="omar" style="float:right; margin-right:10px;" /> --> 
+ passing through the centre of the sphere is called a great circle 
 ![Figure with 50%](fig7.14-fig7.15.png "w-50 float-end")
 all other plane sections are called small circles.
 As shown in the diagram, circle with CD as diameter is a 
@@ -467,10 +480,10 @@ the sphere is same as curved surface area of the cylinder.
 
 Surface area of sphere =curved surface area of cylinder
 
- = 2&#960;rh = 2 &#960;r (2r)
+ = 2 \\(\pi rh = 2  \pi\\) r (2r)
 
-<span style="background-color:blue; color:red;">
-Surface area of a sphere = 4&#960;$r^{2}$ sq.units </span>
+<!-- <span style="background-color:blue; color:red;"> -->
+Surface area of a sphere = 4 \\(\pi r^{2}\\) sq.units </span>
 
 
 
@@ -493,19 +506,21 @@ overlapping and leaving space between the threads.
 
 A section of the sphere cut by a plane through any of its great 
 circle is a hemisphere.
-
+![Figure with 50%](fig7.16.png "w-50 float-end")
 By doing this, we observe that a hemisphere is exactly half the 
 portion of the sphere.
 
- Curved surface area of hemisphere = C.S.A. of the sphere /2 = 4&#960;$r^{2}/2$
- <span style="background-color:blue; color:red;">
-C.S.A. of a hemisphere = 2&#960;$r^{2}$  sq.units </span>
+ Curved surface area of hemisphere =\\(\frac{ C.S.A. of the sphere}{2} =\frac{ 4 \pi  r^{2}}{2}\\)
+ 
+ <!-- <span style="background-color:blue; color:red;"> -->
+C.S.A. of a hemisphere = 2 \\(\pi r^{2}\\)  sq.units </span>
 
  Total surface area of hemisphere = C.S.A. +Area of top circular region 
  
- = 2&#960;r^2 + &#960;r^2
-<span style="background-color:blue; color:red;">
-T.S.A. of a hemisphere = 3&#960;$r^{2}$ sq.units </span>
+ = 2 \\(\pi r^2 +  \pi r^2\\)
+
+<!-- <span style="background-color:blue; color:red;"> -->
+T.S.A. of a hemisphere = 3 \\(\pi r^{2}\\) sq.units </span>
 
 
 ---
@@ -516,36 +531,41 @@ T.S.A. of a hemisphere = 3&#960;$r^{2}$ sq.units </span>
 ### Hollow Hemisphere
 
 Let the inner radius be r and outer radius be R, 
+
  then thickness = R−r 
-![Figure with 50%](fig7.16.png "w-50 float-end")
-Therefore, C.S.A. = Area of external hemisphere 
- + Area of internal hemisphere
- = 2&#960;R^2 + 2&#960;r^2
-<span style="background-color:blue; color:red;">
-C.S.A. of a hollow hemisphere = 2&#960;(R^2 + r^2) sq. units </span>
+
+
+Therefore, C.S.A. = Area of external hemisphere + Area of internal hemisphere
+ 
+ = 2 \\(\pi R^{2} + 2 \pi r^{2}\\)
+
+<!-- <span style="background-color:blue; color:red;"> -->
+C.S.A. of a hollow hemisphere = 2 \\(\pi (R^{2} + r^{2})\\) sq. units </span>
 
 ![Figure with 50%](fig7.17.png "w-50 float-end")
  T.S.A. = C.S.A. + Area of annulus region
- = 2&#960;($R^{2}$ + $r^{2}$) + &#960;($R^{2}$ - $r^{2}$)
- = &#960;[$2R^{2}$ + $2r^{2}$ + $R^{2}$ - $r^{2}$]
+ 
+ = 2 \\(\pi (R^{2} + r^{2}) +  \pi (R^{2} - r^{2}\\))
+ =  \\(\pi [2R^{2} + 2r^{2} + R^{2} - r^{2}]\\)
 
 
-<span style="background-color:blue; color:red;">
-$ T.S.A. of a hollow hemisphere = &#960; (3R^{2} + r^{2})sq. units  </span>
+<!-- <span style="background-color:blue; color:red;"> -->
+\\( T.S.A. of a hollow hemisphere =  \pi  (3R^{2} + r^{2})\\) sq. units  </span>
 
 
-**Example 7.8**   Find the diameter of a sphere whose surface area is 154 m2.
+**Example 7.8**   Find the diameter of a sphere whose surface area is 154 \\(m^{2}\\).
 
-<!-- **Solution**   Let r be the radius of the sphere. <img src="fig7.18.png" alt="activity" style="float:right; margin-right:10px;" /> -->
+**Solution**   Let r be the radius of the sphere. 
 ![Figure with 50%](fig7.18.png "w-50 float-end")
-Given that, surface area of sphere = 154 m2
+Given that, surface area of sphere = 154 \\(m^{2}\\)
 
- 4&#960;$r^{2}$ = 154
- 4 x 22/7 x $r^{2}$ = 154
+ 4 \\(\pi r^{2}\\) = 154
 
- ⇒ r2 = 154 × 1 / 4 x 7/22
+ 4 x  \\(\frac{22}{7}  x r^{2}\\) = 154
 
- r2 = 49 / 4  we get r = 7/2
+ ⇒ \\(r^{2} = 154 ×\frac{1}{4} x \frac{7}{22}\\)
+
+ \\(r^{2} =\frac{49}{4}\\)  we get \\(r =\frac {7}{2}\\)
 
  Therefore, diameter is 7 m
 
@@ -557,18 +577,18 @@ being pumped into it. Find the ratio of the surface area of the balloons in the 
 
 **Solution**  Let r
 1 and r2 be the radii of the balloons. 
- Given that, r1/r2 = 12/16=3/4
+ Given that, \\(\frac{r1}{r2} = \frac{12}{16}=\frac{3}{4} \\)
 
- Now, ratio of C.S.A. of balloons = 
- 4&#960;$r1^{2}$/ 4&#960;$r2^{2}$ = $r1^{2}$ / $r2^{2}$ = $(r1/r2)^{2}$ = $(3/4)^{2}$ 
-= 9/16
+ Now, ratio of C.S.A. of balloons = \\(
+ \frac{4 \pi r1^{2}}{ 4 \pi r2^{2}} = \frac{r1^{2}}{ r2^{2} }= (\frac{r1}{r2})^{2} =(\frac{3}{4})^{2}\\) 
+= \\(\frac{9}{16}\\)
 
 Therefore, ratio of C.S.A. of balloons is 9:16.
 
 
 **Thinking Corner**
 
-1. Find the value of the radius of a sphere whose surface area is 36&#960; sq. units.
+1. Find the value of the radius of a sphere whose surface area is 36 \\(\pi\\)  sq. units.
 2. How many great circles can a sphere have? 
 3. Find the surface area of the earth whose diameter is 12756 kms.
 
@@ -590,7 +610,7 @@ total surface area?
 
 **Solution**  Let r be the radius of the hemisphere.
 
- Given that, base area = &#960;$r^{2}$ = 1386 sq. m
+ Given that, base area =  \\(\pi r^{2}\\) = 1386 sq. m
 
 <div style="border: 1px solid red; padding: 10px;margin-right:10px;">
 NOTE :
@@ -603,11 +623,11 @@ of a sphere can be used.
 </div>
 
 
- T.S.A. = 3&#960;$r^{2}$ sq.m
+ T.S.A. = 3 \\(\pi r^{2}\\) sq.m
 
  = 3 x 1386 = 4158
 
-Therefore, T.S.A. of the hemispherical solid is 4158 $m^{2}$.
+Therefore, T.S.A. of the hemispherical solid is 4158 \\(m^{2}\\).
 
 
 **Thinking Corner**
@@ -627,24 +647,26 @@ respectively.
 
  Given that, R = 5 m, r =3 m
 
- C.S.A. of the shell = 2&#960;($R^{2}$ + $r^{2}$) sq. units
- = 2 x 22/7 x (25+ 9) = 213.71
+ C.S.A. of the shell = 2 \\(\pi (R^{2} + r^{2}\\)) sq. units
+ 
+ = 2 x  \\(\frac{22}{7}\\)  x (25+ 9) = 213.71
 
- T.S.A. of the shell = &#960;($3R^{2}$ + $r^{2}$) sq. units
- =  22/7(75+9) = 264
+ T.S.A. of the shell =  \\(\pi (3R^{2} + r^{2}\\)) sq. units
+ 
+ =   \\(\frac{22}{7}\\) (75+9) = 264
 
-Therefore, C.S.A.= 213.71 m
-2 and T.S.A. = 264 $m^{2}$.
+Therefore, C.S.A.= 213.71 \\(m^{2}\\)
+ and T.S.A. = 264 \\(m^{2}\\).
 
 
 
-<!-- **Example 7.12**   A sphere, a cylinder <img src="fig7.20.png" alt="shapes" style="float:right; margin-right:10px;" /> -->
+ **Example 7.12**   A sphere, a cylinder 
 ![Figure with 50%](fig7.20.png "w-50 float-end")
 and a cone are of the same height 
 which is equal to its radius, where as 
 cone and cylinder are of same height. 
 Find the ratio of their curved surface 
-areas
+areas.
 
 
 ---
@@ -652,26 +674,28 @@ areas
 
 **Solution**   Required Ratio = C.S.A. of the sphere: C.S.A. of the cylinder : C.S.A. of the cone
 
- = 4&#960;$r^{2}$ : 2&#960;rh : &#960;rl     ( $ l = \sqrt{(h^{2}+r^{2})}$ = $\sqrt{2r^{2}}$ = $\sqrt{2r}$ )
+ = 4 \\(\pi r^{2} : 2 \pi rh :  \pi rl     (  l = \sqrt{(h^{2}+r^{2})} = \sqrt{2r^{2}} = \sqrt{2}r\\) )
 
- = 4&#960;$r^{2}$ : 2&#960;$r^{2}$ : &#960;$r \sqrt{2}$ r
+ = 4 \\(\pi r^{2} : 2 \pi r^{2} :  \pi r \sqrt{2}\\) r
 
- = 4&#960;$r^{2}$ : 2&#960;$r^{2}$ : $\sqrt{2}$&#960;$r^{2}$
+ = 4 \\(\pi r^{2} : 2 \pi r^{2} : \sqrt{2} \pi r^{2}\\)
  
- = 4 : 2: $\sqrt{2}$ = $2\sqrt{2}$ : $\sqrt{2}$ : 1
+ = 4 : 2: \\(\sqrt{2} = 2\sqrt{2} : \sqrt{2}\\) : 1
 
 
 
  ### Frustum of a right circular cone
 
-<!-- In olden days a cone shaped buckets <img src="fig7.21.png" alt="fire" style="float:right; margin-right:10px;" /> -->
+ In olden days a cone shaped buckets
 ![Figure with 50%](fig7.21.png "w-50 float-end")
 [Fig.7.21(a)] filled with sand / water were used 
 to extinguish fire during fire accidents. Later, 
 it was reshaped to a round shaped bottom 
 [Fig.7.21(b)] to increase its volume. 
+
 The shape in [Fig.7.21(c)] resembling a ![Figure with 50%](fig7.22.png "w-50 float-end")
-inverted bucket is called as a frustrum of a cone. 
+inverted bucket is called as a frustrum of a cone.
+
 The objects which we use in our daily life 
 such as glass, bucket, street cone are examples of 
 frustum of a cone. (Fig.7.22)
@@ -694,18 +718,17 @@ and the base is called a frustum of the cone.
 Let R and r be radii of the base and top region of the frustum DECB respectively, h
 is the height and l is the slant height of the same.
 
-Therefore, C.S.A. = 1/2
+Therefore, C.S.A. =\\(\frac{1}{2}\\) 
  (sum of the perimeters of base and top region) × slant height
- =1/2(2&#960;R + 2&#960;r) l
+ =\\(\frac{1}{2}(2 \pi R + 2 \pi\\) r) l
 
-C.S.A. of a frustum= &#960;(R +r)l sq. units      where, l= \sqrt {($h^{2}$ + $(R-r)^{2}$)}
+C.S.A. of a frustum=  \\(\pi (R +r)l \\ sq. units \\      where, l=  \sqrt {(h^{2}+(R-r)^{2})}\\)
 
- T.S.A. = C.S.A. + Area of the bottom circular region 
- + Area of the top circular region.
+ T.S.A. = C.S.A. + Area of the bottom circular region +  Area of the top circular region.
 
-T.S.A. of a frustum= &#960;(R+r)l + &#960;$R^{2}$ + &#960;$r^{2}$ sq. units
+T.S.A. of a frustum=  \\(\pi (R+r)l +  \pi R^{2} +  \pi r^{2}\\) sq. units
   
-  where, l= (h^2 + (R-r)^2)^1/2
+  where, l=\\(\sqrt {(h^{2} + (R-r)^{2})}\\)
 
 
   ---
@@ -719,13 +742,13 @@ T.S.A. of a frustum= &#960;(R+r)l + &#960;$R^{2}$ + &#960;$r^{2}$ sq. units
  Given that, l=5 cm, R =4 cm, r =1 cm
 
 
-Now, C.S.A. of the frustum = &#960;(R+r)l sq. units
+Now, C.S.A. of the frustum =  \\(\pi\\) (R+r)l sq. units
 
- = 22/7 x (4+1) x 5
+ =  \\(\frac{22}{7}\\)  x (4+1) x 5
 
- = 550/7
+ = \\(\frac{550}{7}\\)
 
- Therefore, C.S.A. = 78.57 $cm^{2}$ 
+ Therefore, C.S.A. = 78.57 \\(cm^{2}\\) 
 
 <span style=" margin-right:10px">
  **Thinking Corner**
@@ -750,22 +773,22 @@ diameter of the bottom = 4 m; radius of the bottom r = 2 m, height h= 4 m
 
 ![Figure with 50%](fig7.24.png "w-50 float-end")
 
- Now, l =  (h^2+ (R −r)^2)^1/2
+ Now, l=\\(\sqrt {(h^{2} + (R-r)^{2})}\\)
 
- = ($4^{2}$ + $(5 -2)^{2}$)^ 1/2
+ = \\(\sqrt {(4^{2} + (5 -2)^{2})}\\)
 
- l = (16+ 9)^1/2 = 25 =5m
+ l = \\(\sqrt{16+9}\\) = 25 =5m
 
- C.S.A. = &#960;(R+r)l sq. units
+ C.S.A. =  \\(\pi\\) (R+r)l sq. units
 
- = 22/7 (5+2)x5 
- = 110 m2
+ =  \\(\frac{22}{7}\\)  (5+2)x5 
+ = 110 \\(m^{2}\\)
 
- T.S.A. = &#960;(R+r)l + &#960;$R^{2}$ + &#960;$r^{2}$ sq. units
- =22/7[(5+2)5+25+4] = 1408/7
+ T.S.A. =  \\(\pi (R+r)l +  \pi R^{2} +  \pi r^{2}\\) sq. units
+ = \\(\frac{22}{7}\\) [(5+2)5 + 25 + 4] = \\(\frac{1408}{7}\\)
 = 201.14
 
- Therefore, C.S.A. = 110 m2 and T.S.A. = 201.14 m2
+ Therefore, C.S.A. = 110 \\(m^{2} and\\ T.S.A. = 201.14 m^{2}\\)
 
 
 
@@ -786,13 +809,13 @@ _________.
 five – sixth of its total surface area. Find the radius and height of the iron cylinder.
 3. The external radius and the length of a hollow wooden log are 16 cm and 13 cm 
 respectively. If its thickness is 4 cm then find its T.S.A.
-4. A right angled triangle PQR where ∠ = Q 90 is rotated about QR and PQ. If 
+4. A right angled triangle PQR where ∠ Q= 90 is rotated about QR and PQ. If 
 QR=16 cm and PR=20 cm, compare the curved surface areas of the right circular 
 cones so formed by the triangle.
 5. 4 persons live in a conical tent whose slant height is 19 m. If each person require 
-22 m2 of the floor area, then find the height of the tent.
+22 \\(m^{2}\\) of the floor area, then find the height of the tent.
 6. A girl wishes to prepare birthday caps in the form of right circular cones for her 
-birthday party, using a sheet of paper whose area is 5720 $cm^{2}$ , how many caps can be 
+birthday party, using a sheet of paper whose area is 5720 \\(cm^{2}\\) , how many caps can be 
 made with radius 5 cm and height 12 cm.
 7. The ratio of the radii of two right circular cones of same height is 1:3. Find the ratio 
 of their curved surface area when the height of each cone is 3 times the radius of the 
@@ -800,7 +823,7 @@ smaller cone.
 8. The radius of a sphere increases by 25%. Find the percentage increase in its surface area.
 9. The internal and external diameters of a hollow hemispherical vessel are 20 cm and 
 28 cm respectively. Find the cost to paint the vessel all over 
-at Rs. 0.14 per $cm^{2}$  .
+at Rs. 0.14 per \\(cm^{2}\\)  .
 10. The frustum shaped outer portion of the table lamp has to be ![Figure with 50%](fig7.25.png "w-50 float-end")
 painted including the top part. Find the total cost of painting 
 the lamp if the cost of painting 1 sq.cm is Rs. 2.
