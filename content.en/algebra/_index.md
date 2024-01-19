@@ -2,6 +2,7 @@
 title: 'Algebra'
 weight: 3
 ---
+{{< katex display >}}{{< /katex >}}
 ![header](header.png)
 
 ![niccolo](nicolo.png "float-end")

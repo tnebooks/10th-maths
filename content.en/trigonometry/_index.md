@@ -3,6 +3,7 @@ title: '  Trigonometry '
 weight: 6 
 ---
 
+
 ![img2.png](img2.png)
 
 French mathematician Francois Viete used trigonometry in the study of Algebra for solving certain equations by making suitable trigonometric substitutions. His famous formula for {{< katex >}}\pi{{< /katex >}} can be derived with repeated use of trigonometric ratios. One of his famous works titled Canon Mathematics covers trigonometry; it contains trigonometric tables, it also gives the mathematics behind the construction of the tables, and it details how to solve both plane and spherical triangles. He also provided the means for extracting roots and solutions of equations of degree atmost six. Viete introduced the term "coefficient" in mathematics.

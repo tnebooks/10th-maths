@@ -2,6 +2,7 @@
 title: 'Rational Expressions'
 weight: 3
 ---
+{{< katex display >}}{{< /katex >}}
 
 # Rational Expressions
 
