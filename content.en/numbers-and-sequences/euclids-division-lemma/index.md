@@ -2,6 +2,7 @@
 title: 'Euclids Division Lemma'
 weight: 1
 ---
+{{< katex display >}}{{< /katex >}}
 
 # Euclid’s Division Lemma
 

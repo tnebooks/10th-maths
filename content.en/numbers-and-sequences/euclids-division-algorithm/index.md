@@ -2,9 +2,14 @@
 title: 'Euclids Division Algorithm'
 weight: 2
 ---
+<<<<<<< HEAD:content.en/numbers-and-sequences/euclids-division-algorithm/index.md
 
 
 # Euclid’s Division Algorithm
+=======
+{{< katex display >}}{{< /katex >}}
+## Euclid’s Division Algorithm
+>>>>>>> cd7627df52a8cb3492e7174b98c680e96d62c77a:content.en/numbers-and-sequences/euclids_division_algorithm.md
 In the previous section, we have studied about Euclid’s division lemma and its applications. We now study the concept Euclid’s Division Algorithm. The word         ‘algorithm’ comes from the name of 9 th century Persian Mathematician Al-khwarizmi. An algorithm means a series of methodical step-by-step procedure of calculating successively on the results of earlier steps till the desired answer is obtained.
 
 Euclid’s division algorithm provides an easier way to compute the Highest Common Factor (HCF) of two given positive integers. Let us now prove the following theorem.
