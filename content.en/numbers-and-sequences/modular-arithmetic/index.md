@@ -1,20 +1,19 @@
 ---
 title: 'Modular Arithmetic'
-weight: 5
+weight: 4
 ---
-<span style="color:pink"> 
 
 # Modular Arithmetic
-</span>
+
 
 ![modular](modular.png)
 <!-- <img src="introduction.png" alt="image" style="float:right; margin-right:10px;" /> -->
 
 In a clock, we use the numbers 1 to 12 to represent the time period of 24 hours. How is it possible to represent the 24 hours of a day in a 12 number format? We use 1 , 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 and after 12, we use 1 instead of 13 and 2 instead of 14 and so on. That is after 12 we again start from 1 , 2 , 3 ,... In this system the numbers wrap around 1 to 12 . This type of wrapping around after
-hitting some value is called <span style="color:pink">Modular Arithmetic.</span><br>
+hitting some value is called **Modular Arithmetic.**
 
 In Mathematics, modular arithmetic is a system of arithmetic for integers where numbers wrap around a certain value. Unlike normal arithmetic, Modular Arithmetic process cyclically. The ideas of Modular arithmetic was developed by great German
-mathematician <span style="color:pink">Carl Friedrich Gauss,</span> who is hailed as the <span style="color:pink">“Prince of mathematicians”.</span>
+mathematician **Carl Friedrich Gauss,**who is hailed as the **“Prince of mathematicians”.**
 
 **Examples**
 1. The day and night change repeatedly.
@@ -29,27 +28,40 @@ For example, {{<katex>}}61 \equiv 5{{</katex>}} (mod 7 ) because 61 – 5 = 56 i
 ![modular1](modular1.png)<br>
 Two illustrations are provided to understand modulo concept more clearly.
 
-**<div style="color:red">Illustration 1</div>**
+**Illustration 1**
 ![ill](1.png)
-To find 8 ( mod 4)<br>
-With a modulus of 4 (since the possible remainders are 0, 1, 2, 3 ) we make a diagram like a clock with numbers 0, 1, 2, 3. We start at 0 and go through 8 numbers in a clockwise sequence 1, 2, 3, 0, 1, 2, 3, 0. After doing so cyclically, we end at 0.<br>
+
+To find 8 ( mod 4)
+
+With a modulus of 4 (since the possible remainders are 0, 1, 2, 3 ) we make a diagram like a clock with numbers 0, 1, 2, 3. We start at 0 and go through 8 numbers in a clockwise sequence 1, 2, 3, 0, 1, 2, 3, 0. After doing so cyclically, we end at 0.
+
 Therefore, {{<katex>}}8 \equiv 0{{</katex>}} (mod 4 )
 
-**<div style="color:red">Illustration 2</div>**
-![ill](2.png)
-To find -5 ( mod 3)<br>
+**Illustration 2**
+
+To find -5 ( mod 3)
+
 With a modulus of 3 (since the possible remainders are 0, 1, 2 )
-we make a diagram like a clock with numbers 0, 1, 2. We start at 0 and go through 8 numbers in a anti-clockwise sequence 2, 1, 0, 2, 1. After doing so cyclically, we end at 1.<br>
+we make a diagram like a clock with numbers 0, 1, 2. We start at 0 and go through 8 numbers in a anti-clockwise sequence 2, 1, 0, 2, 1. After doing so cyclically, we end at 1.
+
 Therefore, {{<katex>}}-5 \equiv 1{{</katex>}}  (mod 3 )
 
 ## Connecting Euclid’s Division lemma and Modular Arithmetic
 Let m and n be integers, where m is positive. Then by Euclid’s division lemma, we can write n = mq + r where 0 ≤ r < m and q is an integer. Instead of writing n = mq + r we can use the congruence notation in the following way.
-We say that n is congruent to r modulo m ,if n = mq + r for some integer q .<br>
-n = mq + r<br>		
-n–r = mq<br>			
-n–r ≡  0 (mod m )<br>
+We say that n is congruent to r modulo m ,if n = mq + r for some integer q .
+
+n = mq + r
+
+n–r = mq	
+
+n–r ≡  0 (mod m )
+
 n ≡  r (mod m )
-Thus the equation n = mq + r through Euclid’s Division lemma can also be written as n ≡ r (mod m ).
+
+Thus the equation n = mq + r through Euclid’s Division lemma can also be written as
+
+n ≡ r (mod m ).
+
 ![note](modular2.png)
 ## Modulo operations
 
@@ -63,7 +75,7 @@ c≡d (mod m ) then
 (ii) ( a − c ) ≡ ( b − d ) (mod m )
 (iii) ( a × c ) ≡ ( b × d ) (mod m )
 
-**<div style="color:red">Illustration 3</div>**
+**Illustration 3**
 
 If 17≡4 (mod 13 ) and 42≡3 (mod 13 ) then from theorem 5,<br>
 (i). 17 + 42 ≡ 4+3(mod13)
@@ -209,36 +221,12 @@ Therefore, Vani's birthday must be on Wednesday.
 (ii) {{<katex>}}78+x \equiv 3(\bmod 5){{</katex>}}
 (iii) {{<katex>}}89 \equiv(x+3)(\bmod 4){{</katex>}}
 (iv) {{<katex>}}96 \equiv \frac{x}{7}(\bmod 5)(\mathrm{v}) 5 x \equiv 4(\bmod 6){{</katex>}}
-2. If x is congruent to 13 modulo 17 then 7 x-3 is congruent to which number modulo 17 ?
-3. Solve {{<katex>}}5 x \equiv 4(\bmod 6){{</katex>}}
-4. Solve {{<katex>}}3 x-2 \equiv 0(\bmod 11){{</katex>}}
-5. What is the time 100 hours after 7 a.m.?
-6. What is the time 15 hours before 11 p.m.?
-7. Today is Tuesday. My uncle will come after 45 days. In which day my uncle will be coming?
-8. Prove that {{<katex>}}2^{n}+6 \times 9^{n}{{</katex>}} is always divisible by 7 for any positive integer n.
-9. Find the remainder when {{<katex>}}2^{81}{{</katex>}} is divided by 17 .
-10. The duration of flight travel from Chennai to London through British Airlines is approximately 11 hours. The airplane begins its journey on Sunday at 23:30 hours. If the time at Chennai is four and half hours ahead to that of London's time, then find the time at London, when will the flight lands at London Airport.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. If x is congruent to 13 modulo 17 then 7 x-3 is congruent to which number modulo 17 ?
+2. Solve {{<katex>}}5 x \equiv 4(\bmod 6){{</katex>}}
+3. Solve {{<katex>}}3 x-2 \equiv 0(\bmod 11){{</katex>}}
+4. What is the time 100 hours after 7 a.m.?
+5. What is the time 15 hours before 11 p.m.?
+6. Today is Tuesday. My uncle will come after 45 days. In which day my uncle will be coming?
+7. Prove that {{<katex>}}2^{n}+6 \times 9^{n}{{</katex>}} is always divisible by 7 for any positive integer n.
+8. Find the remainder when {{<katex>}}2^{81}{{</katex>}} is divided by 17 .
+9.  The duration of flight travel from Chennai to London through British Airlines is approximately 11 hours. The airplane begins its journey on Sunday at 23:30 hours. If the time at Chennai is four and half hours ahead to that of London's time, then find the time at London, when will the flight lands at London Airport.

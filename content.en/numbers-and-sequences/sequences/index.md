@@ -1,42 +1,46 @@
 ---
 title: 'Sequences'
-weight: 6
+weight: 5
 ---
-<div style="color:purple">
+
 
 # Sequences
-</div>
+
 Consider the following pictures.
 
-![sequences](sequences.png) <br>
+![sequences](sequences.png)
+
 There is some pattern or arrangement in these pictures. In the first picture, the first row contains one apple, the second row contains two apples and in the third row there are three apples etc... The number of apples in each of the rows are 1, 2, 3, ...
 
-In the second picture each step have 0 . 5 feet height. The total height of the steps from the base are 0 . 5 feet, 1 feet, 1 . 5 feet,... In the third picture one square, 3 squares, 5 squares,These numbers belong to category called<span style="color:pink;">"sequences"</span><br>
+In the second picture each step have 0 . 5 feet height. The total height of the steps from the base are 0 . 5 feet, 1 feet, 1 . 5 feet,... In the third picture one square, 3 squares, 5 squares,These numbers belong to category called **"sequences"**
 
 **Definition**
-<div style= "border:1px solid red; padding:10px;">
-A <span style="color:pink;">real valued sequence</span> is a function defined on the set of natural numbers and taking real values.
-</div><br>
+
+A **real valued sequence** is a function defined on the set of natural numbers and taking real values.
 
 Each element in the sequence is called a term of the sequence. The element in the first position is called the first term of the sequence. The element in the second position is called second term of the sequence and so on.
 
-If the n<sup>th</sup> term is denoted by a<sub>n</sub> , then a<sub>1</sub> is the first term, a<sub>2</sub> is the second term, and so on.
-A sequence can be written as a<sub>1</sub>, a<sub>2</sub> , a<sub>3</sub> ,..., a<sub>n</sub> ,...
+If the {{<katex>}}n^{th}{{</katex>}} term is denoted by {{<katex>}}a^{n}{{</katex>}} , then {{<katex>}}a^{1}{{</katex>}} is the first term, {{<katex>}}a^{2}{{</katex>}} is the second term, and so on.
+A sequence can be written as {{<katex>}}a^{1}{{</katex>}}, {{<katex>}}a^{2}{{</katex>}}, {{<katex>}}a^{3}{{</katex>}} ,..., {{<katex>}}a^{n}{{</katex>}} ,...
 
-**<span style="color:red">Illustration</span>**
+**Illustration**
 
-1. 1, 3, 5, 7 ,... is a sequence with general term a<sub>n</sub> = 2n − 1 . When we put n = 1, 2, 3 ,..., we get a<sub>1</sub> =1, a<sub>2</sub> = 3, a<sub>3</sub> = 5 , a<sub>n</sub>= 7 ,...
-2. 1/2,1/3,1/4,1/5,....is a sequence with general term 1/(n+1). When we put n = 1, 2, 3,.... we get a<sub>1</sub>=1/2, a<sub>2</sub>=1/3, a<sub>3</sub>=1/4, a<sub>4</sub>=1/5,......
+1. 1, 3, 5, 7 ,... is a sequence with general term {{<katex>}}a_{n}{{</katex>}} = 2n − 1 . When we put n = 1, 2, 3 ,..., we get {{<katex>}}a_{1}{{</katex>}} =1, {{<katex>}}a_{2}{{</katex>}} = 3, {{<katex>}}a_{3}{{</katex>}} = 5 , {{<katex>}}a_{n}{{</katex>}}= 7 ,...
+2. 1/2,1/3,1/4,1/5,....is a sequence with general term 1/(n+1). When we put n = 1, 2, 3,.... we get {{<katex>}}a_{1}{{</katex>}}=1/2, {{<katex>}}a_{2}{{</katex>}}=1/3, {{<katex>}}a_{3}{{</katex>}}=1/4, {{<katex>}}a_{4}{{</katex>}}=1/5,......
 
-If the number of elements in a sequence is finite then it is called a <span style="color:pink">Finite sequence.</span><br>
-If the number of elements in a sequence is infinite then it is called an <span style="color:pink">Infinite sequence.</span>
+If the number of elements in a sequence is finite then it is called a Finite sequence.
 
-**<span style="color:blue">Sequence as a Function</span>**
+If the number of elements in a sequence is infinite then it is called an Infinite sequence.
 
-A sequence can be considered as a function defined on the set of natural numbers **N** . In particular, a sequence is a function<br>
+**Sequence as a Function**
+
+![](6.png)
+
+A sequence can be considered as a function defined on the set of natural numbers **N** . In particular, a sequence is a function
+
 f:**N->R**, where **R** is the set of all real numbers.
 
-If the sequence is of the form a1, a2, a3,... then we can associate the function to the sequence a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub> ,... by f ( k ) = a<sub>k</sub>, k =1 ,2 ,3 ,...
+If the sequence is of the form a1, a2, a3,... then we can associate the function to the sequence {{<katex>}}a_{1}{{</katex>}}, {{<katex>}}a_{2}{{</katex>}}, {{<katex>}}a_{3}{{</katex>}},... by f ( k ) = {{<katex>}}a_{k}{{</katex>}}, k =1 ,2 ,3 ,...
 
 ![Progress check](sequence2.png)
 
@@ -46,7 +50,7 @@ If the sequence is of the form a1, a2, a3,... then we can associate the function
 (ii) {{<katex>}}5,2,-1,-4, \ldots{{</katex>}}
 (iii) {{<katex>}}1,0.1,0.01, \ldots{{</katex>}}
 
-*Solution*
+***Solution***
 
 (i) 
 ![Sol](1.png)
@@ -85,7 +89,7 @@ Here each term is divided by 10. Hence, the next three terms are
 (ii) {{<katex>}}\frac{1}{2}, \frac{2}{3}, \frac{3}{4}, \ldots{{</katex>}}
 (iii) {{<katex>}}5,-25,125, \ldots{{</katex>}}
 
-## Solution 
+***Solution*** 
 (i) {{<katex>}}3,6,9, \ldots{{</katex>}}
 
 Here the terms are multiples of 3 . So the general term is {{<katex>}}a_{n}=3 n{{</katex>}},
@@ -114,7 +118,7 @@ n^{2}+1 \quad ; n \in \mathbb{N} \text { is even }
 
 Find the eleventh and eighteenth terms.
 
-Solution To find {{<katex>}}a_{11}{{</katex>}}, since 11 is odd, we put n=11 in {{<katex>}}a_{n}=n(n+3){{</katex>}}
+***Solution*** To find {{<katex>}}a_{11}{{</katex>}}, since 11 is odd, we put n=11 in {{<katex>}}a_{n}=n(n+3){{</katex>}}
 
 Thus, the eleventh term {{<katex>}}\quad a_{11}=11(11+3)=154{{</katex>}}.
 
@@ -128,7 +132,7 @@ Thus, the eighteenth term {{<katex>}}\quad a_{18}=18^{2}+1=325{{</katex>}}
 a_{1}=1, a_{2}=1, a_{n}=\frac{a_{n-1}}{a_{n-2}+3} ; n \geq 3, n \in \mathbb{N}
 {{</katex>}}
 
-*Solution* The first two terms of this sequence are given by {{<katex>}}a_{1}=1, a_{2}=1{{</katex>}}. The third term {{<katex>}}a_{3}{{</katex>}} depends on the first and second terms.
+***Solution*** The first two terms of this sequence are given by {{<katex>}}a_{1}=1, a_{2}=1{{</katex>}}. The third term {{<katex>}}a_{3}{{</katex>}} depends on the first and second terms.
 
 
 {{<katex>}}
@@ -155,19 +159,19 @@ Therefore, the first five terms of the sequence are {{<katex>}}1,1, \frac{1}{4},
 (i) {{<katex>}}8,24,72, \ldots{{</katex>}}
 (ii) {{<katex>}}5,1,-3, \ldots{{</katex>}}
 (iii) {{<katex>}}\frac{1}{4}, \frac{2}{9}, \frac{3}{16}, \ldots{{</katex>}}
-2. Find the first four terms of the sequences whose {{<katex>}}n^{\text {th }}{{</katex>}} terms are given by
+1. Find the first four terms of the sequences whose {{<katex>}}n^{\text {th }}{{</katex>}} terms are given by
 (i) {{<katex>}}a_{n}=n^{3}-2{{</katex>}}
 (ii) {{<katex>}}a_{n}=(-1)^{n+1} n(n+1){{</katex>}}
 (iii) {{<katex>}}a_{n}=2 n^{2}-6{{</katex>}}
-3. Find the {{<katex>}}n^{\text {th }}{{</katex>}} term of the following sequences
+1. Find the {{<katex>}}n^{\text {th }}{{</katex>}} term of the following sequences
 (i) {{<katex>}}2,5,10,17, \ldots{{</katex>}}
 (ii) {{<katex>}}0, \frac{1}{2}, \frac{2}{3}, \ldots{{</katex>}}
 (iii) {{<katex>}}3,8,13,18, \ldots{{</katex>}}
-4. Find the indicated terms of the sequences whose {{<katex>}}n^{\text {th }}{{</katex>}} terms are given by
+1. Find the indicated terms of the sequences whose {{<katex>}}n^{\text {th }}{{</katex>}} terms are given by
 (i) {{<katex>}}a_{n}=\frac{5 n}{n+2} ; a_{6}{{</katex>}} and {{<katex>}}a_{13}{{</katex>}}
 (ii) {{<katex>}}a_{n}=-\left(n^{2}-4\right) ; a_{4}{{</katex>}} and {{<katex>}}a_{11}{{</katex>}}
-5. Find {{<katex>}}a_{8}{{</katex>}} and {{<katex>}}a_{15}{{</katex>}} whose {{<katex>}}n^{\text {th }}{{</katex>}} term is {{<katex>}}a_{n}= \begin{cases}\frac{n^{2}-1}{n+3} & ; n \text { is even, } n \in \mathbb{N} \\ \frac{n^{2}}{2 n+1} & ; n \text { is odd, } n \in \mathbb{N}\end{cases}{{</katex>}}
-6. If {{<katex>}}a_{1}=1, a_{2}=1{{</katex>}} and {{<katex>}}a_{n}=2 a_{n-1}+a_{n-2,} n \geq 3, n \in \mathbb{N}{{</katex>}}, then find the first six terms of the sequence.
+1. Find {{<katex>}}a_{8}{{</katex>}} and {{<katex>}}a_{15}{{</katex>}} whose {{<katex>}}n^{\text {th }}{{</katex>}} term is {{<katex>}}a_{n}= \begin{cases}\frac{n^{2}-1}{n+3} & ; n \text { is even, } n \in \mathbb{N} \\ \frac{n^{2}}{2 n+1} & ; n \text { is odd, } n \in \mathbb{N}\end{cases}{{</katex>}}
+2. If {{<katex>}}a_{1}=1, a_{2}=1{{</katex>}} and {{<katex>}}a_{n}=2 a_{n-1}+a_{n-2,} n \geq 3, n \in \mathbb{N}{{</katex>}}, then find the first six terms of the sequence.
 
 
 
