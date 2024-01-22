@@ -13,29 +13,29 @@ presenting, analysing data and making meaningful decisions. In earlier classes w
 
 
 
-#### Recall
-#### Measures of Central Tendency
+**Recall**
 
-It is often convenient to have one number that represent the whole data. Such a number is called a **<span style="color:deeppink">Measures of Central Tendency.</span>**
+**Measures of Central Tendency**
+
+It is often convenient to have one number that represent the whole data. Such a number is called a Measures of Central Tendency.
 ![Figure with 50%](image-3.png "w-50 float-right")
-<p>The Measures of Central Tendency usually will be 
-near to the middle value of the data. For a given data there 
-exist several types of measures of central tendencies.
-<p>The most common among them are
-• Arithmetic Mean • Median • Mode</p>
-
+The Measures of Central Tendency usually will be near to the middle value of the data. For a given data there exist several types of measures of central tendencies.
+The most common among them are 
+• Arithmetic Mean • Median • Mode
 ![](image27.png)
 
 In this class we have to recall the Arithmetic Mean.
 
-**<span style="color:blue">Arithmetic Mean</span>**
-The Arithmetic Mean or Mean of the given values is ![Figure with 50%](image-4.png "float-right")"/> sum of all the observations divided by the total number of observations. It is denoted by $x$ (pronounced as $x$ bar)
-$x$ = $\displaystyle \frac{Sum of all the observations}{Number of observations}$
+**Arithmetic Mean**
+
+The Arithmetic Mean or Mean of the given values is sum of all the observations divided by the total number of observations. It is denoted by {{< katex >}}x{{< /katex >}} (pronounced as {{< katex >}}x{{< /katex >}} bar) 
+{{< katex >}}x = \displaystyle \frac{Sum of all the observations}{Number of observations}{{< /katex >}}
+
+![Figure with 50%](image-4.png "float-right")
 
 ![](image26.png)
 
-We apply the respective formulae depending upon the information provided in the problem.
-<br>
+We apply the respective formulae depending upon the information provided in the problem. <br>
 
 ![Alt text](image-5.png)
 
