@@ -2,7 +2,6 @@
 title: 'JulySimultaneous Linear Equations in Three Variables '
 weight: 1
 ---
-{{< katex display >}}{{< /katex >}}
 
 # Simultaneous Linear Equations in Two Variables
 
