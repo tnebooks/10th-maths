@@ -1,0 +1,463 @@
+#!/usr/bin/env sh
+# ------------------------------------------------------------------------------
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Hugo Wrapper (v1.6.0)
+#
+# Hugo Wrapper is a POSIX-style shell script which acts as a wrapper to download
+# and execute Hugo binary for your platform. It  can  be  executed in variety of
+# Operating  Systems  and  Command  Shells. As a  result, hugow has very minimal
+# number of dependencies:
+#
+#  downloader: wget or curl
+#  checksum  : sha256sum or shasum or cksum
+#  tarball   : tar
+#
+# https://github.com/khos2ow/hugo-wrapper
+# ------------------------------------------------------------------------------
+
+set -e
+
+VERSION_NUMBER="v1.6.0"
+
+# hugo-wrapper command available flags
+get_version=""
+get_latest=false
+get_extended=false
+upgrade=false
+version=false
+show_help=false
+
+# hugo related commands to pass through the actual binary
+HUGO_ARGS=""
+
+while [ -n "{{<katex>}}1" ]; do
+    case "{{<katex>}}1" in
+    --get-version)
+        get_version={{<katex>}}2
+        shift 2
+        ;;
+    --get-latest)
+        get_latest=true
+        shift 1
+        ;;
+    --get-extended)
+        get_extended=true
+        shift 1
+        ;;
+    --upgrade)
+        upgrade=true
+        shift 1
+        ;;
+    --version)
+        version=true
+        shift 1
+        ;;
+    -h | --help)
+        show_help=true
+        shift 1
+        ;;
+
+    *)
+        HUGO_ARGS="{{<katex>}}HUGO_ARGS {{<katex>}}1"
+        shift 1
+        ;;
+    esac
+done
+
+# shellcheck disable=SC2086
+set -- {{<katex>}}HUGO_ARGS
+
+if [ "{{<katex>}}upgrade" = true ]; then
+    if [ "{{<katex>}}get_extended" = true ] || [ "{{<katex>}}get_latest" = true ] || [ -n "{{<katex>}}get_version" ]; then
+        echo "Error: Flag --upgrade cannot be used together with --get-extended, --get-version or --get-latest"
+        exit 1
+    fi
+else
+    if [ "{{<katex>}}get_latest" = true ] && [ -n "{{<katex>}}get_version" ]; then
+        echo "Error: Flags --get-version and --get-latest cannot be used together"
+        exit 1
+    fi
+fi
+
+# normalizing get_version
+get_version_base="{{<katex>}}(echo "{{<katex>}}get_version" | cut -d "/" -f1)"
+get_version_extended="{{<katex>}}(echo "{{<katex>}}get_version" | cut -d "/" -f2)"
+
+get_version="{{<katex>}}get_version_base"
+
+if [ "{{<katex>}}get_version_extended" = "extended" ]; then
+    get_extended=true
+fi
+
+# check which download command (wget or curl) is available.
+DOWNLOAD_COMMAND=""
+DOWNLOAD_OUTPUT=""
+DOWNLOAD_SILENT=""
+DOWNLOAD_REDIRECT=""
+
+if command -v wget >/dev/null; then
+    DOWNLOAD_COMMAND="wget"
+    DOWNLOAD_OUTPUT="-O"
+    DOWNLOAD_SILENT="-q"
+    DOWNLOAD_REDIRECT=""
+elif command -v curl >/dev/null; then
+    DOWNLOAD_COMMAND="curl"
+    DOWNLOAD_OUTPUT="-o"
+    DOWNLOAD_SILENT="-s"
+    DOWNLOAD_REDIRECT="-L"
+else
+    echo "Error: Unable to find 'wget' or 'curl' command."
+    exit 1
+fi
+
+# OS type
+os_type=""
+
+case "{{<katex>}}(uname -s)" in
+Darwin) os_type="macOS" ;;
+Linux) os_type="Linux" ;;
+DragonFly) os_type="DragonFlyBSD" ;;
+FreeBSD) os_type="FreeBSD" ;;
+NetBSD) os_type="NetBSD" ;;
+OpenBSD) os_type="OpenBSD" ;;
+    # CYGWIN*     os_type="Windows" ;;
+    # MINGW*)     os_type="Windows" ;;
+    # Windows_NT) os_type="Windows" ;;
+esac
+
+# OS architecture
+os_arch=""
+
+case "{{<katex>}}(uname -m)" in
+x86) os_arch="32bit" ;;
+x86_64) os_arch="64bit" ;;
+amd64) os_arch="64bit" ;;
+armv7l) os_arch="ARM" ;;
+armv8) os_arch="ARM64" ;;
+arm64) os_arch="ARM64" ;;
+esac
+
+if [ -z "{{<katex>}}os_type" ] || [ -z "{{<katex>}}os_arch" ]; then
+    echo "Error: Unknown OS type or architecture"
+    exit 1
+fi
+
+# ------------------------------------------------------------------------------
+# traverses directory structure from process work directory to filesystem root
+# first directory with .hugo subdirectory is considered project base directory
+# ------------------------------------------------------------------------------
+find_basedir() {
+    if [ -z "{{<katex>}}1" ]; then
+        echo "Error: Path not specified to find_basedir"
+        return 1
+    fi
+
+    basedir="{{<katex>}}1"
+    wdir="{{<katex>}}1"
+    while [ "{{<katex>}}wdir" != '/' ]; do
+        if [ -d "{{<katex>}}wdir"/.hugo ]; then
+            basedir={{<katex>}}wdir
+            break
+        fi
+        if [ -d "{{<katex>}}{wdir}" ]; then
+            wdir={{<katex>}}(
+                cd "{{<katex>}}wdir/.."
+                pwd
+            )
+        fi
+    done
+    echo "{{<katex>}}{basedir}"
+}
+
+BASE_DIR={{<katex>}}(find_basedir "{{<katex>}}(pwd)")
+if [ -z "{{<katex>}}BASE_DIR" ]; then
+    echo "Error: Unable to find base directory."
+    exit 1
+fi
+
+if [ ! -d "{{<katex>}}BASE_DIR/.hugo" ]; then
+    mkdir -p "{{<katex>}}BASE_DIR/.hugo"
+else
+    if [ -r "{{<katex>}}BASE_DIR/.hugo/hugo" ] && [ ! -s "{{<katex>}}BASE_DIR/.hugo/hugo" ]; then
+        rm "{{<katex>}}BASE_DIR/.hugo/hugo"
+    fi
+    if [ -r "{{<katex>}}BASE_DIR/.hugo/version" ] && [ ! -s "{{<katex>}}BASE_DIR/.hugo/version" ]; then
+        rm "{{<katex>}}BASE_DIR/.hugo/version"
+    fi
+fi
+
+parse_json() {
+    json="{{<katex>}}1"
+    field="{{<katex>}}2"
+
+    if [ -z "{{<katex>}}json" ]; then
+        echo ""
+    elif [ -z "{{<katex>}}field" ]; then
+        echo ""
+    fi
+
+    temp={{<katex>}}(echo "{{<katex>}}json" | sed 's/\\\\\//\//g' | sed 's/[{}]//g' | awk -v k="text" '{n=split({{<katex>}}0,a,","); for (i=1; i<=n; i++) print a[i]}' | sed 's/\"\:\"/\|/g' | sed 's/[\,]/ /g' | sed 's/\"//g' | grep -w "{{<katex>}}field")
+
+    echo "{{<katex>}}{temp##*|//{{<katex>}}{field}: /}"
+}
+
+perform_checksum() {
+    if [ -n "{{<katex>}}1" ]; then
+        if command -v sha256sum >/dev/null; then
+            echo "{{<katex>}}1" | sha256sum -c >/dev/null
+        elif command -v shasum >/dev/null; then
+            echo "{{<katex>}}1" | shasum --algorithm 256 --check >/dev/null
+        elif command -v cksum >/dev/null; then
+            echo "{{<katex>}}1" | cksum -a SHA256 -c >/dev/null
+        else
+            echo "Error: cannot find any checksum command"
+            exit 1
+        fi
+    fi
+}
+
+remove_file() {
+    if [ -n "{{<katex>}}1" ] && [ "{{<katex>}}1" != "/" ] && [ -f "{{<katex>}}1" ] && [ -r "{{<katex>}}1" ]; then
+        rm "{{<katex>}}1"
+    fi
+}
+
+download_version() {
+    versionToDownload="{{<katex>}}1"
+    isExtended="{{<katex>}}2"
+
+    if [ -n "{{<katex>}}versionToDownload" ]; then
+        majorVersion={{<katex>}}(echo "{{<katex>}}{versionToDownload}" | cut -d. -f1)
+        minorVersion={{<katex>}}(echo "{{<katex>}}{versionToDownload}" | cut -d. -f2)
+        filenamePrefix="hugo"
+        checksumFilenamePrefix="{{<katex>}}{filenamePrefix}"
+        versionDownloadSuffix=""
+
+        if [ "{{<katex>}}isExtended" = true ]; then
+            if [ "{{<katex>}}versionToDownload" != "LATEST" ] && [ "{{<katex>}}majorVersion" -eq 0 ] && [ "{{<katex>}}minorVersion" -lt 56 ]; then
+                checksumFilenamePrefix="hugo_extended"
+            fi
+
+            filenamePrefix="hugo_extended"
+            versionDownloadSuffix="/extended"
+        fi
+
+        if [ "{{<katex>}}versionToDownload" = "LATEST" ]; then
+            latest_release={{<katex>}}({{<katex>}}DOWNLOAD_COMMAND {{<katex>}}DOWNLOAD_SILENT {{<katex>}}DOWNLOAD_REDIRECT {{<katex>}}{DOWNLOAD_OUTPUT}- https://api.github.com/repos/gohugoio/hugo/releases/latest)
+            versionToDownload={{<katex>}}(parse_json "{{<katex>}}latest_release" "tag_name")
+        fi
+
+        # strip down 'v' from begining of the string if exists
+        versionToDownload={{<katex>}}(echo "{{<katex>}}versionToDownload" | sed -ne 's/[^0-9]*\(\([0-9]*\.\)\{0,4\}[0-9]*\(\/extended\)*\).*/\1/p')
+
+        printf "downloading hugo binary version v%s%s ... " "{{<katex>}}{versionToDownload}" "{{<katex>}}{versionDownloadSuffix}"
+
+        # download for specific OS and architecture
+        binaryUrl="https://github.com/gohugoio/hugo/releases/download/v{{<katex>}}{versionToDownload}/{{<katex>}}{filenamePrefix}_{{<katex>}}{versionToDownload}_{{<katex>}}{os_type}-{{<katex>}}{os_arch}.tar.gz"
+        checksumUrl="https://github.com/gohugoio/hugo/releases/download/v{{<katex>}}{versionToDownload}/{{<katex>}}{checksumFilenamePrefix}_{{<katex>}}{versionToDownload}_checksums.txt"
+
+        tarballName="{{<katex>}}{filenamePrefix}_{{<katex>}}{versionToDownload}_{{<katex>}}{os_type}-{{<katex>}}{os_arch}.tar.gz"
+        tarballPath="{{<katex>}}BASE_DIR/.hugo/{{<katex>}}{tarballName}"
+        checksumName="checksum.txt"
+        checksumPath="{{<katex>}}BASE_DIR/.hugo/{{<katex>}}{checksumName}"
+
+        {{<katex>}}DOWNLOAD_COMMAND {{<katex>}}DOWNLOAD_SILENT {{<katex>}}DOWNLOAD_REDIRECT {{<katex>}}DOWNLOAD_OUTPUT "{{<katex>}}tarballPath" "{{<katex>}}binaryUrl" &
+        {{<katex>}}DOWNLOAD_COMMAND {{<katex>}}DOWNLOAD_SILENT {{<katex>}}DOWNLOAD_REDIRECT {{<katex>}}DOWNLOAD_OUTPUT "{{<katex>}}checksumPath" "{{<katex>}}checksumUrl" &
+        wait
+
+        if [ -s "{{<katex>}}tarballPath" ] && [ -s "{{<katex>}}checksumPath" ]; then
+            printf "[done]\n"
+        else
+            printf "[failed]\n"
+            remove_file "{{<katex>}}checksumPath"
+            remove_file "{{<katex>}}tarballPath"
+            exit 1
+        fi
+
+        printf "verifying hugo binary version v%s%s ..... " "{{<katex>}}{versionToDownload}" "{{<katex>}}{versionDownloadSuffix}"
+        cd "{{<katex>}}BASE_DIR/.hugo/"
+        perform_checksum "{{<katex>}}(grep "{{<katex>}}{tarballName}" "{{<katex>}}BASE_DIR/.hugo/{{<katex>}}checksumName")"
+        cd - >/dev/null 2>&1
+        wait
+        printf "[done]\n"
+
+        printf "unzipping hugo binary version v%s%s ..... " "{{<katex>}}{versionToDownload}" "{{<katex>}}{versionDownloadSuffix}"
+        if [ -f "{{<katex>}}{tarballPath}" ] && [ -r "{{<katex>}}{tarballPath}" ]; then
+            tar --directory="{{<katex>}}BASE_DIR/.hugo/" -xzf "{{<katex>}}{tarballPath}" 2>&1
+            wait
+            printf "[done]\n"
+        else
+            printf "[failed]\n"
+            remove_file "{{<katex>}}checksumPath"
+            remove_file "{{<katex>}}tarballPath"
+            exit 1
+        fi
+
+        # save the downloaded binary version into {{<katex>}}BASE_DIR/.hugo/version
+        echo "{{<katex>}}{versionToDownload}{{<katex>}}{versionDownloadSuffix}" >"{{<katex>}}BASE_DIR/.hugo/version"
+
+        # cleanup after extraction
+        remove_file "{{<katex>}}checksumPath"
+        remove_file "{{<katex>}}tarballPath"
+        remove_file "{{<katex>}}BASE_DIR/.hugo/LICENSE"
+        remove_file "{{<katex>}}BASE_DIR/.hugo/README.md"
+    fi
+}
+
+# ------------------------------------------------------------------------------
+# upgrade hugo wrapper binary and save it as {{<katex>}}{BASE_DIR}/hugow
+# ------------------------------------------------------------------------------
+if [ "{{<katex>}}version" = true ]; then
+    echo "Hugo Wrapper {{<katex>}}VERSION_NUMBER"
+    exit
+fi
+
+# ------------------------------------------------------------------------------
+# upgrade hugo wrapper binary and save it as {{<katex>}}{BASE_DIR}/hugow
+# ------------------------------------------------------------------------------
+if [ "{{<katex>}}upgrade" = true ]; then
+    printf "downloading hugow binary ... "
+
+    latest_release={{<katex>}}({{<katex>}}DOWNLOAD_COMMAND {{<katex>}}DOWNLOAD_SILENT {{<katex>}}DOWNLOAD_REDIRECT {{<katex>}}{DOWNLOAD_OUTPUT}- https://api.github.com/repos/khos2ow/hugo-wrapper/releases/latest)
+    versionToDownload={{<katex>}}(parse_json "{{<katex>}}latest_release" "tag_name")
+
+    {{<katex>}}DOWNLOAD_COMMAND {{<katex>}}DOWNLOAD_SILENT {{<katex>}}DOWNLOAD_REDIRECT {{<katex>}}DOWNLOAD_OUTPUT "hugow" "https://github.com/khos2ow/hugo-wrapper/releases/download/{{<katex>}}{versionToDownload}/hugow" &
+    wait
+    printf "[done]\n"
+    chmod +x hugow
+    exit
+fi
+
+# ------------------------------------------------------------------------------
+# download hugo binary and save it as {{<katex>}}{BASE_DIR}/.hugo/hugo
+# ------------------------------------------------------------------------------
+if [ -r "{{<katex>}}BASE_DIR/.hugo/hugo" ]; then
+    current_binary_version={{<katex>}}("{{<katex>}}BASE_DIR/.hugo/hugo" version | sed -ne 's/[^0-9]*\(\([0-9]*\.\)\{0,4\}[0-9]*\(-[0-9a-fA-F]*\)*\([/+]extended\)*\).*/\1/p' | sed 's/-[0-9A-Fa-f]*//p' | sed 's/^ *//;s/ *{{<katex>}}//' | sed 's/+extended/\/extended/' | uniq)
+
+    if [ "{{<katex>}}get_extended" = true ]; then
+        suffix_extended_version="/extended"
+    fi
+
+    # download hugo binary and save it as {{<katex>}}{BASE_DIR}/.hugo/hugo
+    if [ -n "{{<katex>}}get_version" ]; then
+        if [ "{{<katex>}}{get_version}{{<katex>}}{suffix_extended_version}" != "{{<katex>}}current_binary_version" ]; then
+            # specified hugo version
+            download_version "{{<katex>}}get_version" {{<katex>}}get_extended
+        else
+            echo "hugo binary version {{<katex>}}{get_version}{{<katex>}}{suffix_extended_version} already exists"
+            echo "{{<katex>}}{get_version}{{<katex>}}{suffix_extended_version}" >"{{<katex>}}BASE_DIR/.hugo/version"
+        fi
+    elif [ {{<katex>}}get_latest = true ]; then
+        latest_release={{<katex>}}({{<katex>}}DOWNLOAD_COMMAND {{<katex>}}DOWNLOAD_SILENT {{<katex>}}DOWNLOAD_REDIRECT {{<katex>}}{DOWNLOAD_OUTPUT}- https://api.github.com/repos/gohugoio/hugo/releases/latest)
+        latest_version={{<katex>}}(parse_json "{{<katex>}}latest_release" "tag_name" | sed -ne 's/[^0-9]*\(\([0-9]*\.\)\{0,4\}[0-9]*\(\/extended\)*\).*/\1/p')
+
+        if [ "{{<katex>}}{latest_version}{{<katex>}}{suffix_extended_version}" != "{{<katex>}}current_binary_version" ]; then
+            # latest hugo version
+            download_version "{{<katex>}}latest_version" {{<katex>}}get_extended
+        else
+            echo "latest hugo binary version {{<katex>}}{latest_version}{{<katex>}}{suffix_extended_version} already exists"
+            echo "{{<katex>}}{latest_version}{{<katex>}}{suffix_extended_version}" >"{{<katex>}}BASE_DIR/.hugo/version"
+        fi
+    elif [ -r "{{<katex>}}BASE_DIR/.hugo/version" ]; then
+        current_file_version="{{<katex>}}(cat "{{<katex>}}BASE_DIR/.hugo/version")"
+
+        if [ "{{<katex>}}current_file_version" != "{{<katex>}}current_binary_version" ]; then
+            version_from_file="{{<katex>}}(echo "{{<katex>}}current_file_version" | cut -d "/" -f1)"
+            extended_from_file="{{<katex>}}(echo "{{<katex>}}current_file_version" | cut -d "/" -f2)"
+
+            if [ "{{<katex>}}{extended_from_file}" = "extended" ]; then
+                isExtended=true
+            else
+                isExtended=false
+            fi
+
+            # specified hugo version
+            download_version "{{<katex>}}version_from_file" {{<katex>}}isExtended
+        fi
+    else
+        # save the current binary version into {{<katex>}}BASE_DIR/.hugo/version
+        echo "{{<katex>}}current_binary_version" >"{{<katex>}}BASE_DIR/.hugo/version"
+    fi
+else
+    if [ -n "{{<katex>}}get_version" ]; then
+        # specified hugo version
+        download_version "{{<katex>}}get_version" {{<katex>}}get_extended
+    elif [ {{<katex>}}get_latest = true ]; then
+        # latest hugo version
+        download_version "LATEST" {{<katex>}}get_extended
+    elif [ -r "{{<katex>}}BASE_DIR/.hugo/version" ]; then
+        # specified hugo version
+        version_from_file="{{<katex>}}(cut -d "/" -f1 < "{{<katex>}}BASE_DIR/.hugo/version")"
+        extended_from_file="{{<katex>}}(cut -d "/" -f2 < "{{<katex>}}BASE_DIR/.hugo/version")"
+
+        if [ "{{<katex>}}{extended_from_file}" = "extended" ]; then
+            isExtended=true
+        else
+            isExtended=false
+        fi
+
+        download_version "{{<katex>}}{version_from_file}" {{<katex>}}isExtended
+    else
+        # latest hugo version
+        download_version "LATEST" {{<katex>}}get_extended
+    fi
+fi
+
+# ------------------------------------------------------------------------------
+# only download binary and not execute hugo related command
+# ------------------------------------------------------------------------------
+if [ "{{<katex>}}get_latest" = true ] || [ -n "{{<katex>}}get_version" ]; then
+    "{{<katex>}}{BASE_DIR}/.hugo/hugo" version
+    exit
+fi
+
+# ------------------------------------------------------------------------------
+# Show help, both from hugow and {{<katex>}}{BASE_DIR}/.hugo/hugo
+# ------------------------------------------------------------------------------
+if [ {{<katex>}}show_help = true ]; then
+    help={{<katex>}}("{{<katex>}}{BASE_DIR}/.hugo/hugo" --help)
+    cat <<USAGE
+hugow is the universal wrapper for hugo main command.
+
+Hugo is a Fast and Flexible Static Site Generator
+built with love by spf13 and friends in Go.
+
+Complete documentation is available at http://gohugo.io/.
+
+Flags:
+      --get-extended               get hugo extended binary
+      --get-latest                 get latest version of hugo binary
+      --get-version string         get specified version of hugo binary
+      --upgrade                    upgrade hugo wrapper binary itself
+      --version                    show version of hugo wrapper binary itself
+  -h, --help                       help for hugo-wrapper
+
+--------
+
+{{<katex>}}help
+USAGE
+    exit 0
+fi
+
+# ------------------------------------------------------------------------------
+# pass commands and flags to actual hugo binary
+# ------------------------------------------------------------------------------
+"{{<katex>}}{BASE_DIR}/.hugo/hugo" "{{<katex>}}@"
