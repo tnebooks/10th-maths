@@ -3,8 +3,6 @@ title: 'Relations and Functions'
 weight: 1
 ---
 
-<<<<<<< HEAD
-
 # UNIT 1:RELATIONS AND FUNCTIONS
 
 > "Mathematicians do not study objects, but relations between objects ... Content to them is irrelevant: they are interested in form only" – Henri Poincare
@@ -45,6 +43,4 @@ It is quite interesting to note that most of the day-to-day situations can be re
 - The area of polygons and volume of common objects like circle, right circular cone, right circular cylinder, sphere can be expressed as a function with one or more variables.
 
 In class IX, we had studied the concept of sets. We have also seen how to form new sets from the given sets by taking union, intersection and complementation. Now we are about to study a new set called **"cartesian product"** for the given sets A and B.
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b
+---

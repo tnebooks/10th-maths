@@ -3,7 +3,6 @@ title: 'Identifying the Graphs of Linear, Quadratic, Cubic and Reciprocal Functi
 weight: 9
 ---
 
-<<<<<<< HEAD
 ## 1.10.1 Linear Function
 
 A function f: ℝ → ℝ defined by **f(x) = mx + c, m ≠ 0** is called a **linear function**. Geometrically this represents a straight line in the graph.
@@ -305,6 +304,3 @@ You can repeat the same steps for other activities
 **URL:** https://www.geogebra.org/m/jfr2zzgy#chapter/356191
 
 ---
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b

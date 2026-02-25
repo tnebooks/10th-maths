@@ -3,7 +3,6 @@ title: 'Functions'
 weight: 4
 ---
 
-<<<<<<< HEAD
 ## 1.5 Functions
 
 Among several relations that exist between two non-empty sets, some special relations are important for further exploration. Such relations are called **"Functions"**.
@@ -277,6 +276,3 @@ f(x+1) = 2(x+1) - (x+1)² = 2x + 2 - (x² + 2x + 1) = **-x² + 1**
    (iv) Find the length of forehand of a person if the height is 53.3 inches.
 
 ---
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b

@@ -2,7 +2,6 @@
 title: 'Cartesian Product'
 weight: 2
 ---
-<<<<<<< HEAD
 
 
 # 1.3 Cartesian Product
@@ -265,6 +264,3 @@ In general if we join the cartesian product of two non-empty sets provides a sha
    - (ii) A × (B - C) = (A × B) - (A × C)
 
 ---
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b

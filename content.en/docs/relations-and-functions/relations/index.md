@@ -3,8 +3,6 @@ title: 'Relations'
 weight: 3
 ---
 
-<<<<<<< HEAD
-
 ## 1.4 Relations
 
 Many day-to-day occurrences involve two objects that are connected with each other by some rule of correspondence. We say that the two objects are related under the specified rule. How shall we represent it? Here are some examples:
@@ -221,6 +219,3 @@ A relation which contains no element is called a **"Null relation"**.
 5. A company has four categories of employees given by Assistants (A), Clerks (C), Managers (M) and an Executive Officer (E). The company provide ₹10,000, ₹25,000, ₹50,000 and ₹1,00,000 as salaries to the people who work in the categories A, C, M and E respectively. If A₁, A₂, A₃, A₄ and A₅ were Assistants; C₁, C₂, C₃, C₄ were Clerks; M₁, M₂, M₃ were managers and E₁, E₂ were Executive officers and if the relation R is defined by x R y, where x is the salary given to person y, express the relation R through an ordered pair and an arrow diagram.
 
 ---
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b

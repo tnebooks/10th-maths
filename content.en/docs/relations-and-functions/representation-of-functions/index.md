@@ -3,8 +3,6 @@ title: 'Representation of Functions'
 weight: 5
 ---
 
-<<<<<<< HEAD
-
 ## 1.6 Representation of Functions
 
 A function may be represented by:
@@ -111,6 +109,3 @@ A = {1, 2, 3, 4}; B = {2, 5, 8, 11, 14}; f(x) = 3x - 1
 In the XY-plane the points (1,2), (2,5), (3,8), (4,11) are plotted (Fig. 1.20).
 
 ---
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b

@@ -3,7 +3,7 @@ title: 'Composition of Functions'
 weight: 8
 ---
 
-<<<<<<< HEAD
+
 ## 1.9 Composition of Functions
 
 When a car driver depresses the accelerator pedal, it controls the flow of fuel which in turn influences the speed of the car. Likewise, the **composition of two functions** is a kind of 'chain reaction', where the functions act upon one 
@@ -253,6 +253,3 @@ h(x) = f∘g(x)
 h(1) = f(g(1)) = f(2) = **3** ∴ h(1) = 3
 
 ---
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b

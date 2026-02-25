@@ -3,7 +3,6 @@ title: 'Ordered Pair'
 weight: 1
 ---
 
-<<<<<<< HEAD
 #  1.2 Ordered Pair
 
 
@@ -18,6 +17,4 @@ Observe the seating plan in an auditorium (Fig. 1.1). To help orderly occupation
 What can you say about the tokens (2,3), (6,3) and (10,3)?
 
 This is one example where a pair of numbers, written in a particular order, precisely indicates a location. Such a number pair is called an **ordered pair** of numbers. This notion is skillfully used to mathematize the concept of a "Relation".
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b
+---

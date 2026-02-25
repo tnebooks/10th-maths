@@ -2,7 +2,7 @@
 title: 'Special Cases of Functions'
 weight: 7
 ---
-<<<<<<< HEAD
+
 
 ## 1.8 Special Cases of Functions
 
@@ -211,6 +211,3 @@ Find:
     - (v) the temperature when the Celsius value is equal to the Fahrenheit value.
 
 ---
-=======
-TBD
->>>>>>> 15f6ef76085591e823daf71800df63727236033b
