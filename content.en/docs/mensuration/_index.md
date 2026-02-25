@@ -7,62 +7,53 @@ weight: 7
 
 # Mensuration
 
-“Nature is an infinite sphere of which the centre is everywhere and 
-the circumference nowhere”.
-                                               
-                                         - Blaise Pascal
+&gt; "Nature is an infinite sphere of which the centre is everywhere and the circumference nowhere" - Blaise Pascal
 
-  Pappus
-290 - 350 AD(CE) ![Figure with 50%](img1.png "w-50 float-end")
+## Introduction
+The ancient cultures throughout the world sought the idea of measurements for satisfying their daily needs. For example, they had to know how much area of crops needed to be grown in a given region; how much could a container hold? etc. These questions were very important for making decisions in agriculture and trade. They needed efficient and compact way of doing this. It is for this reason, mathematicians thought of applying geometry to real life situations to attain useful results. This was the reason for the origin of mensuration.
 
-   Pappus, born at Alexandria, Egypt is the last of the great Greek 
-geometers. Pappus major work ‘Synagoge’ or ‘The Mathematical 
-Collection’ is a collection of mathematical writings in eight books. 
+## Learning Outcomes
+- To determine the surface area and volume of cylinder, cone, sphere, hemisphere and frustum.
+- To compute volume and surface area of combined solids.
+- To solve problems involving conversion of solids from one shape to another with no change in volume.
 
-He described the principles of levers, pulleys, wedges, axles 
-and screws. These concepts are widely applied in Physics and 
-modern Engineering Science.
+## Table of Contents
 
+1. [Surface Area](surface-area/)
+   - Right Circular Cylinder
+   - Hollow Cylinder
+   - Right Circular Cone
+   - Sphere
+   - Hemisphere
+   - Hollow Hemisphere
+   - Frustum of a Right Circular Cone
 
-![Figure with 50%](learn.png "w-50 float-end")
+2. [Volume](volume/)
+   - Volume of a Solid Right Circular Cylinder
+   - Volume of a Hollow Cylinder
+   - Volume of a Right Circular Cone
+   - Volume of Sphere
+   - Volume of a Hollow Sphere / Spherical Shell
+   - Volume of Solid Hemisphere
+   - Volume of Hollow Hemisphere
+   - Volume of Frustum of a Cone
 
+3. [Volume and Surface Area of Combined Solids](volume-and-surface-area-of-combined-solids/)
 
+4. [Conversion of Solids from one shape to another](Conversion-of-Solids-from-one-shape-to-another/)
+   - Conversion with no change in Volume
 
-# Introduction
+## Points to Remember
 
-The ancient cultures throughout the world sought the idea of measurements for 
- satisfying their daily needs.
-
-For 
-example, they had to know how 
-much area of crops needed to be 
-grown in a given region; how 
-much could a container hold? 
-etc. These questions were very 
-important for making decisions 
-in agriculture and trade. They 
-needed efficient and compact 
-way of doing this. It is for this 
-reason, mathematicians thought 
-of applying geometry to real life 
-situations to attain useful results. 
-This was the reason for the origin 
-of mensuration. Thus, mensuration can be thought as applied geometry.
-
-![Figure with 50%](img2.png "w-50 float-end")
-
----
-
-
-We are already familiar with the areas of plane figures like square, rectangle, triangle, 
-circle etc. These figures are called 2-dimensional shapes as they can be drawn in a plane. 
-But most of the objects which we come across in our daily life cannot be represented in a 
-plane. For example, tubes, water tanks, bricks, ice-cream cones, football etc. These objects 
-are called solid shapes or 3-dimensional shapes.
-
-We often see solids like cube, cuboid, prism and pyramid. For three dimensional 
-objects measurements like surface area and volume exist.
-
-In this chapter, we shall study about the surface area and volume 
-of some of the standard solid shapes such as cylinder, cone, sphere, 
-hemisphere and frustum.
+| Solid | Curved Surface Area / Lateral Surface Area | Total Surface Area | Volume |
+|-------|-------------------------------------------|-------------------|--------|
+| Cuboid | 2h(l + b) | 2(lb + bh + lh) | l × b × h |
+| Cube | 4a² | 6a² | a³ |
+| Right Circular Cylinder | 2πrh | 2πr(h + r) | πr²h |
+| Right Circular Cone | πrl (l = √(r² + h²)) | πr(l + r) | (1/3)πr²h |
+| Sphere | 4πr² | 4πr² | (4/3)πr³ |
+| Hemisphere | 2πr² | 3πr² | (2/3)πr³ |
+| Hollow Cylinder | 2π(R + r)h | 2π(R + r)(R - r + h) | π(R² - r²)h |
+| Hollow Sphere | 4πR² (outer surface area) | 4π(R² + r²) | (4/3)π(R³ - r³) |
+| Hollow Hemisphere | 2π(R² + r²) | π(3R² + r²) | (2/3)π(R³ - r³) |
+| Frustum of Right Circular Cone | π(R + r)l where l = √(h² + (R - r)²) | π(R + r)l + πR² + πr² | (1/3)πh[R² + r² + Rr] |
