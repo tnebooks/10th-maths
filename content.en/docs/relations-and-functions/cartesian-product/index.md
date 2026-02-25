@@ -3,7 +3,6 @@ title: 'Cartesian Product'
 weight: 2
 ---
 
-
 # 1.3 Cartesian Product
 
 ### Illustration 1
