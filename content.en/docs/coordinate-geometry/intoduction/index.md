@@ -19,7 +19,7 @@ A(x_1, y_1){{< /katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} is:
 
 ### Mid-point of line segment
 
-The mid-point {{< katex >}}M{{< /katex >}} of the line segment joining {{< katex >}}A(x_1, y_1){{< katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} is:
+The mid-point {{< katex >}}M{{< /katex >}} of the line segment joining {{< katex >}}A(x_1, y_1){{< /katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} is:
 
 {{< katex >}}M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right){{< /katex >}}
 

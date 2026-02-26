@@ -8,7 +8,7 @@ If {{< katex >}}ABCD{{< /katex >}} is a quadrilateral, then considering the diag
 
 Using area of triangle formula given its vertices, we can calculate the areas of triangles {{< katex >}}ABC{{< /katex >}} and {{< katex >}}ACD{{< /katex >}}.
 
-Now, Area of the quadrilateral {{< katex >}}ABCD{{< /katex >}} = Area of triangle {{< katex >}}ABC{{< /katex >}} + Area of triangle {{< /katex >}}ACD{{< /katex >}}
+Now, Area of the quadrilateral {{< katex >}}ABCD{{< /katex >}} = Area of triangle {{< katex >}}ABC{{< /katex >}} + Area of triangle {{< katex >}}ACD{{< /katex >}}
 
 We use this information to find area of a quadrilateral when its vertices are given.
 
@@ -71,7 +71,7 @@ Therefore, the given points are collinear.
 
 ### Example 5.3
 
-If the area of the triangle formed by the vertices {{< katex >}}A(-1,2){{< katex >}}, {{< katex >}}B(k,-2){{< katex >}} and {{< katex >}}C(7,4){{< katex >}} (taken in order) is 22 sq. units, find the value of {{< katex >}}k{{< katex >}}.
+If the area of the triangle formed by the vertices {{< katex >}}A(-1,2){{< /katex >}}, {{< katex >}}B(k,-2){{< /katex >}} and {{< katex >}}C(7,4){{< /katex >}} (taken in order) is 22 sq. units, find the value of {{< katex >}}k{{< /katex >}}.
 
 **Solution:** The vertices are {{< katex >}}A(-1,2){{< /katex >}}, {{< katex >}}B(k,-2){{< /katex >}} and {{< katex >}}C(7,4){{< /katex >}}.
 
@@ -105,7 +105,7 @@ Area of triangle {{< katex >}}PQR = 0{{< /katex >}}:
 
 Also, {{< katex >}}2b + c = 4 \quad \text{...(2)}{{< /katex >}} (from given information)
 
-Solving (1) and (2) we get {{< katex >}}b = 3{{< /atex >}}, {{< katex >}}c = -2{{< /katex >}}.
+Solving (1) and (2) we get {{< katex >}}b = 3{{< /katex >}}, {{< katex >}}c = -2{{< /katex >}}.
 
 ---
 
@@ -216,7 +216,7 @@ Find the area of the shaded region.
 | (i) | {{< katex >}}(0, 0){{< /katex >}}, {{< katex >}}(p, 8){{< /katex >}}, {{< katex >}}(6, 2){{< /katex >}} | 20 |
 | (ii) | {{< katex >}}(p, p){{< /katex >}}, {{< katex >}}(5, 6){{< /katex >}}, {{< katex >}}(5, -2){{< /katex >}} | 32 |
 
-4. In each of the following, find the value of '{{< katex >}}a{{< katex >}}' for which the given points are collinear.
+4. In each of the following, find the value of '{{< katex >}}a{{< /katex >}}' for which the given points are collinear.
    - (i) {{< katex >}}(2,3){{< /katex >}}, {{< katex >}}(4,a){{< /katex >}} and {{< katex >}}(6,-3){{< /katex >}}
    - (ii) {{< katex >}}(a, 2-2a){{< /katex >}}, {{< katex >}}(-a+1, 2a){{< /katex >}} and {{< katex >}}(-4-a, 6-2a){{< /katex >}}
 
