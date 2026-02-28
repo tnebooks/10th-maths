@@ -17,11 +17,7 @@ Let us consider the following information. Vanitha has 12 story books, 20 notebo
 
 Now, we arrange this information in the tabular form as follows.
 
-| First row | (12 | 20 | 4) |
-|:---|:---|:---|:---|
-| Second row | 27 | 17 | 6 |
-| Third row | 7 | 11 | 4 |
-| Fourth row | 10 | 12 | 5 |
+![](image.png)
 
 Here, the items possessed by four people are aligned or positioned in a rectangular array containing four horizontal and three vertical arrangements. The horizontal arrangements are called "**rows**" and the vertical arrangements are called "**columns**". The whole rectangular arrangement is called a "**Matrix**". Generally, if we arrange things in a rectangular array, we call it as "Matrix".
 
@@ -57,11 +53,17 @@ A = [ a₁₁  a₁₂  a₁₃  ...  a₁ⱼ  ...  a₁ₙ ]
 
 where a₁₁, a₁₂, a₁₃ denote entries of the matrix. a₁₁ is the element in first row, first column, a₁₂ is the element in the first row, second column, and so on.
 
+![](image-1.png)
+
 In general, aᵢⱼ is the element in the i-th row and j-th column and is referred as (i,j)-th element. With this notation, we can express the matrix A as A = (aᵢⱼ)ₘₓₙ where i = 1,2,...,m and j = 1,2,...,n.
 
 The total number of entries in the matrix A = (aᵢⱼ)ₘₓₙ is mn.
 
-**Note:** When giving the order of a matrix, you should always mention the number of rows first, followed by the number of columns.
+![](image-2.png)
+
+![](image-3.png)
+
+![](image-4.png)
 
 ### 3.9.2 Types of Matrices
 
@@ -206,11 +208,13 @@ A square matrix in which all the entries above the leading diagonal are zero is 
 
 If all the entries below the leading diagonal are zero, then it is called an **upper triangular matrix**.
 
-**Definition:** A square matrix A = (aᵢⱼ)ₙₓₙ is called upper triangular matrix if aᵢⱼ = 0 for i > j and is called lower triangular matrix if aᵢⱼ = 0, i < j.
+![](image-6.png)
 
 #### Equal Matrices
 
 Two matrices A and B are said to be **equal** if and only if they have the same order and each element of matrix A is equal to the corresponding element of matrix B. That is, aᵢⱼ = bᵢⱼ for all i, j.
+
+![](image-7.png)
 
 #### The negative of a matrix
 
@@ -252,6 +256,8 @@ We know that a matrix of order m × n has mn elements. Thus to find all possible
 Such ordered pairs are (1,16), (16,1), (4,4), (8,2), (2,8)
 
 Hence, possible orders are 1×16, 16×1, 4×4, 8×2, 2×8.
+
+![](image-8.png)
 
 ### Example 3.58
 
@@ -577,12 +583,18 @@ x × [ y  ] +   [ -2x  ] = [ 8 ]
 
 #### Multiplication of Matrices
 
+![](image-11.png)
+
 To multiply two matrices, the number of columns in the first matrix must be equal to the number of rows in the second matrix.
 
 (Order of left hand matrix) × (order of right hand matrix) → (order of product matrix)
 (3 × 3)(3 × 2) → (3 × 2)
 
 Matrices are multiplied by multiplying the elements in a row of the first matrix by the elements in a column of the second matrix, and adding the results.
+
+For Example,product of matrices
+
+![](image-12.png)
 
 The product AB can be found if the number of columns of matrix A is equal to the number of rows of matrix B. If the order of matrix A is m × n and B is n × p then the order of AB is m × p.
 
@@ -604,9 +616,7 @@ If A, B, C are m × n, n × p and p × q matrices respectively then (AB)C = A(BC
 
 If A is a square matrix of order n × n and I is the unit matrix of same order then AI = IA = A.
 
-**Note:** If x and y are two real numbers such that xy = 0 then either x = 0 or y = 0. But this condition may not be true with respect to two matrices.
-
-AB = 0 does not necessarily imply that A = 0 or B = 0 or both A, B = 0.
+![](note.png)
 
 ### Example 3.67
 
@@ -716,11 +726,7 @@ show that (AB)C = A(BC).
 
 **Solution:**
 
-LHS = (AB)C = ...
-
-RHS = A(BC) = ...
-
-From (1) and (2), (AB)C = A(BC).
+![](3.71.png)
 
 ### Example 3.72
 
@@ -733,11 +739,8 @@ verify that A(B + C) = AB + AC.
 
 **Solution:**
 
-LHS = A(B + C) = ...
-
-RHS = AB + AC = ...
-
-From (1) and (2), A(B+C) = AB + AC. Hence proved.
+![](3.72.1.png)
+![](3.72.2.png)
 
 ### Example 3.73
 
@@ -751,11 +754,7 @@ show that (AB)ᵀ = BᵀAᵀ
 
 **Solution:**
 
-LHS = (AB)ᵀ = ...
-
-RHS = BᵀAᵀ = ...
-
-From (1) and (2), (AB)ᵀ = BᵀAᵀ. Hence proved.
+![](3.73.png)
 
 ## Exercise 3.19
 

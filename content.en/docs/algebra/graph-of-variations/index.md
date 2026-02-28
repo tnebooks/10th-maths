@@ -110,6 +110,8 @@ Let x be the time taken in minutes and y be the distance travelled in km.
 |:---|:---|:---|:---|:---|
 | Distance y (in km) | 50 | 100 | 150 | 200 |
 
+![](3.11.png)
+
 **(i)** Observe that as time increases, the distance travelled also increases. Therefore, the variation is a direct variation.
 
 Constant of variation k = y/x = 50/60 = 100/120 = 150/180 = 200/240 = 5/6
@@ -124,7 +126,7 @@ The distance travelled for 90 minutes is 75 km.
 
 The time taken to cover 300 km is 360 minutes (or) 6 hours.
 
-![](3.11.png)
+
 
 #### (ii) Indirect variation:
 
@@ -138,10 +140,11 @@ From the table it is clear that if you travel at a slower speed, the time increa
 
 Observe that the graph of equation like vt = 480 will not be a straight line. Inverse variation implies that as one variable increases, the other variable decreases.
 
-![](3.12.png)
-
-
 **Visualising Indirect variation:**
+
+![](3.12.0.png)
+
+![](3.12.png)
 
 This is an illustration of inverse variation or indirect variation. The graph is a part of a curve called **Rectangular Hyperbola**.
 

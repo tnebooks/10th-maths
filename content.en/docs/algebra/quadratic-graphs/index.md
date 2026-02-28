@@ -11,16 +11,22 @@ The trajectory followed by an object (say, a ball) thrown upward at an angle giv
 
 A quadratic function has the form **f(x) = ax² + bx + c**, where a, b, c are constants, and a ≠ 0.
 
+![](image.png)
+
 Many quadratic functions can be graphed easily by hand using the techniques of stretching/shrinking and shifting the parabola y = x² (We can easily sketch the curve y = x² by preparing a table of values and plotting the ordered pairs).
 
 The "basic" parabola, y = x², looks like this. The coefficient a in the general equation is responsible for parabolas to open upward or downward and vary in "width" ("wider" or "skinnier"), but they all have the same basic "U" shape.
 
+![](image-1.png)
+
 - The greater the quadratic coefficient of x², the narrower is the parabola.
 - The lesser the quadratic coefficient of x², the wider is the parabola.
 
+![](image-2.png)
+
 A parabola is symmetric with respect to a line called the **axis of symmetry**. The point of intersection of the parabola and the axis of symmetry is called the **vertex** of the parabola. The graph of any second degree polynomial gives a curve called "parabola".
 
-**Hint:** For a quadratic equation, the axis is given by x = -b/(2a) and the vertex is given by (-b/2a, -Δ/4a), where Δ = b² - 4ac is the discriminant of the quadratic equation ax² + bx + c = 0, where a ≠ 0.
+![](image-3.png)
 
 ### 3.8.1 Finding the Nature of Solution of Quadratic Equations Graphically
 
@@ -50,6 +56,8 @@ Step 1: Prepare table of values
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 | y | 8 | 0 | -6 | -10 | -12 | -12 | -10 | -6 | 0 | 8 |
 
+![](image-5.png)
+
 The parabola intersects X-axis at (-4, 0) and (3, 0).
 Since there are two points of intersection, the equation has **real and unequal roots**: x = -4, 3
 
@@ -58,6 +66,8 @@ Since there are two points of intersection, the equation has **real and unequal 
 | x | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 | y | 25 | 16 | 9 | 4 | 1 | 0 | 1 | 4 | 9 | 16 |
+
+![](image-7.png)
 
 The parabola touches X-axis at (4, 0) only.
 Since there is only one point of intersection, the equation has **real and equal roots**: x = 4
@@ -68,12 +78,13 @@ Since there is only one point of intersection, the equation has **real and equal
 |:---|:---|:---|:---|:---|:---|:---|:---|
 | y | 8 | 5 | 4 | 5 | 8 | 13 | 20 |
 
+![](image-9.png)
+
 The parabola doesn't intersect or touch the X-axis.
 So, there is **no real root** for the given quadratic equation.
 
-## Progress Check
-
-Connect the graphs to its respective number of points of intersection with X axis and to its corresponding nature of solutions.
+![](image-10.png)
+![](image-11.png)
 
 ### 3.8.2 Solving quadratic equations through intersection of lines
 
@@ -94,6 +105,8 @@ Step 1: Draw y = 2x²
 | x | -2 | -1 | 0 | 1 | 2 |
 |:---|:---|:---|:---|:---|:---|
 | y | 8 | 2 | 0 | 2 | 8 |
+
+![](image-12.png)
 
 Step 2: To solve 2x² - x - 6 = 0, subtract from y = 2x²:
 y = 2x²
@@ -118,6 +131,10 @@ Draw the graph of y = x² + 4x + 3 and hence find the roots of x² + x + 1 = 0
 
 **Solution:**
 
+![](3.53.png)
+
+![](image-15.png)
+
 The line y = 3x + 2 does not intersect or touch the parabola y = x² + 4x + 3.
 
 Thus x² + x + 1 = 0 has **no real roots**.
@@ -128,9 +145,38 @@ Draw the graph of y = x² + x - 2 and hence solve x² + x - 2 = 0.
 
 **Solution:**
 
+Step 1: Table of Values
+
+Draw the graph of y = x² + x - 2 by preparing the table of values:
+
+| x | -3 | -2 | -1 | 0  | 1 | 2 |
+| - | -- | -- | -- | -- | - | - |
+| y | 4  | 0  | -2 | -2 | 0 | 4 |
+
+Step 2
+
+To solve x² + x - 2 = 0 consider:
+
+y = x² + x - 2
+
+If
+
+x² + x - 2 = 0
+then
+
+y=0
+
+The equation y=0 represents the x-axis.
+
+Step 3
+
+Mark the points where the curve 
+y =  x² + x - 2 intersects the x-axis.
 The parabola intersects X-axis at (-2, 0) and (1, 0).
 
 Solution set: {-2, 1}
+
+![](image-19.png)
 
 ### Example 3.55
 
@@ -138,9 +184,36 @@ Draw the graph of y = x² - 4x + 3 and use it to solve x² - 6x + 9 = 0
 
 **Solution:**
 
-The line y = 2x - 6 intersects y = x² - 4x + 3 at only one point (3, 0).
+**Step 1:** Draw the graph of y = x² - 4x + 3 by preparing the table of values as below
 
-Therefore, x = 3 is the only solution.
+| x | -2 | -1 | 0 | 1 | 2 | 3 | 4 |
+|:---:|:----:|:----:|:---:|:---:|:---:|:---:|:---:|
+| y | 15 | 8 | 3 | 0 | -1 | 0 | 3 |
+
+**Step 2:** To solve x² - 6x + 9 = 0, subtract x² - 6x + 9 = 0 from y = x² - 4x + 3
+
+that is 
+y = x² - 4x + 3
+
+0 = x² - 6x + 9   (-)
+
+ ________________
+
+y = 2x - 6
+
+The equation y = 2x - 6 represent a straight line. Draw the graph of y = 2x - 6 forming the table of values as below.
+
+| x | 0 | 1 | 2 | 3 | 4 | 5 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| y | -6 | -4 | -2 | 0 | 2 | 4 |
+
+The line y = 2x - 6 intersect y = x² - 4x + 3 only at one point.
+
+**Step 3:** Mark the point of intersection of the curve y = x² - 4x + 3 and y = 2x - 6 that is (3, 0).
+
+Therefore, the x coordinate 3 is the only solution for the equation x² - 6x + 9 = 0.
+
+![](image-21.png)
 
 ## Exercise 3.16
 
