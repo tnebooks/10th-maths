@@ -3,9 +3,7 @@ title: '  Trigonometric Identities '
 weight: 1 
 ---
 
-
-
-# Trigonometric Identities
+## Trigonometric Identities
 
 For all real values of {{< katex >}}\theta{{< /katex >}}, we have the following three identities.
 (i) {{< katex >}}\sin ^{2} \theta+\cos ^{2} \theta=1{{< /katex >}}
