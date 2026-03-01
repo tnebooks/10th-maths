@@ -2,443 +2,792 @@
 title: 'Thales Theorem and Angle Bisector Theorem'
 weight: 2
 ---
-{{< katex display >}}{{< /katex >}}
-# Geometry
 
-## Thales Theorem and Angle Bisector Theorem
+# 4.3 Thales Theorem and Angle Bisector Theorem
 
-### Introduction
+## 4.3.1 Introduction
 
-Thales, \\((640-540\\) BC (BCE)) the most famous Greek mathematician and philosopher lived around seventh century BC (BCE). He possessed knowledge to the extent that he became the first of seven sages of Greece. Thales was the first man to announce that any idea that emerged should be tested scientifically and only then it can be accepted. In this aspect, he did great investigations in mathematics and astronomy and discovered many concepts. He was credited for providing first proof in
+**Thales** (640–540 BC (BCE)), the most famous Greek mathematician and philosopher lived around seventh century BC (BCE). He possessed knowledge to the extent that he became the first of seven sages of Greece. Thales was the first man to announce that any idea that emerged should be tested scientifically and only then it can be accepted. In this aspect, he did great investigations in mathematics and astronomy and discovered many concepts. He was credited for providing first proof in mathematics, which today is called by the name **"Basic Proportionality Theorem"**. It is also called **"Thales Theorem"** named after its discoverer.
 
-![alt text](thales.png)
+![](thales.png)
 
-Thales (640 - 540 BC (BCE)) mathematics, which today is called by the name "Basic Proportionality Theorem". It is also called "Thales Theorem" named after its discoverer.
+![](mountain.png)
 
-The discovery of the Thales theorem itself is a very interesting story. When Thales travelled to Egypt, he was challenged by Egyptians to determine the height of one of several magnificent pyramids that they had constructed. Thales accepted the challenge and used similarity of triangles to determine the
 
-![alt text](mountain.png)
+![](4.1.png)
 
 
-same successfully, another triumphant application of Geometry. Since \\(X_{0}, X_{1} and H_{0} are known, we can determine the height \mathrm{H}_{1}\\) of the pyramid.
+![](4.27.png)
+The discovery of the Thales theorem itself is a very interesting story. When Thales travelled to Egypt, he was challenged by Egyptians to determine the height of one of several magnificent pyramids that they had constructed. Thales accepted the challenge and used similarity of triangles to determine the same successfully, another triumphant application of Geometry.Since {{< katex  >}}X_0{{< /katex >}},{{< katex  >}}X_1{{< /katex >}} and  {{< katex  >}}H_0{{< /katex >}} are known, we can determine the height   {{< katex  >}}H_1{{< /katex >}} of the pyramid.
 
-To understand the basic proportionality theorem or Thales theorem, let us do the following activity.
+{{< katex >}}
+\frac{H_1}{X_1} = \frac{H_0}{X_0}
+{{< /katex >}}
 
-**Activity 2**
 
-Take any ruled paper and draw a triangle \\(A B C with its base on one of the lines. Several parallel lines will cut the triangle A B C\\).
+![](4.28.png)
+---
 
-Select any one line among them and name the points where it meets the sides \\(A B and A C as P and Q\\).
+## Theorem 1: Basic Proportionality Theorem (BPT) or Thales Theorem
 
-Can we find the ratio of \\(\frac{A P}{P B} and \frac{A Q}{Q C}. By measuring A P, P B, A Q and Q C through a scale, verify whether the ratios are equal or not? Try for different parallel lines, say M N and R S\\).
+**Statement:** A straight line drawn parallel to a side of triangle intersecting the other two sides, divides the sides in the same ratio.
 
-Now find the ratios \\(\frac{A M}{M B}, \frac{A N}{N C} and \frac{A R}{R B}, \frac{A S}{S C}\\).
+![](4.29.png)
 
-![alt text](4.28.png)
+**Proof:**
 
-Check if they are equal? The conclusion will lead us to one of the most important theorem in Geometry, which we will discuss below.
+{{< katex >}}
+\frac{H_1}{X_1} = \frac{H_0}{X_0}
+{{< /katex >}}
+, {{< katex >}}  D
+{{< /katex >}} 
+is a point on {{< katex >}}  AB
+{{< /katex >}}
+ and {{< katex >}}  E
+{{< /katex >}}
+  is a point on {{< katex >}}  AC
+{{< /katex >}}.
 
-**Theorem 1: Basic Proportionality Theorem (BPT) or Thales theorem**
+**To prove:** {{< katex >}}  \frac{AD}{DB} = \frac{AE}{EC}
+{{< /katex >}}
 
-**Statement**
+**Construction:** Draw a line {{< katex >}}  DE \parallel BC
+{{< /katex >}}
+![](4.2.png)
 
-A straight line drawn parallel to a side of triangle intersecting the other two sides, divides the sides in the same ratio.
+## Corollary
 
-Proof
+If in {{< katex >}}  \triangle ABC
+{{< /katex >}},
+ a straight line {{< katex >}}  DE
+{{< /katex >}} 
+ parallel to {{< katex >}}  BC
+{{< /katex >}},
+  intersects {{< katex >}}  AB
+{{< /katex >}} 
+  at {{< katex >}}  D
+{{< /katex >}}
+   and {{< katex >}}  AC
+{{< /katex >}} 
+  at {{< katex >}}  E
+{{< /katex >}}, then:
+- (i) {{< katex >}}  \frac{AB}{AD} = \frac{AC}{AE}
+{{< /katex >}}
+- (ii) {{< katex >}}  \frac{AB}{DB} = \frac{AC}{EC}
+{{< /katex >}}
 
-![alt text](4.29.png)
+**Proof:** In {{< katex >}}  \triangle ABC
+{{< /katex >}},
+ {{< katex >}}  DE \parallel BC
+{{< /katex >}},
 
-Given: In \\(\triangle A B C, D is a point on A B and E is a point on A C\\).
+{{< katex >}}  \frac{AD}{DB} = \frac{AE}{EC} \text{ (by Basic Proportionality Theorem)}
+{{< /katex >}}
 
-To prove: \\(\frac{A D}{D B}=\frac{A E}{E C}\\)
+![](4.30.png)
 
-Construction: Draw a line \\(D E \| B C\\)
+(i) Taking reciprocals, we get {{< katex >}}  \frac{DB}{AD} = \frac{EC}{AE}
+{{< /katex >}}
 
-| No. | Statement | Reason |
-| :--- | :--- | :--- |
-| 1. | \\(\angle A B C=\angle A D E=\angle 1\\) | Corresponding angles are equal because D E | B C |
-| 2. | \\(\angle A C B=\angle A E D=\angle 2\\) | Corresponding angles are equal because D E | B C |
-| 3. | \\(\angle D A E=\angle B A C=\angle 3\\) | Both triangles have a common angle |
-|  | \\(\triangle A B C \sim \triangle A D E\\) | By A A A similarity |
-|  | \\(\frac{A B}{A D}=\frac{A C}{A E}\\) | Corresponding sides are proportional |  |
-|  | \\(\frac{A D+D B}{A D}=\frac{A E+E C}{A E}\\) | Split A B and A C using the points D and E. |
-| 4. | \\(1+\frac{D B}{A D}=1+\frac{E C}{A E}\\) | On simplification |
-|  | \\(\frac{D B}{A D}=\frac{E C}{A E}\\) | Cancelling 1 on both sides |  |
-|  | \\(\frac{A D}{D B}=\frac{A E}{E C}\\) | Taking reciprocals |  |
+Add 1 to both sides: {{< katex >}}  \frac{DB}{AD} + 1 = \frac{EC}{AE} + 1
+{{< /katex >}}
 
-**Corollary**
+{{< katex >}}  \frac{DB + AD}{AD} = \frac{EC + AE}{AE} \Rightarrow \frac{AB}{AD} = \frac{AC}{AE}
+{{< /katex >}}
 
-If in \\(\triangle A B C, a straight line D E parallel to B C, intersects A B at D and A C at E\\), then
-(i) \\(\frac{A B}{A D}=\frac{A C}{A E}\\)
-(ii) \\(\frac{A B}{D B}=\frac{A C}{E C}\\).
+(ii) Similarly, {{< katex >}}  \frac{AD + DB}{DB} = \frac{AE + EC}{EC}
+{{< /katex >}}
 
-Proof
+Therefore, {{< katex >}}  \frac{AB}{DB} = \frac{AC}{EC}
+{{< /katex >}}
 
-In \\(\triangle A B C, D E \| B C\\),
 
-Therefore, \\(\frac{A D}{D B}=\frac{A E}{E C}\\) (by Basic Proportionality Theorem)
+![](4.31.png)
+---
 
-![alt text](4.30.png)
+## Theorem 2: Converse of Basic Proportionality Theorem
 
-1.Taking reciprocals, we get \\(\frac{D B}{A D}=\frac{E C}{A E}\\)
+**Statement:** If a straight line divides any two sides of a triangle in the same ratio, then the line must be parallel to the third side.
 
-2.Add 1 to both the sides
+![](4.32.png)
 
-Add 1 to both in the sides \\(\frac{D B}{A D}+1=\frac{E C}{A E}+1\\)
+**Proof:**
 
-\\(\frac{A D}{D B}+1=\frac{A E}{E C}+1\\)
+**Given:** In {{< katex >}}  \triangle ABC
+{{< /katex >}},
+ {{< katex >}}  \frac{AD}{DB} = \frac{AE}{EC}
+{{< /katex >}}
 
-\\(\frac{D B+A D}{A D}=\frac{E C+A E}{A E} so, \frac{A B}{A D}=\frac{A C}{A E}\\)
+**To prove:** {{< katex >}}  DE \parallel BC
+{{< /katex >}}
 
-Therefore, \\(\frac{A B}{D B}=\frac{A C}{E C}\\)
+**Construction:** If {{< katex >}}  DE
+{{< /katex >}} 
+is not parallel to {{< katex >}}  BC
+{{< /katex >}},
+ draw {{< katex >}}  DF \parallel BC
+{{< /katex >}}.
 
-Is the converse of Basic Proportionality Theorem also true? To examine let us do the following illustration.
+![](1.png)
 
-**Illustration**
+---
 
-Draw an angle \\(X A Y on your notebook as shown in Fig.4.31 and on ray A X, mark points B_{1}, B_{2}, B_{3}, B_{4} and B such that A B_{1}=B_{1} B_{2}=B_{2} B_{3}=B_{3} B_{4}=B_{4} B=1 \mathrm{~cm}\\).
+## Theorem 3: Angle Bisector Theorem
 
-Similarly on ray \\(A Y, mark points C_{1}, C_{2}, C_{3}, C_{4} and C\\), such that
+**Statement:** The internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
 
-\\(A C_{1}=C_{1} C_{2}=C_{2} C_{3}=C_{3} C_{4}=C_{4} C=2 \mathrm{~cm}, Join B_{1} C_{1} and B C\\).
+![](4.33.png)
 
-Observe that \\(\frac{A B_{1}}{B_{1} B}=\frac{A C_{1}}{C_{1} C}=\frac{1}{4} and B_{1} C_{1} \| B C\\)
 
-Similarly joining \\(B_{2} C_{2}, B_{3} C_{3} and B_{4} C_{4}\\) you see that
+**Proof:**
 
-\\(\begin{aligned}
-& \frac{A B_{2}}{B_{2} B}=\frac{A C_{2}}{C_{2} C}=\frac{2}{3} \text { and } B_{2} C_{2} \| B C & \frac{A B_{3}}{B_{3} B}=\frac{A C_{3}}{C_{3} C}=\frac{3}{2} \text { and } B_{3} C_{3} \| B C & \frac{A B_{4}}{B_{4} B}=\frac{A C_{4}}{C_{4} C}=\frac{4}{1} \text { and } B_{4} C_{4} \| B C \end{aligned}\\)
+**Given:** In {{< katex >}}  \triangle ABC
+{{< /katex >}},
+ {{< katex >}}  AD
+{{< /katex >}} is the internal bisector
 
-![alt text](4.31.png)
-From this we observe that if a line divides two sides of a triangle in the same ratio, then the line is parallel to the third side.
+**To prove:** {{< katex >}}  \frac{AB}{AC} = \frac{BD}{CD}
+{{< /katex >}}
 
-Therefore, we obtain the following theorem called converse of the Thales theorem.
+**Construction:** Draw a line through {{< katex >}}  C
+{{< /katex >}} parallel to
+ {{< katex >}}  AB
+{{< /katex >}}. 
+Extend {{< katex >}}  AD
+{{< /katex >}}
+ to meet line through {{< katex >}}  C
+{{< /katex >}} 
+ at {{< katex >}}  E
+{{< /katex >}}.
 
-**Theorem 2: Converse of Basic Proportionality Theorem**
+![](4.3.png)
 
-**Statement**
+![](4.34.png)
+---
 
-If a straight line divides any two sides of a triangle in the same ratio, then the line must be parallel to the third side.
+## Theorem 4: Converse of Angle Bisector Theorem
 
-Proof
+**Statement:** If a straight line through one vertex of a triangle divides the opposite side internally in the ratio of the other two sides, then the line bisects the angle internally at the vertex.
 
-Given \\(\quad : In \triangle A B C, \frac{A D}{D B}=\frac{A E}{E C}\\)
+![](4.35.png)
 
-To prove \\(\quad: D E \| B C\\)
+**Proof:**
 
-Construction : If \\(D E is not parallel to B C, draw D F \| B C\\).
-
-![alt text](4.32.png)
-
-![alt text](1.png)
-
-
-**Theorem 3: Angle Bisector Theorem**
-
-**Statement**
-
-The internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
-
-**Proof**
-
-Given : In \\(\triangle \mathrm{ABC}, \mathrm{AD}\\) is the internal bisector
-
-To prove \\(\quad: \frac{A B}{A C}=\frac{B D}{C D}\\)
-
-Construction : Draw a line through \\(C parallel to A B. Extend A D to meet line through C at E\\)
-
-![Alt text](4.33.png)
-
-| No | Statement | Reason |
-| :---: | :---: | :---: |
-| 1 . | \\(\angle A E C=\angle B A E=\angle 1\\) | Two parallel lines cut by a transversal make alternate <br> angles equal. |
-| 2. | \\(\triangle A C E is isosceles \mathrm{AC}=\mathrm{CE} \ldots(1)\\) | In \\(\triangle A C E, \angle C A E=\angle C E A\\) |
-| 3. | \\(\triangle A B D \sim \triangle E C D \frac{A B}{C E}=\frac{B D}{C D}\\) | By AA Similarity |
-| 4. | \\(\frac{A B}{A C}=\frac{B D}{C D}\\) | From (1) A C=C E. <br> Hence proved. |
-
-**Activity 3**
-
-Step 1: Take a chart and cut it like a triangle as shown in Fig.4.34(a).
-
-Step 2: Then fold it along the symmetric line \\(A D. Then \mathrm{C} and \mathrm{B}\\) will be one upon the other.
-
-Step 3: Similarly fold it along CE, then \\(B and A\\) will be one upon the other.
-
-Step 4: Similarly fold it along BF, then \\(A and C\\) will be one upon the other.
-
-Find \\(A B, A C, B D, D C\\) using a scale.
-
-Find \\(\frac{A B}{A C}, \frac{B D}{D C}\\) check if they are equal?
-
-![Alt text](4.34.png)
-
-In the three cases, the internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
-
-What do you conclude from this activity?
-
-**Theorem 4: Converse of Angle Bisector Theorem**
-
-**Statement**
-
-If a straight line through one vertex of a triangle divides the opposite side internally in the ratio of the other two sides, then the line bisects the angle internally at the vertex.
-
-Proof
-
-Given : \\(\quad \mathrm{ABC} is a triangle. A D divides B C in the ratio of the sides containing the angles \angle A to meet B C at D\\).
-
-That is \\(\frac{A B}{A C}=\frac{B D}{D C}\\)
-
-To prove \\(\quad: AD bisects \angle A \quad i.e. \angle 1=\angle 2\\)
-
-Construction : Draw \\(C E \| D A. Extend B A to meet at E\\).
-
-![Alt text](4.35.png)
-
-
-![Alt text](2.png)
-
-
-**Example 4.12** In \\(\triangle A B C, if D E \| B C, A D=x, D B=x-2, A E=x+2 and E C=x-1 then find the lengths of the sides A B and A C\\).
-
-**Solution** In \\(\triangle A B C we have D E \| B C\\).
-
-By Thales theorem, we have \\(\frac{A D}{D B}=\frac{A E}{E C}\\)
-
-\\(\frac{x}{x-2}=\frac{x+2}{x-1} gives x(x-1)=(x-2)(x+2)\\)
-
-Hence, \\(x^{2}-x=x^{2}-4 so, x=4\\)
-
-When \\(x=4, A D=4, D B=x-2=2, A E=x+2=6, E C=x-1=3\\).
-
-![Alt text](4.36.png)
-
-Hence, \\(A B=A D+D B=4+2=6, A C=A E+E C=6+3=9\\).
-
-Therefore, \\(A B=6, A C=9\\).
-
-**Example 4.13** \\(D and E are respectively the points on the sides A B and A C of a \triangle A B C such that A B=5.6 \mathrm{~cm}, \mathrm{AD}=1.4 \mathrm{~cm}, A C=7.2 \mathrm{~cm} and A E=1.8 \mathrm{~cm}, show that D E \| B C\\).
-
-**Solution** We have \\(A B=5.6 \mathrm{~cm}, A D=1.4 \mathrm{~cm}, A C=7.2 \mathrm{~cm} and A E=1.8 \mathrm{~cm}\\).
-
-\\(\begin{aligned}
-& B D=A B-A D=5.6-1.4=4.2 \mathrm{~cm} & \text { and } E C=A C-A E=7.2-1.8=5.4 \mathrm{~cm} .& \qquad \frac{A D}{D B}=\frac{1.4}{4.2}=\frac{1}{3} \text { and } \frac{A E}{E C}=\frac{1.8}{5.4}=\frac{1}{3} & \frac{A D}{D B}=\frac{A E}{E C}\end{aligned}\\)
-
-![Alt text](4.37.png)
-
-Therefore, by converse of Basic Proportionality Theorem, we have \\(D E is parallel to B C\\). Hence proved.
-
-Example 4.14 In the Fig.4.38, \\(D E \| A C and D C \| A P. Prove that \frac{B E}{E C}=\frac{B C}{C P}\\).
-
-Solution In \\(\triangle B P A, we have D C \| A P\\). By Basic Proportionality Theorem,
-
-we have \\(\quad \frac{B C}{C P}=\frac{B D}{D A}\\)
-
-In \\(\triangle B C A, we have D E \| A C\\). By Basic Proportionality Theorem, we have,
-
-\\(\\)
-\frac{B E}{E C}=\frac{B D}{D A}
-\\(\\)
-
-From (1) and (2) we get, \\(\frac{B E}{E C}=\frac{B C}{C P}\\). Hence proved.
-
-![Alt text](4.38.png)
-
-**Example 4.15** In the Fig.4.39, \\(A D is the bisector of \angle A. If B D=4 \mathrm{~cm}, D C=3 \mathrm{~cm} and A B=6 \mathrm{~cm}, find A C\\).
-
-**Solution** In \\(\triangle A B C, A D is the bisector of \angle A\\)
-
-By Angle Bisector Theorem
-![Alt text](4.39.png)
-
-\\(\begin{aligned}
-\frac{B D}{D C} & =\frac{A B}{A C} \frac{4}{3} & =\frac{6}{A C} \text { gives } 4 A C=18 . \text { Hence, } A C=\frac{9}{2}=4.5 \mathrm{~cm}\end{aligned}\\)
-
-Example 4.16 In the Fig. 4.40, \\(A D is the bisector of \angle B A C, if A B=10 \mathrm{~cm}, A C=14 \mathrm{cm} and \mathrm{BC}=6 \mathrm{~cm}. Find B D and D C\\).
-
-Solution Let \\(B D=x \mathrm{~cm}, then D C=(6-x) \mathrm{cm}\\)
-
-\\(\mathrm{AD} is the bisector of \angle A\\)
-
-By Angle Bisector Theorem
-
-
-
-\\(\begin{aligned}
-\frac{A B}{A C} & =\frac{B D}{D C} \frac{10}{14} & =\frac{x}{6-x} \quad \text { gives } \quad \frac{5}{7}=\frac{x}{6-x} 12 x & =30 \quad \text { we get, } x=\frac{30}{12}=2.5\mathrm{~cm}\end{aligned}\\)
-
-![Alt text](4.40.png)
-
-Therefore, \\(B D=2.5 \mathrm{~cm}, \quad D C=6-x=6-2.5=3.5 \mathrm{~cm}\\)
-
-**Progress Check**
-
-1. A straight line drawn to a side of a triangle divides the other two sides proportionally.
-2. Basic Proportionality Theorem is also known as
-3. Let \\(\triangle A B C be equilateral. If D is a point on B C and A D is the internal bisector of \angle A. Using Angle Bisector Theorem, \frac{B D}{D C}\\) is
-4. The of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
-5. If the median \\(A D to the side B C of a \triangle A B C is also an angle bisector of \angle A then \frac{A B}{A C}\\) is
-
- **Construction of triangle**
-
-We have already learnt in previous class how to construct triangles when sides and angles are given.
-
-In this section, let us construct a triangle when the following are given :
-
-1.the base, vertical angle and the median on the base
-
-2.the base, vertical angle and the altitude on the base
-
-3.the base, vertical angle and the point on the base where the bisector of the vertical angle meets the base.
-
-First, we consider the following construction,
-
-Construction of a segment of a circle on a given line segment containing an angle \\(\theta\\)
-
-**Construction**
-
-Step 1: Draw a line segment \\(\overline{A B}\\).
-
-Step 2: \\(\quad At A, take \angle B A E=\theta Draw A E\\).
-
-Step 3: Draw, \\(A F \perp A E\\).
-
-Step 4: Draw the perpendicular bisector of \\(A B meeting A F at O\\).
-
-![Alt text](4.41.png)
-
-Step 5: With \\(O as centre and O A as radius draw a circle A B H\\).
-
-Step 6: Take any point \\(C on the circle, By the alternate segments theorem, the major arc A C B is the required segment of the circle containing the angle \theta\\).
-
-## Note
-
-If \\(C_{1}, C_{2}, \ldots are points on the circle, then all the triangles \triangle B A C_{1}, \triangle B A C_{2}, \ldots\\) are with same base and the same vertical angle.
-
-Construction of a triangle when its base, the vertical angle and the median from the vertex of the base are given.
-
-Example 4.17 Construct a \\(\triangle P Q R in which P Q=8 \mathrm{~cm}, \angle R=60^{\circ} and the median R G from R to P Q is 5.8 \mathrm{~cm}. Find the length of the altitude from R to P Q\\).
-
-**Solution**
-
-![Alt text](circle.png)
-
-**Construction**
-
-Step 1: Draw a line segment \\(P Q=8 \mathrm{~cm}\\).
-
-Step 2: At \\(P, draw P E such that \angle Q P E=60^{\circ}\\).
-
-Step3: At \\(P, draw P F such that \angle E P F=90^{\circ}\\).
-
-Step 4: Draw the perpendicular bisector to \\(P Q, which intersects P F at O and P Q at G\\).
-
-Step 5: With \\(O as centre and O P\\) as radius draw a circle.
-
-Step 6: From \\(G mark arcs of radius 5.8 \mathrm{~cm} on the circle. Mark them as R and S\\).
-
-Step 7 : Join \\(P R and R Q. Then \triangle P Q R\\) is the required triangle .
-
-Step 8 : From \\(R draw a line R N perpendicular to L Q. L Q meets R N at M\\)
-
-Step 9: The length of the altitude is \\(R M=3.8 \mathrm{~cm}\\).
-
-Note
-We can get another
-\\(\triangle P Q S\\) for the given
-measurements.
-
-Construct a triangle when its base, the vertical angle and the altitude from the vertex to the base are given.
-
-Example 4.18 Construct a triangle \\(\triangle P Q R such that Q R=5 \mathrm{~cm}, \angle P=30^{\circ} and the altitude from P to Q R is of length 4.2 \mathrm{~cm}\\).
-
-**Solution**
-
-**Construction**
-
-Step 1 : Draw a line segment \\(Q R=5 \mathrm{~cm}\\).
-
-Step 2 : At \\(Q draw Q E such that \angle R Q E=30^{\circ}\\). Fig. 4.43
-
-Step 3 : At \\(Q draw Q F such that \angle E Q F=90^{\circ}\\).
-
-Step 4 : Draw the perpendicular bisector \\(X Y to Q R which intersects Q F at O and Q R at G\\).
-
-Step 5 : With \\(O as centre and O Q\\) as radius draw a circle.
-
-Step 6: From \\(G mark an arc in the line X Y at M, such that G M=4.2 \mathrm{~cm}\\).
-
-Step 7 : Draw \\(A B through M which is parallel to Q R\\).
-
-Step 8: \\(A B meets the circle at P and S\\).
-
-Step 9 : Join \\(Q P and R P. Then \triangle P Q R is the required triangle. \triangle S Q R \quad\\) is another required triangle for the given measurements.
-180) \\(10^{\text {th }}\\) Standard Mathematics
-
-Construct of a triangle when its base, the vertical angle and the point on the base where the bisector of the vertical angle meets the base
-
-**Example 4.19**  Draw a triangle \\(A B C of base B C=8 \mathrm{~cm}, \angle A=60^{\circ} and the bisector of \angle A meets B C at D such that B D=6 \mathrm{~cm}\\).
-
-**Solution**
-
-**Construction**
-
-Step 1: Draw a line segment \\(B C=8 \mathrm{~cm}\\).
-
-Step 2: At \\(B, draw B E such that \angle C B E=60^{\circ}. E \quad\\) 木
-
-Step 3 : At \\(B, draw BF such that \angle E B F=90^{\circ}\\).
-
-![Alt text](2.1.png)
-![Alt text](1.1.png)
-
-Step 4: Draw the perpendicular bisector to \\(B C, which intersects B F at O and B C at G\\).
-
-Step 5 : With \\(O as centre and O B\\) as radius draw a circle.
-
-Step 6 : From \\(B, mark an arc of 6 \mathrm{~cm} on B C at D\\).
-
-Step 7 : \\(\quad\\) The perpendicular bisector intersects the circle at I. Joint ID.
-
-Step 8: ID produced meets the circle at \\(A. Now join A B and A C. Then \triangle A B C\\) is the required triangle.
-
-**Exercise 4.2**
-
-1. In \\(\triangle A B C, D and E are points on the sides A B and A C respectively such that D E \| B C \quad (i) If \frac{A D}{D B}=\frac{3}{4} and A C=15 \mathrm{~cm} find A E\\).
-
-2.If \\(A D=8 x-7, D B=5 x-3, A E=4 x-3 and E C=3 x-1, find the value of x\\).
-
-2) ABCD is a trapezium in which \\(A B \| D C and P, Q are points on A D and B C respectively, such that P Q \| D C if P D=18 \mathrm{~cm}, B Q=35 \mathrm{~cm} and Q C=15 \mathrm{~cm}, find A D\\).
-3. In \\(\triangle A B C, D and E are points on the sides A B and A C respectively. Show that D E \| B C if A B=12 \mathrm{~cm}, A D=8 \mathrm{~cm}, A E=12 \mathrm{~cm} and A C=18 \mathrm{~cm}\\).
-4. In fig. if \\(P Q \| B C and P R \| C D\\) prove that
-
-1) \\(\frac{A R}{A D}=\frac{A Q}{A B}\\)
-2. \\(\frac{Q B}{A Q}=\frac{D R}{A R}\\).
-
-![Alt text](3.png)
-
-5. Rhombus \\(\mathrm{PQRB} is inscribed in \triangle A B C such that \angle B is one of its angle. P, Q and R lie on A B, A C and B C respectively. If A B=12 \mathrm{~cm} and B C=6 \mathrm{~cm}, find the sides P Q, R B\\) of the rhombus.
-6. In trapezium \\(A B C D, A B \| D C, E and F are points on non-parallel sides A D and B C respectively, such that E F \| A B. Show that \frac{A E}{E D}=\frac{B F}{F C}\\).
-7. In figure \\(D E \| B C and C D \| E F. Prove that A D^{2}=A B \times A F\\).
-8. Check whether \\(A D is bisector of \angle A of \triangle A B C\\) in each of the following
-
-![Alt text](4.png)
-
-(i) \\(A B=5 \mathrm{~cm}, A C=10 \mathrm{~cm}, B D=1.5 \mathrm{~cm} and C D=3.5 \mathrm{~cm}\\).
-
-(ii) \\(A B=4 \mathrm{~cm}, A C=6 \mathrm{~cm}, B D=1.6 \mathrm{~cm} and C D=2.4 \mathrm{~cm}\\).
-
-9. In figure \\(\angle Q P R=90^{\circ}, \mathrm{PS}\\) is its bisector.
-
-If \\(S T \perp P R, prove that S T \times(P Q+P R)=P Q \times P R\\).
-
-![Alt text](5.png)
-
-10. \\(A B C D is a quadrilateral in which A B=\mathrm{AD}, the bisector of \angle B A C and \angle C A D intersect the sides B C and C D at the points E and F respectively. Prove that E F \| B D\\).
-
-11. Construct a \\(\triangle P Q R which the base P Q=4.5 \mathrm{~cm}, \angle R=35^{\circ} and the median R G from R to P Q is 6 \mathrm{~cm}\\).
-12. Construct a \\(\triangle P Q R in which Q R=5 \mathrm{~cm}, \angle P=40^{\circ} and the median P G from P to Q R is 4.4 \mathrm{~cm}. Find the length of the altitude from P to Q R\\).
-13. Construct a \\(\triangle P Q R such that Q R=6.5 \mathrm{~cm}, \angle P=60^{\circ} and the altitude from P to Q R is of length 4.5 \mathrm{~cm}\\).
-14. Construct a \\(\triangle A B C such that A B=5.5 \mathrm{~cm}, \angle C=25^{\circ} and the altitude from C to A B is 4 \mathrm{~cm}\\).
-15. Draw a triangle \\(A B C of base B C=5.6 \mathrm{~cm}, \angle A=40^{\circ} and the bisector of \angle A meets B C at D such that C D=4 \mathrm{~cm}\\).
-16. Draw \\(\triangle P Q R such that P Q=6.8 \mathrm{~cm}, vertical angle is 50^{\circ} and the bisector of the vertical angle meets the base at D where P D=5.2 \mathrm{~cm}\\).
-
+**Given:** {{< katex >}}  ABC
+{{< /katex >}} 
+is a triangle. {{< katex >}}  AD
+{{< /katex >}}
+ divides {{< katex >}}  BC
+{{< /katex >}} 
+ in the ratio of the sides containing the angles {{< katex >}}  \angle A
+{{< /katex >}} 
+ to meet {{< katex >}}  BC
+{{< /katex >}}
+  at {{< katex >}}  D
+{{< /katex >}}.
+
+{{< katex >}}  \frac{AB}{AC} = \frac{BD}{DC} \text{ ... (1)}
+{{< /katex >}}
+
+**To prove:** {{< katex >}}  AD
+{{< /katex >}} 
+bisects {{< katex >}}  \angle A
+{{< /katex >}} 
+i.e. {{< katex >}}  \angle 1 = \angle 2
+{{< /katex >}}
+
+**Construction:** Draw {{< katex >}}  CE \parallel DA
+{{< /katex >}}. 
+Extend {{< katex >}}  BA
+{{< /katex >}} to meet at 
+{{< katex >}}  E
+{{< /katex >}}.
+
+![](2.png)
+---
+
+## Examples
+
+### Example 4.12
+
+In {{< katex >}}  \triangle ABC
+{{< /katex >}},
+ {{< katex >}}  DE \parallel BC
+{{< /katex >}},
+  if {{< katex >}}  AD = x
+{{< /katex >}},
+   {{< katex >}}  DB = x - 2
+{{< /katex >}},
+    {{< katex >}}  AE = x + 2
+{{< /katex >}}
+     and {{< katex >}}  EC = x - 1
+{{< /katex >}} 
+     then find the lengths of the sides {{< katex >}}  AB
+{{< /katex >}}
+      and {{< katex >}}  AC
+{{< /katex >}}.
+
+![](4.36.png)
+
+
+**Solution:** In {{< katex >}}  \triangle ABC
+{{< /katex >}}
+ we have {{< katex >}}  DE \parallel BC
+{{< /katex >}}.
+
+By Thales theorem, we have:
+
+{{< katex >}}  \frac{AD}{DB} = \frac{AE}{EC}
+{{< /katex >}}
+
+{{< katex >}}  \frac{x}{x-2} = \frac{x+2}{x-1}
+{{< /katex >}}
+
+Gives {{< katex >}}  x(x-1) = (x-2)(x+2)
+{{< /katex >}}
+
+Hence, {{< katex >}}  x^2 - x = x^2 - 4
+{{< /katex >}} 
+so, {{< katex >}}  x = 4
+{{< /katex >}}
+
+When {{< katex >}}  x = 4
+{{< /katex >}},
+ {{< katex >}}  AD = 4
+{{< /katex >}}, 
+{{< katex >}}  DB = x - 2 = 2
+{{< /katex >}},
+ {{< katex >}}  AE = x + 2 = 6
+{{< /katex >}},
+  {{< katex >}}  EC = x - 1 = 3
+{{< /katex >}}.
+
+Hence, {{< katex >}}  AB = AD + DB = 4 + 2 = 6
+{{< /katex >}},
+ {{< katex >}}  AC = AE + EC = 6 + 3 = 9
+{{< /katex >}}.
+
+Therefore, {{< katex >}}  AB = 6
+{{< /katex >}},
+ {{< katex >}}  AC = 9
+{{< /katex >}}.
+
+---
+
+### Example 4.13
+
+{{< katex >}}  D
+{{< /katex >}} and
+ {{< katex >}}  E
+{{< /katex >}} are respectively the points on the sides 
+ {{< katex >}}  AB
+{{< /katex >}} 
+ and {{< katex >}}  AC
+{{< /katex >}}
+ of a {{< katex >}}  \triangle ABC
+{{< /katex >}}
+  such that {{< katex >}}  AB = 5.6
+{{< /katex >}} 
+  cm, {{< katex >}}  AD = 1.4
+{{< /katex >}} cm,
+   {{< katex >}}  AC = 7.2
+{{< /katex >}} cm 
+   and {{< katex >}}  AE = 1.8
+{{< /katex >}} cm, 
+   show that {{< katex >}}  DE \parallel BC
+{{< /katex >}}.
+
+![](4.37.png)
+
+**Solution:** We have {{< katex >}}  AB = 5.6
+{{< /katex >}} cm, 
+{{< katex >}}  AD = 1.4
+{{< /katex >}} cm, 
+{{< katex >}}  AC = 7.2
+{{< /katex >}} 
+cm and {{< katex >}}  AE = 1.8
+{{< /katex >}} cm.
+
+{{< katex >}}  BD = AB - AD = 5.6 - 1.4 = 4.2
+{{< /katex >}} cm
+
+and {{< katex >}}  EC = AC - AE = 7.2 - 1.8 = 5.4
+{{< /katex >}} cm.
+
+{{< katex >}}  \frac{AD}{DB} = \frac{1.4}{4.2} = \frac{1}{3} \text{ and } \frac{AE}{EC} = \frac{1.8}{5.4} = \frac{1}{3}
+{{< /katex >}}
+
+{{< katex >}}  \frac{AD}{DB} = \frac{AE}{EC}
+{{< /katex >}}
+
+Therefore, by converse of Basic Proportionality Theorem, we have {{< katex >}}  DE
+{{< /katex >}}
+ is parallel to {{< katex >}}  BC
+{{< /katex >}}. Hence proved.
+
+---
+
+### Example 4.14
+
+In the figure, {{< katex >}}  DE \parallel AC
+{{< /katex >}}
+ and {{< katex >}}  DC \parallel AP
+{{< /katex >}}. 
+ Prove that {{< katex >}}  \frac{BE}{EC} = \frac{BC}{CP}
+{{< /katex >}}.
+
+![](4.38.png)
+
+**Solution:** In {{< katex >}}  \triangle BPA
+{{< /katex >}},
+ we have {{< katex >}}  DC \parallel AP
+{{< /katex >}}. By Basic Proportionality Theorem,
+
+{{< katex >}}  \frac{BC}{CP} = \frac{BD}{DA} \text{ ... (1)}
+{{< /katex >}}
+
+In {{< katex >}}  \triangle BCA
+{{< /katex >}},
+ we have {{< katex >}}  DE \parallel AC
+{{< /katex >}}. By Basic Proportionality Theorem,
+
+{{< katex >}}  \frac{BE}{EC} = \frac{BD}{DA} \text{ ... (2)}
+{{< /katex >}}
+
+From (1) and (2) we get, {{< katex >}}  \frac{BE}{EC} = \frac{BC}{CP}
+{{< /katex >}}. Hence proved.
+
+---
+
+### Example 4.15
+
+In the figure, {{< katex >}}  AD
+{{< /katex >}} 
+is the bisector of {{< katex >}}  \angle A
+{{< /katex >}}.
+ If {{< katex >}}  BD = 4
+{{< /katex >}} cm, 
+ {{< katex >}}  DC = 3
+{{< /katex >}} cm and 
+ {{< katex >}}  AB = 6
+{{< /katex >}} cm, 
+ find {{< katex >}}  AC
+{{< /katex >}}.
+
+![](4.39.png)
+
+**Solution:** In {{< katex >}}  \triangle ABC
+{{< /katex >}},
+ {{< katex >}}  AD
+{{< /katex >}} is the bisector of
+  {{< katex >}}  \angle A
+{{< /katex >}}
+
+By Angle Bisector Theorem:
+
+{{< katex >}}  \frac{BD}{DC} = \frac{AB}{AC}
+{{< /katex >}}
+
+{{< katex >}}  \frac{4}{3} = \frac{6}{AC}
+{{< /katex >}}
+
+Gives {{< katex >}}  4AC = 18
+{{< /katex >}}. 
+Hence, {{< katex >}}  AC = \frac{18}{4} = 4.5
+{{< /katex >}} cm
+
+---
+
+### Example 4.16
+
+In the figure, {{< katex >}}  AD
+{{< /katex >}} 
+is the bisector of {{< katex >}}  \angle BAC
+{{< /katex >}}, 
+if {{< katex >}}  AB = 10
+{{< /katex >}} cm,
+ {{< katex >}}  AC = 14
+{{< /katex >}} cm and
+  {{< katex >}}  BC = 6
+{{< /katex >}} cm. Find 
+  {{< katex >}}  BD
+{{< /katex >}} and 
+  {{< katex >}}  DC
+{{< /katex >}}.
+
+![](4.40.png)
+
+**Solution:** Let {{< katex >}}  BD = x
+{{< /katex >}} cm,
+ then {{< katex >}}  DC = (6 - x)
+{{< /katex >}} cm
+
+{{< katex >}}  AD
+{{< /katex >}} is the bisector of
+ {{< katex >}}  \angle A
+{{< /katex >}}
+
+By Angle Bisector Theorem:
+
+{{< katex >}}  \frac{AB}{AC} = \frac{BD}{DC}
+{{< /katex >}}
+
+{{< katex >}}  \frac{10}{14} = \frac{x}{6-x}
+{{< /katex >}}
+
+{{< katex >}}  \frac{5}{7} = \frac{x}{6-x}
+{{< /katex >}}
+
+{{< katex >}}  5(6-x) = 7x
+{{< /katex >}} 
+gives {{< katex >}}  30 - 5x = 7x
+{{< /katex >}}, 
+so {{< katex >}}  12x = 30
+{{< /katex >}}, we get 
+{{< katex >}}  x = \frac{30}{12} = 2.5
+{{< /katex >}} cm
+
+Therefore, {{< katex >}}  BD = 2.5
+{{< /katex >}} cm, 
+{{< katex >}}  DC = 6 - x = 6 - 2.5 = 3.5
+{{< /katex >}} cm
+
+---
+
+## 4.3.2 Construction of Triangle
+
+### Construction of a segment of a circle on a given line segment containing an angle {{< katex >}}  \theta
+{{< /katex >}}
+
+**Construction:**
+- **Step 1:** Draw a line segment {{< katex >}}  AB
+{{< /katex >}}.
+- **Step 2:** At {{< katex >}}  A
+{{< /katex >}}, 
+take {{< katex >}}  \angle BAE = \theta
+{{< /katex >}}. 
+Draw {{< katex >}}  AE
+{{< /katex >}}.
+- **Step 3:** Draw {{< katex >}}  AF \perp AE
+{{< /katex >}}.
+- **Step 4:** Draw the perpendicular bisector of {{< katex >}}  AB
+{{< /katex >}} meeting
+ {{< katex >}}  AF
+{{< /katex >}} 
+at {{< katex >}}  O
+{{< /katex >}}.
+- **Step 5:** With {{< katex >}}  O
+{{< /katex >}} 
+as centre and {{< katex >}}  OA
+{{< /katex >}} 
+as radius draw a circle {{< katex >}}  ABH
+{{< /katex >}}.
+- **Step 6:** Take any point {{< katex >}}  C
+{{< /katex >}}
+ on the circle. By the alternate segments theorem, {{< katex >}}  \angle ACB
+{{< /katex >}} is the required segment of the circle containing the angle
+  {{< katex >}}  \theta
+{{< /katex >}}.
+
+![](4.41.png)
+
+**Note:** If {{< katex >}}  C_1, C_2, ...
+{{< /katex >}}
+ are points on the circle, then all the triangles {{< katex >}}  \triangle BAC_1, \triangle BAC_2, ...
+{{< /katex >}} are with same base and the same vertical angle.
+
+---
+
+### Construction of a triangle when its base, the vertical angle and the median from the vertex of the base are given.
+
+**Example 4.17** Construct a {{< katex >}}  \triangle PQR
+{{< /katex >}} 
+in which {{< katex >}}  PQ = 8
+{{< /katex >}} cm,
+ {{< katex >}}  \angle R = 60°
+{{< /katex >}}
+  and the median {{< katex >}}  RG
+{{< /katex >}} 
+  from {{< katex >}}  R
+{{< /katex >}}
+   to {{< katex >}}  PQ
+{{< /katex >}} is 
+  {{< katex >}}  5.8
+{{< /katex >}} cm.
+   Find the length of the altitude from {{< katex >}}  R
+{{< /katex >}}
+    to {{< katex >}}  PQ
+{{< /katex >}}.
+
+**Construction:**
+- **Step 1:** Draw a line segment {{< katex >}}  PQ = 8
+{{< /katex >}} cm.
+- **Step 2:** At {{< katex >}}  P
+{{< /katex >}},
+ draw {{< katex >}}  PE
+{{< /katex >}} such that 
+ {{< katex >}}  \angle QPE = 60°
+{{< /katex >}}
+- **Step 3:** At {{< katex >}}  P
+{{< /katex >}},
+ draw {{< katex >}}  PF
+{{< /katex >}} such that 
+ {{< katex >}}  \angle EPF = 90°
+{{< /katex >}}.
+- **Step 4:** Draw the perpendicular bisector to {{< katex >}}  PQ
+{{< /katex >}},
+ which intersects {{< katex >}}  PF
+{{< /katex >}} 
+ at {{< katex >}}  O
+{{< /katex >}} and
+  {{< katex >}}  PQ
+{{< /katex >}} at 
+  {{< katex >}}  G
+{{< /katex >}}.
+- **Step 5:** With {{< katex >}}  O
+{{< /katex >}} 
+as centre and {{< katex >}}  OP
+{{< /katex >}} as radius draw a circle.
+- **Step 6:** From {{< katex >}}  G
+{{< /katex >}}
+ mark arcs of radius {{< katex >}}  5.8
+{{< /katex >}}
+  cm on the circle. Mark them as {{< katex >}}  R
+{{< /katex >}}
+   and {{< katex >}}  S
+{{< /katex >}}.
+- **Step 7:** Join {{< katex >}}  PR
+{{< /katex >}} 
+and {{< katex >}}  QR
+{{< /katex >}}.
+ {{< katex >}}  \triangle PQR
+{{< /katex >}} is the required triangle.
+- **Step 8:** From {{< katex >}}  R
+{{< /katex >}} 
+draw a line {{< katex >}}  RN
+{{< /katex >}} 
+perpendicular to {{< katex >}}  LQ
+{{< /katex >}}.
+ {{< katex >}}  LQ
+{{< /katex >}} meets
+  {{< katex >}}  RN
+{{< /katex >}} 
+  at {{< katex >}}  M
+{{< /katex >}}.
+- **Step 9:** The length of the altitude is {{< katex >}}  RM = 3.8
+{{< /katex >}} cm
+
+![](circle.png)
+
+**Note:** We can get another {{< katex >}}  \triangle PQS
+{{< /katex >}} for the given measurements.
+
+---
+
+### Construction of a triangle when its base, the vertical angle and the altitude from the vertex to the base are given.
+
+**Example 4.18** Construct a triangle {{< katex >}}  \triangle PQR
+{{< /katex >}} such that
+ {{< katex >}}  QR = 5
+{{< /katex >}}
+ cm, {{< katex >}}  \angle P = 30°
+{{< /katex >}}
+  and the altitude from {{< katex >}}  P
+{{< /katex >}}
+  
+   to {{< katex >}}  QR
+{{< /katex >}} is of length
+    {{< katex >}}  4.2
+{{< /katex >}} cm.
+
+
+
+**Construction:**
+- **Step 1:** Draw a line segment {{< katex >}}  QR = 5
+{{< /katex >}} cm.
+- **Step 2:** At {{< katex >}}  Q
+{{< /katex >}} draw
+ {{< katex >}}  QE
+{{< /katex >}} such that
+  {{< katex >}}  \angle RQE = 30°
+{{< /katex >}}.
+- **Step 3:** At {{< katex >}}  Q
+{{< /katex >}} 
+draw {{< katex >}}  QF
+{{< /katex >}} 
+such that {{< katex >}}  \angle EQF = 90°
+{{< /katex >}}.
+- **Step 4:** Draw the perpendicular bisector {{< katex >}}  XY
+{{< /katex >}} to 
+{{< katex >}}  QR
+{{< /katex >}} which intersects
+ {{< katex >}}  QF
+{{< /katex >}}
+  at {{< katex >}}  O
+{{< /katex >}}
+   and {{< katex >}}  QR
+{{< /katex >}} 
+ at {{< katex >}}  G
+{{< /katex >}}.
+- **Step 5:** With {{< katex >}}  O
+{{< /katex >}} 
+as centre and {{< katex >}}  OQ
+{{< /katex >}} as radius draw a circle.
+- **Step 6:** From {{< katex >}}  G
+{{< /katex >}} 
+mark an arc in the line {{< katex >}}  XY
+{{< /katex >}}
+ at {{< katex >}}  M
+{{< /katex >}}, such that
+  {{< katex >}}  GM = 4.2
+{{< /katex >}} cm.
+- **Step 7:** Draw {{< katex >}}  AB
+{{< /katex >}}
+ through {{< katex >}}  M
+{{< /katex >}} 
+ which is parallel to {{< katex >}}  QR
+{{< /katex >}}.
+- **Step 8:** {{< katex >}}  AB
+{{< /katex >}}
+ meets the circle at {{< katex >}}  P
+{{< /katex >}}
+  and {{< katex >}}  S
+{{< /katex >}}.
+- **Step 9:** Join {{< katex >}}  QP
+{{< /katex >}} 
+and {{< katex >}}  RP
+{{< /katex >}}. Then
+ {{< katex >}}  \triangle PQR
+{{< /katex >}} is the required triangle.
+
+**Note:** {{< katex >}}  \triangle SQR
+{{< /katex >}} is another required triangle for the given measurements.
+
+![](4.42.png)
+
+---
+
+### Construction of a triangle when its base, the vertical angle and the point on the base where the bisector of the vertical angle meets the base
+
+**Example 4.19** Draw a triangle {{< katex >}}  ABC
+{{< /katex >}} 
+of base {{< katex >}}  BC = 8
+{{< /katex >}} cm,
+ {{< katex >}}  \angle A = 60°
+{{< /katex >}} 
+ and the bisector of {{< katex >}}  \angle A
+{{< /katex >}} 
+ meets {{< katex >}}  BC
+{{< /katex >}} at
+  {{< katex >}}  D
+{{< /katex >}} such that 
+  {{< katex >}}  BD = 6
+{{< /katex >}} cm.
+
+![](2.1.png)
+
+
+![](1.1.png)
+
+
+**Construction:**
+- **Step 1:** Draw a line segment {{< katex >}}  BC = 8
+{{< /katex >}} cm.
+- **Step 2:** At {{< katex >}}  B
+{{< /katex >}},
+ draw {{< katex >}}  BE
+{{< /katex >}} such that
+  {{< katex >}}  \angle CBE = 60°
+{{< /katex >}}.
+- **Step 3:** At {{< katex >}}  B
+{{< /katex >}}, 
+draw {{< katex >}}  BF
+{{< /katex >}} such that 
+{{< katex >}}  \angle EBF = 90°
+{{< /katex >}}.
+- **Step 4:** Draw the perpendicular bisector to {{< katex >}}  BC
+{{< /katex >}}, which intersects
+ {{< katex >}}  BF
+{{< /katex >}} at 
+ {{< katex >}}  O
+{{< /katex >}} 
+ and {{< katex >}}  BC
+{{< /katex >}} at 
+ {{< katex >}}  G
+{{< /katex >}}.
+- **Step 5:** With {{< katex >}}  O
+{{< /katex >}}
+ as centre and {{< katex >}}  OB
+{{< /katex >}} as radius draw a circle.
+- **Step 6:** From {{< katex >}}  B
+{{< /katex >}},
+ mark an arc of {{< katex >}}  6
+{{< /katex >}} 
+ cm on {{< katex >}}  BC
+{{< /katex >}} 
+ at {{< katex >}}  D
+{{< /katex >}}.
+- **Step 7:** The perpendicular bisector intersects the circle at {{< katex >}}  I
+{{< /katex >}}. 
+Join {{< katex >}}  ID
+{{< /katex >}}.
+- **Step 8:** {{< katex >}}  ID
+{{< /katex >}} 
+produced meets the circle at {{< katex >}}  A
+{{< /katex >}}.
+ Now join {{< katex >}}  AB
+{{< /katex >}} and 
+ {{< katex >}}  AC
+{{< /katex >}}.
+  Then {{< katex >}}  \triangle ABC
+{{< /katex >}} is the required triangle.
+
+
+
+## Exercise 4.2
+
+1. In ΔABC, D and E are points on the sides AB and AC respectively such that DE || BC.
+   (i) If AD/DB = 3/4 and AC = 15cm find AE.
+   (ii) If AD = x - 8/7, DB = x - 5/3, AE = x - 4/3 and EC = x - 3/1, find the value of x.
+
+2. ABCD is a trapezium in which AB || DC and P, Q are points on AD and BC respectively, such that PQ || DC if PD = 18cm, BQ = 35cm and QC = 15cm, find AD.
+
+3. In ΔABC, D and E are points on the sides AB and AC respectively. Show that DE || BC if AB = 12cm, AD = 8cm, AE = 12cm and AC = 18cm.
+
+4. In fig. if PQ || BC and PR || CD prove that:
+   (i) AR/AD = AQ/AB
+   (ii) QB/AQ = DR/AR
+
+   ![](3.png)
+
+5. Rhombus PQRB is inscribed in ΔABC such that ∠B is one of its angle. P, Q and R lie on AB, AC and BC respectively. If AB = 12cm and BC = 6cm, find the sides PQ, RB of the rhombus.
+
+6. In trapezium ABCD, AB || DC, E and F are points on non-parallel sides AD and BC respectively, such that EF || AB. Show that AE/ED = BF/FC.
+
+![](4.png)
+
+7. In figure DE || BC and CD || EF. Prove that AD² = AB × AF.
+
+8. Check whether AD is bisector of ∠A of ΔABC in each of the following:
+   (i) AB = 5cm, AC = 10cm, BD = 1.5cm and CD = 3.5cm.
+   (ii) AB = 4cm, AC = 6cm, BD = 1.6cm and CD = 2.4cm.
+
+9. In figure ∠QPR = 90°, PS is its bisector. If ST ⊥ PR, prove that ST × (PQ + PR) = PQ × PR.
+
+![](5.png)
+
+10. ABCD is a quadrilateral in which AB = AD, the bisector of ∠BAC and ∠CAD intersect the sides BC and CD at the points E and F respectively. Prove that EF || BD.
+
+11. Construct a ΔPQR with the base PQ = 4.5cm, ∠R = 35° and the median RG from R to PQ is 6cm.
+
+12. Construct a ΔPQR in which QR = 5cm, ∠P = 40° and the median PG from P to QR is 4.4cm. Find the length of the altitude from P to QR.
+
+13. Construct a ΔPQR such that QR = 6.5cm, ∠P = 60° and the altitude from P to QR is of length 4.5cm.
+
+14. Construct a ΔABC such that AB = 5.5cm, ∠C = 25° and the altitude from C to AB is 4cm.
+
+15. Draw a triangle ABC of base BC = 5.6cm, ∠A = 40° and the bisector of ∠A meets BC at D such that CD = 4cm.
+
+16. Draw ΔPQR such that PQ = 6.5cm, vertical angle is 50° and the bisector of the vertical angle meets the base at D where PD = 5.2cm.
+
+---
