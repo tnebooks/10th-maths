@@ -16,7 +16,7 @@ Let {{< katex  >}}a{{</ katex  >}}
 and {{< katex  >}}b{{</ katex  >}} 
 be any two positive integers. Then, there exist unique integers {{< katex  >}}q{{</ katex  >}} 
 and {{< katex  >}}r{{</ katex  >}} such that:
-{{< katex  >}}a = bq + r, \quad 0 \leq r &lt; b{{</ katex  >}}
+{{< katex  >}}a = bq + r, \quad 0 \leq r < b{{</ katex  >}}
 
 The remainder is always less than the divisor. If {{< katex  >}}r = 0{{</ katex  >}} 
 then {{< katex  >}}a{{</ katex  >}} 
@@ -57,7 +57,7 @@ If {{< katex  >}}a{{</ katex  >}}
 and {{< katex  >}}b{{</ katex  >}} 
 are any two integers then there exist unique integers {{< katex  >}}q{{</ katex  >}} 
 and {{< katex  >}}r{{</ katex  >}} such that:
-{{< katex  >}}a = bq + r \quad \text{where} \quad 0 \leq r &lt; |b|{{</ katex  >}}
+{{< katex  >}}a = bq + r \quad \text{where} \quad 0 \leq r < |b|{{</ katex  >}}
 
 ### Example 2.2
 
@@ -76,9 +76,9 @@ is divided by {{< katex  >}}b{{</ katex  >}} in the following cases:
 {{< katex  >}}b = 5{{</ katex  >}}
 
 By Euclid's division lemma {{< katex  >}}a = bq + r{{</ katex  >}}, where 
-{{< katex  >}}0 \leq r &lt; |b|{{</ katex  >}}
+{{< katex  >}}0 \leq r < |b|{{</ katex  >}}
 
-{{< katex  >}}-12 = 5 \times (-3) + 3, \quad 0 \leq r &lt; |5|{{</ katex  >}}
+{{< katex  >}}-12 = 5 \times (-3) + 3, \quad 0 \leq r < |5|{{</ katex  >}}
 
 Therefore, Quotient {{< katex  >}}q = -3{{</ katex  >}}, 
 Remainder {{< katex  >}}r = 3{{</ katex  >}}
@@ -87,9 +87,9 @@ Remainder {{< katex  >}}r = 3{{</ katex  >}}
 {{< katex  >}}b = -3{{</ katex  >}}
 
 By Euclid's division lemma {{< katex  >}}a = bq + r{{</ katex  >}}, where 
-{{< katex  >}}0 \leq r &lt; |b|{{</ katex  >}}
+{{< katex  >}}0 \leq r < |b|{{</ katex  >}}
 
-{{< katex  >}}17 = (-3) \times (-5) + 2, \quad 0 \leq r &lt; |-3|{{</ katex  >}}
+{{< katex  >}}17 = (-3) \times (-5) + 2, \quad 0 \leq r < |-3|{{</ katex  >}}
 
 Therefore Quotient {{< katex  >}}q = -5{{</ katex  >}}, 
 Remainder {{< katex  >}}r = 2{{</ katex  >}}
@@ -98,9 +98,9 @@ Remainder {{< katex  >}}r = 2{{</ katex  >}}
 {{< katex  >}}b = -4{{</ katex  >}}
 
 By Euclid's division lemma {{< katex  >}}a = bq + r{{</ katex  >}}, 
-where {{< katex  >}}0 \leq r &lt; |b|{{</ katex  >}}
+where {{< katex  >}}0 \leq r < |b|{{</ katex  >}}
 
-{{< katex  >}}-19 = (-4) \times (5) + 1, \quad 0 \leq r &lt; |-4|{{</ katex  >}}
+{{< katex  >}}-19 = (-4) \times (5) + 1, \quad 0 \leq r < |-4|{{</ katex  >}}
 
 Therefore Quotient {{< katex  >}}q = 5{{</ katex  >}}, 
 Remainder {{< katex  >}}r = 1{{</ katex  >}}
