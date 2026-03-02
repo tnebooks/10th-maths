@@ -43,7 +43,7 @@ The fundamental theorem asserts that every composite number can be decomposed as
 
 In general, we conclude that given a composite number $N$, we decompose it uniquely in the form:
 
-![Prime Factorization Tree Fig. 2.2](image_3.png)
+![Prime Factorization Tree Fig. 2.2](fundamental.png)
 
 $$N = p_1^{q_1} \times p_2^{q_2} \times p_3^{q_3} \times \cdots \times p_n^{q_n}$$
 
