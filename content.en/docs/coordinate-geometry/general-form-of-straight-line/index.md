@@ -60,36 +60,7 @@ for different values of {{< katex >}}
 k
 {{< /katex >}}.
 
-Two straight lines {{< katex >}}
-a_1x + b_1y + c_1 = 0{{< /katex >}}
- and 
-{{< katex >}}a_2x + b_2y + c_2 = 0
-{{< /katex >}} where the coefficients are non-zero, are:
-
-- (i) **parallel** if and only if {{< katex >}}
-\frac{a_1}{a_2} = \frac{b_1}{b_2}{{< /katex >}}
-; That is 
-{{< katex >}}a_1b_2 - a_2b_1 = 0
-{{< /katex >}}
-- (ii) **perpendicular** if and only if {{< katex >}}
-a_1a_2 + b_1b_2 = 0
-{{< /katex >}}
-
----
-
-## Progress Check
-
-Fill the details in respective boxes
-
-| No. | Equations | Parallel or perpendicular |
-|-----|-----------|---------------------------|
-| 1 | {{< katex >}}
-5x + 2y + 5 = 0{{< /katex >}}, {{< katex >}}5x + 2y + 3 = 0{{< /katex>}} | |
-| 2 | {{< katex >}}4x - 5y + 16 = 0 {{< /katex >}}, {{< katex >}}8x+10y+ 11 = 0{{< /katex >}} | |
-| 3 | {{< katex >}}3x + 8y - 10 = 0{{< /katex >}}, {{< katex >}}7x + 3y + 8 = 0{{< /katex >}} | |
-| 4 | {{< katex >}}2x - 9y - 7 = 0{{< /katex >}}, {{< katex >}}27x - 6y + 21 = 0{{< /katex >}} | |
-
----
+![](1.png)
 
 ### 5.6.3 Slope of a straight line
 
@@ -131,9 +102,7 @@ l = -\frac{c}{b} = -\frac{\text{constant term}}{\text{coefficient of } y}
 
 ---
 
-## Thinking Corner
-
-How many straight lines do you have with slope 1?
+![](2.png)
 
 ---
 
@@ -229,27 +198,7 @@ Here, {{< katex >}}
 m_1 = m_2
 {{< /katex >}}. That is, slopes are equal. Hence, the two straight lines are parallel.
 
-**Aliter:**
-
-{{< katex >}}
-a_1 = 2, b_1 = 3{{< /katex >}}
-; 
-{{< katex >}}a_2 = 4, b_2 = 6
-{{< /katex >}}
-
-{{< katex >}}
-\frac{a_1}{a_2} = \frac{2}{4} = \frac{1}{2}
-{{< /katex >}}
-
-{{< katex >}}
-\frac{b_1}{b_2} = \frac{3}{6} = \frac{1}{2}
-{{< /katex >}}
-
-Therefore, {{< katex >}}
-\frac{a_1}{a_2} = \frac{b_1}{b_2}
-{{< /katex >}}. Hence the lines are parallel.
-
----
+![alt text](3.png)
 
 ### Example 5.33
 
@@ -281,21 +230,7 @@ m_1 \times m_2 = \frac{1}{2} \times (-2) = -1
 
 Hence, the two straight lines are perpendicular.
 
-**Aliter:**
-
-{{< katex >}}
-a_1 = 1, b_1 = -2{{< /katex >}}
-; 
-{{< katex >}}a_2 = 6, b_2 = 3
-{{< /katex >}}
-
-{{< katex >}}
-a_1a_2 + b_1b_2 = 6 - 6 = 0
-{{< /katex >}}
-
-The lines are perpendicular.
-
----
+![alt text](4.png)
 
 ### Example 5.34
 
@@ -466,6 +401,8 @@ y - 5 = -x
 x + y - 5 = 0
 {{< /katex >}}
 
+![alt text](5.png)
+
 (ii) The equation of a line which is perpendicular to the line {{< katex >}}
 AB: x + y - 5 = 0{{< /katex >}}
  is 
@@ -508,20 +445,10 @@ Therefore, the coordinates of the point of contact is {{< katex >}}
 P\left(\frac{5}{2}, \frac{5}{2}\right)
 {{< /katex >}}.
 
----
 
-## Activity 6
+![alt text](6.png)
 
-## Thinking Corner
-
-1. Find the number of point of intersection of two straight lines.
-2. Find the number of straight lines perpendicular to the line {{< katex >}}
-2x - 3y + 6 = 0
-{{< /katex >}}.
-
-Find the equation of a straight line for the given diagrams.
-
----
+![alt text](7.png)
 
 ## Exercise 5.4
 
@@ -973,129 +900,10 @@ C(-1,6)
 
 ---
 
-## Points to Remember
+![alt text](8.png)
 
-- The area of a triangle formed by the points {{< katex >}}
-(x_1, y_1){{< /katex >}}
-, {{< katex >}}
-(x_2, y_2)
-{{< /katex >}} and 
-{{< katex >}}(x_3, y_3)
-{{< /katex >}} is:
-  {{< katex >}}
-\frac{1}{2}\{(x_1y_2 + x_2y_3 + x_3y_1) - (x_2y_1 + x_3y_2 + x_1y_3)\} \text{ sq. units}
-{{< /katex >}}
 
-- Three points {{< katex >}}
-A(x_1, y_1){{< /katex >}}
-, {{< katex >}}
-B(x_2, y_2)
-{{< /katex >}} and 
-{{< katex >}}C(x_3, y_3)
-{{< /katex >}} are collinear if and only if:
-  - (i) Area of {{< katex >}}
-\triangle ABC = 0{{< /katex >}}
- or 
-{{< katex >}}x_1y_2 + x_2y_3 + x_3y_1 = x_2y_1 + x_3y_2 + x_1y_3
-{{< /katex >}}
-  - (ii) Slope of {{< katex >}}
-AB{{< /katex >}}
- = slope of {{< katex >}}
-BC
-{{< /katex >}} or slope of 
-{{< katex >}}AC
-{{< /katex >}}
+![alt text](9.png)
 
-- The area of a quadrilateral formed by the four points {{< katex >}}
-(x_1, y_1){{< /katex >}}
-, {{< katex >}}
-(x_2, y_2){{< /katex >}}
-, 
-{{< katex >}}(x_3, y_3)
-{{< /katex >}} and 
-{{< katex >}}(x_4, y_4)
-{{< /katex >}} is:
-  {{< katex >}}
-\frac{1}{2}\{(x_1y_2 + x_2y_3 + x_3y_4 + x_4y_1) - (x_2y_1 + x_3y_2 + x_4y_3 + x_1y_4)\} \text{ sq. units}
-{{< /katex >}}
 
-- If a line makes an angle {{< katex >}}
-\theta{{< /katex >}}
- with the positive direction of X-axis, then its slope 
-{{< katex >}}m = \tan\theta
-{{< /katex >}}.
-
-- If {{< katex >}}
-A(x_1, y_1){{< /katex >}}
-, {{< katex >}}
-B(x_2, y_2){{< /katex >}}
- are two distinct points then the slope of 
-{{< katex >}}AB
-{{< /katex >}} is 
-{{< katex >}}\frac{y_2 - y_1}{x_2 - x_1}
-{{< /katex >}}.
-
-- Slope of line {{< katex >}}
-ax + by + c = 0{{< /katex >}}
- is 
-{{< katex >}}m = -\frac{a}{b}
-{{< /katex >}}.
-
----
-
-## Equation of straight line in various forms
-
-| Form | Name |
-|------|------|
-| {{< katex >}}
-ax + by + c = 0
-{{< /katex >}} | General form |
-| {{< katex >}}
-y = mx + c
-{{< /katex >}} | Slope-intercept |
-| {{< katex >}}
-y - y_1 = m(x - x_1)
-{{< /katex >}} | Point-slope form |
-| {{< katex >}}
-\frac{y - y_1}{y_2 - y_1} = \frac{x - x_1}{x_2 - x_1}
-{{< /katex >}} | Two point form |
-| {{< katex >}}
-\frac{x}{a} + \frac{y}{b} = 1
-{{< /katex >}} | Intercept form |
-| {{< katex >}}
-x = c
-{{< /katex >}} | Parallel to Y-axis |
-| {{< katex >}}
-y = b
-{{< /katex >}} | Parallel to X-axis |
-
-- Two straight lines are **parallel** if and only if their slopes are equal.
-- Two straight lines with well-defined slopes {{< katex >}}
-m_1, m_2{{< /katex >}}
- are **perpendicular** if and only if 
-{{< katex >}}m_1 \times m_2 = -1
-{{< /katex >}}.
-
----
-## ICT CORNER
-
-### ICT 5.1
-
-**Step 1:** Open the Browser type the URL Link given below (or) Scan the QR Code. GeoGebra work book named "Co-Ordinate Geometry" will open. In the left side of the work book there are many activity related to mensuration chapter. Select the work sheet "Area of a Quadrilateral"
-
-**Step 2:** In the given worksheet you can change the Question by clicking on "New Problem". Move the slider to see the steps. Work out each problem and verify your answer.
-
-### ICT 5.2
-
-**Step 1:** Open the Browser type the URL Link given below (or) Scan the QR Code. GeoGebra work book named "Co-Ordinate Geometry" will open. In the left side of the work book there are many activity related to mensuration chapter. Select the work sheet "Slope_Equation of a Straight Line"
-
-**Step 2:** In the given worksheet you can change the Line by Dragging the points A and B on graph. Click on the Check boxes on Left Hand Side to see various forms of same straight line.
-
-You can repeat the same steps for other activities
-
-**URL:** https://www.geogebra.org/m/jfr2zzgy#chapter/356195
-
----
-
-> **KNOW?**
-> Two French mathematicians **Rene Descartes** and **Pierre-de-Fermat** were the first to conceive the idea of modern coordinate geometry by 1630s.
+![alt text](10.png)
