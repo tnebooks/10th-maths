@@ -4,7 +4,9 @@ weight: 1
 ---
 ## 5.1 Introduction
 
-Coordinate geometry, also called **Analytical geometry**, is a branch of mathematics in which curves in a plane are represented by algebraic equations. For example, the equation $x^2 + y^2 = 1$ describes a circle of unit radius in the plane. Thus coordinate geometry can be seen as a branch of mathematics which interlinks algebra and geometry, where algebraic equations are represented by geometric curves. This connection makes it possible to reformulate problems in geometry to problems in algebra and vice versa. Thus, in coordinate geometry, the algebraic equations have visual representations thereby making our understanding much deeper. For instance, the first degree equation in two variables $ax + by + c = 0$ represents a straight line in a plane. Overall, coordinate geometry is a tool to understand concepts visually and created new branches of mathematics in modern times.
+Coordinate geometry, also called **Analytical geometry**, is a branch of mathematics in which curves in a plane are represented by algebraic equations. For example, the equation {{<katex>}}
+x^2 + y^2 = 1{{</katex>}} describes a circle of unit radius in the plane. Thus coordinate geometry can be seen as a branch of mathematics which interlinks algebra and geometry, where algebraic equations are represented by geometric curves. This connection makes it possible to reformulate problems in geometry to problems in algebra and vice versa. Thus, in coordinate geometry, the algebraic equations have visual representations thereby making our understanding much deeper. For instance, the first degree equation in two variables {{<katex>}}ax + by + c = 0
+{{</katex>}} represents a straight line in a plane. Overall, coordinate geometry is a tool to understand concepts visually and created new branches of mathematics in modern times.
 
 ---
 
@@ -27,23 +29,34 @@ The mid-point {{< katex >}}M{{< /katex >}} of the line segment joining {{< katex
 
 #### Internal Division
 
-Let {{< katex >}}A(x_1, y_1){{< /katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} be two distinct points such that point {{< katex >}}P(x, y){{< /katex >}} divides $AB$ internally in the ratio $m:n$.
+Let {{<katex>}}A(x_1, y_1){{</katex>}} and 
+{{<katex>}}B(x_2, y_2){{</katex>}} be two distinct points such that point 
+{{<katex>}}P(x, y){{</katex>}} divides {{<katex>}}AB{{</katex>}} internally 
+in the ratio {{<katex>}} m:n {{</katex>}}.
 
-Then the coordinates of $P$ are given by:
+Then the coordinates of {{<katex>}}
+P
+{{</katex>}} are given by:
 
 {{< katex >}}P = \left(\frac{mx_2 + nx_1}{m+n}, \frac{my_2 + ny_1}{m+n}\right){{< /katex >}}
 
 #### External Division
 
-Let {{< katex >}}A(x_1, y_1){{< /katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} be two distinct points such that the point {{< katex >}}P(x, y){{< /katex >}} divides $AB$ externally in the ratio $m:n$.
+Let {{< katex >}}A(x_1, y_1){{< /katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} be two distinct points such that the point {{< katex >}}P(x, y){{< /katex >}} divides {{<katex>}}
+AB{{</katex>}} externally in the ratio {{<katex>}}m:n
+{{</katex>}}.
 
-Then the coordinates of $P$ are given by:
+Then the coordinates of {{<katex>}}
+P
+{{</katex>}} are given by:
 
 {{< katex >}}P = \left(\frac{mx_2 - nx_1}{m-n}, \frac{my_2 - ny_1}{m-n}\right){{< /katex >}}
 
 ### Centroid of a triangle
 
-The coordinates of the centroid $G$ of a triangle with vertices {{< katex >}}A(x_1, y_1){{< /katex >}}, {{< katex >}}B(x_2, y_2){{< /katex >}} and {{< katex >}}C(x_3, y_3){{< /katex >}} are given by:
+The coordinates of the centroid {{<katex>}}
+G
+{{</katex>}} of a triangle with vertices {{< katex >}}A(x_1, y_1){{< /katex >}}, {{< katex >}}B(x_2, y_2){{< /katex >}} and {{< katex >}}C(x_3, y_3){{< /katex >}} are given by:
 
 {{< katex >}}G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right){{< /katex >}}
 
