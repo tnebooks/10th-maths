@@ -19,6 +19,7 @@ a, b, c{{< /katex >}}
  are real numbers and at least one of 
 {{< katex >}}a, b
 {{< /katex >}} is non-zero is called **"Straight line"** in XY plane.
+![](30.png)
 
 ### 5.5.1 Equation of coordinate axes
 
@@ -33,6 +34,7 @@ OY{{< /katex >}}
 {{< /katex >}} (Y-axis) is 
 {{< katex >}}x = 0
 {{< /katex >}}.
+![](31.png)
 
 The y-coordinate of every point on {{< katex >}}
 OX{{< /katex >}}
@@ -43,6 +45,7 @@ OX{{< /katex >}}
 {{< /katex >}} (X-axis) is 
 {{< katex >}}y = 0
 {{< /katex >}}.
+![](32.png)
 
 ### 5.5.2 Equation of a straight line parallel to X axis
 
@@ -61,6 +64,8 @@ AB{{< /katex >}}
  is 
 {{< katex >}}y = b
 {{< /katex >}}.
+
+![](33.png)
 
 > **Note:**
 > - If {{< katex >}}
@@ -94,6 +99,8 @@ CD{{< /katex >}}
 {{< /katex >}} is 
 {{< katex >}}x = c
 {{< /katex >}}.
+
+![](34.png)
 
 - If {{< katex >}}
 c > 0{{< /katex >}}
@@ -307,6 +314,7 @@ y
 {{< katex >}}
 y = \frac{9}{5}(25) + 32 = 45 + 32 = 77
 {{< /katex >}}
+![](35.png)
 
 > **Note:** The formula for converting Celsius to Fahrenheit is given by {{< katex >}}
 F = \frac{9}{5}C + 32
@@ -319,6 +327,7 @@ Therefore, the mean temperature of the earth is **{{< katex >}}
 ---
 
 ### 5.5.5 Point-Slope form
+![](36.png)
 
 Here we will find the equation of a straight line passing through a given point {{< katex >}}
 A(x_1, y_1){{< /katex >}}
@@ -435,6 +444,7 @@ y - 4 = -x + 1
 {{< katex >}}
 x + y - 5 = 0
 {{< /katex >}}
+![](37.png)
 
 ---
 
@@ -515,6 +525,7 @@ Two buildings of different heights are located at opposite sides of each other. 
  to 
 {{< katex >}}(14,12)
 {{< /katex >}}, find the equation of the rod joining the buildings?
+![](38.png)
 
 **Solution:** Let {{< katex >}}
 A(6,10){{< /katex >}}
@@ -565,6 +576,7 @@ a{{< /katex >}}
  and 
 {{< katex >}}b
 {{< /katex >}} on the coordinate axes respectively.
+![](39.png)
 
 Let {{< katex >}}
 PQ{{< /katex >}}
@@ -709,6 +721,7 @@ x
 (ii) How much time does it take so that the battery has no power?
 
 **Solution:**
+![](40.png)
 
 (i) To find the time when the battery power is 40%, we have to take {{< katex >}}
 y = 0.40
@@ -824,6 +837,7 @@ E{{< /katex >}}
 
 (a) Find the equation of (i) East Avenue, (ii) North Street, (iii) Cross Road
 (b) Where does the Cross Road intersect? (i) North Street, (ii) East Avenue
+![](41.png)
 
 **Solution:**
 
@@ -999,6 +1013,7 @@ l_2
 (iii) Find the equation of line {{< katex >}}
 l_3
 {{< /katex >}}
+![](42.png)
 
 ---
 
@@ -1008,7 +1023,7 @@ A ladder is placed against a vertical wall with its foot touching the horizontal
 
 | No. | Condition | Picture | Equation of the ladder |
 |-----|-----------|---------|------------------------|
-| (i) | The ladder is inclined at {{< katex >}} 60°{{< /katex >}} to the floor and it touches the wall at {{< katex >}}(0,8){{< /katex >}} | | |
+| (i) | The ladder is inclined at {{< katex >}} 60°{{< /katex >}} to the floor and it touches the wall at {{< katex >}}(0,8){{< /katex >}} |![](43.png) | |
 | (ii) | The foot and top of the ladder are at the points {{< katex >}}
 (2,4){{< /katex >}} and {{< katex >}}(5,1){{< /katex >}} | | |
 

@@ -9,6 +9,7 @@ In your earlier classes, you have studied how to calculate the area of a triangl
 {{<katex>}}
 \text{Area of triangle} = \frac{1}{2} \times \text{base} \times \text{altitude} \text{ sq. units}
 {{</katex>}}
+![](5.6.png)
 
 With any three non-collinear points {{<katex>}}
 A(x_1, y_1){{</katex>}}, {{<katex>}}B(x_2, y_2){{</katex>}} and {{<katex>}}C(x_3, y_3)
@@ -33,6 +34,7 @@ AP{{</katex>}}, {{<katex>}}BQ{{</katex>}} and {{<katex>}}CR{{</katex>}} perpendi
 Clearly {{<katex>}}
 ABQP{{</katex>}}, {{<katex>}}APRC{{</katex>}} and {{<katex>}}BQRC
 {{</katex>}} are all trapeziums.
+![](5.7.png)
 
 Now from the figure, it is clear that
 

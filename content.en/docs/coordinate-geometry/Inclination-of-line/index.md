@@ -3,7 +3,6 @@ title: 'Inclination of line'
 weight: 4
 ---
 
-
 ## 5.4 Inclination of a Line
 
 The **inclination** of a line or the **angle of inclination** of a line is the angle which a straight line makes with the positive direction of X-axis measured in the counter-clockwise direction to the part of the line above the X-axis. The inclination of the line is usually denoted by {{<katex>}}\theta{{</katex>}}.
@@ -17,6 +16,7 @@ The **inclination** of a line or the **angle of inclination** of a line is the a
 While laying roads one must know how steep the road will be. Similarly, when constructing a staircase, we should consider its steepness. For the same reason, anyone travelling along a hill or a bridge, feels hard compared to travelling along a plain road.
 
 All these examples illustrate one important aspect called **"Steepness"**. The measure of steepness is called **slope** or **gradient**.
+![](16.png)
 
 The concept of slope is important in economics because it is used to measure the rate at which the demand for a product changes in a given period of time on the basis of its price. Slope comprises of two factors namely steepness and direction.
 
@@ -31,6 +31,7 @@ m = \tan\theta, \quad 0° \leq \theta \leq 180°, \quad \theta \neq 90°
 {{</katex>}}
 
 #### To find the slope of a straight line when two points are given
+![](17.png)
 
 {{<katex>}}
 \text{Slope } m = \tan\theta = \frac{\text{opposite side}}{\text{adjacent side}} = \frac{BC}{AC} = \frac{y_2 - y_1}{x_2 - x_1}
@@ -48,11 +49,11 @@ m = \tan\theta, \quad 0° \leq \theta \leq 180°, \quad \theta \neq 90°
 
 | S.No. | Condition | Slope | Diagram |
 |-------|-----------|-------|---------|
-| (i) | {{<katex>}}\theta = 0°{{</katex>}} | {{<katex>}}m = 0{{</katex>}} | The line is parallel to the positive direction of X axis. |
-| (ii) | {{<katex>}}0° < \theta < 90°{{</katex>}} | {{<katex>}}m > 0{{</katex>}} (positive) | The line has positive slope (A line with positive slope rises from left to right). |
-| (iii) | {{<katex>}}90° < \theta < 180°{{</katex>}} | {{<katex>}}m < 0{{</katex>}} (negative) | The line has negative slope (A line with negative slope falls from left to right). |
-| (iv) | {{<katex>}}\theta = 180°{{</katex>}} | {{<katex>}}m = 0{{</katex>}} | The line is parallel to the negative direction of X axis. |
-| (v) | {{<katex>}}\theta = 90°{{</katex>}} | undefined | The slope is undefined. |
+| (i) | {{<katex>}}\theta = 0°{{</katex>}} | {{<katex>}}m = 0{{</katex>}} | The line is parallel to the positive direction of X axis. |![](18.png)|
+| (ii) | {{<katex>}}0° < \theta < 90°{{</katex>}} | {{<katex>}}m > 0{{</katex>}} (positive) | The line has positive slope (A line with positive slope rises from left to right). |![](19.png)
+| (iii) | {{<katex>}}90° < \theta < 180°{{</katex>}} | {{<katex>}}m < 0{{</katex>}} (negative) | The line has negative slope (A line with negative slope falls from left to right). |![](20.png)
+| (iv) | {{<katex>}}\theta = 180°{{</katex>}} | {{<katex>}}m = 0{{</katex>}} | The line is parallel to the negative direction of X axis. |![](22.png)
+| (v) | {{<katex>}}\theta = 90°{{</katex>}} | undefined | The slope is undefined. |![](21.png)
 
 ---
 
@@ -63,11 +64,15 @@ The diagram contains four lines {{<katex>}}l_1, l_2, l_3{{</katex>}} and {{<kate
 (i) Which lines have positive slope?
 (ii) Which lines have negative slope?
 
+![](23.png)
+
 ---
 
 ## Progress Check
 
 Write down the slope of each of the lines shown on the grid below. One is solved for you.
+
+![](24.png)
 
 **Solution (iii):** Slope of the line {{<katex>}}p = \frac{\text{Difference in y coordinate}}{\text{Difference in x coordinate}} = \frac{3}{3} = 1{{</katex>}}
 
@@ -76,6 +81,7 @@ Write down the slope of each of the lines shown on the grid below. One is solved
 ## 5.4.2 Slopes of parallel lines
 
 Two non-vertical lines are parallel if and only if their slopes are equal.
+![](25.png)
 
 Let {{<katex>}}l_1{{</katex>}} and {{<katex>}}l_2{{</katex>}} be two non-vertical lines with slopes {{<katex>}}m_1{{</katex>}} and {{<katex>}}m_2{{</katex>}} respectively.
 
@@ -122,7 +128,7 @@ Thus, non-vertical lines having equal slopes are parallel.
 ## 5.4.3 Slopes of perpendicular lines
 
 Two non-vertical lines with slopes {{<katex>}}m_1{{</katex>}} and {{<katex>}}m_2{{</katex>}} are perpendicular if and only if {{<katex>}}m_1 \cdot m_2 = -1{{</katex>}}.
-
+![](26.png)
 Let {{<katex>}}l_1{{</katex>}} and {{<katex>}}l_2{{</katex>}} be two non-vertical lines with slopes {{<katex>}}m_1{{</katex>}} and {{<katex>}}m_2{{</katex>}} respectively. Let their inclinations be {{<katex>}}\theta_1{{</katex>}} and {{<katex>}}\theta_2{{</katex>}} respectively.
 
 Then {{<katex>}}m_1 = \tan\theta_1{{</katex>}} and {{<katex>}}m_2 = \tan\theta_2{{</katex>}}
@@ -282,6 +288,7 @@ Therefore, line {{<katex>}}p{{</katex>}} is parallel to the line {{<katex>}}q{{<
 Show that the points {{<katex>}}(-2,5){{</katex>}}, {{<katex>}}(6,-1){{</katex>}} and {{<katex>}}(2,2){{</katex>}} are collinear.
 
 **Solution:** The vertices are {{<katex>}}A(-2,5){{</katex>}}, {{<katex>}}B(6,-1){{</katex>}} and {{<katex>}}C(2,2){{</katex>}}.
+![](27.png)
 
 Slope of {{<katex>}}AB = \frac{-1-5}{6+2} = \frac{-6}{8} = -\frac{3}{4}{{</katex>}}
 
@@ -326,6 +333,7 @@ Similarly the lines {{<katex>}}AD{{</katex>}} and {{<katex>}}BC{{</katex>}} are 
 Consider the graph representing growth of population (in crores). Find the slope of the line {{<katex>}}AB{{</katex>}} and hence estimate the population in the year 2030?
 
 **Solution:** The points {{<katex>}}A(2005, 96){{</katex>}} and {{<katex>}}B(2015, 100){{</katex>}} are on the line {{<katex>}}AB{{</katex>}}.
+![](28.png)
 
 {{<katex>}}
 \text{Slope of } AB = \frac{100-96}{2015-2005} = \frac{4}{10} = \frac{2}{5}
@@ -388,6 +396,7 @@ Provide three examples of using the concept of slope in real-life situations.
 Prove analytically that the line segment joining the mid-points of two sides of a triangle is parallel to the third side and is equal to half of its length.
 
 **Solution:** Let {{<katex>}}P(a,b){{</katex>}}, {{<katex>}}Q(c,d){{</katex>}} and {{<katex>}}R(e,f){{</katex>}} be the vertices of a triangle.
+![](29.png)
 
 Let {{<katex>}}S{{</katex>}} be the mid-point of {{<katex>}}PQ{{</katex>}} and {{<katex>}}T{{</katex>}} be the mid-point of {{<katex>}}PR{{</katex>}}.
 

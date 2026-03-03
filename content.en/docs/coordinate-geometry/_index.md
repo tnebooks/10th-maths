@@ -9,7 +9,7 @@ weight: 5
 
 **Apollonius** (262-190 BC) was born at Perga, in modern day Turkey. His greatest work was called "Conics" which introduced curves like circle, parabola geometrically. He wrote six other books all related to the basics of modern day coordinate geometry. 
 His ideas were applied to study planetary theory and solve practical problems. He developed the sundial and contributed to other branches of science using his exceptional geometric skills. For this reason, Apollonius is hailed as **"The Great Geometer"**.
-
+![](image250.png)
 **Pierre de Fermat**
 
 ---

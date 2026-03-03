@@ -18,12 +18,14 @@ Distance between two points {{< katex >}}
 A(x_1, y_1){{< /katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} is:
 
 {{< katex >}}|AB| = d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}{{< /katex >}}
+![](5.1.png)
 
 ### Mid-point of line segment
 
 The mid-point {{< katex >}}M{{< /katex >}} of the line segment joining {{< katex >}}A(x_1, y_1){{< /katex >}} and {{< katex >}}B(x_2, y_2){{< /katex >}} is:
 
 {{< katex >}}M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right){{< /katex >}}
+![](5.2.png)
 
 ### Section Formula
 
@@ -39,6 +41,7 @@ P
 {{</katex>}} are given by:
 
 {{< katex >}}P = \left(\frac{mx_2 + nx_1}{m+n}, \frac{my_2 + ny_1}{m+n}\right){{< /katex >}}
+![](5.3.png)
 
 #### External Division
 
@@ -51,6 +54,7 @@ P
 {{</katex>}} are given by:
 
 {{< katex >}}P = \left(\frac{mx_2 - nx_1}{m-n}, \frac{my_2 - ny_1}{m-n}\right){{< /katex >}}
+![](5.4.png)
 
 ### Centroid of a triangle
 
@@ -59,7 +63,7 @@ G
 {{</katex>}} of a triangle with vertices {{< katex >}}A(x_1, y_1){{< /katex >}}, {{< katex >}}B(x_2, y_2){{< /katex >}} and {{< katex >}}C(x_3, y_3){{< /katex >}} are given by:
 
 {{< katex >}}G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right){{< /katex >}}
-
+![](5.5.png)
 ---
 
 ## Progress Check

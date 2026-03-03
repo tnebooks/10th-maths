@@ -5,8 +5,11 @@ weight: 3
 ## 5.3 Area of a Quadrilateral
 
 If {{< katex >}}ABCD{{< /katex >}} is a quadrilateral, then considering the diagonal {{< katex >}}AC{{< /katex >}}, we can split the quadrilateral {{< katex >}}ABCD{{< /katex >}} into two triangles {{< katex >}}ABC{{< /katex >}} and {{< katex >}}ACD{{< /katex >}}.
+![](5.8.png)
 
 Using area of triangle formula given its vertices, we can calculate the areas of triangles {{< katex >}}ABC{{< /katex >}} and {{< katex >}}ACD{{< /katex >}}.
+
+![](5.9.png)
 
 Now, Area of the quadrilateral {{< katex >}}ABCD{{< /katex >}} = Area of triangle {{< katex >}}ABC{{< /katex >}} + Area of triangle {{< katex >}}ACD{{< /katex >}}
 
@@ -39,6 +42,7 @@ How many triangles exist, whose area is zero?
 Find the area of the triangle whose vertices are {{< katex >}}(-3,5){{< /katex >}}, {{< katex >}}(5,6){{< /katex >}} and {{< katex >}}(5,-2){{< /katex >}}.
 
 **Solution:** Plot the points in a rough diagram and take them in counter-clockwise order.
+![](5.10.png)
 
 Let the vertices be {{< katex >}}A(-3,5){{< /katex >}}, {{< katex >}}B(5,-2){{< /katex >}}, {{< katex >}}C(5,6){{< /katex >}}.
 
@@ -124,7 +128,7 @@ Area of this tile:
 Since the floor is covered by 110 triangle shaped identical tiles,
 
 {{< katex >}}\text{Area of floor} = 110 \times 6 = 660 \text{ sq. units}{{< /katex >}}
-
+![](5.11.png)
 ---
 
 ### Example 5.6
@@ -142,12 +146,14 @@ Therefore, area of the quadrilateral {{< katex >}}ABCD{{< /katex >}}:
 {{< katex >}}= \frac{1}{2}\{(88 + 60 + 15 - 24) - (30 - 55 - 48 + 24)\}{{< /katex >}}
 
 {{< katex >}}= \frac{1}{2}\{139 + 49\} = \frac{1}{2} \times 158 = 79 \text{ sq. units}{{< /katex >}}
+![](12.png)
 
 ---
 
 ### Example 5.7
 
 The given diagram shows a plan for constructing a new parking lot at a campus. It is estimated that such construction would cost ₹1300 per square feet. What will be the total cost for making the parking lot?
+![](14.png)
 
 **Solution:** The parking lot is a quadrilateral whose vertices are at {{< katex >}}A(2,2){{< /katex >}}, {{< katex >}}B(5,5){{< /katex >}}, {{< katex >}}C(4,9){{< /katex >}} and {{< katex >}}D(1,7){{< /katex >}}.
 
@@ -196,6 +202,7 @@ Construction rate per square feet = ₹1300
 ## Activity 2
 
 Find the area of the shaded region.
+![](15.png)
 
 ---
 
