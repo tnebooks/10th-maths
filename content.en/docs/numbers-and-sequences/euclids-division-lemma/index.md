@@ -8,7 +8,7 @@ Euclid, one of the most important mathematicians wrote an important book named "
 
 Let us now discuss Euclid's Lemma and its application through an Algorithm termed as "Euclid's Division Algorithm".
 
-&gt; **Lemma** is an auxiliary result used for proving an important theorem. It is usually considered as a mini theorem.
+ **Lemma** is an auxiliary result used for proving an important theorem. It is usually considered as a mini theorem.
 
 ### Theorem 1: Euclid's Division Lemma
 
@@ -42,10 +42,10 @@ We have 34 cakes. Each box can hold 5 cakes only. How many boxes we need to pack
 | × | (Quotient) {{< katex  >}}q{{</ katex  >}} 
 | + | (Remainder) {{< katex  >}}r{{</ katex  >}} |
 
-&gt; **Note**
-&gt; - The above lemma is nothing but a restatement of the long division process, the integers {{< katex  >}}q{{</ katex  >}} 
+ **Note**
+ - The above lemma is nothing but a restatement of the long division process, the integers {{< katex  >}}q{{</ katex  >}} 
 and {{< katex  >}}r{{</ katex  >}} are called quotient and remainder respectively.
-&gt; - When a positive integer is divided by 2 the remainder is either 0 or 1. So, any positive integer will be of the form {{< katex  >}}2k{{</ katex  >}}, 
+ - When a positive integer is divided by 2 the remainder is either 0 or 1. So, any positive integer will be of the form {{< katex  >}}2k{{</ katex  >}}, 
 {{< katex  >}}2k+1{{</ katex  >}} 
 for some integer {{< katex  >}}k{{</ katex  >}}.
 
@@ -139,11 +139,11 @@ for some integer {{< katex  >}}q{{</ katex  >}}.
 **Solution:** Let {{< katex  >}}x{{</ katex  >}} be any odd integer. Since any odd integer is one more than an even integer, we have:
 {{< katex  >}}x = 2k + 1, \quad \text{for some integer } k{{</ katex  >}}
 
-{{< katex  >}}{{</ katex  >}}\begin{aligned}
+{{<katex >}}\begin{aligned}
 x^2 &= (2k + 1)^2 \\
 &= 4k^2 + 4k + 1 \\
 &= 4k(k + 1) + 1 \\
 &= 4q + 1, \quad \text{where } q = k(k+1) \text{ is some integer.}
-\end{aligned}{{< katex  >}}{{</ katex  >}}
+\end{aligned}{{</ katex >}}
 
 ---
