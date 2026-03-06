@@ -13,12 +13,16 @@ In the diagram given in Fig. 2.13, {{< katex >}}\triangle DEF{{< /katex >}}
     Similarly {{< katex >}}\triangle GHI{{< /katex >}} 
     is also one-fourth of {{< katex >}}\triangle DEF{{< /katex >}} and so on. In general, the successive areas are one-fourth of the previous areas.
 
-![Triangle areas Fig. 2.13](triangle_areas.jpg)
+![](1.png)
 
 The area of these triangles are:
 {{< katex >}}\triangle ABC, \frac{1}{4}\triangle ABC, \frac{1}{4} \times \frac{1}{4}\triangle ABC, \ldots{{< /katex >}}
 
 That is, {{< katex >}}\triangle ABC, \frac{1}{4}\triangle ABC, \frac{1}{16}\triangle ABC, \ldots{{< /katex >}}
+
+
+![](3.png)
+
 
 In this case, we see that beginning with {{< katex >}}\triangle ABC{{< /katex >}},
  we see that the successive triangles are formed whose areas are precisely one-fourth the area of the previous triangle. So, each term is obtained by multiplying {{< katex >}}\frac{1}{4}{{< /katex >}} to the previous term.

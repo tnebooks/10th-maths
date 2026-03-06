@@ -100,6 +100,11 @@ After simplification:
 > 
 > 220 and 284 are least pair of Amicable Numbers. They were discovered by Pythagoras. We now know more than 12 million amicable pair of Numbers.
 
+![](1.png)
+
+![](2.png)
+
+
 ### Summary of Summation Formulae
 
 {{< katex >}}\begin{aligned}

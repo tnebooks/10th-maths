@@ -6,7 +6,9 @@ weight: 4
 
 In a clock, we use the numbers 1 to 12 to represent the time period of 24 hours. How is it possible to represent the 24 hours of a day in a 12 number format? We use 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 and after 12, we use 1 instead of 13 and 2 instead of 14 and so on. That is after 12 we again start from 1, 2, 3, ... In this system the numbers wrap around 1 to 12. This type of wrapping around after hitting some value is called **Modular Arithmetic**.
 
-![Clock Fig. 2.5](clock.jpg)
+
+![](modular.png)
+
 
 In Mathematics, modular arithmetic is a system of arithmetic for integers where numbers wrap around a certain value. Unlike normal arithmetic, Modular Arithmetic process cyclically. The ideas of Modular arithmetic was developed by great German mathematician Carl Friedrich Gauss, who is hailed as the "Prince of mathematicians".
 
@@ -18,7 +20,9 @@ In Mathematics, modular arithmetic is a system of arithmetic for integers where 
 4. The seasons of a year change cyclically. (Summer, Autumn, Winter, Spring)
 5. The railway and aeroplane timings also work cyclically. The railway time starts at 00:00 and continue. After reaching 23:59, the next minute will become 00:00 instead of 24:00.
 
-![Life Cycle of Plant Fig. 2.6](plant_lifecycle.jpg)
+
+![](3.png)
+
 
 ### 2.5.1 Congruence Modulo
 
@@ -55,6 +59,8 @@ With a modulus of 4 (since the possible remainders are 0, 1, 2, 3) we make a dia
 
 Therefore, {{< katex >}}8 \equiv 0 \pmod{4}{{< /katex >}}
 
+![](1.png)
+
 **Illustration 2**
 
 To find {{< katex >}}-5 \pmod{3}{{< /katex >}}
@@ -64,6 +70,10 @@ With a modulus of 3 (since the possible remainders are 0, 1, 2) we make a diagra
 We start at 0 and go through 5 numbers in anti-clockwise sequence 2, 1, 0, 2, 1. After doing so cyclically, we end at 1.
 
 Therefore, {{< katex >}}-5 \equiv 1 \pmod{3}{{< /katex >}}
+
+
+![](2.png)
+
 
 ### 2.5.2 Connecting Euclid's Division lemma and Modular Arithmetic
 
