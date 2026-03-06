@@ -30,18 +30,7 @@ Adding (1) and (2) we get:
 \implies S_n &= \frac{n}{2}[2a + (n-1)d]
 \end{aligned} {{< /katex >}}
 
-> **Note**
-> If the first term {{< katex >}}a{{< /katex >}}, 
-and the last term {{< katex >}}l{{< /katex >}} 
-({{< katex >}}n^{\text{th}}{{< /katex >}} term) are given then:
-> {{< katex >}}S_n = \frac{n}{2}[2a + (n-1)d] = \frac{n}{2}[a + a + (n-1)d] \quad (\because l = a + (n-1)d){{< /katex >}}
-> {{< katex >}}\boxed{S_n = \frac{n}{2}[a + l]}{{< /katex >}}
-
-**Progress Check**
-1. The sum of terms of a sequence is called ______.
-2. If a series have finite number of terms then it is called ______.
-3. A series whose terms are in ______ is called Arithmetic series.
-4. If the first and last terms of an A.P. are given, then the formula to find the sum is ______.
+![](1.png)
 
 **Example 2.31** Find the sum of first 15 terms of the A.P. {{< katex >}}8, 7\frac{1}{4}, 6\frac{1}{2}, 5\frac{3}{4}, \ldots{{< /katex >}}
 
@@ -113,6 +102,8 @@ State True or False. Justify it.
  term of any A.P. is of the form {{< katex >}}pn^2 + qn + r{{< /katex >}}
   where {{< katex >}}p, q, r{{< /katex >}} are some constants.
 
+  ![](2.png)
+
 **Example 2.34** The {{< katex >}}13^{\text{th}}{{< /katex >}} term of an A.P. is 3 and the sum of first 13 terms is 234. Find the common difference and the sum of first 21 terms.
 
 **Solution:** Given, the {{< katex >}}13^{\text{th}}{{< /katex >}}
@@ -162,7 +153,7 @@ S_{43} &= \frac{43}{2}[301 + 595] = 19264
 
 **Example 2.37** A mosaic is designed in the shape of an equilateral triangle, 12ft on each side. Each tile in the mosaic is in the shape of an equilateral triangle of 12 inch side. The tiles are alternate in colour as shown in the figure. Find the number of tiles of each colour and total number of tiles in the mosaic.
 
-![Mosaic Fig](mosaic.jpg)
+![](3.png)
 
 **Solution:** Since the mosaic is in the shape of an equilateral triangle of 12 feet, and the tile is in the shape of an equilateral triangle of 12 inch (1 feet), there will be 12 rows in the mosaic.
 
@@ -220,7 +211,7 @@ Hence {{< katex >}}3(S_2 - S_1) = \frac{3n}{2}[2a + (3n-1)d] = S_3{{< /katex >}}
 
 ---
 
-## Exercise 2.6
+![](4.png)
 
 1. Find the sum of the following:
    - (i) {{< katex >}}3, 7, 11, \ldots{{< /katex >}} up to 40 terms.
