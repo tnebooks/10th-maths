@@ -28,13 +28,7 @@ If we now calculate the difference of the salaries for the successive years, we 
 
 Did you observe the common property behind these two illustrations? In these two examples, the difference between successive terms always remains constant. Moreover, each term is obtained by adding a fixed number (2 and 2000 in illustrations 1 and 2 presented above) to the preceding term except the first term. This fixed number which is a constant for the differences between successive terms is called the **"common difference"**.
 
-### Definition
-
-Let {{< katex >}}a{{< /katex >}}
- and {{< katex >}}d{{< /katex >}} 
- be real numbers. Then the numbers of the form {{< katex >}}a, a+d, a+2d, a+3d, a+4d, \ldots{{< /katex >}} 
- is said to form **Arithmetic Progression** denoted by **A.P.** The number '{{< katex >}}a{{< /katex >}}'
-  is called the **first term** and '{{< katex >}}d{{< /katex >}}' is called the **common difference**.
+![](1.png)
 
 Simply, an Arithmetic Progression is a sequence whose successive terms differ by a constant number. Thus, for example, the set of even positive integers {{< katex >}}2, 4, 6, 8, 10, 12, \ldots{{< /katex >}}
  is an A.P. whose first term is {{< katex >}}a = 2{{< /katex >}}
@@ -80,14 +74,7 @@ In general, {{< katex >}}d = t_2 - t_1 = t_3 - t_2 = t_4 - t_3 = \ldots{{< /kate
 
 {{< katex >}}d = t_n - t_{n-1} \quad \text{for } n = 2, 3, 4, \ldots{{< /katex >}}
 
-**Progress Check**
-1. The difference between any two consecutive terms of an A.P. is _______.
-2. If {{< katex >}}a{{< /katex >}}
- and {{< katex >}}d{{< /katex >}}
-  are the first term and common difference of an A.P. then the {{< katex >}}8^{\text{th}}{{< /katex >}} term is _______.
-3. If {{< katex >}}t_n{{< /katex >}}
- is the {{< katex >}}n^{\text{th}}{{< /katex >}} 
- term of an A.P., then {{< katex >}}t_{n+2} - t_n{{< /katex >}} is _______.
+![](2.png)
 
 Let us try to find the common differences of the following A.P.'s:
 - (i) {{< katex >}}1, 4, 7, 10, \ldots{{< /katex >}}
@@ -138,8 +125,7 @@ In this case, we get {{< katex >}}20, 20+8, 20+2(8), 20+3(8), \ldots{{< /katex >
 
 So, the required A.P. is {{< katex >}}20, 28, 36, 44, \ldots{{< /katex >}}
 
-> **Note**
-> An Arithmetic progression having a common difference of zero is called a constant arithmetic progression.
+![](4.png)
 
 **Example 2.25** Find the {{< katex >}}15^{\text{th}}{{< /katex >}},
  {{< katex >}}24^{\text{th}}{{< /katex >}} 
@@ -165,10 +151,7 @@ t_n &= 3 + (n-1)12 \\
 t_n &= 12n - 9
 \end{aligned}{{< / katex >}}
 
-> **Note**
-> In a finite A.P. whose first term is {{< katex >}}a{{< /katex >}} 
-and last term {{< katex >}}l{{< /katex >}}, then the number of terms in the A.P. is given by:
-> {{< katex >}}l = a + (n-1)d \implies n = \left(\frac{l-a}{d}\right) + 1{{< /katex >}}
+![](5.png)
 
 **Example 2.26** Find the number of terms in the A.P. {{< katex >}}3, 6, 9, 12, \ldots, 111{{< /katex >}}.
 
@@ -180,6 +163,8 @@ We know that:
 {{< katex >}}n = \left|\frac{l-a}{d}\right| + 1 = \left|\frac{111-3}{3}\right| + 1 = 37{{< /katex >}}
 
 Thus the A.P. contain 37 terms.
+
+![](6.png)
 
 **Example 2.27** Determine the general term of an A.P. whose {{< katex >}}7^{\text{th}}{{< /katex >}} 
 term is {{< katex >}}-1{{< /katex >}}
@@ -241,14 +226,8 @@ z - x &= (n-l)d \\
 &= [ln - mn + lm - nl + nm - lm]d = 0
 \end{aligned}{{</  katex >}}
 
-> **Note**
-> In an Arithmetic Progression:
-> - If every term is added or subtracted by a constant, then the resulting sequence is also an A.P.
-> - If every term is multiplied or divided by a non-zero number, then the resulting sequence is also an A.P.
-> - If the sum of three consecutive terms of an A.P. is given, then they can be taken as {{< katex >}}a-d, a, a+d{{< /katex >}}. Here the common difference is
- {{< katex >}}d{{< /katex >}}.
-> - If the sum of four consecutive terms of an A.P. is given then, they can be taken as {{< katex >}}a-3d, a-d, a+d, a+3d{{< /katex >}}. Here common difference is 
-{{< katex >}}2d{{< /katex >}}.
+![](7.png) 
+
 
 **Example 2.29** In an A.P., sum of four consecutive terms is 28 and the sum of their squares is 276. Find the four numbers.
 
@@ -322,6 +301,8 @@ Therefore, amount given by the mother to her three children are ₹{{< katex >}}
  and {{< katex >}}c{{< /katex >}} will be in A.P. if and only if _______.
 
 ---
+
+![](8.png)
 
 ## Exercise 2.5
 

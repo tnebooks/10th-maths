@@ -11,6 +11,7 @@ Consider the following pictures.
 
 There is some pattern or arrangement in these pictures. In the first picture, the first row contains one apple, the second row contains two apples and in the third row there are three apples etc... The number of apples in each of the rows are {{< katex >}}1, 2, 3, \ldots{{< /katex >}}.
 
+
 In the second picture each step have 0.5 feet height. The total height of the steps from the base are {{< katex >}}0.5{{< /katex >}} 
 feet, {{< katex >}}1{{< /katex >}}
  feet, {{< katex >}}1.5{{< /katex >}} feet, ... In the third picture one square, 3 squares, 5 squares, ... These numbers belong to category called **"Sequences"**.
@@ -47,6 +48,7 @@ If the number of elements in a sequence is finite then it is called a **Finite s
 A sequence can be considered as a function defined on the set of natural numbers {{< katex >}}\mathbb{N}{{< /katex >}}.
  In particular, a sequence is a function {{< katex >}}f: \mathbb{N} \to \mathbb{R}{{< /katex >}}
   where {{< katex >}}\mathbb{R}{{< /katex >}} is the set of all real numbers.
+  ![](6.png)
 
 If the sequence is of the form {{< katex >}}a_1, a_2, a_3, \ldots{{< /katex >}}
  by then we can associate the function to the sequence {{< katex >}}a_1, a_2, a_3, \ldots{{< /katex >}}
@@ -80,7 +82,7 @@ If the sequence is of the form {{< katex >}}a_1, a_2, a_3, \ldots{{< /katex >}}
 
 **Solution:**
 
-**(i)** ![](1.png)
+![](1.png)
 
 In the above sequence the numerators are same and the denominator is increased by 4.
 
@@ -91,11 +93,11 @@ a_6 &= \frac{1}{18 + 4} = \frac{1}{22} \\
 a_7 &= \frac{1}{22 + 4} = \frac{1}{26}
 \end{aligned}{{< /katex >}}
 
-**(ii)** {{< katex >}}5, 2, -1, -4, \ldots{{< /katex >}}
+![](2.png)
 
 Here each term is decreased by 3. So the next three terms are {{< katex >}}-7, -10, -13{{< /katex >}}.
 
-**(iii)** {{< katex >}}1, 0.1, 0.01, \ldots{{< /katex >}}
+![](3.png)
 
 Here each term is divided by 10. Hence, the next three terms are:
 {{< katex >}}\begin{aligned}
@@ -131,7 +133,7 @@ So the general term:
 {{< katex >}}a_n = (-1)^{n+1} 5^n, \quad n \in \mathbb{N}{{< /katex >}}
 
 **Example 2.21** The general term of a sequence is defined as:
-{{< katex >}}a_n = \begin{cases} \frac{n(n+3)}{2} & ; n \text{ is odd}, \quad n \in \mathbb{N} \\ \frac{n^2+1}{2} & ; n \text{ is even}, \quad n \in \mathbb{N} \end{cases}{{< /katex >}}
+![](4.png)
 
 Find the eleventh and eighteenth terms.
 
@@ -164,8 +166,7 @@ In the same way, the fifth term {{< katex >}}a_5{{< /katex >}} can be calculated
 Therefore, the first five terms of the sequence are {{< katex >}}1, 1, \frac{1}{4}, \frac{1}{16}, \frac{1}{52}{{< /katex >}}.
 
 ---
-
-## Exercise 2.4
+![](5.png)
 
 1. Find the next three terms of the following sequence.
    - (i) {{< katex >}}8, 24, 72, \ldots{{< /katex >}}
