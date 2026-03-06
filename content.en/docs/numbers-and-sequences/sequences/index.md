@@ -7,7 +7,7 @@ weight: 5
 
 Consider the following pictures.
 
-![Fig. 2.9 - Sequences in nature](sequences.jpg)
+![Fig. 2.9 - Sequences in nature](sequences.png)
 
 There is some pattern or arrangement in these pictures. In the first picture, the first row contains one apple, the second row contains two apples and in the third row there are three apples etc... The number of apples in each of the rows are {{< katex >}}1, 2, 3, \ldots{{< /katex >}}.
 
@@ -53,7 +53,7 @@ If the sequence is of the form {{< katex >}}a_1, a_2, a_3, \ldots{{< /katex >}}
   by {{< katex >}}f(k) = a_k{{< /katex >}},
    {{< katex >}}k = 1, 2, 3, \ldots{{< /katex >}}
 
-![Fig 2.10 - Sequence as function](sequence_function.jpg)
+![Fig 2.10 - Sequence as function](sequence2.png)
 
 > **Note**
 > Though all the sequences are functions, not all the functions are sequences.
@@ -80,7 +80,7 @@ If the sequence is of the form {{< katex >}}a_1, a_2, a_3, \ldots{{< /katex >}}
 
 **Solution:**
 
-**(i)** {{< katex >}}\frac{1}{12}, \frac{1}{6}, \frac{1}{10}, \frac{1}{14}, \ldots{{< /katex >}}
+**(i)** ![](1.png)
 
 In the above sequence the numerators are same and the denominator is increased by 4.
 

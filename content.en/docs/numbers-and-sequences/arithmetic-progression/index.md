@@ -4,7 +4,7 @@ weight: 6
 ---
 ## 2.7 Arithmetic Progression
 
-![Matchstick triangles Fig. 2.11](matchstick_triangles.jpg)
+![Matchstick triangles Fig. 2.11](3.png)
 
 Let us begin with the following two illustrations
 
