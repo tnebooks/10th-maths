@@ -30,6 +30,7 @@ Adding (1) and (2) we get:
 \implies S_n &= \frac{n}{2}[2a + (n-1)d]
 \end{aligned} {{< /katex >}}
 
+
 ![](1.png)
 
 **Example 2.31** Find the sum of first 15 terms of the A.P. {{< katex >}}8, 7\frac{1}{4}, 6\frac{1}{2}, 5\frac{3}{4}, \ldots{{< /katex >}}
