@@ -27,12 +27,7 @@ terms of a G.P. is not applicable when {{< katex >}}r = 1{{< /katex >}}.
 > If {{< katex >}}r = 1{{< /katex >}},
  then {{< katex >}}S_n = a + a + a + \cdots + a = na{{< /katex >}}
 
-**Progress Check**
-1. A series whose terms are in Geometric progression is called _______.
-2. When {{< katex >}}r = 1{{< /katex >}},
- the formula for finding sum to {{< katex >}}n{{< /katex >}} terms of a G.P. is ______.
-3. When {{< katex >}}r \neq 1{{< /katex >}},
- the formula for finding sum to {{< katex >}}n{{< /katex >}} terms of a G.P. is ______.
+![](7.png)
 
 ### 2.10.1 Sum to infinite terms of a G.P.
 

@@ -16,21 +16,20 @@ In the diagram given in Fig. 2.13, {{< katex >}}\triangle DEF{{< /katex >}}
 ![](1.png)
 
 The area of these triangles are:
-{{< katex >}}\triangle ABC, \frac{1}{4}\triangle ABC, \frac{1}{4} \times \frac{1}{4}\triangle ABC, \ldots{{< /katex >}}
-
-That is, {{< katex >}}\triangle ABC, \frac{1}{4}\triangle ABC, \frac{1}{16}\triangle ABC, \ldots{{< /katex >}}
-
-
-![](3.png)
+![](2.png)
 
 
 In this case, we see that beginning with {{< katex >}}\triangle ABC{{< /katex >}},
  we see that the successive triangles are formed whose areas are precisely one-fourth the area of the previous triangle. So, each term is obtained by multiplying {{< katex >}}\frac{1}{4}{{< /katex >}} to the previous term.
 
+![](3.png)
+
 As another case, let us consider that a viral disease is spreading in a way such that at any stage two new persons get affected from an affected person. At first stage, one person is affected, at second stage two persons are affected and is spreading to four persons and so on. Then, number of persons affected at each stage are:
 {{< katex >}}1, 2, 4, 8, \ldots{{< /katex >}}
 
 Here each term is precisely twice the previous term.
+
+![](3.png)
 
 From the above examples, it is clear that each term is got by multiplying a fixed number to the preceding number. This idea leads us to the concept of **Geometric Progression**.
 
@@ -79,13 +78,7 @@ If we consider the ratio of successive terms of the G.P. then we have:
 > **Note**
 > Thus, the ratio between any two consecutive terms of the Geometric Progression is always constant and that constant is the common ratio of the given Progression.
 
-**Progress Check**
-1. A G.P. is obtained by multiplying _____ to the preceding term.
-2. The ratio between any two consecutive terms of the G.P. is _____ and it is called _____.
-3. Fill in the blanks if the following are in G.P.:
-   - (i) {{< katex >}}\frac{1}{8}, \frac{3}{4}, \frac{9}{2}, \_\_\_\_\_{{< /katex >}}
-   - (ii) {{< katex >}}\sqrt{7}, \_\_\_\_\_, \_\_\_\_\_{{< /katex >}}
-   - (iii) {{< katex >}}\_\_\_\_\_, 2, 24, \ldots{{< /katex >}}
+![](4.png)
 
 **Example 2.40** Which of the following sequences form a Geometric Progression?
 - (i) {{< katex >}}7, 14, 21, 28, \ldots{{< /katex >}}
@@ -136,6 +129,8 @@ Therefore the required Geometric Progression is {{< katex >}}256, 128, 64, \ldot
 2. In a G.P. if {{< katex >}}t_1 = \frac{1}{5}{{< /katex >}}
  and {{< katex >}}t_2 = \frac{1}{25}{{< /katex >}} then the common ratio is ______.
 
+![](5.png)
+
 **Example 2.42** Find the {{< katex >}}8^{\text{th}}{{< /katex >}}
  term of the G.P. {{< katex >}}9, 3, 1, \ldots{{< /katex >}}
 
@@ -171,10 +166,7 @@ Substituting the value of {{< katex >}}r{{< /katex >}} in (1), we get:
 Therefore the Geometric Progression is {{< katex >}}a, ar, ar^2, \ldots{{< /katex >}} 
 That is, {{< katex >}}3, 2, \frac{4}{3}, \ldots{{< /katex >}}
 
-> **Note**
-> - When the product of three consecutive terms of a G.P. are given, we can take the three terms as {{< katex >}}\frac{a}{r}, a, ar{{< /katex >}}.
-> - When the products of four consecutive terms are given for a G.P. then we can take the four terms as {{< katex >}}\frac{a}{r^3}, \frac{a}{r}, ar, ar^3{{< /katex >}}.
-> - When each term of a Geometric Progression is multiplied or divided by a non–zero constant then the resulting sequence is also a Geometric Progression.
+![](6.png)
 
 **Example 2.44** The product of three consecutive terms of a Geometric Progression is 343 and their sum is {{< katex >}}\frac{91}{3}{{< /katex >}}. Find the three terms.
 
