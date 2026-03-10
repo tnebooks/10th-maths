@@ -30,7 +30,7 @@ Adding (1) and (2) we get:
 \implies S_n &= \frac{n}{2}[2a + (n-1)d]
 \end{aligned} {{< /katex >}}
 
-![](1.png)
+![](img 1.png)
 
 **Example 2.31** Find the sum of first 15 terms of the A.P. {{< katex >}}8, 7\frac{1}{4}, 6\frac{1}{2}, 5\frac{3}{4}, \ldots{{< /katex >}}
 
@@ -102,8 +102,6 @@ State True or False. Justify it.
  term of any A.P. is of the form {{< katex >}}pn^2 + qn + r{{< /katex >}}
   where {{< katex >}}p, q, r{{< /katex >}} are some constants.
 
-  ![](2.png)
-
 **Example 2.34** The {{< katex >}}13^{\text{th}}{{< /katex >}} term of an A.P. is 3 and the sum of first 13 terms is 234. Find the common difference and the sum of first 21 terms.
 
 **Solution:** Given, the {{< katex >}}13^{\text{th}}{{< /katex >}}
@@ -154,6 +152,7 @@ S_{43} &= \frac{43}{2}[301 + 595] = 19264
 **Example 2.37** A mosaic is designed in the shape of an equilateral triangle, 12ft on each side. Each tile in the mosaic is in the shape of an equilateral triangle of 12 inch side. The tiles are alternate in colour as shown in the figure. Find the number of tiles of each colour and total number of tiles in the mosaic.
 
 ![](3.png)
+
 
 **Solution:** Since the mosaic is in the shape of an equilateral triangle of 12 feet, and the tile is in the shape of an equilateral triangle of 12 inch (1 feet), there will be 12 rows in the mosaic.
 

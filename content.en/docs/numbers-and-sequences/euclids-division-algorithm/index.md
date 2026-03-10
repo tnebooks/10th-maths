@@ -29,7 +29,7 @@ and {{< katex >}}b{{< /katex >}},
  where {{< katex >}}q{{< /katex >}} 
  is the quotient, {{< katex >}}r{{< /katex >}} 
  is the remainder. If {{< katex >}}r = 0{{< /katex >}} 
- \then {{< katex >}}b{{< /katex >}}
+ then {{< katex >}}b{{< /katex >}}
   is the Highest Common Factor of {{< katex >}}a{{< /katex >}} 
   and {{< katex >}}b{{< /katex >}}.
 

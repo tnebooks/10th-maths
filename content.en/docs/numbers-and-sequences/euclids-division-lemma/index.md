@@ -35,12 +35,9 @@ We have 34 cakes. Each box can hold 5 cakes only. How many boxes we need to pack
 
 | 34 | = | 5 | × | 6 | + | 4 |
 |:---|:---|:---|:---|:---|:---|:---|
-| Total number of cakes | | Number of cakes in each box | × | Number of boxes | + | Number of cakes leftover |
+| Total number of cakes | = | Number of cakes in each box | × | Number of boxes | + | Number of cakes leftover |
 | ↓ | | ↓ | | ↓ | | ↓ |
-| (Dividend) {{< katex  >}}a{{</ katex  >}} 
-| | (Divisor) {{< katex  >}}b{{</ katex  >}} 
-| × | (Quotient) {{< katex  >}}q{{</ katex  >}} 
-| + | (Remainder) {{< katex  >}}r{{</ katex  >}} |
+| (Dividend) {{< katex  >}}a{{</ katex  >}} | = | (Divisor) {{< katex  >}}b{{</ katex  >}} | × | (Quotient) {{< katex  >}}q{{</ katex  >}} | + | (Remainder) {{< katex  >}}r{{</ katex  >}} |
 
  **Note**
  - The above lemma is nothing but a restatement of the long division process, the integers {{< katex  >}}q{{</ katex  >}} 

@@ -55,7 +55,6 @@ If the sequence is of the form {{< katex >}}a_1, a_2, a_3, \ldots{{< /katex >}}
   by {{< katex >}}f(k) = a_k{{< /katex >}},
    {{< katex >}}k = 1, 2, 3, \ldots{{< /katex >}}
 
-![Fig 2.10 - Sequence as function](sequence2.png)
 
 > **Note**
 > Though all the sequences are functions, not all the functions are sequences.

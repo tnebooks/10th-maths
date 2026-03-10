@@ -259,7 +259,7 @@ Therefore the value of the machine in 6th year = ₹23619.60
 3. In a G.P. {{< katex >}}729, 243, 81, \cdots{{< /katex >}}
  find {{< katex >}}t_7{{< /katex >}}
 
-4. Find {{< katex >}}x$ so that $x + 6, x + 12{{< /katex >}}
+4. Find {{< katex >}}x{{< /katex >}} so that {{< katex >}} x + 6, x + 12{{< /katex >}}
  and {{< katex >}}x + 15{{< /katex >}} are consecutive terms of a Geometric Progression.
 
 5. Find the number of terms in the following G.P.

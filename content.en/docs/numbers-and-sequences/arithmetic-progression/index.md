@@ -28,7 +28,6 @@ If we now calculate the difference of the salaries for the successive years, we 
 
 Did you observe the common property behind these two illustrations? In these two examples, the difference between successive terms always remains constant. Moreover, each term is obtained by adding a fixed number (2 and 2000 in illustrations 1 and 2 presented above) to the preceding term except the first term. This fixed number which is a constant for the differences between successive terms is called the **"common difference"**.
 
-![](1.png)
 
 Simply, an Arithmetic Progression is a sequence whose successive terms differ by a constant number. Thus, for example, the set of even positive integers {{< katex >}}2, 4, 6, 8, 10, 12, \ldots{{< /katex >}}
  is an A.P. whose first term is {{< katex >}}a = 2{{< /katex >}}
@@ -123,7 +122,6 @@ Arithmetic Progression is {{< katex >}}a, a+d, a+2d, a+3d, \ldots{{< /katex >}}
 
 In this case, we get {{< katex >}}20, 20+8, 20+2(8), 20+3(8), \ldots{{< /katex >}}
 
-So, the required A.P. is {{< katex >}}20, 28, 36, 44, \ldots{{< /katex >}}
 
 ![](4.png)
 
@@ -301,8 +299,6 @@ Therefore, amount given by the mother to her three children are ₹{{< katex >}}
  and {{< katex >}}c{{< /katex >}} will be in A.P. if and only if _______.
 
 ---
-
-![](8.png)
 
 ## Exercise 2.5
 

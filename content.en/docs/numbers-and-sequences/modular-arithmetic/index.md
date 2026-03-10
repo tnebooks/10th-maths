@@ -228,11 +228,11 @@ must be 4, since {{< katex >}}94 - 4 = 90{{< /katex >}} is the nearest multiple 
 
 **Example 2.14** Solve {{< katex >}}8x \equiv 1 \pmod{11}{{< /katex >}}
 
-**Solution:** {{< katex >}}8x \equiv 1 \pmod{11}$ can be written as $8x - 1 = 11k$, for some integer $k{{< /katex >}}.
+**Solution:** {{< katex >}}8x \equiv 1 \pmod{11}{{</katex>}} can be written as {{<katex>}}8x - 1 = 11k{{</katex>}}, for some integer {{<katex>}}k{{< /katex >}}.
 
 {{< katex >}}x = \frac{11k + 1}{8}{{< /katex >}}
 
-When we put {{< katex >}}k = 5, 13, 21, 29, \ldots$ then $11k + 1{{< /katex >}} is divisible by 8.
+When we put {{<katex>}} k = 5, 13, 21, 29, \ldots{{</katex>}} then {{<katex>}}11k + 1{{</katex>}} is divisible by 8.
 
 {{< katex >}}\begin{aligned}
 x &= \frac{11 \times 5 + 1}{8} = 7 \\
@@ -256,10 +256,10 @@ The solutions are {{< katex >}}7, 18, 29, 40, \ldots{{< /katex >}}
 
 **Example 2.16** Find the number of integer solutions of {{< katex >}}3x \equiv 1 \pmod{15}{{< /katex >}}.
 
-**Solution:** {{< katex >}}3x \equiv 1 \pmod{15}{{< /katex >}} can be written as:
-{{< katex >}}3x - 15k = 1 \text{ for some integer } k{{< /katex >}}
-{{< katex >}}3(x - 5k) = 1{{< /katex >}}
-{{< katex >}}x - 5k = \frac{1}{3}{{< /katex >}}
+**Solution:** {{< katex display=true >}}3x \equiv 1 \pmod{15}{{< /katex >}} can be written as:
+{{< katex display=true >}}3x - 15k = 1 \text{ for some integer } k{{< /katex >}}
+{{< katex display=true >}}3(x - 5k) = 1{{< /katex >}}
+{{< katex display=true >}}x - 5k = \frac{1}{3}{{< /katex >}}
 
 Since {{< katex >}}5k{{< /katex >}}
  is an integer, {{< katex >}}5k + \frac{1}{3}{{< /katex >}} cannot be an integer.
