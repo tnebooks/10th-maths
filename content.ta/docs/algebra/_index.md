@@ -1,4 +1,6 @@
 ---
 title: 'இயற்கணிதம்'
 weight: 3
+categories:
+    - algebra
 ---
