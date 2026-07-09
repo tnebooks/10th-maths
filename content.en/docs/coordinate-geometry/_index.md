@@ -1382,9 +1382,9 @@ Therefore, \(x + 2y + 1 = 0\).
 
 ---
 
-## Historical Note
-
-The great mathematical physicists like Galileo and Newton used coordinate geometry to characterize the motions of objects in plane and space.
+> ## Do you know ?
+>
+>The great mathematical physicists like Galileo and Newton used coordinate geometry to characterize the motions of objects in plane and space.
 
 ---
 
