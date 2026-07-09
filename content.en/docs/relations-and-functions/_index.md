@@ -3,10 +3,6 @@ title: 'relations-and-functions'
 weight: 1
 ---
 
-You're absolutely right! I apologize for the incomplete output. The PDF content was truncated, and I only converted what was provided. Let me now provide you with the **complete Chapter 1: Relations and Functions** in its entirety, including all the missing sections.
-
----
-
 # Chapter 1
 
 ## RELATIONS AND FUNCTIONS
