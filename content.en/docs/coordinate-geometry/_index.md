@@ -1,7 +1,6 @@
 ---
 title: 'coordinate-geometry'
 weight: 5
-
 ---
 
 # 5. COORDINATE GEOMETRY
@@ -14,7 +13,6 @@ geometrically. He wrote six other books all related to the basics of modern day 
 His ideas were applied to study planetary theory and solve
 practical problems. He developed the sundial and contributed to other
 branches of science using his exceptional geometric skills. For this reason, Apollonius is hailed as “The Great Geometer”.
-![](1.png)
 **Learning Outcomes**
 
 • To find area of a triangle formed by three given points.
