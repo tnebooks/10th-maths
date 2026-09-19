@@ -25,8 +25,6 @@ To define and determine cartesian product of sets. To define a relation as a sub
 
 ---
 
-<!-- Chapter 1 textbook content reconstructed from the supplied PDF. Image assets are placeholders for now. -->
-
 ## 1.1 Introduction
 
 The notion of sets provides the stimulus for learning higher concepts in mathematics. A set is a collection of well-defined objects. This means that a set is merely a collection of something which we may recognize. In this chapter, we try to extend the concept of sets in two forms called Relations and Functions. For doing this, we need to first know about cartesian products that can be defined between two non-empty sets.
@@ -43,7 +41,7 @@ Now we are about to study a new set called 'cartesian product' for the given set
 
 Observe the seating plan in an auditorium (Fig.1.1).
 
-> **[IMAGE PLACEHOLDER — Fig. 1.1: Seating plan in an auditorium]**
+![Fig. 1.1: Seating plan in an auditorium]()
  To help orderly occupation of seats, tokens with numbers such as (1,5), (7,16), (3,4), (10,12) etc. are issued. The person who gets (4,10) will go to row 4 and occupy the 10 th seat. Thus the first number denotes the row and the second number, the seat. Which seat will the visitor with token (5,9) occupy? Can he go to 9 th row and take the 5 th seat? Do (9,5) and (5,9) refer to the same location? No,
 
 Fig. 1.1
@@ -69,7 +67,7 @@ A = {carrot, brinjal, ladies finger} and B = {apple, orange, grapes, strawberry}
 | Ladies finger (l) | Grapes (g) |
 | | Strawberry (s) |
 
-> **[IMAGE PLACEHOLDER — Fig. 1.2: Cartesian product of vegetables and fruits]**
+![Fig. 1.2: Cartesian product of vegetables and fruits]()
 
 We can select them in 12 distinct pairs as given below.
 
@@ -94,7 +92,7 @@ Let A = {1, 2, 3} and B = {a, b}. Write A \times B and B \times A ?
 
 A \times B = {1,2,3}×{a , b} = {(,),(,),(,),(,),(,),(,)} 1 1 2 2 3 3 a b a b a b (as shown in Fig.1.3)
 
-> **[IMAGE PLACEHOLDER — Fig. 1.3: Arrow diagram of Cartesian Product]**
+![Fig. 1.3: Arrow diagram of Cartesian Product]()
 
 B \times A = {a , b} × {1,2,3} = {(a ,1), (a ,2), (a ,3),(b ,1), (b ,2), (b ,3)} (as shown in Fig.1.3)
 
@@ -114,7 +112,7 @@ Real Numbers \mathbb{R} = \mathbb{Q} \mathbb{Q} ∪ ′ , where ¢ \mathbb{Q} is
 
 For example, let A be the set of numbers in the interval [3, 5] and B be the set of numbers in the interval [2,3]. Then the Cartesian product A \times B corresponds to the rectangular region shown in the Fig. 1.4. It consists of all points (x , y) within the region.
 
-> **[IMAGE PLACEHOLDER — Fig. 1.4: Geometrical representation of Cartesian product in the coordinate plane]**
+![Fig. 1.4: Geometrical representation of Cartesian product in the coordinate plane]()
 
 ## Progress Check
 
@@ -216,7 +214,7 @@ $$
 
 Representing (A \times B) in the (XY)-plane gives the picture shown in Fig. 1.5.
 
-> **[IMAGE PLACEHOLDER — Fig. 1.5: Cartesian coordinates of two sets]**
+![Fig. 1.5: Cartesian coordinates of two sets]()
 
 $$
 (A \times B) \times C
@@ -230,7 +228,7 @@ $$
 
 Representing (A \times B \times C) in the (XYZ)-space gives the picture shown in Fig. 1.6.
 
-> **[IMAGE PLACEHOLDER — Fig. 1.6: Geometrical representation of Cartesian product of three sets as a 3D box]**
+![Fig. 1.6: Geometrical representation of Cartesian product of three sets as a 3D box]()
 
 Thus, (A \times B) represents vertices of a square in two dimensions and (A \times B \times C) represents vertices of a cube in three dimensions.
 
@@ -259,7 +257,7 @@ Many day-to-day occurrences involve two objects that are connected with each oth
 |-------------------------------------|---------------------------------|----------------------------------|
 | New Delhi is the capital of India | New Delhi R India | (New Delhi, India) |
 
-> **[IMAGE PLACEHOLDER — Fig. 1.7: Relation between countries and their capitals]**
+![Fig. 1.7: Relation between countries and their capitals]()
 
 | Line AB is perpendicular to line XY | line AB R line XY | (line AB , line XY) |
 | -1 is greater than -5 | -1 R -5 | (-1, -5) |
@@ -296,7 +294,7 @@ Let A = {1, 2, 3, 4} and B = {a, b, c}.
 
 Let us define a relation between heights of corresponding students. (Fig.1.7)
 
-> **[IMAGE PLACEHOLDER — Fig. 1.8: Relation between students and their heights]**
+![Fig. 1.8: Relation between students and their heights]()
 
 R = {(heights, students)} R = () () () () () () (. , , . , , . , , . , , , , , , 4 5 4 5 4 7 4 9 5 5 1 4 9 10 3 5 S S S S S S 5 8 ,), S {() () () . , , . , , . , 5 1 5 2 5 2 6 2 7 S S S}
 
@@ -366,7 +364,7 @@ Solution A \times B = {(3,1), (3,7), (3,10), (4,1), (4,7), (4,10), (7,1), (7,7),
 
 Example 1.5 The arrow diagram shows (Fig.1.10) a relationship between the sets P and
 
-> **[IMAGE PLACEHOLDER — Fig. 1.10: Arrow diagram for relationship between sets P and Q]**
+![Fig. 1.10: Arrow diagram for relationship between sets P and Q]()
  Q . Write the relation in (i) Set builder form (ii) Roster form (iii) What is the domain and range of R.
 
 ## Solution
@@ -536,7 +534,7 @@ Is the relation representing the association between planets and their respectiv
 
 Example 1.8 If X = {-5,1,3,4} and Y = {a , b , c}, then which of the following relations are functions from X to Y
 
-> **[IMAGE PLACEHOLDER — Fig. 1.15: Arrow diagrams for relations R1, R2, and R3]**
+![Fig. 1.15: Arrow diagrams for relations R1, R2, and R3]()
  ?
 
 (i) R 1 = {(-5, a), (1, a), (3, b)} (ii) R 2 = {(-5, b), (1, b), (3, a),(4, c)}
@@ -588,7 +586,7 @@ Fig. 1.15(c)
 4. (iii) \emptyset (2) (iv) \emptyset x - () 1
 4. A graph representing the function \emptyset (x) is given in Fig.1.16 it is clear that \emptyset (9) = 2.
 
-> **[IMAGE PLACEHOLDER — Fig. 1.16: Graph representing the function f(x)]**
+![Fig. 1.16: Graph representing the function f(x)]()
 
 6. (i) Find the following values of the function
 7. (a) \emptyset (0) (b) \emptyset (7) (c) \emptyset (2) (d) \emptyset (10)
@@ -656,7 +654,7 @@ A curve drawn in a graph represents a function, if every vertical line intersect
 
 Example 1.10 Using vertical line test, determine which of the following curves (Fig.1.18(a),
 
-> **[IMAGE PLACEHOLDER — Fig. 1.18: Vertical line test curves (a, b, c, d)]**
+![Fig. 1.18: Vertical line test curves (a, b, c, d)]()
 
 Solution The curves in Fig.1.18 (a) and Fig.1.18 (c) do not represent a function as the vertical lines meet the curves in two points P and Q .
 
@@ -666,7 +664,7 @@ Any equation represented in a graph is usually called a curve.
 
 Example 1.11 Let A = {, , , 1 2 3 4} and B = {} , , , , 2 5 8 11 14 be two sets. Let \emptyset A B : \\to be a function given by \emptyset x x () = - 3 1 . Represent this function
 
-> **[IMAGE PLACEHOLDER — Fig. 1.19: Representations of function: arrow diagram, table, and graph]**
+![Fig. 1.19: Representations of function: arrow diagram, table, and graph]()
 
 - (i) by arrow diagram (ii) in a table form
 - (iii) as a set of ordered pairs (iv) in a graphical form
@@ -767,7 +765,7 @@ In other words, every element in the co-domain B has a pre-image in the domain A
 
 An onto function is also called a surjection .
 
-> **[IMAGE PLACEHOLDER — Fig. 1.25: Onto function mapping]**
+![Fig. 1.25: Onto function mapping]()
 
 If \emptyset A B : \\to is an onto function then, the range of \emptyset B = .
 
@@ -855,7 +853,7 @@ Previously we have seen the vertical line test. Now let us see the horizontal li
 
 Example 1.12 Using horizontal line test (Fig.1.35 (a), 1.35 (b), 1.35 (c)), determine which
 
-> **[IMAGE PLACEHOLDER — Fig. 1.35: Horizontal line test curves (a, b, c)]**
+![Fig. 1.35: Horizontal line test curves (a, b, c)]()
  of the following functions are one - one.
 
 Solution The curves in Fig.1.35 (a) and Fig.1.35 (c) represent a one-one function as the horizontal lines meet the curves in only one point P .
@@ -940,7 +938,7 @@ There are some special cases of a function which will be very useful. We discuss
 - (ii) Identity function
 - (iii) Real - valued function
 
-> **[IMAGE PLACEHOLDER — Fig. 1.36: Graphs of Constant, Identity, and Real-valued functions]**
+![Fig. 1.36: Graphs of Constant, Identity, and Real-valued functions]()
 
 ## (i) Constant function
 
@@ -1034,7 +1032,7 @@ Hence, \emptyset \emptyset \emptyset () () () 1 3 4 3 - = - 1 3 10 1 () =- 31
 
 1. Determine whether the graph given below represent functions. Give reason for your answers concerning each graph.
 
-> **[IMAGE PLACEHOLDER — Fig. 1.39: Vertical line test graphs for Exercise 1.4]**
+![Fig. 1.39: Vertical line test graphs for Exercise 1.4]()
 
 Y
 
@@ -1085,7 +1083,7 @@ Find (i) \emptyset \emptyset () () - + 3 2 (ii) \emptyset \emptyset () () 7 1 - 
 
 When a car driver depresses the accelerator pedal, it controls the flow of fuel which in turn influences the speed of the car. Likewise, the composition of two functions is a
 
-> **[IMAGE PLACEHOLDER — Fig. 1.41: Composition of functions arrow diagram (f o g)]**
+![Fig. 1.41: Composition of functions arrow diagram (f o g)]()
  kind of 'chain reaction' , where the functions act upon one after another (Fig.1.40).
 
 We can explain this further with the concept that a function is a 'process' . If \emptyset and g are two functions then the composition g \emptyset x (()) (Fig.1.41) is formed in two steps.
@@ -1211,7 +1209,7 @@ In this section, we will be discussing about the identification of some of the f
 
 A function \emptyset : \mathbb{R} \mathbb{R} \\to defined by \emptyset x mx c () = + , m \neq 0 is called a linear function. Geometrically this represents a straight line in the graph.
 
-> **[IMAGE PLACEHOLDER — Fig. 1.42: Linear function graph]**
+![Fig. 1.42: Linear function graph]()
 
 Some Specific Linear Functions and their graphs are given below.
 
@@ -1245,7 +1243,7 @@ x, & x\ge 0,\\
 \end{cases}
 $$
 
-> **[IMAGE PLACEHOLDER — Fig. 1.46: Graph of the modulus or absolute valued function]**
+![Fig. 1.46: Graph of the modulus or absolute valued function]()
 
 ## Note
 
@@ -1258,7 +1256,7 @@ A function \emptyset : \mathbb{R} \mathbb{R} \\to defined by \emptyset x ax bx c
 
 Some specific quadratic functions and their graphs
 
-> **[IMAGE PLACEHOLDER — Fig. 1.43: Graphs of Quadratic, Cubic, and Reciprocal functions]**
+![Fig. 1.43: Graphs of Quadratic, Cubic, and Reciprocal functions]()
 
 | Function, Domain, Range and Definition | Graph |
 |--------------------------------------------------------------------|----------------------------|
