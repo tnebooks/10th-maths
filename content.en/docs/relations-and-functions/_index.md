@@ -22,7 +22,7 @@ Gottfried Wilhelm Leibniz (1646-1716)
 
 To define and determine cartesian product of sets. To define a relation as a subset of cartesian product of sets. To understand function as a special relation. To represent a function through an arrow diagram, a set of ordered pairs, a table, a rule or a graph. To classify functions as one- one, many- one, onto, into and bijection. To study combination of functions through composition operation. To understand the graphs of linear, quadratic, cubic and reciprocal functions.
 
-### 1.1 Introduction
+## 1.1 Introduction
 
 The notion of sets provides the stimulus for learning higher concepts in mathematics. A set is a collection of well- defined objects. This means that a set is merely a collection of something which we may recognize. In this chapter, we try to extend the concept of sets in two forms called Relations and Functions. For doing this, we need to first know about cartesian products that can be defined between two non- empty sets.
 
@@ -32,7 +32,7 @@ In class IX, we had studied the concept of sets. We have also seen how to form n
 
 Now we are about to study a new set called "cartesian product" for the given sets \(A\) and \(B\) .
 
-### 1.2 Ordered Pair
+## 1.2 Ordered Pair
 
 Observe the seating plan in an auditorium (Fig.1.1). To help orderly occupation of seats, tokens with numbers such as (1,5), (7,16), (3,4), (10,12) etc. are issued. The person who gets (4,10) will go to row 4 and occupy the \(10^{\mathrm{th}}\) seat. Thus the first number denotes the row and the second number, the seat. Which seat will the visitor with token (5,9) occupy? Can he go to \(9^{\mathrm{th}}\) row and take the \(5^{\mathrm{th}}\) seat? Do (9,5) and (5,9) refer to the same location? No, certainly! What can you say about the tokens (2,3), (6,3) and (10,3)?
 
@@ -40,9 +40,9 @@ Fig. 1.1
 
 This is one example where a pair of numbers, written in a particular order, precisely indicates a location. Such a number pair is called an ordered pair of numbers. This notion is skillfully used to mathematize the concept of a "Relation".
 
-### 1.3 Cartesian Product
+## 1.3 Cartesian Product
 
-## Illustration 1
+**Illustration 1**
 
 Let us consider the following two sets.
 
@@ -67,13 +67,13 @@ We can select them in 12 distinct pairs as given below.
 
 This collection represents the cartesian product of the set of vegetables and set of fruits.
 
-## Definition
+**Definition**
 
 If A and B are two non- empty sets, then the set of all ordered pairs \((a,b)\) such that \(a\in A\) \(b\in B\) is called the Cartesian Product of A and B, and is denoted by \(A\times B\) Thus, \(A\times B = \{(a,b)|a\in A,b\in B\}\) (read as A cross B). Also note that \(A\times \phi = \phi\)
 
 The set of all points in the cartesian plane can be viewed as the set of all ordered pairs \((x,y)\) where \(x,y\) are real numbers. In fact, \(\mathbb{R}\times \mathbb{R}\) is the set of all points which we call as the cartesian plane.
 
-## Activity 1
+**Activity 1**
 
 Let \(A = \{x\mid x\in \mathbb{N},x\leq 4\}\) \(B = \{y\mid y\in \mathbb{N},y< 3\}\)
 
@@ -121,7 +121,7 @@ Solution \(A = \{x\in \mathbb{N}\mid 1< x< 4\} = \{2,3\}\) \(B = \{x\in \mathbb{
 
 1. Find \(A\times B\) \(A\times A\) and \(B\times A\) (i) \(A = \{2, - 2,3\}\) and \(B = \{1, - 4\}\) (ii) \(A = B = \{p,q\}\) (iii) \(A = \{m,n\}\) ; \(B = \phi\) 2. Let \(A = \{1,2,3\}\) and \(B = \{x\mid x\) is a prime number less than 10}. Find \(A\times B\) and \(B\times A\) 3. If \(B\times A = \{(-2,3),(-2,4),(0,3),(0,4),(3,3),(3,4)\}\) find \(A\) and \(B\) 4. If \(A = \{5,6\}\) \(B = \{4,5,6\}\) \(C = \{5,6,7\}\) Show that \(A\times A = (B\times B)\cap (C\times C)\) 5. Given \(A = \{1,2,3\}\) \(B = \{2,3,5\}\) \(C = \{3,4\}\) and \(D = \{1,3,5\}\) , check if \((A\cap C)\times (B\cap D) = (A\times B)\cap (C\times D)\) is true? 6. Let \(A = \{x\in W\mid x< 2\}\) \(B = \{x\in N\mid 1< x\leq 4\}\) and \(C = \{3,5\}\) . Verify that (i) \(A\times (B\cup C) = (A\times B)\cup (A\times C)\) (ii) \(A\times (B\cap C) = (A\times B)\cap (A\times C)\) (iii) \((A\cup B)\times C = (A\times C)\cup (B\times C)\) 7. Let \(A =\) The set of all natural numbers less than 8, \(B =\) The set of all prime numbers less than 8, \(C =\) The set of even prime number. Verify that (i) \((A\cap B)\times C = (A\times C)\cap (B\times C)\) (ii) \(A\times (B - C) = (A\times B) - (A\times C)\)
 
-### 1.4 Relations
+## 1.4 Relations
 
 Many day- to- day occurrences involve two objects that are connected with each other by some rule of correspondence. We say that the two objects are related under the specified rule. How shall we represent it? Here are some examples,
 
@@ -144,7 +144,7 @@ So, when we wish to specify a particular relation, providing only one ordered pa
 
 {New Delhi, India), (Washington, USA), (Beijing, China), (London, U.K.), (Kathmandu, Nepal)} then specifying the relation is easy.
 
-## Progress Check
+**Progress Check**
 
 Let \(A = \{1,2,3,4\}\) and \(B = \{a,b,c\}\) .
 
@@ -158,7 +158,7 @@ Let \(A = \{1,2,3,4\}\) and \(B = \{a,b,c\}\) .
 (v) {(1, a), (a, 1), (2, b), (b, 2)}
 (vi) {(a, 4), (b, 3), (c, 2)}
 
-# Illustration 4
+**Illustration 4**
 
 | Students in a class | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -170,7 +170,7 @@ Let us define a relation between heights of corresponding students. (Fig.1.7)
 
 Fig. 1.7
 
-## Definition
+**Definition**
 
 Let \(A\) and \(B\) be any two non- empty sets. A 'relation' R from \(A\) to \(B\) is a subset of \(A\times B\) satisfying some specified conditions. If \(x\in A\) is related to \(y\in B\) through R, then we write it as \(x\mathrm{R}y\) . \(x\mathrm{R}y\) if and only if \((x,y)\in \mathbb{R}\) .
 
@@ -182,7 +182,7 @@ The range of the relation \(\mathrm{R} = \{y\in B\mid x\mathrm{R}y,\mathrm{for~s
 
 From these definitions, we note that domain of \(\mathrm{R}\subseteq A\) , co- domain of \(\mathrm{R} = B\) and range of \(\mathrm{R}\subseteq B\) .
 
-## Illustration 5
+**Illustration 5**
 
 Let \(A = \{1,2,3,4,5\}\) and \(B = \{\mathrm{Mathi},\mathrm{Aru},\mathrm{John}\}\)
 
@@ -198,17 +198,17 @@ Fig.1.8
 
 Let \(A\) and \(B\) be the set of lines in \(xy\) - plane such that \(A\) consists of lines parallel to \(X\) - axis. For \(x\in A\) \(y\in B\) , let \(\mathrm{R}\) be a relation from \(A\) to \(B\) defined by \(x\mathrm{R}y\) if \(x\) is perpendicular to \(y\) . Find the elements of \(B\) using a graph sheet.
 
-## Illustration 6
+**Illustration 6**
 
 Let \(A = \{1,3,5,7\}\) and \(B = \{4,8\}\) . If \(\mathrm{R}\) is a relation defined by "is less than" from \(A\) to \(B\) , then 1R4 ( \(\cdot \cdot 1\) is less than 4). Similarly, it is observed that 1R8, 3R4, 3R8, 5R8, 7R8
 
 Equivalently \(\mathrm{R} = \{(1,4),(1,8),(3,4),(3,8),(5,8),(7,8)\}\)
 
-## Note
+**Note**
 
 In the above illustration \(A\times B = \{(1,4),(1,8),(3,4),(3,8),(5,4),(5,8),(7,4),(7,8)\}\) \(\mathrm{R} = \{(1,4),(1,8),(3,4),(3,8),(5,8),(7,8)\}\) We see that \(\mathrm{R}\) is a subset of \(A\times B\)
 
-## Illustration 7
+**Illustration 7**
 
 In a particular area of a town, let us consider ten families \(A\) , \(B\) , \(C\) , \(D\) , \(E\) , \(F\) , \(G\) , \(H\) , \(I\) and \(J\) with two children. Among these, families \(B\) , \(F\) , \(I\) have two girls; \(D\) , \(G\) , \(J\) have one boy and one girl; the remaining have two boys. Let us define a relation \(\mathrm{R}\) by \(x\mathrm{R}y\) , where \(x\) denote the number of boys and \(y\) denote the family with \(x\) number of boys. Represent this situation as a relation through ordered pairs and arrow diagram.
 
@@ -238,13 +238,13 @@ A relation may be represented algebraically either by the roster method or by th
 
 Example 1.5 The arrow diagram shows (Fig.1.10) a relationship between the sets \(P\) and \(Q\) . Write the relation in (i) Set builder form (ii) Roster form (iii) What is the domain and range of R.
 
-## Solution
+**Solution**
 
 (i) Set builder form of \(\mathrm{R} = \{(x,y) \mid y = x - 2, x \in P, y \in Q\}\) (ii) Roster form \(\mathrm{R} = \{(5,3),(6,4),(7,5)\}\) (iii) Domain of \(\mathrm{R} = \{5,6,7\}\) and range of \(\mathrm{R} = \{3,4,5\}\)
 
 Fig.1.10
 
-## 'Null relation'
+**'Null relation'**
 
 Let us consider the following example. Suppose \(A = \{- 3, - 2, - 1\}\) and \(B = \{1,2,3,4\}\) . A relation from \(A\) to \(B\) is defined as \(a - b = 8\) i.e., there is no pair \((a,b)\) such that \(a - b = 8\) . Thus R contain no element and so \(\mathrm{R} = \phi\) .
 
@@ -252,7 +252,7 @@ A relation which contains no element is called a 'Null relation'.
 
 If \(n(A) = p\) , \(n(B) = q\), then the total number of relations that exist from \(A\) to \(B\) is \(2^{pq}\) .
 
-## Exercise 1.2
+**Exercise 1.2**
 
 1. Let \(A = \{1,2,3,7\}\) and \(B = \{3,0, - 1,7\}\) , which of the following are relation from \(A\) to \(B\) ?
 
@@ -270,7 +270,7 @@ If \(n(A) = p\) , \(n(B) = q\), then the total number of relations that exist fr
 
 1.5 FunctionsAmong several relations that exist between two non- empty sets, some special relations are important for further exploration. Such relations are called "Functions".
 
-## Illustration 8
+**Illustration 8**
 
 A company has 5 employees in different categories. If we consider their salary distribution for a month as shown by arrow diagram in Fig.1.11, we see that there is only one salary associated for every employee of the company.
 
@@ -285,7 +285,7 @@ Here are various real life situations illustrating some special relations:
 
 We often come across certain relations, in which, for each element of a set \(A\) , there is only one corresponding element of a set \(B\) . Such relations are called functions. We usually use the symbol \(f\) to denote a functional relation.
 
-## Definition
+**Definition**
 
 A relation \(f\) between two non- empty sets \(X\) and \(Y\) is called a function from \(X\) to \(Y\) if, for each \(x\in X\) there exists only one \(y\in Y\) such that \((x,y)\in f\)
 
@@ -301,7 +301,7 @@ Fig.1.12(b)
 
 Functions play very important role in the understanding of higher ideas in mathematics. They are basic tools to convert from one form to another form. In this sense, functions are widely applied in Engineering Sciences.
 
-# Illustration 9 - Testing for functions
+**Illustration 9 - Testing for functions**
 
 Representation by Arrow diagram
 
@@ -331,7 +331,7 @@ Solution \(f(x) = x^{2} - 2\) where \(X = \{- 2, - 1,0,3\}\)
 
 (ii) We note that each element in the domain of \(f\) has a unique image. Therefore, \(f\) is a function.
 
-## Thinking Corner
+**Thinking Corner**
 
 Is the relation representing the association between planets and their respective moons a function?
 
@@ -339,7 +339,7 @@ Example 1.8 If \(X = \{- 5,1,3,4\}\) and \(Y = \{a,b,c\}\) , then which of the f
 
 1) \(R_{1} = \{(−5,a),(1,a),(3,b)\}\) (ii) \(R_{2} = \{(−5,b),(1,b),(3,a),(4,c)\}\) (iii) \(R_{3} = \{(−5,a),(1,a),(3,b),(4,c),(1,b)\}\)
 
-## Solution
+**Solution**
 
 (i) \(R_{1} = \{(−5,a),(1,a),(3,b)\}\)
 
@@ -383,7 +383,7 @@ Solution (i) \(x = 1\) , we get
 
 [Note that \(f(x) + f(1) \neq f(x + 1)\) . In general \(f(a + b)\) is not equal to \(f(a) + f(b)\) ]
 
-## Exercise 1.3
+**Exercise 1.3**
 
 1. Let \(f = \{(x,y) \mid x,y \in N\) and \(y = 2x\}\) be a relation on N. Find the domain, co-domain and range. Is this relation a function?
 
@@ -422,7 +422,7 @@ Fig.1.17
 | 50 | 69.5 |
 | 55 | 74 |
 
-1.6 Representation of Functions
+## 1.6 Representation of Functions
 
 A function may be represented by
 
@@ -453,7 +453,7 @@ Every function can be represented by a curve in a graph. But not every curve dra
 
 The following test will help us in determining whether a given curve is a function or not.
 
-#### 1.6.1 Vertical line test
+### 1.6.1 Vertical line test
 
 A curve drawn in a graph represents a function, if every vertical line intersects the curve at only one point.
 
@@ -477,7 +477,7 @@ Example 1.11 Let \(A = \{1,2,3,4\}\) and \(B = \{2,5,8,11,14\}\) be two sets. Le
 
 (i) by arrow diagram (ii) in a table form (iii) as a set of ordered pairs (iv) in a graphical form
 
-## Solution
+**Solution**
 
 \[A = \{1,2,3,4\} ; B = \{2,5,8,11,14\} ; f(x) = 3x - 1\] \[f(1) = 3(1) - 1 = 3 - 1 = 2; f(2) = 3(2) - 1 = 6 - 1 = 5\] \[f(3) = 3(3) - 1 = 9 - 1 = 8; f(4) = 4(3) - 1 = 12 - 1 = 11\]
 
@@ -487,7 +487,7 @@ Let us represent the function \(f:A\to B\) by an arrow diagram (Fig.1.19).
 
 Fig.1.19
 
-## (ii) Table form
+**(ii) Table form**
 
 The given function \(f\) can be represented in a tabular form as given below
 
@@ -495,25 +495,25 @@ The given function \(f\) can be represented in a tabular form as given below
 |---|---|---|---|---|
 | f(x) | 2 | 5 | 8 | 11 |
 
-## (iii) Set of ordered pairs
+**(iii) Set of ordered pairs**
 
 The function \(f\) can be represented as a set of ordered pairs as
 
 \[f = \{(1,2),(2,5),(3,8),(4,11)\}\]
 
-## (iv) Graphical form
+**(iv) Graphical form**
 
 In the adjacent \(XY\) - plane the points (1,2), (2,5), (3,8), (4,11) are plotted (Fig.1.20).
 
 Fig.1.20
 
-1.7 Types of Functions
+## 1.7 Types of Functions
 
 In this section, we will discuss the following types of functions with suitable examples.
 
 (i) one - one (ii) many - one (iii) onto (iv) into
 
-#### 1.7.1 One - one function
+### 1.7.1 One - one function
 
 Let us assume that we have a cell phone with proper working condition. If you make a usual call to your friend then you can make only one call at a time (Fig.1.21).
 
@@ -529,7 +529,7 @@ Equivalently,
 
 If for all \(a_{1},a_{2}\in A\) \(f(a_{1}) = f(a_{2})\) implies \(a_{1} = a_{2}\) , then \(f\) is called one - one function.
 
-## Illustration 10
+**Illustration 10**
 
 \[A = \{1,2,3,4\} \mathrm{and} B = \{a,b,c,d,e\}\]
 
@@ -547,7 +547,7 @@ Fig.1.22
 
 Fig.1.23
 
-#### 1.7.2 Many - one function
+### 1.7.2 Many - one function
 
 In a theatre complex three films \(F_{1},F_{2},F_{3}\) are shown. Seven persons \((P_{1}\) to \(P_{7}\) ) arrive at the theatre and buy tickets as shown (Fig.1.24).
 
@@ -559,13 +559,13 @@ Fig. 1.24
 
 In other words, a function \(f:A\to B\) is called many- one if \(f\) it is not one- one.
 
-## Illustration 11
+**Illustration 11**
 
 \[Let A = \{1,2,3,4\} \text{and} B = \{a,b,c\} , f = \{(1,a), (2,a), (3,b), (4,c)\}\]
 
 Then \(f\) is a function from \(A\) to \(B\) in which different elements 1 and 2 of \(A\) have the same image \(a\) in \(B\) . Hence \(f\) is a many - one function.
 
-#### 1.7.3 Onto function
+### 1.7.3 Onto function
 
 In a mobile phone assume that there are 3 persons in the contact. If every person in the contact receives a call, then the function representing making calls will be onto. (Fig.1.25)
 
@@ -577,17 +577,17 @@ In other words, every element in the co- domain \(B\) has a pre- image in the do
 
 An onto function is also called a surjection.
 
-# Note
+**Note**
 
 If \(f:A\to B\) is an onto function then, the range of \(f = B\) .
 
-## Illustration 12
+**Illustration 12**
 
 Let \(A = \{x,y,z\} ,B = \{l,m,n\}\) ; Range of \(f = \{l,m,n\} = B\) (Fig.1.26) Hence \(f\) is an onto function.
 
 Fig.1.26
 
-#### 1.7.4 Into function
+### 1.7.4 Into function
 
 In a home appliance showroom, the products television, air conditioner, washing machine and water heater were provided with \(20\%\) discount as new year sale offer. If the selection of the above products by the three customers \(C_1, C_2, C_3\) is considered as a function then the following diagram (Fig.1.27) will represent an into function.
 
@@ -601,7 +601,7 @@ That is the range of \(f\) is a proper subset of the co- domain of \(f\) .
 
 In other words, a function \(f:A\to B\) is called 'into' if it is not 'onto'.
 
-## Illustration 13
+**Illustration 13**
 
 \[A = \{1,2,3\} \mathrm{and} B = \{w,x,y,z\} ,f = \{(1,w),(2,z),(3,x)\}\]
 
@@ -613,7 +613,7 @@ Note that \(y\in B\) is not an image of any element in \(A\) .
 
 Fig.1.28
 
-#### 1.7.5 Bijection
+### 1.7.5 Bijection
 
 Consider the circle where each letter of the English alphabet is changed from inner portion to a letter in the outer portion. Thus \(A\to D\) \(B\to E\) \(C\to F\) ... \(Z\to C\) .We call this circle as 'cipher circle'. (Fig.1.29) In this way if we try to change the word 'HELLO' then it will become 'KHOOR'. Now using the same circle if we substitute for each outer letter the corresponding inner letter we will get back the word 'HELLO'. This process of converting
 
@@ -623,7 +623,7 @@ from one form to an other form and receiving back the required information is ca
 
 If a function \(f:A\to B\) is both one- one and onto, then \(f\) is called a bijection from \(A\) to \(B\) .
 
-## Illustration 14
+**Illustration 14**
 
 | one to one and onto function (Bijection) |
 |---|
@@ -635,11 +635,11 @@ If a function \(f:A\to B\) is both one- one and onto, then \(f\) is called a bij
 | Fig. 1.31 | Fig. 1.32 |
 | Distinct elements of \(A\) have distinct images in \(B\). | Two or more elements of \(A\) have same image in \(B\). |
 
-## Note
+**Note**
 
 A one – one and onto function is also called a one – one correspondence.
 
-## Thinking Corner
+**Thinking Corner**
 
 Can there be a one to many function?
 
@@ -650,7 +650,7 @@ Can there be a one to many function?
 
 To determine whether the given function is one- one or not the following test may help us.
 
-#### 1.7.6 Horizontal Line Test
+### 1.7.6 Horizontal Line Test
 
 Previously we have seen the vertical line test. Now let us see the horizontal line test. "A function represented in a graph is one- one, if every horizontal line intersects the curve at only one point".
 
@@ -738,25 +738,25 @@ Thus, \(h(b_{1}) = h(b_{2})\Rightarrow b_{1} = b_{2}\) . So, the function \(h\) 
 
 Therefore, the length of the thigh bone is \(38~\mathrm{cm}\)
 
-## Activity 3
+**Activity 3**
 
 Check whether the following curves represent a function. In the case of a function, check whether it is one- one? (Hint: Use the vertical and the horizontal line tests)
 
-### 1.8 Special Cases of Functions
+## 1.8 Special Cases of Functions
 
 There are some special cases of a function which will be very useful. We discuss some of them below
 
 (i) Constant function (ii) Identity function (iii) Real - valued function
 
-### (i) Constant function
+**(i) Constant function**
 
 A function \(f:A\to B\) is called a constant function if the range of \(f\) contains only one element. That is, \(f(x) = c\) , for all \(x\in A\) and for some fixed \(c\in B\) .
 
-## Illustration 16
+**Illustration 16**
 
 From Fig.1.37, \(A = \{a,b,c,d\}\) , \(B = \{1,2,3\}\) and \(f = \{(a,3),(b,3),(c,3),(d,3)\} \dots f(x) = 3 \forall x \in A\) , Range of \(f = \{3\}\) , \(f\) is a constant function.
 
-### (ii) Identity function
+**(ii) Identity function**
 
 Let \(A\) be a non- empty set. Then the function \(f:A\to A\) defined by \(f(x) = x\) for all \(x\in A\) is called an identity function on \(A\) and is denoted by \(I_{A}\) .
 
@@ -764,11 +764,11 @@ Fig.1.37
 
 Fig.1.38
 
-## Illustration 17
+**Illustration 17**
 
 If \(A = \{a,b,c\}\) then \(f = I_{A} = \{(a,a),(b,b),(c,c)\}\) is an identity function on \(A\) .
 
-### (iii) Real valued function
+**(iii) Real valued function**
 
 Thinking Corner
 
@@ -776,9 +776,9 @@ Is an identity function one to one function?
 
 A function \(f:A\to B\) is called a real valued function if the range of \(f\) is a subset of the set of all real numbers \(\mathbb{R}\) . That is, \(f(a) \subseteq \mathbb{R}\) , \(\forall a \in A\) .
 
-## Progress Check
+**Progress Check**
 
-## State True or False.
+**State True or False.**
 
 1. All one - one functions are onto functions.
 
@@ -842,7 +842,7 @@ Solution \(f(x) = 3x - 5\) can be written as \(f = \{(x, 3x - 5) \mid x \in R\}\
 
 (v) the temperature when the Celsius value is equal to the Farenheit value.
 
-1.9 Composition of Functions
+## 1.9 Composition of Functions
 
 When a car driver depresses the accelerator pedal, it controls the flow of fuel which in turn influences the speed of the car. Likewise, the composition of two functions is a kind of chain reaction, where the functions act upon one after another (Fig.1.40).
 
@@ -852,7 +852,7 @@ Fig. 1.40
 
 (i) Feed an input (say \(x\) ) to \(f\) (ii) Feed the output \(f(x)\) to \(g\) to get \(g(f(x))\) and call it \(gf(x)\)
 
-## Illustration
+**Illustration**
 
 Consider the set \(A\) of all students, who appeared in class \(X\) of Board Examination. Each student appearing in the Board Examination is assigned a roll number. In order to have confidentiality, the Board arranges to deface the roll number of each student and assigns a code number to each roll number.
 
@@ -864,7 +864,7 @@ We can write \(c = g(b) = g(f(a))\)
 
 Thus, by the combination of these two functions, each student is eventually attached a code number. This idea leads to the following definition.
 
-## Definition
+**Definition**
 
 Let \(f:A\to B\) and \(g:B\to C\) be two functions (Fig.1.42). Then the composition of \(f\) and \(g\) denoted by \(g\circ f\) is defined as the function \(g\circ f(x) = g(f(x))\) \(\forall x\in A\)
 
@@ -918,7 +918,7 @@ But, \(f\circ f(k) = 5\)
 
 \[\therefore 4k - 3 = 5\Rightarrow k = 2.\]
 
-#### 1.9.1 Composition of three functions
+### 1.9.1 Composition of three functions
 
 Let \(A\) \(B\) \(C\) \(D\) be four sets and let \(f:A\to B\) \(g:B\to C\) and \(h:C\to D\) be three functions (Fig.1.43). Using composite functions \(f\circ g\) and \(g\circ h\) , we get two new functions like \((f\circ g)\circ h\) and \(f\circ (g\circ h)\)
 
@@ -926,7 +926,7 @@ Fig.1.43
 
 We observed that the composition of functions is not commutative. The natural question is about the associativity of the operation.
 
-# Note
+**Note**
 
 Composition of three functions is always associative. That is, \(f\circ (g\circ h) = (f\circ g)\circ h\)
 
@@ -938,7 +938,7 @@ Solution
 
 These two quantities being equal, we get \(9x + 7 = 3x + 19\) . Solving this equation we obtain \(x = 2\) .
 
-## Progress Check
+**Progress Check**
 
 State your answer for the following questions by selecting the correct option.
 
@@ -954,7 +954,7 @@ State your answer for the following questions by selecting the correct option.
 (b) Never true 
 (c) Sometimes true
 
-## Activity 4
+**Activity 4**
 
 Given that \(h(x) = f\circ g(x)\) , fill in the table for \(h(x)\)
 
@@ -975,13 +975,13 @@ How to find \(h(1)\) ?
 
 \[\therefore h(1) = 3\]
 
-### 1.10 Identifying the Graphs of Linear, Quadratic, Cubic and Reciprocal Functions
+## 1.10 Identifying the Graphs of Linear, Quadratic, Cubic and Reciprocal Functions
 
 Graphs provide visualization of curves and functions. Hence, graphs help a lot in understanding the concepts in a much efficient way.
 
 In this section, we will be discussing about the identification of some of the functions through their graphs. In particular, we discuss graphs of Linear, Quadratic, Cubic and Reciprocal functions.
 
-#### 1.10.1 Linear Function
+### 1.10.1 Linear Function
 
 A function \(f : \mathbb{R} \rightarrow \mathbb{R}\) defined by \(f(x) = mx + c\) , \(m \neq 0\) is called a linear function. Geometrically this represents a straight line in the graph.
 
@@ -992,7 +992,7 @@ Some Specific Linear Functions and their graphs are given below.
 | 1 | The identity function | \(f : \mathbb{R} \rightarrow \mathbb{R}\) defined by \(f(x) = x\) | Fig. 1.44 |
 | 2 | Additive inverse function | \(f : \mathbb{R} \rightarrow \mathbb{R}\) defined by \(f(x) = -x\) | Fig. 1.45 |
 
-#### 1.10.2 Modulus or Absolute valued Function
+### 1.10.2 Modulus or Absolute valued Function
 
 \(f : \mathbb{R} \rightarrow [0, \infty)\) defined by \(f(x) = | x |\)
 
@@ -1007,7 +1007,7 @@ Fig. 1.46
 
 Relations and Functions 29
 
-#### 1.10.3 Quadratic Function
+### 1.10.3 Quadratic Function
 
 A function \(f:\mathbb{R}\to \mathbb{R}\) defined by \(f(x) = ax^{2} + bx + c\) \(a\neq 0\) ) is called a quadratic function.
 
@@ -1017,25 +1017,25 @@ Some specific quadratic functions and their graphs
 |---|---|
 | f: R → R defined by f(x) = x², x ∈ R. f(x) ∈ [0, ∞) | |
 
-#### 1.10.4 Cubic Function
+### 1.10.4 Cubic Function
 
 A function \(f:\mathbb{R}\to \mathbb{R}\) defined by \(f(x) = ax^{3} + bx^{2} + cx + d,(a\neq 0)\) is called a cubic function. The graph of \(f(x) = x^{3}\) is shown in Fig.1.48.
 
 Fig.1.48
 
-#### 1.10.5 Reciprocal Function
+### 1.10.5 Reciprocal Function
 
 A function \(f:\mathbb{R} - \{0\} \to \mathbb{R}\) defined by \(f(x) = \frac{1}{x}\) is called a reciprocal function (Fig.1.49).
 
 Fig.1.49
 
-#### 1.10.6 Constant Function
+### 1.10.6 Constant Function
 
 A function \(f:\mathbb{R}\to \mathbb{R}\) defined by \(f(x) = c\) \(\forall x\in \mathbb{R}\) is called a constant function (Fig.1.50).
 
 Fig.1.50
 
-## Progress Check
+**Progress Check**
 
 1. Is a constant function a linear function?
 
@@ -1047,7 +1047,7 @@ Fig.1.50
 
 5. If \(f:A\to B\) is a constant function, then the range of \(f\) will have elements.
 
-## Exercise 1.5
+**Exercise 1.5**
 
 1. Using the functions \(f\) and \(g\) given below, find \(f\circ g\) and \(g\circ f\) . Check whether \(f\circ g = g\circ f\) .
 
@@ -1075,9 +1075,9 @@ Fig.1.50
 
 10. In electrical circuit theory, a circuit \(C(t)\) is called a linear circuit if it satisfies the superposition principle given by \(C(at_{1} + bt_{2}) = aC(t_{1}) + bC(t_{2})\) , where \(a,b\) are constants. Show that the circuit \(C(t) = 3t\) is linear.
 
-## Exercise 1.6
+**Exercise 1.6**
 
-## Multiple choice questions
+**Multiple choice questions**
 
 1. If \(n(A\times B) = 6\) and \(A = \{1,3\}\) then \(n(B)\) is
 
@@ -1163,7 +1163,7 @@ Fig.1.50
 (C) reciprocal 
 (D) quadratic
 
-## Unit Exercise - 1
+**Unit Exercise - 1**
 
 1. If the ordered pairs \((x^{2} - 3x,y^{2} + 4y)\) and \((-2,5)\) are equal, then find \(x\) and \(y\)
 
@@ -1181,7 +1181,7 @@ Fig.1.50
 
 \[f(x) = \frac{2x + 1}{x - 9} \quad \text{(ii)} \quad p(x) = \frac{-5}{4x^2 + 1} \quad \text{(iii)} \quad g(x) = \sqrt{x - 2} \quad \text{(iv)} \quad h(x) = x + 6\]
 
-## Points to Remember
+**Points to Remember**
 
 The Cartesian Product of \(A\) with \(B\) is defined as \(A \times B = \{(a, b) \mid\) for all \(a \in A\) , \(b \in B\}\)
 
@@ -1203,15 +1203,15 @@ Reciprocal function \(f(x) = \frac{1}{x}\)
 
 1 Constant function \(f(x) = c\) Linear function \(f(x) = ax + b\) \(a\neq 0\) Quadratic function \(f(x) = ax^{2} + bx + c\) \(a\neq 0\) Cubic function \(f(x) = ax^{3} + bx^{2} + cx + d\) \(a\neq 0\) For three non- empty sets \(A\) \(B\) and \(C\) if \(f:A\to B\) and \(g:B\to C\) are two functions, then the composition of \(f\) and \(g\) is a function \(g\circ f:A\to C\) will be defined as \(g\circ f(x) = g(f(x))\) for all \(x\in A\) If \(f\) and \(g\) are any two functions, then in general, \(f\circ g\neq g\circ f\) If \(f,g\) and \(h\) are any three functions, then \(f\circ (g\circ h) = (f\circ g)\circ h\)
 
-## ICT CORNER
+**ICT CORNER**
 
-## ICT 1.1
+**ICT 1.1**
 
 Step 1: Open the Browser type the URL Link given below (or) Scan the QR Code. GeoGebra work book named "Relations and Functions- X" will open. In the left side of the work book there are many activity related to Relations and Functions chapter. Select the work sheet "Functions Identification"
 
 Step 2: In the given worksheet click on the check boxes corresponding to each function on left hand side. You can see the graph of respective function on Right hand side. Analyse each graph and then click "New Functions" and continue till you understand.
 
-## ICT 1.2
+**ICT 1.2**
 
 Step 1: Open the Browser type the URL Link given below (or) Scan the QR Code. GeoGebra work book named "Relations and Functions- X" will open. In the left side of the work book there are many activity related to Relations and Functions chapter. Select the work sheet "Composition of Functions"
 
