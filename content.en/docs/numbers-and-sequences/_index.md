@@ -1,1549 +1,1546 @@
 ---
-title: 'Numbers and Sequences'
-categories:
-    - numbers-and-sequences
+title: 'numbers-and-sequences'
 weight: 2
-summary: "Covers Euclid’s division lemma and algorithm, the fundamental theorem of arithmetic, modular arithmetic, sequences, arithmetic progressions, geometric progressions and special series."
 ---
 
 # Chapter 2
 
-# உறவுகளும் சார்புகளும்
+## NUMBERS AND SEQUENCES
 
-கணிதவியலாளர்கள் பொருட்களைப் பற்றி அறிய விரும்புவதில்லை. ஆனால் அவற்றிற்கு இடையே அமைந்த தொடர்பை வெளிப்படுத்துவார்கள்... பொருள்களின் அளவு முக்கியமில்லை. ஆனால் அவற்றின் வடிவத்தை புரிந்துக் கொள்ளவே விரும்புவர். -ஹென்றி பாயின்கேரு
+"I know numbers are beautiful, if they aren't beautiful, nothing is" - Paul Erdos
 
-காட்‌ஃபிஞாய்‌ வில்லொல்‌ லீபிநிட்ஸ்‌ (வான்‌ லீபிநிட்ஸ்‌ என்றும்‌ கூறலாம்‌) முக்கிய ஜெர்மன்‌ கணிதமேதை, தத்துவாதி இயற்கையாளர்‌ மற்றும்‌ கண்டுபிடிப்பாளராவார்‌. இவர்‌ மண்ணியல்‌, மருத்துவம்‌, உயிரியல்‌, நோய்‌ தொற்றியல்‌, புதைபடிவியல்‌, உளவியல்‌ பொறியியல்‌, மொழி நூல்‌, சமூகவியல்‌ நெறிமுறைகள்‌, வரலாறு, அரசியல்‌, சட்டம்‌ மற்றும்‌ இதைக்‌ கோட்பாடு போன்ற 26 தலைப்புகளில்‌ விரிவாகத்‌ தனது‌ பங்களிப்பை வழங்கியுள்ளார்‌. லீபிநிட்ஸ்‌ பயன்படுத்திய வார்த்தை 'சார்பு' ஆனது‌ ஒரு வளைவின்‌ எந்த அளவும்‌ ஒரு புள்ளியிலிருந்து‌ மற்றொரு புள்ளிக்கு மாறுபடும்‌ என்பதைக்‌ குறிப்பிடுகிறது.
+Srinivasa Ramanujan was an Indian mathematical genius who was born in Erode in a poor family. He was a child prodigy and made calculations at lightning speed. He produced thousands of precious formulae, jotting them on his three notebooks which are now preserved at the University of Madras. With the help of several notable men, he became the first research scholar in the mathematics department of University of Madras. Subsequently, he went to England and collaborated with G.H. Hardy for five years from 1914 to 1919.
 
-காட்◌்பிஞாய்◌்‌ வில்லொல்◌்‌ லீபிநிட்◌்‌ (1646 – 1716)
+He possessed great interest in observing the pattern of numbers and produced several new results in Analytic Number Theory. His mathematical ability was compared to Euler and Jacobi, the two great mathematicians of the past Era. Ramanujan wrote thirty important research papers and wrote seven research papers in collaboration with G.H. Hardy. He has produced 3972 formulas and theorems in very short span of 32 years lifetime. He was awarded B.A. degree for research in 1916 by Cambridge University which is equivalent to modern day Ph.D. Degree. For his contributions to number theory, he was made Fellow of Royal Society (F.R.S.) in 1918.
 
-ஒரு வைளவரயில் காணப்படும் புள்ளிக்கு ஏற்றவாறு மாறும் தன்மையைக் குறிக்க வீரிநிடல் "சார்பு" என்ற வார்த்தையைப் பயன்படுத்தினார்.
+His works continue to delight mathematicians worldwide even today. Many surprising connections are made in the last few years of work made by Ramanujan nearly a century ago.
 
-பூலியன் இயற்கணிதம் மற்றும் தர்க்கச் சிந்தனைகளின் அடிப்படைகளை வழங்கினார். இவை இன்றைய நவீனக் கணினிகள் செயல்பாட்டிற்கு அடித்தளமாக அமைந்தன. பல்வேறு துறைகளில் சாதனை புரிந்ததற்காக "பயன்பாட்‌ அரிவியலின் தந்தை" என அரிவியல் உலகம் இவரைப்‌ போற்றுகிறது.
+<center>
 
-## கற்றல் விளைவுகள்
+![*Srinivasa Ramanujan (1887-1920)*](assets/page_001_picture_003.png)
 
-● கணங்களின் கார்டீசியன் பெருக்கலை வரையறுத்தல் மற்றும் கணக்கிறதல்.
+Srinivasa Ramanujan (1887-1920)
+</center>
 
-● உறவுகளை, கார்டீசியன் பெருக்கலின் உட்கணமாக அறிந்து கொள்ளுதல்.
+---
 
-● சார்பை ஒரு சிறப்பு உறவாகப் புரிந்து கொள்ளுதல்.
+## Learning Outcomes
 
-● அம்புக்குறி, வரிசைச் ச�ோடிகள், அட்டவணை மற்றும் வரைபடம் மூலமாகச் சார்பைக் குறிப்பிடுதல்.
+To study the concept of Euclid's Division Lemma. To understand Euclid's Division Algorithm. To find the LCM and HCF using Euclid's Division Algorithm. To understand the Fundamental Theorem of Arithmetic. To understand the congruence modulo \( n \), addition modulo \( n \) and multiplication modulo \( n \). To define sequence and to understand sequence as a function. To define an Arithmetic Progression (A.P.) and Geometric Progression (G.P.). To find the \( n^{\text{th}} \) term of an A.P. and its sum to \( n \) terms. To find the \( n^{\text{th}} \) term of a G.P. and its sum to \( n \) terms. To determine the sum of some finite series such as \( \sum n, \sum n^2, \sum n^3 \).
 
-● சார்புகளை ஒன்றுக்கொன்று, பலவற்றிற்கு ஒன்று, மேல் சார்பு, உட்சார்பு மற்றும் இருபுரச் சார்பு என வகைப்படுத்துதல்.
+---
 
-● பல சார்புகளின் இணைத்தலை சேர்ப்புச் செயல்பாடுகள் மூலம் அறிதல்.
+### 2.1 Introduction
 
-● நேரிய, இருபடி, கன, தலைக்குச் சார்பு வரையடங்களைப் புரிந்து கொள்ளுதல்.
+The study of numbers has fascinated humans since several thousands of years. The discovery of Lebombo and Ishango bones which existed around 25000 years ago has confirmed the fact that humans made counting process for meeting various day to day needs. By making notches in the bones they carried out counting efficiently. Most consider that these bones were used as lunar calendar for knowing the phases of moon thereby understanding the seasons. Thus the bones were considered to be the ancient tools for counting. We have come a long way since this primitive counting method existed.
 
-## 1.1 அறிமுகம் (Introduction)
+![*Number carvings in Ishango Bone*](assets/page_002_picture_003.png)
 
-கணிதத்தில், அதிகமான க�ோட்பாடுகளைப் படிப்பதற்கு, கணங்களின் கருத்து தேவைப்புகிறது. கணமானது நன்கு வரையறுக்கப்பட்ட, பொருள்களின் தொகுப்பு ஆகும். அதாவது ஒரு கணமானது, தெரிந்த பொருள்களினால் ஆன தொகுப்பு ஆகும். இந்த அத்தியாயத்தில், கணங்கள் உறவுகள் மற்றும் சார்புகள் ஆகியவற்றை எவ்வாறு அமைக்கின்றன எனக் கற்க முற்படுகிற�ோம். இதற்காக, நாம் இரண்டு வெற்றில்வாத கணங்களின், கார்டீசியன் பெருக்கலைப் பற்றித் தெரிந்து கொள்ள வேண்டும்.
+*Fig.2.1*
 
-நமது அன்றாட வாழ்க்கையில் பெரும்பாலான செய்திகளை உறவுகள் அல்லது சார்புகளைப் பயன்படுத்திப் புரிந்து கொள்ளலாம். வாகனத்தில் குறிப்பிட்ட நேரத்தில் குறிப்பிட்ட தொலைவைக் கடப்பதைச் சார்பின் மூலம் குறிப்பிடலாம். ஒரு பொருளின் விலையை, தேவையின் அடிப்படையில் எர்பின் மூலமாக வெளிப்படுத்தலாம். பலகோணங்களின் பரப்பு மற்றும் கனஅளவு, வட்டம், நேர்வட்டக் கூம்பு, நேர்வட்ட உருளை, க�ோளம் ஆகியவற்றின் கன அளவுகளை ஒன்று அல்லது பல மாறிகளை உடைய சார்பாகக் குறிப்பிடலாம்.
+It is very true that the patterns exhibited by numbers have fascinated almost all professional mathematicians' right from the time of Pythagoras to current time. We will be discussing significant concepts provided by Euclid and continue our journey of studying Modular Arithmetic and knowing about Sequences and Finite Series. These ideas are most fundamental to your progress in mathematics for upcoming classes. It is time for us to begin our journey to understand the most fascinating part of mathematics, namely, the study of numbers.
 
-ஒன்பதாம் வகுப்பில் நாம் கணங்களைப் பற்றி படித்தோம். மேலும் நாம் கொருக்கப்பட்ட கணங்களிலிருந்து புதிய கணங்களைச் சேர்ப்பு, வெட்டு, நிரப்பி ஆகியவற்றைக் கொண்டு எவ்வாறு உருவாக்கலாம் என்பதையும் பார்த்தோம்.
+### 2.2 Euclid's Division Lemma
 
-நாம் தற்போது கொருக்கப்பட்ட இரு கணங்கள் \( A \) மற்றும் \( B \)-யிலிருந்து கார்ரீசியன் பெருக்கல் வாயிலாகப் புதிய கணம் உருவாக்கும் முறையைப் பற்றி படிக்கலாம்.
+Euclid, one of the most important mathematicians wrote an important book named "Elements" in 13 volumes. The first six volumes were devoted to Geometry and for this reason, Euclid is called the "Father of Geometry". But in the next few volumes, he made fundamental contributions to understand the properties of numbers. One among them is the "Euclid's Divison Lemma". This is a simplified version of the long division process that you were performing for division of numbers in earlier classes.
 
-## 1.2 வரிமைச் ச�ோடி (Ordered Pair)
+Le us now discuss Euclid's Lemma and its application through an Algorithm termed as "Euclid's Division Algorithm".
 
-க�ொருக்கப்பட்ட அரங்கில் (படம் 1.1) அமர்வதற்காக உள்ள இருந்கைகளை உற்று ந�ோக்கவும். ஒருவர் அவரது இருந்கையில் அமரும் இடத்தைக் கண்டறிய உதவும்படி,(1,5), (7,16), (3,4), (10,12) ... என இருந்கை எண்கள் க�ொருக்கப்பட்டுள்ளன.
+Lemma is an auxiliary result used for proving an important theorem. It is usually considered as a mini theorem.
 
-ஒருவருக்கு (4,10) எனக் கிடைத்தால் அவர் 4-வது வரிசையில் 10-வது இருக்கையில் அமர வேண்டும். எனவே, முதல் எண் வரிசையையும், இரண்டாவது எண் இருக்கை எண்ணையும் குறிப்பிடுகின்றன. (5,9) என்ற இருக்கை எண்ணைப் பெறும் பார்வையாளர் எந்த இடத்தில் அமர்வார்? அவர் 9-வது வரிசையில் 5-வது இருக்கைக்குச் செல்லலாமா? (9,5) மற்றும் (5,9) இரண்டும் ஒரே இருக்கையைக் குறிக்கின்றனவா? கண்டிப்பாக இல்லை. (2,3), (6,3) மற்றும் (10,3) என்ற இருக்கை எண்களைப் பற்றி என்ன கூறுகிறீர்கள்?
+**Theorem 1: Euclid's Division Lemma**
 
-இருப்பிடத்தைத் துல்லியமாகக் குறிக்கின்ற எண்களின் ச�ோடிக்கு இது ஒர் எடுத்துக்காட்டு. இத்தகைய ச�ோடிகளை எண்களின் "வரிசை ச�ோடி" என்கிற�ோம். கணித்தில் காணும் "உறவுகள்" என்ற க�ோட்பாட்டைக் கற்க வரிசைச் ச�ோடிகள் பயன்படுகின்றன.
+Let a and b be any two positive integers. Then, there exist unique integers q and r such that ab =+qr , 0 ≤<rb . Note
 
-## 1.3 கார்ரீசியன் பெருக்கல் (Cartesian Product)
+- � The remainder is always less than the divisor.
+- � If r = 0 then a = bq so b divides a .
+- � Conversely, if b divides a then a = bq
 
-**விளக்கம் 1**
+37
 
-நாம் பின்வரும் இரண்டு கணங்களை எடுத்துக்கொள்வோம்.
+Numbers and Sequences
 
-கணம் \( A \)-ல் மூன்று காய்கறிகளும் மற்றும் கணம் \( B \)-ல் நான்கு பழங்களும் உள்ளன. அதாவது, \( A=\{\text{கேரட், கத்திரிக்காய், வெண்ணட்காய்}\} \) மற்றும் \( B=\{\text{ஆப்பிள், ஆரஞ்சு, திராட்சை, செம்புற்றுப்பழம்}\} \)
+Example 2.1 We have 34 cakes. Each box can hold 5 cakes only. How many boxes we need to pack and how many cakes are unpacked?
 
-ஒரு காயும், ஒரு பழமும் தேர்ந்தெடுப்பதற்குச் சாத்தியமான வழிகள் யாவை?
+We see that 6 boxes are required to pack 30 cakes with 4 cakes left over. This distribution of cakes can be understood as follows:
 
-| காய்கறிகள் (\( A \)) | பழங்கள் (\( B \)) |
-|---|---|
-| கேரட் (\( c \)) | ஆப்பின் (\( a \)) |
-| கத்திரிக்காய் (\( b \)) | ஆரஞ்சு (\( o \)) |
-| வெண்ணட்காய் (\( l \)) | திராட்சை (\( g \)) |
-| | செம்புற்றுப்பழம் (\( s \)) |
+| 34 | = | 5 | × | 6 | + | 4 | \n |
+| --- | --- | --- | --- | --- | --- | --- | \n |
+| Total number  of cakes | = | Number of cakes  in each box | × | Number of  boxes | + | Number of cakes  left over | \n |
+| (Dividend) a | = | (Divisor) b b | × | (Quotient) q | + | (Remainder) r |  |
 
-கீேழ கொருக்கப்பட்டுள்ள 12 விதமான ேசாடிகளின் மூலம் நாம் ேதர்வு செய்யலாம்.
+**Note**
 
-\[
-\{ ( c, a), ( c, o), ( c, g), ( c, s), ( b, a), ( b, o), ( b, g), ( b, s), ( l, a), ( l, o), ( l, g), ( l, s)\}
-\]
+- ¾ The above lemma is nothing but a restatement of the long division process, the integers q q and r are called quotient and remainder respectively.
+- ¾ When a positive integer is divided by 2 the remainder is either 0 or 1. So, any positive integer will of the form 2k, k, 2k+1 for some integer k .
 
-காய்கறிகள் மற்றும் பழங்களின் கார்டீசியன் பெருக்கலை மேற்கண்ட சேகரிப்பு குறிக்கிறது.
+Euclid's Division Lemma can be generalised to any two integers.
 
-**வரையறை**
+**Generalised form of Euclid's division lemma**
 
-\( A \) மற்றும் \( B \) என்பன இரண்டு ெவற்றில்வா கணங்கள் எனில், இவற்றின் வரிசைச் ேசாடிகளின் கணமானது \( (a, b) \) \( a \in A, b \in B \) என இருக்கும். இதை \( A \) மற்றும் \( B \)-யின் கார்டீசியன் ெபருக்கல் என்கிேறாம். எனேவ,
+Example 2.2 Find the quotient and remainder when a is divided by b in the following cases (i)a =−12 , b = 5 (ii)a = 17 , b =−3 (iii)a =−19 , b =−4
 
-\[
-A \times B = \{(a,b) \mid a \in A, b \in B\}.
-\]
+**Solutions**
 
-\( A \times B \) என்பதை (\( A \) கிராஸ் \( B \)) எனப் படிக்கவும். மற்றும் \( A \times \phi = \phi \) ஆகும்.
+Therefore, Quotient q =−3, Remainder r = 3
 
-**குறிப்பு**
+Therefore Quotient q = 5, Remainder r = 1 .
 
- \( A \times B \) ஆனது, \( A \) மற்றும் \( B \) என்ற கணங்களுக்கிடையேயான அனைத்து வரிசைச் ேசாடிகளின் கணம் எனில், அதன் முதல் உறுப்பு \( A \)-யின் உறுப்பாகவும், இரண்டாவது உறுப்பு \( B \)-யின் உறுப்பாகவும் இருக்கும்.
+10th 38 Standard Mathematics Example 2.3 Show that the square of an odd integer is of the form 41 q + , for some integer q .
 
- \( B \times A \) ஆனது, \( A \) மற்றும் \( B \) என்ற கணங்களுக்கிடையேயான அனைத்து வரிசைச் ேசாடிகளின் கணம் எனில், முதல் உறுப்பு \( B \)-யின் உறுப்பாகவும் இரண்டாவது உறுப்பு \( A \)-யின் உறுப்பாகவும் இருக்கும்.
+**Thinking Corner**
 
- ெபாᾐவாக \( (a, b) \neq (b, a) \). குறிப்பாக, \( a = b \) எனில், \( (a, b) = (b, a) \)
+When a positive integer is divided by 3
 
- கார்ரீசியன் பெருக்கலைக் குறுக்கு பெருக்கல் (cross product) எனவும் குறிப்பிடலாம்.
+- What are the possible remainders?
+- In which form can it be written?
 
-**விளக்கம் 2**
+**Progress Check**
 
-\( A = \{1, 2, 3\} \) மற்றும் \( B = \{a, b\} \) எனில், \( A \times B \) மற்றும் \( B \times A \)-ஐ எழுதுக.
+Find q and r for the following pairs of integers a and b satisfying ab =+qr .
 
-\[
-A \times B = \{1,2,3\} \times \{a,b\} = \{(1,a),(1,b),(2,a),(2,b),(3,a),(3,b)\}
-\]
+Let x be any odd integer. Since any odd integer is one more than an even integer, we have xk =+ 21, for some integers k .
 
-\[
-B \times A = \{a,b\} \times \{1,2,3\} = \{(a,1), (a,2), (a,3),(b,1), (b,2), (b,3)\}
-\]
+### 2.3 Euclid's Division Algorithm
 
-**சிந்தனைக் களம்**
+) 1 is some integer.
 
-எப்போது \( A \times B \) ஆனது \( B \times A \) விற்கு சமம்?
+In the previous section, we have studied about Euclid's division lemma and its applications. We now study the concept Euclid's Division Algorithm. The word 'algorithm' comes from the name of 9th century Persian Mathematician Al-khwarizmi. An algorithm means a series of methodical step-by-step procedure of calculating successively on the results of earlier steps till the desired answer is obtained.
 
-**குறிப்பு**
+Euclid's division algorithm provides an easier way to compute the Highest Common Factor (HCF) of two given positive integers. Let us now prove the following theorem.
 
-➤ ெபாதுவாக \( A \times B \neq B \times A \), ஆனால் \( n(A \times B) = n(B \times A) \)
+**Theorem 2**
 
-➤ \( A \times B = \phi \) இருந்தால், இருந்தால் மட்டுமே \( A = \phi \) அல்லது \( B = \phi \)
+If a and b are positive integers such that ab =+qr , then every common divisor of a a and b is a common divisor of b and r and vice-versa.
 
-➤ \( n(A) = p \) மற்றும் \( n(B) = q \) எனில்,
+**Euclid's Division Algorithm**
 
-நிலையான முடிவற்ற கணங்களுக்கான மீள் பார்வை
+To find Highest Common Factor of two positive integers a and b, where a > b
 
-இயல் எண்கள் \( \mathbb{N} = \{1,2,3,4...\} \); முழு எண்கள் \( \mathbb{W} = \{0,1,2,3, ...\} \);
+- Step1: Using Euclid's division lemma ab =+qr ; 0 ≤<rb . where q is the quotient, r is the remainder. If r = 0 then b is the Highest Common Factor of a and b .
+- Step 4: Otherwise using Euclid's division lemma, repeat the process until we get the remainder zero. In that case, the corresponding divisor is the HCF of a and b .
 
-முழுக்கள் \( \mathbb{Z} =\{..., -2,-1,0,1,2, ...\} \) ; விகிதமுறு எண்கள் \( \mathbb{Q} = \{ \frac{p}{q} \mid p,q \in \mathbb{Z}, q \neq 0\} \);
+**Note**
 
-ெமய் எண்கள் \( \mathbb{R} = \mathbb{Q} \cup \mathbb{Q}' \), இங்கு \( \mathbb{Q}' \) -ஆனது விகிதமுறா எண்களின் கணமாகும்.
+- ¾ The above algorithm will always produce remainder zero at some stage. Hence the algorithm should terminate.
+- ¾ Euclid's Division Algorithm is a repeated application of Division Lemma until we get zero remainder.
+- ¾ Highest Common Factor (HCF) of two positive numbers is denoted by (a,b).
+- ¾ Highest Common Factor (HCF) is also called as Greatest Common Divisor (GCD).
 
-**விளக்கம் 3**
+- Euclid's division algorithm is a repeated application of division lemma until we get remainder as _____.
+- The HCF of two equal positive integers k , k is _____.
 
-\( A \) என்ற கணமானது, \( [3, 5] \) என்ற இடைவெளியில் உள்ள அனைத்து எண்கள் மற்றும் \( B \) என்ற கணமானது, \( [2, 3] \) என்ற இடைவெளியில் உள்ள அனைத்து எண்கள் எனில், \( A \times B \)-யின் கார்டீசியன் பெருக்கல் ஆனது படம் 1.4 –ல் காண்பது போலச் செவ்வகப் பகுதியைக் குறிக்கும். \( A \times B \) என்ற கணத்தின் \( (x, y) \) என்ற புள்ளிகள் செவ்வகப் பகுதியில் அமைந்திருக்கும்.
+**Illustration 1**
 
-**முன்னேற்றச் ச�ோதனை**
+Using the above Algorithm, let us find HCF of two given positive integers. Leta = 273 and b = 119 be the two given positive integers such that ab > .
 
-1. \( A \) மற்றும் \( B \) ஆகியன ஏதேனும் இரண்டு வெற்றிலை கணங்கள் எனில், \( A \times B \)-ஐ __________ எனலாம்.
+We start dividing 273 by 119 using Euclid's division lemma.
 
-2. \( n(A \times B) = 20 \) மற்றும் \( n(A) = 5 \) எனில், \( n(B) \) ஆனது ______
+we get,
 
-3. \( A = \{-1,1\} \) மற்றும் \( B = \{-1,1\} \) எனில், வடிவியல் முறையில் \( A \times B \) கணத்தின் புள்ளிகள் யாவை?
+The remainder is 35 ¹ 0 .
 
-4. \( A, B \) என்பவை முறையே \( [-4, 3] \) மற்றும் \( [-2, 3] \)-க்கு இடைவெளியில் உள்ள அனைத்து எண்கள் எனில், \( A \) மற்றும் \( B \)-ன் கார்டீசியன் பெருக்ககைக் குறிப்பிருக.
+Therefore, applying Euclid's Division Algorithm to the divisor 119 and remainder 35 . we get,
 
-**குறிப்பு**
+The remainder is 14 ¹ 0 .
 
-கார்ரீசியன் தளத்தில் உள்ள அனைத்துப் புள்ளிகளின் கணத்தை \( (x, y) \) என்ற வரிசைச் ச�ோடிகளின் கணமாக அறியலாம். இதில் \( x, y \) ஆகியவை மெய்வயன்கள். \( \mathbb{R} \times \mathbb{R} \) என்ற கணத்தில் உள்ள அனைத்துப் புள்ளிகளையும் சேர்த்து நாம் கார்ரீசியன் தளம் என அழைக்கிற�ோம்.
+Applying Euclid's Division Algorithm to the divisor 35 and remainder 14 .
 
-**ெசயல்பா**
+we get,
 
-\( A = \{x \mid x \in \mathbb{N}, x \leq 4\} \), \( B = \{y \mid y \in \mathbb{N}, y < 3\} \) எனில் \( A \times B \) மற்றும் \( B \times A \)-ஐ வரைபடத்தாளில் குறிக்க. \( A \times B \) மற்றும் \( B \times A \)-க்கு உள்ள வேறுபாட்கட உங்களால் காணமுடிகிறதா?
+The remainder is 7 ≠ 0 .
 
-எந்துக்காட்டு 1.1 \( A = \{1,3,5\} \), \( B = \{2,3\} \) எனில் (i) \( A \times B \) மற்றும் \( B \times A \)-ஐ காண்க. (ii) \( A \times B = B \times A \) ஆகுமா? இல்லையெனில் ஏன்? (iii) \( n(A \times B) = n(B \times A) = n(A) \times n(B) \) எனக் காட்டுக.
+Applying Euclid's Division Algorithm to the divisor 14 and remainder 7 .
 
-தீவு \( A = \{1,3,5\} \) , \( B = \{2,3\} \) எனக் கொடுக்கப்பட்டுள்ளன.
+we get,
 
-(i) \( A \times B = \{1,3,5\} \times \{2,3\} = \{(1,2), (1,3), (3,2), (3,3), (5,2), (5,3)\} \) ...(1)
+The remainder at this stage= 0 .
 
-\( B \times A = \{2,3\} \times \{1,3,5\} = \{(2,1), (2,3), (2,5), (3,1), (3,3), (3,5)\} \) ...(2)
+The divisor at this stage= 7 .
 
-(ii) (1) மற்றும் (2) -ன் மூலமாக \( A \times B \neq B \times A \) ஏனெனில் \( (1,2) \neq (2,1) \), \( (1,3) \neq (3,1) \)...
+Therefore, Highest Common Factor of 273 , 119 = 7 .
 
-(iii) \( n(A)=3 \); \( n (B) = 2 \).
+Example 2.4 If the Highest Common Factor of 210 and 55 is expressible in the form 55x - 325 , find x .
 
-(1) மற்றும் (2) –விருந்து நாம் காண்பது, \( n (A \times B) = n (B \times A) = 6 \);
+Using Euclid's Division Algorithm, let us find the HCF of given numbers
 
-\( n (A) \times n (B) = 3 \times 2 = 6 \) மற்றும் \( n (B) \times n (A) = 2 \times 3 = 6 \)
+The remainder is zero.
 
-எனவே, \( n (A \times B) = n (B \times A) = n (A) \times n (B) = 6 \).
+So, the last divisor 5 is the Highest Common Factor (HCF) of 210 and 55.
 
-ஆகவே, \( n (A \times B) = n (B \times A) = n (A) \times n (B) \).
+HCF is expressible in the form 55x −= 325 5
 
-1.2 \( A \times B = \{(3,2), (3,4), (5,2), (5,4)\} \) எனில் \( A \) மற்றும் \( B \)-ஐ காண்க.
+x = 6
 
-\( A = \{ A \times B \)-யின் முதல் ஆயத்தொலைவு உறுப்புகளின் கணம்\( \} \). எனவே, \( A = \{3,5\} \) \( B = \{ A \times B \)-யின் இரண்டாம் ஆயத்தொலைவு உறுப்புகளின் கணம்\( \} \). எனவே, \( B = \{2,4\} \) எனவே \( A = \{3,5\} \) மற்றும் \( B = \{2,4\} \).
+10th 40 Standard Mathematics
 
-எந்தக்காட்டு 1.3 \( A = \{x \in \mathbb{N} \mid 1 < x < 4\} \), \( B = \{x \in \mathbb{W} \mid 0 \leq x < 2\} \) மற்றும் \( C = \{x \in \mathbb{N} \mid x < 3\} \). எங்க. (i) \( A \times (B \cup C) = (A \times B) \cup (A \times C) \)
+Example 2.5 Find the greatest number that will divide 445 and 572 leaving remainders 4 and 5 respectively.
 
-(ii) \( A \times (B \cap C) = (A \times B) \cap (A \times C) \) என்பனவற்றைச் சரிபார்க்க.
+Since the remainders are 4 , 5 respectively the required number is the HCF of the number 445 −=4 4 441 , 572 −=5 567 .
 
-தீர்வு \( A = \{x \in \mathbb{N} \mid 1 < x < 4\} = \{2, 3\} \), \( B = \{x \in \mathbb{W} \mid 0 \leq x < 2\} = \{0,1\} \), \( C = \{x \in \mathbb{N} \mid x < 3\} = \{1,2\} \)
+Hence, we will determine the HCF of 441 and 567. Using Euclid's Division Algorithm, we have,
 
-(i) \( A \times (B \cup C) = (A \times B) \cup (A \times C) \)
+441 =× 126 3
 
-\[
-B \cup C = \{0,1\} \cup \{1,2\} = \{0,1,2\}
-\]
+126 =× 63
 
-\[
-A \times (B \cup C) = \{2,3\} \times \{0,1,2\} = \{(2,0), (2,1), (2,2), (3,0), (3,1), (3,2)\} \quad \dots(1)
-\]
+Therefore, HCF of 441 , 567 = 63 and so the required number is 63 .
 
-\[
-A \times B = \{2,3\} \times \{0,1\} = \{(2,0), (2,1), (3,0), (3,1)\}
-\]
+**Activity 1**
 
-\[
-A \times C = \{2,3\} \times \{1,2\} = \{(2,1), (2,2), (3,1), (3,2)\}
-\]
+This activity helps you to find HCF of two positive numbers. We first observe the following instructions.
 
-\[
-(A \times B) \cup (A \times C) = \{(2,0), (2,1), (3,0), (3,1)\} \cup \{(2,1), (2,2), (3,1), (3,2)\}
-\]
+- (i) Construct a rectangle whose length and breadth are the given numbers.
+- (ii) Try to fill the rectangle using small squares.
+- (iii) Try with 1 × 1 square; Try with 2 × 2 square; Try with 33 ´ square and so on.
+- (iv) The side of the largest square that can fill the whole rectangle without any gap will be HCF of the given numbers.
+- (v) Find the HCF of (a) 12 , 20 (b) 16 , 24 (c) 11 , 9
 
-\[
-= \{(2,0), (2,1), (2,2), (3,0), (3,1), (3,2)\} \qquad \dots(2)
-\]
+**Theorem 3**
 
-(1) மற்றும் (2) -விருந்து, \( A \times (B \cup C) = (A \times B) \cup (A \times C) \) என்பது சரிபார்க்கப்பட்டது.
+If a and b are two positive integers with a > b then G.C.D of (a , b) = GCD of (, ab - b) .
 
-(ii) \( A \times (B \cap C) = (A \times B) \cap (A \times C) \)
+**Activity 2**
 
-\[
-B \cap C = \{0,1\} \cap \{1,2\} = \{1\}
-\]
+This is another activity to determine HCF of two given positive integers.
 
-\[
-A \times (B \cap C) = \{2,3\} \times \{1\} = \{(2,1), (3,1)\} \qquad \dots(3)
-\]
+- (i) From the given numbers, subtract the smaller from the larger number.
+- (ii) From the remaining numbers, subtract smaller from the larger.
+- (iii) Repeat the subtraction process by subtracting smaller from the larger.
+- (iv) Stop the process, when the numbers become equal.
+- (v) The number representing equal numbers obtained in step (iv), will be the HCF of the given numbers.
 
-\[
-A \times B = \{2,3\} \times \{0,1\} = \{(2,0), (2,1), (3,0), (3,1)\}
-\]
+Using this Activity, find the HCF of
 
-\[
-A \times C = \{2,3\} \times \{1,2\} = \{(2,1), (2,2), (3,1), (3,2)\}
-\]
+**Highest Common Factor of three numbers**
 
-\[
-(A \times B) \cap (A \times C) = \{(2,0), (2,1), (3,0), (3,1)\} \cap \{(2,1), (2,2), (3,1), (3,2)\} = \{(2,1), (3,1)\}
-\]
+We can apply Euclid's Division Algorithm twice to find the Highest Common Factor (HCF) of three positive integers using the following procedure.
 
-... (4)
+Let a, b, c be the given positive integers.
 
-(3) மற்றும் (4), \( A \times (B \cap C) = (A \times B) \cap (A \times C) \) என்பது சரிபார்க்கப்பட்டது.
+- (i) Find HCF of a,b. Call it as d
 
-ேமேல, சரிபார்க்கப்பட்ட சமன்பாகுகள் முறையே கார்டீசியன் பெருக்கலின் ேசர்ப்பு மற்றும் வெட்குகளின் மீதான பங்கீடு பண்புகளாகும். \( A, B \) மற்றும் \( C \) என்பன ஏேதனும் மூன்று கணங்கள் எனில்
+- (ii) Find HCF of d and c .
 
-\[
-(i) A \times (B \cup C) = (A \times B) \cup (A \times C) \qquad (ii) A \times (B \cap C) = (A \times B) \cap (A \times C).
-\]
+This will be the HCF of the three given numbers a, b, c
 
-### 1.3.1 மூன்று கணங்களின் கார்டீசியன் பெருக்கல் (Cartesian Product of three Sets)
+Example 2.6 Find the HCF of 396 , 504 , 636 .
 
-\( A, B, C \) ஆகியவை வெற்றிலை கணங்கள் எனில், அதன் கார்டீசியன் பெருக்கற்பலனின் கணமானது அனைத்து சாத்தியமான வரிசையில் அமைந்த மூன்றின் தொகுதிகளின் கணமாகும்.
+To find HCF of three given numbers, first we have to find HCF of the first two numbers.
 
-\[
-A \times B \times C = \{(a, b, c) \mid \text{அனைத்து } a \in A, b \in B, c \in C\}
-\]
+To find HCF of 396 and 504
 
-ෂ්‍රන්තු மற்றும் மூன்று கணங்களுக்கான கார்டீசியன் பெருக்கலின் வடிவியல் விளக்கம்.
+Using Euclid's division algorithm we get 504 =× 396 1 + 108
 
-\( A = \{0,1\}, B = \{0,1\}, C = \{0,1\} \) எனக்
+The remainder is 108 ¹ 0
 
-\[
-A \times B = \{0,1\} \times \{0,1\} = \{(0,0), (0,1), (1,0), (1,1)\}
-\]
+Again applying Euclid's division algorithm 396 =× 108 37 + 2
 
-\( A \times B \) ஆனது \( XY \) - தளத்தில் (plane) குறிக்கப்பட்டுள்ளதைப் படம் 1.5-ல் காணலாம்.
+The remainder is 72 ¹ 0 ,
 
-\[
-(A \times B) \times C = \{(0,0), (0,1), (1,0), (1,1)\} \times \{0,1\}
-\]
+Again applying Euclid's division algorithm 108 =× 72 13 + 6
 
-\[
-= \{(0,0,0), (0,0,1), (0,1,0), (0,1,1), (1,0,0), (1,0,1), (1,1,0), (1,1,1)\}
-\]
+The remainder is 36 ¹ 0 ,
 
-\( A \times B \times C \) ஆனது \( XYZ \) - என்ற வெளியில் (space) குறிக்கப்பட்டுள்ளதைப் படம் 1.6 காணலாம்.
+Again applying Euclid's division algorithm 72 =× 36 20 +
 
-\( A \times B \) என்பது இரு பரிமாணத்தில் சதுரத்தின் புள்ளிகளைக் குறிக்கிறது. \( A \times B \times C \) என்பது முப்பரிமாணத்தில் கனசதுரத்தின் புள்ளிகளைக் குறிக்கிறது.
+Here the remainder is zero. Therefore HCF of 396 , 504 = 36 .
 
-**கற்பி**
+To find the HCF of 636 and 36 .
 
-ப�ொதுவாக, இரண்டு வெற்றில�ோ கணங்களின் கார்டீசியன் பெருக்கல் புள்ளிகளை இணைத்தால் இரு பரிமாணங்களைக் கொண்ட வடிவத்தை ஏற்படுத்தும். அதேப�ோல் மூன்று வெற்றில�ோ கணங்களின் கார்டீசியன் பெருக்கல் புள்ளிகளை இணைத்தால் மூன்று பரிமாணங்களைக் கொண்ட முப்பரிமாணப் பொருளை ஏற்படுத்தும்.
+Using Euclid's division algorithm we get 636 =× 36 17 + 24
 
-**பயிற்சி 1.1**
+The remainder is 24 ¹ 0
 
-1. பின்வருவனவற்றிற்கு \( A \times B \), \( A \times A \) மற்றும் \( B \times A \) ஐக் காண்க.
+Again applying Euclid's division algorithm 36 =× 24 11 + 2
 
-(i) \( A = \{2, -2, 3\} \) மற்றும் \( B = \{1, -4\} \) (ii) \( A = B = \{p, q\} \) (iii) \( A = \{m, n\} \) ; \( B = \phi \)
+The remainder is12 ¹ 0
 
-2. \( A = \{1,2,3\} \) மற்றும் \( B = \{x \mid x \) என்பது 10-ஐ விடச் சிறிய பகா எண்\( \} \) எனில், \( A \times B \) மற்றும் \( B \times A \) ஆகியவற்றைக் காண்க.
+Again applying Euclid's division algorithm 24 =× 12 20 +
 
-3. \( B \times A = \{(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)\} \) எனில், \( A \) மற்றும் \( B \) ஆகியவற்றைக் காண்க.
+Here the remainder is zero. Therefore HCF of 636 , 36 = 12
 
-4. \( A = \{5,6\}, B = \{4,5,6\}, C = \{5,6,7\} \) எனில், \( A \times A = (B \times B) \cap (C \times C) \) எனக் காட்குக.
+Therefore Highest Common Factor of 396 , 504 and 636 is 12 .
 
-5. \( A=\{1,2,3\}, B = \{2,3,5\}, C = \{3,4\} \) மற்றும் \( D = \{1,3,5\} \) எனில்
+Two positive integers are said to be relatively prime or co prime if their Highest Common Factor is 1 .
 
-\( (A \cap C) \times (B \cap D) = (A \times B) \cap (C \times D) \) என்பது உண்மையா என ச�ோதிக்கவும்..
+![](assets/page_007_picture_003.png)
 
-6. \( A = \{x \in \mathbb{W} \mid x < 2\} \) , \( B = \{x \in \mathbb{N} \mid 1 < x \leq 4\} \) மற்றும் \( C = \{3,5\} \) எனில், கீேழக் கொடுக்கப்பட்டுள்ள சமன்பாடுகளைச் சரியார்க்க.
+- Find all positive integers, when divided by 3 leaves remainder 2 .
+- A man has 532 flower pots. He wants to arrange them in rows such that each row contains 21 flower pots. Find the number of completed rows and how many flower pots are left over.
 
-(i) \( A \times (B \cup C) = (A \times B) \cup (A \times C) \) (ii) \( A \times (B \cap C) = (A \times B) \cap (A \times C) \)
+10th 42 Standard Mathematics
 
-(iii) \( (A \cup B) \times C = (A \times C) \cup (B \times C) \)
+- Prove that the product of two consecutive positive integers is divisible by 2 .
+- When the positive integers a , b and c are divided by 13, the respective remainders are 9 , 7 and 10. Show that a+b+c is divisible by 13 .
+- Prove that square of any integer leaves the remainder either 0 or 1 when divided by 4 .
+- Use Euclid's Division Algorithm to find the Highest Common Factor (HCF) of
+- (i) 340 and 412
+- (ii) 867 and 255
+- (iii)10224 and 9648
+- (iv) 84 , 90 and 120
+- Find the largest number which divides 1230 and 1926 leaving remainder 12 in each case.
+- If d is the Highest Common Factor of 32 and 60, find x and y satisfying dx =+ 32 60y .
+- A positive integer when divided by 88 gives the remainder 61. What will be the remainder when the same number is divided by 11?
+- Prove that two consecutive positive integers are always coprime.
 
-7. \( A \) என்பது 8-ஐ விடக் குறைவான இயல் என்களின் கணம், \( B \) என்பது 8-ஐ விடக் குறைவான பகா என்களின் கணம் மற்றும் \( C \) என்பது இரட்டைப்படை பகா என்களின் கணம் எனில், கீழ்கண்டவற்றைச் சரிபார்க்க.
+### 2.4 Fundamental Theorem of Arithmetic
 
-(i) \( (A \cap B) \times C = (A \times C) \cap (B \times C) \) (ii) \( A \times (B - C) = (A \times B) - (A \times C) \)
+Let us consider the following conversation between a Teacher and students.
 
-## 1.4 உறவுகள் (Relations)
+Factorise the number 240.
 
-நம் அன்றாட வாழ்வில் இரு பொருள்கள் சில விதிகளுக்குட்பட்டு ஒன்றுக்கொன்று தொடர்பில் இருப்பதை நாம் காண்கிறோம். அந்த இரண்டு பொருள்களும் ஒரு சில விதிகளுக்குட்பட்டு அத்தொடர்பை ஏற்படுத்துகின்றன. அவ்வாழனில், அத்தொடர்பை எப்படி வெளிப்படுத்தலாம்? இங்குச் சில எடுத்துக்காட்டுகள் கொடுக்கப்பட்டுள்ளன.
+Teacher :
 
-| உறவு முறைகள் | உறவை R குறியீட்டின் மூலமாக வெளிப்படுத்துதல் | வரிசைச் ச�ோடிகளின் மூலமாக வெளிப்படுத்துதல் |
-|---|---|---|
-| புதுதில்லியானது இந்தியாவின் தலைநகரம். | புதுதில்லி R இந்தியா | (புதுதில்லி, இந்தியா) |
-| AB ஆனது XY -யின் குத்துக்கோடி | கோடி AB, R, கோடி XY | (கோடி AB, கோடி XY) |
-| -1 ஆனது -5 -ஐ விடப்படியது | -1 R -5 | (-1, -5) |
-| l ஆனது ΔPQR -ன் சமச்சீர்கோடி. | l R ΔPQR | (l, ΔPQR) |
+Malar
 
-எப்படி புதுதில்லியும் இந்தியாவும் தொடர்புடையன? நாம் பதிலை எதிர்ந�ோக்குகிற�ோம். புதுதில்லியானது இந்தியாவின் தலைநகரம். ஆனால் புதுதில்லியும் இந்தியாவையும் பல வழிகளில் தொடர்புபடுத்தலாம். ஒரு சில வழிகள் பின்வருமாறு.
+: 24 ×10
 
-● புதுதில்லியானது இந்தியாவின் தலைநகரம்.
+Raghu
 
-● புதுதில்லியானது இந்தியாவின் வடபகுதியில் உள்ளது.
+: 8×30
 
-● புதுதில்லியானது இந்தியாவின் மிகப்பெரிய நகரங்களில் ஒன்று.
+Iniya
 
-நாம் உறவுகளை மிகச் சரியாகக் குறிப்பிட வேண்டுமெனில், ஒரே ஓர் வரிசைச்ச�ோடி (புதுதில்லி, இந்தியா) மட்டும் கொடுத்தால் ப�ோதுமானதாக இருக்காது. மேற்கண்ட மூன்று குறிப்புகளும் அதற்குப் பொருந்தும். எனவே, கொடுக்கப்பட்ட வரிசைச் ச�ோடிகளில் எந்த உறவுமுறை கொடுக்கப்பட்டுள்ளது என நாம் கேட்க நினைத்தால், உறவைக் குறிப்பிடுவது எளிதாக இருக்கும்.
+: 12×20
 
-{ (புதுதில்லி, இந்தியா), (வாவிங்டன், அமெரிக்க ஐக்கிய நாடுகள்), (பெய்சிங், சீனா), (லண்டன், இங்கிலாந்து), (காத்மான்டு, ந�ோபாம்) } என்ற வரிசைச் ச�ோடிகளில் காணப்படும் உறவை எளிதாக வெளிப்படுத்த முடியும் அல்லவா?
+Kumar :
 
-**முன்னேற்றச் ச�ோதனை**
+15×16
 
-\( A = \{1, 2, 3, 4\} \), \( B = \{a, b, c\} \) எனில்
+Malar
 
-| | 1. பின்வருவனவற்றில் எவை A -யிலிருந்து B -க்கான உறவாகும்? | 2. பின்வருவனவற்றில் எவை B -யிலிருந்து A -க்கான உறவாகும்? |
-|---|---|---|
-| (i) | \( \{(1, b), (1, c), (3, a), (4, b)\} \) | \( \{(c, a), (c, b), (c, 1)\} \) |
-| (ii) | \( \{(1, a), (b, 4), (c, 3)\} \) | \( \{(c, 1), (c, 2), (c, 3), (c, 4)\} \) |
-| (iii) | \( \{(1, a), (a, 1), (2, b), (b, 2)\} \) | \( \{(a, 4), (b, 3), (c, 2)\} \) |
+: Whose answer is correct Sir?
 
-**விளக்கம் 4**
+: All the answers are correct.
 
-| ஒரு வகுப்பில் உள்ள மாணவர்களின் எண்ணிக்கை | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| உயரம் (அடிகளில்) | 4.5 | 5.25 | 4.5 | 5 | 5.1 | 5.25 | 4.7 | 4.9 | | |
+Teacher
 
-உயரத்திற்கும் மாணவருக்கும் இடையிலான உறவை நாம் வரையறுக்கலாம். (படம்.1.7)
+Raghu
 
-\( R = \{(\text{உயரம், மாணவர்})\} \)
+: How sir?
 
-\( R = \{(4.5, S_1), (4.5, S_3), (4.7, S_9), (4.9, S_{10}), (5, S_2), (5.25, S_6), (5.1, S_8), (5.2, S_4), (5.2, S_5), (5.2, S_7)\} \)
+: Split each of the factors into product of prime numbers.
 
-**வரையறை**
+Teacher
 
-\( A \) மற்றும் \( B \) என்பன இரண்டு வெற்றில்லா கணங்கள் என்க. \( A \)-யிலிருந்து \( B \)-க்கு உள்ள உறவு \( R \) ஆனது சில விதிமுறைகளை நிறைவு செய்து, \( A \times B \)-யின் உட்கணமாக இருக்கும். \( x \in A \)-விற்கும் \( y \in B \)-க்குமான உறவு \( R \)-யின் வழியாக இருந்தால் \( xRy \) என எழுதலாம். \( xRy \) என இருந்தால், இருந்தால் மட்டும் \( (x,y) \in R \).
+Malar
 
-உறவு \( R \)-யின் சார்பகம் \( = \{x \in A \mid x R y \), ஏதேனும் ஒரு \( y \in B\} \)
+: 2×2×2×3×2×5
 
-உறவு \( R \)-ன் துணை சார்பகம் \( = B \) ஆகும்.
+Raghu
 
-உறவு \( R \)-ன் வீச்சகம் \( = \{y \in B \mid x R y \), ஏதேனும் ஒரு \( x \in A\} \)
+: 2×2×2×2×3×5
 
-இந்த வரையறைகளிலிருந்து, \( R \)-யின் சார்பகமானது \( \subseteq A \), \( R \)-ன் துணை சார்பகம் \( = B \) மற்றும் \( R \)-யின் வீச்சகம் \( \subseteq B \) என்பதைக் காணலாம்.
+Iniya
 
-விளக்கம் 5
+: 2×2×3×2×2×5
 
-\( A = \{1,2,3,4,5\}, B = \{\text{மதி, அருள், ஜான்}\} \) என்க.
+Kumar
 
-மேற்கண்ட \( A \) மற்றும் \( B \) கணங்களின் உறவு \( R \)-ஐ அம்புக்குறிப் படத்தில் குறிக்கலாம். (படம் 1.8)
+: 3×5×2×2×2×2
 
-எனவே \( R \)-யின் சார்பகம் \( = \{1,2,3,4\} \)
+: Good! Now, count the number of 2's, 3's and 5's.
 
-\( R \)-யின் வீச்சகம் \( = \{\text{மதி, அருள், ஜான்}\} \)
+Teacher
 
-\( R \)-யின் சார்பகமானது, \( A \)-யின் தக உட்கணமாவதைக் காண்க
+Malar
 
-**ெசயல்பா 2**
+: I got four 2's, one 3 and one 5.
 
-\( A \) மற்றும் \( B \) ஆனது \( xy \)-தளத்திலுள்ள ேகாடுகளின் கணங்கள் என்க. \( A \)-யில் \( x \)-அச்சுக்கு இணையான ேகாடுகள் உள்ளன. \( x \in A \), \( y \in B \) என்க. ேமலும், \( x R y \) எனில், \( x \) ஆனது \( y \)-க்கு ெசங்குத்துக் ேகாடு எனக் கருதுக. வரைபடத்ைதப் பயன்படுத்தி \( B \)-யின் உறுப்புகளைக் காண்க..
+Raghu
 
-**விளக்கம் 6**
+: I got four 2's, one 3 and one 5.
 
-\( A = \{1,3,5,7\} \) மற்றும் \( B = \{4,8\} \) என்க. \( A \)-லிருந்து \( B \)-க்கு \( R \) என்ற உறவானது 'குறைவாக உள்ளது' என வரையறுக்கப்பட்டால், \( 1R4 \) என எழுதலாம். (1 ஆனது 4-ஐ விடக் குறைவானது). அதைப்போலவே, 1R8, 3R4, 3R8, 5R8, 7R8
+: I also got the same numbers too.
 
-அதாவது, \( R = \{(1,4), (1,8), (3,4), (3,8), (5,8), (7,8)\} \)
+Iniya
 
-**குறிப்பு**
+Kumar
 
-மேற்கண்ட விளக்கத்தில், \( A \times B = \{(1,4), (1,8), (3,4), (3,8), (5,4), (5,8), (7,4),(7,8)\} \) \( R = \{(1,4), (1,8), (3,4), (3,8), (5,8), (7,8)\} \) \( R \) ஆனது \( A \times B \)-ன் உட்கணமாக இருப்பதைக் காணலாம்.
+: Me too sir.
 
-**விளக்கம் 7**
+Malar :
 
-ஒரு நகரத்தில் குறிப்பிட்ட பகுதியில் இரண்டு குழந்ைதகள் உள்ள பத்துக் குழம்பங்கள் \( A, B, C, D, E, F, G, H, I \) மற்றும் \( J \) எனக் கருதிக் கொள்வோம். இவற்றில் \( B, F, I \) குழம்பங்களில் இரண்டு சிறுமிகளும் \( D, G, J \)-யில் ஒரு சிறுவன் மற்றும் ஒரு சிறுமியும், மீதமுள்ள குழம்பங்களில் இரண்டு சிறுவர்களும் உள்ளனர். நாம் உறவு \( R \)-ஐ, \( xRy \) என வைரயறுக்கலாம். இங்கு \( x \)-ஆனது சிறுவர்களின் எண்ணிக்ைகையயும், மற்றும் \( y \)-ஆனது \( x \) எண்ணிக்ைகைய கொண்ட சிறுவர்கள் உள்ள குழம்பத்ைதயும் குறிக்கின்றது. இந்த நிைலைமைய ஒர் உறவாகக் கொண்டு வரிைசச்ேசாடிகள் மற்றும் அம்புக்குறி படங்கள் வழியாகக் குறிப்பிடுக.
+All of us got four 2's, one 3 and one 5. This is very surprising to us.
 
-உறவு \( R \)-யின் சார்பகம் இரு குழந்ைதகள் கொண்ட சிறுவர்களின் எண்ணிக்ைகையக் குறிக்கிறது. எனவே, \( R \)-யின் சார்பகம் \( = \{0,1,2\} \) ஆகிய மூன்று உறுப்புகைளக் கொண்டிருக்கும். இங்கு 0 சிறுவர் உள்ள குழம்பங்களே, இரண்டு சிறுமிகைளக் கொண்ட குழம்பங்களாகும். 1 சிறுவர் கொண்ட குழம்பங்களில் 1 சிறுவனும், 1 சிறுமியும் இருப்பார்கள். எனவே, \( R \) என்ற உறவானது பின்வருமாறு:
+Yes, It should be. Once any number is factorized up to a product of prime numbers, everyone should get the same collection of prime numbers.
 
-\[
-R = \{(0, B), (0, F), (0, I), (1, D), (1, G), (1, J), (2, A), (2, C), (2, E), (2, H)\}
-\]
+Teacher :
 
-இந்த உறவு அம்புக்குறி படத்தில் (படம் 1.9) காட்டப்பட்�டுள்ளது.
+This concept leads us to the following important theorem.
 
-எந்துக்காட்டு 1.4 \( A = \{3,4,7,8\} \) மற்றும் \( B = \{1,7,10\} \) எனில் கீழ் உள்ள கணங்களில் எவை \( A \)-விருந்து \( B \)-க்கு ஆன உறவைக் குறிக்கின்றது?
+**Theorem 4 (Fundamental Theorem of Arithmetic) (without proof)**
 
-(i) \( R_1 =\{(3,7), (4,7), (7,10), (8,1)\} \) (ii) \( R_2 = \{(3,1), (4,12)\} \)
+"Every positive integer (except the number 1) can be represented in exactly one way apart from rearrangement as a product of one or more primes."
 
-(iii) \( R_3 = \{(3,7), (4,10), (7,7), (7,8), (8,11), (8,7), (8,10)\} \)
+The fundamental theorem asserts that every composite number can be decomposed as a product of prime numbers and that the decomposition is unique. In the sense that there is one and only way to express the decomposition as product of primes.
 
-தீர் வு \( A \times B = \{(3,1), (3,7), (3,10), (4,1), (4,7), (4,10), (7,1), (7,7), (7,10), (8,1), (8,7), (8,10)\} \)
+In general, we conclude that given a composite number N, we decompose it uniquely in the form
 
-(i) \( R_1 \subseteq A \times B \) என்பதைக் காணலாம். எனவே, \( R_1 \) என்பது \( A \)-விருந்து \( B \)-க்கு ஆன உறவு ஆகும்.
+First, we try to factorize N into its factors. If all the factors are themselves primes then we can stop. Otherwise, we try to further split the factors which are not prime. Continue the process till we get only prime numbers.
 
-(ii) இங்கு, \( (4,12) \in R_2 \), ஆனால் \( (4,12) \notin A \times B \) . எனவே, \( R_2 \) ஆனது \( A \)-விருந்து \( B \)-க்கு ஆன உறவு இல்லை.
+**Illustration**
 
-(iii) இங்கு, \( (7,8) \in R_3 \), ஆனால் \( (7,8) \notin A \times B \) . எனவே, \( R_3 \) ஆனது \( A \)-விருந்து \( B \)-க்கு ஆன உறவு இல்லை.
+For example, if we try to factorize 32760 we get
 
-**குறிப்பு**
+Thus, in whatever way we try to factorize 32760, we should finally get three 2's, two 3's, one 5, one 7 and one 13 .
 
-➢ ஒர் உறவை, பட்டியல் முறையிலோ அல்லது கணக் கட்டமைப்பு முறையிலோ குறிக்கலாம். ➢ உறவைக் காட்சிப்படுத்தி அறிய அம்புக்குறி படத்தைப் பயன்படுத்தலாம்.
+The fact that "Every composite number
 
-எந்துக்காட்டு 1.5 படத்தில் காட்டப்பட் டுள்ள (படம் 1.10) அம்புக்குறி படமானது \( P \) மற்றும் \( Q \) கணங்களுக்கான உறவைக் குறிக்கின்றது. இந்த உறவை (i) கணகட்டமைப்பு முறை, (ii) பட்டியல் முறைகளில் எழுதுக. (iii) \( R \)-ன் சர்ப்கம் மற்றும் வீச்சகத்தைக் காண்க.
+![](assets/page_009_picture_003.png)
 
-(i) \( R \) யின் கணக்கடமைப்பு முறை \( \{(x, y) \mid y = x - 2, x \in P, y \in Q\} \)
+**Thinking Corner**
 
-(ii) \( R \) யின் பட்டியல் முறை \( = \{(5,3),(6,4),(7,5)\} \)
+Is 1 a prime number?
 
-(iii) \( R \) யின் சார்பகம் \( = \{5,6,7\} \); \( R \) யின் வீச்சகம் \( = \{3,4,5\} \)
+**Progress Check**
 
-**‘இன்ைம உறவு’ (Null relation)**
+- Every natural number except ______ can be expressed as ______.
+- In how many ways a composite number can be written as product of power of primes?
+- The number of divisors of any prime number is ______.
 
-பின்வரும் எழுத்துக்காட்டைக் கருதுவோம்.
+can be written uniquely as the product of power of primes" is called Fundamental Theorem of Arithmetic .
 
-\( A = \{-3, -2,-1\} \) மற்றும் \( B = \{1,2,3,4\} \) எனில், \( A \)-லிருந்து \( B \)-க்கான உறவை \( a-b = 8 \), \( a \in A, b \in B \), என வரையறுத்தால், \( a-b = 8 \) என்றவாறு எந்தவொரு \( (a,b) \) சொடியும் இல்லை. எனவே, \( R \)-ல் எந்த உறுப்பும் இல்லை. அப்படியானால் \( R = \phi \),
+#### 2.4.1 Significance of the Fundamental Theorem of Arithmetic
 
-ஒர் உறவில் உறுப்புகள் இல்லை என்றால் அது இன்னமை உறவு எனப்படும்..
+The fundamental theorem about natural numbers except 1, that we have stated above has several applications, both in Mathematics and in other fields. The theorem is vastly important in Mathematics, since it highlights the fact that prime numbers are the 'Building Blocks' for all the positive integers. Thus, prime numbers can be compared to atoms making up a molecule.
 
-\( n(A) = p, n(B) = q, \) எனில், \( A \) யிலிருந்து \( B \)-க்கு கிடைக்கும் மொத்த உறவுகளின் எண்ணிக்கையானது \( 2^{pq} \) ஆகும்.
+10th 44 Standard Mathematics
 
-**பயிற்சி 1.2**
+- If a prime number p divides ab then either p divides a or p divides b , that is p divides at least one of them.
+- If a composite number n divides ab, then n neither divide a nor b . For example, 6 divides 4 × 3 but 6 neither divide 4 nor 3 .
 
-1. \( A = \{1,2,3,7\} \) மற்றும் \( B = \{3,0,-1,7\} \) எனில், பின்வருவனவற்றில் எவை \( A \)-விருந்து \( B \)-க்கான உறவுகளாகும்?
+Example 2.7 In the given factorisation, find the numbers m and n .
 
-(i) \( R_1 = \{(2,1), (7,1)\} \)
+Value of the first box from bottom =×52 = 10
 
-(ii) \( R_2 = \{(-1,1)\} \)
+Value of the second box from bottom =×350 = 150
 
-(iii) \( R_3 = \{(2,-1), (7,7), (1,3)\} \)
+Thus, the required numbers are m = 300 , n = 50
 
-(iv) \( R_4 = \{(7,-1), (0,3), (3,3), (0,7)\} \)
+Example 2.8 Can the number 6 n , n n being a natural number end with the digit 5? Give reason for your answer.
 
-2. \( A=\{1,2,3,4,...,45\} \) மற்றும் \( R \) என்ற உறவு "\( A \)-யின் மீது, ஓர் எண்ணின் வர்க்கம்" என வரையறுக்கப்பட்டால், \( R \)-ஐ \( A \times A \)-யின் உட்கணமாக எழுதுக. மேலும் \( R \)-க்கான சார்பகத்தையும், வீச்சகத்தையும் காண்க.
+2 is a factor of 6 n . So, 6 n is always even. But any number whose last digit is 5 is always odd. Hence, 6 n cannot end with the digit 5 .
 
-3. \( R \) என்ற ஒரு உறவு \( \{(x,y) \mid y = x + 3, x \in \{0,1,2,3,4,5\}\} \) எனக் கொருக்கப்பட் டுள்ளது. இதன் சார்பகத்தையும் வீச்சகத்தையும் கண்டறிக.
+Example 2.9 Is 75 ××32 ×+ 3 a composite number? Justify your answer.
 
-4. கொருக்கப்பட்ட உறவுகள் ஒவ்வொன்றையும்
+Yes, the given number is a composite number, because
 
-(1) அம்பக்குறி படம் (2) வரைபடம் (3) பட்டியல் முறையில் குறிக்க.
+![](assets/page_010_picture_004.png)
 
-(i) \( \{(x,y) \mid x = 2y, x \in \{2,3,4,5\}, y \in \{1,2,3,4\}\} \)
+![](assets/page_010_picture_005.png)
 
-(ii) \( \{(x,y) \mid y = x+3, x, y \) ஆகியவை இயல் என்னக் \( < 10\} \)
+**Progress Check**
 
-5. ஒரு நிறுவனத்தில் உதவியாளர்கள் (A) எழுத்தர்கள்(C), மேலாளர்கள் (M) மற்றும் நிர்வாகிகள் (E) ஆகிய நான்கு பிரிவுகளில் பணியாளர்கள் உள்ளனர். A, C, M மற்றும் E பிரிவு பணியாளர்களுக்கு ஊதியங்கள் முறையே ₹10,000, ₹25,000, ₹50,000 மற்றும் ₹1,00,000 ஆகும். A1, A2, A3, A4 மற்றும் A5 ஆகியோர் உதவியாளர்கள். C1, C2, C3, C4 ஆகியோர் எழுத்தர்கள். M1, M2, M3 ஆகியோர்கள் மேலாளர்கள். மற்றும் E1, E2 ஆகியோர் நிர்வாகிகள் ஆவர். \( xRy \) என்ற உறவில் \( x \) என்பது \( y \) என்பவருக்குக் கொடுக்கப்பட்ட ஊதியம் எனில் \( R \)-என்ற உறவை, வரிசைச் சோடிகள் மூலமாகவும் அம்புக்குறி படம் மூலமாகவும் குறிப்பிற்க.
+- Let m divides n. Then GCD and LCM of m , n n are ____ and ____.
+- The HCF of numbers of the form 2m and 3 n is _____.
 
-## 1.5 சார்புகள் (Functions)
+Since the given number can be factorized in terms of two primes, it is a composite number.
 
-இரண்டு வெற்றில்லா கணங்களுக்கு இடையேயான பல உறவுகளில் சில குறிப்பிட்ட உறவுகளைச் சார்புகள் என்கிறோம்.
+The number 800 can be factorized as
 
-**விளக்கம் 8**
+This implies that a = 2 and b = 5 (or) a = 5 and b = 2 .
 
-ஒரு நிறுவனத்தில் 5 பணியாளர்கள் வெவ்வேறு பிரிவுகளில் உள்ளனர். அவர்களது மாத ஊதிய விநியோகத்தை படம் 1.11 மூலம் நாம் காணலாம். இங்கு ஒரு பணியாளருக்கு ஒரு ஊதியம் மட்டுமே தொடர்புடையதாக இருப்பதைக் காண முடிகிறது.
+**Activity 3**
 
-குறிப்பிட்ட சிறப்பு உறவுகளைக் கீழ்க்காணும் வாழ்வியல் சூழல் மூலம் காணலாம்.
+**Thinking Corner**
 
-1. உன் வகுப்பு மாணவர்களின் கணத்தை A எனக் கொள்க. ஒவ்வொரு மாணவருக்கும் ஒரே ஒரு வயதுதான் இருக்க முடியும்.
+Can you think of positive integers a , b such thatab b= b ba = ?
 
-2. நீ கடைக்குச் சென்று ஒரு புத்தகம் வாங்கு. அப்படி வாங்கும் புத்தகத்திற்கு ஒரே ஒரு விலை மட்டுமே இருக்கும். ஒரே புத்தகத்திற்கு இரண்டு விலைகள் இருக்காது. (பல புத்தகங்களுக்கு ஒரே விலை இருக்கலாம்).
+![](assets/page_010_picture_010.png)
 
-3. உங்களுக்குப் பாயிலின் விதி பற்றி தெரிந்திருக்கும். கொடுக்கப்பட்ட ஒவ்வோர் அழுத்தம் P –க்கு ஒரே ஒரு கனஅளவு V மட்டுமே இருக்கும்.
+Numbers and Sequences
 
-4. பொருளாதாரத்தில், தேவையான பொருளின் எண்ணிக்கையை \( Q = 360 - 4P \), எனக் குறிப்பிடுவோம். இங்கு P என்பது பொருளின் விலை. P–யின் ஒவ்வொரு மதிப்பிற்கும், ஒரே ஒரு Q – மதிப்பு மட்டுமே கிடைக்கும். எனவே தேவையான பொருளின் எண்ணிக்கை Q ஆனது அப்பொருளின் விலை P- யைப் பொருத்து அமைகிறது.
+![](assets/page_011_picture_003.png)
 
-நாம் இதைப்போன்ற உறவுகளை அடிக்கடி கடந்து வருகின்றோம். இங்கு A- என்ற கணத்தில் உள்ள ஒவ்வொரு உறுப்பிற்கும் B-ல் ஒரே ஒரு உறுப்பு மட்டுமே தொடர்புடையதாக உள்ளது. இத்தகைய உறவுகளையே "சார்புகள்" என்கிறோம். நாம் சார்பை \( f \) எனக் குறிப்பிடுவோம்.
+- For what values of natural number n , 4n can end with the digit 6?
+- If m , n n are natural numbers, for what values of m, does 25 n´ 5 nm ´ ´ ends in 5?
+- Find the HCF of 252525 and 363636 .
+- If 13824 =× 23 a × 3 ab then find a and b .
+- Find the LCM and HCF of 408 and 170 by applying the fundamental theorem of arithmetic.
+- Find the greatest number consisting of 6 digits which is exactly divisible by 24 , 15 , 36?
+- What is the smallest number that when divided by three numbers such as 35 , 56 and 91 leaves remainder 7 in each case?
+- Find the least number that is divisible by the first ten natural numbers.
 
-**வரையற**
+### 2.5 Modular Arithmetic
 
-\( X \) மற்றும் \( Y \) என்ற வெற்றில்வா கணங்களுக்கிடையேயான ஒரு உறவு \( f \)-ல் ஒவ்வொரு \( x \in X \)-க்கும் ஒரே ஒரு \( y \in Y \) கிடைக்கிறது எனில், ‘\( f \)’ ஐ நாம் “சார்பு” என்கிறோம்.
+In a clock, we use the numbers 1 to 12 to represent the time period of 24 hours. How is it possible to represent the 24 hours of a day in a 12 number format? We use 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 and after 12, we use 1 instead of 13 and 2 instead of 14 and so on. That is after 12 we again start from 1 , 2 , 3,... In this system the numbers wrap around 1 to 12. This type of wrapping around after hitting some value is called Modular Arithmetic .
 
-அதாவது, \( f = \{(x,y) \mid \) ஒவ்வொரு \( x \in X \)-க்கும், ஒரே ஒரு \( y \in Y \) இருக்கும்\( \} \).
+In Mathematics, modular arithmetic is a system of arithmetic for integers where numbers wrap around a certain value. Unlike normal arithmetic, Modular Arithmetic process cyclically. The ideas of Modular arithmetic was developed by great German mathematician Carl Friedrich Gauss, who is hailed as the "Prince of mathematicians". .
 
-\( X \)-விருந்து \( Y \)-க்கான சார்பை, \( f : X \to Y \) என எழுதலாம்.
+**Examples**
 
-உறவு மற்றும் சார்பு ஆகியவற்றை ஒப்பிட்டுப் பார்க்கும்போது ஒவ்வொரு சார்பும் உறவே. எனவே, சார்புகள் உறவின் உட்கணமாகும். உறவுகள் கார்டீசியன் பெருக்கலின் உட்கணமாகும். (படம் 1.12(i))
+- The day and night change repeatedly.
+- The days of a week occur cyclically from Sunday to Saturday.
+- The life cycle of a plant.
+- The seasons of a year change cyclically. (Summer, Autumn, Winter, Spring)
+- The railway and aeroplane timings also work cyclically. The railway time starts at 00:00 and continue. After reaching 23:59, the next minute will become 00:00 instead of 24:00 .
 
-ஒரு சார்பு \( f \) ஐ இயந்திரமாகக் கருதினால் (படம் 1.12(ii)) ஒவ்வொரு உள்ளீடு \( x \)-ம் ஒரே ஒரு தனிப்பட்ட வெளியீடு \( f(x) \)-ஐ கொடுக்கின்றது.
+10th 46 Standard Mathematics
 
-ஒரு சார்பை, தொடர்புபடுத்துதல் அல்லது உருமாற்றம் செய்தல் எனக் கருதலாம்.
+![](assets/page_011_picture_004.png)
 
-**குறிப்பு**
+![](assets/page_011_picture_007.png)
 
-\( f : X \to Y \) ஆனது ஒரு சார்பு எனில்,
+#### 2.5.1 Congruence Modulo
 
-➤ கணம் \( X \) ஐ, சார்பு \( f \)-ன் சார்பகம் என்கிறோம் மற்றும் கணம் \( Y \) ஐ, அதன் துணைசார்பகம் என்கிறோம்
+Two integers a and b are congruence modulo n if they differ by an integer multiple of n. That ab − b −= kn for some integer k. This can also be written as ab º (mod n).
 
-➤ \( f(a) = b \)-ஆக இருந்தால் சார்பு \( f \)-ல் \( b \)-ஆனது, \( a \)-யின் "நிழல் உரு" எனவும் மற்றும் \( a \) ஆனது, \( b \)-யின் "முன் உரு" எனவும் அழைக்கிறோம்.
+Here the number n is called modulus. In other words, ab º (mod n) means ab - - is divisible by n .
 
-➤ \( X \)-யின் அனைத்து நிழல் உருக்களையும் கொண்ட கணத்தை \( f \)-யின் வீச்சகம் என்கிறோம்.
+For example, 61 º 5 (mod 7) because 61 – 55 = 6 is divisible by 7 .
 
-➤ \( f : X \to Y \) ஆனது ஒரு சார்பு எனில்,
+Note
 
-(i) சார்பகத்தில் உள்ள ஒவ்வொரு உறுப்பிற்கும் நிழல் உரு இருக்கும்.
+- ¾ When a positive integer is divided by n, then the possible remainders are 0 , 1 , 2 , . . . , n - 1 .
+- ¾ Thus, when we work with modulo n, we replace all the numbers by their remainders upon division by n, given by 0 , 1 , 2 , 3 ,..., n - 1 .
 
-(ii) ஒவ்வொரு உறுப்பிற்கும் ஒரே ஒரு நிழல் உறுதான் இருக்கும்.
+Two illustrations are provided to understand modulo concept more clearly.
 
-➤ முடிவுறு கணங்கள் \( A \) யிலிருந்து \( B \)-க்கு \( n(A) = p \), \( n(B) = q \) எனில், \( A \) மற்றும் \( B \)-க்கு இடையேயான மொத்தச் சார்புகளின் எண்ணிக்கை \( q^p \) ஆகும்.
+**Illustration 1**
 
-➤ இந்தப் பாடப்பகுதியில் \( f \) என்ற சார்பின் வீச்சகத்தை மெய்யெண்களின் உட்கணமாக நாம் கருதிக்கொள்ளலாம்.
+To find 8 (mod 4)
 
-➤ சார்பின் சார்பகத்தை விளக்கும்போது
+With a modulus of 4 (since the possible remainders are 0 , 1 , 2 , 3) we make a diagram like a clock with numbers 0 , 1 , 2 , 3. We start at 0 and go through 8 numbers in a clockwise sequence 1 , 2 , 3 , 0 , 1 , 2 , 3 , 0. After doing so cyclically, we end at 0 .
 
-(i) \( f(x) = \frac{1}{x+1} \)-யில் \( x = -1 \) எனில் \( f(-1) \) வரையறுக்க முடியாது. எனவே \( f \) ஆனது \( x = -1 \) தவிர அனைத்து மெய்யெண்களுக்கும் வரையறுக்கப்படுகின்றது. ஆகையால், \( f \)-ன் சார்பகமானது \( \mathbb{R} - \{-1\} \).
+Therefore, 80 º (mod 4)
 
-(ii) \( f(x) = \frac{1}{x^2 - 5x + 6} \)-ல் \( x = 2,3 \) ஆக இருந்தால், \( f(2) \) மற்றும் \( f(3) \)-ஐ வரையறுக்க முடியாது. எனவே, \( f \) ஐ \( x = 2 \) மற்றும் 3 தவிர அனைத்து மெய்யெண்களுக்கு வரையறுக்கலாம். ஆகையால், \( f \)-யின் சார்பகம் \( = \mathbb{R} - \{2,3\} \).
+**Illustration 2**
 
-**முன்னேற்றச் ச�ோதனை**
+To find - 5 (mod 3)
 
-1. உறவுகள் ______ ன் உட்கணமாகும். சார்புகள் ______ ன் உட்கணமாகும்.
+With a modulus of 3 (since the possible remainders are 0 , 1 , 2) we make a diagram like a clock with numbers 0 , 1 , 2 .
 
-2. சரியா அல்லது தவறா: ஓர் உறவின் எல்லா உறுப்புகளுக்கும் நிழல் உரு இருக்கும்.
+We start at 0 and go through 5 numbers in anti-clockwise sequence 2 , 1 , 0 , 2 , 1. After doing so cyclically, we end at 1 .
 
-3. சரியா அல்லது தவறா: ஒரு சார்பின் எல்லா உறுப்புகளுக்கும் நிழல் உரு இருக்கும்.
+Therefore, −≡51 (mod 3)
 
-4. சரியா அல்லது தவறா: \( R : A \to B \) ஆனது ஒரு உறவு எனில், \( R \)-ன் சார்பகம் \( A \) ஆகும்.
+#### 2.5.2 Connecting Euclid's Division lemma and Modular Arithmetic
 
-5. \( f : \mathbb{N} \to \mathbb{N} \) என வரையறுக்கப்பட்டால், \( f(x) = x^2 \)-ல் 1 மற்றும் 2 நிழல் உரு(க்கள்) ______ மற்றும் ______
+![](assets/page_012_picture_003.png)
 
-6. உறவிற்கும் சார்பிற்கும் இடையேயான வேறுபாடு என்ன?
+![*Fig.2.8*](assets/page_012_picture_004.png)
 
-7. \( A \) மற்றும் \( B \) ஆகியவை இரண்டு வெற்றில்லா முடிவுற்ற கணங்கள் என்க. பின்வருவனவற்றுள் எந்தத் தொகுப்பு பெரியதாக இருக்கும்?
+Let m and n be integers, where m is positive. Then by Euclid's division lemma, we can write nm =+qr where 0 ≤<rm and q is an integer. Instead of writing nm =+qr we can use the congruence notation in the following way.
 
-(i) \( A \) மற்றும் \( B \)-க்கு இடையேயான உறவுகளின் எண்ணிக்கை
+We say that n is congruent to r modulo m , if nm =+qr for some integer q .
 
-(ii) \( A \) மற்றும் \( B \)-க்கு இடையேயான சார்புகளின் எண்ணிக்கை
+n =+ mq r n– n– r = mq n– n– r º 0 (mod m) n º r (mod m)
 
-**விளக்கம் 9 - சார்புகளுக்கான ேசாதைன அம்புக்குறி படத்தில் காணுதல்**
+**Progress Check**
 
-இது ஒரு சார்பைக் குறிக்கிறது. ஒவ்வொரு உள்ளீட்டுக்கும் அது தொடர்பான ஒரே ஒரு வெளியீடு உள்ளது.
+- Two integers a and b are congruent modulo n if ___________.
+- The set of all positive integers which leave remainder 5 when divided by 7 are ___________.
 
-இது ஒரு சார்பைக் குறிக்கிறது. ஒவ்வொரு உள்ளீட்டுக்கும் அது தொடர்பான ஒரே ஒரு வெளியீடு உள்ளது.
+Thus the equation nm =+qr through Euclid's Division lemma can also be written as nr º (mod m).
 
-இது ஒரு சார்பாகாது. காரணம், உள்ளீடு \( b \)-க்கு இரண்டு வெளியீடுகள் உள்ளன
+Two integers a and b are congruent modulo m , written as ab º (mod m), if they leave the same remainder when divided by m .
 
-கணிதத்தில் உயரிய ேகாட்பாᾞகைளப் ᾗரிந்ᾐ ெகாள்வதில், சார்புகள் ᾙக்கியப் பங்கு வகிக்கின்றன. சார்புகள் ஒᾞ வடிவத்திᾢᾞந்ᾐ மற்ெறாᾞ வடிவத்திற்கு அᾊப்பைடக் கᾞவியாகிறᾐ. இதனால், ெபாறியியல் அறிவியலில் சார்புகள் அதிக அளவில் பயன்பᾞத்தப்பᾞகின்றன.
+How many integers exist which leave a remainder of 2 when divided by 3?
 
-எந்துக்காட்டு 1.6 \( X = \{1,2,3,4\} \), \( Y = \{2,4,6,8,10\} \) மற்றும் \( R = \{(1,2),(2,4),(3,6),(4,8)\} \) எனில், \( R \) ஆனது ஒரு சார்பு எனக் காட்டுக. மேலும் அதன் சார்பகம், துணை சார்பகம் மற்றும் வீச்சகத்தைக் காண்க
+#### 2.5.3 Modulo operations
 
-தீர்வு படம் 1.14-ல் \( R \) குறிக்கப்பட்டுள்ளது. ஒவ்வொரு \( x \in X \)-க்கும், ஒரே ஒரு \( y \in Y \) உறுப்பு மட்டும் கிடைக்கிறது. எனவே \( X \)-ன் எல்லா உறுப்புகளுக்கும் \( Y \)-ல் ஒரே ஒரு நிழல் உரு உள்ளது. எனவே \( R \)-ஆனது ஒரு சார்பு ஆகும்.
+Similar to basic arithmetic operations like addition, subtraction and multiplication performed on numbers we can think of performing same operations in modulo arithmetic. The following theorem provides the information of doing this.
 
-சார்பகம் \( X = \{1,2,3,4\} \); துணை சார்பகம் \( Y = \{2,4,6,8,10\} \); வீச்சகம் \( f = \{2,4,6,8\} \).
+**Theorem 5**
 
-எந்துக்காட்டு 1.7 \( f:X \to Y \) என்ற உறவானது \( f(x)=x^2 -2 \) என வரையறுக்கப்படுகிறது. இங்கு, \( X = \{-2, -1,0,3\} \) மற்றும் \( Y = \mathbb{R} \) எனக் கொண்டால் (i) \( f \)-யின் உறுப்புகளைப் பட்டியலிற்க. (ii) \( f \)-ஒரு சார்பாகுமா?
+a , b , c and d are integers and m is a positive integer such that if ab º (mod m) and cd º (mod m) then
 
-தீர்வு \( f(x) = x^2 - 2 \) இங்கு \( X = \{-2, -1, 0, 3\} \)
+**Illustration 3**
 
-(i) \( f(-2) = (-2)^2 -2 = 2 \) ; \( f(-1) = (-1)^2 -2 = -1 \)
+If 17 º 4 (mod 13) and 42 º 3 (mod 13) then from theorem 5,
 
-\( f(0) = (0)^2 -2 = -2 \) ; \( f(3) = (3)^2 -2 = 7 \)
+- (i) 17 + 42 ≡+43 (mod 13)
 
-\( \therefore f = \{(-2,2),(-1,-1),(0,-2),(3,7)\} \)
+- (ii) 17 - 42 ≡−43 (mod 13)
 
-(ii) \( f \)-யின் ஒவ்வொரு சார்பக உறுப்பிற்கும் ஒரே ஒரு நிழல் உரு உள்ளதைக் காணலாம். எனவே \( f \)-ஆனது ஒரு சார்பாகும்.
+- (iii) 17´42 ≡×43 (mod 13)
 
-**சிந்தனைக் களம்**
+**Theorem 6**
 
-ேகாள்களுக்கும் அதன் துணைக்ேகாள்களுக்கும் இடையே உள்ள தொடர்பு சார்பாகுமா?
+If ab º (mod m) then
 
-எருத்துக்காட்டு 1.8 \( X = \{-5,1,3,4\} \) மற்றும் \( Y = \{a,b,c\} \) எனில், \( X \)-விருந்து \( Y \)-க்கு பின்வரும் உறவுகளில் எவை சார்பாகும்? (i) \( R_1 = \{(-5,a), (1,a), (3,b)\} \) (ii) \( R_2 = \{(-5,b), (1,b), (3,a),(4,c)\} \) (iii) \( R_3 = \{(-5,a), (1,a), (3,b),(4,c),(1,b)\} \)
+- (i) ac º bc (mod m) (ii) ac ±± º bc (mod m) for any integer c
 
-(ii) \( R_2 = \{(-5,b), (1,b), (3,a),(4,c)\} \) (iii) \( R_3 = \{(-5,a), (1,a), (3,b),(4,c),(1,b)\} \)
+**Progress Check**
 
-(i) \( R_1 = \{(-5,a), (1,a), (3,b)\} \)
+- The positive values of k such that () k−≡ 35 (mod11) are _________.
+- If 59 º3 (mod 7), 46 º4 (mod 7) then 105 º _______ (mod 7),
+- 13 º _______ (mod 7), 413 º _______ (mod 7), 368 ≡ _______ (mod 7).
+- The remainder when 71 ´´3192 ´´´ 32931 is divided by 6 is ________.
 
-\( R_1 \)-க்கான உறவை அம்புக்குறி படத்தில் குறிக்கலாம் (படம் 1.15 (i)).
+10th 48 Standard Mathematics
 
-\( R_1 \) சார்பாகாது. காரணம் \( 4 \in X \)-க்கு \( Y \)-ல் நிழல் உரு இல்லை.
+Example 2.11 Find the remainders when 70004 and 778 is divided by 7 .
 
-(ii) \( R_2 = \{(-5,b), (1,b), (3,a),(4,c)\} \)
+Since 70000 is divisible by 7
 
-\( R_2 \)-க்கான உறவை அம்புக்குறி படத்தில் குறிக்கலாம் (படம் 1.15 (ii)).
+Therefore, the remainder when 70004 is divided by 7 is 4 .
 
-\( R_2 \) ஒரு சார்பாகும்.காரணம் \( X \)-யின் ஒவ்வொரு உறுப்புக்கும் ஒேர ஒரு நிழல் உரு \( Y \)-ல் உள்ளது.
+777 is divisible by 7
 
-(iii) \( R_3 = \{(-5,a), (1,a), (3,b),(4,c),(1,b)\} \)
+Therefore, the remainder when 778 is divided by 7 is 1 .
 
-\( R_3 \)-க்கான உறவை அம்புக்குறி படத்தில் குறிக்கலாம் (படம் 1.15 (iii)).
+Example 2.12 Determine the value of d such that 15 º 3 (mod d).
 
-\( R_3 \) ஒரு சார்பாகாது. காரணம் \( 1 \in X \)-க்கு இரண்டு நிழல் உருக்கள் \( a \in Y \) மற்றும் \( b \in Y \) என உள்ளன.
+15 º 3 (mod d) means 15 −=3 kd , for some integer k .
 
-இவற்றின் மூலம், ஒர் உறுப்பிற்கு, ஒேர ஒரு நிழல் உரு இருந்தால் மட்டுமே அந்த உறவு சார்பாகும் என அறியலாம்.
+⇒ d divides 12 .
 
-எருத்துக்காட்டு 1.9 \( f(x) = 2x - x^2 \) எனக் கொடுக்கப்பட் டுள்ளது எனில், (i) \( f(1) \) (ii) \( f(x+1) \) (iii) \( f(x) + f(1) \) ஆகியவற் றைக் காணக்.
+The divisors of 12 are 1 , 2 , 3 , 4 , 6 , 12. But d should be larger than 3 and so the possible values for d are 4 , 6 , 12 .
 
-தீர்வு (i) \( x = 1 \) எனப் பிரதியிட்டால்,
+Example 2.13 Find the least positive value of x such that
 
-\[
-f(1) = 2(1) - (1)^2 = 2 - 1 = 1
-\]
+Solution (i)
 
-(ii) \( x = x+1 \) எனப் பிரதியிட்டால்,
+66 + x is a multiple of 4 .
 
-\[
-f(x+1) = 2(x+1) - (x+1)^2 = 2x + 2 - (x^2 + 2x + 1) = -x^2 + 1
-\]
+Therefore, the least positive value of x must be 2, since 68 is the nearest multiple of 4 more than 66 .
 
-(iii) \( f(x) + f(1) = (2x - x^2) + 1 = -x^2 + 2x + 1 \)
+(ii) 98 ≡+ () x 4 ) 4 (mod 5) 98 −+ () x 4 4 = 5n , for some integer n . 94 - x = 5n 94 - x is a multiple of 5 . Therefore, the least positive value of x must be 4 94 −=490 is the nearest multiple of 5 less than 94 .
 
-[ \( f(x) + f(1) = f(x + 1) \) என்பதைக் காணலாம். பொதுவாக, \( f(a + b) \) ஆனது \( f(a)+f(b) \)-க்கு சமமாக இருப்பதில்லை]
+While solving congruent equations, we get infinitely many solutions compared to finite number of solutions in solving a polynomial equation in Algebra.
 
-**பயிற்சி 1.3**
+Example 2.14 Solve 81 x º (mod 11)
 
-1. \( f = \{(x,y) \mid x,y \in \mathbb{N} \) மற்றும் \( y = 2x\} \) ஆனது \( \mathbb{N} \)-ன் மீதான ஓர் உறவு என்க. சார்பகம், துணை சார்பகம் மற்றும் வீச்சகத்தைக் காண்க. இந்த உறவு சார்பாகுமா?
+81 x º (mod 11) can be written as 81 xk −= 11 , for some integer k .
 
-2. \( X = \{3, 4, 6, 8\} \) என்க. \( R = \{(x, f(x)) \mid x \in X, f(x) = x^2 + 1\} \) என்ற உறவானது \( X \)-விருந்து \( \mathbb{N} \)-க்கு ஒரு சார்பாகுமா?
+When we put k = 5 , 13 , 21 , 29,... then 11k+1 is divisible by 8 .
 
-3. ெகாᾞக்கப்பட்ட சாιᾗ \( f : x \to x^2 - 5x + 6 \), எனில், (i) \( f(-1) \) (ii) \( f(2a) \) (iii) \( f(2) \) (iv) \( f(x - 1) \) ஆகியவιைற மதிᾺᾗᾞக.
+∴ The solutions are 7 , 18 , 29 , 40 , …
 
-4. படம் 1.16-ல் ெகாᾞக்கப்பட்ட வைரபடம் \( f (x) \)-யின் ᾚலமாக, \( f(9) = 2 \) என்பᾐ ெதளிவாகிறᾐ.
+Example 2.15 Compute x, such that 10 4 º x (mod 19)
 
-(i) பின்வரும் சார்புகளின் மதிப்புகளைக் காண்க
+Solution
 
-(அ) \( f(0) \) (ஆ) \( f(7) \) (இ) \( f(2) \) (ஈ) \( f(10) \)
+Example 2.16 Find the number of integer solutions of 31 x º (mod 15).
 
-(ii) \( x \)-இன் எம்ைதிப்பிற்கு \( f(x) = 1 \) ஆக இருச்கும்?
+31 x º (mod 15) can be written as
 
-(iii) படம் 1.16 யில் (1) சார்பகம் (2) வீச்சகம் காண்க..
+Solution
 
-(iv) \( f \) என்ற சார்பில் 6-ன் நிழல் உரு என்ன?
+31 xk −= 15 for some integer k
 
-5. \( f(x) = 2x+5 \) என்க. \( x \neq 0 \) எனில், \( f(x + 2) - f(2) \)-ஐக் காண்க.
+5k is an integer, 5 1 3 k + cannot be an integer.
 
-6. ஒரு சார்பு \( f \) ஆனது \( f(x) = 2x - 3 \) என வரையறுக்கப்பட்டால்
+So there is no integer solution.
 
-(i) \( f(0) + f(1) \)-ஐக் காண்க. 2
+Example 2.17 A man starts his journey from Chennai to Delhi by train. He starts at 22 . 30 hours on Wednesday. If it takes 32 hours of travelling time and assuming that the train is not late, when will he reach Delhi?
 
-(ii) \( f(x) = 0 \) எனில், \( x \) ஐக் காண்க.
+10th 50 Standard Mathematics
 
-(iii) \( f(x) = x \) எனில் \( x \) ஐக் காண்க.
+Starting time 22 . 30, Travelling time 32 hours. Here we use modulo 24 .
 
-(iv) \( f(x) = f(1 - x) \) எனில் \( x \) ஐக் காண்க.
+The reaching time is
 
-7. 24 ெச.மீ பக்க அளவுள்ள சதுர வடிவத் துண்டிலிருந்து நான்கு மூலைகளிலும் சம அளவுள்ள சதுரங்களை வெட்டி படம் 1.17-ல் உள்ளவாறு மேல்புறம் திறந்த ஒரு பெட்டி செய்யப்பகுதி. இந்தப் பெட்டியின் கன அளவு V எனில், V ஐ \( x \)-யின் சார்பாகக் குறிப்பிருக.
+22 . 30 + 32 (mod 24) º 54 . 30 (mod24) º . 6 . 630 (mod24) ( 32 = (1×24) + 8 Thursday Friday)
 
-8. \( f \) என்ற சார்பு \( f(x) = 3 - 2x \) என வரையறுக்கப்படுகிறது. \( f(x^2) = (f(x))^2 \) எனில் \( x \)-ஐக் காண்க.
+Thus, he will reach Delhi on Friday at 6 . 30 hours.
 
-9. ஒரு விமானம் 500 கிமீ/மணி வேகத்தில் பறக்கிறது. விமானம் 'd' கொலைவு செல்வதற்கு ஆகும் காலத்தை t (மணியில்) -ன் சார்பாக வெளிப்படுத்துக.
+Example 2.18 Kala and Vani are friends. Kala says, "Today is my birthday" and she asks Vani, "When will you celebrate your birthday?" Vani replies, "Today is Monday and I celebrated my birthday 75 days ago". Find the day when Vani celebrated her birthday.
 
-10. அருகில் உள்ள அட்டவணையில் நான்கு நபர்களின் முன்னங்கைகளின் நீளம் மற்றும் அவர்களுடைய உயரங்களின் தகவல்கள் வழங்கப்பட்டுள்ளன. அந்த விவரங்களின் அடிப்படையில் ஒரு மாணவர், உயரம் (y) மற்றும் முன்னங்கை நீளம் (x)-க்கான உறவை \( y = ax + b \) எனக் கண்டுபிடித்தார். இங்கு a மற்றும் b ஆகியவை மாறிலிகள்.
+Let us associate the numbers 0 , 1 , 2 , 3 , 4 , 5 , 6 to represent the weekdays from Sunday to Saturday respectively.
 
-| முன்னங்கைகளின் நீளம் (ச.மீ) 'x' | உயரம் (அங்கும்) 'y' |
-|---|---|
-| 35 | 56 |
-| 45 | 65 |
-| 50 | 69.5 |
-| 55 | 74 |
+Vani says today is Monday. So the number for Monday is 1. Since Vani's birthday was 75 days ago, we have to subtract 75 from 1 and take the modulo 7, since a week contain 7 days.
 
-(i) இந்த உறவானது சார்பாகுமா என ஆராய்க.
+Thus, 17 −≡53 (mod 7)
 
-(ii) a மற்றும் b-ஐக் காண்க.
+The day for the number 3 is Wednesday.
 
-(iii) முன்னங்கையின் நீளம் 40 செமீ எனில், அந்த நபரின் உயரத்தைக் காண்க.
+Therefore, Vani's birthday must be on Wednesday.
 
-(iv) உயரம் 53.3 அங்கும் எனில், அந்த நபரின் முன்னங்கையின் நீளத்தைக் காண்க.
+![](assets/page_016_picture_004.png)
 
-## 1.6 சார்புகளைக் குறிக்கும் முறை (Representation of Functions)
+- Find the least positive value of x such that
+- (i) 71 º x (mod 8) (ii) 78 +≡x 3 (mod 5) (iii) 89 ≡+ () x 3 ) 3 (mod 4)
 
-ஒரு சார்பை
+- If x is congruent to 13 modulo 17 then 73 x - - is congruent to which number modulo 17?
+- Solve 54 x º (mod 6)
+- Solve 32 x −≡ 0 (mod 11)
+- What is the time 100 hours after 7 a.m.?
+- What is the time 15 hours before 11 p.m.?
+- Today is Tuesday. My uncle will come after 45 days. In which day my uncle will be coming?
+- Find the remainder when 2 81 is divided by 17 .
 
-(i) வரிசைச் ச�ோடிகளின் கணம்
+- The duration of flight travel from Chennai to London through British Airlines is approximately 11 hours. The airplane begins its journey on Sunday at 23:30 hours. If the time at Chennai is four and half hours ahead to that of London's time, then find the time at London, when will the flight lands at London Airport.
 
-(ii) அட்டவணை முறை
+### 2.6 Sequences
 
-(iii) அம்புக்குறி படம்
+Consider the following pictures.
 
-(iv) வரைபட முறை
+There is some pattern or arrangement in these pictures. In the first picture, the first row contains one apple, the second row contains two apples and in the third row there are three
 
-ஆகியவற்றின் மூலமாகக் குறிப்பிடலாம்
+apples etc... The number of apples in each of the rows are 1 , 2 , 3 , ...
 
-\( f: A \to B \) ஒரு சார்பு எனக்.
+![](assets/page_017_picture_004.png)
 
-(i) வரிசைச் ச�ோடிகளின் கணம்
+In the second picture each step have 0 . 5 feet height. The total height of the steps from the base are 0 . 5 feet,1 feet, 1 . 5 feet,... In the third picture one square, 3 squares, 5 squares, ... These numbers belong to category called "Sequences". .
 
-\( f = \{(x,y) \mid y = f(x), x \in A\} \) என்றவாறு அமையும் அமைத்து வரிமைச் ச�ோடிகளின் கணமாக சார்பு \( f \)-ஐ குறிக்கலாம்
+**Definition**
 
-(ii) அட்டவணை முறை
+A real valued sequence is a function defined on the set of natural numbers and taking real values.
 
-\( x \)-ன் மதிப்புகள் மற்றும் \( f \)-ஆல் பெறப்படும் நிழல் உருக்கள் ஆகியவற்றைநகாண்டு ஒரு அட்டவணையை அமைக்கலாம்.
+Each element in the sequence is called a term of the sequence. The element in the first position is called the first term of the sequence. The element in the second position is called second term of the sequence and so on.
 
-(iii) அம்புக்குறி படம்
+**Illustration**
 
-\( f \)-ன் சார்பகத்ைதயும் அதன் நிழல் உருக்கைளயும் அம்புக்குறி மூலம் தொடர்புபடுத்திக் காட்டலாம்.
+- 1 , 3 , 5 , 7,... is a sequence with general term an n =2 n n =− 2 n − 21 . When we put n = 12, 2,, 3 ,..., we get a 1 =1 , a 2 = 3 , a 3 = 5 , a 4 = 7 , ...
 
-(iv) வரைபடம்
+If the number of elements in a sequence is finite then it is called a Finite sequence . If the number of elements in a sequence is infinite then it is called an Infinite sequence .
 
-\( f = \{(x,y) \mid y = f(x), x \in A\} \)-ல் உள்ள அைனத்து வரிைசச் ச�ோடிைகள \( X Y \) தளத்தில் புள்ளிகளாகக் குறிக்கலாம். அைனத்துப் புள்ளிகைளயும் இைணக்கும் படம் \( f \)-ன் வரைபடமாகும்.
+10th 52 Standard Mathematics
 
-ஒவ்வொரு சார்பையும், ஒரு வளவரையாக (curve) வரைபடத்தில் குறிப்பிடலாம். ஆனால் வரைபடத்தில் வரையப்படும் அனைத்து வளவரைகளும் சார்பாகாது.
+**Sequence as a Function**
 
-ஒரு வளவரை சார்பாகுமா என்பதைத் தீர்மானிக்க, பின்வரும் ச�ோதனையைப் பயன்படுத்தலாம்.
+**Progress Check**
 
-### 1.6.1 குத்துக்கோடுச் ச�ோதனை (Vertical line test)
+- Fill in the blanks for the following sequences
+- (i) 7 , 13 , 19 , _____ , ... (ii) 2 , _____, 10 , 17 , 26
+- (iii) 1000 , 100 , 10 , 1 , _____, ...
+- A sequence is a function defined on the set of _____.
+- The nth term of the sequence 0 , 2 , 6 , 12 , 20,... can be expressed as _____.
+- Say True or False
+- (i) All sequences are functions
+- (ii) All functions are sequences.
 
-ஒரு வளவரையை, ஒவ்வொரு குத்துக்கோரும் ஒரே ஒரு புள்ளியில் வெட்டினால், அவ்வளவரை ஒரு சார்பினைக் குறிக்கும்.
+Example 2.19 Find the next three terms of the sequences
 
-எடுத்துக்காட்டு 1.10 குத்துக்கோடு ச�ோதனையைப் பயன்படுத்திப் பின்வரும் வரைபடங்களில் எவை சார்பினைக் குறிக்கும் எனத் தீர்மானிக்கவும். (படம்.1.18 (i), 1.18 (ii), 1.18 (iii), 1.18 (iv))
+![*Fig 2.10*](assets/page_018_picture_006.png)
 
-தீர்வு படம்.1.18 (i) மற்றும் படம் 1.18 (iii) வரைபடங்களில், ஒரு குத்துக்கோடு, வரைபடத்தை P மற்றும் Q ஆகிய இரு புள்ளிகளில் வெட்ருவதால் இவை ஒரு சார்பினைக் குறிக்காது.
+In the above sequence the numerators are same and the denominator is increased by 4 .
 
-1.18 (ii) மற்றும் படம்.1.18 (iv) வரைபடங்களில் அதிகபட்சமாக ஒரேயாரு புள்ளியில் வெட்ருவதால், இவை சார்பினைக் குறிக்கும்.
+So the next three terms are a 5 1 14 4 1 18 = + =
 
-ஒரு சமன்பாடு வரைபடத்தில் குறிக்கப்படும்போது அதை வளவவர எனலாம்.
+Here each term is decreased by 3. So the next three terms are -7, -10 , - 13 .
 
-எடுத்துக்காட்டு 1.11 \( A = \{1,2,3,4\} \) மற்றும் \( B = \{2,5,8,11,14\} \) என்பன இரு கணங்கள் என்க. \( f : A \to B \) எனும் சார்பு \( f(x) = 3x - 1 \) எனக் கொடுக்கப்பட்டுள்ளது. இச்சார்பினைக் கொண்டு
+Though all the sequences are functions, not all the functions are sequences.
 
-(i) அம்புக்குறி படம்
+Here each term is divided by 10. Hence, the next three terms are
 
-(ii) அட்டவணை
+Example 2.20 Find the general term for the following sequences
 
-(iii) வரிமைச் ச�ோடிகளின் கணம்
+(i) 369 ,, 69 ,,, ...
 
-(iv) வரைபடம் ஆகியவற்றைக் குறிக்க
+Here the terms are multiples of 3. So the general term is
 
-தீர்வு
+- (iii) 52 ,- 2 ,, 5 - , 5 125 , ...
 
-\[
-A = \{1,2,3,4\} ; B = \{2,5,8,11,14\} ; f(x) = 3x - 1
-\]
+The terms of the sequence have + and – sign alternatively and also they are in powers of 5 .
 
-\[
-f(1) = 3(1) - 1 = 3 - 1 = 2; \quad f(2) = 3(2) - 1 = 6 - 1 = 5
-\]
+Example 2.21 The general term of a sequence is defined as
 
-\[
-f(3) = 3(3) - 1 = 9 - 1 = 8; \quad f(4) = 4(3) - 1 = 12 - 1 = 11
-\]
+Find the eleventh and eighteenth terms.
 
-(i) அம்புக்குறி படம்
+To find a 11 , since 11 is odd, we put n = 11in an n =( n n n =+ ()3
 
-சார்பு \( f : A \to B \) - ஐ அம்புக்குறி படத்தால் குறிப்போம் (படம்.1.19).
+Thus, the eleventh term
 
-(ii) அட்டவணை அமைப்பு
+To finda 18 , since 18 is even, we put
 
-சார்பு \( f \)-ஐ கீேழக் கொடுக்கப்பட்டுள்ள அட்டவணையால் குறிப்போம்
+Thus, the eighteenth term
 
-| \( x \) | 1 | 2 | 3 | 4 |
-|---|---|---|---|---|
-| \( f(x) \) | 2 | 5 | 8 | 11 |
+Example 2.22 Find the first five terms of the following sequence.
 
-(iii) வரிமைச் ச�ோடிகளின் கணம்
+The first two terms of this sequence are given bya 1 = 1 , a 2 = 1. The third term a 3 depends on the first and second terms.
 
-சார்பு \( f \)-ஐ வரிமை ச�ோடிகளின் கணமாக எழுதலாம்.
+10th 54 Standard Mathematics
 
-\[
-f = \{(1,2),(2,5),(3,8),(4,11)\}
-\]
+Similarly the fourth term a 4 depends upon a 2 and a 3 .
 
-(iv) வரைபடம்
+In the same way, the fifth term a 5 can be calculated as
 
-படம் 1.20-ல் உள்ள \( X Y \)- தளத்தில் ஒரே நேர்கோட்டில் \( (1,2), (2,5), (3,8), (4,11) \) ஆகிய புள்ளிகள் குறிக்கப்பட்டுள்ளன.
+Therefore, the first five terms of the sequence are 1 , 1 , 1 4 , 1 16 , and 1 52
 
-## 1.7 சார்புகளின் வகைகள் (Types of Functions)
+![](assets/page_020_picture_003.png)
 
-இந்தப் பகுதியில் கீழ்க்காணும் சார்புகளின் வகைகளைப் பற்றி தகுந்த எழுத்துக்காட்டுடன் காணலாம்.
+- Find the next three terms of the following sequence.
 
-(i) ஒன்றுக்கு – ஒன்றான (one – one) (ii) பலவற்றிற்கு – ஒன்று (many – one)
+- (i) 8 , 24 , 72 , …
+- (ii) 5 , 1 , - 3, …
+- Find the first four terms of the sequences whose n th terms are given by
 
-(iii) மேல் (onto) (iv) உள்ளோக்கிய (into)
+- (i) an n = n n =− 3 2
+- Find the n th term of the following sequences
 
-### 1.7.1 ஒன்றுக்கு ஒன்றான சார்பு (One – one function)
+- (i) 25, 5,, 10 ,, 17 17 ...
+- (iii) 38, 8,, 13 ,, 18 18 ...
+- Find the indicated terms of the sequences whose n th terms are given by
 
-நம்மிடம் நன்கு வேலை செய்யும் அலைபேசி ஒன்று உள்ளது எனக் கொள்க. உங்கள் நண்பனுக்கு ஒரு சாதாரணத் தொடர்பின் மூலம் பேசுவதற்கு ஒரு நேரத்தில், ஒரு முறை தான் தொடர்பு கொள்ள முடியும். (படம் 1.21)
+### 2.7 Arithmetic Progression
 
-நாம் பேசுவதற்குத் தொடர்பு கொள்ளும் எண்ணை ஒரு சார்பாகக் கொண்டால், அது ஒன்றுக்கு ஒன்றான சார்பு எனக் கூறலாம்.
+![](assets/page_020_picture_004.png)
 
-\( f : A \to B \) என்பதுஒரு சார்புஎன்க. \( A \)-யின் வெவ்வேறானஉறுப்புகளை \( B \)-ல் உள்ளவெவ்வேறு உறுப்புகளுடன் \( f \) ஆனதுதொடர்புபடுத்துமானால், \( f \) என்பதுஒன்றுக்குஒன்றானசார்புஆகும்.
+Let us begin with the following two illustrations.
 
-ஒன்றுக்கு ஒன்றான சார்பு என்பது ஒருபைச் சார்பு (Injective function) எனவும் அழைக்கப்படும். இதற்குச் சமமாக,
+**Illustration 1**
 
-\( f(a_1) = f(a_2) \) என்றவாறு அமைந்த ஒவ்வொரு \( a_1,a_2 \in A \)-க்கும் \( a_1 = a_2 \) எனக் கிடைத்தால், \( f \) என்பது ஒன்றுக்கொன்றான சார்பாகும்.
+Make the following figures using match sticks
 
-**விளக்கம் 10**
+- (i) How many match sticks are required for each figure? 3 , 5 , 7 and 9 .
+- (ii) Can we find the difference between the successive numbers?
 
-\( A = \{1,2,3,4\} \) மற்றும் \( B = \{a,b,c,d,e\} \)
+Therefore, the difference between successive numbers is always 2 .
 
-(i) \( f = \{(1,a), (2,b), (3,d), (4,c)\} \) எனில், படம் 1.22-ல் \( A \)-யின் வெவ்வேறு உறுப்புகளுக்கு \( B \)-ல் வெவ்வேறு நிழல் உருக்கள் உள்ளன.
+A man got a job whose initial monthly salary is fixed at ₹10 , 000 with an annual increment of ₹2000. His salary during 1 st , 2 nd and 3 rd years will be ₹10000, ₹12000 and ₹14000 respectively.
 
-எனவே \( f \) ஆனது ஒன்றுக்கொன்றான சார்பாகும்.
+If we now calculate the difference of the salaries for the successive years, we get 12000 –; 10000 == 2000 14000 – 12000 14000 – 12000 2000 . Thus the difference between the successive numbers (salaries) is always 2000 .
 
-(ii) \( g = \{(1,b), (2,b), (3,c), (4,e)\} \)
+Did you observe the common property behind these two illustrations? In these two examples, the difference between successive terms always remains constant. Moreover, each term is obtained by adding a fixed number (2 and 2000 in illustrations 1 and 2 presented above) to the preceding term except the first term. This fixed number which is a constant for the differences between successive terms is called the "common difference". .
 
-படம் 1.23 -ல் \( g \) ஆனது \( A \)-விலிருந்து \( B \)-க்கு ஒரு சார்பு. மேலும் \( g(1) = g(2) = b \), ஆனால் \( 1 \neq 2 \). எனவே, கணம் \( A \)-ல் 1 மற்றும் 2 ஆகிய இரண்டு வெவ்வேறு உறுப்புகளுக்குக் கணம் \( B \)-ல் 'b' என்ற ஒரே ஒரு நிழல் உருதான் உள்ளது. எனவே \( g \) ஆனது ஒன்றுக்கு ஒன்றான சார்பு அல்ல.
+**Definition**
 
-### 1.7.2 பலவற்றிற்கு ஒன்றான சார்பு (Many – one function)
+Let a and d be real numbers. Then the numbers of the form a , ad + , ad + 2 , ad + 3 , ad + 4 , ... is said to form Arithmetic Progression denoted by A.P. The number 'a' is called the first term and 'd' is called the common difference .
 
-ஒரு திரையரங்க வளாகத்தில் \( F_1, F_2, F_3 \) என்ற மூன்று திரைப்படங்கள் திரையிடப்படுகின்றன. ஏழு நபர்கள் (\( P_1 \)-விருந்து \( P_7 \) வரை) திரையரங்கிற்கு வந்து காட்சி சீட்டு வாங்கும் விதம் (படம்.1.24)-ல் காட்டப்படுள்ளது.
+Simply, an Arithmetic Progression is a sequence whose successive terms differ by a constant number. Thus, for example, the set of even positive integers 2 , 4 , 6 , 8 , 10 , 12,… is an A.P. whose first term is a = 2 and common difference is also d = 2 since 42 −= 2 , 64 −= 2 , 86 −= 2 , …
 
-நாம் திைரப்படத்ைதத் ேதர்௵ ெசய்௳ைத ஓர் உ௳கக் ெகாண்டால் அௌ ப௳௵௣ழக ௳றான சார்பாக ௳ளங்கும். காரணம் ஒ௵௳௠க்ஶ ஒ௵ காட்௴ச் ௴ட௵ ௘ட௵ேம ெக௳க்ப௵௵, ஆனால் ஒேர படத்ைதப் பார்க்க ப௳ர் ேதர்௵ ெசய்௳லாம்.
+Most of common real−life situations often produce numbers in A.P.
 
-சார்பு \( f : A \to B \) -ஐ பலவற்றிற்கு ஒன்றான சார்பு எனில், அச்சார்பில் \( A \)-யின் ஒன்றிற்கு மேற்பட்ட உறுப்புகளுக்கு, \( B \)-ல் ஒேர நிழல் உரு இருக்கும்.
+- ¾ The difference between any two consecutive terms of an A.P. is always constant. That constant value is called the common difference.
+- ¾ If there are finite numbers of terms in an A.P. then it is called Finite Arithmetic Progression. If there are infinitely many terms in an A.P. then it is called Infinite Arithmetic Progression.
 
-\( f : A \to B \) எᾤம் சார்பில், \( f \) ஆனᾐ ஒᾹᾠக்கு ஒᾹறாக இ᾿ைலெயனில், அᾐ பலவιகீᾁ ஒᾹᾠ எனᾰ கூறலாம்.
+#### 2.7.1 Terms and Common Difference of an A.P.
 
-**விளக்கம் 11**
+- The terms of an A.P. can be written as
 
-\( A = \{1,2,3,4\} \) மற்றும் \( B = \{a,b,c\} \) என்க. \( f = \{(1,a), (2,a), (3,b), (4,c)\} \) என்க.
+In general, the n th term denoted by t n can be written as ta = nd ) −1 n a n=+ () −1 .
 
-\( f \) என்ற சார்பில் 1 மற்றும் 2 என்ற, \( A \)-யில் உள்ள உறுப்புகளுக்கு \( B \)-யில் ஒேர நிழல் உரு 'a' ஆக இருப்பதால், சார்பு \( f \) ஆனது பலவற்றிற்கு-ஒன்றான சார்பாகும்.
+- In general to find the common difference of an A.P. we should subtract first term from the second term, second from the third and so on.
 
-### 1.7.3 ேமல் சார்பு (Onto function)
+**Progress Check**
 
-ஒரு கைபசியில் மூன்று நபர்களின் பெயர்கள் பதிவில் உள்ளன எனக் கொள்க. பதிவில் உள்ள மூவருக்கும் அழைப்புகள் செல்கின்றன எனில், அந்த அழைப்புகளை குறிக்கும் சார்பு மேல் சார்பு (படம் 1.25) ஆகும்.
+- The difference between any two consecutive terms of an A.P. is _______.
+- If a and d are the first term and common difference of an A.P. then the 8 th term is _______.
 
-\( f : A \to B \) என்ற ஒரு சார்பு, மேல் சார்பு எனில், \( f \)-யின் வீச்சகமானது, \( f \)-யின் துணை சார்பகத்திற்குச் சமமாக இருக்கும்.
+![](assets/page_022_picture_004.png)
 
-துணை சார்பகம் \( B \)-ல் உள்ள ஒவ்வோர் உறுப்பிற்கும் சார்பகம் \( A \)-ல் முன் உரு இருக்கும் எனவும் கூறலாம்.
+Let us try to find the common differences of the following A.P.'s
 
-இைத ேமல்புறச் சார்பு (Surjective function) எனவும் அழைக்கலாம்.
+The common difference of an A.P. can be positive, negative or zero.
 
-**குறிப்பு**
+**Thinking Corner**
 
-\( f : A \to B \) ஆனது மேல் சார்பு எனில், \( f \)-யின் வீச்சகம் \( = B \).
+Example 2.23 Check whether the following sequences are in A.P. or not?
 
-**விளக்கம் 12**
+To check that the given sequence is in A.P., it is enough to check if the differences between the consecutive terms are equal or not.
 
-\( A = \{x, y, z\}, B = \{l, m, n\} \) என்க.
+Thus, the differences between consecutive terms are equal.
 
-\( f \)-ன் வீச்சகம் \( = \{l, m, n\} = B \) (படம்.1.26) எனவே, \( f \) ஆனது ஒரு மேல்சார்பாகும்.
+Hence the sequence xx ++ 22, x + 2,, 3 , 33x + 4 , ... is in A.P.
 
-### 1.7.4 உட்சார்பு (Into function)
+Thus, the differences between consecutive terms are not equal. Hence the terms of the sequence 2 , 4 , 8 , 16, . . . are not in A.P.
 
-ஒரு வீட்டு உபயோகப் ப�ொருள்கள் விற்பனையகத்தில். புது வருட விற்பனைக்காக, தொலைக்காட்சிப் பெட்டி, காற்று பதனி (Air Conditioner), சலைவ இயந்திரம் (Washing machine) மற்றும் நீர்ச் சூடேற்றி (Water heater) ஆகியவற்றிற்கு 20% தள்ளுபடி செய்து சலுகை வழங்கியுள்ளது. மேற்கண்ட ப�ொருள்களை \( C_1, C_2, C_3 \) என்ற மூன்று நுகர்வோர் தேர்வு செய்வதாக எடுத்துக்கொண்டால், அதை ஒரு சார்பாகக் கொள்ளலாம். (படம் 1.27) மேலும், இது உட்சார்பைக் குறிக்கின்றது.
+Thus, the differences between consecutive terms are equal. Hence the terms of the sequence 32 , 52 , 72 , 92 , ... are in A.P.
 
-சாதாரணமாக, குளிர் காலத்தில் நுகர்வோர் காற்று பதனியை தேர்வு செய்யமாட்டார்கள். எனவே, இது உட்சார்புக்கு எடுத்துக்காட்டாகும்.
+Example 2.24 Write an A.P. whose first term is 20 and common difference is 8 .
 
-ஒரு சார்பு \( f : A \to B \) ஆனது உட்சார்பு எனில், \( B \)-ல் குறைந்தபட்சம் ஓர் உறுப்பிற்காவது, \( A \)-ல் முன்‌உரு இருச்காது.
+First term ==a a 20 ; common difference = d= 8
 
-\( f \)-ன் வீச்சகமானது துணை சார்பகத்தின் தக உட்கணமாகும்.
+Arithmetic Progression is a , ad + , ad + 2, ad + 3, ...
 
-எனவே, \( f : A \to B \) ஆனது மேல்சார்பு இல்லைவெனில் அது உட்சார்பாகும்.
+In this case, we get 20 , 20 + 8 , 20 + 28() , 20 + 38() , ...
 
-**விளக்கம் 13**
+So, the required A.P. is 20 , 28 , 36 , 44 , …
 
-\( A = \{1,2,3\} \) மற்றும் \( B = \{w,x,y,z\} \) என்க. சார்பு \( f = \{(1,w),(2,z),(3,x)\} \) என்க.
+Note
 
-இங்கு, \( f \)-ன் வீச்சகம் \( f = \{w, x, z\} \subset B \) (படம்.1.28) என்பதால், \( f \) ஆனது உட்சார்பு ஆகும். \( y \in B \)-க்கு முன் உரு \( A \)-ல் இல்லை என்பதை நோக்குக.
+An Arithmetic progression having a common difference of zero is called a constant arithmetic progression.
 
-### 1.7.5 இருநரச் சார்பு (Bjection)
+**Activity 4**
 
-ஒரு வட்டத்தைப் படம் 1.29-ல் உள்ளபடி எருத்துக்கொண்டால், வட்டத்தின் உட்பகுதியில் உள்ள ஒவ்வொரு ஆங்கில எழுத்திற்கும் மற்றொரு ஆங்கில எழுத்து அதன் வெளிப்புறத்தில் மாற்றி அமைக்கப்பட்டுள்ளதைக் காணலாம். எனவே \( A \to D \), \( B \to E \), \( C \to F \), … \( Z \to C \). இந்த வட்டத்தைக் குறியீட்டு வட்டம் (Cipher circle) என்கிறோம். இதை வைத்து, நாம் ‘HELLO’ என்ற வார்த்தையை ‘KHOOR’ என மாற்றம் செய்கிறோம். இதே வட்டத்தைப் பயன்படுத்தி வெளியே உள்ள எழுத்திற்குப் பதிலாகத் திரும்பவும் உள்ளே உள்ள எழுத்தை மாற்றுகின்றோம் எனில், ‘KHOOR’ என்ற வார்த்தை மீண்டும் ‘HELLO’-வாக கிடைத்துவிடும். இத்தையை நிகழ்ச்சியைத் தான் இருநரச் சார்பு என்கிறோம். இவ்விதமான இரசசியக் குறியீடுகளைப் பயன்படுத்துவதற்கான முறையை குழுக் குறியியல் (Cryptography) என்கிறோம்.
+There are five boxes here. You have to pick one number from each box and form five Arithmetic Progressions.
 
-\( f : A \to B \) என்ற சார்பு, ஒன்றுக்கு ஒன்றாகவும் மற்றும் மேல்சார்பாகவும் இருந்தால் \( f \)-ஐ \( A \)-லிருந்து \( B \)-க்கான இருபரச் சார்பு என்கிறோம்.
+![](assets/page_023_picture_005.png)
 
-**விளக்கம் 14**
+![](assets/page_023_picture_009.png)
 
-**ஒன்றுக்கு ஒன்றான மற்றும் மேல்சார்பு (இருபுரச் சார்பு)**
+![](assets/page_023_picture_008.png)
 
-\( A \)-யின் வெவ்வேறு உறுப்புகளுக்கு \( B \)-ல் வெவ்வேறு நிழல் உரு உள்ளது மற்றும் \( B \)-ன் ஒவ்வோர் உறுப்பிற்கும் \( A \)-ல் முன் உரு உள்ளது.
+![](assets/page_023_picture_006.png)
 
-**குறிப்பு**
+![](assets/page_023_picture_007.png)
 
-ஒரு சார்பு ஒன்றுக்கு ஒன்றான மற்றும் மேல் சார்பாக இருந்தால் நாம் அதை ஒன்றுக்கு ஒன்றான தொடர்பு எனவும் கூறலாம்.
+Example 2.25 Find the 15 th , 24 th and n th term (general term) of an A.P. given by 3 , 15 , 27 , 39 ,…
 
-**சிந்தனைக் களம்**
+We have, first term ==a 3 and common difference ==d 15 −=312 .
 
-ஒன்றிற்குப் பல என்ற சார்பு இருக்க முடியுமா?
+Thus,
 
-ெகாᾞக்கப்பட்ட சாιᾗ ஒᾹᾠᾰᾁ ஒᾹறா அல்லᾐ இல்ைலயா என அறிவதιᾁᾰ கீᾼᾰகாᾎΆ ேசாதைன நமᾰᾁᾺ பயᾹபιΆ.
+12
 
-### 1.7.6 கிைடமட்டக்கோட்ரச் ச�ோதைன (Horizontal Line Test)
+9 ```markdown 9 ``` ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ``` 9 ```
 
-இதற்கு முன்னர் நாம் குத்துக் க�ோட்ரச் ச�ோதைனையப் பார்த்த�ோம். தற்ப�ோது கிைடமட்டக்க�ோட்ரச் ச�ோதனையப் பார்க்கலாம். "வனவைர ஒன்றுக்கொன்றான சார்பைக் குறித்தால், வரையப்படும் கிைடமட்டக்க�ோடு வனவைரைய ஒரே ஒரு புள்ளியில் மட்டுமே வெடும்".
+tn =12
 
-எந்துக்காட்டு 1.12 கிடைமட்டக்கோடு ச�ோதனையைப் பயன்படுத்தி (படம் 1.35 (i), 1.35 (ii), 1.35 (iii)), கீழ்க்காணும் சார்புகளில் எவை ஒன்றுக்கொன்றானவை எனக் காண்க.
+n =− 12
 
-தீர்‌ வு‌ கிடைமட்டக்கோடு, வரையடம்‌ 1.35 (i) மற்றும்‌ படம்‌ 1.35 (iii) ஆகியவற்றை அதிகபட்சமாக ஒரே ஒரு புள்ளியில்‌ P வெடுவதால்‌ இவை ஒன்றுக்கு ஒன்றான சார்பினைக்‌ குறிக்கும்.
+n --- n --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
-வரைபடம் (1.35 (ii))-ல் வரையப்பட்ட ஒரு கிடைமட்டக்கோடு P மற்றும் Q ஆகிய இரு புள்ளிகளில் வெட்டுவதால், கொடுக்கப்பட்ட வளைவரை ஒன்றுக்கு ஒன்றான சார்பைக் குறிக்காது.
+10th 58 Standard Mathematics
 
-எடுத்துக்காட்டு 1.13 \( A = \{1,2,3\} \), \( B = \{4,5,6,7\} \) மற்றும் \( f = \{(1,4),(2,5),(3,6)\} \) ஆனது \( A \)-லிருந்து \( B \)-க்கான சார்பு ஆகும். \( f \) ஆனது ஒன்றுக்கு ஒன்றான சார்பு ஆனால் மேல்சார்பு இல்லை எனக் காட்டுக.
+In a finite A.P. whose first term is a and last term l, then the number of terms in the A.P. is
 
-தீர்வு \( A = \{1,2,3\} \), \( B = \{4,5,6,7\} \); \( f = \{(1,4),(2,5),(3,6)\} \)
+Example 2.26 Find the number of terms in the A.P. 3 , 6 , 9 , 12 ,…, 111 .
 
-\( A \)-லிருந்து \( B \)-க்கு ஆன சார்பு \( f \)-ல், \( A \)-யின் வெவ்வேறு உறுப்புகளுக்கு, \( B \)-ல் வெவ்வேறு நிழல் உரு உள்ளது. எனவே, \( f \) ஒன்றுக்கு ஒன்றான சார்பாகும். துணை சார்பகத்தில் உள்ள உறுப்பு 7-க்கு, சார்பகத்தில் முன் உரு இல்லை. எனவே, \( f \) ஆனது, மேல்சார்பு இல்லை. (படம்.1.36)
+**Solution**
 
-எனவே, \( f \) ஆனது ஒன்றுக்கு ஒன்றானது, ஆனால் மேல்சார்பு இல்லை.
+First term a = 3 ; common difference d =−= 63 3 ; last term l = 111
 
-எடுத்துக்காட்டு 1.14 \( A = \{-2,-1,0,1,2\} \) மற்றும் \( f : A \to B \) என்ற சார்பானது \( f(x) = x^2 + x + 1 \) மேல் சார்பு எனில், \( B \)-ஐ காண்க.
+Thus the A.P. contain 37 terms.
 
-தீர்வு \( A = \{-2, -1, 0, 1, 2\} \) மற்றும் \( f(x) = x^2 + x + 1 \) கொடுக்கப்பட்டுள்ளது.
+**Progress Check**
 
-\( f(-2) = (-2)^2 + (-2) + 1 = 3 \); \( f(-1) = (-1)^2 + (-1) + 1 = 1 \)
+- The common difference of a constant A.P. is _______.
+- If a and l are first and last terms of an A.P. then the number of terms is _______.
 
-\( f(0) = 0^2 + 0 + 1 = 1 \); \( f(1) = 1^2 + 1 + 1 = 3 \)
+Example 2.27 Determine the general term of an A.P. whose 7 th term is −1 and 16 th term is 17 .
 
-\( f(2) = 2^2 + 2 + 1 = 7 \)
+It is given that t 7 =− 1and t 16 = 17 ad +− () 71 =−1and ad +− () 16 1 d ) 11 = 7 ad + 6 =−1 ... (1) ad + 15 = 17 ... (2)
 
-எனவே, \( f \)-ன் வீச்சகம் \( B = \{1, 3, 7\} \).
+Subtracting equation (1) from equation (2), we get 91 d = 8 ⇒ d = 2
 
-எடுத்துக்காட்டு 1.15 \( f : \mathbb{N} \to \mathbb{N} \) என்ற சார்பானது \( f(x) = 3x + 2 \), \( x \in \mathbb{N} \) என வரையறுக்கப்பட்டால்
+Putting d = 2 in equation (1), we get a += 12 −1 ∴ a = –13
 
-(i) 1, 2, 3 -யின் நிழல் உருக்களைக் காண்க
+Hence, general term t n =+an() −1 d
 
-(ii) 29 மற்றும் 53-யின் முன் உருக்களைக் காண்க. (iii) சார்பின் வகையைக் காண்க.
+Example 2.28 If l th , m th and nth terms of an A.P. are x , y, z z respectively, then show that
 
-தீர்வு \( f : \mathbb{N} \to \mathbb{N} \) என்ற சார்பானது \( f(x) = 3x + 2 \) என வரையறுக்கப்பட்டுள்ளது.
+(i) Let a be the first term and d be the common difference. It is given that
 
-(i) \( x = 1 \) எனில், \( f(1) = 3(1) + 2 = 5 \)
+Using the general term formula
 
-\( x = 2 \) எனில், \( f(2) = 3(2) + 2 = 8 \)
+- (ii) On subtracting equation (2) from equation (1), equation (3) from equation (2) and equation (1) from equation (3), we get
 
-\( x = 3 \) எனில், \( f(3) = 3(3) + 2 = 11 \)
+**Note**
 
-1, 2, 3 -யின் நிழல் உருக்கள் முறையே 5, 8, 11 ஆகும்.
+In an Arithmetic Progression
 
-(ii) 29-யின் முன் உரு \( x \) எனில், \( f(x) = 29 \). எனவே \( 3x + 2 = 29 \)
+- ¾ If every term is added or subtracted by a constant, then the resulting sequence is also an A.P.
+- ¾ If every term is multiplied or divided by a non-zero number, then the resulting sequence is also an A.P.
+- ¾ If the sum of three consecutive terms of an A.P. is given, then they can be taken as ad - - , a a and ad + . Here the common difference is d .
+- ¾ If the sum of four consecutive terms of an A.P. is given then, they can be taken as ad - 3 - 3 , ad - - , ad + and ad + 3 . Here common difference is 2d .
 
-\( 3x = 27 \Rightarrow x = 9 \).
+Example 2.29 In an A.P., sum of four consecutive terms is 28 and the sum of their squares is 276. Find the four numbers.
 
-இதைப்ோலவே, 53 -ன் முன் உரு \( x \) எனில், \( f(x) = 53 \). எனவே, \( 3x + 2 = 53 \)
+Let us take the four terms in the form () ad - 3 , () ad - , () ad + and () ad + 3 .
 
-\( 3x = 51 \Rightarrow x = 17 \).
+Since, sum of the four terms is 28 ,
 
-எனவே, 29 மற்றும் 53 -யின் முன் உருக்கள் முறையே 9 மற்றும் 17 ஆகும்.
+Similarly, since sum of their squares is 276 ,
 
-(iii) \( \mathbb{N} \)-யின் வெவ்வேறு உறுப்புகளுக்குத் துணை சார்பகத்தில் வெவ்வேறு நிழல் உருக்கள் உள்ளன. எனவே, \( f \) ஆனது ஒன்றுக்கு ஒன்றான சார்பாகும்.
+If d = 2 then the four numbers are 73 - - ()2 , 72 - - , 72 + , 7+3(2)
 
-\( f \)-யின் துணை சார்பகமானது \( \mathbb{N} \).
+That is the four numbers are 1 , 5 , 9 and 13 .
 
-வீச்சகம் \( f = \{5, 8, 11, 14, 17, ...\} \) ஆனது \( \mathbb{N} \)-ன் தக உட்கணமாகும்.
+10th 60 Standard Mathematics If a = 7, d =−2 then the four numbers are 13 , 9 , 5 and 1
 
-எனவே, \( f \) ஆனது மேல்சார்பு இல்லை.
+Therefore, the four consecutive terms of the A.P. are 1 , 5 , 9 and 13 .
 
-அதாவது, \( f \) உட்சார்பு ஆகும்.
+**Condition for three numbers to be in A.P.**
 
-எனவே, \( f \) ஆனது ஒன்றுக்கு ஒன்றான மற்றும் உட்சார்பு ஆகும்.
+If a , b , c are in A.P. then a = a, ba =+d , ca =+ 2d
 
-எடுத்துக்காட்டு 1.16 தடயவியல் விஞ்சுகானிகள், த�ொடை எலும்புகளைக் கொண்டு ஒருவருடைய உயரத்தை (செமீட்டரில்) கணக்கிடுகிறார்கள். அவர்கள் பொதுவாக, \( h(b) = 2 \cdot 47b + 54 \cdot 10 \) என்ற சார்பை இதற்குப் பயன்படுத்துகிறார்கள். இங்கு, \( b \) ஆனது த�ொடை எலும்பின் நீளமாகும்.
+Similarly, if 2ba =+c , then ba −= cb − − so a , b , c are in A.P.
 
-(i) \( h \) ஆனது ஒன்றுக்கு ஒன்றானதா எனச் சரிபார்க்க.
+Thus three non-zero numbers a , b , c are in A.P. if and only if 2ba =+c
 
-(ii) த�ொடை எலும்பின் நீளம் 50 செமீ எனில், அந்த நபரின் உயரத்தைக் காண்க.
+Example 2.30 A mother divides ₹207 into three parts such that the amount are in A.P. and gives it to her three children. The product of the two least amounts that the children had ₹4623. Find the amount received by each child.
 
-(iii) நபரின் உயரம் 147.96 செமீ எனில், அவர் த�ொடை எலும்பின் நீளத்தைக் காண்க.
+Let the amount received by the three children be in the form of A.P. is given by ad - - , a , ad + . Since, sum of the amount is ₹207, we have
 
-தீர்வு (i) \( h \) ஆனது ஒன்றுக்கு ஒன்றானதா எனச் ச�ோதிக்க \( h(b_1) = h(b_2) \) எனக் கருதுக.
+It is given that product of the two least amounts is 4623 .
 
-எனவே, நமக்குக் கிடைப்பது, \( 2 \cdot 47b_1 + 54 \cdot 10 = 2 \cdot 47b_2 + 54 \cdot 10 \)
+Therefore, amount given by the mother to her three children are ₹(69−2), ₹69, ₹(69+2). That is, ₹67, ₹69 and ₹71 .
 
-\( 2 \cdot 47b_1 = 2 \cdot 47b_2 \Rightarrow b_1 = b_2 \)
+**Progress Check**
 
-எனவே, \( h(b_1) = h(b_2) \) எனில், \( b_1 = b_2 \) ஆகையால், இந்தச் சார்பு ஒன்றுக்கு ஒன்றான சார்பாகும்.
+- If every term of an A.P. is multiplied by 3, then the common difference of the new A.P. is _______.
+- Three numbers a , b and c will be in A.P. if and only if _______.
 
-(ii) த�ொடை எலும்பின் நீளம் \( b = 50 \) செமீ எனில், அந்த நபரின் உயரமானது
+![](assets/page_026_picture_005.png)
 
-\( h(50) = (2 \cdot 47 \times 50) + 54 \cdot 10 = 177 \cdot 6 \) செமீ ஆகும்.
+- Check whether the following sequences are in A.P.
 
-(iii) நபரின் உயரம் \( 147.96 \) செமீ எனில், \( h(b) = 147 \cdot 96 \) த�ொடை எலும்பின் நீளமானது
+- First term a and common difference d are given below. Find the corresponding A.P.
 
-\( 2 \cdot 47b + 54 \cdot 10 = 147 \cdot 96 \)
+- Find the first term and common difference of the Arithmetic Progressions whose n th terms are given below
 
-\( b = \frac{93 \cdot 86}{2 \cdot 47} = 38 \)
+- n
+- n
+- Find the 19 th term of an A.P. -- 11 11 ,,, 15 19 15 - 19 ...
+- Which term of an A.P. 16 , 11 , 6 , 1,... is - 54 ?
+- Find the middle term(s) of an A.P. 9 , 15 , 21 , 27 ,…, 183 .
+- If nine times ninth term is equal to the fifteen times fifteenth term, show that six times twenty fourth term is zero.
+- If 3 + k , 18 - k , 51 k + are in A.P. then find k .
+- Find x , y y and z, given that the numbers x , 10 , y, 24 , z z are in A.P.
+- In a theatre, there are 20 seats in the front row and 30 rows were allotted. Each successive row contains two additional seats than its front row. How many seats are there in the last row?
+- The sum of three consecutive terms that are in A.P. is 27 and their product is 288 . Find the three terms.
+- The ratio of 6 th and 8 th term of an A.P. is 7:9. Find the ratio of 9 th term to 13 th term.
+- In a winter season let us take the temperature of Ooty from Monday to Friday to be in A.P. The sum of temperatures from Monday to Wednesday is 0° C and the sum of the temperatures from Wednesday to Friday is 18° C. Find the temperature on each of the five days.
+- Priya earned ₹15 , 000 in the first month. Thereafter her salary increased by ₹1500 per year. Her expenses are ₹13 , 000 during the first month and the expenses increases by ₹900 per year. How long will it take for her to save ₹20 , 000 per month.
 
-ஆகையால், த�ொடை எலும்பின் நீளமானது 38 செமீ ஆகும்.
+### 2.8 Series
 
-**ெசயல்பா 3**
+If a series has finite number of terms then it is called a Finite series. If a series has infinite number of terms then it is called an Infinite series. Let us focus our attention only on studying finite series.
 
-பின்வரும் வளைவரைகளில் எவை சார்பினைக் குறிக்கும் எனச் ச�ோதிக்க. சார்பாக இருந்தால் அந்தச் சார்பு ஒன்றுக்கு ஒன்றானதா எனப் பரிசோதிக்க. (குறிப்பு: குத்துக்ேகாடு, மற்றும் கிடைமட்டக்ேகாடு ச�ோதனைகளைப் பயன்படுத்துக)
+#### 2.8.1 Sum to n terms of an A.P.
 
-## 1.8 சார்புகளின் சிறப்பு வகைகள் (Special cases of function)
+A series whose terms are in Arithmetic progression is called Arithmetic series.
 
-சில சிறப்பு வகையான சார்புகள் மிகவும் பயனுள்ளதாக இருக்கும். அவற்றுள் சில கீேழ கொருக்கப்பட்டுள்ளன.
+Let aa, a,, +d , ++ da 23 da,+ 3 a,, + d + d ... be the Arithmetic Progression.
 
-(i) மாறிலிச் சார்பு (ii) சமனிச் சார்பு (iii) மெய் மதிப்புச் சார்பு
+The sum of first n terms of a Arithmetic Progression denoted by S n n is given by,
 
-(i) மாறிலிச் சார்பு (Constant function)
+Rewriting the above in reverse order
 
-சார்பு \( f : A \to B \) ஆனது மாறிலிச் சார்பு எனில், \( f \)-ன் வீச்சகமானது ஒரே ஓர் உறுப்பைக் கொண்டதாகும். அதாவது, \( f ( x ) = c , \forall x \in A \) மற்றும் ஏதேனும் ஒரு நிலையான \( c \in B \). விளக்கம் 16
+Adding (1) and (2) we get,
 
-படம் 137-லிருந்து, \( A = \{a,b,c,d\}, B = \{1,2,3\} \) மற்றும் \( f = \{(a,3),(b,3),(c,3),(d,3)\} \) இதை, \( f(x) = 3 \forall x \in A \) என எழுதலாம். மேலும், \( f \)-யின் வீச்சகம் \( f = \{3\} \). எனவே \( f \)-ஆனது மாறிலிச் சார்பு ஆகும்.
+If the first term a, and the last term l (n th term) are given then
 
-(ii) சமனிச் சார்பு (Identity function)
+**Progress Check**
 
-\( A \) ஒரு வெற்றில்வா கணம் என்க. சார்பு \( f : A \to A \) ஆனது \( f ( x ) = x \) அனைத்து \( x \in A \) என வரையறுக்கப்பட்டால், அந்தச் சார்பு \( A \)-யின் சமனிச் சார்பு எனப்படும். இதை \( I_A \) எனக் குறிக்கலாம்.
+- The sum of terms of a sequence is called ______.
+- If a series have finite number of terms then it is called ______.
+- A series whose terms are in ______ is called Arithmetic series.
+- If the first and last terms of an A.P. are given, then the formula to find the sum is ______.
 
-விளக்கம் 17
+Here the first term a = 8, common difference d =− 7 1 1 4 8 =− 3 4 ,
 
-**சிந்தனைக் களம்**
+Here the value of n is not given. But the last term is given. From this, we can find the value of n .
 
-\( A = \{a,b,c\} \) எனில் \( f = I_A = \{(a,a),(b,b),(c,c)\} \) ஆனது \( A \)-யின் மீதான சமனிச் சார்பாகும்
+Given, a = 04. . 0 and l = 1 , we find d =− 04.3 4.. 30 − . 30 40 = 00. . 3 .
 
-சமனிச் சார்பு ஒன்றுக்கு ஒன்றான சார்பாகுமா?
+So, the sum of 21 terms of the given series is 14 . 7 .
 
-(iii) மெய் மதிப்புச் சார்பு (Real – valued function)
+Example 2.33 How many terms of the series 15 +++9 ... must be taken so that their sum is 190?
 
-சார்பு \( f : A \to B \) ஆனது மெய் மதிப்புச் சார்பு எனில், \( f \)-யின் வீச்சகமானது, \( \mathbb{R} \) எனும் மெய்ெயன்களின் உட்கணமாக இருக்கும். அதாவது, \( f(a) \subseteq \mathbb{R} \), இங்கு \( \forall f(a) \subseteq \mathbb{R} \) ஆகும்.
+Here we have to find the value of n, such that S n = 190.
 
-**முன்னேற்றச் ச�ோதனை**
+First term a = 1, common difference d =−51 = 4 .
 
-**சரியா அல்லது தவறா?**
+Sum of first n terms of an A.P.
 
-1. எல்லா ஒன்றுக்கு ஒன்று சார்புகளும் மேல் சார்பாகும்.
+**Thinking Corner**
 
-2. \( n(A) = 4, n(B) = 3 \) ஆக இருக்கும்போது \( A \)-விருந்து \( B \) க்கு அமையும் சார்பு ஒன்றுக்கொன்றாக இருக்காது.
+The value of n must be positive. Why?
 
-3. எல்லா மேல்சார்புகளும் ஒன்றுக்கு ஒன்றான சார்புகளாகும்.
+**Progress Check**
 
-4. \( n(A) = 4, n(B) = 5 \) ஆக இருக்கும்போது \( A \)-யிலிருந்து \( B \)-க்கான சார்பு மேல் சார்பாக இருக்க முடியாது.
+State True or False. Justify it.
 
-5. \( A \)-விருந்து \( B \)-க்கான சார்பு \( f \) ஆனது, ஓர் இருபறச் சார்பு எனில், \( n(A) = n(B) \)
+- The nth term of any A.P. is of the form pn+q where p and q are some constants.
+- The sum to nth term of any A.P. is of the form pn 2 +qn + r where p , q, r are some constants.
 
-6. \( n(A) = n(B) \) எனில் \( f \) ஆனது, \( A \)-யிலிருந்து \( B \)-க்கு ஓர் இருபறச் சார்பு .
+Example 2.34 The 13 th term of an A.P. is 3 and the sum of first 13 terms is 234. Find the common difference and the sum of first 21 terms.
 
-7. எல்லா மாறிலிச் சார்புகளும் இருபுறச் சார்புகளாகும்.
+10th 64 Standard Mathematics
 
-எடுத்துக்காட்டு 1.17 \( f \) ஆனது \( \mathbb{R} \)-லிருந்து \( \mathbb{R} \)-க்கு ஆன சார்பு. மேலும் அது \( f(x) = 3x - 5 \) என வரையறுக்கப்படுகிறது. \( (a, 4) \) மற்றும் \( (1, b) \) எனக் கொடுக்கப்பட்டால் \( a \) மற்றும் \( b \)-யின் மதிப்புகளைக் காண்க.
+Solving (1) and (2) we get, a = 33 , d = − 5 2
 
-தீர்வு \( f(x) = 3x - 5 \), \( f = \{(x, 3x - 5) \mid x \in \mathbb{R}\} \) என எழுதலாம்.
+Therefore, common difference is - 5 2 .
 
-\( (a, 4) \) எனில், \( a \)-யின் நிழல் உரு 4. அதாவது, \( f(a) = 4 \)
+Example 2.35 In an A.P. the sum of first n terms is 5 2 3 2 2 3nn + . Find the 17 th term. Solution The 17th term can be obtained by subtracting the sum of first 16 terms from the sum of first 17 terms
 
-\( 3a - 5 = 4 \)-லிருந்து \( a = 3 \)
+Example 2.36 Find the sum of all natural numbers between 300 and 600 which are divisible by 7 .
 
-\( (1, b) \) எனில், 1 -யின் நிழல் உரு \( b \). அதாவது, \( f(1) = b \)
+The natural numbers between 300 and 600 which are divisible by 7 are 301 , 308 , 315 , …, 595 .
 
-\( 3(1) - 5 = b \) எனவே, \( b = -2 \)
+The terms of the above series are in A.P.
 
-எடுத்துக்காட்டு 1.18 சார்பு \( f : \mathbb{R} \to \mathbb{R} \) ஆனது \( f(x) = \begin{cases} 2x + 7; & x < -2 \\ x^2 - 2; & -2 \leq x < 3 \\ 3x - 2; & x \geq 3 \end{cases} \)
+First term a = 301 ; common difference d = 7 ; Last term l = 595 .
 
-என வரையறுக்கப்பட்டால்,
+Example 2.37 A mosaic is designed in the shape of an equilateral triangle, 12 ft on each side. Each tile in the mosaic is in the shape of an equilateral triangle of 12 inch side. The tiles are alternate in colour as shown in the figure. Find the number of tiles of each colour and total number of tiles in the mosaic.
 
-(i) \( f(4) \) (ii) \( f(-2) \) (iii) \( f(4) + 2f(1) \) (iv) \( \frac{f(1) - 3f(4)}{f(-3)} \)
+Since the mosaic is in the shape of an equilateral triangle of 12 feet, and the tile is in the shape of an equilateral triangle of 12 inch (1 feet), there will be 12 rows in the mosaic.
 
-ஆகியவற்றின் மதிப்புகளைக் காண்க.
+![](assets/page_030_picture_003.png)
 
-தீர்வு அருகில் காட்டியுள்ளபடி சார்பு \( f \) ஆனது I, II, III என்ற மூன்று இடைவெளிகளில் வரையறுக்கப்படுகிறது.
+From the figure, it is clear that number of white tiles in each row are 1 , 2 , 3 , 4 , …, 12 which clearly forms an Arithmetic Progression.
 
-\( f(x) = 2x + 7 \) \( f(x) = x^2 - 2 \) \( f(x) = 3x - 2 \)
+Similarly the number of blue tiles in each row are 0 , 1 , 2 , 3 , …, 11 which is also an Arithmetic Progression.
 
-\( x = a \), என்ற கொடுக்கப்பட்ட மதிப்பிற்கு \( a \)-இருக்கும் இடைவெளியைக் கண்டுபிடித்து, அந்த இடைவெளியில் \( f(a) \)-க்கு காண வேண்டும்.
+66 = 144
 
-(i) \( x = 4 \) ஆனது மூன்றாவது இடைவெளியில் உள்ளதை நாம் காணலாம்.
+Example 2.38 The houses of a street are numbered from 1 to 49. Senthil's house is numbered such that the sum of numbers of the houses prior to Senthil's house is equal to the sum of numbers of the houses following Senthil's house. Find Senthil's house number?
 
-இங்கு, \( f(x) = 3x - 2 \); \( f(4) = 3(4) - 2 = 10 \)
+Let Senthil's house number be x .
 
-(ii) \( x = -2 \) ஆனது இரண்டாவது இடைவெளியில் உள்ளது.
+Therefore, Senthil's house number is 35 .
 
-எனவே, \( f(x) = x^2 - 2 \); \( f(-2) = (-2)^2 - 2 = 2 \)
+If SS12 , SS12 , and S3 S3 are sum of first n , 2n and 3n terms of an A.P. respectively then
 
-(iii) (i) -லிருந்து, \( f(4) = 10 \).
+10th 66 Standard Mathematics
 
-\( f(1) \)-ன் மதிப்பைக் காண, \( x = 1 \) ஆனது இரண்டாவது இடைவெளியில் உள்ளது.
+**Thinking Corner**
 
-ஆகையினால், \( f(x) = x^2 - 2 \)-லிருந்து, \( f(1) = 1^2 - 2 = -1 \)
+- What is the sum of first n n odd natural numbers?
+- What is the sum of first n n even natural numbers?
 
-எனவே, \( f(4) + 2f(1) = 10 + 2(-1) = 8 \)
+![](assets/page_032_picture_003.png)
 
-(iv) \( f(1) = -1 \), \( f(4) = 10 \) எனக் கண்டோம். \( f(-3) \)-யைக் காண \( x = -3 \) ஆனது ஒன்றாவது இடைவெளியில் உள்ளதைக் காணலாம்.
+- Find the sum of the following
 
-ஆகையினால், \( f(x) = 2x + 7 \); எனவே, \( f(-3) = 2(-3) + 7 = 1 \)
+- (ii) 102 , 97 , 92,… up to 27 terms.
 
-எனவே, \( \frac{f(1) - 3f(4)}{f(-3)} = \frac{-1 - 3(10)}{1} = -31 \)
+- How many consecutive odd integers beginning with 5 will sum to 480?
+- Find the sum of first 28 terms of an A.P. whose nth term is 43 n - - .
+- The sum of first n terms of a certain series is given as 23 2n2 3 nn - - . Show that the series is an A.P.
+- The 104th term and 4th term of an A.P. are 125 and 0. Find the sum of first 35 terms.
+- Find the sum of all odd positive integers less than 450 .
+- Find the sum of all natural numbers between 602 and 902 which are not divisible by 4 .
+- Raghu wish to buy a laptop. He can buy it by paying ₹40 , 000 cash or by giving it in 10 installments as ₹4800 in the first month, ₹4750 in the second month, ₹4700 in the third month and so on. If he pays the money in this fashion, find
+- (i) total amount paid in 10 installments.
+- (ii) how much extra amount that he has to pay than the cost?
+- A man repays a loan of ₹65 , 000 by paying ₹400 in the first month and then increasing the payment by ₹300 every month. How long will it take for him to clear the loan?
+- A brick staircase has a total of 30 steps. The bottom step requires 100 bricks. Each successive step requires two bricks less than the previous step.
+- (i) How many bricks are required for the top most step?
+- (ii) How many bricks are required to build the stair case?
 
-1. கீழே கொருக்கப்பட்ட வரையங்கள் சார்பைக் குறிக்கின்றனவா எனத் தீர்மானிக்கவும். விடைகளுக்கான காரணத்தையும் கொருக்கவும்..
+### 2.9 Geometric Progression
 
-2. \( f : A \to B \) என்ற சார்பானது \( f ( x ) = x - 1 \), என வரையறுக்கப்படுகிறது. இங்கு, \( A = \{ 2, 4, 6, 10, 12 \} \), \( B = \{ 0, 1, 2, 4, 5, 9 \} \) ஆக இருச்கும்போது சார்பு \( f \)-ஐ பின்வரும் முறைகளில் குறிக்க
+In the diagram given in Fig.2.13, D DEF is formed by joining the mid points of the sides AB, BC and CA of D ABC. Then the size of the triangle D DEF is exactly one-fourth of the size of D ABC. Similarly D GHI is also one-fourth of D DEF and so on. In general, the successive areas are one-fourth of the previous areas.
 
-(i) வரிமைச் ச�ோடிகளின் கணம் (ii) அட்டவணை (iii) அம்புக்குறி படம் (iv) வரைபடம்
+The area of these triangles are
 
-3. \( f = \{(1,2),(2,2),(3,2),(4,3),(5,4)\} \) என்ற சார்பினை
+In this case, we see that beginning with D ABC, C, we see that the successive triangles are formed whose areas are precisely one-fourth the area of the previous triangle. So, each term is obtained by multiplying 1 4 to the previous term.
 
-(i) அம்புக்குறி படம் (ii) அட்டவணை (iii) வரையடம் மூலமாகக் குறிக்கவும்.
+As another case, let us consider that a viral disease is spreading in a way such that at any stage two new persons get affected from an affected person. At first stage, one person is affected, at second stage two persons are affected and is spreading to four persons and so on. Then, number of persons affected at each stage are 1 , 2 , 4 , 8, ... where except the first term, each term is precisely twice the previous term.
 
-4. \( f : \mathbb{N} \to \mathbb{N} \) என்ற சார்பு \( f ( x ) = 2 x - 1 \) என வரையறுக்கப்பட்டால் அது ஒன்றுக்கு ஒன்றான ஆனால் மேல் சார்பு இல்லை எனக் காட்டுக.
+From the above examples, it is clear that each term is got by multiplying a fixed number to the preceding number.
 
-5. \( f : \mathbb{N} \to \mathbb{N} \) என்ற சார்பு \( f ( m ) = m^2 + m + 3 \) என வரையறுக்கப்பட்டால் அது ஒன்றுக்கு ஒன்றான சார்பு எனக் காட்டுக.
+This idea leads us to the concept of Geometric Progression.
 
-6. \( A = \{1,2,3,4\} \) மற்றும் \( B = \mathbb{N} \) எனக். மேலும் \( f : A \to B \) ஆனது \( f ( x ) = x^3 \) என வரையறுக்கப்படுகிறது எனில், (i) \( f \)-யின் வீச்சகத்தைக் காண்க. (ii) \( f \) வவ்வகை சார்பு எனக் காண்க.
+**Definition**
 
-7. கீேழ கொருக்கப்பட்ட ஒவ்வொரு சார்பும் இருபுரச் சார்பா, இல்வையா? உன் விடைக்கான காரணத்தைக் கூறுக.
+![](assets/page_033_picture_004.png)
 
-\[
-(i) f : \mathbb{R} \to \mathbb{R} \text{ ஆனது } f(x) = 2x + 1 \qquad (ii) f : \mathbb{R} \to \mathbb{R} \text{ ஆனது } f(x) = 3 - 4x^2
-\]
+![](assets/page_033_picture_005.png)
 
-8. \( A = \{-1,1\} \) மற்றும் \( B = \{0,2\} \) என்க. மேலும், \( f : A \to B \) ஆனது \( f ( x ) = a x + b \) என வரையறுக்கப்பட்ட மேல்சார்பு எனில், \( a \) மற்றும் \( b \)-ஐக் காண்க.
+A Geometric Progression is a sequence in which each term is obtained by multiplying a fixed non-zero number to the preceding term except the first term. The fixed number is called common ratio. The common ratio is usually denoted by r .
 
-9. \( f \) என்ற சார்பானது \( f ( x ) = \begin{cases} x + 2 & ; x > 1 \\ 2 & ; - 1 \leq x \leq 1 \\ x - 1 & ; - 3 < x < - 1 \end{cases} \)
+#### 2.9.1 General form of Geometric Progression
 
-(i) \( f(3) \) (ii) \( f(0) \) (iii) \( f(-1 \cdot 5) \) (iv) \( f(2) + f(-2) \) ஆகியவற்றின் மதிப்புகளைக் காண்க.
+#### 2.9.2 General term of Geometric Progression
 
-10. \( f : [-5,9] \to \mathbb{R} \) என்ற சார்பானது பின்வருமாறு வரையறுக்கப்படுகிறது
+We try to find a formula for n th term or general term of Geometric Progression (G.P.) whose terms are in the common ratio.
 
-\[
-f(x) = \begin{cases} 6x + 1 & ; -5 \le x < 2 \\ 5x^2 - 1 & ; 2 \le x < 6 \\ 3x - 4 & ; 6 \le x \le 9 \end{cases}
-\]
+10th 68 Standard Mathematics aararar ,, ,..., n ar,, , ... ar ,, ... n 21 - - where a is the first term and 'r' is the common ratio. Let t n be the n th term of the G.P.
 
-என வரையறுக்கப்படுகிறது எனில், பின்வருவனவற்றைக் காண்க. (i) \( f(-3) + f(2) \) (ii) \( f(7) - f(1) \) (iii) \( 2f(4) + f(8) \) (iv) \( \frac{2f(-2) - f(6)}{f(4) + f(-2)} \)
+Thus, the general term or n th term of a G.P. is t n = ar n - 1
 
-11. புவியீர்ப்பு விசையின் காரணமாக t வினாடிகளில் ஒரு பொருள் கடக்கும் தூரமானது
+If we consider the ratio of successive terms of the G.P. then we have
 
-\[
-S(t) = \frac{1}{2}gt^2 + at + b
-\]
+Thus, the ratio between any two consecutive terms of the Geometric Progression is always constant and that constant is the common ratio of the given Progression.
 
-எனக் கொடுக்கப்பட்டுள்ளது. இங்கு \( a > 0, b \) ஆகியவை மாறிலிகள் (\( g \) ஆனது புவியீர்ப்பு விசையின் காரணமாக ஏற்படும் முக்கம். \( S(t) \) ஆனது ஒன்றுக்கொன்றான சார்பாகமா என ஆராய்க.
+**Progress Check**
 
-12. t என்ற சார்பானது செல்சியனில் (C) உள்ள வெப்பநிலையையும், பாரண்டீட்டில் (F) உள்ள வெப்பநிலையையும் இணைக்கும் சார்பாகும். மேலும் அது \( t(C) = F \) என வரையறுக்கப்பட்டால்,
+- A G.P. is obtained by multiplying _____ to the preceding term.
+- The ratio between any two consecutive terms of the G.P. is _____ and it is called _____.
+- Fill in the blanks if the following are in G.P.
 
-(இங்கு \( F = \frac{9}{5}C + 32 \)).
+Example 2.40 Which of the following sequences form a Geometric Progression?
 
-(i) \( t(0) \) (ii) \( t(28) \) (iii) \( t(-10) \)
+To check if a given sequence form a G.P. we have to see if the ratio between successive terms are equal.
 
-(iv) \( t(C) = 212 \) ஆக இருக்கும்போது \( C \)-ன் மதிப்பு
+Since the ratios between successive terms are not equal, the sequence 7 , 14 , 21 , 28, … is not a Geometric Progression.
 
-(v) செல்சியஸ் மதிப்பும் பாரண்டீட் மதிப்பும் சமமாக இருக்கும்போது வெப்பநிலை ஆகியவற்றைக் கண்டறிக.
+Here the ratios between successive terms are equal. Therefore the sequence
 
-## 1.9 சார்புகளின் சேர்ப்பு (Composition of Functions)
+1 2 ,,1 ,12 ,, 4 4 ... is a Geometric Progression with common ratio r = 2 .
 
-ஒர் ஒட்ரநர், மகிழுந்தின் வேகத்தை கட்ரப்ரபுத்தும் ேபாது எரிபொருள் பாயும் அளவு குறைந்து மகிழுந்தின் வேகத்தில் மாற்றம் ஏற்படுகின்றது. இதைப்ேபாலேவ இரண்டு சார்புகளின் ேசர்ப்பு ஒரு 'ெதாடர் விளைவை' ஏற்படுத்தும் ெசயலாகும். அதாவது இங்குச் சார்புகள் ஒன்றிற்குப் பிறகு ஒன்றாகச் ெசயல்படுத்தப்படுகிறது. (படம் 1.40)
+**Thinking Corner**
 
-இதை மேலும் விவரிக்க வேண்டுமென்றால், சார்பானது ஒரு நிகழ்வாகும். \( f \) மற்றும் \( g \) ஆனது இரண்டு சார்புகள் எனில், சார்புகளின் சேர்ப்பு \( g(f(x)) \) பின்வருமாறு இருநிலைகள் மூலம் காணலாம்.
+Since the ratios between successive terms are not equal, the sequence 5 , 25 , 50 , 75,... is not a Geometric Progression.
 
-(i) \( f \)-க்கு \( x \) என்ற உள்ளீட்டை வழங்குக;
+Example 2.41 Find the geometric progression whose first term and common ratios are given by (i) a =−7 , r = 6 (ii) a = 256 , r = 0.5
 
-(ii) \( f(x) \) என்ற \( f \)-யின் வெளியீட்டை \( g \)-யின் உள்ளீடாகச் செலுத்துக. வெளியீடை \( g(f(x)) \) என அழைக்கிறோம்
+(i) The general form of Geometric progression is a , ar, r, ar 2 ,...
 
-**விளக்கம்**
+Therefore the required Geometric Progression is −7, − 42, − 252 ,...
 
-10-ஆம் வகுப்பு பொதுத் தேர்வு எழுதிய மாணவர்களைக் கொண்ட கணம் A என எடுத்துக்கொள்ளலாம். பொதுத்தேர்வு எழுதும் ஒவ்வொரு மாணவருக்கும் வரிசை என்னக் கொடுக்கப்பட்டுள்ளன. தேர்வுத் துறை ரகசியமாக, அந்த வரிசை என்னனிற்குப் பதிலாகச் சங்கதே என்னைனக் கொடுத்துள்ளது.
+- , ar, r, ar 2 ,...
+- (ii) The general form of Geometric progression is a
 
-A என்ற கணமானது பொதுத்தேர்வு எழுதும் மாணவர்களின் கணமாகும். \( B \subseteq \mathbb{N} \) என்பது வரிசை என்களின் கணம் மற்றும் \( C \subseteq \mathbb{N} \) என்பது சங்கதே என்களின் (Code number) கணம் எனக் படம் 1.41-ன் இதன் மூலம் இரண்டு சார்புகள் \( f : A \to B \) மற்றும் \( g : B \to C \) கிடைக்கப் பெறுகின்றன.
+Therefore the required Geometric progression is 256 , 128 , 64 ,....
 
-\( b = f(a) \) ஆனது மாணவர் \( a \)-க்கு கொடுக்கப்பட்ட வரிசை என் ஆகும். \( c = g(b) \) ஆனது வரிசை எண்ணிற்குக் கொடுக்கப்பட்ட சங்கேத எண் எனவும் கொள்க. இங்கு \( a \in A, b \in B \) மற்றும் \( c \in C \).
+**Progress Check**
 
-இதை \( c = g(b) = g(f(a)) \) எனவும் எழுதலாம்.
+- If first term = a , common ratio = r, then find the value of t9 t9 and t 27 .
 
-எனவே, \( f, g \) ஆகிய இரண்டு சார்புகளின் சேர்பினால் மாணவர் சங்கேத எண்ணுடன் இணைக்கப்படுகிறார். இதிலிருந்து கிடைப்பதே பின்வரும் வரையறையாகும்.
+Example 2.42 Find the 8 th term of the G.P. 9 , 3 , 1 ,…
 
-**வரையறை**
+To find the 8th term we have to use the n th term formula tar = n n = − 1
 
-\( f : A \to B \) மற்றும் \( g : B \to C \) ஆகியன இரண்டு சார்புகள் எனில், (படம் 1.42) \( f \) மற்றும் \( g \)-ன் சார்புகளின் சேர்ப்பு \( g \circ f \)-ஐ \( g \circ f(x) = g(f(x)) \) \( \forall x \in A \) என வரையறுக்கலாம்.
+Therefore the 8th term of the G.P. is 1 243 .
 
-எடுத்துக்காட்டு 1.19 \( f(x) = 2x + 1 \) மற்றும் \( g(x) = x^2 - 2 \) எனில், \( f \circ g \) மற்றும் \( g \circ f \)-ஐ காண்க.
+Example 2.43 In a Geometric progression, the 4 th term is 8 9 and the 7th term is 64 243 . Find the Geometric Progression.
 
-தீர்வு \( f(x) = 2x + 1 \), \( g(x) = x^2 - 2 \)
+10th 70 Standard Mathematics
 
-\( f \circ g(x) = f(g(x)) = f(x^2 - 2) = 2(x^2 - 2) + 1 = 2x^2 - 3 \)
+Therefore the Geometric Progression is a, ar, ar 2 , … That is, 3 , 2 , 4 3 , ...
 
-\( g \circ f(x) = g(f(x)) = g(2x + 1) = (2x + 1)^2 - 2 = 4x^2 + 4x - 1 \)
+**Note**
 
-எனவே \( f \circ g = 2x^2 - 3 \), \( g \circ f = 4x^2 + 4x - 1 \). மேற்கண்டவற்றிலிருந்து \( f \circ g \neq g \circ f \). என அறிகிறோம்.
+- ¾ When the product of three consecutive terms of a G.P. are given, we can take the three terms as a r , a , ar. r.
+- ¾ When the products of four consecutive terms are given for a G.P. then we can take the four terms as a r 3 , a r , ar, r, ar 3 .
+- ¾ When each term of a Geometric Progression is multiplied or divided by a non– zero constant then the resulting sequence is also a Geometric Progression.
 
-**குறிப்பு**
+Example 2.44 The product of three consecutive terms of a Geometric Progression is 343 and their sum is 91 3 . Find the three terms.
 
-பொதுவாக, ஏதேனும் இரு சார்புகள் \( f \) மற்றும் \( g \)-க்கு, \( f \circ g \neq g \circ f \) ஆகும். எனவே சார்புகளின் சேர்புச் செயலி பரிமாற்று விதியைப் பூர்த்தி செய்வதில்லை.
+Since the product of 3 consecutive terms is given.
 
-எடுத்துக்காட்டு 1.20 \( f(x) = \sqrt{2x^2 - 5x + 3} \)-ஐ இரு சார்புகளின் சேர்ப்பாகக் குறிக்க.
+**Thinking Corner**
 
-தீர்வு \( f_2(x) = 2x^2 - 5x + 3 \) மற்றும் \( f_1(x) = \sqrt{x} \) என வரையறுப்போம்.
+we can take them as a r ,, a , aar . Product of the terms = 343
 
-எனவே, \( f(x) = \sqrt{2x^2 - 5x + 3} = \sqrt{f_2(x)} \)
+- Split 64 into three parts such that the numbers are in G.P.
 
-\( = f_1[f_2(x)] = f_1 f_2(x) \)
+- If a , b , c , … are in G.P. then 2a , 2b , 2c , …. are in ______
 
-எடுத்துக்காட்டு 1.21 If \( f(x) = 3x - 2 \), \( g(x) = 2x + k \) மற்றும் \( f \circ g = g \circ f \) எனில், \( k \) யின் மதிப்பைக் காண்க.
+Sum of the terms = 91
 
-தீர்வு \( f(x) = 3x - 2 \), \( g(x) = 2x + k \)
+- If 3 , x , 6 . 75 are in G.P. then x is ______
 
-\( f \circ g(x) = f(g(x)) = f(2x + k) = 3(2x + k) - 2 = 6x + 3k - 2 \)
+**Progress Check**
 
-எனவே, \( f \circ g(x) = 6x + 3k - 2 \).
+Three non-zero numbers a , b,c are in G.P. if and only if _____.
 
-\( g \circ f(x) = g(3x - 2) = 2(3x - 2) + k \)
+If a = 7 , r = 3 then the three terms are 7 3 , 7 , 21 .
 
-எனவே, \( g \circ f(x) = 6x - 4 + k \).
+**Condition for three numbers to be in G.P.**
 
-\( f \circ g = g \circ f \) எனக் கொடுக்கப்பட்டுள்ளது.
+Example 2.45 The present value of a machine is ₹40 , 000 and its value depreciates each year by 10%. Find the estimated value of the machine in the 6 th year.
 
-\( 6x + 3k - 2 = 6x - 4 + k \)
+The value of the machine at present is ₹40 , 000. Since it is depreciated at the rate of 10% after one year the value of the machine is 90% of the initial value.
 
-\( 6x - 6x + 3k - k = -4 + 2 \Rightarrow 2k = -2 \Rightarrow k = -1 \)
+After two years, the value of the machine is 90% of the value in the first year.
 
-குறிப்பு
+Continuing this way, the value of the machine depreciates in the following way as
 
-சார்புகளின் சேர்ப்பு \( g \circ f(x) \) இருக்கும். சார்பகம் \( g \)-யின் உட்கணமாக, \( f \)-யின் வீச்சம் இருந்தால் மட்டுமே சார்புகளின் சேர்ப்பு \( g \circ f(x) \) இருக்கும்.
+This sequence is in the form of G.P. with first term 40 , 000 and common ratio 90 100 . For finding the value of the machine at the end of 5 th year (i.e. in 6 th year), we need to find the sixth term of this G.P.
 
-ෆර්ඩුක්කකරු 1.22 \( f \circ f(k) = 5 \), \( f(k) = 2k - 1 \) எனில், \( k \)-யின் மதிப்பைக் காண்க.
+Therefore the value of the machine in 6th year = ₹23619 . 60
 
-தீர்வு \( f \circ f(k) = f(f(k)) = 2(2k - 1) - 1 = 4k - 3 \).
+![](assets/page_037_picture_003.png)
 
-எனவே, \( f \circ f(k) = 4k - 3 \)
+- Which of the following sequences are in G.P.?
 
-ஆனால் \( f \circ f(k) = 5 \) எனக் கொடுக்கப்பட்டுள்ளது.
+- Write the first three terms of the G.P. whose first term and the common ratio are given below.
 
-\( 4k - 3 = 5 \Rightarrow k = 2 \)
+- In a G.P. 729 , 243 , 81,… find t 7 .
+- Find x so that x + 6, x + 12 and x + 15 are consecutive terms of a Geometric Progression.
+- Find the number of terms in the following G.P.
 
-### 1.9.1 மூன்று சார்புகளின் சேர்ப்பு (Composition of three functions)
+10th 72 Standard Mathematics
 
-\( A,B,C,D \) ஆகியவை நான்கு கணங்கள் மற்றும் \( f : A \to B \), \( g : B \to C \) மற்றும் \( h : C \to D \) ஆகியவை மூன்று சார்புகள் எனக். சார்புகளின் சேர்ப்பு (படம் 1.43) \( f \circ g \) மற்றும் \( g \circ h \), ஆகியவறைப் பயன்படுத்தி இரண்டு புதுச் சார்புகள் \( ( f \circ g ) \circ h \) மற்றும் \( f \circ ( g \circ h ) \) ஆகியவை கிடைக்கப் பெறலாம். சார்புகளின் சேர்ப்பு பரிமாற்று விதியைப் பூர்த்தி செய்வதில்லை என்பதை நாம் அறிவோம். இது சேர்ப்பு விதியைப் பூர்த்தி செய்யும்?
+- In a G.P. the 9th term is 32805 and 6th term is 1215. Find the 12th term.
+- Find the 10th term of a G.P. whose 8th term is 768 and the common ratio is 2 .
+- In a G.P. the product of three consecutive terms is 27 and the sum of the product of two terms taken at a time is 57 2 . Find the three terms.
+- A man joined a company as Assistant Manager. The company gave him a starting salary of ₹60 , 000 and agreed to increase his salary 5% annually. What will be his salary after 5 years?
+- Sivamani is attending an interview for a job and the company gave two offers to him. Offer A: ₹20 , 000 to start with followed by a guaranteed annual increase of 6% for the first 5 years.
+- Offer B: ₹22 , 000 to start with followed by a guaranteed annual increase of 3% for the first 5 years.
 
-ஞாய்ப்பு
+What is his salary in the 4 th year with respect to the offers A and B?
 
-மூன்று சார்புகளின் சேர்ப்பானது எப்போதும் சேர்ப்பு விதியைப் பூர்த்தி செய்யும். அதாவது, \( f \circ ( g \circ h ) = ( f \circ g ) \circ h \)
+### 2.10 Sum to n terms of a Geometric progression
 
-எடுத்துக்காட்டு 1.23 \( f(x) = 2x + 3, g(x) = 1 - 2x \) மற்றும் \( h(x) = 3x \) எனில், \( f \circ (g \circ h) = (f \circ g) \circ h \) என நிறுவக.
+A series whose terms are in Geometric progression is called Geometric series.
 
-தீர்வு \( f(x) = 2x + 3, g(x) = 1 - 2x, h(x) = 3x \)
+Let a , ar, r, ar 2 , ... ar n - 1 , ... be the Geometric Progression.
 
-இப்போது, \( (f \circ g) (x) = f(g(x)) = f(1 - 2x) = 2(1 - 2x) + 3 = 5 - 4x \)
+The sum of first n terms of the Geometric progression is
 
-மேலும், \( (f \circ g) \circ h(x) = (f \circ g)(h(x)) = (f \circ g)(3x) = 5 - 4(3x) = 5 - 12x \) ....(1)
+**Progress Check**
 
-\( (g \circ h)(x) = g(h(x)) = g(3x) = 1 - 2(3x) = 1 - 6x \)
+- A series whose terms are in Geometric progression is called _______.
 
-மேலும், \( f \circ (g \circ h)(x) = f(1 - 6x) = 2(1 - 6x) + 3 = 5 - 12x \) ....(2)
+The above formula for sum of first n terms of a G.P. is not applicable when r = 1 .
 
-(1) மற்றும் (2) -விருத்து, \( (f \circ g) \circ h = f \circ (g \circ h) \)
+- Whenr = 1 , the formula for finding sum to n terms of a G.P. is ______.
 
-எடுத்துக்காட்டு 1.24 \( f(x) = 3x + 1 \) , \( g(x) = x + 3 \) ஆகியவை இரு சார்புகள். மேலும்
+- Whenr ¹ 1 , the formula for finding sum to n terms of a G.P. is ______.
 
-\( gff(x) = fgg(x) \) எனில் \( x \)-ஐக் காண்க.
+#### 2.10.1 Sum to infinite terms of a G.P.
 
-தீர்வு \( gff(x) = g [f \{f (x)\}] \)
+Example 2.46 Find the sum of 8 terms of the G.P. 13 ,− 3 ,, 3 −−9 −92 , , 7 …
 
-\( = g [f (3x+1)] = g [3(3x+1)+1] = g (9x+4) \)
+Example 2.47 Find the first term of a G.P. in which S6 S6 = 4095 and r = 4 .
 
-\( g(9x+4) = [9x+4] + 3 = 9x+7 \)
+Common ratio=>41, Sum of first 6 terms S6 S6 = 4095
 
-\( fgg(x) = f[g\{g(x)\}] \)
+Let n be the number of terms to be added to get the sum 1365
 
-\( = f[g(x+3)] = f[(x+3)+3] = f(x+6) \)
+Example 2.50 Find the rational form of the number 0 . 6666 ¼
 
-\( f(x+6) = [3(x+6)+1] = 3x+19 \)
+We can express the number 0 . 6666 ¼ as follows
 
-\( gff(x) = fgg(x) \) எனவே, \( 9x + 7 = 3x + 19 \). இந்தச் சமன்பாடைத் தீர்க்க \( x = 2 \).
+**Progress Check**
 
-**முன்னேற்றச் ச�ோதனை**
+- Sum to infinite number of terms of a G.P. is ___.
+- For what values of r, does the formula for infinite G.P. valid?
 
-பின்வரும் வினாக்களுக்குச் சரியானவற்றைத் தேர்ந்தெடுப்பதன் மூலமாக விடை கூறுக.
+We now see that numbers 06. 6., 00. 0., 6 , 60 . 006 ... form a G.P. whose first term a = 06. . and
 
-1. சார்புகளின் சேர்ப்பானது பரிமாற்று விதிக்கு உட்பட்டது.
+Using the infinite G.P. formula, we have
 
-(அ) எப்ேபாᾐம் உண்ைமேய (ஆ) ஒᾞேபாᾐம் உண்ைமயில்ைல (இ) சில சமயங்களில் உண்ைம
+Thus the rational number equivalent of 0 . 6666 ¼ is 2 3
 
-2. சார்புகளின் சேர்ப்பானது சேர்ப்பு விதிக்கப்பட்டது.
+10th 74 Standard Mathematics
 
-(அ) எப்ேபாᾐம் உண்ைமேய (ஆ) ஒᾞேபாᾐம் உண்ைமயில்ைல (இ) சில சமயங்களில் உண்ைம
+![](assets/page_040_picture_002.png)
 
-**ெசயல்பாᾐ 4**
+The sides of a given square is 10 cm. The mid points of its sides are joined to form a new square. Again, the mid points of the sides of this new square are joined to form another square. This process is continued indefinitely. Find the sum of the areas and the sum of the perimeters of the squares formed through this process.
 
-\( h(x) = f \circ g(x) \) எனக் கொஞக்கப்பட்டால் அட்டவணையில் \( h(x) \)-ஐ பூர்த்தி செய்க.
+![](assets/page_040_picture_004.png)
 
-| \( x \) | \( f(x) \) | \( x \) | \( g(x) \) | \( x \) | \( h(x) \) |
-|---|---|---|---|---|---|
-| 1 | 2 | 1 | 2 | 1 | |
-| 2 | 3 | 2 | 3 | 2 | |
-| 3 | 4 | 3 | 4 | 3 | |
-| 4 | -3 | 4 | 1 | 4 | |
+The series is neither Arithmetic nor Geometric series. So it can be split into two series and then find the sum.
 
-\( h(1) \)-ஐ எவ்வாறு கண்டறிவது?
+We have to find the least number of terms for which the sum must be greater than 5000 .
 
-\( h(x) = f \circ g(x) \)
+That is, to find the least value of n. such that S n > 5000
 
-\( h(1) = f \circ g(1) \)
+Example 2.53 A person saved money every year, half as much as he could in the previous year. If he had totally saved ₹ 7875 in 6 years then how much did he save in the first year? Solution Total amount saved in 6 years is S6 S6 = 7875
 
-\( = f(2) = 3 \)
+Since he saved half as much money as every year he saved in the previous year,
 
-\( \therefore h(1) = 3 \)
+The amount saved in the first year is ₹ 4000 .
 
-## 1.10 ேநரிய, இருபடி, முப்படி மற்றும் தலைகீழ்ச் சார்புகளுக்கான வரைபடங்களை அடையாளம் காணுதல் (Identifying the graphs of Linear, Quadratic, Cubic and Reciprocal functions)
+![](assets/page_041_picture_003.png)
 
-வைளவரகள் மற்றும் சார்புகைள வரையடங்களில் காட்சிப்படுத்தலாம். எனவே கருத்துகளை நன்றாகப் புரிந்துகொள்ள வரையடங்கள் மிகுந்த உதவியாக உள்ளன. இந்தப் பிரிவில், நாம் சில சார்புகைள, வரையடங்கள் மூலமாக விவாதிக்க உள்ளோம். குறிப்பாக, நேரிய, இருபடி, முப்படி மற்றும் தலைகீழ்ச் சார்புகள் ஆகியவற்றைப் பற்றி அறிவோம்.
+- Find the sum of first six terms of the G.P. 5 , 15 , 45 , …
+- Find the first term of the G.P. whose common ratio 5 and whose sum to first 6 terms is 46872 .
+- If the first term of an infinite G.P. is 8 and its sum to infinity is 32 3 then find the common ratio.
+- Kumar writes a letter to four of his friends. He asks each one of them to copy the letter and mail to four different persons with the instruction that they continue the process similarly. Assuming that the process is unaltered and it costs ₹2 to mail one letter, find the amount spent on postage when 8 th set of letters is mailed.
+- Find the rational form of the number 0 . 123 .
 
-### 1.10.1 ேநரிய சார்புகள் (Linear Function)
+### 2.11 Special Series
 
-\( f : \mathbb{R} \to \mathbb{R} \) என்ற சார்பானது, \( f(x) = mx + c \), \( m \neq 0 \) என வரையறுக்கப்பட்டால், அது ேநரிய சார்பாகும். இதை, வடிவியல் முறையில் வரையடத்தில் ேநர்ேகாடாகக் குறிப்பிடலாம்.
+There are some series whose sum can be expressed by explicit formulae. Such series are called special series .
 
-ஒரு சில குறிப்பிட்ட ேநரிய சார்புகளும் அதன் வரையடங்களும் கீேழக் கொகுக்கப்பட்டுள்ளன.
+10th 76 Standard Mathematics Here we study some common special series like
 
-| எண் | சார்புகள் | சார்பகம் மற்றும் வரையறை | வரையடம் |
-|---|---|---|---|
-| 1 | சமனிச் சார்பு | \( f : \mathbb{R} \to \mathbb{R} \) ஆனது \( f(x) = x \) என வரையறுக்கப்படுகிறது. | |
-| 2 | கூட்டல் தலைகீழிச் சார்பு | \( f : \mathbb{R} \to \mathbb{R} \) ஆனது \( f(x) = -x \) என வரையறுக்கப்படுகிறது | |
+- (i) Sum of first 'n' natural numbers
+- (ii) Sum of first 'n' odd natural numbers.
+- (iii) Sum of squares of first 'n' natural numbers.
+- (iv) Sum of cubes of first 'n' natural numbers.
 
-### 1.10.2 மட்டு அல்லது மிகை மதிப்புச் சார்பு (Modulus or Absolute valued Function)
+#### 2.11.1 Sum of first n natural numbers
 
-\( f : \mathbb{R} \to [0, \infty) \) ஆனது \( f(x) = |x| = \begin{cases} x, & x \ge 0 \\ -x, & x < 0 \end{cases} \)
+Adding all these equations and cancelling the terms on the Left Hand side, we get,
 
-வரையறுக்கப்படுகிறது. இதன் வரையடத்தைக் காண்க.
+#### 2.11.2 Sum of first n odd natural numbers
 
-**கற்பி**
+#### 2.11.3 Sum of squares of first n natural numbers
 
-➤ மட்டுச்சார்பானது ஒரு நேரிய சார்பு இல்லை. ஆனால் அது இரு நேரியச் சார்புகள் \( x \) மற்றும் \( -x \) கலந்த கலையாகும்.
+Adding all these equations and cancelling the terms on the Left Hand side, we get,
 
-➤ நேரிய சமன்பாகுகள் எப்போதும் ஒன்றுக்கு ஒன்றான சார்புகள் மற்றும் அவை குழுக் குறியியல் (Cryptography) பயன்பாகுகளுக்கும், அறிவியல் மற்றும் தொழில் நுட்பத்தில் சில உப்பிரிவுகளிலும் பயன்படுகின்றன.
+#### 2.11.4 Sum of cubes of first n natural numbers
 
-### 1.10.3 இருபடிச் சார்பு (Quadratic Function)
+Adding all these equations and cancelling the terms on the Left Hand side, we get,
 
-ஒரு சார்பு \( f: \mathbb{R} \to \mathbb{R} \), \( f(x) = ax^2 + bx + c \), (\( a \neq 0 \)) என வரையறுக்கப்பட்டால், அதை இருபடிச் சார்பு என்கிறோம்.
+![](assets/page_043_picture_004.png)
 
-சில குறிப்பிட்ட இருபடிச் சார்புகள் மற்றும் அதன் வரையடங்கள்
+**Ideal Friendship**
 
-| சார்பு, சார்பகம், வீச்சகம் மற்றும் வரையறை | வரையடம் |
-|---|---|
-| \( f: \mathbb{R} \to \mathbb{R} \) ஆனது \( f(x) = x^2 \), \( x \in \mathbb{R} \). \( f(x) \in [0, \infty) \) என வரையறுக்கப்படுகிறது. | |
-| \( f: \mathbb{R} \to \mathbb{R} \) ஆனது \( f(x) = -x^2 \), \( x \in \mathbb{R} \). \( f(x) \in (-\infty, 0] \) என வரையறுக்கப்படுகிறது. | |
+Consider the numbers 220 and 284 .
 
-### 1.10.4 முப்படச் சார்பு (Cubic Function)
+Sum of the divisors of 220 (excluding 220) = 1+2+4+5+10+11+20+22+44+55+110=284
 
-ஒரு சார்பு \( f : \mathbb{R} \to \mathbb{R} \) , \( f(x) = ax^3 + bx^2 + cx + d \), (\( a \neq 0 \)) என வரையறுக்கப்பட்டால், அரதக் கனச் சார்பு அல்லது முப்படச் சார்பு என அரழக்கிராம். \( f(x) = x^3 \)-ன் வரையடமானது (படம் 1.48)-ல் காட்டப்பட்டுள்ளது.
+Sum of the divisors of 284 (excluding 284) =1+2+4+71+142=220 .
 
-### 1.10.5 தலைகீழ்ச் சார்பு (Reciprocal Function)
+Thus, sum of divisors of one number excluding itself is the other. Such pair of numbers is called Amicable Numbers or Friendly Numbers.
 
-ஒரு சார்பு \( f : \mathbb{R} -\{0\} \to \mathbb{R} \) , \( f(x) = \frac{1}{x} \) என வரையறுக்கப்பட்டால், அது தலைகீழ்ச் சார்பு எனப்படும் (படம் 1.49).
+220 and 284 are least pair of Amicable Numbers. They were discovered by Pythagoras. We now know more than 12 million amicable pair of Numbers.
 
-### 1.10.6 மாறிவிச் சார்பு (Constant Function)
+![](assets/page_044_picture_002.png)
 
-ஒரு சார்பு \( f : \mathbb{R} \to \mathbb{R} \) ஐ \( f(x) = c \), \( \forall x \in \mathbb{R} \) என வரையறுக்கப்பட்டால், அது மாறிவிச் சார்பு எனப்படும். (படம் 1.50).
+**Take a triangle like this**
 
-**முன்னேற்றச் ச�ோதனை**
+![](assets/page_044_picture_003.png)
 
-1. ஒரு மாறிவிச் சார்பு நேரிய சார்பாகுமா?
+![](assets/page_044_picture_006.png)
 
-2. இருபடிச் சார்பு ஒன்றுக்கொன்றான சார்பாகுமா?
+Join the second triangle with the first to get Make another triangle like this.
 
-3. கனச் சார்பு ஒன்றுக்கொன்றான சார்பாகுமா?
+Thus, two copies of 1 ++234 + provide a rectangle of size 45 ´ .
 
-4. தலைகீழ்ச் சார்பு இருபற்சார்பாகுமா?
+We can write in numbers, what we did with pictures.
 
-5. \( f : A \to B \) ஆனது மாறிவிச் சார்பு எனில் \( f \)-யின் வீச்சகத்தில் உள்ள உறுப்புகளின் எண்ணிக்கை — ஆகும்.
+![](assets/page_044_picture_007.png)
 
-**பயிற்சி 1.5**
+In a similar, fashion, try to find the sum of first 5 natural numbers. Can you relate these answers to any of the known formula?
 
-1. கீழேக் கொருக்கப்படுள்ள மற்றும் g எனும் சார்புகளைப் பயன்படுத்தி \( f \circ g \) மற்றும் \( g \circ f \)-ஐக் காண்க. \( f \circ g = g \circ f \) என்பது சரியா ச�ோதிக்க.
+- The sum of first n natural numbers are also called Triangular Numbers because they form triangle shapes.
+- The sum of squares of first n natural numbers are also called Square Pyramidal Numbers because they form pyramid shapes with square base.
 
-(i) \( f(x) = x - 6, g(x) = x^2 \) (ii) \( f(x) = \frac{2}{x}, g(x) = \frac{2x^2 - 1}{x} \)
+**Thinking Corner**
 
-(iii) \( f(x) = \frac{x + 6}{3}, g(x) = 3 - x \) (iv) \( f(x) = \sqrt{3 + x}, g(x) = x - 4 \)
+- How many squares are there in a standard chess board?
+- How many rectangles are there in a standard chess board?
 
-(v) \( f(x) = 4x^2 - 1, g(x) = 1 + x \)
+Here is a summary of list of some useful summation formulae which we discussed. These formulae are used in solving summation problems with finite terms.
 
-2. \( f \circ g = g \circ f \) எனில் k-யின் மதிப்பைக் காண்க.
+Example 2.54 Find the value of (i)12 ++ 35 ++ ... ... 0 (ii) 16 ++ 17 18 ++ ... ... 75
 
-(i) \( f(x) = 3x + 2, g(x) = 6x - k \) (ii) \( f(x) = 2x - k, g(x) = 4x + 5 \)
+**Progress Check**
 
-3. \( f(x) = 2x - 1, g(x) = \frac{x + 1}{2} \) எனில், \( f \circ g = g \circ f = x \) எனக் காட்டுக.
+- The sum of cubes of first n natural numbers is __________ of the first n natural numbers.
+- The average of first 100 natural numbers is __________.
 
-4. \( f(x) = x^2 - 1, g(x) = x - 2 \) மற்றும் \( g \circ f(a) = 1 \) எனில், \( a \)-ஐக் காண்க.
+10th 80 Standard Mathematics
 
-5. \( A, B, C \subseteq \mathbb{N} \) மற்றும் \( f : A \to B \) என்ற சார்பு \( f(x) = 2x + 1 \) எனவும் மற்றும் \( g : B \to C \) ஆனது \( g(x) = x^2 \) எனவும் வரையறுக்கப்பட்டால், \( f \circ g \) மற்றும் \( g \circ f \)-யின் வீச்சகத்தைக் காண்க.
+But n ≠−37 ( n is a natural number); Hence n = 36 .
 
-6. \( f(x) = x^2 - 1 \) எனில் (i) \( f \circ f \) (ii) \( f \circ f \) -ஐக் காண்க.
+**Progress Check**
 
-7. \( f : \mathbb{R} \to \mathbb{R} \) மற்றும் \( g : \mathbb{R} \to \mathbb{R} \) ஆனது முறையே, \( f(x) = x^5, g(x) = x^4 \) என வரையறுக்கப்பட்டால், \( f, g \) ஆகியவை ஒன்றுக்கு ஒன்றானதா மற்றும் \( f \circ g \) ஒன்றுக்கு ஒன்றான சார்பாகுமா என்று ஆராய்க.
+Say True or False. Justify them.
 
-8. கொருக்கப்பட்ட \( f(x), g(x), h(x) \) ஆகியவற்றைக் கொண்டு \( (f \circ g) \circ h = f \circ (g \circ h) \) எனக் காட்டுக.
+- The sum of first n odd natural numbers is always an odd number.
+- The sum of consecutive even numbers is always an even number.
+- The difference between the sum of squares of first n natural numbers and the sum of first n natural numbers is always divisible by 2 .
+- The sum of cubes of the first n natural numbers is always a square number.
 
-(i) \( f(x) = x - 1, g(x) = 3x + 1 \) மற்றும் \( h(x) = x^2 \)
+![](assets/page_046_picture_004.png)
 
-(ii) \( f(x) = x^2, g(x) = 2x \) மற்றும் \( h(x) = x + 4 \)
+- Find the sum of the following series
 
-(iii) \( f(x) = x - 4, g(x) = x^2 \) மற்றும் \( h(x) = 3x - 5 \)
+- The sum of the cubes of the first n natural numbers is 2025, then find the value of n .
+- Rekha has 15 square colour papers of sizes 10 cm, 11 cm, 12 cm,…, 24 cm. How much area can be decorated with these colour papers?
 
-9. \( f = \{(-1, 3), (0, -1), (2, -9)\} \) ஆனது \( \mathbb{Z} \)-விருந்து \( \mathbb{Z} \)-க்கான ஒரு நேரிய சார்பு எனில், \( f(x) \)-ஐக் காண்க.
+![](assets/page_047_picture_002.png)
 
-10. ஒரு மின்சுற்றுக் க�ோட்பாட்டின்படி, \( C(t) \) என்ற ஒரு நேரிய சுற்று, \( C(at_1 + bt_2) = aC(t_1) + bC(t_2) \)-ஐ பூர்த்தி செய்கிறது. மேலும் இங்கு \( a,b \) ஆகியவை மாறிலிகள் எனில், \( C(t) = 3t \) ஆனது ஒரு நேரிய சுற்று எனக் காட்டுக.
+![](assets/page_047_picture_003.png)
 
-**பயிற்சி 1.6**
+- Euclid's division lemma states that for positive integers a and b, there exist unique integers q and r such that ab =+qr , where r must satisfy.
+- (A) 1 <<rb
+- (B) 0 <<rb
+- (C) 0 ≤<rb
+- (D) 0 <≤rb
+- Using Euclid's division lemma, if the cube of any positive integer is divided by 9 then the possible remainders are
+- (A) 0 , 1 , 8
+- (B) 1 , 4 , 8
+- (C) 0 , 1 , 3
+- (D) 1 , 3 , 5
+- If the HCF of 65 and 117 is expressible in the form of 65m -117 , then the value of m is
+- (A) 4
+- (B) 2
+- (C) 1
+- (D) 3
+- The sum of the exponents of the prime factors in the prime factorization of 1729 is
+- (A) 1
+- (B) 2
+- (C) 3
+- (D) 4
+5. The least number that is divisible by all the numbers from 1 to 10 (both inclusive) is
+- (A) 2025
+- (B) 5220
+- (C) 5025
+- (D) 2520
+- 74k º_____ (mod 100)
+- (A) 1
+- (B) 2
+- (C) 3
+- (D) 4
+- (A)3
+- (B)5
+- (C)8
+- (D)11
+8. The first term of an arithmetic progression is unity and the common difference is 4 . Which of the following will be a term of this A.P.
+- (A) 4551
+- (B) 10091
+- (C) 7881
+- (D) 13531
+- If 6 times of 6th term of an A.P. is equal to 7 times the 7 th term, then the 13 th term of the A.P. is
+- (A) 0
+- (B) 6
+- (C) 7
+- (D) 13
+- An A.P. consists of 31 terms. If its 16th term is m, then the sum of all the terms of this A.P. is
+- (D) 31 2 m
+- (A) 16 m
+- (B) 62 m
+- (C) 31 m
+11. In an A.P., the first term is 1 and the common difference is 4. How many terms of the A.P. must be taken for their sum to be equal to 120?
+- (A) 6
+- (B) 7
+- (C) 8
+- (D) 9
+- (A) B is 2 64 more than A
+- (B) A and B are equal
+- (C) B is larger than A by 1
+- (D) A is larger than B by 1
 
-**பலவுள் தெரிவு வினாக்கள்**
+- 10th 82 Standard Mathematics
 
-1. \( n(A \times B) = 6 \) மற்றும் \( A = \{1,3\} \) எனில், \( n(B) \) ஆனது
+- (A) 1
+- (B) 1 27
+- (D) 1 81
+- (C) 2 3
 
-(அ) 1
+- (B) an Arithmetic Progression
+- (A) a Geometric Progression
+- (C) neither an Arithmetic Progression nor a Geometric Progression
+- (D) a constant sequence
 
-(ஆ) 2
+![](assets/page_048_picture_006.png)
 
-(இ) 3
+**Unit Exercise - 2**
 
-(ஈ) 6
+- A milk man has 175 litres of cow's milk and 105 litres of buffalow's milk. He wishes to sell the milk by filling the two types of milk in cans of equal capacity. Calculate the following (i) Capacity of a can (ii) Number of cans of cow's milk (iii) Number of cans of buffalow's milk.
+- When the positive integers a , b and c are divided by 13 the respective remainders are 9 , 7 and 10. Find the remainder when ab ++ 23c is divided by 13 .
+- Show that 107 is of the form 43 q + for any integer q .
+- If () m + 1 th + 1 term of an A.P. is twice the () n + 1 th + 1 term, then prove that (3m+1) th term is twice the () mn ++ 1 th n ++ 1 term.
+- Find the 12th term from the last term of the A. P --2 -24 , 4 ,, -- 6 6 , ... 100 .
+- Two A.P.'s have the same common difference. The first term of one A.P. is 2 and that of the other is 7. Show that the difference between their 10th terms is the same as the difference between their 21st terms, which is the same as the difference between any two corresponding terms.
+- A man saved ₹16500 in ten years. In each year after the first he saved ₹100 more than he did in the preceding year. How much did he save in the first year?
+- Find the G.P. in which the 2nd term is 6 and the 6th term is 96 .
+- The value of a motor cycle depreciates at the rate of 15% per year. What will be the value of the motor cycle 3 year hence, which is now purchased for ₹ 45 , 000?
 
-2. \( A = \{a,b,p\}, B = \{2,3\}, C = \{p,q,r,s\} \) எனில், \( n[(A \cup C) \times B] \) ஆனது
+**Points to Remember**
 
-(அ) 8
+**z Euclid's division lemma**
 
-(ஆ) 20
+If a and b are two positive integers then there exist unique integers q and r such that ab =+qr , 0 ≤ r < |b |
 
-(இ) 12
+**z Fundamental theorem of arithmetic**
 
-(ஈ) 16
+Every composite number can be expressed as a product of primes and this factorization is unique except for the order in which the prime factors occur.
 
-3. \( A = \{1,2\}, B = \{1,2,3,4\}, C = \{5,6\} \) மற்றும் \( D = \{5, 6, 7, 8\} \) எனில் கீழே கொருக்கப்பட்டவைகளில் எது சரியான கூற்று?
+**z Arithmetic Progression**
 
-(அ) \( (A \times C) \subset (B \times D) \)
+- (i) Arithmetic Progression is aa , a ,, +d , ++ da 23 da ,+ 3 a ,, +d 3 , +…d . n th term is given by (nd) n =+ −1 n =+ −1
+- (iii) If the last term l (n th term) is given, then S n al + n a=+[ 2 al +[]
 
-(ஆ) \( (B \times D) \subset (A \times C) \)
+**z Geometric Progression**
 
-(இ) \( (A \times B) \subset (A \times D) \)
+- (iii) Suppose r =1 then Sna n = n =
 
-(ஈ) \( (D \times A) \subset (B \times A) \)
+**z Special Series**
 
-4. \( A = \{1, 2, 3, 4, 5\} \)-விருந்து, \( B \) என்ற கணத்திற்கு 1024 உறவுகள் உள்ளது எனில் \( B \)-ல் உள்ள உறுப்புகளின் எண்ணிக்கை
+**ICT CORNER**
 
-(அ) 3
+**ICT 2.1**
 
-(ஆ) 2
+Step 1: Open the Browser type the URL Link given below (or) Scan the QR Code. GeoGebra work book named "Numbers and Sequences" will open. In the left side of the work book there are many activity related to mensuration chapter. Select the work sheet "Euclid's Lemma division"
 
-(இ) 4
+Step 2: In the given worksheet Drag the point mentioned as "Drag Me" to get new set of points. Now compare the Division algorithm you learned from textbook.
 
-(ஈ) 8
+**ICT 2.2**
 
-5. \( R = \{(x, x^2) \mid x \) ஆனது 13-ஐ விடக் குறைவான பகா எண்கள்\( \} \) என்ற உறவின் வீச்சகமானது (அ) \( \{2,3,5,7\} \) (ஆ) \( \{2,3,5,7,11\} \) (இ) \( \{4,9,25,49,121\} \) (ஈ) \( \{1,4,9,25,49,121\} \)
+**Expected results**
 
-6. \( (a + 2, 4) \) மற்றும் \( (5, 2a + b) \) ஆகிய வரிசைச் ச�ோடிகள் சமம் எனில், \( (a, b) \) என்பது
+![](assets/page_049_picture_004.png)
 
-(அ) \( (2, -2) \) (ஆ) \( (5,1) \) (இ) \( (2,3) \) (ஈ) \( (3, -2) \)
+Step 1: Open the Browser type the URL Link given below (or) Scan the QR Code. GeoGebra work book named "Numbers and Sequences" will open. In the left side of the work book there are many activity related to mensuration chapter. Select the work sheet "Bouncing Ball Problem".
 
-7. \( n(A) = m \) மற்றும் \( n(B) = n \) என்க. \( A \)-விருந்து \( B \)-க்கு வரையறுக்கப்பட்ட வெற்று கணமில்லாத உறவுகளின் மொத்த எண்ணிக்கை.
+Step 2: In the given worksheet you can change the height, Number of bounces and debounce ratio by typing new value. Then click "Get Ball", and then click "Drop". The ball bounces as per your value entered. Observe the working given on right hand side to learn the sum of sequence.
 
-(அ) \( m n \) (ஆ) \( n m \) (இ) \( 2^{m n} - 1 \) (ஈ) \( 2^{m n} \)
+You can repeat the same steps for other activities
 
-8. \( \{(a, 8), (6, b)\} \) ஆனது ஒரு சமனிச் சார்பு எனில், \( a \) மற்றும் \( b \) மதிப்புகளாவன முறையே (அ) \( (8,6) \) (ஆ) \( (8,8) \) (இ) \( (6,8) \) (ஈ) \( (6,6) \)
+https://www.geogebra.org/m/jfr2zzgy#chapter/356192 or Scan the QR Code.
 
-9. Let \( A = \{1,2,3,4\} \) \( B = \{4,8,9,10\} \) என்க. சார்பு \( f : A \to B \) ஆனது
+10th 84 Standard Mathematics
 
-\( f = \{(1,4),(2,8),(3,9),(4,10)\} \) எனக் கொழக்கப்பட்டால் \( f \)-என்பது
+**Expected results**
 
-(அ) பலவற்றிற்கு ஒன்றான சார்பு (ஆ) சமனிச் சார்பு
-
-(இ) ஒன்றுகொன்றான சார்பு (ஈ) உட்சார்பு
-
-10. \( f(x) = 2x^2 \) மற்றும் \( g(x) = \frac{1}{3x} \) எனில் \( f \circ g \) ஆனது
-
-(அ) \( \frac{3}{2x^2} \) (ஆ) \( \frac{2}{3x^2} \) (இ) \( \frac{2}{9x^2} \) (ஈ) \( \frac{1}{6x^2} \)
-
-11. \( f : A \to B \) ஆனது இருபுச் சார்பு மற்றும் \( n(B) = 7 \) எனில் \( n(A) \) ஆனது
-
-(அ) 7 (ஆ) 49 (இ) 1 (ஈ) 14
-
-12. \( f \) மற்றும் \( g \) என்ற இரண்டு சார்புகளும்
-
-\( f = \{(0,1),(2,0),(3,-4),(4,2),(5,7)\} \)
-
-\( g = \{(0,2),(1,0),(2,4),(-4,2),(7,0)\} \) எனக் கொழக்கப்பட்டால் \( f \circ g \)-ன் வீச்சகமானது
-
-(அ) \( \{0,2,3,4,5\} \) (ஆ) \( \{-4,1,0,2,7\} \) (இ) \( \{1,2,3,4,5\} \) (ஈ) \( \{0,1,2\} \)
-
-13. \( f(x) = \sqrt{1 + x^2} \) எனில்
-
-(அ) \( f(xy) = f(x).f(y) \) (ஆ) \( f(xy) \geq f(x).f(y) \)
-
-(இ) \( f(xy) \leq f(x).f(y) \) (ஈ) இவற்றில் ஒன்றுமில்லை
-
-14. \( g = \{(1,1),(2,3),(3,5),(4,7)\} \) என்ற சார்பானது \( g(x) = \alpha x + \beta \) எனக் கொழக்கப்பட்டால் \( \alpha \) மற்றும் \( \beta \)-வின் மதிப்பானது
-
-(அ) \( (-1,2) \) (ஆ)\( (2, -1) \) (இ) \( (-1, -2) \) (ஈ) \( (1,2) \)
-
-15. \( f(x) = (x + 1)^3 - (x - 1)^3 \) குறிப்பிறும் சார்பானது
-
-(அ) நேரிய சார்பு (ஆ) ஒரு கனச் சார்பு (இ) தலைக்குச் சார்பு (ஈ) இருபடிச் சார்பு
-
-**அலகுப் பயிற்சி - 1**
-
-1. \( (x^2 - 3x, y^2 + 4y) \) மற்றும் \( (-2,5) \) ஆகிய வரிசைச் ச�ோடிகள் சமம் எனில், \( x \) மற்றும் \( y \)-ஐக் காண்க.
-
-2. \( A \times A \) கார்மீசியன் பெருக்கல் பலனின், 9 உறுப்புகளில், உறுப்புகள் (-1, 0) மற்றும் (0,1) -யும் இருச்கிறது எனில், \( A \)-யில் உள்ள உறுப்புகளைக் காண்க. மற்றும் \( A \times A \)-ன் மீதமுள்ள உறுப்புகளைக் காண்க.
-
-3. \( f(x) = \begin{cases} \sqrt{x-1} & x \geq 1 \\ 4 & x < 1 \end{cases} \) எனக் கொடுக்கப்பட்டால்,
-
-(i) \( f(0) \) (ii) \( f(3) \) (iii) \( f(a + 1) \) (\( a \geq 0 \) எனக் கொடுக்கப்பட்டுள்ளது) ஆகியவற்றை காண்க.
-
-4. \( A = \{9,10,11,12,13,14,15,16,17\} \) என்க. மற்றும் \( f : A \to \mathbb{N} \) ஆனது \( f(n) = n \)-ன் அதிகபட்சப் பகா காரணி ( \( n \in A \) ) என வரையறுக்கப்பட்டால் \( f \)-ன் வரிசைச் ச�ோடிகளின் கணத்தை எழுதுக மற்றும் \( f \)-ன் வீச்சகத்தைக் காண்க.
-
-5. \( f(x) = \sqrt{1 + \sqrt{1 - \sqrt{1 - x^2}}} \) என்ற சார்பின் சார்பகத்தைக் காண்க.
-
-6. \( f(x) = x^2, g(x) = 3x \) மற்றும் \( h(x) = x - 2 \) எனில், \( (f \circ g) \circ h = f \circ (g \circ h) \) என நிறுவக.
-
-7. \( A = \{1,2\}, B = \{1,2,3,4\}, C = \{5,6\} \) மற்றும் \( D = \{5,6,7,8\} \) எனில், \( A \times C \) ஆனது \( B \times D \) உட்கணமான எனச் சரிபார்க்க.
-
-8. \( f(x) = \frac{x-1}{x+1} \) , \( x \neq -1 \) என்க. \( x \neq 0 \) எனில், \( f(f(x)) = -\frac{1}{x} \) எனக் காட்க.
-
-9. சாப் ப மற்றும் g ஆகியவை \( f(x) = 6x + 8 \); \( g(x) = \frac{x - 2}{3} \) எனில்,
-
-(i) \( gg\left(\frac{1}{2}\right) \)-பின் மதிப்பைக் காண்க. (ii) \( gf(x) \)-ஐ எனிய வடிவில் எழுதுக.
-
-10. பின்வருவற்றின் சார்பகங்களை எழுதுக.
-
-\[ (i) f(x) = \frac{2x+1}{x-9} \quad (ii) p(x) = \frac{-5}{4x^2+1} \quad (iii) g(x) = \sqrt{x-2} \quad (iv) h(x) = x+6 \]
-
-**நிலைவில் கொள்ளவேண்டியவை**
-
-• \( A \) உடன் \( B \)-க்கான கார்டீசியன் பெருக்கலை \( A \times B = \{(a, b) \mid \) அனைத்து \( a \in A, b \in B\} \) என வரையறுக்கலாம்.
-
-• \( A \)-விருந்து \( B \)-க்கான உறவு \( R \) ஆனது, \( A \times B \)-யின் உட்கணமாகும். அதாவது, \( R \subseteq A \times B \).
-
-• \( X \) விருந்து \( Y \) க்கான உறவு \( f \)-ல் ஒவ்வொரு \( x \in X \) க்கும் ஒேர ஒரு \( y \in Y \) உண்ை எனில், அதை சார்பு என்கிறோம்.
-
-● ஒரு சார்பைப் பின்வருமாறு குறிப்பிடலாம்
-
-(i) அம்புக் குறி படம் (ii) அட்டவணை முறை
-
-(iii) வரிசைச் ச�ோடிகளின் கணம் (iv) வரைபட முறை
-
-● சில வகையான சார்புகளாவன
-
-(i) ஒன்றுக்கொன்றான சார்பு (ii) மேல் சார்பு
-
-(iii) பலவற்றிற்கு ஒன்றான சார்பு (iv) உட்சார்பு
-
-● சமனிச் சார்பு \( f(x) = x \).
-
-● தலைகீழ்ச் சார்பு \( f(x) = \frac{1}{x} \).
-
-● மாறிலிச் சார்பு \( f(x) = c \).
-
-● நேரியச் சார்பு \( f(x) = ax + b \) , \( a \neq 0 \).
-
-● இருப்படிச் சார்பு \( f(x) = ax^2 + bx + c \) , \( a \neq 0 \).
-
-● முப்படிச் சார்பு (கனச்சார்பு) \( f(x) = ax^3 + bx^2 + cx + d \) , \( a \neq 0 \).
-
-• \( A, B \) மற்றும் \( C \) ஆகியவை மூன்று வெற்றிலை கணங்கள், \( f : A \to B \), \( g : B \to C \) ஆகியவை இரண்டு சார்புகள் எனில், \( g \circ f : A \to C \) என்ற \( f \) மற்றும் \( g \) சார்புகளின் சேர்ப்பை \( g \circ f(x) = g(f(x)) \) (அனைத்து \( x \in A \)) என வரையறுக்கலாம். • \( f, g \) ஆகியவை ஏதேனும் இரு சார்புகள் எனில், பொதுவாக \( f \circ g \neq g \circ f \). • \( f, g \) மற்றும் \( h \) ஏதேனும் மூன்று சார்புகள் எனில் \( f \circ (g \circ h) = (f \circ g) \circ h \).
-
-**இணையச் செயல்பாடு (ICT)**
-
-**ICT 1.1**
-
-படி 1: கீழ்க்காணும் உரலி / விரைவுக் குறியீட்டைத் தட்சக செய்க அல்லது துறித துலங்கள் குறியீட்டை ஸ்கேன் செய்க. Geogebra -வின் Relations and Functions பக்கத்திற்குச் செல்க. பணித்தாளின் இடமுறம் பல செயல்பாடுகள் உறவுகளும் சார்புகளும் என்ற தலைப்பிற்கு தொடர்புடையதாக இருக்கும். அவற்றில் Functions Identification என்ற பணித்தாளை தேர்வு செய்யவும்.
-
-படி 2: இடப்புறம் கொருக்கப்பட்ட பணித்தாளில் ஒவ்வொரு சார்பிற்கும் உரிய பட்டியைத் தேர்ந்தெருக்க. அதற்கான வரையடம் வல்புறம் இருப்பதைக் காணலாம். ஒவ்வொரு வரையடத்தையும் புரிந்து கொண்டபின் New functions கிளிக் செய்க. தொடர்க.
-
-**ICT 1.2**
-
-படி 1: கீழ்க்காணும் உரலி / விரைவுக் குறியீட்டைத் தட்சக செய்க அல்லது துறித துலங்கள் குறியீட்டை ஸ்கேன் செய்க. Geogebra –வின் Relations and Functions பக்கத்திற்குச் செல்க. பணித்தாளின் இடப்புறம் பல செயல்பாடுகள் உறவுகளும் சார்புகளும் என்ற தலைப்பிற்கு தொடர்புடையதாக இருக்கும். அவற்றில் Compositions of functions என்ற பணித்தாளை தேர்வு செய்யவும்.
-
-படி 2: கொருக்கப்பட்ட பணித்தாளில் New problem என்பதை சொருக்குவதன் மூலம் பணித்தாளின் கேள்வியை மாற்ற முடியும். பின்னர் வலை நகர்த்தி கணக்கின் படிகளைக் காணலாம். சரிபார்க்கும் பெட்டியைச் சொருக்கி சரியான விடையைப் பார்க்கவும்.
-
-இந்தப் படிகளைக் கொண்டு மற்ற செயல்பாடுகளைச் செய்க.
-
-https://www.geogebra.org/m/jfr2zzgy#chapter/356191
-
-அல்லது விரைவுக் குறியீட்டை ஸ்கேன் செய்யவும்.
+![](assets/page_049_picture_009.png)
