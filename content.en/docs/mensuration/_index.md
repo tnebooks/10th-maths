@@ -1,6 +1,9 @@
 ---
-title: 'mensuration'
+title: 'Mensuration'
+categories:
+    - mensuration
 weight: 7
+summary: "Covers surface areas and volumes of three-dimensional solids, combined solids, and conversion of solids from one shape to another without changing volume."
 ---
 
 # Chapter 7

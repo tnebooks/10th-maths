@@ -1,6 +1,9 @@
 ---
-title: 'relations-and-functions'
+title: 'Relations and Functions'
+categories:
+    - relations-and-functions
 weight: 1
+summary: "Introduces ordered pairs, Cartesian products, relations and functions, their representations and types, composition of functions, and graphs of linear, quadratic, cubic and reciprocal functions."
 ---
 
 # Chapter 1
