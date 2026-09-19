@@ -1,5 +1,7 @@
 ---
-title: 'geometry'
+title: 'Geometry'
+categories:
+    - geometry
 weight: 4
 ---
 

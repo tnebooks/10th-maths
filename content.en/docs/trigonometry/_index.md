@@ -1,5 +1,7 @@
 ---
-title: 'trigonometry'
+title: 'Trigonometry'
+categories:
+    - trigonometry
 weight: 6
 ---
 

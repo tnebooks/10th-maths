@@ -1,5 +1,7 @@
 ---
-title: 'mensuration'
+title: 'Mensuration'
+categories:
+    - mensuration
 weight: 7
 ---
 

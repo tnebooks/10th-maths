@@ -1,5 +1,7 @@
 ---
-title: 'coordinate-geometry'
+title: 'Coordinate Geometry'
+categories:
+    - coordinate-geometry
 weight: 5
 ---
 

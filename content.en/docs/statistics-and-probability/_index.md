@@ -1,5 +1,7 @@
 ---
-title: 'Statistics-and-Probability'
+title: 'Statistics and Probability'
+categories:
+    - statistics-and-probability
 weight: 8
 ---
 
