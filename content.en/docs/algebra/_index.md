@@ -680,7 +680,9 @@ $length =        km                                 base = (x+y)(x+y)m$
 
 3
 
-![Fig. 3.5                                             Fig. 3.6]()
+![Fig. 3.5]()
+
+![Fig. 3.6]()
 
 x3 27y x 4b 2 x2 -1
 
@@ -2197,7 +2199,9 @@ $y = x2$
 
 X′ –3 –2 –1 0 1 2 3 X X′ –3 –2 –1 0 1 2 3 X Y′ Y′
 
-![Fig. 3.17                                                    ![Fig. 3.1]()8]()
+![Fig. 3.17]()
+
+![Fig. 3.18]()
 
 $Graph y = x^2 is broader than                             Graph y = x^2 is narrower than graph$
 
