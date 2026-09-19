@@ -556,9 +556,9 @@ Can you think of positive integers \(a,b\) such that \(a^b=b^a\)?
 ### Exercise 2.2
 
 1. For what values of natural number \(n\), \(4^n\) can end with the digit 6?
-2. If \(m,n\) are natural numbers, for what values of \(m\), does \(2^5n^m\) ends in 5?
+2. If \(m,n\) are natural numbers, for what values of \(m\), does \(2^n\times5^m\) ends in 5?
 3. Find the HCF of 252525 and 363636.
-4. If \(13824=2^3a^b\) then find \(a\) and \(b\).
+4. If \(13824=2^a\times3^b\) then find \(a\) and \(b\).
 5. If \(p_1^{x_1}p_2^{x_2}p_3^{x_3}p_4^{x_4}=113400\), where \(p_1,p_2,p_3,p_4\) are primes in ascending order and \(x_1,x_2,x_3,x_4\) are integers, find the value of \(p_1,p_2,p_3,p_4\) and \(x_1,x_2,x_3,x_4\).
 6. Find the LCM and HCF of 408 and 170 by applying the fundamental theorem of arithmetic.
 7. Find the greatest number consisting of 6 digits which is exactly divisible by 24,15,36?
@@ -1976,7 +1976,7 @@ The amount saved in the first year is ₹4000.
    2. \(21+14+\frac{28}{3}+\cdots\)
 5. If the first term of an infinite G.P. is 8 and its sum to infinity is \(\frac{32}{3}\) then find the common ratio.
 6. Find the sum to \(n\) terms of the series
-   1. \(0.4+0.04+0.004+0.0004+\cdots\) to \(n\) terms
+   1. \(0.4+0.44+0.444+\cdots\) to \(n\) terms
    2. \(3+33+333+\cdots\) to \(n\) terms
 7. Find the sum of the Geometric series \(3+6+12+\cdots+1536\).
 8. Kumar writes a letter to four of his friends. He asks each one of them to copy the letter and mail to four different persons with the instruction that they continue the process similarly. Assuming that the process is unaltered and it costs ₹2 to mail one letter, find the amount spent on postage when 8th set of letters is mailed.
