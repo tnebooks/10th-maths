@@ -1,6 +1,9 @@
 ---
-title: 'Statistics-and-Probability'
+title: 'Statistics and Probability'
+categories:
+    - statistics-and-probability
 weight: 8
+summary: "Introduces measures of dispersion, standard deviation, variance, coefficient of variation, random experiments, events, probability and the addition theorem of probability."
 ---
 
 # Chapter 8

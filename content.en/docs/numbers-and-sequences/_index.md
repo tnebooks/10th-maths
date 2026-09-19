@@ -1,6 +1,9 @@
 ---
-title: 'உறவுகளும் சார்புகளும்'
+title: 'Numbers and Sequences'
+categories:
+    - numbers-and-sequences
 weight: 2
+summary: "Covers Euclid’s division lemma and algorithm, the fundamental theorem of arithmetic, modular arithmetic, sequences, arithmetic progressions, geometric progressions and special series."
 ---
 
 # Chapter 2

@@ -1,6 +1,9 @@
 ---
-title: 'geometry'
+title: 'Geometry'
+categories:
+    - geometry
 weight: 4
+summary: "Explores similarity, Thales theorem, the angle bisector theorem, Pythagoras theorem, circles and tangents, and concurrency theorems with applications in geometry."
 ---
 
 # Chapter 4
