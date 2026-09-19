@@ -3,7 +3,6 @@ title: 'Trigonometry'
 categories:
     - trigonometry
 weight: 6
-summary: "Develops trigonometric identities and their applications, including solving problems involving angles, ratios, heights and distances."
 ---
 
 # Chapter 6
@@ -16,7 +15,12 @@ French mathematician Francois Viete used trigonometry in the study of Algebra fo
 
 He provided a simple formula relating the roots of a equation with its coefficients. He also provided geometric methods to solve doubling the cube and trisecting the angle problems. He was also involved in deciphering codes.
 
-<center>Francois Viete (1540 - 1603)</center>
+<center>
+
+![*Francois Viete (1540 - 1603)*](assets/page_001_picture_002.png)
+
+Francois Viete (1540 - 1603)
+</center>
 
 ---
 
@@ -46,7 +50,12 @@ Misinterpreting the Arabic word 'jiba' for 'cove' or 'bay', translators wrote th
 
 Let \(0^\circ < \theta < 90^\circ\).
 
-<center>Fig.6.1</center>
+<center>
+
+![*Fig.6.1*](assets/page_002_picture_004.png)
+
+Fig.6.1
+</center>
 
 Let us take right triangle OMP.
 
@@ -96,7 +105,12 @@ Let \(\angle QOP = \theta\).
 
 Then \(\angle QOR = 90^\circ - \theta\), so that \(OPQR\) forms a rectangle.
 
-<center>Fig.6.2</center>
+<center>
+
+![*Fig.6.2*](assets/page_003_picture_005.png)
+
+Fig.6.2
+</center>
 
 From triangle \(OPQ\),
 
@@ -940,7 +954,12 @@ In this section, we will see how trigonometry is used for finding the heights an
 
 The line of sight is the line drawn from the eye of an observer to the point in the object viewed by the observer.
 
-<center>Fig.6.5</center>
+<center>
+
+![*Fig.6.5*](assets/page_012_picture_004.png)
+
+Fig.6.5
+</center>
 
 ---
 
@@ -948,7 +967,12 @@ The line of sight is the line drawn from the eye of an observer to the point in 
 
 Theodolite is an instrument which is used in measuring the angle between an object and the eye of the observer. A theodolite consists of two graduated wheels placed at right angles to each other and a telescope. The wheels are used for the measurement of horizontal and vertical angles. The angle to the desired point is measured by positioning the telescope towards that point. The angle can be read on the telescope scale.
 
-<center>Fig.6.6</center>
+<center>
+
+![*Fig.6.6*](assets/page_013_picture_004.png)
+
+Fig.6.6
+</center>
 
 <center>Fig.6.7</center>
 
@@ -958,7 +982,12 @@ Theodolite is an instrument which is used in measuring the angle between an obje
 
 The angle of depression is an angle formed by the line of sight with the horizontal when the point is below the horizontal level. That is, the case when we lower our head to look at the point being viewed.
 
-<center>Fig.6.8</center>
+<center>
+
+![*Fig.6.8*](assets/page_013_picture_005.png)
+
+Fig.6.8
+</center>
 
 ---
 
@@ -1082,7 +1111,12 @@ Hence, the length of the string is \(50\sqrt{3}\) m.
 
 **Example 6.21** Two ships are sailing in the sea on either sides of a lighthouse. The angle of elevation of the top of the lighthouse as observed from the ships are \(30^\circ\) and \(45^\circ\) respectively. If the lighthouse is \(200\) m high, find the distance between the two ships. \((\sqrt{3} = 1.732)\)
 
-<center>Fig.6.15</center>
+<center>
+
+![*Fig.6.15*](assets/page_015_picture_005.png)
+
+Fig.6.15
+</center>
 
 **Solution** Let \(AB\) be the lighthouse. Let \(C\) and \(D\) be the positions of the two ships.
 
@@ -1298,7 +1332,12 @@ Distance of \(J\) to the East of \(H = 176.69\) km.
 
 (ii) the horizontal distance between the two trees. (\(\cos 40^\circ = 0.7660\))
 
-<center>Fig.6.19</center>
+<center>
+
+![*Fig.6.19*](assets/page_018_picture_007.png)
+
+Fig.6.19
+</center>
 
 **Solution** Let \(AB\) be the height of the bigger tree and \(CD\) be the height of the smaller tree and \(X\) is the point on the ground.
 
@@ -1564,7 +1603,12 @@ Let us consider the following situation.
 
 A man standing at a top of lighthouse located in a beach watches an aeroplane flying above the sea. At the same instant he watches a ship sailing in the sea. The angle with which he watches the plane correspond to angle of elevation and the angle of watching the ship corresponding to angle of depression. This is one example were one observes both angle of elevation and angle of depression.
 
-<center>Fig.6.26</center>
+<center>
+
+![*Fig.6.26*](assets/page_024_picture_003.png)
+
+Fig.6.26
+</center>
 
 In the Fig.6.26, \(x^\circ\) is the angle of elevation and \(y^\circ\) is the angle of depression.
 
@@ -1574,7 +1618,12 @@ In this section, we try to solve problems when Angles of elevation and depressio
 
 **Example 6.31** From the top of a \(12\) m high building, the angle of elevation of the top of a cable tower is \(60^\circ\) and the angle of depression of its foot is \(30^\circ\). Determine the height of the tower.
 
-<center>Fig.6.27</center>
+<center>
+
+![*Fig.6.27*](assets/page_024_picture_006.png)
+
+Fig.6.27
+</center>
 
 **Solution** As shown in Fig.6.27, \(OA\) is the building, \(O\) is the point of observation on the top of the building \(OA\). Then, \(OA = 12\) m.
 
