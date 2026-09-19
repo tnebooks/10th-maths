@@ -8,7 +8,7 @@ summary: "Introduces ordered pairs, Cartesian products, relations and functions,
 
 # Chapter 1
 
-**RELATIONS AND FUNCTIONS**
+# RELATIONS AND FUNCTIONS
 
 Mathematicians do not study objects, but relations between objects...Content to them is irrelevant: they are interested in form only - Henri Poincare
 
@@ -22,7 +22,7 @@ Gottfried Wilhelm Leibniz (1646-1716)
 
 To define and determine cartesian product of sets. To define a relation as a subset of cartesian product of sets. To understand function as a special relation. To represent a function through an arrow diagram, a set of ordered pairs, a table, a rule or a graph. To classify functions as one- one, many- one, onto, into and bijection. To study combination of functions through composition operation. To understand the graphs of linear, quadratic, cubic and reciprocal functions.
 
-### 1.1 Introduction
+## 1.1 Introduction
 
 The notion of sets provides the stimulus for learning higher concepts in mathematics. A set is a collection of well- defined objects. This means that a set is merely a collection of something which we may recognize. In this chapter, we try to extend the concept of sets in two forms called Relations and Functions. For doing this, we need to first know about cartesian products that can be defined between two non- empty sets.
 
@@ -32,7 +32,7 @@ In class IX, we had studied the concept of sets. We have also seen how to form n
 
 Now we are about to study a new set called "cartesian product" for the given sets \(A\) and \(B\) .
 
-### 1.2 Ordered Pair
+## 1.2 Ordered Pair
 
 Observe the seating plan in an auditorium (Fig.1.1). To help orderly occupation of seats, tokens with numbers such as (1,5), (7,16), (3,4), (10,12) etc. are issued. The person who gets (4,10) will go to row 4 and occupy the \(10^{\mathrm{th}}\) seat. Thus the first number denotes the row and the second number, the seat. Which seat will the visitor with token (5,9) occupy? Can he go to \(9^{\mathrm{th}}\) row and take the \(5^{\mathrm{th}}\) seat? Do (9,5) and (5,9) refer to the same location? No, certainly! What can you say about the tokens (2,3), (6,3) and (10,3)?
 
@@ -40,7 +40,7 @@ Fig. 1.1
 
 This is one example where a pair of numbers, written in a particular order, precisely indicates a location. Such a number pair is called an ordered pair of numbers. This notion is skillfully used to mathematize the concept of a "Relation".
 
-### 1.3 Cartesian Product
+## 1.3 Cartesian Product
 
 **Illustration 1**
 
@@ -121,7 +121,7 @@ Solution \(A = \{x\in \mathbb{N}\mid 1< x< 4\} = \{2,3\}\) \(B = \{x\in \mathbb{
 
 1. Find \(A\times B\) \(A\times A\) and \(B\times A\) (i) \(A = \{2, - 2,3\}\) and \(B = \{1, - 4\}\) (ii) \(A = B = \{p,q\}\) (iii) \(A = \{m,n\}\) ; \(B = \phi\) 2. Let \(A = \{1,2,3\}\) and \(B = \{x\mid x\) is a prime number less than 10}. Find \(A\times B\) and \(B\times A\) 3. If \(B\times A = \{(-2,3),(-2,4),(0,3),(0,4),(3,3),(3,4)\}\) find \(A\) and \(B\) 4. If \(A = \{5,6\}\) \(B = \{4,5,6\}\) \(C = \{5,6,7\}\) Show that \(A\times A = (B\times B)\cap (C\times C)\) 5. Given \(A = \{1,2,3\}\) \(B = \{2,3,5\}\) \(C = \{3,4\}\) and \(D = \{1,3,5\}\) , check if \((A\cap C)\times (B\cap D) = (A\times B)\cap (C\times D)\) is true? 6. Let \(A = \{x\in W\mid x< 2\}\) \(B = \{x\in N\mid 1< x\leq 4\}\) and \(C = \{3,5\}\) . Verify that (i) \(A\times (B\cup C) = (A\times B)\cup (A\times C)\) (ii) \(A\times (B\cap C) = (A\times B)\cap (A\times C)\) (iii) \((A\cup B)\times C = (A\times C)\cup (B\times C)\) 7. Let \(A =\) The set of all natural numbers less than 8, \(B =\) The set of all prime numbers less than 8, \(C =\) The set of even prime number. Verify that (i) \((A\cap B)\times C = (A\times C)\cap (B\times C)\) (ii) \(A\times (B - C) = (A\times B) - (A\times C)\)
 
-### 1.4 Relations
+## 1.4 Relations
 
 Many day- to- day occurrences involve two objects that are connected with each other by some rule of correspondence. We say that the two objects are related under the specified rule. How shall we represent it? Here are some examples,
 
@@ -453,7 +453,7 @@ Every function can be represented by a curve in a graph. But not every curve dra
 
 The following test will help us in determining whether a given curve is a function or not.
 
-#### 1.6.1 Vertical line test
+### 1.6.1 Vertical line test
 
 A curve drawn in a graph represents a function, if every vertical line intersects the curve at only one point.
 
@@ -513,7 +513,7 @@ In this section, we will discuss the following types of functions with suitable 
 
 (i) one - one (ii) many - one (iii) onto (iv) into
 
-#### 1.7.1 One - one function
+### 1.7.1 One - one function
 
 Let us assume that we have a cell phone with proper working condition. If you make a usual call to your friend then you can make only one call at a time (Fig.1.21).
 
@@ -547,7 +547,7 @@ Fig.1.22
 
 Fig.1.23
 
-#### 1.7.2 Many - one function
+### 1.7.2 Many - one function
 
 In a theatre complex three films \(F_{1},F_{2},F_{3}\) are shown. Seven persons \((P_{1}\) to \(P_{7}\) ) arrive at the theatre and buy tickets as shown (Fig.1.24).
 
@@ -565,7 +565,7 @@ In other words, a function \(f:A\to B\) is called many- one if \(f\) it is not o
 
 Then \(f\) is a function from \(A\) to \(B\) in which different elements 1 and 2 of \(A\) have the same image \(a\) in \(B\) . Hence \(f\) is a many - one function.
 
-#### 1.7.3 Onto function
+### 1.7.3 Onto function
 
 In a mobile phone assume that there are 3 persons in the contact. If every person in the contact receives a call, then the function representing making calls will be onto. (Fig.1.25)
 
@@ -587,7 +587,7 @@ Let \(A = \{x,y,z\} ,B = \{l,m,n\}\) ; Range of \(f = \{l,m,n\} = B\) (Fig.1.26)
 
 Fig.1.26
 
-#### 1.7.4 Into function
+### 1.7.4 Into function
 
 In a home appliance showroom, the products television, air conditioner, washing machine and water heater were provided with \(20\%\) discount as new year sale offer. If the selection of the above products by the three customers \(C_1, C_2, C_3\) is considered as a function then the following diagram (Fig.1.27) will represent an into function.
 
@@ -613,7 +613,7 @@ Note that \(y\in B\) is not an image of any element in \(A\) .
 
 Fig.1.28
 
-#### 1.7.5 Bijection
+### 1.7.5 Bijection
 
 Consider the circle where each letter of the English alphabet is changed from inner portion to a letter in the outer portion. Thus \(A\to D\) \(B\to E\) \(C\to F\) ... \(Z\to C\) .We call this circle as 'cipher circle'. (Fig.1.29) In this way if we try to change the word 'HELLO' then it will become 'KHOOR'. Now using the same circle if we substitute for each outer letter the corresponding inner letter we will get back the word 'HELLO'. This process of converting
 
@@ -650,7 +650,7 @@ Can there be a one to many function?
 
 To determine whether the given function is one- one or not the following test may help us.
 
-#### 1.7.6 Horizontal Line Test
+### 1.7.6 Horizontal Line Test
 
 Previously we have seen the vertical line test. Now let us see the horizontal line test. "A function represented in a graph is one- one, if every horizontal line intersects the curve at only one point".
 
@@ -742,7 +742,7 @@ Therefore, the length of the thigh bone is \(38~\mathrm{cm}\)
 
 Check whether the following curves represent a function. In the case of a function, check whether it is one- one? (Hint: Use the vertical and the horizontal line tests)
 
-### 1.8 Special Cases of Functions
+## 1.8 Special Cases of Functions
 
 There are some special cases of a function which will be very useful. We discuss some of them below
 
@@ -918,7 +918,7 @@ But, \(f\circ f(k) = 5\)
 
 \[\therefore 4k - 3 = 5\Rightarrow k = 2.\]
 
-#### 1.9.1 Composition of three functions
+### 1.9.1 Composition of three functions
 
 Let \(A\) \(B\) \(C\) \(D\) be four sets and let \(f:A\to B\) \(g:B\to C\) and \(h:C\to D\) be three functions (Fig.1.43). Using composite functions \(f\circ g\) and \(g\circ h\) , we get two new functions like \((f\circ g)\circ h\) and \(f\circ (g\circ h)\)
 
@@ -975,13 +975,13 @@ How to find \(h(1)\) ?
 
 \[\therefore h(1) = 3\]
 
-### 1.10 Identifying the Graphs of Linear, Quadratic, Cubic and Reciprocal Functions
+## 1.10 Identifying the Graphs of Linear, Quadratic, Cubic and Reciprocal Functions
 
 Graphs provide visualization of curves and functions. Hence, graphs help a lot in understanding the concepts in a much efficient way.
 
 In this section, we will be discussing about the identification of some of the functions through their graphs. In particular, we discuss graphs of Linear, Quadratic, Cubic and Reciprocal functions.
 
-#### 1.10.1 Linear Function
+### 1.10.1 Linear Function
 
 A function \(f : \mathbb{R} \rightarrow \mathbb{R}\) defined by \(f(x) = mx + c\) , \(m \neq 0\) is called a linear function. Geometrically this represents a straight line in the graph.
 
@@ -992,7 +992,7 @@ Some Specific Linear Functions and their graphs are given below.
 | 1 | The identity function | \(f : \mathbb{R} \rightarrow \mathbb{R}\) defined by \(f(x) = x\) | Fig. 1.44 |
 | 2 | Additive inverse function | \(f : \mathbb{R} \rightarrow \mathbb{R}\) defined by \(f(x) = -x\) | Fig. 1.45 |
 
-#### 1.10.2 Modulus or Absolute valued Function
+### 1.10.2 Modulus or Absolute valued Function
 
 \(f : \mathbb{R} \rightarrow [0, \infty)\) defined by \(f(x) = | x |\)
 
@@ -1007,7 +1007,7 @@ Fig. 1.46
 
 Relations and Functions 29
 
-#### 1.10.3 Quadratic Function
+### 1.10.3 Quadratic Function
 
 A function \(f:\mathbb{R}\to \mathbb{R}\) defined by \(f(x) = ax^{2} + bx + c\) \(a\neq 0\) ) is called a quadratic function.
 
@@ -1017,19 +1017,19 @@ Some specific quadratic functions and their graphs
 |---|---|
 | f: R → R defined by f(x) = x², x ∈ R. f(x) ∈ [0, ∞) | |
 
-#### 1.10.4 Cubic Function
+### 1.10.4 Cubic Function
 
 A function \(f:\mathbb{R}\to \mathbb{R}\) defined by \(f(x) = ax^{3} + bx^{2} + cx + d,(a\neq 0)\) is called a cubic function. The graph of \(f(x) = x^{3}\) is shown in Fig.1.48.
 
 Fig.1.48
 
-#### 1.10.5 Reciprocal Function
+### 1.10.5 Reciprocal Function
 
 A function \(f:\mathbb{R} - \{0\} \to \mathbb{R}\) defined by \(f(x) = \frac{1}{x}\) is called a reciprocal function (Fig.1.49).
 
 Fig.1.49
 
-#### 1.10.6 Constant Function
+### 1.10.6 Constant Function
 
 A function \(f:\mathbb{R}\to \mathbb{R}\) defined by \(f(x) = c\) \(\forall x\in \mathbb{R}\) is called a constant function (Fig.1.50).
 
