@@ -1,6 +1,9 @@
 ---
-title: 'trigonometry'
+title: 'Trigonometry'
+categories:
+    - trigonometry
 weight: 6
+summary: "Develops trigonometric identities and their applications, including solving problems involving angles, ratios, heights and distances."
 ---
 
 # Chapter 6

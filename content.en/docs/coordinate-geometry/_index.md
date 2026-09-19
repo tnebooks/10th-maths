@@ -1,6 +1,9 @@
 ---
-title: 'coordinate-geometry'
+title: 'Coordinate Geometry'
+categories:
+    - coordinate-geometry
 weight: 5
+summary: "Introduces coordinate geometry concepts including the area of triangles and quadrilaterals, inclination and slope of a line, straight lines and their general equations."
 ---
 
 # 5. COORDINATE GEOMETRY

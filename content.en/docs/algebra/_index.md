@@ -1,6 +1,9 @@
 ---
-title: 'algebra'
+title: 'Algebra'
+categories:
+    - algebra
 weight: 3
+summary: "Develops algebraic concepts including simultaneous linear equations, GCD and LCM of polynomials, rational expressions, square roots of polynomials, quadratic equations, graphs of variations, quadratic graphs and matrices."
 ---
 
 # Chapter 3
