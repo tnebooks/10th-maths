@@ -422,7 +422,7 @@ Fig.1.17
 | 50 | 69.5 |
 | 55 | 74 |
 
-1.6 Representation of Functions
+## 1.6 Representation of Functions
 
 A function may be represented by
 
@@ -507,7 +507,7 @@ In the adjacent \(XY\) - plane the points (1,2), (2,5), (3,8), (4,11) are plotte
 
 Fig.1.20
 
-1.7 Types of Functions
+## 1.7 Types of Functions
 
 In this section, we will discuss the following types of functions with suitable examples.
 
@@ -842,7 +842,7 @@ Solution \(f(x) = 3x - 5\) can be written as \(f = \{(x, 3x - 5) \mid x \in R\}\
 
 (v) the temperature when the Celsius value is equal to the Farenheit value.
 
-1.9 Composition of Functions
+## 1.9 Composition of Functions
 
 When a car driver depresses the accelerator pedal, it controls the flow of fuel which in turn influences the speed of the car. Likewise, the composition of two functions is a kind of chain reaction, where the functions act upon one after another (Fig.1.40).
 
