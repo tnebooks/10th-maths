@@ -197,29 +197,44 @@ The above two verified properties are called distributive property of cartesian 
 
 ## 1.3.1 Cartesian Product of three Sets
 
-If A, B, C are three non-empty sets then the cartesian product of three sets is the set of all possible ordered triplets given by
+If (A), (B), (C) are three non-empty sets then the cartesian product of three sets is the set of all possible ordered triplets given by
 
-A B C a b c × × = {(, ,) for all a Ab B c C \in \in \in , ,}
+$$
+A \times B \times C = \{(a,b,c) \mid a \in A, b \in B, c \in C\}.
+$$
 
-## Illustration for Geometrical understanding of cartesian product of two and three sets
+### Illustration for Geometrical understanding of Cartesian product of two and three sets
 
-)} Y (0,1)
+Let
+[
+A={0,1},\quad B={0,1},\quad C={0,1}.
+]
 
-Let A B C = = = {,}, {,}, {,} 0 1 0 1 0 1 A B � \times = {} {,} , 0 1 0 1 \times = {(,),(,),(,),(, 0 0 0 1 1 0 1 1
+$$
+A \times B=\{(0,0),(0,1),(1,0),(1,1)\}.
+$$
 
-Representing A B � \times in the XY - plane we get a picture shown in Fig. 1.5.
-
-() A B C \times \times = {(,),(,),(,),(,)} 0 0 0 1 1 0 1 1 ×{0,1} = {(, ,),(, ,),(, ,),(, ,),(, ,),(, ,)(, ,),(0 0 0 0 0 1 0 1 0 0 1 1 1 0 0 1 0 1 1 1 0 1 1 1 , ,)}
-
-Representing A B C \times \times in the XYZ - space we get a picture as shown in Fig. 1.6.
-
-Thus, A \times B represent vertices of a square in two dimensions and A B C \times \times represent vertices of a cube in three dimensions.
-
-In general if we join the cartesian product of two non-empty sets provides a shape in two dimensions and similarly cartesian product of three non-empty sets provide an object in three dimensions.
+Representing (A \times B) in the (XY)-plane gives the picture shown in Fig. 1.5.
 
 > **[IMAGE PLACEHOLDER — Fig. 1.5: Cartesian coordinates of two sets]**
 
+$$
+(A \times B) \times C
+=\{(0,0),(0,1),(1,0),(1,1)\}\times\{0,1\}
+$$
+
+$$
+=\{(0,0,0),(0,0,1),(0,1,0),(0,1,1),
+(1,0,0),(1,0,1),(1,1,0),(1,1,1)\}.
+$$
+
+Representing (A \times B \times C) in the (XYZ)-space gives the picture shown in Fig. 1.6.
+
 > **[IMAGE PLACEHOLDER — Fig. 1.6: Geometrical representation of Cartesian product of three sets as a 3D box]**
+
+Thus, (A \times B) represents vertices of a square in two dimensions and (A \times B \times C) represents vertices of a cube in three dimensions.
+
+In general, the Cartesian product of two non-empty sets provides a shape in two dimensions and similarly the Cartesian product of three non-empty sets provides an object in three dimensions.
 
 ## Exercise 1.1
 
@@ -1210,6 +1225,33 @@ Some Specific Linear Functions and their graphs are given below.
 - Modulus function is not a linear function but it is composed of two linear functions x and - x .
 - Linear functions are always one-one functions and has applications in Cryptography as well as in several branches of Science and Technology.
 
+## 1.10.2 Modulus or Absolute valued Function
+
+A function (f:\mathbb{R}\to[0,\infty)) defined by
+
+$$
+f(x)=|x|
+$$
+
+is called the modulus or absolute valued function.
+
+It can be written as
+
+$$
+f(x)=
+\begin{cases}
+x, & x\ge 0,\\
+-x, & x<0.
+\end{cases}
+$$
+
+> **[IMAGE PLACEHOLDER — Fig. 1.46: Graph of the modulus or absolute valued function]**
+
+## Note
+
+- Modulus function is not a linear function but it is composed of two linear functions (x) and (-x).
+- Linear functions are always one-one functions and have applications in Cryptography as well as in several branches of Science and Technology.
+
 ## 1.10.3 Quadratic Function
 
 A function \emptyset : \mathbb{R} \mathbb{R} \\to defined by \emptyset x ax bx c () , = + + 2 () a \neq 0 is called a quadratic function.
@@ -1282,108 +1324,265 @@ Fig. 1.50
 
 1.
 
-## Multiple choice questions
+## Exercise 1.5
 
-- If n A B () × = 6 and A = {, 1 3} then n B () is
-- (A) 1
-- (B) 2
-- (C) 3
-- (D) 6
-2. A a b p = {, ,}, B = {, 2 3}, C p q r s = {, , ,} then n A C B [() ] ∪ × is
-- (A) 8
-- (B) 20
-- (C) 12
-- (D) 16
-3. If A = {, 1 2}, B = {, , , 1 2 3 4}, C = {, 5 6} and D = {, , ,} 5 6 7 8 then state which of the following statement is true.
-- (A) () () A C B D × ⊂ ×
-- (B) () () B D A C × ⊂ ×
-- (C) () () A B A D × ⊂ ×
-- (D) () () D A B \times A ⊂ ×
-4. If there are 1024 relations from a set A = {1, 2, 3, 4, 5} to a set B , then the number of elements in B is
-- (A) 3
-- (B) 2
-- (C) 4
-- (D) 8
-5. The range of the relation R x x x = {(,) | 2 is a prime number less than 13} is
-- (A) {2,3,5,7}
-- (B) {2,3,5,7,11}
-- (C) {4,9,25,49,121}
-- (D) {1,4,9,25,49,121}
-6. If the ordered pairs (,) a + 2 4 and (,) 5 2 a b + are equal then (,) a b is
-- (A) (2, -2)
-- (B) (5,1)
-- (C) (2,3)
-- (D) (3, -2)
-7. Let n A m () = and n(B) = n then the total number of non-empty relations that can be defined from A to B is
-- (A) m n
-- (B) n m
-- (C) 2 1 mn -
-- (D) 2 mn
-8. If (,),(,) a b 8 6 {} represents an identity function, then the value of a and b are respectively
-- (A) (8,6)
-- (B) (8,8)
-- (C) (6,8)
-- (D) (6,6)
+1. Using the functions (f) and (g) given below, find (f\circ g) and (g\circ f). Check whether (f\circ g=g\circ f).
 
-9. Let A = {, , , 1 2 3 4} and B = {, , , 4 8 9 10}. A function \emptyset A B : \\to given by \emptyset = {(,),(,),(,),(,)} 1 4 2 8 3 9 4 10 is a
-2. (A) Many-one function
-3. (B) Identity function
-4. (C) One-to-one function
-5. (D) Into function
-10. If \emptyset x x () = 2 2 and g x x () = 1 3 , then \emptyset g \\circ is
-7. (A) 3 2 2 x
-8. (B) 2 3 2 x
-9. (C) 2 9 2 x
-10. (D) 1 6 2 x
-11. If \emptyset A B : \\to is a bijective function and if n B () = 7 , then n A () is equal to
-12. (A) 7
-13. (B) 49
-14. (C) 1 (D) 14
-12. Let \emptyset and g be two functions given by
+   1. (f(x)=x-6,quad g(x)=x^2)
+   2. (f(x)=\dfrac{2}{x},quad g(x)=2x^2-1)
+   3. (f(x)=\dfrac{x+6}{3},quad g(x)=3-x)
+   4. (f(x)=3+x,quad g(x)=x-4)
+   5. (f(x)=4x^2-1,quad g(x)=1+x^2)
 
-f = - {(,),(,),(,),(,),(,)} 0 1 2 0 3 4 4 2 5 7
+2. Find the value of (k), such that (f\circ g=g\circ f).
 
-g = - {(,),(,),(,),(,),(,)} 0 2 1 0 2 4 4 2 7 0 then the range of \emptyset g \\circ is
+   1. (f(x)=3x+2,quad g(x)=6x-k)
+   2. (f(x)=2x-k,quad g(x)=4x+5)
 
-- (A) {0,2,3,4,5}
-- (B) {-4,1,0,2,7}
-- (C) {1,2,3,4,5} (D) {0,1,2}
-13. Let \emptyset x x () = + 1 2 then
-- (A) \emptyset xy \emptyset x \emptyset y () (). () =
-- (B) \emptyset xy \emptyset x \emptyset y () (). () ³
-- (C) \emptyset xy \emptyset x \emptyset y () (). () £
-- (D) None of these
-14. If g = {(,),(,),(,),(,)} 1 1 2 3 3 5 4 7 is a function given by g x x () = + α β then the values of a and b are
-- (A) (-1,2)
-- (B)(2, -1)
-- (C) (-1, -2)
-- (D) (1,2)
-15. \emptyset x x x () () () = + - 1 1 3 3 represents a function which is
-- (A) linear
-- (B) cubic
-- (C) reciprocal
-- (D) quadratic
+3. If (f(x)=2x-1,quad g(x)=\dfrac{x+1}{2}), show that
+   [
+   f\circ g=g\circ f=x.
+   ]
+
+4. If (f(x)=x^2-1,quad g(x)=x-2), find (a), if
+   [
+   (g\circ f)(a)=1.
+   ]
+
+5. Let (A,B,C\subseteq\mathbb{N}) and a function (f:A\to B) be defined by (f(x)=2x+1) and (g:B\to C) be defined by (g(x)=x^2). Find the range of (f\circ g) and (g\circ f).
+
+6. Let (f(x)=x^2-1). Find
+   1. (f\circ f)
+   2. (f\circ f\circ f)
+
+7. If (f:\mathbb{R}\to\mathbb{R}) and (g:\mathbb{R}\to\mathbb{R}) are defined by (f(x)=x^5) and (g(x)=x^4), then check if (f,g) are one-one and (f\circ g) is one-one.
+
+8. Consider the functions (f(x),g(x),h(x)) as given below. Show that
+   [
+   (f\circ g)\circ h=f\circ(g\circ h)
+   ]
+   in each case.
+
+   1. (f(x)=x-1,quad g(x)=3x+1,quad h(x)=x^2)
+   2. (f(x)=x^2,quad g(x)=2x,quad h(x)=x+4)
+   3. (f(x)=x-4,quad g(x)=x^2,quad h(x)=3x-5)
+
+9. Let
+   [
+   f=\{(-1,3),(0,-1),(2,-9)\}
+   ]
+   be a linear function from (mathbb{Z}) into (mathbb{Z}). Find (f(x)).
+
+10. In electrical circuit theory, a circuit (C(t)) is called a linear circuit if it satisfies the superposition principle
+    [
+    C(at_1+bt_2)=aC(t_1)+bC(t_2),
+    ]
+    where (a,b) are constants. Show that the circuit (C(t)=3t) is linear.
+
+## Exercise 1.6
+
+### Multiple choice questions
+
+1. If (n(A\times B)=6) and (A=\{1,3\}), then (n(B)) is
+
+   - (A) 1
+   - (B) 2
+   - (C) 3
+   - (D) 6
+
+2. (A=\{a,b,p\}, B=\{2,3\}, C=\{p,q,r,s\}), then (n[(A\cup C)\times B]) is
+
+   - (A) 8
+   - (B) 20
+   - (C) 12
+   - (D) 16
+
+3. If (A=\{1,2\}, B=\{1,2,3,4\}, C=\{5,6\}) and (D=\{5,6,7,8\}), then state which of the following statement is true.
+
+   - (A) ((A\times C)\subset(B\times D))
+   - (B) ((B\times D)\subset(A\times C))
+   - (C) ((A\times B)\subset(A\times D))
+   - (D) ((D\times A)\subset(B\times A))
+
+4. If there are 1024 relations from a set (A=\{1,2,3,4,5\}) to a set (B), then the number of elements in (B) is
+
+   - (A) 3
+   - (B) 2
+   - (C) 4
+   - (D) 8
+
+5. The range of the relation
+   [
+   R=\{(x,x^2)\mid x\text{ is a prime number less than }13\}
+   ]
+   is
+
+   - (A) \(\{2,3,5,7\}\)
+   - (B) \(\{2,3,5,7,11\}\)
+   - (C) \(\{4,9,25,49,121\}\)
+   - (D) \(\{1,4,9,25,49,121\}\)
+
+6. If the ordered pairs ((a+2,4)) and ((5,2a+b)) are equal, then ((a,b)) is
+
+   - (A) ((2,-2))
+   - (B) ((5,1))
+   - (C) ((2,3))
+   - (D) ((3,-2))
+
+7. Let (n(A)=m) and (n(B)=n). Then the total number of non-empty relations that can be defined from (A) to (B) is
+
+   - (A) (mn)
+   - (B) (nm)
+   - (C) (2^{mn}-1)
+   - (D) (2^{mn})
+
+8. If ({(a,8),(6,b)}) represents an identity function, then the value of (a) and (b) are respectively
+
+   - (A) ((8,6))
+   - (B) ((8,8))
+   - (C) ((6,8))
+   - (D) ((6,6))
+
+9. Let (A=\{1,2,3,4\}) and (B=\{4,8,9,10\}). A function (f:A\to B) given by
+   [
+   f=\{(1,4),(2,8),(3,9),(4,10)\}
+   ]
+   is a
+
+   - (A) Many-one function
+   - (B) Identity function
+   - (C) One-to-one function
+   - (D) Into function
+
+10. If (f(x)=2x^2) and (g(x)=\dfrac{1}{3x}), then (f\circ g) is
+
+   - (A) (\dfrac{3}{2x^2})
+   - (B) (\dfrac{2}{3x^2})
+   - (C) (\dfrac{2}{9x^2})
+   - (D) (\dfrac{1}{6x^2})
+
+11. If (f:A\to B) is a bijective function and (n(B)=7), then (n(A)) is equal to
+
+   - (A) 7
+   - (B) 49
+   - (C) 1
+   - (D) 14
+
+12. Let (f) and (g) be two functions given by
+   [
+   f=\{(0,1),(2,0),(3,-4),(4,2),(5,7)\}
+   ]
+   [
+   g=\{(0,2),(1,0),(2,4),(-4,2),(7,0)\}.
+   ]
+   Then the range of (f\circ g) is
+
+   - (A) \(\{0,2,3,4,5\}\)
+   - (B) \(\{-4,1,0,2,7\}\)
+   - (C) \(\{1,2,3,4,5\}\)
+   - (D) \(\{0,1,2\}\)
+
+13. Let
+   [
+   f(x)=\sqrt{1+x^2}
+   ]
+   then
+
+   - (A) (f(xy)=f(x)f(y))
+   - (B) (f(xy)\ge f(x)f(y))
+   - (C) (f(xy)\le f(x)f(y))
+   - (D) None of these
+
+14. If
+   [
+   g=\{(1,1),(2,3),(3,5),(4,7)\}
+   ]
+   is a function given by (g(x)=\alpha x+\beta), then the values of (alpha) and (eta) are
+
+   - (A) ((-1,2))
+   - (B) ((2,-1))
+   - (C) ((-1,-2))
+   - (D) ((1,2))
+
+15. (f(x)=(x+1)^3-(x-1)^3) represents a function which is
+
+   - (A) linear
+   - (B) cubic
+   - (C) reciprocal
+   - (D) quadratic
 
 ## Unit Exercise - 1
 
-1. If the ordered pairs (,) x x y y 2 2 3 4 - + and (,) - 2 5 are equal, then find x and y .
-2. The cartesian product A × A has 9 elements among which (-1, 0) and (, 0 1) are found. Find the set A and the remaining elements of A × A .
-3. Given that \emptyset x x x x () = - \ge < ⎧ ⎨ ⎪ ⎪ ⎪ ⎩ ⎪ ⎪ ⎪ ⎫ ⎬ ⎪ ⎪ ⎪ ⎭ ⎪ ⎪ ⎪ 1 1 4 1 . Find
-4. (i) \emptyset (0)
-5. (ii) \emptyset (3)
-6. (iii) \emptyset a () + 1 in terms of a .(Given that a ³ 0)
-4. Let A = {} 9 10 11 12 13 14 15 16 17 , , , , , , , , and let \emptyset A N : \\to be defined by \emptyset n () = the highest prime factor of n A \in . Write \emptyset as a set of ordered pairs and find the range of \emptyset .
+1. If the ordered pairs ((x^2-3x, y^2+4y)) and ((-2,5)) are equal, then find (x) and (y).
 
-5. Find the domain of the function \emptyset x x () = + - 1 1 1 2
-6. If \emptyset x x () = 2 , g x x () = 3 and h x x () = - 2 , Prove that () () \emptyset g h \emptyset g h \\circ  \\circ  = .
-7. Let A = {, 1 2} and B = {, , , 1 2 3 4} , C = {} 5 6 , and D = {, , , 5 6 7 8} . Verify whether A×C is a subset of B×D?
-8. If \emptyset x x x x () , = - + \neq- 1 1 1 show that \emptyset \emptyset x x (()) =- 1 , provided x \neq 0 .
-9. The functions \emptyset and g are defined by \emptyset x x () ; = + 6 8 g x x () = - 2 3
-6. (i) Calculate the value of gg 1 2 ⎛ ⎝ ⎜ ⎜ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎟ ⎟
-7. (ii) Write an expression for gf x () in its simplest form.
-10. Write the domain of the following real functions
+2. The Cartesian product (A\times A) has 9 elements among which ((-1,0)) and ((0,1)) are found. Find the set (A) and the remaining elements of (A\times A).
 
-(i) \emptyset x x x () = + - 2 1 9 (ii) p x x () = - + 5 4 1 2 (iii) g x x () = - 2 (iv) h x x () = + 6
+3. Given that
+   [
+   f(x)=
+   \begin{cases}
+   \sqrt{x-1}, & x\ge1,\\
+   4, & x<1,
+   \end{cases}
+   ]
+   find
+   1. (f(0))
+   2. (f(3))
+   3. (f(a+1)) in terms of (a). (Given that (a\ge0))
+
+4. Let
+   [
+   A=\{9,10,11,12,13,14,15,16,17\}
+   ]
+   and let (f:A\to\mathbb{N}) be defined by (f(n)) = the highest prime factor of (n\in A). Write (f) as a set of ordered pairs and find the range of (f).
+
+5. Find the domain of the function
+   [
+   f(x)=1+\sqrt{1+\sqrt{1-x^2}}.
+   ]
+
+6. If (f(x)=x^2, g(x)=3x) and (h(x)=x-2), prove that
+   [
+   (f\circ g)\circ h=f\circ(g\circ h).
+   ]
+
+7. Let (A=\{1,2\}), (B=\{1,2,3,4\}), (C=\{5,6\}) and (D=\{5,6,7,8\}). Verify whether (A\times C) is a subset of (B\times D).
+
+8. If
+   [
+   f(x)=\frac{x-1}{x+1},\quad x\ne-1,
+   ]
+   show that
+   [
+   f(f(x))=-\frac{1}{x},
+   ]
+   provided (x\ne0).
+
+9. The functions (f) and (g) are defined by
+   [
+   f(x)=6x+8,\qquad g(x)=\frac{x-2}{3}.
+   ]
+
+   1. Calculate the value of
+      [
+      g\left(g\left(\frac12\right)\right).
+      ]
+   2. Write an expression for (g f(x)) in its simplest form.
+
+10. Write the domain of the following real functions:
+
+   1. [
+      f(x)=\frac{2x+1}{x-9}
+      ]
+   2. [
+      p(x)=\frac{-5}{4x^2+1}
+      ]
+   3. [
+      g(x)=\sqrt{x-2}
+      ]
+   4. [
+      h(x)=x+6
+      ]
 
 ## Points to Remember
 
