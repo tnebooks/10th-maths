@@ -15,7 +15,7 @@ In a manuscript Leibniz used the word "function" to mean any quantity varying fr
 
 <center>
 
-![Gottfried Wilhelm Leibniz (1646-1716)](image-1-leibniz.png)
+![Gottfried Wilhelm Leibniz (1646-1716)](assets/image-1-leibniz.png)
 
 </center>
 
@@ -47,7 +47,7 @@ Now we are about to study a new set called "cartesian product" for the given set
 
 Observe the seating plan in an auditorium (Fig.1.1). To help orderly occupation of seats, tokens with numbers such as $(1,5)$, $(7,16)$, $(3,4)$, $(10,12)$ etc. are issued. The person who gets $(4,10)$ will go to row 4 and occupy the 10th seat. Thus the first number denotes the row and the second number, the seat. Which seat will the visitor with token $(5,9)$ occupy? Can he go to 9th row and take the 5th seat? Do $(9,5)$ and $(5,9)$ refer to the same location? No, certainly! What can you say about the tokens $(2,3)$, $(6,3)$ and $(10,3)$?
 
-![Fig. 1.1](image-1-1.png)
+![Fig. 1.1](assets/image-1-1.png)
 
 This is one example where a pair of numbers, written in a particular order, precisely indicates a location. Such a number pair is called an ordered pair of numbers. This notion is skillfully used to mathematize the concept of a "Relation".
 
@@ -70,7 +70,7 @@ What are the possible ways of choosing a vegetable with a fruit? (Fig.1.2)
 | Ladies finger ($l$) | Grapes ($g$) |
 | | Strawberry ($s$) |
 
-![Fig. 1.2](image-1-2.png)
+![Fig. 1.2](assets/image-1-2.png)
 
 We can select them in 12 distinct pairs as given below.
 
@@ -98,7 +98,7 @@ $A \times B = \{1,2,3\} \times \{a,b\} = \{(1,a),(1,b),(2,a),(2,b),(3,a),(3,b)\}
 
 $B \times A = \{a,b\} \times \{1,2,3\} = \{(a,1), (a,2), (a,3),(b,1), (b,2), (b,3)\}$ (as shown in Fig.1.3)
 
-![Fig. 1.3](image-1-3.png)
+![Fig. 1.3](assets/image-1-3.png)
 
 **Thinking Corner**
 
@@ -121,7 +121,7 @@ Real Numbers $\mathbb{R} = \mathbb{Q} \cup \mathbb{Q}'$, where $\mathbb{Q}'$ is 
 
 For example, let A be the set of numbers in the interval $[3, 5]$ and $B$ be the set of numbers in the interval $[2,3]$. Then the Cartesian product $A \times B$ corresponds to the rectangular region shown in the Fig. 1.4. It consists of all points $(x, y)$ within the region.
 
-![Fig. 1.4](image-1-4.png)
+![Fig. 1.4](assets/image-1-4.png)
 
 > **Note**
 >
@@ -226,7 +226,7 @@ $A \times B = \{0,1\} \times \{0,1\} = \{(0,0),(0,1),(1,0),(1,1)\}$
 
 Representing $A \times B$ in the $XY$-plane we get a picture shown in Fig. 1.5.
 
-![Fig. 1.5](image-1-5.png)
+![Fig. 1.5](assets/image-1-5.png)
 
 $(A \times B) \times C = \{(0,0),(0,1),(1,0),(1,1)\} \times \{0,1\}$
 
@@ -234,7 +234,7 @@ $= \{(0,0,0),(0,0,1),(0,1,0),(0,1,1),(1,0,0),(1,0,1),(1,1,0),(1,1,1)\}$
 
 Representing $A \times B \times C$ in the $XYZ$-space we get a picture as shown in Fig. 1.6.
 
-![Fig. 1.6](image-1-6.png)
+![Fig. 1.6](assets/image-1-6.png)
 
 Thus, $A \times B$ represent vertices of a square in two dimensions and $A \times B \times C$ represent vertices of a cube in three dimensions.
 
@@ -307,7 +307,7 @@ $R = \{(\text{heights, students})\}$
 
 $R = \big\{(4.5,S_1), (4.5,S_4), (4.7,S_9), (4.9,S_{10}), (5,S_3), (5,S_5),(5,S_8), (5.1,S_6), (5.2,S_2), (5.2,S_7)\big\}$
 
-![Fig. 1.7](image-1-7.png)
+![Fig. 1.7](assets/image-1-7.png)
 
 > **Definition**
 >
@@ -327,7 +327,7 @@ Let $A = \{1,2,3,4,5\}$ and $B = \{\text{Mathi, Arul, John}\}$
 
 A relation R between the above sets $A$ and $B$ can be represented by an arrow diagram (Fig. 1.8).
 
-![Fig. 1.8](image-1-8.png)
+![Fig. 1.8](assets/image-1-8.png)
 
 Then, domain of R $= \{1,2,3,4\}$
 
@@ -363,7 +363,7 @@ $$
 
 This relation is shown in an arrow diagram (Fig.1.9).
 
-![Fig. 1.9](image-1-9.png)
+![Fig. 1.9](assets/image-1-9.png)
 
 **Example 1.4** Let $A = \{3,4,7,8\}$ and $B = \{1,7,10\}$. Which of the following sets are relations from $A$ to $B$?
 
@@ -387,7 +387,7 @@ This relation is shown in an arrow diagram (Fig.1.9).
 
 **Solution**
 
-![Fig. 1.10](image-1-10.png)
+![Fig. 1.10](assets/image-1-10.png)
 
 (i) Set builder form of R $= \{(x,y) \mid y = x - 2, \ x \in P, y \in Q\}$
 
@@ -429,7 +429,7 @@ Among several relations that exist between two non-empty sets, some special rela
 
 A company has 5 employees in different categories. If we consider their salary distribution for a month as shown by arrow diagram in Fig.1.11, we see that there is only one salary associated for every employee of the company.
 
-![Fig. 1.11](image-1-11.png)
+![Fig. 1.11](assets/image-1-11.png)
 
 Here are various real life situations illustrating some special relations:
 
@@ -450,9 +450,9 @@ A function $f$ from $X$ to $Y$ is written as $f: X \to Y$.
 
 Comparing the definitions of relation and function, we see that every function is a relation. Thus, functions are subsets of relations and relations are subsets of cartesian product. (Fig.1.12(a))
 
-![Fig. 1.12(a)](image-1-12a.png)
+![Fig. 1.12(a)](assets/image-1-12a.png)
 
-![Fig. 1.12(b)](image-1-12b.png)
+![Fig. 1.12(b)](assets/image-1-12b.png)
 A function $f$ can be thought as a mechanism (or device) (Fig.1.12($b$)), which gives a unique output $f(x)$ to every input $x$.
 
 > **Do You Know?**
@@ -492,15 +492,15 @@ A function $f$ can be thought as a mechanism (or device) (Fig.1.12($b$)), which 
 
 **Representation by Arrow diagram**
 
-![Fig. 1.13(a)](image-1-13a.png)
+![Fig. 1.13(a)](assets/image-1-13a.png)
 
 This represents a function. Each input corresponds to a single output.
 
-![Fig. 1.13(b)](image-1-13b.png)
+![Fig. 1.13(b)](assets/image-1-13b.png)
 
 This represents a function. Each input corresponds to a single output.
 
-![Fig. 1.13(c)](image-1-13c.png)
+![Fig. 1.13(c)](assets/image-1-13c.png)
 
 This is not a function. One of the input $b$ is associated with two outputs.
 
@@ -515,7 +515,7 @@ Functions play very important role in the understanding of higher ideas in mathe
 
 Domain $X = \{1,2,3,4\}$; Co-domain $Y = \{2,4,6,8,10\}$; Range of $f = \{2,4,6,8\}$.
 
-![Fig. 1.14](image-1-14.png)
+![Fig. 1.14](assets/image-1-14.png)
 
 **Example 1.7** A relation $f : X \to Y$ is defined by $f(x) = x^2 - 2$ where, $X = \{-2,-1,0,3\}$ and $Y = \mathbb{R}$. (i) List the elements of $f$ (ii) Is $f$ a function?
 
@@ -543,7 +543,7 @@ $$\therefore f = \{(-2,2),(-1,-1),(0,-2),(3,7)\}$$
 
 We may represent the relation $R_1$ in an arrow diagram (Fig.1.15(a)).
 
-![Fig. 1.15(a)](image-1-15a.png)
+![Fig. 1.15(a)](assets/image-1-15a.png)
 
 $R_1$ is not a function as $4 \in X$ does not have an image in $Y$.
 
@@ -551,7 +551,7 @@ $R_1$ is not a function as $4 \in X$ does not have an image in $Y$.
 
 Arrow diagram of $R_2$ is shown in Fig.1.15(b).
 
-![Fig. 1.15(b)](image-1-15b.png)
+![Fig. 1.15(b)](assets/image-1-15b.png)
 
 $R_2$ is a function as each element of $X$ has an unique image in $Y$.
 
@@ -559,7 +559,7 @@ $R_2$ is a function as each element of $X$ has an unique image in $Y$.
 
 Representing $R_3$ in an arrow diagram (Fig.1.15(c)).
 
-![Fig. 1.15(c)](image-1-15c.png)
+![Fig. 1.15(c)](assets/image-1-15c.png)
 
 $R_3$ is not a function as $1 \in X$ has two images $a \in Y$ and $b \in Y$.
 
@@ -591,7 +591,7 @@ $$f(x+1) = 2(x+1) - (x+1)^2 = 2x + 2 - (x^2 + 2x + 1) = -x^2 + 1$$
 
 4. A graph representing the function $f(x)$ is given in Fig.1.16 it is clear that $f(9) = 2$.
 
-   ![Fig. 1.16](image-1-16.png)
+   ![Fig. 1.16](assets/image-1-16.png)
 
    (i) Find the following values of the function
 
@@ -617,7 +617,7 @@ $$f(x+1) = 2(x+1) - (x+1)^2 = 2x + 2 - (x^2 + 2x + 1) = -x^2 + 1$$
 
 7. An open box is to be made from a square piece of material, 24 cm on a side, by cutting equal squares from the corners and turning up the sides as shown (Fig.1.17). Express the volume $V$ of the box as a function of $x$.
 
-   ![Fig. 1.17](image-1-17.png)
+   ![Fig. 1.17](assets/image-1-17.png)
 
 8. A function $f$ is defined by $f(x) = 3 - 2x$. Find $x$ such that $f(x^2) = (f(x))^2$.
 
@@ -676,13 +676,13 @@ A curve drawn in a graph represents a function, if every vertical line intersect
 
 **Example 1.10** Using vertical line test, determine which of the following curves (Fig.1.18(a), 1.18(b), 1.18(c), 1.18(d)) represent a function?
 
-![Fig. 1.18(a)](image-1-18a.png) ![Fig. 1.18(b)](image-1-18b.png) ![Fig. 1.18(c)](image-1-18c.png)
+![Fig. 1.18(a)](assets/image-1-18a.png) ![Fig. 1.18(b)](assets/image-1-18b.png) ![Fig. 1.18(c)](assets/image-1-18c.png)
 
 **Solution** The curves in Fig.1.18 ($a$) and Fig.1.18 ($c$) do not represent a function as the vertical lines meet the curves in two points $P$ and $Q$.
 
 The curves in Fig.1.18 (b) and Fig.1.18 (d) represent a function as the vertical lines meet the curve in at most one point.
 
-![Fig. 1.18(d)](image-1-18d.png)
+![Fig. 1.18(d)](assets/image-1-18d.png)
 
 > **Note**
 > Any equation represented in a graph is usually called a curve.
@@ -703,7 +703,7 @@ $$f(3) = 3(3) - 1 = 9 - 1 = 8 ; \quad f(4) = 4(3) - 1 = 12 - 1 = 11$$
 
 Let us represent the function $f : A \to B$ by an arrow diagram (Fig.1.19).
 
-![Fig. 1.19](image-1-19.png)
+![Fig. 1.19](assets/image-1-19.png)
 
 **(ii) Table form**
 
@@ -723,7 +723,7 @@ $$f = \{(1,2),(2,5),(3,8),(4,11)\}$$
 
 In the adjacent $XY$-plane the points $(1,2), (2,5), (3,8), (4,11)$ are plotted (Fig.1.20).
 
-![Fig. 1.20](image-1-20.png)
+![Fig. 1.20](assets/image-1-20.png)
 ### 1.7 Types of Functions
 
 In this section, we will discuss the following types of functions with suitable examples.
@@ -734,7 +734,7 @@ In this section, we will discuss the following types of functions with suitable 
 
 Let us assume that we have a cell phone with proper working condition. If you make a usual call to your friend then you can make only one call at a time (Fig.1.21).
 
-![Fig. 1.21](image-1-21.png)
+![Fig. 1.21](assets/image-1-21.png)
 
 If we treat making calls as a function, then it will be one - one.
 
@@ -754,7 +754,7 @@ $A = \{1,2,3,4\}$ and $B = \{a,b,c,d,e\}$
 
 In Fig. 1.22, for different elements in $A$, there are different images in $B$.
 
-![Fig. 1.22](image-1-22.png)
+![Fig. 1.22](assets/image-1-22.png)
 
 Hence $f$ is a one – one function.
 
@@ -762,13 +762,13 @@ Hence $f$ is a one – one function.
 
 $g$ is a function from $A$ to $B$ such that $g(1) = g(2) = b$, but $1 \neq 2$. Thus two distinct elements 1 and 2 in the first set $A$ have same image $b$ the second set in $B$ (Fig.1.23). Hence, $g$ is not a one–one function.
 
-![Fig. 1.23](image-1-23.png)
+![Fig. 1.23](assets/image-1-23.png)
 
 #### 1.7.2 Many – one function
 
 In a theatre complex three films $F_1$, $F_2$, $F_3$ are shown. Seven persons ($P_1$ to $P_7$) arrive at the theatre and buy tickets as shown (Fig.1.24).
 
-![Fig. 1.24](image-1-24.png)
+![Fig. 1.24](assets/image-1-24.png)
 
 If the selection of films is considered as a relation, then this is a function which is many–one, since more than one person may choose to watch the same film.
 
@@ -786,7 +786,7 @@ Then $f$ is a function from $A$ to $B$ in which different elements 1 and 2 of $A
 
 In a mobile phone assume that there are 3 persons in the contact. If every person in the contact receives a call, then the function representing making calls will be onto. (Fig.1.25)
 
-![Fig. 1.25](image-1-25.png)
+![Fig. 1.25](assets/image-1-25.png)
 
 > A function $f : A \to B$ is said to be **onto function** if the range of $f$ is equal to the co-domain of $f$.
 
@@ -804,7 +804,7 @@ Let $A = \{x,y,z\}, B = \{l,m,n\}$;
 
 Range of $f = \{l,m,n\} = B$ (Fig.1.26)
 
-![Fig. 1.26](image-1-26.png)
+![Fig. 1.26](assets/image-1-26.png)
 
 Hence $f$ is an onto function.
 
@@ -812,7 +812,7 @@ Hence $f$ is an onto function.
 
 In a home appliance showroom, the products television, air conditioner, washing machine and water heater were provided with 20% discount as new year sale offer. If the selection of the above products by the three customers $C_1$, $C_2$, $C_3$ is considered as a function then the following diagram (Fig.1.27) will represent an into function.
 
-![Fig. 1.27](image-1-27.png)
+![Fig. 1.27](assets/image-1-27.png)
 
 During winter season customers usually do not prefer buying air conditioner. Here air conditioner is not chosen by any customer. This is an example of into function.
 
@@ -830,7 +830,7 @@ Here, range of $f = \{w, x, z\} \subset B$ (Fig.1.28)
 
 $\therefore f$ is a into function.
 
-![Fig. 1.28](image-1-28.png)
+![Fig. 1.28](assets/image-1-28.png)
 
 Note that $y \in B$ is not an image of any element in $A$.
 
@@ -838,7 +838,7 @@ Note that $y \in B$ is not an image of any element in $A$.
 
 Consider the circle where each letter of the English alphabet is changed from inner portion to a letter in the outer portion. Thus $A \to D$, $B \to E$, $C \to F$, … $Z \to C$. We call this circle as 'cipher circle'. (Fig.1.29) In this way if we try to change the word 'HELLO' then it will become 'KHOOR'. Now using the same circle if we substitute for each outer letter the corresponding inner letter we will get back the word 'HELLO'. This process of converting from one form to an other form and receiving back the required information is called **bijection**. This process is widely used in the study of secret codes called **cryptography**.
 
-![Cipher Circle, Fig. 1.29](image-1-29.png)
+![Cipher Circle, Fig. 1.29](assets/image-1-29.png)
 
 > If a function $f : A \to B$ is both one–one and onto, then $f$ is called a **bijection** from $A$ to $B$.
 
@@ -846,13 +846,13 @@ Consider the circle where each letter of the English alphabet is changed from in
 
 | one to one and onto function (Bijection) | |
 |---|---|
-| ![Fig. 1.30](image-1-30.png) | Distinct elements of $A$ have distinct images in $B$ and every element in $B$ has a pre-image in $A$. |
+| ![Fig. 1.30](assets/image-1-30.png) | Distinct elements of $A$ have distinct images in $B$ and every element in $B$ has a pre-image in $A$. |
 
 **Illustration 15**
 
 | One to One | Many to One |
 |---|---|
-| ![Fig. 1.31](image-1-31.png) | ![Fig. 1.32](image-1-32.png) |
+| ![Fig. 1.31](assets/image-1-31.png) | ![Fig. 1.32](assets/image-1-32.png) |
 | Distinct elements of $A$ have distinct images in $B$. | Two or more elements of $A$ have same image in $B$. |
 
 >**Note**
@@ -865,7 +865,7 @@ Consider the circle where each letter of the English alphabet is changed from in
 
 | Onto | Into |
 |---|---|
-| ![Fig. 1.33](image-1-33.png) | ![Fig. 1.34](image-1-34.png) |
+| ![Fig. 1.33](assets/image-1-33.png) | ![Fig. 1.34](assets/image-1-34.png) |
 | Range of $f$ = co-domain ( Every element in $B$ has a pre-image in $A$) | Range of $f$ is a proper subset of co-domain (There exists at least one element in $B$ which is not the image of any element of $A$) |
 
 To determine whether the given function is one–one or not the following test may help us.
@@ -876,7 +876,7 @@ Previously we have seen the vertical line test. Now let us see the horizontal li
 
 **Example 1.12** Using horizontal line test (Fig.1.35 (a), 1.35 (b), 1.35 (c)), determine which of the following functions are one – one.
 
-![Fig. 1.35(a)](image-1-35a.png) ![Fig. 1.35(b)](image-1-35b.png) ![Fig. 1.35(c)](image-1-35c.png)
+![Fig. 1.35(a)](assets/image-1-35a.png) ![Fig. 1.35(b)](assets/image-1-35b.png) ![Fig. 1.35(c)](assets/image-1-35c.png)
 
 **Solution** The curves in Fig.1.35 (a) and Fig.1.35 (c) represent a one–one function as the horizontal lines meet the curves in only one point $P$.
 
@@ -888,7 +888,7 @@ The curve in Fig. 1.35 (b) does not represent a one–one function, since, the h
 
 Then $f$ is a function from $A$ to $B$ and for different elements in $A$, there are different images in $B$. Hence $f$ is one–one function. Note that the element 7 in the co-domain does not have any pre-image in the domain. Hence $f$ is not onto (Fig.1.36).
 
-![Fig. 1.36](image-1-36.png)
+![Fig. 1.36](assets/image-1-36.png)
 
 $\therefore f$ is one–one but not an onto function.
 
@@ -973,7 +973,7 @@ Therefore, the length of the thigh bone is 38 cm.
 >
 > Check whether the following curves represent a function. In the case of a function, check whether it is one-one? (Hint: Use the vertical and the horizontal line tests)
 >
-> ![Activity 3 curves (i)-(vi)](image-1-activity3.png)
+> ![Activity 3 curves (i)-(vi)](assets/image-1-activity3.png)
 
 ### 1.8 Special Cases of Functions
 
@@ -988,13 +988,13 @@ A function $f : A \to B$ is called a constant function if the range of $f$ conta
 
 From Fig.1.37, $A = \{a,b,c,d\}$, $B = \{1,2,3\}$ and $f = \{(a,3),(b,3),(c,3),(d,3)\}$. $\therefore f(x) = 3 \ \forall \ x \in A$, Range of $f = \{3\}$, $f$ is a constant function.
 
-![Fig. 1.37](image-1-37.png)
+![Fig. 1.37](assets/image-1-37.png)
 
 #### (ii) Identity function
 
 Let $A$ be a non-empty set. Then the function $f : A \to A$ defined by $f(x) = x$ for all $x \in A$ is called an identity function on $A$ and is denoted by $I_A$.
 
-![Fig. 1.38](image-1-38.png)
+![Fig. 1.38](assets/image-1-38.png)
 
 **Illustration 17**
 
@@ -1041,7 +1041,7 @@ then find the values of
 
 **Solution** The function $f$ is defined by three values in intervals I, II, III as shown by the side
 
-![Fig. 1.39](image-1-39.png)
+![Fig. 1.39](assets/image-1-39.png)
 
 For a given value of $x = a$, find out the interval at which the point $a$ is located, there after find $f(a)$ using the particular value defined in that interval.
 
@@ -1075,7 +1075,7 @@ $$\frac{f(1) - 3f(4)}{f(-3)} = \frac{-1 - 3(10)}{1} = -31$$
 
 1. Determine whether the graph given below represent functions. Give reason for your answers concerning each graph.
 
-   ![Graphs (i)-(iv) for Exercise 1.4 Q1](image-1-exercise-graphs.png)
+   ![Graphs (i)-(iv) for Exercise 1.4 Q1](assets/image-1-exercise-graphs.png)
 
 2. Let $f : A \to B$ be a function defined by $f(x) = \dfrac{x}{2} - 1$, where $A = \{2,4,6,10,12\}$, $B = \{0,1,2,4,5,9\}$. Represent $f$ by
 
@@ -1127,7 +1127,7 @@ $$\frac{f(1) - 3f(4)}{f(-3)} = \frac{-1 - 3(10)}{1} = -31$$
 
 When a car driver depresses the accelerator pedal, it controls the flow of fuel which in turn influences the speed of the car. Likewise, the composition of two functions is a kind of 'chain reaction', where the functions act upon one after another (Fig.1.40).
 
-![Fig. 1.40](image-1-40.png)
+![Fig. 1.40](assets/image-1-40.png)
 
 We can explain this further with the concept that a function is a 'process'. If $f$ and $g$ are two functions then the composition $g(f(x))$ (Fig.1.41) is formed in two steps.
 
@@ -1139,7 +1139,7 @@ We can explain this further with the concept that a function is a 'process'. If 
 
 Consider the set $A$ of all students, who appeared in class X of Board Examination. Each student appearing in the Board Examination is assigned a roll number. In order to have confidentiality, the Board arranges to deface the roll number of each student and assigns a code number to each roll number.
 
-![Fig. 1.41](image-1-41.png)
+![Fig. 1.41](assets/image-1-41.png)
 
 Let $A$ be the set of all students appearing for the board exam. $B \subseteq \mathbb{N}$ be the set all roll numbers and $C \subseteq \mathbb{N}$ be the set of all code numbers (Fig.1.41). This gives rise to two functions $f : A \to B$ and $g : B \to C$ given by $b = f(a)$ be the roll number assigned to student $a$, $c = g(b)$ be the code number assigned to roll number $b$, where $a \in A$, $b \in B$ and $c \in C$.
 
@@ -1150,7 +1150,7 @@ Thus, by the combination of these two functions, each student is eventually atta
 >**Definition**
 >Let $f : A \to B$ and $g : B \to C$ be two functions (Fig.1.42). Then the composition of $f$ and $g$ denoted by $g \circ f$ is defined as the function $g \circ f(x) = g(f(x))\ \forall\ x \in A$.
 
-![Fig. 1.42](image-1-42.png)
+![Fig. 1.42](assets/image-1-42.png)
 
 **Example 1.19** Find $f \circ g$ and $g \circ f$ when $f(x) = 2x + 1$ and $g(x) = x^2 - 2$
 
@@ -1213,7 +1213,7 @@ $$\therefore 4k - 3 = 5 \Rightarrow k = 2.$$
 
 Let $A$, $B$, $C$, $D$ be four sets and let $f : A \to B$, $g : B \to C$ and $h : C \to D$ be three functions (Fig.1.43). Using composite functions $f \circ g$ and $g \circ h$, we get two new functions like $(f \circ g) \circ h$ and $f \circ (g \circ h)$.
 
-![Fig. 1.43](image-1-43.png)
+![Fig. 1.43](assets/image-1-43.png)
 
 We observed that the composition of functions is not commutative. The natural question is about the associativity of the operation.
 
@@ -1305,8 +1305,8 @@ Some Specific Linear Functions and their graphs are given below.
 
 | No. | Function | Domain and Definition | Graph |
 |---|---|---|---|
-| 1 | The identity function | $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = x$ | ![Fig. 1.44](image-1-44.png) |
-| 2 | Additive inverse function | $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = -x$ | ![Fig. 1.45](image-1-45.png) |
+| 1 | The identity function | $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = x$ | ![Fig. 1.44](assets/image-1-44.png) |
+| 2 | Additive inverse function | $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = -x$ | ![Fig. 1.45](assets/image-1-45.png) |
 
 #### 1.10.2 Modulus or Absolute valued Function
 
@@ -1314,7 +1314,7 @@ $$f:\mathbb{R}\to[0,\infty) \text{ defined by } f(x) = |x|$$
 
 $$= \begin{cases} x; & x \geq 0 \\ -x; & x < 0 \end{cases}$$
 
-![Fig. 1.46](image-1-46.png)
+![Fig. 1.46](assets/image-1-46.png)
 
 >**Note**
 >- Modulus function is not a linear function but it is composed of two linear functions $x$ and $-x$.
@@ -1328,26 +1328,26 @@ Some specific quadratic functions and their graphs
 
 | Function, Domain, Range and Definition | Graph |
 |---|---|
-| $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = x^2, x \in \mathbb{R}$. $f(x) \in [0,\infty)$ | ![Fig. 1.47(a)](image-1-47a.png) |
-| $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = -x^2, x \in \mathbb{R}$. $f(x) \in (-\infty,0]$ | ![Fig. 1.47(b)](image-1-47b.png) |
+| $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = x^2, x \in \mathbb{R}$. $f(x) \in [0,\infty)$ | ![Fig. 1.47(a)](assets/image-1-47a.png) |
+| $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = -x^2, x \in \mathbb{R}$. $f(x) \in (-\infty,0]$ | ![Fig. 1.47(b)](assets/image-1-47b.png) |
 
 #### 1.10.4 Cubic Function
 
 A function $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = ax^3 + bx^2 + cx + d, (a \neq 0)$ is called a cubic function. The graph of $f(x) = x^3$ is shown in Fig.1.48.
 
-![Fig. 1.48](image-1-48.png)
+![Fig. 1.48](assets/image-1-48.png)
 
 #### 1.10.5 Reciprocal Function
 
 A function $f:\mathbb{R} - \{0\}\to\mathbb{R}$ defined by $f(x) = \dfrac{1}{x}$ is called a reciprocal function (Fig.1.49).
 
-![Fig. 1.49](image-1-49.png)
+![Fig. 1.49](assets/image-1-49.png)
 
 #### 1.10.6 Constant Function
 
 A function $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = c, \ \forall\ x \in \mathbb{R}$ is called a constant function (Fig.1.50).
 
-![Fig. 1.50](image-1-50.png)
+![Fig. 1.50](assets/image-1-50.png)
 
 > **Progress Check**
 > 1. Is a constant function a linear function?
