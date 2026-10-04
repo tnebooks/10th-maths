@@ -1,425 +1,613 @@
 ---
-title: 'Geometry'
+title: 'geometry'
 categories:
     - geometry
 weight: 4
 ---
 
-# Chapter 4
+# 4 Geometry
 
-## GEOMETRY
-
-"The knowledge of which geometry aims is the knowledge of eternal" - Plato
+> “The knowledge of which geometry aims is the knowledge of eternal” — Plato
 
 Omar Khayyam was a Persian mathematician, astronomer and poet. As a poet, his classic work Rubaiyat attained world fame.
 
-Khayyam's work is an effort to unify Algebra and Geometry. Khayyam's work can be considered the first systematic study and the first exact method of solving cubic equations. He accomplished this task using Geometry. His efforts in trying to generalize the principles of Geometry provided by Euclid, inspired many European mathematicians to the eventual discovery of non-Euclidean Geometry. Khayyam was a perfect example of being a notable scientist and a great poet, an achievement which many do not possess.
+Khayyam’s work is an effort to unify Algebra and Geometry. Khayyam’s work can be considered the first systematic study and the first exact method of solving cubic equations. He accomplished this task using Geometry. His efforts in trying to generalize the principles of Geometry provided by Euclid, inspired many European mathematicians to the eventual discovery of non-Euclidean Geometry. Khayyam was a perfect example of being a notable scientist and a great poet, an achievement which many do not possess.
 
-<center>
-
-![*Omar Khayyam (18.5.1048 - 4.12.1131)*](assets/page_001_picture_003.png)
-
-Omar Khayyam (18.5.1048 - 4.12.1131)
-</center>
-
----
+![Omar Khayyam (18.5.1048 – 4.12.1131)](assets/image-4-khayyam.png)
 
 ## Learning Outcomes
 
-To recall congruent triangles and understand the definition of similar triangles. To understand the properties and construction of similar triangles and apply them to solve problems. To prove basic proportionality theorem, angle bisector theorem and study their applications and study the construction of triangles under given conditions. To prove Pythagoras theorem and study its applications. To understand the concept of tangent to a circle and study construction of tangent to circle. To understand and apply concurrency theorems.
+- To recall congruent triangles and understand the definition of similar triangles.
+- To understand the properties and construction of similar triangles and apply them to solve problems.
+- To prove basic proportionality theorem, angle bisector theorem and study their applications and study the construction of triangles under given conditions.
+- To prove Pythagoras theorem and study its applications.
+- To understand the concept of tangent to a circle and study construction of tangent to circle.
+- To understand and apply concurrency theorems.
 
----
-
-### 4.1 Introduction
-
-![](assets/page_001_picture_003.png)
+## 4.1 Introduction
 
 The study of Geometry is concerned with knowing properties of various shapes and structures. Arithmetic and Geometry were considered to be the two oldest branches of mathematics. Greeks held Geometry in high esteem and used its properties to discuss various scientific principles which otherwise would have been impossible. Eratosthenes used the similarity of circle to determine the circumference of the Earth, distances of the moon and the sun from the Earth, to a remarkable accuracy. Apart from these achievements, similarity is used to find width of rivers, height of trees and much more.
 
-In this chapter, we will be discussing the concepts mainly as continuation of previous classes and discuss most important concepts like Similar Triangles, Basic Proportionality Theorem, Angle Bisector Theorem, the most prominent and widely acclaimed Pythagoras Theorem and much more. Ceva's Theorem and Menelaus Theorem is introduced for the first time. These two new theorems generalize all concurrent theorems that we know. Overall, the study of Geometry will create interest in the deep understanding of objects around us.
+In this chapter, we will be discussing the concepts mainly as continuation of previous classes and discuss most important concepts like Similar Triangles, Basic Proportionality Theorem, Angle Bisector Theorem, the most prominent and widely acclaimed Pythagoras Theorem and much more. Ceva’s Theorem and Menelaus Theorem is introduced for the first time. These two new theorems generalize all concurrent theorems that we know. Overall, the study of Geometry will create interest in the deep understanding of objects around us.
 
 Geometry plays vital role in the field of Science, Engineering and Architecture. We see many Geometrical patterns in nature. We are familiar with triangles and many of their properties from earlier classes.
 
-![](assets/page_002_picture_004.png)
-
-### 4.2 Similarity
+## 4.2 Similarity
 
 Two figures are said to be similar if every aspect of one figure is proportional to other figure. For example:
 
 The above houses look the same but different in size. Both the mobile phones are the same but they vary in their sizes. Therefore, mathematically we say that two objects are similar if they are of same shape but not necessarily they need to have the same size. The ratio of the corresponding measurements of two similar objects must be proportional.
 
+![Fig. 4.1](assets/image-4-1.png)
+
 Here is a box of geometrical shapes. Collect the similar objects and list out.
+
+![Fig. 4.2](assets/image-4-2.png)
 
 In this chapter, we will be discussing specifically the use of similar triangles which is of utmost importance where if it is beyond our reach to physically measure the distance and height with simple measuring instruments. The concept of similarity is widely used in the fields of engineering, architecture and construction.
 
 Here are few applications of similarity
 
 - (i) By analyzing the shadows that make triangles, we can determine the actual height of the objects.
-
-![](assets/page_002_picture_005.png)
-
-![*Fig. 4.1*](assets/page_002_picture_006.png)
-
-![](assets/page_002_picture_008.png)
-
 - (ii) Used in aerial photography to determine the distance from sky to a particular location on the ground.
 - (iii) Used in Architecture to aid in design of their work.
 
-#### 4.2.1 Similar triangles
+### 4.2.1 Similar triangles
 
-In class IX, we have studied congruent triangles. We can say that two geometrical figures are congruent, if they have same size and shape. But, here we shall study about geometrical figures which have same shape but proportional sizes. These figures are called "similar".
+In class IX, we have studied congruent triangles. We can say that two geometrical figures are congruent, if they have same size and shape. But, here we shall study about geometrical figures which have same shape but proportional sizes. These figures are called “similar”.
 
-![](assets/page_002_picture_009.png)
+![Fig. 4.3](assets/image-4-3.png)
 
-**Congruency and similarity of triangles**
+##### Congruency and similarity of triangles
 
-equal. While in similar triangles, the corresponding sides are proportional.
+Congruency is a particular case of similarity. In both the cases, three angles of one triangle are equal to the three corresponding angles of the other triangle. But in congruent triangles, the corresponding sides are equal. While in similar triangles, the corresponding sides are proportional.
 
-![](assets/page_003_picture_005.png)
+> **Note**
+>
+> The traingles $ABC$ and $PQR$ are similar can be written as $\triangle ABC \sim \triangle PQR$
 
-**Thinking Corner**
+| Congruent triangles | Similar triangles |
+| --- | --- |
+| ![Fig. 4.4](assets/image-4-4.png) | ![Fig. 4.5](assets/image-4-5.png) |
+| $\triangle ABC \cong \triangle PQR$ | $\triangle ABC \sim \triangle PQR$ |
+| $\angle A=\angle P,\ \angle B=\angle Q,\ \angle C=\angle R$. | $\angle A=\angle P,\ \angle B=\angle Q,\ \angle C=\angle R$ |
+| $AB=PQ,\ BC=QR,\ CA=RP$ | $AB\neq PQ,\ BC\neq QR,\ CA\neq RP$ |
+| $\dfrac{AB}{PQ}=\dfrac{BC}{QR}=\dfrac{CA}{RP}=1$ | but $\dfrac{AB}{PQ}=\dfrac{BC}{QR}=\dfrac{CA}{RP}>1$ or $<1$ |
+| Same shape and same size. | Same shape but not same size. |
 
-- Are square and a rhombus similar or congruent. Discuss.
-- Are a rectangle and a parallelogram similar. Discuss.
+> **Thinking Corner**
+>
+> 1. Are square and a rhombus similar or congruent. Discuss.
+> 2. Are a rectangle and a parallelogram similar. Discuss.
 
-#### 4.2.2 Criteria of Similarity
+### 4.2.2 Criteria of Similarity
 
 The following criteria are sufficient to prove that two triangles are similar.
 
-**AA Criterion of similarity**
+##### AA Criterion of similarity
 
 If two angles of one triangle are respectively equal to two angles of another triangle, then the two triangles are similar, because the third angle in both triangles must be equal. Therefore, AA similarity criterion is same as the AAA similarity criterion.
 
-**SAS Criterion of similarity**
+![Fig. 4.6](assets/image-4-6.png)
+
+So if $\angle A=\angle P=1$ and $\angle B=\angle Q=2$ then $\triangle ABC\sim\triangle PQR$.
+
+##### SAS Criterion of similarity
 
 If one angle of a triangle is equal to one angle of another triangle and if the sides including them are proportional then the two triangles are similar.
 
-![](assets/page_003_picture_006.png)
+Thus if $\angle A=\angle P=1$ and $\dfrac{AB}{PQ}=\dfrac{AC}{PR}$ then $\triangle ABC\sim\triangle PQR$
 
-![](assets/page_003_picture_008.png)
+![Fig. 4.7](assets/image-4-7.png)
 
-**SSS Criterion of similarity**
+##### SSS Criterion of similarity
 
 If three sides of a triangle are proportional to the three corresponding sides of another triangle, then the two triangles are similar.
 
-**Thinking Corner**
+So if, $\dfrac{AB}{PQ}=\dfrac{AC}{PR}=\dfrac{BC}{QR}$ then $\triangle ABC\sim\triangle PQR$
 
-Are any two right angled triangles similar? If so why?
+![Fig. 4.8](assets/image-4-8.png)
 
-**Some useful results on similar triangles**
+> **Thinking Corner**
+>
+> Are any two right angled triangles similar? If so why?
 
-- A perpendicular line drawn from the vertex of a right angled triangle divides the triangle into two triangles similar to each other and also to original triangle.
+##### Some useful results on similar triangles
 
-- If two triangles are similar, then the ratio of the corresponding sides are equal to the ratio of their corresponding altitudes.
+1. A perpendicular line drawn from the vertex of a right angled triangle divides the triangle into two triangles similar to each other and also to original triangle.
 
-- If two triangles are similar, then the ratio of the corresponding sides are equal to the ratio of the corresponding perimeters.
+   $\triangle ADB\sim\triangle BDC,\ \triangle ABC\sim\triangle ADB,\ \triangle ABC\sim\triangle BDC$
 
-- The ratio of the area of two similar triangles are equal to the ratio of the squares of their corresponding sides.
+   ![Fig. 4.9](assets/image-4-9.png)
 
-- If two triangles have common vertex and their bases are on the same straight line, the ratio between their areas is equal to the ratio between the length of their bases.
+2. If two triangles are similar, then the ratio of the corresponding sides are equal to the ratio of their corresponding altitudes.
 
-10th 164 Standard Mathematics
+   i.e. if $\triangle ABC\sim\triangle PQR$ then
 
-![](assets/page_004_picture_011.png)
+   $$\frac{AB}{PQ}=\frac{BC}{QR}=\frac{CA}{RP}=\frac{AD}{PS}=\frac{BE}{QT}=\frac{CF}{RU}$$
 
-![](assets/page_004_picture_002.png)
+   ![Fig. 4.10](assets/image-4-10.png)
 
-![](assets/page_004_picture_003.png)
+3. If two triangles are similar, then the ratio of the corresponding sides are equal to the ratio of the corresponding perimeters.
 
-![](assets/page_004_picture_004.png)
+   $\triangle ABC\sim\triangle DEF$ then
 
-![](assets/page_004_picture_005.png)
+   $$\frac{AB}{DE}=\frac{BC}{EF}=\frac{CA}{FD}=\frac{AB+BC+CA}{DE+EF+FD}$$
 
-![](assets/page_004_picture_006.png)
+   ![Fig. 4.11](assets/image-4-11.png)
 
-**Definition 1**
+4. The ratio of the area of two similar triangles are equal to the ratio of the squares of their corresponding sides.
 
-Two triangles are said to be similar if their corresponding sides are proportional. Definition 2
+   $$\frac{\text{area}(\triangle ABC)}{\text{area}(\triangle PQR)}=\frac{AB^2}{PQ^2}=\frac{BC^2}{QR^2}=\frac{AC^2}{PR^2}$$
 
-The triangles are equiangular if the corresponding angles are equal.
+   ![Fig. 4.12](assets/image-4-12.png)
 
-Two triangles, DXYZ and DLMN are similar because the corresponding angles are equal. X L
+5. If two triangles have common vertex and their bases are on the same straight line, the ratio between their areas is equal to the ratio between the length of their bases.
 
-![](assets/page_005_picture_003.png)
+   Here, $\dfrac{\text{area}(\triangle ABD)}{\text{area}(\triangle BDC)}=\dfrac{AD}{DC}$.
 
-- (i) A pair of equiangular triangles are similar.
-- (ii) If two triangles are similar, then they are equiangular.
+   ![Fig. 4.13](assets/image-4-13.png)
 
-- (i) ∠= XL∠∠, ∠,, YM ∠ YM =∠ ∠= ZN∠ (by angles) (ii)
+> **Definition 1**
+>
+> Two triangles are said to be similar if their corresponding sides are proportional.
+>
+> **Definition 2**
+>
+> The triangles are equiangular if the corresponding angles are equal.
 
-![](assets/page_005_picture_005.png)
+##### Illustration
 
-![](assets/page_005_picture_004.png)
+Two triangles, $\triangle XYZ$ and $\triangle LMN$ are similar because the corresponding angles are equal.
+
+![Fig. 4.14](assets/image-4-14.png)
+
+> **Note**
+>
+> (i) A pair of equiangular triangles are similar.
+>
+> (ii) If two triangles are similar, then they are equiangular.
+
+(i) $\angle X=\angle L,\ \angle Y=\angle M,\ \angle Z=\angle N$ (by angles) (ii) $\dfrac{XY}{LM}=\dfrac{YZ}{MN}=\dfrac{XZ}{LN}$ (by sides)
+
+Here the vertices $X,\ Y,\ Z$ correspond to the vertices $L,\ M,\ N$ respectively. Thus in symbol $\triangle XYZ\sim\triangle LMN$
+
+#### Example 4.1
+
+Show that $\triangle PST\sim\triangle PQR$
+
+(i)
+
+![Fig. 4.15](assets/image-4-15.png)
+
+(ii)
+
+![Fig. 4.16](assets/image-4-16.png)
 
 **Solution**
 
-- (i) In DPST and DPQR ,
-- (ii) In DPST and DPQR ,
+(i) In $\triangle PST$ and $\triangle PQR$,
 
-![](assets/page_005_picture_006.png)
+$$\frac{PS}{PQ}=\frac{2}{2+1}=\frac23,\quad \frac{PT}{PR}=\frac{4}{4+2}=\frac23$$
 
-Solution In DABC and DPQR ,
+Thus, $\dfrac{PS}{PQ}=\dfrac{PT}{PR}$ and $\angle P$ is common.
 
-The corresponding sides are not proportional. Therefore DABC is not similar to DPQR .
+Therefore, by $SAS$ similarity, $\triangle PST\sim\triangle PQR$
 
-If we change exactly one of the four given lengths, then we can make these triangles similar.
+(ii) In $\triangle PST$ and $\triangle PQR$,
 
-Example 4.3 Observe Fig.4.18 and find ÐP .
+$$\frac{PS}{PQ}=\frac{2}{2+3}=\frac25,\quad \frac{PT}{PR}=\frac{2}{2+3}=\frac25$$
 
-In DBAC and DPRQ , AB RQ == 3 6 1 2 ;
+Thus, $\dfrac{PS}{PQ}=\dfrac{PT}{PR}$ and $\angle P$ is common.
 
-∠=PC∠ (since the corresponding parts of similar triangle) ∠=PC∠= 180 ° −∠() AB +∠ =° 180 −° () 90 +° 60 ÐP =° 180 −° 150 = 30 °
+Therefore, by SAS similarity, $\triangle PST\sim\triangle PQR$
 
-![*Fig. 4.18*](assets/page_006_picture_003.png)
+#### Example 4.2
 
-Example 4.4 A boy of height 90cm is walking away from the base of a lamp post at a speed of 1.2m/sec. If the lamppost is 3.6m above the ground, find the length of his shadow cast after 4 seconds. A
+Is $\triangle ABC\sim\triangle PQR$?
 
-Given, speed = 1.2 m/s,
+**Solution** In $\triangle ABC$ and $\triangle PQR$,
 
-time = 4 seconds
+$$\frac{PQ}{AB}=\frac36=\frac12;\quad \frac{QR}{BC}=\frac{4}{10}=\frac25$$
 
-distance = speed ´ time
+since $\dfrac12\neq\dfrac25$, $\dfrac{PQ}{AB}\neq\dfrac{QR}{BC}$.
 
-Let x be the length of the shadow after 4 seconds
+The corresponding sides are not proportional. Therefore $\triangle ABC$ is not similar to $\triangle PQR$.
 
-The length of his shadow DE =1.6 m
+![Fig. 4.17](assets/image-4-17.png)
 
-In DCAB and DCED , ÐC is common, ∠=AC∠ E CED
+> **Note**
+>
+> If we change exactly one of the four given lengths, then we can make these triangles similar.
 
-10th 166 Standard Mathematics Example 4.6 In Fig.4.21, QA and PB are perpendiculars to AB. If AO = 10 cm, BO=6 cm and PB = 9 cm. Find AQ .
+#### Example 4.3
 
-![](assets/page_006_picture_004.png)
+Observe Fig.4.18 and find $\angle P$.
 
-![](assets/page_006_picture_009.png)
+![Fig. 4.18](assets/image-4-18.png)
 
-In DAOQ and DBOP , ∠= OAQO∠= BP 90 °
+**Solution** In $\triangle BAC$ and $\triangle PRQ$, $\dfrac{AB}{RQ}=\dfrac36=\dfrac12$;
 
-Example 4.7 The perimeters of two similar triangles ABC and PQR are respectively 36 cm and 24 cm. If PQ =10 cm, find AB .
+$$\frac{BC}{QP}=\frac{6}{12}=\frac12;\quad \frac{CA}{PR}=\frac{3\sqrt3}{6\sqrt3}=\frac12$$
 
-The ratio of the corresponding sides of similar triangles is same as the ratio of their perimeters.
+Therefore, $\dfrac{AB}{RQ}=\dfrac{BC}{QP}=\dfrac{CA}{PR}$
 
-![](assets/page_007_picture_004.png)
+By $SSS$ similarity, we have $\triangle BAC\sim\triangle QRP$
 
-![](assets/page_007_picture_005.png)
+$\angle P=\angle C$ (since the corresponding parts of similar triangle)
 
-Example 4.8 If DABC is similar to DDEF such that BC=3 cm, EF=4 cm and area of DABC = 54 cm 2 . Find the area of DDEF .
+$$\angle P=\angle C=180^\circ-(\angle A+\angle B)=180^\circ-(90^\circ+60^\circ)$$
 
-Since the ratio of area of two similar triangles is equal to the ratio of the squares of any two corresponding sides, we have
+$$\angle P=180^\circ-150^\circ=30^\circ$$
 
-Let AB and CD be two poles of height ' a ' metres and 'b' metres respectively such that the poles are 'p' metres apart. That is AC=p
+#### Example 4.4
 
-metres. Suppose the lines AD and BC meet at O, such that OL=h metres
+A boy of height 90cm is walking away from the base of a lamp post at a speed of 1.2m/sec. If the lamppost is 3.6m above the ground, find the length of his shadow cast after 4 seconds.
 
-![](assets/page_007_picture_006.png)
+![Fig. 4.19](assets/image-4-19.png)
 
-**Progress Check**
+**Solution** Given, speed $=1.2$ m/s, time $=4$ seconds
 
-- All circles are ________ (congruent/ similar).
+$$\begin{aligned}\text{distance}&=\text{speed}\times\text{time}\\&=1.2\times4=4.8\text{ m}\end{aligned}$$
 
-- All squares are ________ (similar/ congruent).
-- Two triangles are similar, if their corresponding angles are _______ and their corresponding sides are
+Let $x$ be the length of the shadow after 4 seconds
 
-. --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+Since, $\triangle ABE\sim\triangle CDE$, $\dfrac{BE}{DE}=\dfrac{AB}{CD}$ gives $\dfrac{4.8+x}{x}=\dfrac{3.6}{0.9}=4$ (since 90 cm $=0.9$ m)
 
-- (a) All similar triangles are congruent – True/False (b) All congruent triangles are similar – True/False.
+$4.8+x=4x$ gives $3x=4.8$ so, $x=1.6$ m
 
-In DALO and DACD , we have
+The length of his shadow $DE=1.6$ m
 
-- Give two different examples of pair of non-similar figures?
+#### Example 4.5
 
-Hence, the height of the intersection of the lines joining the top of each pole to the foot of the opposite pole is ab metres.
+In Fig.4.20 $\angle A=\angle CED$ prove that $\triangle CAB\sim\triangle CED$. Also find the value of $x$.
 
-ab +
+![Fig. 4.20](assets/image-4-20.png)
 
-**Activity 1**
+**Solution** In $\triangle CAB$ and $\triangle CED$, $\angle C$ is common, $\angle A=\angle CED$
 
-![](assets/page_008_picture_008.png)
+Therefore, $\triangle CAB\sim\triangle CED$ (By $AA$ similarity)
 
-Let us try to construct a line segment of length 2 .
+Hence, $\dfrac{CA}{CE}=\dfrac{AB}{DE}=\dfrac{CB}{CD}$
 
-For this, we consider the following steps.
+$\dfrac{AB}{DE}=\dfrac{CB}{CD}$ gives $\dfrac9x=\dfrac{10+2}{8}$ so, $x=\dfrac{8\times9}{12}=6$ cm.
 
-Step1: Take a line segment of length 3 units. Call it as AB.
+#### Example 4.6
 
-Step2: Take a point C on AB such that AC=2 , CB=1. A
+In Fig.4.21, $QA$ and $PB$ are perpendiculars to $AB$. If $AO=10$ cm, $BO=6$ cm and $PB=9$ cm. Find $AQ$.
 
-Step3: Draw a semi-circle with AB as diameter as shown in the diagram
+![Fig. 4.21](assets/image-4-21.png)
 
-Step4: Take a point 'P' on the semi-circle such that CP is perpendicular to AB .
+**Solution** In $\triangle AOQ$ and $\triangle BOP$, $\angle OAQ=\angle OBP=90^\circ$
 
-Step5: Join P to A and B. We will get two right triangles ACP and BCP .
+$\angle AOQ=\angle BOP$ (Vertically opposite angles)
 
-Step6: Verify that the triangles ACP and BCP are similar.
+Therefore, by $AA$ Criterion of similarity, $\triangle AOQ\sim\triangle BOP$
 
-Step7: Let CP =h be the common altitude. Using similarity, find h .
+$$\frac{AO}{BO}=\frac{OQ}{OP}=\frac{AQ}{BP}$$
 
-Step8: What do you get upon finding h?
+$$\frac{10}{6}=\frac{AQ}{9}\Rightarrow AQ=\frac{10\times9}{6}=15\text{ cm}$$
 
-Repeating the same process, can you construct a line segment of lengths 35 , 5 ,, 8 .
+#### Example 4.7
 
-#### 4.2.3 Construction of similar triangles
+The perimeters of two similar triangles $ABC$ and $PQR$ are respectively 36 cm and 24 cm. If $PQ=10$ cm, find $AB$.
+
+![Fig. 4.22](assets/image-4-22.png)
+
+**Solution** The ratio of the corresponding sides of similar triangles is same as the ratio of their perimeters.
+
+Since $\triangle ABC\sim\triangle PQR$,
+
+$$\frac{AB}{PQ}=\frac{BC}{QR}=\frac{AC}{PR}=\frac{36}{24}$$
+
+$$\frac{AB}{PQ}=\frac{36}{24}\Rightarrow\frac{AB}{10}=\frac{36}{24}$$
+
+$$AB=\frac{36\times10}{24}=15\text{ cm}$$
+
+#### Example 4.8
+
+If $\triangle ABC$ is similar to $\triangle DEF$ such that $BC=3$ cm, $EF=4$ cm and area of $\triangle ABC=54\text{ cm}^2$. Find the area of $\triangle DEF$.
+
+**Solution** Since the ratio of area of two similar triangles is equal to the ratio of the squares of any two corresponding sides, we have
+
+$$\frac{\text{Area}(\triangle ABC)}{\text{Area}(\triangle DEF)}=\frac{BC^2}{EF^2}\Rightarrow\frac{54}{\text{Area}(\triangle DEF)}=\frac{3^2}{4^2}$$
+
+$$\text{Area}(\triangle DEF)=\frac{16\times54}{9}=96\text{ cm}^2$$
+
+#### Example 4.9
+
+Two poles of height ‘$a$’ metres and ‘$b$’ metres are ‘$p$’ metres apart. Prove that the height of the point of intersection of the lines joining the top of each pole to the foot of the opposite pole is given by $\dfrac{ab}{a+b}$ metres.
+
+![Fig. 4.23](assets/image-4-23.png)
+
+**Solution** Let $AB$ and $CD$ be two poles of height ‘$a$’ metres and ‘$b$’ metres respectively such that the poles are ‘$p$’ metres apart. That is $AC=p$ metres. Suppose the lines $AD$ and $BC$ meet at $O$, such that $OL=h$ metres
+
+Let $CL=x$ and $LA=y$.
+
+Then, $x+y=p$
+
+In $\triangle ABC$ and $\triangle LOC$, we have
+
+$\angle CAB=\angle CLO$ [each equal to $90^\circ$]
+
+$\angle C=\angle C$ [$C$ is common]
+
+$\triangle CAB\sim\triangle CLO$ [By $AA$ similarity]
+
+$$\frac{CA}{CL}=\frac{AB}{LO}\Rightarrow\frac px=\frac ah$$
+
+$$\text{so,}\quad x=\frac{ph}{a}\qquad\cdots(1)$$
+
+In $\triangle ALO$ and $\triangle ACD$, we have
+
+$\angle ALO=\angle ACD$ [each equal to $90^\circ$]
+
+$\angle A=\angle A$ [A is common]
+
+$\triangle ALO\sim\triangle ACD$ [by AA similarity]
+
+$$\frac{AL}{AC}=\frac{OL}{DC}\Rightarrow\frac yp=\frac hb\ \text{ we get, }\ y=\frac{ph}{b}\qquad\cdots(2)$$
+
+$$\begin{aligned}(1)+(2)\Rightarrow\quad x+y&=\frac{ph}{a}+\frac{ph}{b}\\p&=ph\left(\frac1a+\frac1b\right)\qquad(\text{Since } x+y=p)\\1&=h\left(\frac{a+b}{ab}\right)\end{aligned}$$
+
+Therefore, $h=\dfrac{ab}{a+b}$
+
+Hence, the height of the intersection of the lines joining the top of each pole to the foot of the opposite pole is $\dfrac{ab}{a+b}$ metres.
+
+> **Progress Check**
+>
+> 1. All circles are ________ (congruent/similar).
+> 2. All squares are ________ (similar/congruent).
+> 3. Two triangles are similar, if their corresponding angles are ________ and their corresponding sides are ________.
+> 4. (a) All similar triangles are congruent – True/False
+>
+>    (b) All congruent triangles are similar – True/False.
+> 5. Give two different examples of pair of non-similar figures?
+
+> **Activity 1**
+>
+> Let us try to construct a line segment of length $\sqrt2$.
+>
+> For this, we consider the following steps.
+>
+> **Step1:** Take a line segment of length 3 units. Call it as AB.
+>
+> **Step2:** Take a point $C$ on $AB$ such that $AC=2$, $CB=1$.
+>
+> **Step3:** Draw a semi-circle with AB as diameter as shown in the diagram
+>
+> **Step4:** Take a point ‘$P$’ on the semi-circle such that $CP$ is perpendicular to $AB$.
+>
+> **Step5:** Join $P$ to $A$ and $B$. We will get two right triangles $ACP$ and $BCP$.
+>
+> **Step6:** Verify that the triangles $ACP$ and $BCP$ are similar.
+>
+> **Step7:** Let $CP=h$ be the common altitude. Using similarity, find $h$.
+>
+> **Step8:** What do you get upon finding $h$?
+>
+> Repeating the same process, can you construct a line segment of lengths $\sqrt3,\ \sqrt5,\ \sqrt8$.
+>
+> ![Fig. 4.24](assets/image-4-24.png)
+
+### 4.2.3 Construction of similar triangles
 
 So far we have discussed the theoretical approach of similar triangles and their properties. Now we shall discuss the geometrical construction of a triangle similar to a given triangle whose sides are in a given ratio with the corresponding sides of the given triangle.
 
-This construction includes two different cases. In one, the triangle to be constructed is smaller and in the other it is larger than the given triangle. So, we use the following term called "scale factor" which measures the ratio of the sides of the triangle to be constructed with the corresponding sides of the given triangle. Let us take the following examples involving the two cases:
+This construction includes two different cases. In one, the triangle to be constructed is smaller and in the other it is larger than the given triangle. So, we use the following term called “scale factor” which measures the ratio of the sides of the triangle to be constructed with the corresponding sides of the given triangle. Let us take the following examples involving the two cases:
 
-Example 4.10 Construct a triangle similar to a given triangle PQR with its sides equal to
+#### Example 4.10
 
-3 5 of the corresponding sides of the triangle PQR (scale factor 3 5 < 1)
+Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\dfrac35$ of the corresponding sides of the triangle $PQR$ (scale factor $\dfrac35<1$)
 
-Given a triangle PQR we are required to construct another triangle whose sides are 3 5 of the corresponding sides of the triangle PQR .
+**Solution** Given a triangle $PQR$ we are required to construct another triangle whose sides are $\dfrac35$ of the corresponding sides of the triangle $PQR$.
 
-**Steps of construction**
+![Rough diagram](assets/image-4-p10-1.png)
 
-- Construct a DPQR with any measurement.
-- Draw a ray QX making an acute angle with QR on the side opposite to vertex P .
-- Draw line through R ¢ parallel to the line RP to intersect QP at P ¢ .
+##### Steps of construction
 
-Then, ∆PQ′ Q′′ R ′ R is the required triangle each of whose sides is threefifths of the corresponding sides of DPQR .
+1. Construct a $\triangle PQR$ with any measurement.
+2. Draw a ray $QX$ making an acute angle with $QR$ on the side opposite to vertex $P$.
+3. Locate 5 (the greater of 3 and 5 in $\dfrac35$) points. $Q_1,Q_2,Q_3,Q_4$ and $Q_5$ on $QX$ so that $QQ_1=Q_1Q_2=Q_2Q_3=Q_3Q_4=Q_4Q_5$
+4. Join $Q_5R$ and draw a line through $Q_3$ (the third point, 3 being smaller of 3 and 5 in $\dfrac35$) parallel to $Q_5R$ to intersect QR at $R'$.
+5. Draw line through $R'$ parallel to the line $RP$ to intersect QP at $P'$.
 
-Example 4.11 Construct a triangle similar to a given triangle PQR with its sides equal to 7 4 of the corresponding sides of the triangle PQR (scale factor 7 4 > 1)
+Then, $\triangle P'QR'$ is the required triangle each of whose sides is three-fifths of the corresponding sides of $\triangle PQR$.
 
-Given a triangle PQR, we are required to construct another triangle whose sides are 7 4 of the corresponding sides of the triangle PQR .
+![Fig. 4.25](assets/image-4-25.png)
 
-![](assets/page_009_picture_002.png)
+#### Example 4.11
 
-![](assets/page_009_picture_003.png)
+Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\dfrac74$ of the corresponding sides of the triangle $PQR$ (scale factor $\dfrac74>1$)
 
-![](assets/page_009_picture_007.png)
+**Solution** Given a triangle $PQR$, we are required to construct another triangle whose sides are $\dfrac74$ of the corresponding sides of the triangle $PQR$.
 
-- Construct a DPQR with any measurement.
-- Draw a ray QX making an acute angle with QR on the side opposite to vertex P .
+![Rough diagram](assets/image-4-p10-2.png)
 
-- Draw a line through R ¢ parallel to RP intersecting the extended line segment QP at P ¢
-- Then ∆PQ′ Q′′ R ′ R is the required triangle each of whose sides is seven-fourths of the corresponding sides of DPQR .
+##### Steps of construction
 
-![](assets/page_010_picture_002.png)
+1. Construct a $\triangle PQR$ with any measurement.
+2. Draw a ray $QX$ making an acute angle with $QR$ on the side opposite to vertex $P$.
+3. Locate 7 points (the greater of 7 and 4 in $\frac{7}{4}$) $Q_1,Q_2,Q_3,Q_4,Q_5,Q_6$ and $Q_7$ on $QX$ so that $QQ_1=Q_1Q_2=Q_2Q_3=Q_3Q_4=Q_4Q_5=Q_5Q_6=Q_6Q_7$
+4. Join $Q_4$ (the 4th point, 4 being smaller of 4 and 7 in $\frac{7}{4}$) to $R$ and draw a line through $Q_7$ parallel to $Q_4R$, intersecting the extended line segment $QR$ at $R'$.
+5. Draw a line through $R'$ parallel to $RP$ intersecting the extended line segment $QP$ at $P'$
 
-![](assets/page_010_picture_010.png)
+Then $\triangle P'QR'$ is the required triangle each of whose sides is seven-fourths of the corresponding sides of $\triangle PQR$.
 
-- In the given triangles, check which triangles are similar? Also find the value of x.
+![Fig. 4.26](assets/image-4-26.png)
 
-![](assets/page_010_picture_004.png)
+### Exercise 4.1
 
-![](assets/page_010_picture_003.png)
+1. In the given triangles, check which triangles are similar? Also find the value of $x$.
 
-- A girl looks the reflection of the top of the lamp post on the mirror which is 6.6 m away from the foot of the lamppost. The girl whose height is 1.25 m is standing 2.5 m away from the mirror. Assuming the mirror is placed on the ground facing the sky and the girl, mirror and the lamppost are in a same line, find the height of the lamp post.
-- A vertical stick of length 6 m casts a shadow 400 cm long on the ground and at the same time a tower casts a shadow 28 m long. Using similarity, find the height of the tower.
-- Two triangles QPR and QSR, right angled at P and S respectively are drawn on the same base QR and on the same side of QR. If PR and SQ intersect at T, prove that PT × TR = ST × TQ .
+   (i)
 
-10th 170 Standard Mathematics
+   ![Exercise 4.1, Q1 (i)](assets/image-4-p11-1.png)
 
-![](assets/page_010_picture_006.png)
+   (ii)
 
-- Two vertical poles of heights 6 m and 3 m are erected above a horizontal ground AC. Find the value of y .
+   ![Exercise 4.1, Q1 (ii)](assets/image-4-p11-2.png)
 
-![](assets/page_011_picture_004.png)
+2. A girl looks the reflection of the top of the lamp post on the mirror which is $6.6$ m away from the foot of the lamppost. The girl whose height is $1.25$ m is standing $2.5$ m away from the mirror. Assuming the mirror is placed on the ground facing the sky and the girl, mirror and the lamppost are in a same line, find the height of the lamp post.
+3. A vertical stick of length 6 m casts a shadow $400$ cm long on the ground and at the same time a tower casts a shadow $28$ m long. Using similarity, find the height of the tower.
+4. Two triangles $QPR$ and $QSR$, right angled at $P$ and $S$ respectively are drawn on the same base $QR$ and on the same side of $QR$. If $PR$ and $SQ$ intersect at $T$, prove that $PT\times TR=ST\times TQ$.
+5. In the adjacent figure, $\triangle ABC$ is right angled at C and $DE\perp AB$. Prove that $\triangle ABC\sim\triangle ADE$ and hence find the lengths of $AE$ and $DE$.
 
-- Construct a triangle similar to a given triangle PQR with its sides equal to 2 3 of the corresponding sides of the triangle PQR (scale factor 2 3 < 1). A B C
-- Construct a triangle similar to a given triangle LMN with its sides equal to 4 5 of the corresponding sides of the triangle LMN (scale factor 4 5 < 1).
-- Construct a triangle similar to a given triangle ABC with its sides equal to 6 5 of the corresponding sides of the triangle ABC (scale factor 6 5 > 1).
-- Construct a triangle similar to a given triangle PQR with its sides equal to 7 3 of the corresponding sides of the triangle PQR (scale factor 7 3 > 1).
+   ![Exercise 4.1, Q5](assets/image-4-p11-3.png)
 
-### 4.3 Thales Theorem and Angle Bisector Theorem
+6. In the adjacent figure, $\triangle ACB\sim\triangle APQ$. If $BC=8$ cm, $PQ=4$ cm, $BA=6.5$ cm and $AP=2.8$ cm, find $CA$ and $AQ$.
 
-#### 4.3.1 Introduction
+   ![Exercise 4.1, Q6](assets/image-4-p11-4.png)
 
-Thales, (640 - 540 BC (BCE)) the most famous Greek mathematician and philosopher lived around seventh century BC (BCE). He possessed knowledge to the extent that he became the first of seven sages of Greece. Thales was the first man to announce that any idea that emerged should be tested scientifically and only then it can be accepted. In this aspect, he did great investigations in mathematics and astronomy and discovered many concepts. He was credited for providing first proof in
+7. If figure $OPRQ$ is a square and $\angle MLN=90^\circ$. Prove that (i) $\triangle LOP\sim\triangle QMO$ (ii) $\triangle LOP\sim\triangle RPN$ (iii) $\triangle QMO\sim\triangle RPN$ (iv) $QR^2=MQ\times RN$
 
-![*Thales (640 - 540 BC (BCE))*](assets/page_011_picture_005.png)
+   ![Exercise 4.1, Q7](assets/image-4-p12-1.png)
 
-mathematics, which today is called by the name "Basic Proportionality Theorem". It is also called "Thales Theorem" named after its discoverer.
+8. If $\triangle ABC\sim\triangle DEF$ such that area of $\triangle ABC$ is 9cm² and the area of $\triangle DEF$ is 16cm² and $BC=2.1$ cm. Find the length of $EF$.
+9. Two vertical poles of heights $6$ m and $3$ m are erected above a horizontal ground $AC$. Find the value of $y$.
 
-The discovery of the Thales theorem itself is a very interesting story. When Thales travelled to Egypt, he was challenged by Egyptians to determine the height of one of several magnificent pyramids that they had constructed. Thales accepted the challenge and used similarity of triangles to determine the
+   ![Exercise 4.1, Q9](assets/image-4-p12-2.png)
 
-![](assets/page_011_picture_006.png)
+10. Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\frac{2}{3}$ of the corresponding sides of the triangle $PQR$ (scale factor $\frac{2}{3}<1$).
+11. Construct a triangle similar to a given triangle $LMN$ with its sides equal to $\frac{4}{5}$ of the corresponding sides of the triangle $LMN$ (scale factor $\frac{4}{5}<1$).
+12. Construct a triangle similar to a given triangle $ABC$ with its sides equal to $\frac{6}{5}$ of the corresponding sides of the triangle $ABC$ (scale factor $\frac{6}{5}>1$).
+13. Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\frac{7}{3}$ of the corresponding sides of the triangle $PQR$ (scale factor $\frac{7}{3}>1$).
 
-same successfully, another triumphant application of Geometry. Since X0 X0, X1 X1 and H0 H0 are known, we can determine the height H 1 of the pyramid.
+## 4.3 Thales Theorem and Angle Bisector Theorem
+
+### 4.3.1 Introduction
+
+Thales, (640 - 540 BC (BCE)) the most famous Greek mathematician and philosopher lived around seventh century BC (BCE). He possessed knowledge to the extent that he became the first of seven sages of Greece. Thales was the first man to announce that any idea that emerged should be tested scientifically and only then it can be accepted. In this aspect, he did great investigations in mathematics and astronomy and discovered many concepts. He was credited for providing first proof in mathematics, which today is called by the name “Basic Proportionality Theorem”. It is also called “Thales Theorem” named after its discoverer.
+
+![Thales (640 - 540 BC (BCE))](assets/image-4-thales.png)
+
+The discovery of the Thales theorem itself is a very interesting story. When Thales travelled to Egypt, he was challenged by Egyptians to determine the height of one of several magnificent pyramids that they had constructed. Thales accepted the challenge and used similarity of triangles to determine the same successfully, another triumphant application of Geometry. Since $X_0$, $X_1$ and $H_0$ are known, we can determine the height $H_1$ of the pyramid.
+
+![Fig. 4.27](assets/image-4-27.png)
 
 To understand the basic proportionality theorem or Thales theorem, let us do the following activity.
 
-**Activity 2**
+> **Activity 2**
+>
+> Take any ruled paper and draw a triangle $ABC$ with its base on one of the lines. Several parallel lines will cut the triangle $ABC$.
+>
+> Select any one line among them and name the points where it meets the sides $AB$ and $AC$ as $P$ and $Q$.
+>
+> Can we find the ratio of $\frac{AP}{PB}$ and $\frac{AQ}{QC}$. By measuring $AP$, $PB$, $AQ$ and $QC$ through a scale, verify whether the ratios are equal or not? Try for different parallel lines, say $MN$ and $RS$.
+>
+> Now find the ratios $\frac{AM}{MB},\frac{AN}{NC}$ and $\frac{AR}{RB},\frac{AS}{SC}$.
+>
+> ![Fig. 4.28](assets/image-4-28.png)
+>
+> Check if they are equal? The conclusion will lead us to one of the most important theorem in Geometry, which we will discuss below.
 
-Take any ruled paper and draw a triangle ABC with its base on one of the lines. Several parallel lines will cut the triangle ABC. C. A
+##### Theorem 1: Basic Proportionality Theorem (BPT) or Thales theorem
 
-Select any one line among them and name the points where it meets the sides AB and AC as P and Q .
-
-PB , AQ and QC through a scale, verify whether the ratios are equal or not? Try for different parallel lines, say MN and RS. S.
-
-*Fig. 4.28*
-
-Check if they are equal? The conclusion will lead us to one of the most important theorem in Geometry, which we will discuss below.
-
-**Theorem 1: Basic Proportionality Theorem (BPT) or Thales theorem Statement**
+**Statement**
 
 A straight line drawn parallel to a side of triangle intersecting the other two sides, divides the sides in the same ratio.
 
+![Fig. 4.29](assets/image-4-29.png)
+
 **Proof**
 
-Given: In DABC , D is a point on AB and E is a point on AC. C.
+**Given:** In $\triangle ABC$, $D$ is a point on $AB$ and $E$ is a point on $AC$.
 
-To prove:
+**To prove:** $\dfrac{AD}{DB}=\dfrac{AE}{EC}$
 
-![](assets/page_012_picture_006.png)
+**Construction:** Draw a line $DE\parallel BC$
 
-| No. | Statement | Reason | \n |
-| --- | --- | --- | \n |
-| 1. | ∠= ABCA∠= DE  ∠1 | Corresponding angles are equal because DE  BC | \n |
-| 2. | ∠= ACBA∠= ED  ∠2 | Corresponding angles are equal because DE  BC | \n |
-| 3. | ∠= DAEB∠= AC  ∠3 | Both triangles have a common angle | \n |
-| 4. | DD ABCA   DE AB AD AC AE  = AD  DB AD AE  EC AE +  =  + 1+  DB AD  = 1+  EC AE DB AD EC AE  = AD DB AE EC  = | By AAA similarity Corresponding sides are proportional Split AB and AC using the points D and E . On simplification Cancelling 1 on both sides Taking reciprocals Hence proved |  |
-
-10th 172 Standard Mathematics
-
-![](assets/page_012_picture_004.png)
+| No. | Statement | Reason |
+|---|---|---|
+| 1. | $\angle ABC=\angle ADE=\angle 1$ | Corresponding angles are equal because $DE\parallel BC$ |
+| 2. | $\angle ACB=\angle AED=\angle 2$ | Corresponding angles are equal because $DE\parallel BC$ |
+| 3. | $\angle DAE=\angle BAC=\angle 3$ | Both triangles have a common angle |
+| 4. | $\triangle ABC\sim\triangle ADE$ | By $AAA$ similarity |
+| | $\dfrac{AB}{AD}=\dfrac{AC}{AE}$ | Corresponding sides are proportional |
+| | $\dfrac{AD+DB}{AD}=\dfrac{AE+EC}{AE}$ | Split $AB$ and $AC$ using the points $D$ and $E$. |
+| | $1+\dfrac{DB}{AD}=1+\dfrac{EC}{AE}$ | On simplification |
+| | $\dfrac{DB}{AD}=\dfrac{EC}{AE}$ | Cancelling $1$ on both sides |
+| | $\dfrac{AD}{DB}=\dfrac{AE}{EC}$ | Taking reciprocals |
+| | Hence proved | |
 
 **Corollary**
 
-If in DABC , a straight line DE parallel to BC, intersects AB at D and AC at E, then
+If in $\triangle ABC$, a straight line $DE$ parallel to $BC$, intersects $AB$ at $D$ and $AC$ at $E$, then (i) $\dfrac{AB}{AD}=\dfrac{AC}{AE}$ (ii) $\dfrac{AB}{DB}=\dfrac{AC}{EC}$.
+
+![Fig. 4.30](assets/image-4-30.png)
 
 **Proof**
 
-- (ii) Add 1 to both the sides
+In $\triangle ABC$, $DE\parallel BC$,
+
+Therefore, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$ (by Basic Proportionality Theorem)
+
+(i) Taking reciprocals, we get $\dfrac{DB}{AD}=\dfrac{EC}{AE}$
+
+Add 1 to both in the sides $\dfrac{DB}{AD}+1=\dfrac{EC}{AE}+1$
+
+$\dfrac{DB+AD}{AD}=\dfrac{EC+AE}{AE}$ so, $\dfrac{AB}{AD}=\dfrac{AC}{AE}$
+
+(ii) Add 1 to both the sides
+
+$\dfrac{AD}{DB}+1=\dfrac{AE}{EC}+1$
+
+Therefore, $\dfrac{AB}{DB}=\dfrac{AC}{EC}$
 
 Is the converse of Basic Proportionality Theorem also true? To examine let us do the following illustration.
 
 **Illustration**
 
-Similarly joining B 2 C2 C2, B 3 C3 C3 and B4 B4 C4 C4 you see that
+Draw an angle $XAY$ on your notebook as shown in Fig.4.31 and on ray $AX$, mark points $B_1,B_2,B_3,B_4$ and $B$ such that $AB_1=B_1B_2=B_2B_3=B_3B_4=B_4B=1$cm.
 
-![](assets/page_013_picture_004.png)
+Similarly on ray $AY$, mark points $C_1,C_2,C_3,C_4$ and $C$, such that $AC_1=C_1C_2=C_2C_3=C_3C_4=C_4C=2$ cm, Join $B_1C_1$ and $BC$.
+
+Observe that $\dfrac{AB_1}{B_1B}=\dfrac{AC_1}{C_1C}=\dfrac{1}{4}$ and $B_1C_1\parallel BC$
+
+Similarly joining $B_2C_2$, $B_3C_3$ and $B_4C_4$ you see that
+
+$$\frac{AB_2}{B_2B}=\frac{AC_2}{C_2C}=\frac{2}{3}\text{ and }B_2C_2\parallel BC$$
+
+$$\frac{AB_3}{B_3B}=\frac{AC_3}{C_3C}=\frac{3}{2}\text{ and }B_3C_3\parallel BC$$
+
+$$\frac{AB_4}{B_4B}=\frac{AC_4}{C_4C}=\frac{4}{1}\text{ and }B_4C_4\parallel BC$$
+
+![Fig. 4.31](assets/image-4-31.png)
 
 From this we observe that if a line divides two sides of a triangle in the same ratio, then the line is parallel to the third side.
 
 Therefore, we obtain the following theorem called converse of the Thales theorem.
 
-**Theorem 2: Converse of Basic Proportionality Theorem**
+##### Theorem 2: Converse of Basic Proportionality Theorem
 
 **Statement**
 
 If a straight line divides any two sides of a triangle in the same ratio, then the line must be parallel to the third side.
 
-![](assets/page_013_picture_003.png)
+**Proof**
 
-Given
+**Given:** In $\triangle ABC$, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$
 
-To prove
+**To prove:** $DE\parallel BC$
 
-![](assets/page_014_picture_003.png)
+**Construction:** If $DE$ is not parallel to $BC$, draw $DF\parallel BC$.
 
-| No. | Statement | Reason | \n |
-| --- | --- | --- | \n |
-| 1. | AD DB AE EC  =   … (1) | Given | \n |
-| 2. | DABCB, D ,  BDFFD BCE | Construction | \n |
-| 3. | AD DB AF FC  =  …  (2) | Thales theorem | \n |
-| 4. | AE EC AF FC  = AE EC AF FC AF
-<br>+=11 + EC AF  FC +  =  + | From (1) and (2) | \n |
-|  | AE  EC FC AC EC AC FC  =  EC = FC | Adding 1 to both sides | \n |
-|  |  | Cancelling AC on both sides | \n |
-|  | Therefore, E =  F | Our assumption that DE is not parallel to BC is wrong. | \n |
-|  | Thus DE  BC | Hence proved |  |
+![Fig. 4.32](assets/image-4-32.png)
 
-**Theorem 3: Angle Bisector Theorem**
+| No. | Statement | Reason |
+|---|---|---|
+| 1. | $\dfrac{AD}{DB}=\dfrac{AE}{EC}\quad\cdots(1)$ | Given |
+| 2. | $\triangle ABC$, $DF\parallel BC$ | Construction |
+| 3. | $\dfrac{AD}{DB}=\dfrac{AF}{FC}\quad\cdots(2)$ | Thales theorem |
+| 4. | $\dfrac{AE}{EC}=\dfrac{AF}{FC}$ | From (1) and (2) |
+| | $\dfrac{AE}{EC}+1=\dfrac{AF}{FC}+1$ | Adding 1 to both sides |
+| | $\dfrac{AE+EC}{EC}=\dfrac{AF+FC}{FC}$ | |
+| | $\dfrac{AC}{EC}=\dfrac{AC}{FC}$ | |
+| | $EC=FC$ | Cancelling $AC$ on both sides |
+| | Therefore, $E=F$ | Our assumption that $DE$ is not parallel to $BC$ is wrong. |
+| | Thus $DE\parallel BC$ | Hence proved |
+
+##### Theorem 3: Angle Bisector Theorem
 
 **Statement**
 
@@ -427,506 +615,659 @@ The internal bisector of an angle of a triangle divides the opposite side intern
 
 **Proof**
 
-In D ABC, AD is the internal bisector
+**Given:** In $\triangle ABC$, $AD$ is the internal bisector
 
-Given :
+**To prove:** $\dfrac{AB}{AC}=\dfrac{BD}{CD}$
 
-To prove :
+**Construction:** Draw a line through $C$ parallel to $AB$. Extend $AD$ to meet line through $C$ at $E$
 
-:Draw a line through C parallel to AB . Extend AD to meet line through C at E
+![Fig. 4.33](assets/image-4-33.png)
 
-Construction AB AC BD CD =
+| No | Statement | Reason |
+|---|---|---|
+| 1. | $\angle AEC=\angle BAE=\angle 1$<br>$\angle ABD=\angle ECD=\angle 2$ | Two parallel lines cut by a transversal make alternate angles equal. |
+| 2. | $\triangle ACE$ is isosceles<br>$AC=CE\quad\cdots(1)$ | In $\triangle ACE$, $\angle CAE=\angle CEA$ |
+| 3. | $\triangle ABD\sim\triangle ECD$<br>$\dfrac{AB}{CE}=\dfrac{BD}{CD}$ | By AA Similarity |
+| 4. | $\dfrac{AB}{AC}=\dfrac{BD}{CD}$ | From (1) $AC=CE$.<br>Hence proved. |
 
-10th 174 Standard Mathematics
+> **Activity 3**
+>
+> **Step 1:** Take a chart and cut it like a triangle as shown in Fig.4.34(a).
+>
+> **Step 2:** Then fold it along the symmetric line $AD$. Then C and B will be one upon the other.
+>
+> **Step 3:** Similarly fold it along CE, then $B$ and $A$ will be one upon the other.
+>
+> **Step 4:** Similarly fold it along BF, then $A$ and $C$ will be one upon the other.
+>
+> Find $AB$, $AC$, $BD$, $DC$ using a scale.
+>
+> Find $\frac{AB}{AC},\frac{BD}{DC}$ check if they are equal?
+>
+> ![Fig. 4.34(a)](assets/image-4-34-a.png)
+>
+> ![Fig. 4.34(b)](assets/image-4-34-b.png)
+>
+> In the three cases, the internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
+>
+> What do you conclude from this activity?
 
-![](assets/page_014_picture_007.png)
+##### Theorem 4: Converse of Angle Bisector Theorem
 
-| No | Statement | Reason | \n |
-| --- | --- | --- | \n |
-| 1. | ∠= AECB∠= AE  ∠1 ∠ABD = ∠ECD = ∠2 | Two parallel lines cut by a transversal make  alternate angles equal. | \n |
-| 2. | DACE is isosceles AC = CE … (1) | In ∆ACEC ,∠A , C ∠= AE  ∠CEA | \n |
-| 3. | DD ABDE   CD AB CE BD CD  = | By AA Similarity | \n |
-| 4. | AB AC BD CD  = | From (1) AC = CE  .  Hence proved. |  |
-
-**Activity 3**
-
-Take a chart and cut it like a triangle as shown in Fig.4.34(a).
-
-- Step 2: Then fold it along the symmetric line AD. Then C and B will be one upon the other.
-- Step 3: Similarly fold it along CE, then B and A will be one upon the other.
-- Step 4: Similarly fold it along BF, then A and C will be one upon the other.
-
-![](assets/page_015_picture_005.png)
-
-In the three cases, the internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
-
-What do you conclude from this activity?
-
-**Theorem 4: Converse of Angle Bisector Theorem Statement**
+**Statement**
 
 If a straight line through one vertex of a triangle divides the opposite side internally in the ratio of the other two sides, then the line bisects the angle internally at the vertex.
 
 **Proof**
 
-- :ABC is a triangle. AD divides BC in the ratio of the sides containing the angles ÐAto meet BC at D .
+**Given:** $ABC$ is a triangle. $AD$ divides $BC$ in the ratio of the sides containing the angles $\angle A$ to meet $BC$ at $D$.
 
-Given
+That is $\dfrac{AB}{AC}=\dfrac{BD}{DC}\quad\cdots(1)$
 
-AD bisects ÐA i.e. ∠=12 ∠
+**To prove:** $AD$ bisects $\angle A$ i.e. $\angle 1=\angle 2$
 
-To prove :
+**Construction:** Draw $CE\parallel DA$. Extend $BA$ to meet at $E$.
 
-Construction :
+![Fig. 4.35](assets/image-4-35.png)
 
-![](assets/page_015_picture_008.png)
+| No. | Statement | Reason |
+|---|---|---|
+| 1. | Let $\angle BAD=\angle 1$ and $\angle DAC=\angle 2$ | Assumption |
+| 2. | $\angle BAD=\angle AEC=\angle 1$ | Since $DA\parallel CE$ and $AC$ is transversal, corresponding angles are equal |
+| 3. | $\angle DAC=\angle ACE=\angle 2$ | Since $DA\parallel CE$ and $AC$ is transversal, Alternate angles are equal |
+| 4. | $\dfrac{BA}{AE}=\dfrac{BD}{DC}\quad\cdots(2)$ | In $\triangle BCE$ by Thales theorem |
+| 5. | $\dfrac{AB}{AC}=\dfrac{BD}{DC}$ | From (1) |
+| 6. | $\dfrac{AB}{AC}=\dfrac{BA}{AE}$ | From (1) and (2) |
+| 7. | $AC=AE\quad\cdots(3)$ | Cancelling $AB$ |
+| 8. | $\angle 1=\angle 2$ | $\triangle ACE$ is isosceles by (3) |
+| 9. | $AD$ bisects $\angle A$ | Since, $\angle 1=\angle BAD=\angle 2=\angle DAC$. Hence proved |
 
-| No. | Statement | Reason | \n |
-| --- | --- | --- | \n |
-| 1. | Let ∠= BAD  ∠1 and ∠= DAC  ∠2 | Assumption | \n |
-| 2. | ∠= BADA∠= EC  ∠1 | Since DA CE and AC is transversal ,  corresponding angles are equal | \n |
-| 3. | ∠= DACA∠= CE  ∠2 | Since DA CE and AC is transversal, Alternate  angles are equal | \n |
-| 4. | BA AE BD DC  =  …  (2) | In DBCE by Thales theorem | \n |
-| 5. | AB AC BD DC  = | From (1) | \n |
-| 6. | AB AC BA AE  = | From (1) and (2) | \n |
-| 7. | AC = AE … (3) | Cancelling AB | \n |
-| 8. | ∠=12 ∠ | DACE is isosceles by (3) | \n |
-| 9. | AD bisects ÐA | Since, ∠=12 ∠= BADD ∠= ∠  AC . Hence proved |  |
+#### Example 4.12
 
-By Thales theorem, we have AD DB AE EC =
+In $\triangle ABC$, if $DE\parallel BC$, $AD=x$, $DB=x-2$, $AE=x+2$ and $EC=x-1$ then find the lengths of the sides $AB$ and $AC$.
 
-When x = 4 , AD = 4 , DB =−x 22 = , AE =+x 26 = , EC =−x 13 = .
+![Fig. 4.36](assets/image-4-36.png)
 
-Therefore, AB = 6, AC = 9 .
+**Solution** In $\triangle ABC$ we have $DE\parallel BC$.
 
-We have AB = 56. . cm, AD = 14. . cm, AC = 72. . cm and AE = 18. . cm.
+By Thales theorem, we have $\dfrac{AD}{DB}=\dfrac{AE}{EC}$
 
-![](assets/page_016_picture_005.png)
+$$\frac{x}{x-2}=\frac{x+2}{x-1}\ \text{ gives }\ x(x-1)=(x-2)(x+2)$$
 
-![](assets/page_016_picture_006.png)
+Hence, $x^2-x=x^2-4$ so, $x=4$
 
-Therefore, by converse of Basic Proportionality Theorem, we have DE is parallel to BC. C. Hence proved.
+When $x=4$, $AD=4$, $DB=x-2=2$, $AE=x+2=6$, $EC=x-1=3$.
 
-we have
+Hence, $AB=AD+DB=4+2=6$, $AC=AE+EC=6+3=9$.
 
-From (1) and (2) we get, BE EC BC CP = . Hence proved .
+Therefore, $AB=6$, $AC=9$.
 
-Example 4.15 In the Fig.4.39, AD is the bisector of ÐA. If BD = 4 cm, DC = 3 cm and AB = 6 cm, find AC.
+#### Example 4.13
 
-In DABC , AD is the bisector of ÐA
+$D$ and $E$ are respectively the points on the sides $AB$ and $AC$ of a $\triangle ABC$ such that $AB=5.6$ cm, $AD=1.4$ cm, $AC=7.2$ cm and $AE=1.8$ cm, show that $DE\parallel BC$.
+
+![Fig. 4.37](assets/image-4-37.png)
+
+**Solution** We have $AB=5.6$ cm, $AD=1.4$ cm, $AC=7.2$ cm and $AE=1.8$ cm.
+
+$$BD=AB-AD=5.6-1.4=4.2\text{ cm}$$
+
+and $EC=AC-AE=7.2-1.8=5.4$ cm.
+
+$$\frac{AD}{DB}=\frac{1.4}{4.2}=\frac{1}{3}\text{ and }\frac{AE}{EC}=\frac{1.8}{5.4}=\frac{1}{3}$$
+
+$$\frac{AD}{DB}=\frac{AE}{EC}$$
+
+Therefore, by converse of Basic Proportionality Theorem, we have $DE$ is parallel to $BC$. Hence proved.
+
+#### Example 4.14
+
+In the Fig.4.38, $DE\parallel AC$ and $DC\parallel AP$. Prove that $\dfrac{BE}{EC}=\dfrac{BC}{CP}$.
+
+![Fig. 4.38](assets/image-4-38.png)
+
+**Solution** In $\triangle BPA$, we have $DC\parallel AP$. By Basic Proportionality Theorem,
+
+we have $\dfrac{BC}{CP}=\dfrac{BD}{DA}\qquad\cdots(1)$
+
+In $\triangle BCA$, we have $DE\parallel AC$. By Basic Proportionality Theorem, we have,
+
+$$\frac{BE}{EC}=\frac{BD}{DA}\qquad\cdots(2)$$
+
+From (1) and (2) we get, $\dfrac{BE}{EC}=\dfrac{BC}{CP}$. Hence proved.
+
+#### Example 4.15
+
+In the Fig.4.39, $AD$ is the bisector of $\angle A$. If $BD=4$ cm, $DC=3$ cm and $AB=6$ cm, find $AC$.
+
+![Fig. 4.39](assets/image-4-39.png)
+
+**Solution** In $\triangle ABC$, $AD$ is the bisector of $\angle A$
 
 By Angle Bisector Theorem
 
-![](assets/page_017_picture_005.png)
+$$\frac{BD}{DC}=\frac{AB}{AC}$$
 
-![](assets/page_017_picture_006.png)
+$\dfrac{4}{3}=\dfrac{6}{AC}$ gives $4AC=18$. Hence, $AC=\dfrac{9}{2}=4.5$ cm
 
-Example 4.16 In the Fig. 4.40, AD is the bisector of ÐBAC , if AB = 10 cm, AC =14 cm and BC = 6 cm. Find BD and DC. C. A
+#### Example 4.16
 
-Let BD = x x cm, then DC = (6–x)cm
+In the Fig. 4.40, $AD$ is the bisector of $\angle BAC$, if $AB=10$ cm, $AC=14$ cm and $BC=6$ cm. Find $BD$ and $DC$.
 
-AD is the bisector of ÐA
+![Fig. 4.40](assets/image-4-40.png)
+
+**Solution** Let $BD=x$ cm, then $DC=(6-x)$cm
+
+$AD$ is the bisector of $\angle A$
 
 By Angle Bisector Theorem
 
-Therefore, BD = 2.5 cm, DC =−6 x =−62 . 5 = 3.5 cm
+$$\frac{AB}{AC}=\frac{BD}{DC}$$
 
-**Progress Check**
+$$\frac{10}{14}=\frac{x}{6-x}\ \text{ gives }\ \frac{5}{7}=\frac{x}{6-x}$$
 
-- A straight line drawn _______ to a side of a triangle divides the other two sides proportionally.
-- Basic Proportionality Theorem is also known as _______.
+$$12x=30\quad\text{we get, }x=\frac{30}{12}=2.5\text{ cm}$$
 
-![](assets/page_017_picture_007.png)
+Therefore, $BD=2.5$ cm, $DC=6-x=6-2.5=3.5$ cm
 
-- Let DABC be equilateral. If D is a point on BC and AD is the internal bisector of ÐA . Using Angle Bisector Theorem, BD DC is _______.
-- The _______ of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
-- If the median AD to the side BC of a DABC is also an angle bisector of ÐA then AB AC is _______.
+> **Progress Check**
+>
+> 1. A straight line drawn _______ to a side of a triangle divides the other two sides proportionally.
+> 2. Basic Proportionality Theorem is also known as _______.
+>
+> 3. Let $\triangle ABC$ be equilateral. If $D$ is a point on $BC$ and $AD$ is the internal bisector of $\angle A$. Using Angle Bisector Theorem, $\dfrac{BD}{DC}$ is \_\_\_\_\_\_\_\_.
+> 4. The \_\_\_\_\_\_\_\_ of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
+> 5. If the median $AD$ to the side $BC$ of a $\triangle ABC$ is also an angle bisector of $\angle A$ then $\dfrac{AB}{AC}$ is \_\_\_\_\_\_\_\_.
 
-#### 4.3.2 Construction of triangle
+### 4.3.2 Construction of triangle
 
 We have already learnt in previous class how to construct triangles when sides and angles are given.
 
 In this section, let us construct a triangle when the following are given :
 
-- (i) the base, vertical angle and the median on the base
-- (ii) the base, vertical angle and the altitude on the base
+(i) the base, vertical angle and the median on the base
 
-![](assets/page_018_picture_004.png)
+(ii) the base, vertical angle and the altitude on the base
 
-- (iii) the base, vertical angle and the point on the base where the bisector of the vertical angle meets the base. C
+(iii) the base, vertical angle and the point on the base where the bisector of the vertical angle meets the base.
 
 First, we consider the following construction,
 
-of a segment of a circle on a given line segment containing an angle q
+##### Construction of a segment of a circle on a given line segment containing an angle $\theta$
 
 **Construction**
 
-- Step 1: Draw a line segment AB
-- Step 2: At A, take ∠= BAE q Draw AE .
-- Step 3: Draw,AF ^ AE .
-- Step 4: Draw the perpendicular bisector of AB meeting AF at O .
-- Step 5: With O as centre and OA as radius draw a circle ABH. H.
-- Step 6: Take any point C on the circle, By the alternate segments theorem, the major arc ACB is the required segment of the circle containing the angle q .
+**Step 1:** Draw a line segment $\overline{AB}$.
 
-![](assets/page_018_picture_005.png)
+**Step 2:** At $A$, take $\angle BAE=\theta$. Draw $AE$.
 
-10th 178 Standard Mathematics
+**Step 3:** Draw, $AF\perp AE$.
 
-**Construction of a triangle when its base, the vertical angle and the median from the vertex of the base are given.**
+**Step 4:** Draw the perpendicular bisector of $AB$ meeting $AF$ at $O$.
 
-Example 4.17 Construct a DPQR in which PQ = 8 cm, ∠= R 60 ° and the median RG from R to PQ is 5.8 cm. Find the length of the altitude from R to PQ . R
+**Step 5:** With $O$ as centre and $OA$ as radius draw a circle $ABH$.
 
-![](assets/page_019_picture_004.png)
+**Step 6:** Take any point $C$ on the circle, By the alternate segments theorem, the major arc $ACB$ is the required segment of the circle containing the angle $\theta$.
 
-**Construction**
+![Fig. 4.41](assets/image-4-41.png)
 
-- Step 1: Draw a line segment PQ = 8cm.
-- Step 4: Draw the perpendicular bisector to PQ, which intersects PF at O and PQ at G .
-- Step 5: With O as centre and OP as radius draw a circle.
-- Step 6: From G mark arcs of radius 5.8 cm on the circle. Mark them as R and S .
+> **Note**
+>
+> If $C_1, C_2, \ldots$ are points on the circle, then all the triangles $\triangle BAC_1$, $\triangle BAC_2, \ldots$ are with same base and the same vertical angle.
 
-Solution
+##### Construction of a triangle when its base, the vertical angle and the median from the vertex of the base are given.
 
-Step 8 : From R draw a line RN perpendicular to LQ . LQ meets RN at M
+#### Example 4.17
 
-- Step 9: The length of the altitude is RM = 3.8 cm.
+Construct a $\triangle PQR$ in which $PQ=8$ cm, $\angle R=60^\circ$ and the median $RG$ from $R$ to $PQ$ is 5.8 cm. Find the length of the altitude from $R$ to $PQ$.
 
-We can get another DPQS for the given measurements.
+**Solution**
 
-**Construct a triangle when its base, the vertical angle and the altitude from the vertex to the base are given. P**
+![Rough diagram](assets/image-4-p20-1.png)
 
-![](assets/page_020_picture_007.png)
-
-Example 4.18 Construct a triangle DPQR such that QR = 5 cm, ∠= P 30 ° and the altitude from P to QR is of length 4.2 cm.
-
-Solution
-
-![](assets/page_020_picture_004.png)
+![Fig. 4.42](assets/image-4-42.png)
 
 **Construction**
 
-Fig. 4.43 Step 2 : At Q draw QE such that∠= RQE 30 ° .
+**Step 1:** Draw a line segment $PQ=8$ cm.
 
-Step 3 : At Q draw QF such that ∠= EQF 90 ° .
+**Step 2:** At $P$, draw $PE$ such that $\angle QPE=60^\circ$.
 
-Step 4 : Draw the perpendicular bisector XY to QR which intersects QF at O and QR at G .
+**Step 3:** At $P$, draw $PF$ such that $\angle EPF=90^\circ$.
 
-Step 5 : With O as centre and OQ as radius draw a circle.
+**Step 4:** Draw the perpendicular bisector to $PQ$, which intersects $PF$ at $O$ and $PQ$ at $G$.
 
-Step 6: From G mark an arc in the line XY at M, such that GM = 42. . cm.
+**Step 5:** With $O$ as centre and $OP$ as radius draw a circle.
 
-Step 7 : Draw AB through M which is parallel to QR .
+**Step 6:** From $G$ mark arcs of radius 5.8 cm on the circle. Mark them as $R$ and $S$.
 
-Step 8 : AB meets the circle at P and S .
+**Step 7:** Join $PR$ and $RQ$. Then $\triangle PQR$ is the required triangle.
 
-10th 180 Standard Mathematics DSQR is another required triangle for the given measurements.
+**Step 8:** From $R$ draw a line $RN$ perpendicular to $LQ$. $LQ$ meets $RN$ at $M$.
 
-**Construct of a triangle when its base, the vertical angle and the point on the base where the bisector of the vertical angle meets the base**
+**Step 9:** The length of the altitude is $RM=3.8$ cm.
 
-Solution
+> **Note**
+>
+> We can get another $\triangle PQS$ for the given measurements.
 
-![](assets/page_021_picture_004.png)
+##### Construct a triangle when its base, the vertical angle and the altitude from the vertex to the base are given.
+
+#### Example 4.18
+
+Construct a triangle $\triangle PQR$ such that $QR=5$ cm, $\angle P=30^\circ$ and the altitude from $P$ to $QR$ is of length 4.2 cm.
+
+**Solution**
+
+![Rough diagram](assets/image-4-p21-1.png)
+
+![Fig. 4.43](assets/image-4-43.png)
 
 **Construction**
 
-Draw a line segment BC = 8 cm.
+**Step 1:** Draw a line segment $QR=5$ cm.
 
-At B, draw BE such that ∠= CBE 60 ° .
+**Step 2:** At $Q$ draw $QE$ such that $\angle RQE=30^\circ$.
 
-Step 2 :
+**Step 3:** At $Q$ draw $QF$ such that $\angle EQF=90^\circ$.
 
-Step 3 : At B, draw BF such that ∠= EBF 90 ° .
+**Step 4:** Draw the perpendicular bisector $XY$ to $QR$ which intersects $QF$ at $O$ and $QR$ at $G$.
 
-Draw the perpendicular bisector to BC, which intersects BF at O and BC at G .
+**Step 5:** With $O$ as centre and $OQ$ as radius draw a circle.
 
-Step 4 :
+**Step 6:** From $G$ mark an arc in the line $XY$ at $M$, such that $GM=4.2$ cm.
 
-With O as centre and OB as radius draw a circle.
+**Step 7:** Draw $AB$ through $M$ which is parallel to $QR$.
 
-Step 5 :
+**Step 8:** $AB$ meets the circle at $P$ and $S$.
 
-From B, mark an arc of 6cm on BC at D
+**Step 9:** Join $QP$ and $RP$. Then $\triangle PQR$ is the required triangle.
 
-Step 6 :
+> **Note**
+>
+> $\triangle SQR$ is another required triangle for the given measurements.
 
-Step 7 : The perpendicular bisector intersects the circle at I. Joint ID .
+##### Construct a triangle when its base, the vertical angle and the point on the base where the bisector of the vertical angle meets the base
 
-ID produced meets the circle at A. Now join AB and AC.
+#### Example 4.19
 
-Step 8 :
+Draw a triangle $ABC$ of base $BC=8$ cm, $\angle A=60^\circ$ and the bisector of $\angle A$ meets $BC$ at $D$ such that $BD=6$ cm.
 
-![](assets/page_021_picture_006.png)
+**Solution**
 
-![](assets/page_021_picture_008.png)
+![Rough diagram](assets/image-4-p22-1.png)
 
-(ii) If AD =− 87 x , DB =− 53 x , AE =− 43 x and EC =− 3x − 31 x , find the value of x. x.
+![Fig. 4.44](assets/image-4-44.png)
 
-- ABCD is a trapezium in which AB || DC and P,Q are points on AD and BC respectively, such that PQ || DC if PD = 18 cm, BQ = 35 cm and QC = 15 cm, find AD .
+**Construction**
 
-![](assets/page_022_picture_004.png)
+**Step 1:** Draw a line segment $BC=8$ cm.
 
-- Rhombus PQRB is inscribed in DABC such that ÐB is one of its angle. P , Q and R lie on AB , AC and BC respectively. If AB=12 cm and BC = 6 cm, find the sides PQ , RB of the rhombus.
-- Check whether AD is bisector of ÐAof DABC in each of the following
-- (i) AB = 5 cm, AC = 10 cm, BD . 1 = . 15 cm and CD . 3 = . 35 cm.
-- (ii) AB= 4 cm, AC = 6 cm, BD = 16. . cm and CD . 2 = . 24 cm.
-- In figure ∠= QPR 90 ° , PS is its bisector. If ST ^ PR , prove that ST×(PQ+PR)=PQ×PR.
+**Step 2:** At $B$, draw $BE$ such that $\angle CBE=60^\circ$.
 
-![](assets/page_022_picture_005.png)
+**Step 3:** At $B$, draw $BF$ such that $\angle EBF=90^\circ$.
 
-![](assets/page_022_picture_006.png)
+**Step 4:** Draw the perpendicular bisector to $BC$, which intersects $BF$ at $O$ and $BC$ at $G$.
 
-- Construct a DPQR in which QR = 5 cm, ∠= P 40 ° and the median PG from P to QR is 4.4 cm. Find the length of the altitude from P to QR .
-- Construct a DPQR such that QR = 6.5 cm, ∠= P 60 ° and the altitude from P to QR is of length 4.5 cm.
-- Construct a DABC such that AB = 5.5 cm, ∠= C 25 ° and the altitude from C to AB is 4 cm.
+**Step 5:** With $O$ as centre and $OB$ as radius draw a circle.
 
-10th 182 Standard Mathematics
+**Step 6:** From $B$, mark an arc of 6cm on $BC$ at $D$.
 
-- Draw a triangle ABC of base BC = 5.6 cm, ∠= A 40 ° and the bisector of ÐA meets BC at D such that CD = 4 cm.
-- Draw DPQR such that PQ = 6.8 cm, vertical angle is 50 ° and the bisector of the vertical angle meets the base at D where PD = 5.2 cm.
+**Step 7:** The perpendicular bisector intersects the circle at I. Joint $ID$.
 
-### 4.4 Pythagoras Theorem
+**Step 8:** $ID$ produced meets the circle at $A$. Now join $AB$ and $AC$. Then $\triangle ABC$ is the required triangle.
 
-Among all existing theorems in mathematics, Pythagoras theorem is considered to be the most important because it has maximum number of proofs. There are more than 350 ways of proving Pythagoras theorem through different methods. Each of these proofs was discovered by eminent mathematicians, scholars, engineers and math enthusiasts, including one by the 20 th American president James Garfield. The book titled "The Pythagorean Proposition" written by Elisha Scott Loomis, published by the National Council of Teaching of Mathematics (NCTM) in America contains 367 proofs of Pythagoras Theorem.
+### Exercise 4.2
+
+1. In $\triangle ABC$, $D$ and $E$ are points on the sides $AB$ and $AC$ respectively such that $DE\parallel BC$
+   (i) If $\dfrac{AD}{DB}=\dfrac34$ and $AC=15$ cm find $AE$.
+   (ii) If $AD=8x-7$, $DB=5x-3$, $AE=4x-3$ and $EC=3x-1$, find the value of $x$.
+
+2. ABCD is a trapezium in which $AB\parallel DC$ and $P,Q$ are points on $AD$ and $BC$ respectively, such that $PQ\parallel DC$ if $PD=18$ cm, $BQ=35$ cm and $QC=15$ cm, find $AD$.
+
+3. In $\triangle ABC$, $D$ and $E$ are points on the sides $AB$ and $AC$ respectively. Show that $DE\parallel BC$ if $AB=12$ cm, $AD=8$ cm, $AE=12$ cm and $AC=18$ cm.
+
+4. In fig. if $PQ\parallel BC$ and $PR\parallel CD$ prove that
+   (i) $\dfrac{AR}{AD}=\dfrac{AQ}{AB}$ (ii) $\dfrac{QB}{AQ}=\dfrac{DR}{AR}$.
+
+   ![](assets/image-4-p23-1.png)
+
+5. Rhombus PQRB is inscribed in $\triangle ABC$ such that $\angle B$ is one of its angle. $P$, $Q$ and $R$ lie on $AB$, $AC$ and $BC$ respectively. If $AB=12$ cm and $BC=6$ cm, find the sides $PQ$, $RB$ of the rhombus.
+
+6. In trapezium $ABCD$, $AB\parallel DC$, $E$ and $F$ are points on non-parallel sides $AD$ and $BC$ respectively, such that $EF\parallel AB$. Show that $\dfrac{AE}{ED}=\dfrac{BF}{FC}$.
+
+7. In figure $DE\parallel BC$ and $CD\parallel EF$. Prove that $AD^2=AB\times AF$.
+
+   ![](assets/image-4-p23-2.png)
+
+8. Check whether $AD$ is bisector of $\angle A$ of $\triangle ABC$ in each of the following
+   (i) $AB=5$ cm, $AC=10$ cm, $BD=1.5$ cm and $CD=3.5$ cm.
+   (ii) $AB=4$ cm, $AC=6$ cm, $BD=1.6$ cm and $CD=2.4$ cm.
+
+9. In figure $\angle QPR=90^\circ$, PS is its bisector. If $ST\perp PR$, prove that $ST\times(PQ+PR)=PQ\times PR$.
+
+   ![](assets/image-4-p23-3.png)
+
+10. $ABCD$ is a quadrilateral in which $AB=AD$, the bisector of $\angle BAC$ and $\angle CAD$ intersect the sides $BC$ and $CD$ at the points $E$ and $F$ respectively. Prove that $EF\parallel BD$.
+
+11. Construct a $\triangle PQR$ which the base $PQ=4.5$ cm, $\angle R=35^\circ$ and the median $RG$ from $R$ to $PQ$ is 6 cm.
+
+12. Construct a $\triangle PQR$ in which $QR=5$ cm, $\angle P=40^\circ$ and the median $PG$ from $P$ to $QR$ is 4.4 cm. Find the length of the altitude from $P$ to $QR$.
+
+13. Construct a $\triangle PQR$ such that $QR=6.5$ cm, $\angle P=60^\circ$ and the altitude from $P$ to $QR$ is of length 4.5 cm.
+
+14. Construct a $\triangle ABC$ such that $AB=5.5$ cm, $\angle C=25^\circ$ and the altitude from $C$ to $AB$ is 4 cm.
+
+15. Draw a triangle $ABC$ of base $BC=5.6$ cm, $\angle A=40^\circ$ and the bisector of $\angle A$ meets $BC$ at $D$ such that $CD=4$ cm.
+
+16. Draw $\triangle PQR$ such that $PQ=6.8$ cm, vertical angle is $50^\circ$ and the bisector of the vertical angle meets the base at $D$ where $PD=5.2$ cm.
+
+## 4.4 Pythagoras Theorem
+
+Among all existing theorems in mathematics, Pythagoras theorem is considered to be the most important because it has maximum number of proofs. There are more than 350 ways of proving Pythagoras theorem through different methods. Each of these proofs was discovered by eminent mathematicians, scholars, engineers and math enthusiasts, including one by the 20<sup>th</sup> American president James Garfield. The book titled “The Pythagorean Proposition” written by Elisha Scott Loomis, published by the National Council of Teaching of Mathematics (NCTM) in America contains 367 proofs of Pythagoras Theorem.
+
+Three natural numbers $(a,b,c)$ are said to form Pythagorean Triplet, if they form sides of a right triangle. Thus $(a,b,c)$ is a Pythagorean Triplet if and only if $c^2=a^2+b^2$.
 
 Now we are in a position to study this most famous and important theorem not only in Geometry but in whole of mathematics.
 
-![*Take a chart paper, cut out a right angled triangle of measurement as given in triangle (i) .*](assets/page_023_picture_004.png)
+> **Activity 4**
+>
+> ![Fig. 4.45](assets/image-4-45.png)
+>
+> **Step 1:** Take a chart paper, cut out a right angled triangle of measurement as given in triangle (i).
+>
+> **Step 2:** Take three more different colour chart papers and cut out three triangles such that the sides of triangle (ii) is three times of the triangle (i), the sides of triangle (iii) is four times of the triangle (i), the sides of triangle (iv) is five times of triangle (i).
+>
+> **Step 3:** Now keeping the common side length 12 place the triangle (ii) and (iii) over the triangle (iv) such that the sides of these two triangles [(ii) and (iii)] coincide with the triangle (iv).
+>
+> Observe the hypotenuse side and write down the equation. What do you conclude?
 
-- Step 2: Take three more different colour chart papers and cut out three triangles such that the sides of triangle (ii) is three times of the triangle (i), the sides of triangle (iii) is four times of the triangle (i), the sides of triangle (iv) is five times of triangle (i).
+> **Note**
+>
+> - In a right angled triangle, the side opposite to $90^\circ$ (the right angle) is called the hypotenuse.
+> - The other two sides are called legs of the right angled triangle.
+> - The hypotenuse will be the longest side of the triangle.
 
-*Step 3: Now keeping the common side length 12 place the triangle (ii) and (iii) over the triangle (iv) such that the sides of these two triangles [(ii) and (iii)] coincide with the triangle (iv).*
-
-Observe the hypotenuse side and write down the equation. What do you conclude?
-
-**Note**
-
-- ¾ In a right angled triangle, the side opposite to 90° (the right angle) is called the hypotenuse.
-- ¾ The other two sides are called legs of the right angled triangle.
-- ¾ The hypotenuse will be the longest side of the triangle.
-
-**Theorem 5 : Pythagoras Theorem**
+##### Theorem 5 : Pythagoras Theorem
 
 **Statement**
-
-![](assets/page_024_picture_007.png)
 
 In a right angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
 
+![Fig. 4.46](assets/image-4-46.png)
+
 **Proof**
 
-, ∠= A 90 °
+**Given** : In $\triangle ABC$, $\angle A=90^\circ$
 
-Given : In DABC
+**To prove** : $AB^2+AC^2=BC^2$
 
-To prove : AB
+**Construction** : Draw $AD\perp BC$
 
-Construction : Draw AD ^ BC
+| No. | Statement | Reason |
+|---|---|---|
+| 1. | Compare $\triangle ABC$ and $\triangle DBA$<br>$\angle B$ is common<br>$\angle BAC=\angle BDA=90^\circ$<br>Therefore, $\triangle ABC\sim\triangle DBA$<br>$\dfrac{AB}{BD}=\dfrac{BC}{AB}$<br>$AB^2=BC\times BD \quad\ldots(1)$ | Given $\angle BAC=90^\circ$ and by construction $\angle BDA=90^\circ$<br><br><br>By AA similarity |
+| 2. | Compare $\triangle ABC$ and $\triangle DAC$<br>$\angle C$ is common<br>$\angle BAC=\angle ADC=90^\circ$<br>Therefore, $\triangle ABC\sim\triangle DAC$<br>$\dfrac{BC}{AC}=\dfrac{AC}{DC}$<br>$AC^2=BC\times DC \quad\ldots(2)$ | Given $\angle BAC=90^\circ$ and by construction $\angle ADC=90^\circ$<br><br><br>By AA similarity |
 
-| No. | Statement | Reason | \n |
-| --- | --- | --- | \n |
-| 1. | Compare DABC and DDBA ÐB is common ∠= BACB∠= DA  90 ° Therefore, DD ABCD   BA AB BD BC AB  = AB  BC  BD  2  BC =×  …  (1) | Given ∠= BAC  90 °   and by  construction ∠= BDA  90 ° By AA similarity | \n |
-| 2. | Compare DABC and DDAC ÐC is common ∠= BACA∠= DC  90  Therefore, DD ABCD   AC BC AC AC DC  = AC  BC  DC  2  BC =×  … (2) | Given ∠= BAC  90 °   and by  construction ∠= ADC  90 ° By AA similarity |  |
+Adding (1) and (2) we get
+
+$$\begin{aligned}AB^2+AC^2&=BC\times BD+BC\times DC\\&=BC(BD+DC)=BC\times BC\\AB^2+AC^2&=BC^2.\end{aligned}$$
 
 Hence the theorem is proved.
 
-**Thinking Corner**
+> **Do You Know?**
+>
+> In India, Pythagoras Theorem is also referred as “Baudhayana Theorem”.
 
-- Write down any five Pythagorean triplets?
-- In a right angle triangle the sum of other two angles is _____.
+> **Thinking Corner**
+>
+> 1. Write down any five Pythagorean triplets?
+> 2. In a right angle triangle the sum of other two angles is \_\_\_\_\_.
 
-**Converse of Pythagoras Theorem**
+##### Converse of Pythagoras Theorem
 
 **Statement**
 
-In India, Pythagoras Theorem is also referred as "Baudhayana Theorem".
-
 If the square of the longest side of a triangle is equal to sums of squares of other two sides, then the triangle is a right angle triangle.
 
-**Activity 5**
+> **Activity 5**
+>
+> (i) Take two consecutive odd numbers.
+>
+> (ii) Write the reciprocals of the above numbers and add them. You will get a number of the form $\dfrac{p}{q}$.
+>
+> (iii) Add 2 to the denominator of $\dfrac{p}{q}$ to get $q+2$.
+>
+> (iv) Now consider the numbers $p$, $q$, $q+2$. What relation you get between these three numbers?
+>
+> Try for three pairs of consecutive odd numbers and conclude your answer.
 
-- (i) Take two consecutive odd numbers.
-- (ii) Write the reciprocals of the above numbers and add them. You will get a number of the form p q .
-- (iii) Add 2 to the denominator of p q to get q + 2 .
-- (iv) Now consider the numbers pq, q,, q + 2 . What relation you get between these three numbers? Try for three pairs of consecutive odd numbers and conclude your answer.
+> **Thinking Corner**
+>
+> Can all the three sides of a right angled triangle be odd numbers? Why?
 
-**Thinking Corner**
+#### Example 4.20
 
-Can all the three sides of a right angled triangle be odd numbers? Why?
+An insect 8 m away initially from the foot of a lamp post which is 6 m tall, crawls towards it moving through a distance. If its distance from the top of the lamp post is equal to the distance it has moved, how far is the insect away from the foot of the lamp post?
 
-Example 4.20 An insect 8 m away initially from the foot of a lamp post which is 6 m tall, crawls towards it moving through a distance. If its distance from the top of the lamp post is equal to the distance it has moved, how far is the insect away from the foot of the lamp post?
+**Solution** Distance between the insect and the foot of the lamp post $BD=8$ m
 
-Distance between the insect and the foot of the lamp post BD = 8 m
+The height of the lamp post, $AB=6$ m
 
-The height of the lamp post, AB = 6 m
+After moving a distance of $x$ m, let the insect be at $C$
 
-After moving a distance of x m, let the insect be at C
+Let, $AC=CD=x$. Then $BC=BD-CD=8-x$
 
-Therefore the insect is 1 . 75 m away from the foot of the lamp post.
+In $\triangle ABC$, $\angle B=90^\circ$
 
-![*Fig. 4.47*](assets/page_025_picture_005.png)
+$$AC^2=AB^2+BC^2 \text{ gives } x^2=6^2+(8-x)^2$$
 
-Solution
+$$x^2=36+64-16x+x^2$$
 
-![](assets/page_026_picture_005.png)
+$$16x=100 \text{ then } x=6.25$$
 
-Example 4.22 What length of ladder is needed to reach a height of 7 ft along the wall when the base of the ladder is 4 ft from the wall? Round off your answer to the next tenth place. A
+Then, $BC=8-x=8-6.25=1.75$ m
 
-Let x be the length of the ladder. BC=4 ft, AC=7 ft.
+Therefore the insect is 1.75 m away from the foot of the lamp post.
 
-The number 65 is between 8 and 8.1 .
+![Fig. 4.47](assets/image-4-47.png)
 
-Therefore, the length of the ladder is approximately 8 . 1 ft.
+#### Example 4.21
 
-Example 4.23 An Aeroplane after take off from an airport and flies due north at a speed of 1000 km/hr. At the same time, another aeroplane take off from the same airport and flies due west at a speed of 1200 km/hr. How far apart will be the two planes after 1½ hours?
+$P$ and $Q$ are the mid-points of the sides $CA$ and $CB$ respectively of a $\triangle ABC$, right angled at $C$. Prove that $4(AQ^2+BP^2)=5AB^2$.
 
-Let the first aeroplane starts from O and goes upto A towards north, (Distance = Speed × time)
+![Fig. 4.48](assets/image-4-48.png)
 
-![](assets/page_026_picture_007.png)
+**Solution**
 
-Let the second aeroplane starts from O at the same time and goes upto B towards west,
+$\triangle AQC$ is a right triangle at $C$, $AQ^2=AC^2+QC^2 \qquad\cdots(1)$
 
-10th 186 Standard Mathematics
+$\triangle BPC$ is a right triangle at $C$, $BP^2=BC^2+CP^2 \qquad\cdots(2)$
 
-![](assets/page_026_picture_006.png)
+$\triangle ABC$ is a right triangle at $C$, $AB^2=AC^2+BC^2 \qquad\cdots(3)$
 
-**Progress Check**
+From (1) and (2), $AQ^2+BP^2=AC^2+QC^2+BC^2+CP^2$
 
-- _________ is the longest side of the right angled triangle.
-- The first theorem in mathematics is _________.
-- If the square of the longest side of a triangle is equal to sums of squares of other two sides, then the triangle is _________.
-- State True or False. Justify them.
-- (i) Pythagoras Theorem is applicable to all triangles.
-- (ii) One side of a right angled triangle must always be a multiple of 4.
+$$\begin{aligned}4(AQ^2+BP^2)&=4AC^2+4QC^2+4BC^2+4CP^2\\&=4AC^2+(2QC)^2+4BC^2+(2CP)^2\\&=4AC^2+BC^2+4BC^2+AC^2 &&\text{(Since } P \text{ and } Q \text{ are mid points)}\\&=5(AC^2+BC^2) &&\text{(From equation (3))}\end{aligned}$$
 
-![](assets/page_027_picture_004.png)
+$$4(AQ^2+BP^2)=5AB^2$$
 
-- A man goes 18 m due east and then 24 m due north. Find the distance of his current position from the starting point? Sarah's
-- There are two paths that one can choose to go from Sarah's house to James house. One way is to take C street, and the other way requires to take B street and then A street. How much shorter is the direct path along C street? (Using figure).
-- To get from point A to point B you must avoid walking through a pond. You must walk 34 m south and 41 m east. To the nearest meter, how many meters would be saved if it were possible to make a way through the pond? Z Y
-- In the rectangle WXYZ, XY+YZ=17 cm, and XZ+YW=26 cm. Calculate the length and breadth of the rectangle?
-- The hypotenuse of a right triangle is 6 m more than twice of the shortest side. If the third side is 2 m less than the hypotenuse, find the sides of the triangle.
-- 5 m long ladder is placed leaning towards a vertical wall such that it reaches the wall at a point 4m high. If the foot of the ladder is moved 1.6 m towards the wall, then find the distance by which the top of the ladder would slide upwards on the wall.
+#### Example 4.22
 
-![](assets/page_027_picture_005.png)
+What length of ladder is needed to reach a height of 7 ft along the wall when the base of the ladder is 4 ft from the wall? Round off your answer to the next tenth place.
 
-![](assets/page_027_picture_006.png)
+![Fig. 4.49](assets/image-4-49.png)
 
-- The perpendicular PS on the base QR of a DPQR intersects QR at S, such that QS = 3 SR. Prove that 22 2PQ = 2 22 PR 2 2 22 PQ =+ PR QR A
+**Solution** Let $x$ be the length of the ladder. $BC=4$ ft, $AC=7$ ft.
 
-### 4.5 Circles and Tangents
+By Pythagoras theorem we have, $AB^2=AC^2+BC^2$
+
+$$x^2=7^2+4^2\Rightarrow x^2=49+16$$
+
+$$x^2=65. \quad \text{Hence, } x=\sqrt{65}$$
+
+The number $\sqrt{65}$ is between $8$ and $8.1$.
+
+$$8^2=64<65<65.61=8.1^2$$
+
+Therefore, the length of the ladder is approximately $8.1$ ft.
+
+#### Example 4.23
+
+An Aeroplane after take off from an airport and flies due north at a speed of 1000 km/hr. At the same time, another aeroplane take off from the same airport and flies due west at a speed of 1200 km/hr. How far apart will be the two planes after $1\frac{1}{2}$ hours?
+
+![Fig. 4.50](assets/image-4-50.png)
+
+**Solution** Let the first aeroplane starts from $O$ and goes upto $A$ towards north, (Distance = Speed $\times$ time)
+
+where $OA=\left(1000\times\dfrac{3}{2}\right)\text{ km}=1500$ km
+
+Let the second aeroplane starts from $O$ at the same time and goes upto $B$ towards west,
+
+where $OB=\left(1200\times\dfrac{3}{2}\right)=1800$ km
+
+The required distance to be found is $BA$.
+
+In right angled triangle $AOB$, $AB^2=OA^2+OB^2$
+
+$$\begin{aligned}AB^2&=(1500)^2+(1800)^2=100^2\,(15^2+18^2)\\&=100^2\times549=100^2\times9\times61\\AB&=100\times3\times\sqrt{61}=300\sqrt{61}\text{ kms.}\end{aligned}$$
+
+> **Progress Check**
+>
+> 1. \_\_\_\_\_\_\_\_\_ is the longest side of the right angled triangle.
+> 2. The first theorem in mathematics is \_\_\_\_\_\_\_\_\_.
+> 3. If the square of the longest side of a triangle is equal to sums of squares of other two sides, then the triangle is \_\_\_\_\_\_\_\_\_.
+> 4. State True or False. Justify them.
+>    - (i) Pythagoras Theorem is applicable to all triangles.
+>    - (ii) One side of a right angled triangle must always be a multiple of 4.
+
+### Exercise 4.3
+
+1. A man goes 18 m due east and then 24 m due north. Find the distance of his current position from the starting point?
+
+2. There are two paths that one can choose to go from Sarah's house to James house. One way is to take $C$ street, and the other way requires to take $B$ street and then $A$ street. How much shorter is the direct path along $C$ street? (Using figure).
+
+   ![Sarah's house and James house](assets/image-4-p28-1.png)
+
+3. To get from point $A$ to point $B$ you must avoid walking through a pond. You must walk $34$ m south and $41$ m east. To the nearest meter, how many meters would be saved if it were possible to make a way through the pond?
+
+4. In the rectangle $WXYZ$, $XY+YZ=17$ cm, and $XZ+YW=26$ cm. Calculate the length and breadth of the rectangle?
+
+   ![Rectangle WXYZ](assets/image-4-p28-2.png)
+
+5. The hypotenuse of a right triangle is 6 m more than twice of the shortest side. If the third side is $2$ m less than the hypotenuse, find the sides of the triangle.
+
+6. $5$ m long ladder is placed leaning towards a vertical wall such that it reaches the wall at a point 4m high. If the foot of the ladder is moved $1.6$ m towards the wall, then find the distance by which the top of the ladder would slide upwards on the wall.
+
+7. The perpendicular $PS$ on the base $QR$ of a $\triangle PQR$ intersects $QR$ at $S$, such that $QS=3\,SR$. Prove that $2PQ^2=2PR^2+QR^2$
+
+8. In the adjacent figure, $ABC$ is a right angled triangle with right angle at $B$ and points $D$, $E$ trisect $BC$. Prove that $8AE^2=3AC^2+5AD^2$
+
+   ![Right triangle ABC with D, E trisecting BC](assets/image-4-p29-1.png)
+
+## 4.5 Circles and Tangents
 
 In our day-to-day real life situations, we have seen two lines intersect at a point or do not intersect in a plane. For example, two parallel lines in a railway track, do not intersect. Whereas, grills in a window intersect.
 
 Similarly what happens when a curve and a line is given in a plane? The curve may be parabola, circle or any general curve.
 
+![Fig. 4.51](assets/image-4-51.png)
+
 Similarly, what happens when we consider intersection of a line and a circle?
 
 **We may get three situations as given in the following diagram**
 
-**Figure 1**
+| Figure 1 | Figure 2 | Figure 3 |
+|---|---|---|
+| ![Fig. 4.52(a)](assets/image-4-52-a.png) | ![Fig. 4.52(b)](assets/image-4-52-b.png) | ![Fig. 4.52(c)](assets/image-4-52-c.png) |
+| (i) Straight line $PQ$ does not touch the circle. | (i) Straight line $PQ$ touches the circle at a common point $A$. | (i) Straight line $PQ$ intersects the circle at two points $A$ and $B$. |
+| (ii) There is no common point between the straight line and circle. | (ii) $PQ$ is called the tangent to the circle at $A$. | (ii) The line $PQ$ is called a secant of the circle. |
+| (iii) Thus the number of points of intersection of a line and circle is zero. | (iii) Thus the number of points of intersection of a line and circle is one. | (iii) Thus the number of points of intersection of a line and circle is two. |
 
-**Figure 2**
+> **Note**
+>
+> The line segment $AB$ inscribed in the circle in Fig. 4.52(c) is called chord of the circle. Thus a chord is a sub-section of a secant.
 
-![](assets/page_028_picture_006.png)
+> **Do You Know?**
+>
+> The word "tangent" comes from the latin word "tangere" which means "to touch" and was introduced by Danish mathematician, 'Thomas Fineko' in 1583.
 
-![](assets/page_028_picture_007.png)
+> **Definition**
+>
+> If a line touches the given circle at only one point, then it is called tangent to the circle.
 
-- (i) Straight line PQ touches the circle at a common point A.
-- (i) Straight line PQ does not touch the circle.
-- (ii) There is no common point between the straight line and circle.
-- (ii) PQ is called the tangent to the circle at A.
-- (iii) Thus the number of points of intersection of a line and circle is zero .
-- (iii) Thus the number of points of intersection of a line and circle is one .
+##### Real life examples of tangents to circles
 
-![](assets/page_028_picture_011.png)
+(i) When a cycle moves along a road, then the road becomes the tangent at each point when the wheels rolls on it.
 
-**Note**
+![Fig. 4.53(a)](assets/image-4-53-a.png)
 
-The line segment AB inscribed in the circle in Fig.4.52(c) is called chord of the circle. Thus a chord is a sub-section of a secant.
+(ii) When a stone is tied at one end of a string and is rotated from the other end, then the stone will describe a circle. If we suddenly stop the motion, the stone will go in a direction tangential to the circular motion.
 
-10th 188 Standard Mathematics The word "tangent" comes from the latin word "tangere" which means "to touch" and was introduced by Danish mathematician, 'Thomas Fineko' in 1583.
+![Fig. 4.53(b)](assets/image-4-53-b.png)
 
-![](assets/page_028_picture_004.png)
+##### Some results on circles and tangents
 
-![](assets/page_028_picture_005.png)
+1. A tangent at any point on a circle and the radius through the point are perpendicular to each other.
 
-Fig. 4.51
+   ![Fig. 4.54](assets/image-4-54.png)
 
-**Figure 3**
+2. Tangents from interior, boundary and exterior points:
 
-![](assets/page_028_picture_008.png)
+   | (a) No tangent can be drawn from an interior point of the circle. | (b) Only one tangent can be drawn at any point on a circle. | (c) Two tangents can be drawn from any exterior point of a circle. |
+   |---|---|---|
+   | ![Fig. 4.55(a)](assets/image-4-55-a.png) | ![Fig. 4.55(b)](assets/image-4-55-b.png) | ![Fig. 4.55(c)](assets/image-4-55-c.png) |
 
-- (i) Straight line PQ intersects the circle at two points A and B.
-- (ii) The line PQ is called a secant of the circle.
-- (iii) Thus the number of points of intersection of a line and circle is two .
+3. The lengths of the two tangents drawn from an exterior point to a circle are equal,
 
-**Definition**
+   ![Fig. 4.56](assets/image-4-56.png)
 
-If a line touches the given circle at only one point, then it is called tangent to the circle.
+   **Proof :** By 1. $OA\perp PA$, $OB\perp PB$. Also $OA=OB=$ radius, $OP$ is common side. $\angle AOP=\angle BOP$
 
-![](assets/page_029_picture_003.png)
+   Therefore, by SAS Rule $\triangle OAP\cong\triangle OBP$. Hence $PA=PB$
 
-**Real life examples of tangents to circles**
+4. If two circles touch externally the distance between their centers is equal to the sum of their radii, that is $OP=r_1+r_2$
 
-- (i) When a cycle moves along a road, then the road becomes the tangent at each point when the wheels rolls on it.
-- (ii) When a stone is tied at one end of a string and is rotated from the other end, then the stone will describe a circle. If we suddenly stop the motion, the stone will go in a direction tangential to the circular motion.
+   ![Fig. 4.57](assets/image-4-57.png)
 
-![](assets/page_029_picture_005.png)
+   **Proof :** Let two circles with centers at $O$ and $P$ touch other at $Q$. Let $OQ=r_1$ and $PQ=r_2$ and let $r_1>r_2$.
 
-![*Fig. 4.53(b)*](assets/page_029_picture_004.png)
+   The distance between their centers $OP=d$. It is clear from the Fig. 4.57 that when the circles touch externally $OP=d=OQ+PQ=r_1+r_2$.
 
-![](assets/page_029_picture_006.png)
+5. If two circles touch internally, the distance between their centers is equal to the difference of their radii, that is $OP=r_1-r_2$.
 
-**Some results on circles and tangents**
+   ![Fig. 4.58](assets/image-4-58.png)
 
-- A tangent at any point on a circle and the radius through the point are perpendicular to each other.
+   **Proof :** Let two circles with centers at $O$ and $P$ touch each other at $Q$. Let $OQ=r_1$ and $PQ=r_2$ and let $r_1>r_2$.
 
-![](assets/page_029_picture_007.png)
+   The distance between their centers $OP=d$. It is clear from the Fig. 4.58 that when the circles touch internally, $OP=d=OQ-PQ$
 
-- (a) No tangent can be drawn from an interior point of the circle.
-- (b) Only one tangent can be drawn at any point on a circle.
+   $$OP=r_1-r_2.$$
 
-![](assets/page_029_picture_002.png)
+6. The two direct common tangents drawn to the circles are equal in length, that is $AB=CD$.
 
-![*Fig. 4.55(a)*](assets/page_029_picture_008.png)
+   ![Fig. 4.59](assets/image-4-59.png)
 
-![](assets/page_029_picture_009.png)
+   **Proof :**
 
-- The lengths of the two tangents drawn from an exterior point to a circle are equal,
+   The lengths of tangents drawn from $P$ to the two circles are equal.
 
-By 1. OA ^^ PA,OB , OB PB . Also OA = OB = radius, OP is common side. ∠= AOPB∠ OP
+   $$\begin{aligned}\text{Therefore,}\quad PA&=PC \text{ and } PB=PD.\\\Rightarrow PA-PB&=PC-PD\\AB&=CD\end{aligned}$$
 
-Therefore, by SAS Rule ∆∆ OAPO ≅ BP. Hence PA = PB
+> **Thinking Corner**
+>
+> 1. Can we draw two tangents parallel to each other on a circle?
+> 2. Can we draw two tangents perpendicular to each other on a circle?
 
-![](assets/page_029_picture_011.png)
+##### Alternate segment
 
-- If two circles touch externally the distance between their centers is equal to the sum of their radii, that is OP =+rr 12 +rr 12
+In the Fig. 4.60, the chord PQ divides the circle into two segments. The tangent AB is drawn such that it touches the circle at $P$.
 
-The distance between their centers OP = d . It is clear from the Fig. 4.57 that when the circles touch externally OP ==dOQP + Q =+rr 12 +rr 12 .
+![Fig. 4.60](assets/image-4-60.png)
 
-- If two circles touch internally, the distance between their centers is equal to the difference of their radii, that is OP =−rr 12 rr 12 .
+The angle in the alternate segment for $\angle QPB$ $(\angle 1)$ is $\angle QSP$ $(\angle 1)$ and that for $\angle QPA$ $(\angle 2)$ is $\angle PTQ$ $(\angle 2)$.
 
-The distance between their centers OP = d . It is clear from the Fig. 4.58 that when the circles touch internally, OP ==dOQP − Q P
-
-- The two direct common tangents drawn to the circles are equal in length, that is AB = CD .
-
-**Proof :**
-
-The lengths of tangents drawn from P to the two circles are equal.
-
-Therefore, PA = PC and PB = PD .
-
-**Thinking Corner**
-
-- Can we draw two tangents parallel to each other on a circle?
-- Can we draw two tangents perpendicular to each other on a circle?
-
-**Alternate segment**
-
-In the Fig. 4.60, the chord PQ divides the circle into two segments. The tangent AB is drawn such that it touches the circle at P .
-
-The angle in the alternate segment for ÐQPB () Ð1 isÐQSP () Ð1 and that for ÐQPA () Ð2 is ÐPTQ () Ð2 .
-
-Theorem 6 : Alternate Segment theorem
+##### Theorem 6 : Alternate Segment theorem
 
 **Statement**
 
@@ -934,466 +1275,521 @@ If a line touches a circle and from the point of contact a chord is drawn, the a
 
 **Proof**
 
-Given : A circle with centre at O, tangent AB touches the circle at P and PQ is a chord. S and T are two points on the circle in the opposite sides of chord PQ .
+![Fig. 4.61](assets/image-4-61.png)
 
-10th 190 Standard Mathematics
+**Given :** A circle with centre at $O$, tangent $AB$ touches the circle at $P$ and $PQ$ is a chord. $S$ and $T$ are two points on the circle in the opposite sides of chord $PQ$.
 
-![](assets/page_030_picture_007.png)
+**To prove :** (i) $\angle QPB=\angle PSQ$ and (ii) $\angle QPA=\angle PTQ$
 
-![](assets/page_030_picture_008.png)
+**Construction:** Draw the diameter $POR$. Draw $QR$, $QS$ and $PS$.
 
-![](assets/page_030_picture_004.png)
+| No. | Statement | Reason |
+|---|---|---|
+| 1. | $\angle RPB=90^\circ$<br>Now, $\angle RPQ+\angle QPB=90^\circ \quad\cdots(1)$ | Diameter RP is perpendicular to tangent AB. |
+| 2. | In $\triangle RPQ$, $\angle PQR=90^\circ \quad\cdots(2)$ | Angle in a semicircle is $90^\circ$. |
+| 3. | $\angle QRP+\angle RPQ=90^\circ \quad\cdots(3)$ | In a right angled triangle, sum of the two acute angles is $90^\circ$. |
+| 4. | $\angle RPQ+\angle QPB=\angle QRP+\angle RPQ$<br>$\angle QPB=\angle QRP \quad\cdots(4)$ | From (1) and (3). |
+| 5. | $\angle QRP=\angle PSQ \quad\cdots(5)$ | Angles in the same segment are equal. |
+| 6. | $\angle QPB=\angle PSQ \quad\cdots(6)$ | From (4) and (5); Hence (i) is proved. |
+| 7. | $\angle QPB+\angle QPA=180^\circ \quad\cdots(7)$ | Linear pair of angles. |
+| 8. | $\angle PSQ+\angle PTQ=180^\circ \quad\cdots(8)$ | Sum of opposite angles of a cyclic quadrilateral is $180^\circ$. |
+| 9. | $\angle QPB+\angle QPA=\angle PSQ+\angle PTQ$ | From (7) and (8). |
+| 10. | $\angle QPB+\angle QPA=\angle QPB+\angle PTQ$ | $\angle QPB=\angle PSQ$ from (6) |
+| 11. | $\angle QPA=\angle PTQ$ | Hence (ii) is proved.<br>This completes the proof. |
 
-To prove : (i) ∠= QPBP∠ SQ and (ii)∠= QPAP∠
+#### Example 4.24
 
-Draw the diameter POR. Draw QR
+Find the length of the tangent drawn from a point whose distance from the centre of a circle is 5 cm and radius of the circle is 3 cm.
 
-TQ
+![Fig. 4.62](assets/image-4-62.png)
 
-, QS and PS .
+**Solution** Given OP $=5$ cm, radius $r=3$ cm
 
-| No. | Statement | Statement | Reason | \n |
-| --- | --- | --- | --- | \n |
-| 1 . | ∠= RPB  90 °  Now, ∠+ RPQQ∠= PB  90 ° | ... (1) | Diameter RP is perpendicular to tangent AB. | \n |
-| 2 . | In DRPQ ,  ∠= PQR  90 ° | ... (2) | Angle in a semicircle is 90° . | \n |
-| 3 . | ∠+ QRPR∠= PQ  90 ° | ... (3) | In a right angled triangle, sum of the two  acute angles is 90° . | \n |
-| 4 . | ∠+ RPQQ∠= PB  ∠+ QRPR∠  ∠= QPBQ∠  RP | PQ ... (4) | From (1) and (3) . | \n |
-| 5 . | ∠= QRPP∠ SQ | ... (5) | Angles in the same segment are equal. | \n |
-| 6 . | ∠= QPBP∠ SQ | ... (6) | From (4) and (5); Hence (i) is proved. | \n |
-| 7 . | ∠+ QPBQ∠= PA  180 ° | ... (7) | Linear pair of angles. | \n |
-| 8 . | ∠+ PSQP∠= TQ  180 ° | ... (8) | Sum of opposite angles of a cyclic  quadrilateral is 180° . | \n |
-| 9 . | ∠+ QPBQ∠= PA  ∠+ PSQP∠ | TQ | From (7) and (8) . | \n |
-| 10. | ∠+ QPBQ∠= PA  ∠+ QPBP∠ | TQ | ∠= QPBP∠ SQ from (6) | \n |
-| 11 . | ∠= QPAP∠  TQ |  | Hence (ii) is proved.  This completes the proof. |  |
+To find the length of tangent $PT$.
 
-Example 4.24 Find the length of the tangent drawn from a point whose distance from the centre of a circle is 5 cm and radius of the circle is 3 cm.
+In right angled $\triangle OTP$,
 
-Given OP = 5 cm, radius r = 3 cm
+$$OP^2=OT^2+PT^2 \quad \text{(by Pythagoras theorem)}$$
 
-To find the length of tangent PT. T.
+$$5^2=3^2+PT^2 \text{ gives } PT^2=25-9=16$$
 
-In right angled DOTP ,
+Length of the tangent $PT=4$ cm
 
-Length of the tangent PT = 4 cm Example 4.25 PQ is a chord of length 8 cm to a circle of radius 5 cm. The tangents at P and Q intersect at a point T. Find the length of the tangent TP.
+#### Example 4.25
 
-![](assets/page_031_picture_004.png)
+PQ is a chord of length 8 cm to a circle of radius 5 cm. The tangents at P and Q intersect at a point T. Find the length of the tangent TP.
 
-Let TR = y . Since, OT is perpendicular bisector of PQ.
+![Fig. 4.63](assets/image-4-63.png)
 
-Example 4.26 In Fig.4.64, O is the centre of a circle. PQ is a chord and the tangent PR at P makes an angle of 50ϒ° ϒ° ϒ with PQ . Find ÐPOQ .
+**Solution** Let $TR=y$. Since, OT is perpendicular bisector of PQ.
 
-∠= OPQ 90°− 50°= 40 ° (angle between the radius and tangent is 90 ° )
+$$PR=QR=4 \text{ cm}$$
 
-Example 4.27 In Fig.4.65, DABC is circumscribing a circle. Find the length of BC. C.
+In $\triangle ORP$, $OP^2=OR^2+PR^2$
 
-AN == AM AM 3 cm (Tangents drawn from same external point are equal)
+$$\begin{aligned}OR^2&=OP^2-PR^2\\OR^2&=5^2-4^2=25-16=9\Rightarrow OR=3\text{ cm}\\OT&=OR+RT=3+y &&\cdots(1)\end{aligned}$$
 
-Gives BC =+= BL CL CL 46 += 10 cm
+In $\triangle PRT$, $TP^2=TR^2+PR^2 \qquad\cdots(2)$
 
-10th 192 Standard Mathematics Example 4.28 If radii of two concentric circles are 4 cm and 5 cm then find the length of the chord of one circle which is a tangent to the other circle.
+and $\triangle OPT$ we have, $OT^2=TP^2+OP^2$
 
-![](assets/page_032_picture_004.png)
+$$\begin{aligned}OT^2&=(TR^2+PR^2)+OP^2 &&\text{(substitute for } TP^2 \text{ from (2))}\\(3+y)^2&=y^2+4^2+5^2 &&\text{(substitute for } OT \text{ from (1))}\\9+6y+y^2&=y^2+16+25\\6y&=41-9 \text{ we get } y=\frac{16}{3}\end{aligned}$$
 
-![](assets/page_032_picture_005.png)
+From (2), $TP^2=TR^2+PR^2$
 
-![](assets/page_032_picture_007.png)
+$$TP^2=\left(\frac{16}{3}\right)^2+4^2=\frac{256}{9}+16=\frac{400}{9} \quad\text{so, } TP=\frac{20}{3}\text{ cm}$$
 
-OA = 4 cm, OB = 5 cm; also OA ^ BC .
+#### Example 4.26
 
-Therefore AB = 3 cm
+In Fig. 4.64, $O$ is the centre of a circle. $PQ$ is a chord and the tangent $PR$ at $P$ makes an angle of $50^\circ$ with $PQ$. Find $\angle POQ$.
 
-BC = 2AB hence ⇒= BC 23 × = 6 cm
+![Fig. 4.64](assets/image-4-64.png)
 
-#### 4.5.1 Construction
+**Solution** $\angle OPQ=90^\circ-50^\circ=40^\circ$ (angle between the radius and tangent is $90^\circ$)
 
-**Construction of tangents to a circle**
+$$\begin{aligned}OP&=OQ &&\text{(Radii of a circle are equal)}\\\angle OPQ&=\angle OQP=40^\circ &&(\triangle OPQ \text{ is isosceles})\\\angle POQ&=180^\circ-\angle OPQ-\angle OQP\\\angle POQ&=180^\circ-40^\circ-40^\circ=100^\circ\end{aligned}$$
+
+#### Example 4.27
+
+In Fig. 4.65, $\triangle ABC$ is circumscribing a circle. Find the length of $BC$.
+
+![Fig. 4.65](assets/image-4-65.png)
+
+**Solution** $AN=AM=3$ cm (Tangents drawn from same external point are equal)
+
+$$\begin{aligned}BN&=BL=4\text{ cm}\\CL&=CM=AC-AM=9-3=6\text{ cm}\end{aligned}$$
+
+Gives $BC=BL+CL=4+6=10$ cm
+
+#### Example 4.28
+
+If radii of two concentric circles are $4$ cm and $5$ cm then find the length of the chord of one circle which is a tangent to the other circle.
+
+![Fig. 4.66](assets/image-4-66.png)
+
+**Solution** $OA=4$ cm, $OB=5$ cm; also $OA\perp BC$.
+
+$$OB^2=OA^2+AB^2$$
+
+$$5^2=4^2+AB^2 \text{ gives } AB^2=9$$
+
+Therefore $AB=3$ cm
+
+$$BC=2AB \text{ hence } BC=2\times3=6\text{ cm}$$
+
+### 4.5.1 Construction
+
+##### Construction of tangents to a circle
 
 Now let us discuss how to draw
 
-- (i) a tangent to a circle using its centre
-- (ii) a tangent to a circle using alternate segment theorem
-- (iii) pair of tangents from an external point
+(i) a tangent to a circle using its centre
 
-**Construction of a tangent to a circle (Using the centre)**
+(ii) a tangent to a circle using alternate segment theorem
 
-Example 4.29 Draw a circle of radius 3 cm. Take a point P on this circle and draw a tangent at P .
+(iii) pair of tangents from an external point
 
-Given, radius r = 3 cm
+##### Construction of a tangent to a circle (Using the centre)
 
-**Construction**
+#### Example 4.29
 
-Draw a circle with centre at O of radius 3 cm.
+Draw a circle of radius 3 cm. Take a point $P$ on this circle and draw a tangent at $P$.
 
-Take a point P on the circle. Join OP .
+**Solution** Given, radius $r=3$ cm
 
-Step 3: Draw perpendicular line to OP which passes through P .
-
-Step 4: TT ¢ is the required tangent.
-
-Construct of a tangent to a circle (Using alternate segment theorem)
-
-![](assets/page_033_picture_004.png)
-
-![](assets/page_033_picture_006.png)
-
-![](assets/page_033_picture_008.png)
-
-Example 4.30 Draw a circle of radius 4 cm. At a point L on it draw a tangent to the circle using the alternate segment. M
-
-**Solution**
-
-Given, radius=4 cm
-
-![](assets/page_034_picture_004.png)
-
-**Construction of pair of tangents to a circle from an external point P .**
+![Rough diagram](assets/image-4-p34-1.png)
 
 **Construction**
 
-With O as the centre, draw a circle of radius 4 cm.
+- Step 1: Draw a circle with centre at $O$ of radius 3 cm.
+- Step 2: Take a point $P$ on the circle. Join $OP$.
+- Step 3: Draw perpendicular line to $OP$ which passes through $P$.
+- Step 4: $TT'$ is the required tangent.
 
-Step 1 :
+![Fig. 4.67](assets/image-4-67.png)
 
-Take a point L on the circle. Through L draw any chord LM. M.
+##### Construct of a tangent to a circle (Using alternate segment theorem)
 
-Step 2 :
+#### Example 4.30
 
-Take a point N distinct from L and M on the circle, so that L , M and N are in anti-clockwise direction. Join LN and NM. M.
+Draw a circle of radius $4$ cm. At a point $L$ on it draw a tangent to the circle using the alternate segment.
 
-Step 3 :
+**Solution** Given, radius $=4$ cm
 
-Through L draw a tangent TT ¢ such that ∠= TLMM∠ N MNL .
+![Rough diagram](assets/image-4-p35-1.png)
 
-Step 4 :
+![Fig. 4.68](assets/image-4-68.png)
 
-TT ¢ is the required tangent.
+**Construction**
 
-Step 5 :
+**Step 1:** With $O$ as the centre, draw a circle of radius $4$ cm.
 
-Example 4.31 Draw a circle of diameter 6 cm from a point P, which is 8 cm away from its centre. Draw the two tangents PA and PB to the circle and measure their lengths.
+**Step 2:** Take a point $L$ on the circle. Through $L$ draw any chord $LM$.
 
-![](assets/page_034_picture_006.png)
+**Step 3:** Take a point $N$ distinct from $L$ and $M$ on the circle, so that $L$, $M$ and $N$ are in anti-clockwise direction. Join $LN$ and $NM$.
 
-![](assets/page_034_picture_005.png)
+**Step 4:** Through $L$ draw a tangent $TT'$ such that $\angle TLM=\angle MNL$.
 
-With centre at O, draw a circle of radius 3 cm.
+**Step 5:** $TT'$ is the required tangent.
 
-Draw a line OP of length 8 cm.
+##### Construction of pair of tangents to a circle from an external point $P$.
 
-Step 3: Draw a perpendicular bisector of OP, which cuts OP at M. M.
+#### Example 4.31
 
-Step 4: With M as centre and MO as radius, draw a circle which cuts previous circle at A and B .
+Draw a circle of diameter $6$ cm from a point $P$, which is $8$ cm away from its centre. Draw the two tangents $PA$ and $PB$ to the circle and measure their lengths.
 
-Step5: Join AP and BP . AP and BP are the required tangents. Thus length of the tangents are PA = PB = 7 . 4 cm.
+**Solution** Given, diameter $(d)=6$ cm, we find radius $(r)=\dfrac{6}{2}=3$ cm
 
-### 4.6 Concurrency Theorems
+![Rough diagram](assets/image-4-p35-2.png)
 
-**Definition**
+![Fig. 4.69](assets/image-4-69.png)
 
-A cevian is a line segment that extends from one vertex of a triangle to the opposite side. In the diagram, AD is a cevian, from A .
+**Construction**
 
-**Special cevians**
+**Step 1:** With centre at $O$, draw a circle of radius $3$ cm.
 
-- (i) A median is a cevian that divides the opposite side into two congruent(equal) lengths.
-- (ii) An altitude is a cevian that is perpendicular to the opposite side.
-- (iii) An angle bisector is a cevian that bisects the corresponding angle.
+**Step 2:** Draw a line $OP$ of length $8$ cm.
 
-**Ceva's Theorem (without proof)**
+**Step 3:** Draw a perpendicular bisector of $OP$, which cuts $OP$ at $M$.
+
+**Step 4:** With $M$ as centre and $MO$ as radius, draw a circle which cuts previous circle at $A$ and $B$.
+
+**Step 5:** Join $AP$ and $BP$. $AP$ and $BP$ are the required tangents. Thus length of the tangents are $PA=PB=7.4$ cm.
+
+**Verification:** In the right angle triangle $OAP$, $PA^2=OP^2-OA^2=8^2-3^2=64-9=55$
+
+$$PA=\sqrt{55}=7.4 \text{ cm (approximately)}.$$
+
+## 4.6 Concurrency Theorems
+
+> **Definition**
+>
+> A cevian is a line segment that extends from one vertex of a triangle to the opposite side. In the diagram, AD is a cevian, from $A$.
+
+![Cevian AD in triangle ABC](assets/image-4-p36-1.png)
+
+##### Special cevians
+
+(i) A median is a cevian that divides the opposite side into two congruent(equal) lengths.
+
+(ii) An altitude is a cevian that is perpendicular to the opposite side.
+
+(iii) An angle bisector is a cevian that bisects the corresponding angle.
+
+> **Do You Know?**
+>
+> The term cevian comes from the name of Italian engineer Giovanni Ceva, who proved a well known theorem about cevians.
+
+##### Ceva's Theorem (without proof)
 
 **Statement**
 
-Let ABC be a triangle and let D,E,F be points on lines BC, C, CA, AB respectively. Then the cevians AD, BE, CF are concurrent if and only if BD DC CE EA AF FB ×× = 1 where the lengths are directed. This also works for the reciprocal of each of the ratios as the reciprocal of 1 is 1 . B
+Let ABC be a triangle and let $D,E,F$ be points on lines $BC$, $CA$, $AB$ respectively. Then the cevians $AD$, $BE$, $CF$ are concurrent if and only if $\dfrac{BD}{DC}\times\dfrac{CE}{EA}\times\dfrac{AF}{FB}=1$ where the lengths are directed. This also works for the reciprocal of each of the ratios as the reciprocal of $1$ is $1$.
 
-**Giovanni Ceva (Dec 7, 1647 – June 15, 1734)**
+![Fig. 4.70](assets/image-4-70.png)
 
-![](assets/page_035_picture_005.png)
+> **Do You Know? — Giovanni Ceva (Dec 7, 1647 – June 15, 1734)**
+>
+> In 1686, Ceva was designated as the professor of Mathematics, University of Mantua and worked there for the rest of the life. In 1678, he published an important theorem on synthetic geometry for a triangle called Ceva's theorem.
+>
+> Ceva also rediscovered and published in the Journal Opuscula mathematica and Geometria motus in 1692. He applied these ideas in mechanics and hydraulics.
 
-![](assets/page_035_picture_006.png)
+> **Note**
+>
+> The cevians do not necessarily lie within the triangle, although they do in the diagram.
 
-The term cevian comes from the name of Italian engineer Giovanni Ceva, who proved a well known theorem about cevians.
+##### Menelaus Theorem (without proof)
 
-![](assets/page_035_picture_007.png)
+**Statement**
 
-In 1686, Ceva was designated as the professor of Mathematics, University of Mantua and worked there for the rest of the life. In 1678, he published an important theorem on synthetic geometry for a triangle called Ceva's theorem.
+A necessary and sufficient condition for points $P$, $Q$, $R$ on the respective sides BC, $CA$, $AB$ (or their extension) of a triangle $ABC$ to be collinear is that $\dfrac{BP}{PC}\times\dfrac{CQ}{QA}\times\dfrac{AR}{RB}=-1$ where all segments in the formula are directed segments.
 
-Ceva also rediscovered and published in the Journal Opuscula mathematica and Geometria motus in 1692. He applied these ideas in mechanics and hydraulics.
+![Fig. 4.71](assets/image-4-71.png)
 
-The cevians do not necessarily lie within the triangle, although they do in the diagram.
+> **Do You Know? — Menelaus**
+>
+> Menelaus was a Greek mathematician who lived during the Roman empire in both Alexandria and Rome during first century (CE). His work was largely on the geometry of spheres.
+>
+> Menelaus theorem was first discussed in his book, sphaerica and later mentioned by Ptolemy in his work Almagest.
+>
+> Menelaus theorem proves that spheres are made up of spherical triangles.
 
-**Menelaus Theorem (without proof)**
+> **Note**
+>
+> - Menelaus theorem can also be given as $BP\times CQ\times AR=-PC\times QA\times RB$.
+> - If BP is replaced by $PB$ (or) $CQ$ by $QC$ (or) $AR$ by $RA$, or if any one of the six directed line segments $BP$, $PC$, $CQ$, $QA$, $AR$, $RB$ is interchanged, then the product will be $1$.
 
-**Menelaus**
+#### Example 4.32
 
-![](assets/page_036_picture_010.png)
+Show that in a triangle, the medians are concurrent.
 
-was a Greek mathematician who lived during the Roman empire in both Alexandria and Rome during first century (CE). His work was largely on the geometry of spheres.
+**Solution** Medians are line segments joining each vertex to the midpoint of the corresponding opposite sides.
 
-theorem was first discussed in his book, sphaerica and later mentioned by Ptolemy in his work Almagest.
+![Fig. 4.72](assets/image-4-72.png)
 
-theorem proves that spheres are made up of spherical triangles.
+Thus medians are the cevians where $D$, $E$, $F$ are midpoints of $BC$, $CA$ and $AB$ respectively.
 
-**Note**
+Since $D$ is a midpoint of $BC$, $BD=DC$ so $\dfrac{BD}{DC}=1 \quad\ldots(1)$
 
-- ¾ Menelaus theorem can also be given as BP ×× CQ AR =−PC ×× QA RB .
-- ¾ If BP is replaced by PB (or) CQ by QC (or) AR by RA, or if any one of the six directed line segments BP, P, PC, C, CQ , QA , AR , RB is interchanged, then the product will be 1 .
+Since, $E$ is a midpoint of $CA$, $CE=EA$ so $\dfrac{CE}{EA}=1 \quad\ldots(2)$
 
-Example 4.32 Show that in a triangle, the medians are concurrent. Solution Medians are line segments joining each vertex to the midpoint of the corresponding opposite sides.
+Since, $F$ is a midpoint of $AB$, $AF=FB$ so $\dfrac{AF}{FB}=1 \quad\ldots(3)$
 
-Thus medians are the cevians where D , E, E, F are midpoints of BC, C, CA and AB respectively.
+Thus, multiplying (1), (2) and (3) we get,
 
-Thus, multiplying (1) , (2) and (3) we get,
+$$\frac{BD}{DC}\times\frac{CE}{EA}\times\frac{AF}{FB}=1\times1\times1=1$$
 
 And so, Ceva's theorem is satisfied.
 
 Hence the Medians are concurrent.
 
-10th 196 Standard Mathematics Centroid is the point of concurrence of the median of a triangle.
+> **Do You Know?**
+>
+> Centroid is the point of concurrence of the median of a triangle.
 
-![](assets/page_036_picture_006.png)
+#### Example 4.33
 
-Given that AB = 13 , AC = 14 and BC = 15 .
+In $\triangle ABC$, points D,E,F lies on BC, CA, AB respectively. Suppose $AB$, $AC$ and $BC$ have lengths $13$, $14$ and $15$ respectively. If $\dfrac{AF}{FB}=\dfrac{2}{5}$ and $\dfrac{CE}{EA}=\dfrac{5}{8}$. Find $BD$ and $DC$.
 
-Using Ceva's theorem, we have, BD DC CE EA AF FB ×× = 1 … (1)
+**Solution** Given that $AB=13$, $AC=14$ and $BC=15$.
 
-Substitute the values of AF FB and CE EA in (1) ,
+![Fig. 4.73](assets/image-4-73.png)
 
-From (2), using xy = 4 in (3) we get, 41 yy += 5 gives 51 y = 5 then y = 3 Substitute y = 3 in (3) we get, x = 12 . Hence BD = 12 , DC = 3.
+Let $BD=x$ and $DC=y$
 
-Example 4.34 In a garden containing several trees, three particular trees P , Q , R are located in the following way, BP = 2 m, CQ = 3 m, RA = 10 m, PC = 6 m, QA = 5 m, RB = 2 m, where A , B , C are points such that P lies on BC, C, Q lies on AC and R lies on AB. Check whether the trees P, Q , R lie on a same straight line.
+Using Ceva's theorem, we have, $\dfrac{BD}{DC}\times\dfrac{CE}{EA}\times\dfrac{AF}{FB}=1 \quad\ldots(1)$
 
-By Meanlau's theorem, the trees P , Q , R will be collinear (lie on same straight line)
+Substitute the values of $\dfrac{AF}{FB}$ and $\dfrac{CE}{EA}$ in (1),
 
-Given BP =2 m, CQ =3 m, RA =10 m, PC =6 m, QA = 5 m and RB = 2 m
+we have $\dfrac{BD}{DC}\times\dfrac{5}{8}\times\dfrac{2}{5}=1$
 
-Hence the trees P, Q , R lie on a same straight line.
+$\dfrac{x}{y}\times\dfrac{10}{40}=1$ we get, $\dfrac{x}{y}\times\dfrac{1}{4}=1$. Hence, $x=4y \quad\ldots(2)$
 
-**Progress Check**
+$BC=BD+DC=15$ so, $x+y=15 \quad\ldots(3)$
 
-- A straight line that touches a circle at a common point is called a _______.
-- 1.
-- A chord is a subsection of _______.
+From (2), using $x=4y$ in (3) we get, $4y+y=15$ gives $5y=15$ then $y=3$
 
-![](assets/page_037_picture_003.png)
+Substitute $y=3$ in (3) we get, $x=12$. Hence $BD=12$, $DC=3$.
 
-![](assets/page_037_picture_004.png)
+#### Example 4.34
 
-- The lengths of the two tangents drawn from _______ point to a circle are equal.
-- No tangent can be drawn from _______ of the circle.
-- _______ is a cevian that divides the angle, into two equal halves.
+In a garden containing several trees, three particular trees $P$, $Q$, $R$ are located in the following way, $BP=2$ m, $CQ=3$ m, $RA=10$ m, $PC=6$ m, $QA=5$ m, $RB=2$ m, where $A$, $B$, $C$ are points such that $P$ lies on $BC$, $Q$ lies on $AC$ and $R$ lies on $AB$. Check whether the trees P, Q, R lie on a same straight line.
 
-![](assets/page_038_picture_003.png)
+![Fig. 4.74](assets/image-4-74.png)
 
-- The length of the tangent to a circle from a point P, which is 25 cm away from the centre is 24 cm. What is the radius of the circle?
-- A circle is inscribed in DABC having sides 8 cm, 10 cm and 12 cm as shown in figure, Find AD , BE and CF. F.
+**Solution** By Meanlau's theorem, the trees $P$, $Q$, $R$ will be collinear (lie on same straight line)
 
-![](assets/page_038_picture_004.png)
+if $\dfrac{BP}{PC}\times\dfrac{CQ}{QA}\times\dfrac{RA}{RB}=1 \quad\ldots(1)$
 
-- PQ is a tangent drawn from a point P to a circle with centre O and QOR is a diameter of the circle such that ∠= POR 120 ° . Find ÐOPQ .
-- A tangent ST to a circle touches it at B . AB is a chord such that∠= ABT 65 ° . Find ÐAOB , where "O" is the centre of the circle. A P
-- In figure, O is the centre of the circle with radius 5 cm. T is a point such that OT = 13 cm and OT intersects the circle E, E, if AB is the tangent to the circle at E, find the lenght of AB .
-- In two concentric circles, a chord of length 16 cm of larger circle becomes a tangent to the smaller circle whose radius is 6 cm. Find the radius of the larger circle.
-- Two circles with centres O and O ¢ of radii 3 cm and 4 cm, respectively intersect at two points P and Q, such that OP and OP¢ ¢ are tangents to the two circles. Find the length of the common chord PQ . B
-- Show that the angle bisectors of a triangle are concurrent.
-- An artist has created a triangular stained glass window and has one strip of small length left before completing the window. She needs to figure out the length of left out portion based on the lengths of the other sides as shown in the figure.
-- Draw a tangent at any point R on the circle of radius 3 . 4 cm and centre at P ?
+Given $BP=2$ m, $CQ=3$ m, $RA=10$ m, $PC=6$ m, $QA=5$ m and $RB=2$ m
 
-A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A --- A
+Substituting these values in (1) we get, $\dfrac{BP}{PC}\times\dfrac{CQ}{QA}\times\dfrac{RA}{RB}=\dfrac{2}{6}\times\dfrac{3}{5}\times\dfrac{10}{2}=\dfrac{60}{60}=1$
 
-- Draw a circle of radius 4 . 5 cm. Take a point on the circle. Draw the tangent at that point using the alternate segment theorem.
-- Draw the two tangents from a point which is 10 cm away from the centre of a circle of radius 5 cm. Also, measure the lengths of the tangents.
-- Take a point which is 11 cm away from the centre of a circle of radius 4 cm and draw the two tangents to the circle from that point.
-- Draw the two tangents from a point which is 5 cm away from the centre of a circle of diameter 6 cm. Also, measure the lengths of the tangents.
+Hence the trees P, Q, R lie on a same straight line.
 
-10th 198 Standard Mathematics
+> **Progress Check**
+>
+> 1. A straight line that touches a circle at a common point is called a _______.
+> 2. A chord is a subsection of _______.
+> 3. The lengths of the two tangents drawn from _______ point to a circle are equal.
+> 4. No tangent can be drawn from _______ of the circle.
+> 5. _______ is a cevian that divides the angle, into two equal halves.
 
-![](assets/page_038_picture_005.png)
+### Exercise 4.4
 
-![](assets/page_038_picture_006.png)
+1. The length of the tangent to a circle from a point $P$, which is $25$ cm away from the centre is $24$ cm. What is the radius of the circle?
 
-16. Draw a tangent to the circle from the point P having radius 3 . 6 cm, and centre at O. Point P is at a distance 7 . 2 cm from the centre.
+2. $\triangle LMN$ is a right angled triangle with $\angle L=90^\circ$. A circle is inscribed in it. The lengths of the sides containing the right angle are $6$ cm and $8$ cm. Find the radius of the circle.
 
-![](assets/page_039_picture_005.png)
+3. A circle is inscribed in $\triangle ABC$ having sides $8$ cm, $10$ cm and $12$ cm as shown in figure, Find $AD$, $BE$ and $CF$.
 
-**Multiple choice questions**
+   ![Exercise 4.4, Q3](assets/image-4-p39-1.png)
 
-- If in triangles ABC and EDF, F, AB DE BC FD = then they will be similar, when
-- (A) ∠= BE∠
-- (B) ∠= AD∠
-- (C) ∠= BD∠
-- (D) ∠= AF∠
+4. $PQ$ is a tangent drawn from a point $P$ to a circle with centre $O$ and $QOR$ is a diameter of the circle such that $\angle POR=120^\circ$. Find $\angle OPQ$.
 
-QR then the value of ÐR is
+5. A tangent $ST$ to a circle touches it at $B$. $AB$ is a chord such that $\angle ABT=65^\circ$. Find $\angle AOB$, where "$O$" is the centre of the circle.
 
-In DLMN
+6. In figure, $O$ is the centre of the circle with radius $5$ cm. $T$ is a point such that $OT=13$ cm and $OT$ intersects the circle $E$, if $AB$ is the tangent to the circle at $E$, find the lenght of $AB$.
 
-∠= L
+   ![Exercise 4.4, Q6](assets/image-4-p39-2.png)
 
-∠= M
+7. In two concentric circles, a chord of length $16$ cm of larger circle becomes a tangent to the smaller circle whose radius is $6$ cm. Find the radius of the larger circle.
 
-2.
+8. Two circles with centres $O$ and $O'$ of radii $3$ cm and $4$ cm, respectively intersect at two points $P$ and $Q$, such that $OP$ and $O'P$ are tangents to the two circles. Find the length of the common chord $PQ$.
 
-60
+9. Show that the angle bisectors of a triangle are concurrent.
 
-50
+10. An artist has created a triangular stained glass window and has one strip of small length left before completing the window. She needs to figure out the length of left out portion based on the lengths of the other sides as shown in the figure.
 
-- (A) 40 °
-- (B) 70 °
-- (C) 30 °
-- (D) 110 °
-- and AC = 5 cm, then AB is
+    ![Exercise 4.4, Q10](assets/image-4-p39-3.png)
 
-If DABC is an isosceles triangle with ∠= C
+11. Draw a tangent at any point $R$ on the circle of radius $3.4$ cm and centre at $P$?
 
-3.
+12. Draw a circle of radius $4.5$ cm. Take a point on the circle. Draw the tangent at that point using the alternate segment theorem.
 
-90
+13. Draw the two tangents from a point which is $10$ cm away from the centre of a circle of radius $5$ cm. Also, measure the lengths of the tangents.
 
-- (A) 2.5 cm
-- (B) 5 cm
-- (C) 10 cm
-- (D) 52 cm
-
-![](assets/page_039_picture_007.png)
-
-- (A) 25 : 4
-- (B) 25 : 7
-- (C) 25 : 11
-- (D) 25 : 13
-- The perimeters of two similar triangles DABC and DPQR are 36 cm and 24 cm respectively. If PQ = 10 cm, then the length of AB is
-- (B) 10 6 3 cm
-- (A) 6 2 3 cm
-- (C) 66 2 3 cm
-- (D) 15 cm
-- (A) 1.4 cm
-- (B) 1.8 cm
-- (C) 1.2 cm
-- (D) 1.05 cm
-7. In a DABC , A AD is the bisector of ÐBAC . If AB = 8 cm, BD = 6 cm and DC = 3 cm. The length of the side AC is
-- (A) 6 cm
-- (B) 4 cm
-- (C) 3 cm
-- (D) 8 cm
-
-![](assets/page_039_picture_008.png)
-
-- In the adjacent figure ∠= BAC 90 ° and AD ^ BC then
-- (B) AB . AC = BC 2
-- (A)BD ⋅= CD BC 2
-- (D) AB ⋅= AC AD 2
-- (C)BD ⋅= CD AD 2
-- Two poles of heights 6 m and 11 m stand vertically on a plane ground. If the distance between their feet is 12 m, what is the distance between their tops?
-
-![](assets/page_039_picture_010.png)
-
-- (A) 13 m
-- (B) 14 m
-- (C) 15 m
-10. In the given figure, PR = 26 cm, QR = 24 cm, ∠= PAQ 90 ° , PA=6 cm and QA = 8 cm. Find ÐPQR
-- (A) 80 °
-- (B) 85 °
-- (C) 75 °
-- (D) 90 °
+14. Take a point which is $11$ cm away from the centre of a circle of radius $4$ cm and draw the two tangents to the circle from that point.
 
-- A tangent is perpendicular to the radius at the
-- (B) point of contact (C) infinity
-- (A) centre
-- How many tangents can be drawn to the circle from an exterior point?
-- (C) infinite
-- (A) one
-- (B) two
-- (D) chord
-- (D) zero
-- The two tangents from an external points P to a circle with centre at O are PA and PB. If ∠= APB 70 ° then the value of ÐAOB is
-- (A) 100 °
-- (B) 110 °
-- (C) 120 °
-- In figure CP and CQ are tangents to a circle with centre at O . ARB is another tangent touching the circle at R. If CP = 11 cm and BC = 7 cm, then the length of BR is
-- (A) 6 cm
-- (B) 5 cm
-- (C) 8 cm
-- (D) 4 cm
-- In figure if PR is tangent to the circle at P and O is the centre of the circle, then ÐPOQ is
-- (A) 120 °
-- (B) 100 °
-- (C) 110 °
-- (D) 90 °
+15. Draw the two tangents from a point which is $5$ cm away from the centre of a circle of diameter $6$ cm. Also, measure the lengths of the tangents.
 
-**Unit Exercise - 4**
+16. Draw a tangent to the circle from the point $P$ having radius $3.6$ cm, and centre at $O$. Point $P$ is at a distance $7.2$ cm from the centre.
 
-- In the figure, if BD ^ AC and CE ^ AB , prove that
-- DB (ii) CA AB CE DB =
+### Exercise 4.5
 
-If AB = 6 cm, CD = x cm, EF = 4 cm, BD = 5 cm and DE = y cm. Find x and y .
+##### Multiple choice questions
 
-- O is any point inside a triangle ABC. The bisector of ÐAOB , ÐBOC and ÐCOA meet the sides AB , BC and CA in point D , E and F respectively. Show that AD ×× BE CF =× DB EC ×FA
-- In the figure, ABC is a triangle in which AB = AC . Points D and E are points on the side AB and AC respectively such that AD = AE . Show that the points B , C, C, E and D lie on a same circle.
-- (D) 130 °
+1. If in triangles $ABC$ and $EDF$, $\dfrac{AB}{DE}=\dfrac{BC}{FD}$ then they will be similar, when
 
-![](assets/page_040_picture_004.png)
+   (A) $\angle B=\angle E$ &emsp; (B) $\angle A=\angle D$ &emsp; (C) $\angle B=\angle D$ &emsp; (D) $\angle A=\angle F$
 
-![](assets/page_040_picture_005.png)
+2. In $\triangle LMN$, $\angle L=60^\circ$, $\angle M=50^\circ$. If $\triangle LMN\sim\triangle PQR$ then the value of $\angle R$ is
 
-![](assets/page_040_picture_007.png)
+   (A) $40^\circ$ &emsp; (B) $70^\circ$ &emsp; (C) $30^\circ$ &emsp; (D) $110^\circ$
 
-![](assets/page_040_picture_008.png)
+3. If $\triangle ABC$ is an isosceles triangle with $\angle C=90^\circ$ and $AC=5$ cm, then $AB$ is
 
-- Two trains leave a railway station at the same time. The first train travels due west and the second train due north. The first train travels at a speed of 20 km/hr and the second train travels at 30 km/hr. After 2 hours, what is the distance between them?
+   (A) $2.5$ cm &emsp; (B) $5$ cm &emsp; (C) $10$ cm &emsp; (D) $5\sqrt{2}$ cm
 
-10th 200 Standard Mathematics
+4. In a given figure $ST\parallel QR$, $PS=2$ cm and $SQ=3$ cm. Then the ratio of the area of $\triangle PQR$ to the area of $\triangle PST$ is
 
-- D is the mid point of side BC and AE ^ BC . If BC = a , AC = b , AB = c , ED = x , AD = p and AE = h , prove that
+   ![Exercise 4.5, Q4](assets/image-4-p40-1.png)
 
-- A man whose eye-level is 2 m above the ground wishes to find the height of a tree. He places a mirror horizontally on the ground 20 m from the tree and finds that if he stands at a point C which is 4 m from the mirror B, he can see the reflection of the top of the tree. How height is the tree?
-- An Emu which is 8 feet tall is standing at the foot of a pillar which is 30 feet high. It walks away from the pillar. The shadow of the Emu falls beyond Emu. What is the relation between the length of the shadow and the distance from the Emu to the pillar?
-- Two circles intersect at A and B. From a point P on one of the circles lines PAC and PBD are drawn intersecting the second circle at C and D. Prove that CD is parallel to the tangent at P .
-- Let ABC be a triangle and D,E,F are points on the respective sides AB , BC, C, AC (or their extensions). Let AD :: DB = 53 , BE :: EC = 32 and AC = 21 . Find the length of the line segment CF. F.
+   (A) $25:4$ &emsp; (B) $25:7$ &emsp; (C) $25:11$ &emsp; (D) $25:13$
 
-**Points to Remember**
+5. The perimeters of two similar triangles $\triangle ABC$ and $\triangle PQR$ are $36$ cm and $24$ cm respectively. If $PQ=10$ cm, then the length of $AB$ is
 
-- z Two triangles are similar if
-- (i) their corresponding angles are equal
-- (ii) their corresponding sides are in the same ratio or prvoportional.
-- z Any congruent triangles are similar but the converse is not true
-- z AA similarity criterion is same as the AAA similarity criterion.
-- z If one angle of a triangle is equal to one angle of another triangle and the sides including these angles are in the same ratio then the triangles are similar. (SAS)
-- z If three sides of a triangle are proportional to the corresponding sides of another triangle, then the two triangles are similar (SSS)
-- z If two triangles are similar then the ratio of the corresponding sides is equal to the ratio of the corresponding perimeters.
-- z The ratio of the area of two similar triangles are equal to the ratio of the squares of their corresponding sides.
-- z A tangent to a circle will be perpendicular to the radius at the point of contact.
-- z Two tangents can be drawn from any exterior point of a circle.
-- z The lengths of the two tangents drawn from an exterior point to a circle are equal.
-- z Two direct common tangents drawn to two circles are equal in length.
+   (A) $6\frac{2}{3}$ cm &emsp; (B) $\dfrac{10\sqrt{6}}{3}$ cm &emsp; (C) $66\frac{2}{3}$ cm &emsp; (D) $15$ cm
 
-**ICT CORNER**
+6. If in $\triangle ABC$, $DE\parallel BC$. $AB=3.6$ cm, $AC=2.4$ cm and $AD=2.1$ cm then the length of AE is
 
-**ICT 4.1**
+   (A) $1.4$ cm &emsp; (B) $1.8$ cm &emsp; (C) $1.2$ cm &emsp; (D) $1.05$ cm
 
-Open the Browser type the URL Link given below (or) Scan the QR Code. 10th Standard Mathematics Chapter named "Geometry" will open. Select the work sheet "Angular Bisector theorem"
+7. In a $\triangle ABC$, $AD$ is the bisector of $\angle BAC$. If $AB=8$ cm, $BD=6$ cm and $DC=3$ cm. The length of the side $AC$ is
 
-In the given worksheet you can see Triangle ABC and its Angular Bisector CD. and you can change the triangle by dragging the Vertices. Observe the ratios given on Left hand side and learn the theorem.
+   (A) $6$ cm &emsp; (B) $4$ cm &emsp; (C) $3$ cm &emsp; (D) $8$ cm
 
-**Step 1**
+8. In the adjacent figure $\angle BAC=90^\circ$ and $AD\perp BC$ then
 
-**ICT 4.2**
+   ![Exercise 4.5, Q8](assets/image-4-p40-2.png)
 
-Open the Browser type the URL Link given below (or) Scan the QR Code. 10th Standard Mathematics Chapter named "Geometry" will open. Select the work sheet "Pair of Tangents".
+   (A) $BD\cdot CD=BC^2$ &emsp; (B) $AB\cdot AC=BC^2$ &emsp; (C) $BD\cdot CD=AD^2$ &emsp; (D) $AB\cdot AC=AD^2$
 
-In the given worksheet you can change the radius and Distance by moving the sliders given on Left hand side. Move the Slider in the middle to see the steps for construction.
+9. Two poles of heights $6$ m and $11$ m stand vertically on a plane ground. If the distance between their feet is $12$ m, what is the distance between their tops?
 
-**Step 1**
+   (A) $13$ m &emsp; (B) $14$ m &emsp; (C) $15$ m &emsp; (D) $12.8$ m
 
-You can repeat the same steps for other activities
+10. In the given figure, $PR=26$ cm, $QR=24$ cm, $\angle PAQ=90^\circ$, $PA=6$ cm and $QA=8$ cm. Find $\angle PQR$
 
-https://www.geogebra.org/m/jfr2zzgy#chapter/356194 or Scan the QR Code.
+    ![Exercise 4.5, Q10](assets/image-4-p40-3.png)
 
-10th 202 Standard Mathematics
+    (A) $80^\circ$ &emsp; (B) $85^\circ$ &emsp; (C) $75^\circ$ &emsp; (D) $90^\circ$
 
-**Expected results**
+11. A tangent is perpendicular to the radius at the
 
-**Step 2**
+    (A) centre &emsp; (B) point of contact &emsp; (C) infinity &emsp; (D) chord
 
-![](assets/page_042_picture_007.png)
+12. How many tangents can be drawn to the circle from an exterior point?
 
-**Expected results**
+    (A) one &emsp; (B) two &emsp; (C) infinite &emsp; (D) zero
 
-**Step 2**
+13. The two tangents from an external points $P$ to a circle with centre at $O$ are $PA$ and $PB$. If $\angle APB=70^\circ$ then the value of $\angle AOB$ is
+
+    (A) $100^\circ$ &emsp; (B) $110^\circ$ &emsp; (C) $120^\circ$ &emsp; (D) $130^\circ$
+
+14. In figure $CP$ and $CQ$ are tangents to a circle with centre at $O$. $ARB$ is another tangent touching the circle at $R$. If $CP=11$ cm and $BC=7$ cm, then the length of $BR$ is
+
+    ![Exercise 4.5, Q14](assets/image-4-p41-1.png)
+
+    (A) $6$ cm &emsp; (B) $5$ cm &emsp; (C) $8$ cm &emsp; (D) $4$ cm
+
+15. In figure if $PR$ is tangent to the circle at $P$ and $O$ is the centre of the circle, then $\angle POQ$ is
+
+    ![Exercise 4.5, Q15](assets/image-4-p41-2.png)
+
+    (A) $120^\circ$ &emsp; (B) $100^\circ$ &emsp; (C) $110^\circ$ &emsp; (D) $90^\circ$
+
+## Unit Exercise - 4
+
+1. In the figure, if $BD\perp AC$ and $CE\perp AB$, prove that
+
+   ![Unit Exercise 4, Q1](assets/image-4-p41-3.png)
+
+   (i) $\triangle AEC\sim\triangle ADB$ &emsp; (ii) $\dfrac{CA}{AB}=\dfrac{CE}{DB}$
+
+2. In the given figure $AB\parallel CD\parallel EF$.
+
+   ![Unit Exercise 4, Q2](assets/image-4-p41-4.png)
+
+   If $AB=6$ cm, $CD=x$ cm, $EF=4$ cm, $BD=5$ cm and $DE=y$ cm. Find $x$ and $y$.
+
+3. O is any point inside a triangle $ABC$. The bisector of $\angle AOB$, $\angle BOC$ and $\angle COA$ meet the sides $AB$, $BC$ and $CA$ in point $D$, $E$ and $F$ respectively. Show that $AD\times BE\times CF=DB\times EC\times FA$
+
+4. In the figure, $ABC$ is a triangle in which $AB=AC$. Points $D$ and $E$ are points on the side $AB$ and $AC$ respectively such that $AD=AE$. Show that the points $B$, $C$, $E$ and $D$ lie on a same circle.
+
+   ![Unit Exercise 4, Q4](assets/image-4-p41-5.png)
+
+5. Two trains leave a railway station at the same time. The first train travels due west and the second train due north. The first train travels at a speed of $20$ km/hr and the second train travels at $30$ km/hr. After $2$ hours, what is the distance between them?
+
+6. $D$ is the mid point of side $BC$ and $AE\perp BC$. If $BC=a$, $AC=b$, $AB=c$, $ED=x$, $AD=p$ and $AE=h$, prove that
+
+   (i) $b^2=p^2+ax+\dfrac{a^2}{4}$ &emsp; (ii) $c^2=p^2-ax+\dfrac{a^2}{4}$ &emsp; (iii) $b^2+c^2=2p^2+\dfrac{a^2}{2}$
+
+7. A man whose eye-level is $2$ m above the ground wishes to find the height of a tree. He places a mirror horizontally on the ground $20$ m from the tree and finds that if he stands at a point $C$ which is $4$ m from the mirror $B$, he can see the reflection of the top of the tree. How height is the tree?
+
+8. An Emu which is $8$ feet tall is standing at the foot of a pillar which is $30$ feet high. It walks away from the pillar. The shadow of the Emu falls beyond Emu. What is the relation between the length of the shadow and the distance from the Emu to the pillar?
+
+9. Two circles intersect at $A$ and $B$. From a point $P$ on one of the circles lines $PAC$ and $PBD$ are drawn intersecting the second circle at $C$ and $D$. Prove that $CD$ is parallel to the tangent at $P$.
+
+10. Let $ABC$ be a triangle and D,E,F are points on the respective sides $AB$, $BC$, $AC$ (or their extensions). Let $AD:DB=5:3$, $BE:EC=3:2$ and $AC=21$. Find the length of the line segment $CF$.
+
+## Points to Remember
+
+- Two triangles are similar if
+
+  (i) their corresponding angles are equal
+
+  (ii) their corresponding sides are in the same ratio or prvoportional.
+
+- Any congruent triangles are similar but the converse is not true
+- $AA$ similarity criterion is same as the $AAA$ similarity criterion.
+- If one angle of a triangle is equal to one angle of another triangle and the sides including these angles are in the same ratio then the triangles are similar. (SAS)
+- If three sides of a triangle are proportional to the corresponding sides of another triangle, then the two triangles are similar (SSS)
+- If two triangles are similar then the ratio of the corresponding sides is equal to the ratio of the corresponding perimeters.
+- The ratio of the area of two similar triangles are equal to the ratio of the squares of their corresponding sides.
+- A tangent to a circle will be perpendicular to the radius at the point of contact.
+- Two tangents can be drawn from any exterior point of a circle.
+- The lengths of the two tangents drawn from an exterior point to a circle are equal.
+- Two direct common tangents drawn to two circles are equal in length.
+
+## ICT CORNER
+
+### ICT 4.1
+
+**Step 1:** Open the Browser type the URL Link given below (or) Scan the QR Code. 10th Standard Mathematics Chapter named **"Geometry"** will open. Select the work sheet **"Angular Bisector theorem"**
+
+**Step 2:** In the given worksheet you can see Triangle ABC and its Angular Bisector CD. and you can change the triangle by dragging the Vertices. Observe the ratios given on Left hand side and learn the theorem.
+
+![ICT 4.1: Expected results](assets/ict-4-1-p43.png)
+
+![ICT 4.1: Step 1](assets/ict-4-2-p43.png)
+
+![ICT 4.1: Step 2](assets/ict-4-3-p43.png)
+
+### ICT 4.2
+
+**Step 1:** Open the Browser type the URL Link given below (or) Scan the QR Code. 10th Standard Mathematics Chapter named **"Geometry"** will open. Select the work sheet **"Pair of Tangents"**.
+
+**Step 2:** In the given worksheet you can change the radius and Distance by moving the sliders given on Left hand side. Move the Slider in the middle to see the steps for construction.
+
+![ICT 4.2: Expected results](assets/ict-4-4-p43.png)
+
+![ICT 4.2: Step 1](assets/ict-4-5-p43.png)
+
+![ICT 4.2: Step 2](assets/ict-4-6-p43.png)
+
+*You can repeat the same steps for other activities*
+
+[https://www.geogebra.org/m/jfr2zzgy#chapter/356194](https://www.geogebra.org/m/jfr2zzgy#chapter/356194)
+
+or Scan the QR Code.
