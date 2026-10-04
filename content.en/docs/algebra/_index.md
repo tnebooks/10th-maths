@@ -579,7 +579,7 @@ Therefore, $\operatorname{LCM}[(x^3-27),(x-3)^2,(x^2-9)]=(x-3)^2(x+3)(x^2+3x+9)$
 
 ![Factor trees for f(x) and g(x)](assets/image-3-factor-trees-p12.png)
 
-> $\operatorname{GCD}[f(x)\text{ and }g(x)]=\text{_____}$; $\operatorname{LCM}[f(x)\text{ and }g(x)]=\text{_____}$.
+> $\operatorname{GCD}[f(x)\text{ and }g(x)]=\rule{1.2cm}{0.4pt}$; $\operatorname{LCM}[f(x)\text{ and }g(x)]=\rule{1.2cm}{0.4pt}$.
 
 ### Exercise 3.2
 

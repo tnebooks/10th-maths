@@ -1565,7 +1565,7 @@ $$\boxed{\text{Thus, the general term or } n^{th} \text{ term of a G.P. is } t_n
 1. A G.P. is obtained by multiplying ____ to the preceding term.
 2. The ratio between any two consecutive terms of the G.P. is ____ and it is called ____.
 3. Fill in the blanks if the following are in G.P.
-   (i) $\dfrac{1}{8}, \dfrac{3}{4}, \dfrac{9}{2}, \text{____}$ &emsp;&emsp; (ii) $7, \dfrac{7}{2}, \text{____}$ &emsp;&emsp; (iii) $\text{____}, 2\sqrt{2}, 4, \ldots$
+   (i) $\dfrac{1}{8}, \dfrac{3}{4}, \dfrac{9}{2}, \rule{0.9cm}{0.4pt}$ &emsp;&emsp; (ii) $7, \dfrac{7}{2}, \rule{0.9cm}{0.4pt}$ &emsp;&emsp; (iii) $\rule{0.9cm}{0.4pt}, 2\sqrt{2}, 4, \ldots$
 
 **Example 2.40** Which of the following sequences form a Geometric Progression?
 
