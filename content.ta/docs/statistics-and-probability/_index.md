@@ -3,7 +3,30 @@ title: 'புள்ளியியலும் நிகழ்தகவிய�
 categories:
     - statistics-and-probability
 weight: 8
-summary: "பரவல் அளவைகள், திட்டவிலக்கம், மாறுபாடு, மாறுபாட்டுக் குணகம், சீரற்ற சோதனைகள், நிகழ்வுகள், நிகழ்தகவு மற்றும் நிகழ்தகவின் கூட்டல் தேற்றம் ஆகியவற்றைப் பற்றி விளக்குகிறது."
+references:
+    videos:
+        - youtube: E4HAYd0QnRc
+        - youtube: PWiWkqHmum0
+    links:
+        - "[Plinko Probability - PhET Interactive Simulation](https://phet.colorado.edu/en/simulations/plinko-probability) — Drop balls through pegs and compare the resulting distribution to the binomial distribution."
+        - "[Addition Theorem of Probability - Vedantu](https://www.vedantu.com/maths/addition-theorem-of-probability) — Formula and solved examples for the addition theorem on probability."
+        - "[Standard Deviation and Variance - Math is Fun](https://www.mathsisfun.com/data/standard-deviation.html) — Explains how to calculate variance and standard deviation step by step."
+
+    books:
+        - b1:
+            title: "Chance (Statistics and Probability) — A Guide for Teachers, Year 9"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "http://amsi.org.au/teacher_modules/Chance_year_9.html"
+
+        - b2:
+            title: "Discrete Probability Distributions — A Guide for Teachers (Years 11–12)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI Senior Years"
+            url: "https://www.amsi.org.au/ESA_Senior_Years/PDF/DiscreteProbability4c.pdf"
+summary: "கொல்கத்தாவில் பிறந்த பிரசந்த சந்திர மகலெனோபிஸ் இரு தரவுத் தொகுப்புகளுக்கிடையேயான ஒப்புமை அளவீட்டை உருவாக்கிய இந்தியப் புள்ளியியலார். 'இந்தியப் புள்ளியியலின் தந்தை' எனப் போற்றப்படுகிறார்."
 ---
 
 # 8 புள்ளியியலும் நிகழ்தகவும்

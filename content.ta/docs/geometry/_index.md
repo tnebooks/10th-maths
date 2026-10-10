@@ -3,6 +3,29 @@ title: 'வடிவியல்'
 categories:
     - geometry
 weight: 4
+references:
+    videos:
+        - youtube: AA6RfgP-AHU
+        - youtube: KjQ1KN5GgoE
+    links:
+        - "[AA Criterion in Triangles - Cuemath](https://www.cuemath.com/geometry/aa-criterion-in-triangles/) — Explains the angle-angle similarity criterion with proofs and examples."
+        - "[Pythagoras Theorem - Cuemath](https://www.cuemath.com/geometry/pythagoras-theorem/) — Formula, proof, and solved examples of the Pythagoras theorem."
+        - "[Tangents to a Circle - Math is Fun](https://www.mathsisfun.com/geometry/circle-tangents.html) — Explains the properties of a tangent line to a circle."
+
+    books:
+        - b1:
+            title: "Scale Drawings and Similarity — A Guide for Teachers (Years 8–10)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "https://amsi.org.au/teacher_modules/pdfs/Scale_drawings_and_similarity.pdf"
+
+        - b2:
+            title: "Circle Geometry — A Guide for Teachers (Years 9–10)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "http://amsi.org.au/teacher_modules/pdfs/Circle_Geometry.pdf"
 summary: "ஒத்த முக்கோணங்கள், தேல்ஸ் தேற்றம், கோண இருசமவெட்டித் தேற்றம், பித்தாகரஸ் தேற்றம், வட்டங்கள் மற்றும் தொடுகோடுகள், இணைவுத் தேற்றங்கள் ஆகியவற்றையும் அவற்றின் பயன்பாடுகளையும் விளக்குகிறது."
 ---
 

@@ -3,7 +3,30 @@ title: 'அளவியல்'
 categories:
     - mensuration
 weight: 7
-summary: "முப்பரிமாணக் கன உருவங்களின் புறப்பரப்பு மற்றும் கனஅளவு, இணைந்த கன உருவங்கள் மற்றும் கனஅளவு மாறாமல் ஒரு கன உருவத்தை மற்றொரு வடிவமாக மாற்றுதல் ஆகியவற்றைப் பற்றி விளக்குகிறது."
+references:
+    videos:
+        - youtube: hC6zx9WAiC4
+        - youtube: jDahaIztoEU
+    links:
+        - "[Cylinder, Cone, Sphere - GeoGebra](https://www.geogebra.org/m/cpgadr3w) — Interactive applet to explore how the volumes of a cylinder, cone, and sphere relate."
+        - "[Surface Area and Volume - Vedantu](https://www.vedantu.com/maths/surface-areas-and-volumes) — Formulas and solved examples for cylinders, cones, spheres, and frustums."
+        - "[Volume of a Cone - Math is Fun](https://www.mathsisfun.com/geometry/cone.html) — Explains volume and surface area formulas for a cone with diagrams."
+
+    books:
+        - b1:
+            title: "Cones, Pyramids and Spheres — A Guide for Teachers (Years 9–10)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "https://www.amsi.org.au/teacher_modules/pdfs/Cones_Pyramids_and_Spheres.pdf"
+
+        - b2:
+            title: "Area, Volume and Surface Area — A Guide for Teachers"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "http://amsi.org.au/teacher_modules/pdfs/area_volume_surface_area.pdf"
+summary: "எகிப்தில் அலெக்ஸ்சாண்ட்ரியாவில் பிறந்த பாப்பஸ் ஒரு சிறந்த கிரேக்க வடிவியல் மேதை. நேர்வட்ட உருளை, கூம்பு போன்ற திண்ம வடிவங்களை விளக்கும் 'மசனகோத்' எனும் எட்டுப் புத்தகத் தொகுப்பே இவரது சிறப்பான படைப்பாகும்."
 ---
 ## Chapter 7: அளவியல் (Mensuration)
 

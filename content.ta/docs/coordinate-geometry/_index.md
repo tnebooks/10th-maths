@@ -3,6 +3,28 @@ title: 'ஆயத்தொலைவு வடிவியல்'
 categories:
     - coordinate-geometry
 weight: 5
+references:
+    videos:
+        - youtube: Ez_-RwV9WVo
+        - youtube: R948Tsyq4vA
+    links:
+        - "[Graphing Lines - PhET Interactive Simulation](https://phet.colorado.edu/en/simulation/graphing-lines) — Explore the relationship between linear equations, slope, and graphs of lines."
+        - "[Area of a Triangle in Coordinate Geometry - Cuemath](https://www.cuemath.com/geometry/area-of-triangle-in-coordinate-geometry/) — Formula, derivation, and solved examples for finding the area of a triangle given its vertices."
+        - "[Equation of a Straight Line - Math is Fun](https://www.mathsisfun.com/algebra/line-equation-2points.html) — Explains how to find the equation of a line through two given points."
+
+    books:
+        - b1:
+            title: "A Text-Book of Coordinate Geometry"
+            authors:
+                - "R. N. Jain"
+            url: "https://archive.org/details/dli.ernet.448899"
+
+        - b2:
+            title: "Introduction to Coordinate Geometry"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI Teacher Modules"
+            url: "https://amsi.org.au/teacher_modules/pdfs/Introduction_to_coordinate_geometry.pdf"
 summary: "ஆயத்தொலைவு வடிவியல் மூலம் முக்கோணம் மற்றும் நாற்கரத்தின் பரப்பளவு, கோட்டின் சாய்வு மற்றும் சாய்வுக்கோணம், நேர்க்கோடு மற்றும் அதன் பொதுவான சமன்பாடு ஆகியவற்றைப் பற்றி விளக்குகிறது."
 ---
 
