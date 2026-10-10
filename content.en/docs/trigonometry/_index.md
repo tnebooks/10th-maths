@@ -3,6 +3,30 @@ title: 'trigonometry'
 categories:
     - trigonometry
 weight: 6
+references:
+    videos:
+        - youtube: Jsiy4TxgIME
+        - youtube: TgQs7k5p2Ag
+    links:
+        - "[Trig Tour - PhET Interactive Simulation](https://phet.colorado.edu/en/simulation/trig-tour) — Explore sine, cosine, and tangent using the unit circle and their graphs."
+        - "[Trigonometric Identities - Cuemath](https://www.cuemath.com/trigonometry/trigonometric-identities/) — Explains the fundamental trigonometric identities with proofs and examples."
+        - "[Angles of Elevation and Depression - Khan Academy](https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-modeling-with-right-triangles/a/angles-of-elevation-and-depression) — Explains how to set up and solve height and distance word problems."
+
+    books:
+        - b1:
+            title: "Introductory Trigonometry — A Guide for Teachers (Years 9–10)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "https://amsi.org.au/teacher_modules/pdfs/Introductory_trigonometry.pdf"
+
+        - b2:
+            title: "Further Trigonometry — A Guide for Teachers (Year 10)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "https://amsi.org.au/teacher_modules/pdfs/Further_trigonometry.pdf"
+summary: "Francois Viete, a French mathematician, used trigonometry to solve algebraic equations and introduced the term 'coefficient'. His work Canon Mathematics covered trigonometric tables and triangle solutions."
 ---
 
 # 6 Trigonometry

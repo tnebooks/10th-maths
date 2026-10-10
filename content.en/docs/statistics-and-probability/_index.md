@@ -3,6 +3,30 @@ title: 'Statistics and Probability'
 categories:
     - statistics-and-probability
 weight: 8
+references:
+    videos:
+        - youtube: E4HAYd0QnRc
+        - youtube: PWiWkqHmum0
+    links:
+        - "[Plinko Probability - PhET Interactive Simulation](https://phet.colorado.edu/en/simulations/plinko-probability) — Drop balls through pegs and compare the resulting distribution to the binomial distribution."
+        - "[Addition Theorem of Probability - Vedantu](https://www.vedantu.com/maths/addition-theorem-of-probability) — Formula and solved examples for the addition theorem on probability."
+        - "[Standard Deviation and Variance - Math is Fun](https://www.mathsisfun.com/data/standard-deviation.html) — Explains how to calculate variance and standard deviation step by step."
+
+    books:
+        - b1:
+            title: "Chance (Statistics and Probability) — A Guide for Teachers, Year 9"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "http://amsi.org.au/teacher_modules/Chance_year_9.html"
+
+        - b2:
+            title: "Discrete Probability Distributions — A Guide for Teachers (Years 11–12)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI Senior Years"
+            url: "https://www.amsi.org.au/ESA_Senior_Years/PDF/DiscreteProbability4c.pdf"
+summary: "Prasanta Chandra Mahalanobis, an Indian statistician, devised measures to compare data sets and pioneered large-scale sample surveys. He is hailed as the Father of Indian Statistics."
 ---
 
 # 8 Statistics and Probability

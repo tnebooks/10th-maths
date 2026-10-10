@@ -3,7 +3,30 @@ title: 'முக்கோணவியல்'
 categories:
     - trigonometry
 weight: 6
-summary: "முக்கோணவியல் முற்றொருமைகள் மற்றும் அவற்றின் பயன்பாடுகளை அறிமுகப்படுத்துவதுடன், உயரங்கள் மற்றும் தொலைவுகள் தொடர்பான கணக்குகளைத் தீர்க்கும் முறைகளையும் விளக்குகிறது."
+references:
+    videos:
+        - youtube: Jsiy4TxgIME
+        - youtube: TgQs7k5p2Ag
+    links:
+        - "[Trig Tour - PhET Interactive Simulation](https://phet.colorado.edu/en/simulation/trig-tour) — Explore sine, cosine, and tangent using the unit circle and their graphs."
+        - "[Trigonometric Identities - Cuemath](https://www.cuemath.com/trigonometry/trigonometric-identities/) — Explains the fundamental trigonometric identities with proofs and examples."
+        - "[Angles of Elevation and Depression - Khan Academy](https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-modeling-with-right-triangles/a/angles-of-elevation-and-depression) — Explains how to set up and solve height and distance word problems."
+
+    books:
+        - b1:
+            title: "Introductory Trigonometry — A Guide for Teachers (Years 9–10)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "https://amsi.org.au/teacher_modules/pdfs/Introductory_trigonometry.pdf"
+
+        - b2:
+            title: "Further Trigonometry — A Guide for Teachers (Year 10)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "https://amsi.org.au/teacher_modules/pdfs/Further_trigonometry.pdf"
+summary: "பிரஞ்சு கணித மேதை பிரான்கோயிஸ் வியட்டா முக்கோணவியலைப் பயன்படுத்தி இயற்கணிதச் சமன்பாடுகளைத் தீர்த்தார். கணிதத்தில் 'கெழு' என்ற சொல்லை அறிமுகப்படுத்தியவரும் இவரே."
 ---
 
 # 6 முக்கோணவியல்

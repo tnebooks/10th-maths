@@ -3,7 +3,30 @@ title: 'எண்களும் தொடர்களும்'
 categories:
     - numbers-and-sequences
 weight: 2
-summary: "யூக்ளிடின் வகுத்தல் துணைத் தேற்றம் மற்றும் வகுத்தல் வழிமுறை, அடிப்படை எண்கணிதத் தேற்றம், மாடுலர் எண்கணிதம், தொடர்கள், கூட்டுத் தொடர், பெருக்குத் தொடர் மற்றும் சிறப்புத் தொடர்களைப் பற்றி விளக்குகிறது."
+references:
+    videos:
+        - youtube: H1AE2Se8A5E
+        - youtube: _cooC3yG_p0
+    links:
+        - "[Euclid's Division Lemma - Cuemath](https://www.cuemath.com/numbers/euclids-division-lemma/) — Explains Euclid's division lemma and algorithm with solved examples."
+        - "[Arithmetic Sequences and Sums - Math is Fun](https://www.mathsisfun.com/algebra/sequences-sums-arithmetic.html) — Explains arithmetic sequences, common difference, and the sum formula."
+        - "[Arithmetic Series Visual - GeoGebra](https://www.geogebra.org/m/hvszxbvb) — Interactive applet to explore arithmetic series visually."
+
+    books:
+        - b1:
+            title: "Primes and Prime Factorisation — A Guide for Teachers (Years 7–8)"
+            authors:
+                - "AMSI (Australian Mathematical Sciences Institute)"
+            publisher: "AMSI TIMES Project"
+            url: "http://amsi.org.au/teacher_modules/pdfs/Primes_and_Prime_Factorisation.pdf"
+
+        - b2:
+            title: "Arithmetic and Geometric Progressions"
+            authors:
+                - "mathcentre"
+            publisher: "mathcentre.ac.uk"
+            url: "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-apgp-2009-1.pdf"
+summary: "ஈரோட்டில் பிறந்த மாபெரும் இந்தியக் கணித மேதை ஶ்ரீநிவாச இராமானுஜன் ஆயிரக்கணக்கான சூத்திரங்களைத் தருவித்தார். G.H. ஹார்டியுடன் இணைந்து பல ஆய்வுகளை மேற்கொண்டு Royal Society உறுப்பினராக ஆனார்."
 ---
 
 # எண்களும் தொடர்வரிசைகளும்
