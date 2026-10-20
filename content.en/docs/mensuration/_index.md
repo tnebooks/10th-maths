@@ -1209,41 +1209,6 @@ The adjacent figure shows a cylindrical can with two balls. The can is just larg
 7. A solid sphere of radius $6$ cm is melted into a hollow cylinder of uniform thickness. If the external radius of the base of the cylinder is $5$ cm and its height is $32$ cm, then find the thickness of the cylinder.
 8. A hemispherical bowl is filled to the brim with juice. The juice is poured into a cylindrical vessel whose radius is $50\%$ more than its height. If the diameter is same for both the bowl and the cylinder then find the percentage of juice that can be transferred from the bowl into the cylindrical vessel.
 
-### Exercise 7.5
-
-**Multiple choice questions**
-
-1. The curved surface area of a right circular cone of height $15$ cm and base diameter $16$ cm is
-   (A) $60\pi$ cm$^2$ &emsp; (B) $68\pi$ cm$^2$ &emsp; (C) $120\pi$ cm$^2$ &emsp; (D) $136\pi$ cm$^2$
-2. If two solid hemispheres of same base radius r units are joined together along their bases, then curved surface area of this new solid is
-   (A) $4\pi r^2$ sq. units &emsp; (B) $6\pi r^2$ sq. units &emsp; (C) $3\pi r^2$ sq. units &emsp; (D) $8\pi r^2$ sq. units
-3. The height of a right circular cone whose radius is $5$ cm and slant height is $13$ cm will be
-   (A) $12$ cm &emsp; (B) $10$ cm &emsp; (C) $13$ cm &emsp; (D) $5$ cm
-4. If the radius of the base of a right circular cylinder is halved keeping the same height, then the ratio of the volume of the cylinder thus obtained to the volume of original cylinder is
-   (A) $1:2$ &emsp; (B) $1:4$ &emsp; (C) $1:6$ &emsp; (D) $1:8$
-5. The total surface area of a cylinder whose radius is $\dfrac{1}{3}$ of its height is
-   (A) $\dfrac{9\pi h^2}{8}$ sq.units &emsp; (B) $24\pi h^2$ sq.units &emsp; (C) $\dfrac{8\pi h^2}{9}$ sq.units &emsp; (D) $\dfrac{56\pi h^2}{9}$ sq.units
-6. In a hollow cylinder, the sum of the external and internal radii is $14$ cm and the width is $4$ cm. If its height is $20$ cm, the volume of the material in it is
-   (A) $5600\pi$ cm$^3$ &emsp; (B) $1120\pi$ cm$^3$ &emsp; (C) $56\pi$ cm$^3$ &emsp; (D) $3600\pi$ cm$^3$
-7. If the radius of the base of a cone is tripled and the height is doubled then the volume is
-   (A) made $6$ times &emsp; (B) made $18$ times &emsp; (C) made $12$ times &emsp; (D) unchanged
-8. The total surface area of a hemi-sphere is how much times the square of its radius.
-   (A) $\pi$ &emsp; (B) $4\pi$ &emsp; (C) $3\pi$ &emsp; (D) $2\pi$
-9. A solid sphere of radius $x$ cm is melted and cast into a shape of a solid cone of same radius. The height of the cone is
-   (A) $3x$ cm &emsp; (B) $x$ cm &emsp; (C) $4x$ cm &emsp; (D) $2x$ cm
-10. A frustum of a right circular cone is of height $16$cm with radii of its ends as $8$cm and $20$cm. Then, the volume of the frustum is
-    (A) $3328\pi$ cm$^3$ &emsp; (B) $3228\pi$ cm$^3$ &emsp; (C) $3240\pi$ cm$^3$ &emsp; (D) $3340\pi$ cm$^3$
-11. A shuttle cock used for playing badminton has the shape of the combination of
-    (A) a cylinder and a sphere &emsp; (B) a hemisphere and a cone &emsp; (C) a sphere and a cone &emsp; (D) frustum of a cone and a hemisphere
-12. A spherical ball of radius $r_1$ units is melted to make $8$ new identical balls each of radius $r_2$ units. Then $r_1 : r_2$ is
-    (A) $2:1$ &emsp; (B) $1:2$ &emsp; (C) $4:1$ &emsp; (D) $1:4$
-13. The volume (in cm$^3$) of the greatest sphere that can be cut off from a cylindrical log of wood of base radius $1$ cm and height $5$ cm is
-    (A) $\dfrac{4}{3}\pi$ &emsp; (B) $\dfrac{10}{3}\pi$ &emsp; (C) $5\pi$ &emsp; (D) $\dfrac{20}{3}\pi$
-14. The height and radius of the cone of which the frustum is a part are $h_1$ units and $r_1$ units respectively. Height of the frustum is $h_2$ units and radius of the smaller base is $r_2$ units. If $h_2 : h_1 = 1:2$ then $r_2 : r_1$ is
-    (A) $1:3$ &emsp; (B) $1:2$ &emsp; (C) $2:1$ &emsp; (D) $3:1$
-15. The ratio of the volumes of a cylinder, a cone and a sphere, if each has the same diameter and same height is
-    (A) $1:2:3$ &emsp; (B) $2:1:3$ &emsp; (C) $1:3:2$ &emsp; (D) $3:1:2$
-
 ### Unit Exercise - 7
 
 1. The barrel of a fountain-pen cylindrical in shape, is $7$ cm long and $5$ mm in diameter. A full barrel of ink in the pen will be used for writing $330$ words on an average. How many words can be written using a bottle of ink containing one fifth of a litre?

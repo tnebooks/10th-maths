@@ -1402,62 +1402,6 @@ A function $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = c, \ \forall\ x \in \m
    3. $f(x) = x - 4$, $g(x) = x^2$ and $h(x) = 3x - 5$
 9. Let $f = \{(-1,3),(0,-1),(2,-9)\}$ be a linear function from $\mathbb{Z}$ into $\mathbb{Z}$. Find $f(x)$.
 10. In electrical circuit theory, a circuit $C(t)$ is called a linear circuit if it satisfies the superposition principle given by $C(at_1 + bt_2) = aC(t_1) + bC(t_2)$, where $a,b$ are constants. Show that the circuit $C(t) = 3t$ is linear.
-
-### Exercise 1.6
-
-*(A QR code linking to an online practice quiz appears here in the source; code label: Z7JYT.)*
-
-**Multiple choice questions**
-
-1. If $n(A \times B) = 6$ and $A = \{1,3\}$ then $n(B)$ is
-   (A) 1   (B) 2   (C) 3   (D) 6
-2. $A = \{a,b,p\}$, $B = \{2,3\}$, $C = \{p,q,r,s\}$ then $n[(A \cup C) \times B]$ is
-   (A) 8   (B) 20   (C) 12   (D) 16
-3. If $A = \{1,2\}$, $B = \{1,2,3,4\}$, $C = \{5,6\}$ and $D = \{5,6,7,8\}$ then state which of the following statement is true.
-   (A) $(A \times C) \subset (B \times D)$
-   (B) $(B \times D) \subset (A \times C)$
-   (C) $(A \times B) \subset (A \times D)$
-   (D) $(D \times A) \subset (B \times A)$
-4. If there are 1024 relations from a set $A = \{1, 2, 3, 4, 5\}$ to a set $B$, then the number of elements in $B$ is
-   (A) 3   (B) 2   (C) 4   (D) 8
-5. The range of the relation $R = \{(x,x^2) \mid x \text{ is a prime number less than } 13\}$ is
-   (A) $\{2,3,5,7\}$
-   (B) $\{2,3,5,7,11\}$
-   (C) $\{4,9,25,49,121\}$
-   (D) $\{1,4,9,25,49,121\}$
-6. If the ordered pairs $(a+2,4)$ and $(5,2a+b)$ are equal then $(a,b)$ is
-   (A) $(2,-2)$   (B) $(5,1)$   (C) $(2,3)$   (D) $(3,-2)$
-7. Let $n(A) = m$ and $n(B) = n$ then the total number of non-empty relations that can be defined from $A$ to $B$ is
-   (A) $m^n$   (B) $n^m$   (C) $2^{mn} - 1$   (D) $2^{mn}$
-8. If $\{(a,8),(6,b)\}$ represents an identity function, then the value of $a$ and $b$ are respectively
-   (A) $(8,6)$   (B) $(8,8)$   (C) $(6,8)$   (D) $(6,6)$
-9. Let $A = \{1,2,3,4\}$ and $B = \{4,8,9,10\}$. A function $f:A\to B$ given by $f = \{(1,4),(2,8),(3,9),(4,10)\}$ is a
-   (A) Many-one function
-   (B) Identity function
-   (C) One-to-one function
-   (D) Into function
-10. If $f(x) = 2x^2$ and $g(x) = \dfrac{1}{3x}$, then $f \circ g$ is
-    (A) $\dfrac{3}{2x^2}$   (B) $\dfrac{2}{3x^2}$   (C) $\dfrac{2}{9x^2}$   (D) $\dfrac{1}{6x^2}$
-11. If $f:A\to B$ is a bijective function and if $n(B) = 7$, then $n(A)$ is equal to
-    (A) 7   (B) 49   (C) 1   (D) 14
-12. Let $f$ and $g$ be two functions given by
-    $$f = \{(0,1),(2,0),(3,-4),(4,2),(5,7)\}$$
-    $$g = \{(0,2),(1,0),(2,4),(-4,2),(7,0)\}$$
-    then the range of $f \circ g$ is
-    (A) $\{0,2,3,4,5\}$
-    (B) $\{-4,1,0,2,7\}$
-    (C) $\{1,2,3,4,5\}$
-    (D) $\{0,1,2\}$
-13. Let $f(x) = \sqrt{1+x^2}$ then
-    (A) $f(xy) = f(x).f(y)$
-    (B) $f(xy) \geq f(x).f(y)$
-    (C) $f(xy) \leq f(x).f(y)$
-    (D) None of these
-14. If $g = \{(1,1),(2,3),(3,5),(4,7)\}$ is a function given by $g(x) = \alpha x + \beta$ then the values of $\alpha$ and $\beta$ are
-    (A) $(-1,2)$   (B) $(2,-1)$   (C) $(-1,-2)$   (D) $(1,2)$
-15. $f(x) = (x+1)^3 - (x-1)^3$ represents a function which is
-    (A) linear   (B) cubic   (C) reciprocal   (D) quadratic
-
 ### Unit Exercise - 1
 
 1. If the ordered pairs $(x^2 - 3x, y^2 + 4y)$ and $(-2,5)$ are equal, then find $x$ and $y$.
