@@ -41,7 +41,7 @@ He described the principles of levers, pulleys, wedges, axles and screws. These 
 
 <center>
 
-![Pappus 290 - 350 AD(CE)](assets/image-7-pappus.png)
+![Pappus 290 - 350 AD(CE)](assets/page_001_picture_008.png)
 
 </center>
 
@@ -99,7 +99,7 @@ A solid cylinder is an object bounded by two circular plane surfaces and a curve
 
 (iii) The shape thus formed will be a right circular cylinder whose circumference of the base is $l$ and the height is $b$.
 
-![Fig. 7.5](assets/image-7-5.png)
+![Fig. 7.5](assets/page_002_picture_007.png)
 
 **Surface Area of a Right Circular Cylinder**
 
@@ -232,7 +232,7 @@ Observe the given figures in Fig.7.9 and identify which solid shape they represe
 
 These objects resemble the shape of a cone.
 
-![Fig. 7.9](assets/image-7-9.png)
+![Fig. 7.9](assets/page_005_picture_005.png)
 
 > **Definition**
 >

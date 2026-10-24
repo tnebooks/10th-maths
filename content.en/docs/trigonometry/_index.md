@@ -1051,7 +1051,7 @@ Let $W$ be the point on the window where the angles of elevation and depression 
 
 Then $WA$ is the width of the street.
 
-![Fig. 6.29](assets/image-6-29.png)
+![Fig. 6.29](assets/page_026_picture_004.png)
 
 Height of the window $= h$ metres $= AQ$ $(WR = AQ)$
 
