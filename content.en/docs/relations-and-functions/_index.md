@@ -122,7 +122,7 @@ $A \times B = \{1,2,3\} \times \{a,b\} = \{(1,a),(1,b),(2,a),(2,b),(3,a),(3,b)\}
 
 $B \times A = \{a,b\} \times \{1,2,3\} = \{(a,1), (a,2), (a,3),(b,1), (b,2), (b,3)\}$ (as shown in Fig.1.3)
 
-![Fig. 1.3](assets/image-1-3.png)
+![Fig. 1.3](assets/page_003_picture_003.png)
 
 **Thinking Corner**
 
@@ -145,7 +145,7 @@ Real Numbers $\mathbb{R} = \mathbb{Q} \cup \mathbb{Q}'$, where $\mathbb{Q}'$ is 
 
 For example, let A be the set of numbers in the interval $[3, 5]$ and $B$ be the set of numbers in the interval $[2,3]$. Then the Cartesian product $A \times B$ corresponds to the rectangular region shown in the Fig. 1.4. It consists of all points $(x, y)$ within the region.
 
-![Fig. 1.4](assets/image-1-4.png)
+![Fig. 1.4](assets/page_003_picture_008.png)
 
 > **Note**
 >
@@ -258,7 +258,7 @@ $= \{(0,0,0),(0,0,1),(0,1,0),(0,1,1),(1,0,0),(1,0,1),(1,1,0),(1,1,1)\}$
 
 Representing $A \times B \times C$ in the $XYZ$-space we get a picture as shown in Fig. 1.6.
 
-![Fig. 1.6](assets/image-1-6.png)
+![Fig. 1.6](assets/page_005_picture_007.png)
 
 Thus, $A \times B$ represent vertices of a square in two dimensions and $A \times B \times C$ represent vertices of a cube in three dimensions.
 
@@ -351,7 +351,7 @@ Let $A = \{1,2,3,4,5\}$ and $B = \{\text{Mathi, Arul, John}\}$
 
 A relation R between the above sets $A$ and $B$ can be represented by an arrow diagram (Fig. 1.8).
 
-![Fig. 1.8](assets/image-1-8.png)
+![Fig. 1.8](assets/page_007_picture_007.png)
 
 Then, domain of R $= \{1,2,3,4\}$
 
@@ -387,7 +387,7 @@ $$
 
 This relation is shown in an arrow diagram (Fig.1.9).
 
-![Fig. 1.9](assets/image-1-9.png)
+![Fig. 1.9](assets/page_008_picture_004.png)
 
 **Example 1.4** Let $A = \{3,4,7,8\}$ and $B = \{1,7,10\}$. Which of the following sets are relations from $A$ to $B$?
 
@@ -453,7 +453,7 @@ Among several relations that exist between two non-empty sets, some special rela
 
 A company has 5 employees in different categories. If we consider their salary distribution for a month as shown by arrow diagram in Fig.1.11, we see that there is only one salary associated for every employee of the company.
 
-![Fig. 1.11](assets/image-1-11.png)
+![Fig. 1.11](assets/page_010_picture_004.png)
 
 Here are various real life situations illustrating some special relations:
 
@@ -474,7 +474,7 @@ A function $f$ from $X$ to $Y$ is written as $f: X \to Y$.
 
 Comparing the definitions of relation and function, we see that every function is a relation. Thus, functions are subsets of relations and relations are subsets of cartesian product. (Fig.1.12(a))
 
-![Fig. 1.12(a)](assets/image-1-12a.png)
+![Fig. 1.12(a)](assets/page_010_picture_005.png)
 
 ![Fig. 1.12(b)](assets/image-1-12b.png)
 A function $f$ can be thought as a mechanism (or device) (Fig.1.12($b$)), which gives a unique output $f(x)$ to every input $x$.
@@ -539,7 +539,7 @@ Functions play very important role in the understanding of higher ideas in mathe
 
 Domain $X = \{1,2,3,4\}$; Co-domain $Y = \{2,4,6,8,10\}$; Range of $f = \{2,4,6,8\}$.
 
-![Fig. 1.14](assets/image-1-14.png)
+![Fig. 1.14](assets/page_012_picture_007.png)
 
 **Example 1.7** A relation $f : X \to Y$ is defined by $f(x) = x^2 - 2$ where, $X = \{-2,-1,0,3\}$ and $Y = \mathbb{R}$. (i) List the elements of $f$ (ii) Is $f$ a function?
 
@@ -567,7 +567,7 @@ $$\therefore f = \{(-2,2),(-1,-1),(0,-2),(3,7)\}$$
 
 We may represent the relation $R_1$ in an arrow diagram (Fig.1.15(a)).
 
-![Fig. 1.15(a)](assets/image-1-15a.png)
+![Fig. 1.15(a)](assets/page_013_picture_006.png)
 
 $R_1$ is not a function as $4 \in X$ does not have an image in $Y$.
 
@@ -700,13 +700,13 @@ A curve drawn in a graph represents a function, if every vertical line intersect
 
 **Example 1.10** Using vertical line test, determine which of the following curves (Fig.1.18(a), 1.18(b), 1.18(c), 1.18(d)) represent a function?
 
-![Fig. 1.18(a)](assets/image-1-18a.png) ![Fig. 1.18(b)](assets/image-1-18b.png) ![Fig. 1.18(c)](assets/image-1-18c.png)
+![Fig. 1.18(a)](assets/page_015_picture_004.png) ![Fig. 1.18(b)](assets/page_015_picture_005.png) ![Fig. 1.18(c)](assets/page_015_picture_007.png)
 
 **Solution** The curves in Fig.1.18 ($a$) and Fig.1.18 ($c$) do not represent a function as the vertical lines meet the curves in two points $P$ and $Q$.
 
 The curves in Fig.1.18 (b) and Fig.1.18 (d) represent a function as the vertical lines meet the curve in at most one point.
 
-![Fig. 1.18(d)](assets/image-1-18d.png)
+![Fig. 1.18(d)](assets/page_016_picture_004.png)
 
 > **Note**
 > Any equation represented in a graph is usually called a curve.
@@ -758,7 +758,7 @@ In this section, we will discuss the following types of functions with suitable 
 
 Let us assume that we have a cell phone with proper working condition. If you make a usual call to your friend then you can make only one call at a time (Fig.1.21).
 
-![Fig. 1.21](assets/image-1-21.png)
+![Fig. 1.21](assets/page_016_picture_007.png)
 
 If we treat making calls as a function, then it will be one - one.
 
@@ -778,7 +778,7 @@ $A = \{1,2,3,4\}$ and $B = \{a,b,c,d,e\}$
 
 In Fig. 1.22, for different elements in $A$, there are different images in $B$.
 
-![Fig. 1.22](assets/image-1-22.png)
+![Fig. 1.22](assets/page_017_picture_003.png)
 
 Hence $f$ is a one – one function.
 
@@ -786,7 +786,7 @@ Hence $f$ is a one – one function.
 
 $g$ is a function from $A$ to $B$ such that $g(1) = g(2) = b$, but $1 \neq 2$. Thus two distinct elements 1 and 2 in the first set $A$ have same image $b$ the second set in $B$ (Fig.1.23). Hence, $g$ is not a one–one function.
 
-![Fig. 1.23](assets/image-1-23.png)
+![Fig. 1.23](assets/page_017_picture_004.png)
 
 #### 1.7.2 Many – one function
 
@@ -854,7 +854,7 @@ Here, range of $f = \{w, x, z\} \subset B$ (Fig.1.28)
 
 $\therefore f$ is a into function.
 
-![Fig. 1.28](assets/image-1-28.png)
+![Fig. 1.28](assets/page_019_picture_004.png)
 
 Note that $y \in B$ is not an image of any element in $A$.
 
@@ -862,7 +862,7 @@ Note that $y \in B$ is not an image of any element in $A$.
 
 Consider the circle where each letter of the English alphabet is changed from inner portion to a letter in the outer portion. Thus $A \to D$, $B \to E$, $C \to F$, … $Z \to C$. We call this circle as 'cipher circle'. (Fig.1.29) In this way if we try to change the word 'HELLO' then it will become 'KHOOR'. Now using the same circle if we substitute for each outer letter the corresponding inner letter we will get back the word 'HELLO'. This process of converting from one form to an other form and receiving back the required information is called **bijection**. This process is widely used in the study of secret codes called **cryptography**.
 
-![Cipher Circle, Fig. 1.29](assets/image-1-29.png)
+![Cipher Circle, Fig. 1.29](assets/page_019_picture_005.png)
 
 > If a function $f : A \to B$ is both one–one and onto, then $f$ is called a **bijection** from $A$ to $B$.
 
@@ -870,13 +870,13 @@ Consider the circle where each letter of the English alphabet is changed from in
 
 | one to one and onto function (Bijection) | |
 |---|---|
-| ![Fig. 1.30](assets/image-1-30.png) | Distinct elements of $A$ have distinct images in $B$ and every element in $B$ has a pre-image in $A$. |
+| ![Fig. 1.30](assets/page_019_picture_006.png) | Distinct elements of $A$ have distinct images in $B$ and every element in $B$ has a pre-image in $A$. |
 
 **Illustration 15**
 
 | One to One | Many to One |
 |---|---|
-| ![Fig. 1.31](assets/image-1-31.png) | ![Fig. 1.32](assets/image-1-32.png) |
+| ![Fig. 1.31](assets/page_020_picture_002.png) | ![Fig. 1.32](assets/page_020_picture_004.png) |
 | Distinct elements of $A$ have distinct images in $B$. | Two or more elements of $A$ have same image in $B$. |
 
 >**Note**
@@ -889,7 +889,7 @@ Consider the circle where each letter of the English alphabet is changed from in
 
 | Onto | Into |
 |---|---|
-| ![Fig. 1.33](assets/image-1-33.png) | ![Fig. 1.34](assets/image-1-34.png) |
+| ![Fig. 1.33](assets/page_020_picture_007.png) | ![Fig. 1.34](assets/page_020_picture_008.png) |
 | Range of $f$ = co-domain ( Every element in $B$ has a pre-image in $A$) | Range of $f$ is a proper subset of co-domain (There exists at least one element in $B$ which is not the image of any element of $A$) |
 
 To determine whether the given function is one–one or not the following test may help us.
@@ -1174,7 +1174,7 @@ Thus, by the combination of these two functions, each student is eventually atta
 >**Definition**
 >Let $f : A \to B$ and $g : B \to C$ be two functions (Fig.1.42). Then the composition of $f$ and $g$ denoted by $g \circ f$ is defined as the function $g \circ f(x) = g(f(x))\ \forall\ x \in A$.
 
-![Fig. 1.42](assets/image-1-42.png)
+![Fig. 1.42](assets/page_026_picture_003.png)
 
 **Example 1.19** Find $f \circ g$ and $g \circ f$ when $f(x) = 2x + 1$ and $g(x) = x^2 - 2$
 
