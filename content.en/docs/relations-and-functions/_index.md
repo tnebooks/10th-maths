@@ -1468,3 +1468,529 @@ A function $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = c, \ \forall\ x \in \m
 [https://www.geogebra.org/m/jfr2zzgy#chapter/356191](https://www.geogebra.org/m/jfr2zzgy#chapter/356191) or Scan the QR Code.
 
 *(A QR code linking to the GeoGebra activity appears here in the source; code label: ILGVH.)*
+
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+If $B \times A = \{(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)\}$, find $A$ and $B$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$B \times A = \{(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)\}$$
+
+By definition of Cartesian product:
+- $B = \text{Set of all first coordinates of elements of } B \times A = \{-2, 0, 3\}$
+- $A = \text{Set of all second coordinates of elements of } B \times A = \{3, 4\}$
+
+**Answer:**
+$$\mathbf{A = \{3, 4\}}, \quad \mathbf{B = \{-2, 0, 3\}}$$
+
+</div>
+
+</details>
+
+---
+
+Find $k$ if $f \circ f(k) = 5$ where $f(k) = 2k - 1$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(k) = 2k - 1 \quad \text{and} \quad f \circ f(k) = 5$$
+
+Finding composite function $f \circ f(k)$:
+$$f \circ f(k) = f(f(k)) = f(2k - 1)$$
+$$= 2(2k - 1) - 1$$
+$$= 4k - 2 - 1 = 4k - 3$$
+
+Equating to given value:
+$$4k - 3 = 5$$
+$$4k = 5 + 3 = 8$$
+$$k = \frac{8}{4} = 2$$
+
+**Answer:**
+$$\mathbf{k = 2}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+If $A \times B = \{(3, 2), (3, 4), (5, 2), (5, 4)\}$, then find $A$ and $B$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A \times B = \{(3, 2), (3, 4), (5, 2), (5, 4)\}$$
+
+By definition of Cartesian product:
+- $A = \text{Set of all first coordinates of elements of } A \times B = \{3, 5\}$
+- $B = \text{Set of all second coordinates of elements of } A \times B = \{2, 4\}$
+
+**Answer:**
+$$\mathbf{A = \{3, 5\}}, \quad \mathbf{B = \{2, 4\}}$$
+
+</div>
+
+</details>
+
+---
+
+If $f(x) = 3x - 2$, $g(x) = 2x + k$ and $f \circ g = g \circ f$, then find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 3x - 2, \quad g(x) = 2x + k$$
+
+1. Finding $f \circ g(x)$:
+$$f \circ g(x) = f(g(x)) = f(2x + k) = 3(2x + k) - 2 = 6x + 3k - 2$$
+
+2. Finding $g \circ f(x)$:
+$$g \circ f(x) = g(f(x)) = g(3x - 2) = 2(3x - 2) + k = 6x - 4 + k$$
+
+Since $f \circ g = g \circ f$:
+$$6x + 3k - 2 = 6x - 4 + k$$
+$$3k - k = -4 + 2$$
+$$2k = -2 \implies k = -1$$
+
+**Answer:**
+$$\mathbf{k = -1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Let $A = \{1, 2, 3\}$ and $B = \{x \mid x \text{ is a prime number less than } 10\}$. Find $A \times B$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{1, 2, 3\}$$
+The prime numbers less than 10 are $2, 3, 5, 7$:
+$$B = \{2, 3, 5, 7\}$$
+
+Cartesian product $A \times B$:
+$$A \times B = \{(1, 2), (1, 3), (1, 5), (1, 7), (2, 2), (2, 3), (2, 5), (2, 7), (3, 2), (3, 3), (3, 5), (3, 7)\}$$
+
+**Answer:**
+$$\mathbf{A \times B = \{(1, 2), (1, 3), (1, 5), (1, 7), (2, 2), (2, 3), (2, 5), (2, 7), (3, 2), (3, 3), (3, 5), (3, 7)\}}$$
+
+</div>
+
+</details>
+
+---
+
+Find $f \circ g$ and $g \circ f$ when $f(x) = 2x + 1$ and $g(x) = x^2 - 2$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 2x + 1, \quad g(x) = x^2 - 2$$
+
+1. Finding $f \circ g(x)$:
+$$f \circ g(x) = f(g(x)) = f(x^2 - 2) = 2(x^2 - 2) + 1 = 2x^2 - 4 + 1 = \mathbf{2x^2 - 3}$$
+
+2. Finding $g \circ f(x)$:
+$$g \circ f(x) = g(f(x)) = g(2x + 1) = (2x + 1)^2 - 2$$
+$$= (4x^2 + 4x + 1) - 2 = \mathbf{4x^2 + 4x - 1}$$
+
+**Answer:**
+$$\mathbf{f \circ g(x) = 2x^2 - 3}, \quad \mathbf{g \circ f(x) = 4x^2 + 4x - 1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+A relation $R$ is given by the set $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$. Determine its domain and range.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$y = x + 3, \quad \text{where } x \in \{0, 1, 2, 3, 4, 5\}$$
+
+Calculating $y$ for each value of $x$:
+- When $x = 0 \implies y = 0 + 3 = 3$
+- When $x = 1 \implies y = 1 + 3 = 4$
+- When $x = 2 \implies y = 2 + 3 = 5$
+- When $x = 3 \implies y = 3 + 3 = 6$
+- When $x = 4 \implies y = 4 + 3 = 7$
+- When $x = 5 \implies y = 5 + 3 = 8$
+
+Therefore:
+$$R = \{(0, 3), (1, 4), (2, 5), (3, 6), (4, 7), (5, 8)\}$$
+
+- **Domain of $R$** = Set of first elements = $\{0, 1, 2, 3, 4, 5\}$
+- **Range of $R$** = Set of second elements = $\{3, 4, 5, 6, 7, 8\}$
+
+**Answer:**
+$$\mathbf{\text{Domain} = \{0, 1, 2, 3, 4, 5\}}, \quad \mathbf{\text{Range} = \{3, 4, 5, 6, 7, 8\}}$$
+
+</div>
+
+</details>
+
+---
+
+Let $X = \{-5, 1, 3, 4\}$ and $Y = \{a, b, c\}$. Determine whether the relation $R = \{(-5, a), (1, a), (3, b)\}$ is a function from $X$ to $Y$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$X = \{-5, 1, 3, 4\}, \quad Y = \{a, b, c\}$$
+$$R = \{(-5, a), (1, a), (3, b)\}$$
+
+Observation:
+The element $4 \in X$ does not have an image in $Y$.
+
+By definition:
+A relation $R$ from $X$ to $Y$ is a function if and only if **every** element in the domain $X$ has a unique image in the co-domain $Y$.
+
+Since $4 \in X$ has no image, $R$ is **not a function** from $X$ to $Y$.
+
+**Answer:**
+**$R$ is not a function from $X$ to $Y$.**
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+A function $f: A \to B$ is defined by $f(x) = \frac{x}{2} - 1$, where $A = \{2, 4, 6, 10, 12\}$ and $B = \{0, 1, 2, 4, 5, 9\}$. Represent $f$ by:
+(i) set of ordered pairs
+(ii) a table
+(iii) an arrow diagram
+(iv) a graph
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{2, 4, 6, 10, 12\}, \quad B = \{0, 1, 2, 4, 5, 9\}$$
+$$f(x) = \frac{x}{2} - 1$$
+
+Evaluating images:
+- $f(2) = \frac{2}{2} - 1 = 1 - 1 = 0$
+- $f(4) = \frac{4}{2} - 1 = 2 - 1 = 1$
+- $f(6) = \frac{6}{2} - 1 = 3 - 1 = 2$
+- $f(10) = \frac{10}{2} - 1 = 5 - 1 = 4$
+- $f(12) = \frac{12}{2} - 1 = 6 - 1 = 5$
+
+**(i) Set of ordered pairs:**
+$$\mathbf{f = \{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)\}}$$
+
+**(ii) A table:**
+
+| $x$ | 2 | 4 | 6 | 10 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 0 | 1 | 2 | 4 | 5 |
+
+**(iii) An arrow diagram:**
+Each element of $A$ connects to its corresponding image in $B$:
+- $2 \to 0$
+- $4 \to 1$
+- $6 \to 2$
+- $10 \to 4$
+- $12 \to 5$
+*(Note: $9 \in B$ has no pre-image).*
+
+**(iv) A graph:**
+In the Cartesian plane, plot the points:
+$$\mathbf{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Let $A = \{x \in \mathbb{N} \mid 1 < x < 4\}$, $B = \{x \in \mathbb{W} \mid 0 \le x < 2\}$ and $C = \{x \in \mathbb{N} \mid x < 3\}$. Verify that:
+$$A \times (B \cup C) = (A \times B) \cup (A \times C)$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Writing sets in roster form:
+- $A = \{2, 3\}$ (Natural numbers between 1 and 4)
+- $B = \{0, 1\}$ (Whole numbers from 0 to less than 2)
+- $C = \{1, 2\}$ (Natural numbers less than 3)
+
+**Left Hand Side (LHS):**
+$$B \cup C = \{0, 1\} \cup \{1, 2\} = \{0, 1, 2\}$$
+$$A \times (B \cup C) = \{2, 3\} \times \{0, 1, 2\}$$
+$$\text{LHS} = \{(2, 0), (2, 1), (2, 2), (3, 0), (3, 1), (3, 2)\} \quad \text{--- (1)}$$
+
+**Right Hand Side (RHS):**
+$$A \times B = \{2, 3\} \times \{0, 1\} = \{(2, 0), (2, 1), (3, 0), (3, 1)\}$$
+$$A \times C = \{2, 3\} \times \{1, 2\} = \{(2, 1), (2, 2), (3, 1), (3, 2)\}$$
+$$(A \times B) \cup (A \times C) = \{(2, 0), (2, 1), (2, 2), (3, 0), (3, 1), (3, 2)\} \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$A \times (B \cup C) = (A \times B) \cup (A \times C)$ is verified.**
+
+</div>
+
+</details>
+
+---
+
+Let $A = \{0, 1, 2, 3\}$ and $B = \{1, 3, 5, 7, 9\}$ be two sets. Let $f: A \to B$ be defined by $f(x) = 2x + 1$. Represent this function by:
+(i) an arrow diagram
+(ii) a table
+(iii) as a set of ordered pairs
+(iv) a graph
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{0, 1, 2, 3\}, \quad B = \{1, 3, 5, 7, 9\}$$
+$$f(x) = 2x + 1$$
+
+Evaluating function values:
+- $f(0) = 2(0) + 1 = 1$
+- $f(1) = 2(1) + 1 = 3$
+- $f(2) = 2(2) + 1 = 5$
+- $f(3) = 2(3) + 1 = 7$
+
+**(i) An arrow diagram:**
+Each element of $A$ connects to its image in $B$:
+- $0 \to 1$
+- $1 \to 3$
+- $2 \to 5$
+- $3 \to 7$
+*(Element $9 \in B$ has no pre-image).*
+
+**(ii) A table:**
+
+| $x$ | 0 | 1 | 2 | 3 |
+| :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 1 | 3 | 5 | 7 |
+
+**(iii) As a set of ordered pairs:**
+$$\mathbf{f = \{(0, 1), (1, 3), (2, 5), (3, 7)\}}$$
+
+**(iv) A graph:**
+Plot the points on the coordinate plane:
+$$\mathbf{(0, 1), (1, 3), (2, 5), (3, 7)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Let $A$ be the set of all natural numbers less than 8, $B$ be the set of all prime numbers less than 8, and $C$ be the set of even prime numbers. Verify that:
+$$(A \cap B) \times C = (A \times C) \cap (B \times C)$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Writing sets in roster form:
+- $A = \{1, 2, 3, 4, 5, 6, 7\}$
+- $B = \{2, 3, 5, 7\}$
+- $C = \{2\}$
+
+**Left Hand Side (LHS):**
+$$A \cap B = \{2, 3, 5, 7\}$$
+$$(A \cap B) \times C = \{2, 3, 5, 7\} \times \{2\}$$
+$$\text{LHS} = \{(2, 2), (3, 2), (5, 2), (7, 2)\} \quad \text{--- (1)}$$
+
+**Right Hand Side (RHS):**
+$$A \times C = \{(1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2)\}$$
+$$B \times C = \{(2, 2), (3, 2), (5, 2), (7, 2)\}$$
+$$(A \times C) \cap (B \times C) = \{(2, 2), (3, 2), (5, 2), (7, 2)\} \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$(A \cap B) \times C = (A \times C) \cap (B \times C)$ is verified.**
+
+</div>
+
+</details>
+
+---
+
+A function $f: A \to B$ is defined by $f(x) = \frac{x}{2} - 1$, where $A = \{2, 4, 6, 10, 12\}$ and $B = \{0, 1, 2, 4, 5, 9\}$. Represent $f$ by:
+(i) set of ordered pairs
+(ii) a table
+(iii) an arrow diagram
+(iv) a graph
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{2, 4, 6, 10, 12\}, \quad B = \{0, 1, 2, 4, 5, 9\}$$
+$$f(x) = \frac{x}{2} - 1$$
+
+Evaluating images:
+- $f(2) = \frac{2}{2} - 1 = 1 - 1 = 0$
+- $f(4) = \frac{4}{2} - 1 = 2 - 1 = 1$
+- $f(6) = \frac{6}{2} - 1 = 3 - 1 = 2$
+- $f(10) = \frac{10}{2} - 1 = 5 - 1 = 4$
+- $f(12) = \frac{12}{2} - 1 = 6 - 1 = 5$
+
+**(i) Set of ordered pairs:**
+$$\mathbf{f = \{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)\}}$$
+
+**(ii) A table:**
+
+| $x$ | 2 | 4 | 6 | 10 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 0 | 1 | 2 | 4 | 5 |
+
+**(iii) An arrow diagram:**
+Each element of $A$ connects to its corresponding image in $B$:
+- $2 \to 0$
+- $4 \to 1$
+- $6 \to 2$
+- $10 \to 4$
+- $12 \to 5$
+*(Note: $9 \in B$ has no pre-image).*
+
+**(iv) A graph:**
+In the Cartesian plane, plot the points:
+$$\mathbf{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Let $A = \{x \in \mathbb{W} \mid x < 2\}$, $B = \{x \in \mathbb{N} \mid 1 < x \le 4\}$ and $C = \{3, 5\}$. Verify that:
+$$A \times (B \cap C) = (A \times B) \cap (A \times C)$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Writing sets in roster form:
+- $A = \{0, 1\}$
+- $B = \{2, 3, 4\}$
+- $C = \{3, 5\}$
+
+**Left Hand Side (LHS):**
+$$B \cap C = \{3\}$$
+$$A \times (B \cap C) = \{0, 1\} \times \{3\}$$
+$$\text{LHS} = \{(0, 3), (1, 3)\} \quad \text{--- (1)}$$
+
+**Right Hand Side (RHS):**
+$$A \times B = \{(0, 2), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4)\}$$
+$$A \times C = \{(0, 3), (0, 5), (1, 3), (1, 5)\}$$
+$$(A \times B) \cap (A \times C) = \{(0, 3), (1, 3)\} \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$A \times (B \cap C) = (A \times B) \cap (A \times C)$ is verified.**
+
+</div>
+
+</details>
+
+---
+
+If $f(x) = x - 1$, $g(x) = 3x + 1$ and $h(x) = x^2$, then prove that $(f \circ g) \circ h = f \circ (g \circ h)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = x - 1, \quad g(x) = 3x + 1, \quad h(x) = x^2$$
+
+**Left Hand Side (LHS):** $(f \circ g) \circ h$
+First, calculate $f \circ g(x)$:
+$$(f \circ g)(x) = f(g(x)) = f(3x + 1) = (3x + 1) - 1 = 3x$$
+
+Now, compose with $h(x)$:
+$$((f \circ g) \circ h)(x) = (f \circ g)(h(x)) = (f \circ g)(x^2) = 3(x^2) = 3x^2 \quad \text{--- (1)}$$
+
+**Right Hand Side (RHS):** $f \circ (g \circ h)$
+First, calculate $g \circ h(x)$:
+$$(g \circ h)(x) = g(h(x)) = g(x^2) = 3x^2 + 1$$
+
+Now, compose with $f(x)$:
+$$(f \circ (g \circ h))(x) = f((g \circ h)(x)) = f(3x^2 + 1) = (3x^2 + 1) - 1 = 3x^2 \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\text{LHS} = \text{RHS}$$
+
+Hence proved that **$(f \circ g) \circ h = f \circ (g \circ h)$**.
+
+</div>
+
+</details>
+
+---

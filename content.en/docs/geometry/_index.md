@@ -1742,3 +1742,418 @@ Hence the trees P, Q, R lie on a same straight line.
 [https://www.geogebra.org/m/jfr2zzgy#chapter/356194](https://www.geogebra.org/m/jfr2zzgy#chapter/356194)
 
 or Scan the QR Code.
+
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+In $\triangle ABC$, $AD$ is the internal bisector of $\angle BAC$ meeting $BC$ at $D$. If $AB = 10\text{ cm}$, $AC = 14\text{ cm}$ and $BC = 6\text{ cm}$, find $BD$ and $DC$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $BD = x\text{ cm}$. Then $DC = (6 - x)\text{ cm}$.
+
+By the Angle Bisector Theorem:
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+Substituting the given values:
+$$\frac{10}{14} = \frac{x}{6 - x}$$
+$$\frac{5}{7} = \frac{x}{6 - x}$$
+
+Cross-multiplying:
+$$5(6 - x) = 7x$$
+$$30 - 5x = 7x$$
+$$12x = 30$$
+$$x = \frac{30}{12} = 2.5\text{ cm}$$
+
+Therefore:
+- $BD = 2.5\text{ cm}$
+- $DC = 6 - 2.5 = 3.5\text{ cm}$
+
+**Answer:**
+$$\mathbf{BD = 2.5\text{ cm}, \quad DC = 3.5\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+A man goes $18\text{ m}$ due East and then $24\text{ m}$ due North. Find the distance of his current position from the starting point.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the starting point be $O$.
+The path forms a right-angled triangle where:
+- Base (East) $OA = 18\text{ m}$
+- Height (North) $AB = 24\text{ m}$
+- Hypotenuse $OB$ represents the required distance from the start.
+
+By Pythagoras Theorem:
+$$OB^2 = OA^2 + AB^2$$
+$$OB^2 = 18^2 + 24^2$$
+$$OB^2 = 324 + 576 = 900$$
+$$OB = \sqrt{900} = 30\text{ m}$$
+
+**Answer:**
+The distance from the starting point is **$30\text{ m}$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+In $\triangle ABC$, $AD$ is the bisector of $\angle A$. If $BD = 4\text{ cm}$, $DC = 3\text{ cm}$ and $AB = 6\text{ cm}$, find $AC$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By the Angle Bisector Theorem (ABT):
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+Substituting the given values:
+$$\frac{6}{AC} = \frac{4}{3}$$
+
+Cross-multiplying:
+$$4 \times AC = 6 \times 3$$
+$$4 \times AC = 18$$
+$$AC = \frac{18}{4} = 4.5\text{ cm}$$
+
+**Answer:**
+$$\mathbf{AC = 4.5\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$D$ and $E$ are points on the sides $AB$ and $AC$ respectively of a $\triangle ABC$ such that $AB = 5.6\text{ cm}$, $AD = 1.4\text{ cm}$, $AC = 7.2\text{ cm}$ and $AE = 1.8\text{ cm}$. Show that $DE \parallel BC$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+- $AB = 5.6\text{ cm}, \quad AD = 1.4\text{ cm} \implies DB = AB - AD = 5.6 - 1.4 = 4.2\text{ cm}$
+- $AC = 7.2\text{ cm}, \quad AE = 1.8\text{ cm} \implies EC = AC - AE = 7.2 - 1.8 = 5.4\text{ cm}$
+
+Evaluating the ratios:
+$$\frac{AD}{DB} = \frac{1.4}{4.2} = \frac{14}{42} = \frac{1}{3} \quad \text{--- (1)}$$
+$$\frac{AE}{EC} = \frac{1.8}{5.4} = \frac{18}{54} = \frac{1}{3} \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+By the **Converse of Basic Proportionality Theorem (Thales Theorem)**:
+$$\mathbf{DE \parallel BC}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+Two poles of height ‘$a$’ metres and ‘$b$’ metres are ‘$p$’ metres apart. Prove that the height of the point of intersection of the lines joining the top of each pole to the foot of the opposite pole is $\frac{ab}{a+b}$ metres.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+- Vertical poles be $AB = a$ and $CD = b$, perpendicular to the ground line $BD = p$.
+- Let lines $AD$ and $BC$ intersect at point $P$.
+- Let $PQ = h$ be the height of the point of intersection perpendicular to $BD$.
+- Let $BQ = x$ and $QD = y$, so that $x + y = p$.
+
+1. In $\triangle BCD$ and $\triangle BQP$:
+   Since $PQ \parallel CD$ (both perpendicular to $BD$):
+   $$\triangle BQP \sim \triangle BCD$$
+   $$\frac{PQ}{CD} = \frac{BQ}{BD} \implies \frac{h}{b} = \frac{x}{p} \implies x = \frac{hp}{b} \quad \text{--- (1)}$$
+
+2. In $\triangle DAB$ and $\triangle DQP$:
+   Since $PQ \parallel AB$:
+   $$\triangle DQP \sim \triangle DAB$$
+   $$\frac{PQ}{AB} = \frac{DQ}{DB} \implies \frac{h}{a} = \frac{y}{p} \implies y = \frac{hp}{a} \quad \text{--- (2)}$$
+
+Adding equations (1) and (2):
+$$x + y = \frac{hp}{b} + \frac{hp}{a}$$
+Since $x + y = p$:
+$$p = hp \left(\frac{1}{b} + \frac{1}{a}\right)$$
+$$1 = h \left(\frac{a + b}{ab}\right)$$
+$$h = \frac{ab}{a + b}\text{ metres}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+State and prove Basic Proportionality Theorem (Thales Theorem).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+A straight line drawn parallel to a side of a triangle intersecting the other two sides, divides the sides in the same ratio.
+
+**Given:**
+In $\triangle ABC$, $D$ is a point on $AB$ and $E$ is a point on $AC$ such that $DE \parallel BC$.
+
+**To Prove:**
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+**Construction:**
+Draw $DE \parallel BC$.
+
+**Proof:**
+
+| No. | Statement | Reason |
+| :---: | :--- | :--- |
+| 1. | $\angle ADE = \angle ABC = \angle 1$ | Corresponding angles are equal since $DE \parallel BC$ |
+| 2. | $\angle AED = \angle ACB = \angle 2$ | Corresponding angles are equal since $DE \parallel BC$ |
+| 3. | $\angle DAE = \angle BAC = \angle 3$ | Both triangles share the common angle $\angle A$ |
+| 4. | $\triangle ADE \sim \triangle ABC$ | AAA similarity criterion |
+| 5. | $\frac{AD}{AB} = \frac{AE}{AC}$ | Corresponding sides of similar triangles are proportional |
+| 6. | $\frac{AD}{AD + DB} = \frac{AE}{AE + EC}$ | Splitting $AB = AD + DB$ and $AC = AE + EC$ |
+| 7. | $\frac{AD + DB}{AD} = \frac{AE + EC}{AE}$ | Taking reciprocals on both sides |
+| 8. | $1 + \frac{DB}{AD} = 1 + \frac{EC}{AE}$ | Separating terms |
+| 9. | $\frac{DB}{AD} = \frac{EC}{AE}$ | Cancelling 1 on both sides |
+| 10. | $\frac{AD}{DB} = \frac{AE}{EC}$ | Taking reciprocals |
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+State and prove Angle Bisector Theorem.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+The internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
+
+**Given:**
+In $\triangle ABC$, $AD$ is the internal bisector of $\angle A$ which meets $BC$ at $D$.
+
+**To Prove:**
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+**Construction:**
+Draw a line through $C$ parallel to $AB$. Extend $AD$ to meet this line at $E$.
+
+**Proof:**
+
+| No. | Statement | Reason |
+| :---: | :--- | :--- |
+| 1. | $\angle AEC = \angle BAE = \angle 1$ | Alternate interior angles are equal since $AB \parallel CE$ |
+| 2. | In $\triangle ACE$, $\angle CAE = \angle AEC$ | Since $AD$ bisects $\angle A$, $\angle BAE = \angle CAE = \angle 1$ |
+| 3. | $AC = CE$ | Sides opposite to equal angles in $\triangle ACE$ are equal $\quad \text{--- (1)}$ |
+| 4. | $\triangle ABD \sim \triangle ECD$ | AA similarity (vertically opposite angles and alternate angles) |
+| 5. | $\frac{AB}{CE} = \frac{BD}{CD}$ | Corresponding sides of similar triangles are proportional |
+| 6. | $\frac{AB}{AC} = \frac{BD}{DC}$ | From (1), substituting $CE = AC$ |
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Show that the angle bisectors of a triangle are concurrent using Ceva's Theorem.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $AD, BE, CF$ be the internal angle bisectors of $\angle A, \angle B, \angle C$ in $\triangle ABC$.
+
+1. Since $AD$ is the internal bisector of $\angle A$ in $\triangle ABC$:
+$$\frac{BD}{DC} = \frac{AB}{AC} \quad \text{--- (1)}$$
+
+2. Since $BE$ is the internal bisector of $\angle B$ in $\triangle ABC$:
+$$\frac{CE}{EA} = \frac{BC}{AB} \quad \text{--- (2)}$$
+
+3. Since $CF$ is the internal bisector of $\angle C$ in $\triangle ABC$:
+$$\frac{AF}{FB} = \frac{AC}{BC} \quad \text{--- (3)}$$
+
+Multiplying (1), (2), and (3):
+$$\frac{BD}{DC} \times \frac{CE}{EA} \times \frac{AF}{FB} = \frac{AB}{AC} \times \frac{BC}{AB} \times \frac{AC}{BC} = 1$$
+
+By the **Converse of Ceva's Theorem**, the cevians $AD, BE, CF$ are concurrent.
+The point of concurrency of the angle bisectors is called the **Incentre ($I$)**.
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+### 8 Marks
+
+#### 2023
+
+Take a point which is $11\text{ cm}$ away from the centre of a circle of radius $4\text{ cm}$ and draw the two tangents to the circle from that point. Also measure the length of the tangents.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: Radius $r = 4\text{ cm}$, Distance $OP = d = 11\text{ cm}$.
+
+**Steps of Construction:**
+1. With $O$ as centre, draw a circle of radius $4\text{ cm}$.
+2. Draw a line segment $OP = 11\text{ cm}$.
+3. Draw the perpendicular bisector of $OP$, let it intersect $OP$ at $M$.
+4. With $M$ as centre and $MO = MP$ as radius, draw another circle intersecting the first circle at points $T_1$ and $T_2$.
+5. Join $PT_1$ and $PT_2$. Then $PT_1$ and $PT_2$ are the required tangents.
+
+**Theoretical Verification of Tangent Length:**
+In right-angled triangle $\triangle OPT_1$:
+$$PT_1 = \sqrt{OP^2 - OT_1^2} = \sqrt{11^2 - 4^2} = \sqrt{121 - 16} = \sqrt{105} \approx 10.25\text{ cm}$$
+
+**Answer:**
+Length of each tangent $\approx \mathbf{10.2\text{ cm}}$ (or $\mathbf{10.3\text{ cm}}$).
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Draw a circle of diameter $6\text{ cm}$ from a point $P$, which is $8\text{ cm}$ away from its centre. Draw the two tangents $PA$ and $PB$ to the circle and measure their lengths.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+- Diameter $= 6\text{ cm} \implies \text{Radius } r = \frac{6}{2} = 3\text{ cm}$
+- Distance $OP = d = 8\text{ cm}$
+
+**Steps of Construction:**
+1. With $O$ as centre, draw a circle of radius $3\text{ cm}$.
+2. Mark a point $P$ at a distance of $8\text{ cm}$ from $O$ and join $OP$.
+3. Draw the perpendicular bisector of $OP$, intersecting $OP$ at $M$.
+4. With $M$ as centre and $MO = MP$ as radius, draw a circle intersecting the given circle at $A$ and $B$.
+5. Join $PA$ and $PB$. These are the required pair of tangents.
+
+**Theoretical Verification:**
+In right triangle $\triangle OAP$:
+$$PA = \sqrt{OP^2 - OA^2} = \sqrt{8^2 - 3^2} = \sqrt{64 - 9} = \sqrt{55} \approx 7.4\text{ cm}$$
+
+**Answer:**
+Length of the tangents $PA = PB \approx \mathbf{7.4\text{ cm}}$.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Draw a triangle $ABC$ of base $BC = 8\text{ cm}$, $\angle A = 60^\circ$ and the bisector of $\angle A$ meets $BC$ at $D$ such that $BD = 6\text{ cm}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: Base $BC = 8\text{ cm}$, Vertical angle $\angle A = 60^\circ$, $BD = 6\text{ cm}$.
+
+**Steps of Construction:**
+1. Draw a line segment $BC = 8\text{ cm}$.
+2. At $B$, draw ray $BE$ making an angle of $60^\circ$ with $BC$ downwards.
+3. Draw ray $BF$ perpendicular to $BE$ at $B$ (so $\angle EBF = 90^\circ$).
+4. Draw the perpendicular bisector of $BC$, intersecting $BC$ at $G$ and ray $BF$ at $O$.
+5. With $O$ as centre and $OB = OC$ as radius, draw a circle passing through $B$ and $C$.
+6. Mark a point $D$ on $BC$ such that $BD = 6\text{ cm}$.
+7. Let the perpendicular bisector intersect the circle at $I$ in the lower segment.
+8. Join $ID$ and extend it to intersect the circle at the upper segment at vertex $A$.
+9. Join $AB$ and $AC$.
+Then $\triangle ABC$ is the required triangle.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\frac{3}{5}$ of the corresponding sides of the triangle $PQR$ (scale factor $\frac{3}{5} < 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: A triangle $PQR$ and scale factor $\frac{3}{5} < 1$.
+
+**Steps of Construction:**
+1. Construct any triangle $PQR$ with convenient measurements.
+2. Draw an acute ray $QX$ making an acute angle with side $QR$ on the opposite side of vertex $P$.
+3. Locate 5 points (the greater of 3 and 5) $Q_1, Q_2, Q_3, Q_4, Q_5$ on $QX$ such that $QQ_1 = Q_1Q_2 = Q_2Q_3 = Q_3Q_4 = Q_4Q_5$.
+4. Join $Q_5$ (5th point, denominator) to $R$.
+5. Draw a line through $Q_3$ (3rd point, numerator) parallel to $Q_5R$ intersecting $QR$ at $R'$.
+6. Draw a line through $R'$ parallel to the line $RP$ intersecting $QP$ at $P'$.
+Then $\triangle P'QR'$ is the required triangle whose sides are $\frac{3}{5}$ of the corresponding sides of $\triangle PQR$.
+
+</div>
+
+</details>
+
+---

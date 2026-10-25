@@ -2104,3 +2104,381 @@ $$
 
 அல்லது விரைவுக் குறியீட்டை ஸ்கேன் செய்க.
 
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+கொடுக்கப்பட்ட தரவுப் புள்ளிகளுக்கு வீச்சு மற்றும் வீச்சுக் கெழுவைக் காண்க:
+$$63, 89, 98, 125, 79, 108, 117, 68$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட விவரங்களிலிருந்து:
+- மிகப்பெரிய மதிப்பு $L = 125$
+- மிகச்சிறிய மதிப்பு $S = 63$
+
+1. **வீச்சு ($R$):**
+$$R = L - S = 125 - 63 = 62$$
+
+2. **வீச்சுக் கெழு:**
+$$= \frac{L - S}{L + S} = \frac{125 - 63}{125 + 63} = \frac{62}{188} = \frac{31}{94} \approx 0.33$$
+
+**விடை:**
+$$\mathbf{\text{வீச்சு} = 62}, \quad \mathbf{\text{வீச்சுக் கெழு} = \frac{31}{94} \approx 0.33}$$
+
+</div>
+
+</details>
+
+---
+
+$A$ மற்றும் $B$ ஆகிய இரு விண்ணப்பதாரர்கள் IIT-யில் சேர்வதற்காகக் காத்திருப்பவர்கள். இவர்களில் $A$ தேர்ந்தெடுக்கப்படுவதற்கான நிகழ்தகவு $0.5$, $A$ மற்றும் $B$ இருவரும் தேர்ந்தெடுக்கப்படுவதற்கான நிகழ்தகவு $0.3$ எனில், $B$ தேர்ந்தெடுக்கப்படுவதற்கான அதிகபட்ச நிகழ்தகவு $0.8$ என நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$P(A) = 0.5, \quad P(A \cap B) = 0.3$$
+
+எந்தவொரு இரு நிகழ்ச்சிகளுக்கும்:
+$$P(A \cup B) \le 1$$
+$$P(A) + P(B) - P(A \cap B) \le 1$$
+$$0.5 + P(B) - 0.3 \le 1$$
+$$P(B) + 0.2 \le 1$$
+$$P(B) \le 0.8$$
+
+எனவே, $B$ தேர்ந்தெடுக்கப்படுவதற்கான அதிகபட்ச நிகழ்தகவு **$0.8$** ஆகும்.
+
+நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+கொடுக்கப்பட்ட தரவுப் புள்ளிகளுக்கு வீச்சு மற்றும் வீச்சுக் கெழு ஆகியவற்றைக் காண்க:
+$$25, 67, 48, 53, 18, 39, 44$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$L = 67, S = 18$.
+1. வீச்சு $R = L - S = 67 - 18 = 49$
+2. வீச்சுக் கெழு $= \frac{L - S}{L + S} = \frac{49}{85} \approx 0.58$
+
+**விடை:**
+$$\mathbf{\text{வீச்சு} = 49}, \quad \mathbf{\text{வீச்சுக் கெழு} = \frac{49}{85} \approx 0.58}$$
+
+</div>
+
+</details>
+
+---
+
+ஒரு நெட்டாண்டில் (leap year) 53 சனிக்கிழமைகள் கிடைப்பதற்கான நிகழ்தகவு என்ன?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+ஒரு நெட்டாண்டில் 366 நாட்கள் உள்ளன:
+$$366 = 52 \text{ வாரங்கள்} + 2 \text{ நாட்கள்}$$
+52 வாரங்களில் 52 சனிக்கிழமைகள் உண்டு.
+மீதமுள்ள 2 நாட்களுக்கான கூறுவெளி $n(S) = 7$.
+சனிக்கிழமை வரும் ஜோடிகள்: (வெள்ளி, சனி), (சனி, ஞாயிறு) $\implies n(E) = 2$.
+
+$$P(E) = \frac{2}{7}$$
+
+**விடை:**
+$$\mathbf{\frac{2}{7}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+கொடுக்கப்பட்ட பரவலின் வீச்சுக் காண்க:
+
+| வயது (வருடங்களில்) | 16–18 | 18–20 | 20–22 | 22–24 | 24–26 | 26–28 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| மாணவர்களின் எண்ணிக்கை | 0 | 4 | 6 | 8 | 2 | 2 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+16–18 வயதுப் பிரிவில் மாணவர்கள் எண்ணிக்கை பூச்சியம் என்பதால், குறைந்தபட்ச வயது $S = 18$.
+அதிகபட்ச வயது $L = 28$.
+
+$$\text{வீச்சு } R = L - S = 28 - 18 = 10\text{ வருடங்கள்}$$
+
+**விடை:**
+$$\mathbf{10\text{ வருடங்கள்}}$$
+
+</div>
+
+</details>
+
+---
+
+ஒரு கூடையில் உள்ள 80 மஞ்சள், 70 சிவப்பு மற்றும் 50 வெள்ளை பூக்களிலிருந்து சமவாய்ப்பு முறையில் ஒரு பூ தேர்ந்தெடுக்கும் போது அது மஞ்சள் நிறப் பூவாக இருக்க நிகழ்தகவு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூறின் மொத்த எண்ணிக்கை $n(S) = 80 + 70 + 50 = 200$.
+மஞ்சள் பூக்களின் எண்ணிக்கை $n(Y) = 80$.
+
+$$P(Y) = \frac{80}{200} = \frac{2}{5} = 0.4$$
+
+**விடை:**
+$$\mathbf{\frac{2}{5}} \quad \text{(அல்லது } \mathbf{0.4}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+முதல் 21 இயல் எண்களின் திட்ட விலக்கத்தைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+முதல் $n$ இயல் எண்களின் திட்ட விலக்கம்:
+$$\sigma = \sqrt{\frac{n^2 - 1}{12}}$$
+$$\sigma = \sqrt{\frac{21^2 - 1}{12}} = \sqrt{\frac{440}{12}} = \sqrt{\frac{110}{3}} \approx 6.06$$
+
+**விடை:**
+$$\mathbf{\sigma \approx 6.06}$$
+
+</div>
+
+</details>
+
+---
+
+ஒரு பகடை உருட்டப்படும் அதே நேரத்தில் ஒரு நாணயமும் சுண்டப்படுகிறது. பகடையில் ஒற்றைப்படை எண் கிடைப்பதற்கும், நாணயத்தில் தலை கிடைப்பதற்குமான நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூறுவெளி $n(S) = 6 \times 2 = 12$.
+ஒற்றைப்படை எண் மற்றும் தலை கிடைக்கும் நிகழ்ச்சி:
+$$A = \{(1, H), (3, H), (5, H)\} \implies n(A) = 3$$
+$$P(A) = \frac{3}{12} = \frac{1}{4}$$
+
+**விடை:**
+$$\mathbf{\frac{1}{4}}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+இரண்டு சீரான பகடைகள் முறையாக ஒரே நேரத்தில் உருட்டப்படுகின்றன:
+(i) இரண்டு பகடைகளிலும் ஒரே முக மதிப்பு கிடைக்க
+(ii) முக மதிப்புகளின் பெருக்கற்பலன் பகா எண்ணாக கிடைக்க
+(iii) முக மதிப்புகளின் கூடுதல் பகா எண்ணாக கிடைக்க
+(iv) முக மதிப்புகளின் கூடுதல் 1-ஆக இருக்க
+ஆகிய நிகழ்ச்சிகளின் நிகழ்தகவுகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூறுவெளி $n(S) = 36$.
+
+(i) ஒரே முக மதிப்பு: $n(A) = 6 \implies P(A) = \frac{6}{36} = \mathbf{\frac{1}{6}}$
+
+(ii) பெருக்கற்பலன் பகா எண்: $(1, 2), (2, 1), (1, 3), (3, 1), (1, 5), (5, 1) \implies n(B) = 6 \implies P(B) = \frac{6}{36} = \mathbf{\frac{1}{6}}$
+
+(iii) கூடுதல் பகா எண்: $n(C) = 15 \implies P(C) = \frac{15}{36} = \mathbf{\frac{5}{12}}$
+
+(iv) கூடுதல் 1: இயலா நிகழ்ச்சி $\implies P(D) = \mathbf{0}$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$24, 26, 33, 37, 29, 31$ ஆகியவற்றின் மாறுபாட்டுக் கெழுவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$\bar{x} = \frac{180}{6} = 30$$
+விலக்கங்களின் வர்க்கக்கூடுதல் $\sum d_i^2 = 112$.
+திட்ட விலக்கம்:
+$$\sigma = \sqrt{\frac{112}{6}} \approx 4.32$$
+மாறுபாட்டுக் கெழு:
+$$\text{C.V.} = \frac{4.32}{30} \times 100\% = 14.4\%$$
+
+**விடை:**
+$$\mathbf{\text{C.V.} = 14.4\%}$$
+
+</div>
+
+</details>
+
+---
+
+இரண்டு பகடைகள் ஒரு முறை உருட்டப்படுகின்றன. முதல் பகடையில் முக மதிப்பு இரட்டைப்படை எண் அல்லது முக மதிப்புகளின் கூடுதல் 8-ஆகக் கிடைப்பதற்கான நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$n(S) = 36$.
+- $A$: முதல் பகடையில் இரட்டை எண் $\implies n(A) = 18 \implies P(A) = \frac{18}{36}$
+- $B$: கூடுதல் $8 \implies n(B) = 5 \implies P(B) = \frac{5}{36}$
+- $A \cap B$: முதல் எண் இரட்டை மற்றும் கூடுதல் $8 \implies n(A \cap B) = 3 \implies P(A \cap B) = \frac{3}{36}$
+
+நிகழ்தகவின் கூட்டல் தேற்றப்படி:
+$$P(A \cup B) = \frac{18 + 5 - 3}{36} = \frac{20}{36} = \frac{5}{9}$$
+
+**விடை:**
+$$\mathbf{\frac{5}{9}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+சத்யா மற்றும் வித்யா இருவரும் 5 பாடங்களில் பெற்ற மொத்த மதிப்பெண்கள் முறையே 460 மற்றும் 480 ஆகும். மேலும் அதன் திட்ட விலக்கங்கள் முறையே 4.6 மற்றும் 2.4 எனில், யாருடைய செயல்திறன் மிகுந்த நிலைத்தன்மை கொண்டது?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+1. **சத்யா:**
+- சராசரி $\bar{x}_1 = \frac{460}{5} = 92, \quad \sigma_1 = 4.6$
+$$\text{C.V.}_1 = \frac{4.6}{92} \times 100\% = 5\%$$
+
+2. **வித்யா:**
+- சராசரி $\bar{x}_2 = \frac{480}{5} = 96, \quad \sigma_2 = 2.4$
+$$\text{C.V.}_2 = \frac{2.4}{96} \times 100\% = 2.5\%$$
+
+$\text{C.V.}_2 < \text{C.V.}_1$ என்பதால், **வித்யாவின்** செயல்திறன் மிகுந்த நிலைத்தன்மை கொண்டது.
+
+**விடை:**
+**வித்யா** மிகுந்த நிலைத்தன்மை கொண்டவர்.
+
+</div>
+
+</details>
+
+---
+
+ஒரு பையில் 5 சிவப்பு, 6 வெள்ளை, 7 பச்சை, 8 கருப்பு நிறப் பந்துகள் உள்ளன. சமவாய்ப்பு முறையில் பையிலிருந்து ஒரு பந்து எடுக்கப்படுகிறது. அந்தப் பந்து:
+(i) வெள்ளை
+(ii) கருப்பு அல்லது சிவப்பு
+(iii) வெள்ளையாக இல்லாமல்
+(iv) வெள்ளையாகவும், கருப்பாகவும் இல்லாமல்
+இருப்பதற்கான நிகழ்தகவுகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+மொத்தப் பந்துகள் $n(S) = 26$.
+
+(i) வெள்ளை: $\frac{6}{26} = \mathbf{\frac{3}{13}}$
+(ii) கருப்பு அல்லது சிவப்பு: $\frac{13}{26} = \mathbf{\frac{1}{2}}$
+(iii) வெள்ளை அல்லாதது: $1 - \frac{3}{13} = \mathbf{\frac{10}{13}}$
+(iv) வெள்ளையும், கருப்பும் அல்லாதது: $\frac{12}{26} = \mathbf{\frac{6}{13}}$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$24, 26, 33, 37, 29, 31$ ஆகியவற்றின் மாறுபாட்டுக் கெழுவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+சராசரி $\bar{x} = 30$, திட்ட விலக்கம் $\sigma \approx 4.32$.
+$$\text{C.V.} = \frac{4.32}{30} \times 100\% = 14.4\%$$
+
+**விடை:**
+$$\mathbf{\text{C.V.} = 14.4\%}$$
+
+</div>
+
+</details>
+
+---
+
+இரண்டு பகடைகள் உருட்டப்படுகின்றன. இரண்டு முக மதிப்புகளும் சமமாக இருக்க அல்லது முக மதிப்புகளின் கூடுதல் 4 ஆக இருப்பதற்கான நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$n(S) = 36$.
+- $A$: ஒரே முக மதிப்பு $\implies n(A) = 6$
+- $B$: கூடுதல் $4 \implies n(B) = 3$
+- $A \cap B = \{(2, 2)\} \implies n(A \cap B) = 1$
+
+$$P(A \cup B) = \frac{6 + 3 - 1}{36} = \frac{8}{36} = \frac{2}{9}$$
+
+**விடை:**
+$$\mathbf{\frac{2}{9}}$$
+
+</div>
+
+</details>
+
+---

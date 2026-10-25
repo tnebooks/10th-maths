@@ -2113,3 +2113,447 @@ Therefore, the coordinate of the point of contact is $P\left(\frac{5}{2},\frac{5
 [https://www.geogebra.org/m/jfr2zzgy#chapter/356195](https://www.geogebra.org/m/jfr2zzgy#chapter/356195)
 
 or Scan the QR Code.
+
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+A cat is located at the point $(-6, -4)$ in the $xy$-plane. A bottle of milk is kept at $(5, 11)$. The cat wishes to consume the milk travelling through the shortest possible distance. Find the equation of the path it needs to follow for its milk.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The shortest path between two points is the straight line segment joining them:
+$$(x_1, y_1) = (-6, -4) \quad \text{and} \quad (x_2, y_2) = (5, 11)$$
+
+Equation of the line passing through two points:
+$$\frac{y - y_1}{y_2 - y_1} = \frac{x - x_1}{x_2 - x_1}$$
+$$\frac{y - (-4)}{11 - (-4)} = \frac{x - (-6)}{5 - (-6)}$$
+$$\frac{y + 4}{15} = \frac{x + 6}{11}$$
+
+Cross-multiplying:
+$$11(y + 4) = 15(x + 6)$$
+$$11y + 44 = 15x + 90$$
+$$15x - 11y + 90 - 44 = 0$$
+$$15x - 11y + 46 = 0$$
+
+**Answer:**
+$$\mathbf{15x - 11y + 46 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+If the straight lines $12y = -(P+3)x + 12$ and $12x - 7y = 16$ are perpendicular, then find ‘$P$’.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+1. Line 1: $(P + 3)x + 12y - 12 = 0$
+$$\text{Slope } m_1 = -\frac{\text{coefficient of } x}{\text{coefficient of } y} = -\frac{P + 3}{12}$$
+
+2. Line 2: $12x - 7y - 16 = 0$
+$$\text{Slope } m_2 = -\frac{12}{-7} = \frac{12}{7}$$
+
+Since the two lines are perpendicular:
+$$m_1 \times m_2 = -1$$
+$$\left(-\frac{P + 3}{12}\right) \times \left(\frac{12}{7}\right) = -1$$
+$$-\frac{P + 3}{7} = -1$$
+$$P + 3 = 7 \implies P = 7 - 3 = 4$$
+
+**Answer:**
+$$\mathbf{P = 4}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+If the points $A(-3, 9)$, $B(a, b)$ and $C(4, -5)$ are collinear and if $a + b = 1$, then find $a$ and $b$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $A(-3, 9)$, $B(a, b)$, and $C(4, -5)$ are collinear:
+$$\text{Slope of } AB = \text{Slope of } BC$$
+$$\frac{b - 9}{a - (-3)} = \frac{-5 - b}{4 - a}$$
+$$\frac{b - 9}{a + 3} = \frac{-5 - b}{4 - a}$$
+
+Cross-multiplying:
+$$(b - 9)(4 - a) = (a + 3)(-5 - b)$$
+$$4b - ab - 36 + 9a = -5a - ab - 15 - 3b$$
+$$9a + 5a + 4b + 3b = 36 - 15$$
+$$14a + 7b = 21$$
+Dividing by 7:
+$$2a + b = 3 \quad \text{--- (1)}$$
+
+Given:
+$$a + b = 1 \quad \text{--- (2)}$$
+
+Subtracting (2) from (1):
+$$(2a + b) - (a + b) = 3 - 1 \implies a = 2$$
+
+Substituting $a = 2$ in (2):
+$$2 + b = 1 \implies b = 1 - 2 = -1$$
+
+**Answer:**
+$$\mathbf{a = 2, \quad b = -1}$$
+
+</div>
+
+</details>
+
+---
+
+Find the equation of a straight line which has slope $-\frac{5}{4}$ and passes through the point $(-1, 2)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$\text{Slope } m = -\frac{5}{4}, \quad \text{Point } (x_1, y_1) = (-1, 2)$$
+
+Equation of a line in point-slope form:
+$$y - y_1 = m(x - x_1)$$
+$$y - 2 = -\frac{5}{4}(x - (-1))$$
+$$4(y - 2) = -5(x + 1)$$
+$$4y - 8 = -5x - 5$$
+$$5x + 4y - 8 + 5 = 0$$
+$$5x + 4y - 3 = 0$$
+
+**Answer:**
+$$\mathbf{5x + 4y - 3 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+The line through the points $(-2, a)$ and $(9, 3)$ has slope $-\frac{1}{2}$. Find the value of ‘$a$’.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given points:
+$$(x_1, y_1) = (-2, a), \quad (x_2, y_2) = (9, 3), \quad \text{Slope } m = -\frac{1}{2}$$
+
+Slope formula:
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+$$-\frac{1}{2} = \frac{3 - a}{9 - (-2)}$$
+$$-\frac{1}{2} = \frac{3 - a}{11}$$
+
+Cross-multiplying:
+$$-11 = 2(3 - a)$$
+$$-11 = 6 - 2a$$
+$$2a = 6 + 11 = 17$$
+$$a = \frac{17}{2} = 8.5$$
+
+**Answer:**
+$$\mathbf{a = \frac{17}{2}} \quad \text{(or } \mathbf{8.5}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+Show that the straight lines $x - 2y + 3 = 0$ and $6x + 3y + 8 = 0$ are perpendicular.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+1. Slope of line $x - 2y + 3 = 0$:
+$$m_1 = -\frac{\text{coefficient of } x}{\text{coefficient of } y} = -\frac{1}{-2} = \frac{1}{2}$$
+
+2. Slope of line $6x + 3y + 8 = 0$:
+$$m_2 = -\frac{6}{3} = -2$$
+
+Product of slopes:
+$$m_1 \times m_2 = \frac{1}{2} \times (-2) = -1$$
+
+Since the product of their slopes is $-1$, the straight lines are **perpendicular**.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Find the slope of a line joining the points $(14, 10)$ and $(14, -6)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given points:
+$$(x_1, y_1) = (14, 10) \quad \text{and} \quad (x_2, y_2) = (14, -6)$$
+
+Slope formula:
+$$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{-6 - 10}{14 - 14} = \frac{-16}{0}$$
+
+Division by zero is undefined.
+
+**Answer:**
+The slope is **undefined** (the line is vertical / parallel to the $y$-axis with angle of inclination $\theta = 90^\circ$).
+
+</div>
+
+</details>
+
+---
+
+Find the equation of a straight line whose intercepts on the $x$ and $y$ axes are $4$ and $-6$ respectively.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given intercepts:
+$$x\text{-intercept } a = 4, \quad y\text{-intercept } b = -6$$
+
+Intercept form of a straight line equation:
+$$\frac{x}{a} + \frac{y}{b} = 1$$
+$$\frac{x}{4} + \frac{y}{-6} = 1$$
+$$\frac{x}{4} - \frac{y}{6} = 1$$
+
+Taking LCM of 4 and 6, which is 12:
+$$\frac{3x - 2y}{12} = 1$$
+$$3x - 2y = 12$$
+$$3x - 2y - 12 = 0$$
+
+**Answer:**
+$$\mathbf{3x - 2y - 12 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+Find the area of the quadrilateral formed by the points $(8, 6)$, $(5, 11)$, $(-5, 12)$ and $(-4, 3)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Plotting points in counter-clockwise order:
+$$A(-5, 12), \quad B(-4, 3), \quad C(8, 6), \quad D(5, 11)$$
+
+Formula for Area of Quadrilateral:
+$$\text{Area} = \frac{1}{2} [(x_1 y_2 + x_2 y_3 + x_3 y_4 + x_4 y_1) - (x_2 y_1 + x_3 y_2 + x_4 y_3 + x_1 y_4)]$$
+
+Substituting coordinates:
+$$\begin{aligned}
+\text{Area} &= \frac{1}{2} [((-5)(3) + (-4)(6) + (8)(11) + (5)(12)) - ((-4)(12) + (8)(3) + (5)(6) + (-5)(11))] \\
+&= \frac{1}{2} [(-15 - 24 + 88 + 60) - (-48 + 24 + 30 - 55)] \\
+&= \frac{1}{2} [109 - (-49)] \\
+&= \frac{1}{2} [109 + 49] = \frac{1}{2} (158) = 79\text{ sq. units}
+\end{aligned}$$
+
+**Answer:**
+$$\mathbf{79\text{ sq. units}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Find the area of the quadrilateral whose vertices are at $(-9, -2)$, $(-8, -4)$, $(2, 2)$ and $(1, -3)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Arranging the vertices in counter-clockwise order:
+$$A(-9, -2), \quad B(-8, -4), \quad C(1, -3), \quad D(2, 2)$$
+
+Using the formula:
+$$\text{Area} = \frac{1}{2} [(x_1 y_2 + x_2 y_3 + x_3 y_4 + x_4 y_1) - (x_2 y_1 + x_3 y_2 + x_4 y_3 + x_1 y_4)]$$
+$$\begin{aligned}
+\text{Area} &= \frac{1}{2} [((-9)(-4) + (-8)(-3) + (1)(2) + (2)(-2)) - ((-8)(-2) + (1)(-4) + (2)(-3) + (-9)(2))] \\
+&= \frac{1}{2} [(36 + 24 + 2 - 4) - (16 - 4 - 6 - 18)] \\
+&= \frac{1}{2} [58 - (-12)] \\
+&= \frac{1}{2} [58 + 12] = \frac{1}{2} (70) = 35\text{ sq. units}
+\end{aligned}$$
+
+**Answer:**
+$$\mathbf{35\text{ sq. units}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the equation of the perpendicular bisector of the line joining the points $A(-4, 2)$ and $B(6, -4)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+1. The perpendicular bisector passes through the midpoint of $AB$:
+$$\text{Midpoint } M = \left(\frac{-4 + 6}{2}, \frac{2 + (-4)}{2}\right) = \left(\frac{2}{2}, \frac{-2}{2}\right) = (1, -1)$$
+
+2. Slope of line segment $AB$:
+$$m_{AB} = \frac{-4 - 2}{6 - (-4)} = \frac{-6}{10} = -\frac{3}{5}$$
+
+3. Slope of the perpendicular bisector:
+$$m = -\frac{1}{m_{AB}} = \frac{5}{3}$$
+
+4. Equation of the perpendicular bisector passing through $(1, -1)$ with slope $\frac{5}{3}$:
+$$y - (-1) = \frac{5}{3}(x - 1)$$
+$$3(y + 1) = 5(x - 1)$$
+$$3y + 3 = 5x - 5$$
+$$5x - 3y - 5 - 3 = 0$$
+$$5x - 3y - 8 = 0$$
+
+**Answer:**
+$$\mathbf{5x - 3y - 8 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Find the value of $k$, if the area of a quadrilateral is $28\text{ sq. units}$, whose vertices are taken in the order $(-4, -2)$, $(-3, k)$, $(3, -2)$ and $(2, 3)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Vertices taken in order:
+$$A(-4, -2), \quad B(-3, k), \quad C(3, -2), \quad D(2, 3)$$
+
+Given Area $= 28\text{ sq. units}$.
+$$\text{Area} = \frac{1}{2} [(x_1 y_2 + x_2 y_3 + x_3 y_4 + x_4 y_1) - (x_2 y_1 + x_3 y_2 + x_4 y_3 + x_1 y_4)] = 28$$
+$$\frac{1}{2} [((-4)(k) + (-3)(-2) + (3)(3) + (2)(-2)) - ((-3)(-2) + (3)(k) + (2)(-2) + (-4)(3))] = 28$$
+$$\frac{1}{2} [(-4k + 6 + 9 - 4) - (6 + 3k - 4 - 12)] = 28$$
+$$\frac{1}{2} [(-4k + 11) - (3k - 10)] = 28$$
+$$\frac{1}{2} [-7k + 21] = 28$$
+$$-7k + 21 = 56$$
+$$-7k = 56 - 21 = 35$$
+$$k = \frac{35}{-7} = -5$$
+
+**Answer:**
+$$\mathbf{k = -5}$$
+
+</div>
+
+</details>
+
+---
+
+A line makes positive intercepts on coordinate axes whose sum is 7 and it passes through $(-3, 8)$. Find its equation.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the $x$-intercept be $a$ and $y$-intercept be $b$.
+Given:
+$$a + b = 7 \implies b = 7 - a$$
+
+Intercept form of line equation:
+$$\frac{x}{a} + \frac{y}{b} = 1 \implies \frac{x}{a} + \frac{y}{7 - a} = 1$$
+
+Since the line passes through $(-3, 8)$:
+$$\frac{-3}{a} + \frac{8}{7 - a} = 1$$
+$$\frac{-3(7 - a) + 8a}{a(7 - a)} = 1$$
+$$-21 + 3a + 8a = 7a - a^2$$
+$$11a - 21 = 7a - a^2$$
+$$a^2 + 4a - 21 = 0$$
+$$(a + 7)(a - 3) = 0$$
+
+Since the intercepts are positive, $a > 0$:
+$$a = 3 \implies b = 7 - 3 = 4$$
+
+Substituting $a = 3$ and $b = 4$ into the intercept form:
+$$\frac{x}{3} + \frac{y}{4} = 1$$
+$$4x + 3y = 12$$
+$$4x + 3y - 12 = 0$$
+
+**Answer:**
+$$\mathbf{4x + 3y - 12 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$A(-3, 0)$, $B(10, -2)$ and $C(12, 3)$ are the vertices of $\triangle ABC$. Find the equation of the altitude through $A$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $AD$ be the altitude through vertex $A(-3, 0)$, which is perpendicular to side $BC$.
+
+1. Slope of line $BC$ joining $B(10, -2)$ and $C(12, 3)$:
+$$m_{BC} = \frac{y_2 - y_1}{x_2 - x_1} = \frac{3 - (-2)}{12 - 10} = \frac{5}{2}$$
+
+2. Since altitude $AD \perp BC$:
+$$\text{Slope of } AD = -\frac{1}{m_{BC}} = -\frac{2}{5}$$
+
+3. Equation of altitude $AD$ passing through $A(-3, 0)$ with slope $-\frac{2}{5}$:
+$$y - y_1 = m(x - x_1)$$
+$$y - 0 = -\frac{2}{5}(x - (-3))$$
+$$5y = -2(x + 3)$$
+$$5y = -2x - 6$$
+$$2x + 5y + 6 = 0$$
+
+**Answer:**
+$$\mathbf{2x + 5y + 6 = 0}$$
+
+</div>
+
+</details>
+
+---

@@ -2285,3 +2285,523 @@ Say True or False. Justify them.
 [https://www.geogebra.org/m/jfr2zzgy#chapter/356192](https://www.geogebra.org/m/jfr2zzgy#chapter/356192) or Scan the QR Code.
 
 *(A QR code linking to the GeoGebra activity appears here in the source; code label: PX02U.)*
+
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+Find $x$ so that $x+6, x+12$ and $x+15$ are consecutive terms of a Geometric Progression.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given that $x+6, x+12, x+15$ are consecutive terms of a G.P.
+Let $t_1 = x+6, t_2 = x+12, t_3 = x+15$.
+
+In a Geometric Progression, the common ratio $r$ is constant:
+$$\frac{t_2}{t_1} = \frac{t_3}{t_2}$$
+$$\frac{x+12}{x+6} = \frac{x+15}{x+12}$$
+
+Cross-multiplying:
+$$(x+12)^2 = (x+6)(x+15)$$
+$$x^2 + 24x + 144 = x^2 + 21x + 90$$
+$$24x - 21x = 90 - 144$$
+$$3x = -54$$
+$$x = \frac{-54}{3} = -18$$
+
+**Answer:**
+$$\mathbf{x = -18}$$
+
+</div>
+
+</details>
+
+---
+
+If $p^2 \times q^1 \times r^4 \times s^3 = 3,15,000$, find the values of $p, q, r$ and $s$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$p^2 \times q^1 \times r^4 \times s^3 = 3,15,000$$
+
+Prime factorizing $3,15,000$:
+$$3,15,000 = 315 \times 1000$$
+$$= (5 \times 63) \times (10^3)$$
+$$= (5 \times 9 \times 7) \times (2 \times 5)^3$$
+$$= 5 \times 3^2 \times 7 \times 2^3 \times 5^3$$
+$$= 2^3 \times 3^2 \times 5^4 \times 7^1$$
+
+Comparing with $p^2 \times q^1 \times r^4 \times s^3$:
+- Base with power 2: $p^2 = 3^2 \implies p = 3$
+- Base with power 1: $q^1 = 7^1 \implies q = 7$
+- Base with power 4: $r^4 = 5^4 \implies r = 5$
+- Base with power 3: $s^3 = 2^3 \implies s = 2$
+
+**Answer:**
+$$\mathbf{p = 3, \quad q = 7, \quad r = 5, \quad s = 2}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+‘$a$’ and ‘$b$’ are two positive integers such that $a^b \times b^a = 800$. Find ‘$a$’ and ‘$b$’.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$a^b \times b^a = 800$$
+
+Prime factorizing $800$:
+$$800 = 8 \times 100 = 2^3 \times 2^2 \times 5^2 = 2^5 \times 5^2$$
+
+Comparing $a^b \times b^a$ with $2^5 \times 5^2$:
+- If $a = 2$ and $b = 5$, then $a^b \times b^a = 2^5 \times 5^2 = 32 \times 25 = 800$.
+- Or if $a = 5$ and $b = 2$, then $5^2 \times 2^5 = 25 \times 32 = 800$.
+
+**Answer:**
+$$\mathbf{a = 2, \quad b = 5} \quad \text{(or } \mathbf{a = 5, \quad b = 2}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+Find the HCF of 23 and 12 using Euclid's division algorithm.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By Euclid's division lemma, $a = bq + r$, where $0 \le r < b$:
+
+- **Step 1:** Apply division lemma to 23 and 12:
+$$23 = 12 \times 1 + 11$$
+Since remainder $11 \neq 0$, continue with 12 and 11.
+
+- **Step 2:** Apply division lemma to 12 and 11:
+$$12 = 11 \times 1 + 1$$
+Since remainder $1 \neq 0$, continue with 11 and 1.
+
+- **Step 3:** Apply division lemma to 11 and 1:
+$$11 = 1 \times 11 + 0$$
+Since remainder is 0, the divisor at this stage is the HCF.
+
+**Answer:**
+$$\mathbf{\text{HCF}(23, 12) = 1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+A man has 532 flower pots. He wants to arrange them in rows such that each row contains 21 flower pots. Find the number of completed rows and how many flower pots are left over.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total number of flower pots $= 532$.
+Number of pots in each row $= 21$.
+
+By Euclid's Division Lemma, $a = bq + r$, where $0 \le r < b$:
+$$532 = 21 \times 25 + 7$$
+
+Here:
+- Quotient $q = 25$
+- Remainder $r = 7$
+
+**Answer:**
+- **Number of completed rows** = **25**
+- **Number of flower pots left over** = **7**
+
+</div>
+
+</details>
+
+---
+
+Check whether the sequence $\sqrt{2}, \sqrt{8}, \sqrt{18}, \sqrt{32}, \sqrt{50}, \ldots$ is an Arithmetic Progression. If it is an A.P., find its common difference.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Simplifying each term of the given sequence:
+- $t_1 = \sqrt{2}$
+- $t_2 = \sqrt{8} = \sqrt{4 \times 2} = 2\sqrt{2}$
+- $t_3 = \sqrt{18} = \sqrt{9 \times 2} = 3\sqrt{2}$
+- $t_4 = \sqrt{32} = \sqrt{16 \times 2} = 4\sqrt{2}$
+- $t_5 = \sqrt{50} = \sqrt{25 \times 2} = 5\sqrt{2}$
+
+Finding consecutive differences:
+$$t_2 - t_1 = 2\sqrt{2} - \sqrt{2} = \sqrt{2}$$
+$$t_3 - t_2 = 3\sqrt{2} - 2\sqrt{2} = \sqrt{2}$$
+$$t_4 - t_3 = 4\sqrt{2} - 3\sqrt{2} = \sqrt{2}$$
+
+Since the difference between consecutive terms is constant, the given sequence is an **Arithmetic Progression (A.P.)**.
+
+**Answer:**
+The sequence is an **A.P.** with common difference $\mathbf{d = \sqrt{2}}$.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Find the least positive value of $x$ such that $71 \equiv x \pmod 8$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$71 \equiv x \pmod 8$$
+
+By definition of modular arithmetic:
+$$71 - x = 8k \quad \text{for some integer } k$$
+
+Dividing 71 by 8:
+$$71 = 8 \times 8 + 7$$
+$$71 - 7 = 8 \times 8$$
+
+Hence, $71 - 7$ is divisible by 8.
+The least positive value of $x$ is 7.
+
+**Answer:**
+$$\mathbf{x = 7}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum to infinity of $9 + 3 + 1 + \ldots$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given series:
+$$9 + 3 + 1 + \ldots$$
+
+First term $a = 9$.
+Common ratio $r = \frac{t_2}{t_1} = \frac{3}{9} = \frac{1}{3}$.
+
+Since $|r| = \left|\frac{1}{3}\right| < 1$, the sum to infinity exists:
+$$S_\infty = \frac{a}{1 - r}$$
+$$S_\infty = \frac{9}{1 - \frac{1}{3}} = \frac{9}{\frac{2}{3}} = 9 \times \frac{3}{2} = \frac{27}{2} = 13.5$$
+
+**Answer:**
+$$\mathbf{S_\infty = \frac{27}{2}} \quad \text{(or } \mathbf{13.5}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+In a street, the houses are numbered from 1 to 49. Senthil's house is numbered such that the sum of the numbers of the houses preceding Senthil's house is equal to the sum of the numbers of the houses following it. Find Senthil's house number.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let Senthil's house number be $x$.
+The houses are numbered $1, 2, 3, \ldots, 49$.
+
+According to the given condition:
+$$\text{Sum of house numbers before Senthil's house} = \text{Sum of house numbers after Senthil's house}$$
+$$1 + 2 + 3 + \ldots + (x - 1) = (x + 1) + (x + 2) + \ldots + 49$$
+
+Expressing the right hand side as total sum minus sum up to $x$:
+$$1 + 2 + 3 + \ldots + (x - 1) = (1 + 2 + \ldots + 49) - (1 + 2 + \ldots + x)$$
+
+Using formula for sum of first $n$ natural numbers $S_n = \frac{n(n+1)}{2}$:
+$$\frac{(x-1)x}{2} = \frac{49 \times 50}{2} - \frac{x(x+1)}{2}$$
+
+Multiplying throughout by 2:
+$$x(x - 1) + x(x + 1) = 49 \times 50$$
+$$x^2 - x + x^2 + x = 2450$$
+$$2x^2 = 2450$$
+$$x^2 = \frac{2450}{2} = 1225$$
+$$x = \sqrt{1225} = 35$$
+
+**Answer:**
+Senthil's house number is **35**.
+
+</div>
+
+</details>
+
+---
+
+Find the sum to $n$ terms of the series $5 + 55 + 555 + \ldots$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+$$S_n = 5 + 55 + 555 + \ldots \text{ to } n \text{ terms}$$
+
+Taking out 5 as a common factor:
+$$S_n = 5 [1 + 11 + 111 + \ldots \text{ to } n \text{ terms}]$$
+
+Multiplying and dividing by 9:
+$$S_n = \frac{5}{9} [9 + 99 + 999 + \ldots \text{ to } n \text{ terms}]$$
+$$= \frac{5}{9} [(10 - 1) + (10^2 - 1) + (10^3 - 1) + \ldots + (10^n - 1)]$$
+$$= \frac{5}{9} [(10 + 10^2 + 10^3 + \ldots + 10^n) - (1 + 1 + 1 + \ldots \text{ to } n \text{ terms})]$$
+
+The sequence $10, 10^2, 10^3, \ldots$ is a G.P. with $a = 10, r = 10$:
+$$\text{Sum} = \frac{a(r^n - 1)}{r - 1} = \frac{10(10^n - 1)}{10 - 1} = \frac{10(10^n - 1)}{9}$$
+
+Substituting back:
+$$S_n = \frac{5}{9} \left[ \frac{10(10^n - 1)}{9} - n \right]$$
+$$S_n = \frac{50}{81}(10^n - 1) - \frac{5n}{9}$$
+
+**Answer:**
+$$\mathbf{S_n = \frac{50}{81}(10^n - 1) - \frac{5n}{9}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Find the sum of $9^3 + 10^3 + \ldots + 21^3$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+We can rewrite the given sum as:
+$$9^3 + 10^3 + \ldots + 21^3 = (1^3 + 2^3 + \ldots + 21^3) - (1^3 + 2^3 + \ldots + 8^3)$$
+
+Using the formula for sum of cubes of first $n$ natural numbers:
+$$\sum_{k=1}^n k^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
+
+1. For $n = 21$:
+$$\sum_{k=1}^{21} k^3 = \left[ \frac{21 \times 22}{2} \right]^2 = [21 \times 11]^2 = 231^2 = 53361$$
+
+2. For $n = 8$:
+$$\sum_{k=1}^{8} k^3 = \left[ \frac{8 \times 9}{2} \right]^2 = [4 \times 9]^2 = 36^2 = 1296$$
+
+Subtracting the two values:
+$$9^3 + 10^3 + \ldots + 21^3 = 53361 - 1296 = 52065$$
+
+**Answer:**
+$$\mathbf{52,065}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum to $n$ terms of the series $7 + 77 + 777 + \ldots$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+$$S_n = 7 + 77 + 777 + \ldots \text{ to } n \text{ terms}$$
+
+Taking out 7 as common factor:
+$$S_n = 7 [1 + 11 + 111 + \ldots \text{ to } n \text{ terms}]$$
+
+Multiplying and dividing by 9:
+$$S_n = \frac{7}{9} [9 + 99 + 999 + \ldots \text{ to } n \text{ terms}]$$
+$$= \frac{7}{9} [(10 - 1) + (10^2 - 1) + (10^3 - 1) + \ldots + (10^n - 1)]$$
+$$= \frac{7}{9} [(10 + 10^2 + 10^3 + \ldots + 10^n) - n]$$
+
+Using sum of G.P. formula for $10 + 10^2 + \ldots + 10^n$:
+$$\text{Sum} = \frac{10(10^n - 1)}{10 - 1} = \frac{10(10^n - 1)}{9}$$
+
+Substituting back:
+$$S_n = \frac{7}{9} \left[ \frac{10(10^n - 1)}{9} - n \right] = \frac{70}{81}(10^n - 1) - \frac{7n}{9}$$
+
+**Answer:**
+$$\mathbf{S_n = \frac{70}{81}(10^n - 1) - \frac{7n}{9}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+If $113400 = p_1^{x_1} p_2^{x_2} p_3^{x_3} p_4^{x_4}$ where $p_1, p_2, p_3, p_4$ are prime numbers in ascending order and $x_1, x_2, x_3, x_4$ are integers, find $p_1, p_2, p_3, p_4$ and $x_1, x_2, x_3, x_4$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Prime factorizing $113400$:
+$$113400 = 1134 \times 100$$
+$$1134 = 2 \times 567 = 2 \times 9 \times 63 = 2 \times 3^2 \times 9 \times 7 = 2 \times 3^4 \times 7$$
+$$100 = 2^2 \times 5^2$$
+$$113400 = (2 \times 3^4 \times 7) \times (2^2 \times 5^2) = 2^3 \times 3^4 \times 5^2 \times 7^1$$
+
+Arranging primes in ascending order:
+- $p_1 = 2, \quad x_1 = 3$
+- $p_2 = 3, \quad x_2 = 4$
+- $p_3 = 5, \quad x_3 = 2$
+- $p_4 = 7, \quad x_4 = 1$
+
+**Answer:**
+$$\mathbf{p_1 = 2, \; p_2 = 3, \; p_3 = 5, \; p_4 = 7}$$
+$$\mathbf{x_1 = 3, \; x_2 = 4, \; x_3 = 2, \; x_4 = 1}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum of the series $6^2 + 7^2 + 8^2 + \ldots + 21^2$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Rewriting the sum as:
+$$6^2 + 7^2 + 8^2 + \ldots + 21^2 = (1^2 + 2^2 + \ldots + 21^2) - (1^2 + 2^2 + \ldots + 5^2)$$
+
+Using the formula for sum of squares of first $n$ natural numbers:
+$$\sum_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6}$$
+
+1. For $n = 21$:
+$$\sum_{k=1}^{21} k^2 = \frac{21 \times (21+1) \times (2 \times 21 + 1)}{6} = \frac{21 \times 22 \times 43}{6}$$
+$$= 7 \times 11 \times 43 = 3311$$
+
+2. For $n = 5$:
+$$\sum_{k=1}^{5} k^2 = \frac{5 \times (5+1) \times (2 \times 5 + 1)}{6} = \frac{5 \times 6 \times 11}{6} = 55$$
+
+Subtracting:
+$$6^2 + 7^2 + 8^2 + \ldots + 21^2 = 3311 - 55 = 3256$$
+
+**Answer:**
+$$\mathbf{3,256}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Find the sum of all natural numbers between 300 and 600 which are divisible by 7.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The natural numbers between 300 and 600 divisible by 7 form an Arithmetic Progression:
+- Smallest number $> 300$ divisible by 7:
+  $300 \div 7 = 42$ remainder 6 $\implies 300 + (7 - 6) = 301$.
+- Largest number $< 600$ divisible by 7:
+  $600 \div 7 = 85$ remainder 5 $\implies 600 - 5 = 595$.
+
+The series is:
+$$301 + 308 + 315 + \ldots + 595$$
+
+Here:
+- First term $a = 301$
+- Common difference $d = 7$
+- Last term $l = 595$
+
+Number of terms $n$:
+$$n = \frac{l - a}{d} + 1 = \frac{595 - 301}{7} + 1 = \frac{294}{7} + 1 = 42 + 1 = 43$$
+
+Sum of $n$ terms $S_n$:
+$$S_n = \frac{n}{2}(a + l)$$
+$$S_{43} = \frac{43}{2}(301 + 595) = \frac{43}{2} \times 896 = 43 \times 448 = 19264$$
+
+**Answer:**
+$$\mathbf{19,264}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum to $n$ terms of the series $3 + 33 + 333 + \ldots$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+$$S_n = 3 + 33 + 333 + \ldots \text{ to } n \text{ terms}$$
+
+Taking out 3 as common factor:
+$$S_n = 3 [1 + 11 + 111 + \ldots \text{ to } n \text{ terms}]$$
+
+Multiplying and dividing by 9:
+$$S_n = \frac{3}{9} [9 + 99 + 999 + \ldots \text{ to } n \text{ terms}]$$
+$$= \frac{1}{3} [(10 - 1) + (10^2 - 1) + (10^3 - 1) + \ldots + (10^n - 1)]$$
+$$= \frac{1}{3} [(10 + 10^2 + 10^3 + \ldots + 10^n) - n]$$
+
+Using sum of G.P. formula for $10 + 10^2 + \ldots + 10^n$:
+$$\text{Sum} = \frac{10(10^n - 1)}{10 - 1} = \frac{10(10^n - 1)}{9}$$
+
+Substituting back:
+$$S_n = \frac{1}{3} \left[ \frac{10(10^n - 1)}{9} - n \right] = \frac{10}{27}(10^n - 1) - \frac{n}{3}$$
+
+**Answer:**
+$$\mathbf{S_n = \frac{10}{27}(10^n - 1) - \frac{n}{3}}$$
+
+</div>
+
+</details>
+
+---

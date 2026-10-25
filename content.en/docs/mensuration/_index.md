@@ -1256,3 +1256,384 @@ The adjacent figure shows a cylindrical can with two balls. The can is just larg
 [https://www.geogebra.org/m/jfr2zzgy#chapter/356197](https://www.geogebra.org/m/jfr2zzgy#chapter/356197) or Scan the QR Code.
 
 *(A QR code linking to the GeoGebra activity appears here in the source; code label: UTONL.)*
+
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+The radius of a conical tent is $7\text{ m}$ and its height is $24\text{ m}$. Calculate the length of the canvas used to make the tent if the width of the rectangular canvas is $4\text{ m}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given for the cone:
+- Radius $r = 7\text{ m}$
+- Height $h = 24\text{ m}$
+
+1. Slant height $l$:
+$$l = \sqrt{r^2 + h^2} = \sqrt{7^2 + 24^2} = \sqrt{49 + 576} = \sqrt{625} = 25\text{ m}$$
+
+2. Curved surface area of the conical tent:
+$$\text{CSA} = \pi r l = \frac{22}{7} \times 7 \times 25 = 550\text{ m}^2$$
+
+3. Finding the length of the canvas:
+$$\text{Area of rectangular canvas} = \text{length } (L) \times \text{width } (W) = 550$$
+$$L \times 4 = 550 \implies L = \frac{550}{4} = 137.5\text{ m}$$
+
+**Answer:**
+Length of canvas = **$137.5\text{ m}$**.
+
+</div>
+
+</details>
+
+---
+
+If the ratio of the radii of two spheres is $4 : 7$, find the ratio of their volumes.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the radii of the two spheres be $r_1$ and $r_2$.
+Given:
+$$\frac{r_1}{r_2} = \frac{4}{7}$$
+
+Ratio of their volumes:
+$$\frac{V_1}{V_2} = \frac{\frac{4}{3}\pi r_1^3}{\frac{4}{3}\pi r_2^3} = \left(\frac{r_1}{r_2}\right)^3 = \left(\frac{4}{7}\right)^3 = \frac{64}{343}$$
+
+**Answer:**
+The ratio of their volumes is **$64 : 343$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+If the base area of a hemispherical solid is $1386\text{ sq. metres}$, then find its total surface area.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+For a solid hemisphere, the base is a circle:
+$$\text{Base area} = \pi r^2 = 1386\text{ m}^2$$
+
+Total surface area of a solid hemisphere:
+$$\text{TSA} = 3\pi r^2 = 3 \times 1386 = 4158\text{ m}^2$$
+
+**Answer:**
+$$\mathbf{4158\text{ m}^2}$$
+
+</div>
+
+</details>
+
+---
+
+Find the volume of a cylinder whose height is $2\text{ m}$ and base area is $250\text{ sq. m}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+- Height $h = 2\text{ m}$
+- Base area $A = \pi r^2 = 250\text{ m}^2$
+
+Volume of the cylinder:
+$$V = \pi r^2 h = \text{Base area} \times h = 250 \times 2 = 500\text{ m}^3$$
+
+**Answer:**
+$$\mathbf{500\text{ m}^3}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+The slant height of a frustum of a cone is $5\text{ cm}$ and the radii of its ends are $4\text{ cm}$ and $1\text{ cm}$. Find its curved surface area.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+- Slant height $l = 5\text{ cm}$
+- Top radius $R = 4\text{ cm}$
+- Bottom radius $r = 1\text{ cm}$
+
+Curved Surface Area (CSA) of a frustum:
+$$\text{CSA} = \pi (R + r) l = \frac{22}{7} \times (4 + 1) \times 5 = \frac{22}{7} \times 5 \times 5 = \frac{550}{7} \approx 78.57\text{ cm}^2$$
+
+**Answer:**
+$$\mathbf{\frac{550}{7}\text{ cm}^2} \quad \text{(or } \mathbf{78.57\text{ cm}^2}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Find the ratio of the volume of a cube to that of the largest sphere which exactly fits into the cube.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the side of the cube be $a$.
+- Volume of the cube:
+$$V_1 = a^3$$
+
+For the largest sphere fitting inside the cube:
+- Diameter $d = a \implies \text{radius } r = \frac{a}{2}$
+- Volume of the sphere:
+$$V_2 = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi \left(\frac{a}{2}\right)^3 = \frac{4}{3}\pi \times \frac{a^3}{8} = \frac{\pi a^3}{6}$$
+
+Ratio of their volumes:
+$$\frac{V_1}{V_2} = \frac{a^3}{\frac{\pi a^3}{6}} = \frac{6}{\pi}$$
+
+Taking $\pi = \frac{22}{7}$:
+$$\frac{6}{\frac{22}{7}} = \frac{42}{22} = \frac{21}{11}$$
+
+**Answer:**
+$$\mathbf{6 : \pi} \quad \text{(or } \mathbf{21 : 11}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+The radius and height of a cylinder are in the ratio $5 : 7$ and its curved surface area is $5500\text{ sq. cm}$. Find its radius and height.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$r : h = 5 : 7 \implies r = 5x, \quad h = 7x$$
+$$\text{Curved surface area (CSA)} = 5500\text{ cm}^2$$
+
+Formula for CSA of cylinder:
+$$\text{CSA} = 2\pi r h = 5500$$
+$$2 \times \frac{22}{7} \times (5x) \times (7x) = 5500$$
+$$2 \times 22 \times 5 \times x^2 = 5500$$
+$$220x^2 = 5500$$
+$$x^2 = \frac{5500}{220} = 25$$
+$$x = \sqrt{25} = 5$$
+
+Therefore:
+- $\text{Radius } r = 5x = 5 \times 5 = 25\text{ cm}$
+- $\text{Height } h = 7x = 7 \times 5 = 35\text{ cm}$
+
+**Answer:**
+$$\mathbf{r = 25\text{ cm}, \quad h = 35\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+If the radii of the circular ends of a frustum which is $45\text{ cm}$ high are $28\text{ cm}$ and $7\text{ cm}$, find the volume of the frustum.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+- Height $h = 45\text{ cm}$
+- Upper radius $R = 28\text{ cm}$
+- Lower radius $r = 7\text{ cm}$
+
+Volume of a frustum:
+$$V = \frac{1}{3}\pi h (R^2 + Rr + r^2)$$
+$$= \frac{1}{3} \times \frac{22}{7} \times 45 \times (28^2 + 28 \times 7 + 7^2)$$
+$$= 15 \times \frac{22}{7} \times (784 + 196 + 49)$$
+$$= 15 \times \frac{22}{7} \times 1029$$
+$$= 15 \times 22 \times 147 = 48510\text{ cm}^3$$
+
+**Answer:**
+$$\mathbf{48,510\text{ cm}^3}$$
+
+</div>
+
+</details>
+
+---
+
+A right circular cylindrical container of base radius $6\text{ cm}$ and height $15\text{ cm}$ is full of ice-cream. The ice-cream is to be filled in cones of height $9\text{ cm}$ and base radius $3\text{ cm}$, having a hemispherical shape on the top. Find the number of such cones which can be filled with ice-cream.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+1. Volume of the cylindrical container:
+$$V_1 = \pi R^2 H = \pi \times 6^2 \times 15 = 540\pi\text{ cm}^3$$
+
+2. Volume of each ice-cream cone (Cone + Hemisphere on top):
+- Conical part: $r = 3\text{ cm}, h = 9\text{ cm}$
+$$V_{\text{cone}} = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi (3^2)(9) = 27\pi\text{ cm}^3$$
+- Hemispherical part: $r = 3\text{ cm}$
+$$V_{\text{hemi}} = \frac{2}{3}\pi r^3 = \frac{2}{3}\pi (3^3) = 18\pi\text{ cm}^3$$
+- Total volume of one ice-cream:
+$$V_2 = 27\pi + 18\pi = 45\pi\text{ cm}^3$$
+
+3. Number of cones that can be filled:
+$$n = \frac{V_1}{V_2} = \frac{540\pi}{45\pi} = 12$$
+
+**Answer:**
+The number of cones is **12**.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Nathan, an engineering student was asked to make a model shaped like a cylinder with two cones attached at its two ends. The diameter of the model is $3\text{ cm}$ and its length is $12\text{ cm}$. If each cone has a height of $2\text{ cm}$, find the volume of the model that Nathan made.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+- Radius of cylinder and cones $r = \frac{3}{2} = 1.5\text{ cm}$
+- Height of each cone $h_1 = 2\text{ cm}$
+- Total length of model $= 12\text{ cm}$
+- Height of cylindrical part $h_2 = 12 - (2 + 2) = 8\text{ cm}$
+
+Total Volume = Volume of cylinder + $2 \times$ Volume of cone:
+$$V = \pi r^2 h_2 + 2 \times \frac{1}{3}\pi r^2 h_1 = \pi r^2 \left(h_2 + \frac{2}{3}h_1\right)$$
+$$= \frac{22}{7} \times (1.5)^2 \times \left(8 + \frac{2 \times 2}{3}\right)$$
+$$= \frac{22}{7} \times \frac{9}{4} \times \left(8 + \frac{4}{3}\right)$$
+$$= \frac{22}{7} \times \frac{9}{4} \times \frac{28}{3}$$
+$$= \frac{22 \times 3 \times 4}{4} = 22 \times 3 = 66\text{ cm}^3$$
+
+**Answer:**
+Volume of the model = **$66\text{ cm}^3$**.
+
+</div>
+
+</details>
+
+---
+
+A metallic sphere of radius $16\text{ cm}$ is melted and recast into small spheres each of radius $2\text{ cm}$. How many small spheres can be obtained?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+- Radius of big metallic sphere $R = 16\text{ cm}$
+- Radius of small recast sphere $r = 2\text{ cm}$
+
+Number of small spheres $n$:
+$$n = \frac{\text{Volume of big sphere}}{\text{Volume of small sphere}} = \frac{\frac{4}{3}\pi R^3}{\frac{4}{3}\pi r^3} = \left(\frac{R}{r}\right)^3 = \left(\frac{16}{2}\right)^3 = 8^3 = 512$$
+
+**Answer:**
+$$\mathbf{512\text{ small spheres}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+A garden roller whose length is $3\text{ m}$ long and whose diameter is $2.8\text{ m}$ is rolled to level a garden. How much area will it cover in 8 revolutions?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+For the cylindrical garden roller:
+- Diameter $d = 2.8\text{ m} \implies \text{radius } r = 1.4\text{ m}$
+- Height (length) $h = 3\text{ m}$
+
+1. Area covered in 1 revolution = Curved surface area of cylinder:
+$$\text{CSA} = 2\pi r h = 2 \times \frac{22}{7} \times 1.4 \times 3 = 2 \times 22 \times 0.2 \times 3 = 26.4\text{ m}^2$$
+
+2. Area covered in 8 revolutions:
+$$\text{Total Area} = 8 \times 26.4 = 211.2\text{ m}^2$$
+
+**Answer:**
+$$\mathbf{211.2\text{ m}^2}$$
+
+</div>
+
+</details>
+
+---
+
+A solid right circular cone of diameter $14\text{ cm}$ and height $8\text{ cm}$ is melted to form a hollow sphere. If the external diameter of the sphere is $10\text{ cm}$, find the internal diameter.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+1. Cone:
+- Radius $r = \frac{14}{2} = 7\text{ cm}$
+- Height $h = 8\text{ cm}$
+$$\text{Volume of cone} = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi (7^2)(8) = \frac{392\pi}{3}\text{ cm}^3$$
+
+2. Hollow sphere:
+- External radius $R = \frac{10}{2} = 5\text{ cm}$
+- Internal radius $= r_i$
+$$\text{Volume of hollow sphere} = \frac{4}{3}\pi (R^3 - r_i^3) = \frac{4}{3}\pi (5^3 - r_i^3) = \frac{4}{3}\pi (125 - r_i^3)$$
+
+Since volume is conserved upon melting:
+$$\frac{4}{3}\pi (125 - r_i^3) = \frac{392\pi}{3}$$
+$$4(125 - r_i^3) = 392$$
+$$125 - r_i^3 = \frac{392}{4} = 98$$
+$$r_i^3 = 125 - 98 = 27$$
+$$r_i = \sqrt[3]{27} = 3\text{ cm}$$
+
+Internal diameter $= 2 \times r_i = 2 \times 3 = 6\text{ cm}$.
+
+**Answer:**
+Internal diameter = **$6\text{ cm}$**.
+
+</div>
+
+</details>
+
+---

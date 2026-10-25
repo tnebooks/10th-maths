@@ -1279,3 +1279,320 @@ $$= \dfrac{\dfrac{22}{7}\times 6 \times 6 \times 15}{\dfrac{22}{7}\times 45} = 1
 
 *(GeoGebra செயல்பாட்டிற்கான QR குறியீடு இங்கு மூலப்பிரதியில் தரப்பட்டுள்ளது; குறியீட்டு லேபிள்: 8URS9.)*
 
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+கித்தானைக் கொண்டு $7\text{ மீ}$ ஆரமும், $24\text{ மீ}$ உயரமும் உடைய ஒரு கூம்பு வடிவக் கூடாரம் உருவாக்கப்படுகிறது. செவ்வக வடிவக் கித்தானின் அகலம் $4\text{ மீ}$ எனில், அதன் நீளம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூம்பின் ஆரம் $r = 7\text{ மீ}$, உயரம் $h = 24\text{ மீ}$.
+
+1. சாயுயரம் $l$:
+$$l = \sqrt{r^2 + h^2} = \sqrt{7^2 + 24^2} = \sqrt{625} = 25\text{ மீ}$$
+
+2. கூடாரத்தின் வளைபரப்பு:
+$$\text{வளைபரப்பு} = \pi r l = \frac{22}{7} \times 7 \times 25 = 550\text{ ச.மீ}$$
+
+3. கித்தானின் நீளம்:
+$$\text{நீளம் } \times \text{அகலம்} = 550 \implies L \times 4 = 550 \implies L = \frac{550}{4} = 137.5\text{ மீ}$$
+
+**விடை:**
+கித்தானின் நீளம் **$137.5\text{ மீ}$**.
+
+</div>
+
+</details>
+
+---
+
+இரு கோளங்களின் ஆரங்களின் விகிதம் $4 : 7$ எனில் அவற்றின் கன அளவுகளின் விகிதம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+ஆரங்களின் விகிதம் $\frac{r_1}{r_2} = \frac{4}{7}$.
+
+கன அளவுகளின் விகிதம்:
+$$\frac{V_1}{V_2} = \frac{\frac{4}{3}\pi r_1^3}{\frac{4}{3}\pi r_2^3} = \left(\frac{r_1}{r_2}\right)^3 = \left(\frac{4}{7}\right)^3 = \frac{64}{343}$$
+
+**விடை:**
+கன அளவுகளின் விகிதம் **$64 : 343$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+ஒரு திண்ம அரைக்கோளத்தின் அடிப்பரப்பு $1386\text{ ச.மீ}$ எனில், அதன் மொத்தப் புறப்பரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+அரைக்கோளத்தின் அடிப்பரப்பு $\pi r^2 = 1386\text{ ச.மீ}$.
+
+திண்ம அரைக்கோளத்தின் மொத்தப் புறப்பரப்பு:
+$$= 3\pi r^2 = 3 \times 1386 = 4158\text{ ச.மீ}$$
+
+**விடை:**
+$$\mathbf{4158\text{ ச.மீ}}$$
+
+</div>
+
+</details>
+
+---
+
+உயரம் $2\text{ மீ}$ மற்றும் அடிப்பரப்பு $250\text{ ச.மீ}$ கொண்ட ஓர் உருளையின் கன அளவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+உருளையின் கன அளவு:
+$$V = \text{அடிப்பரப்பு} \times \text{உயரம்} = 250 \times 2 = 500\text{ மீ}^3$$
+
+**விடை:**
+$$\mathbf{500\text{ மீ}^3}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+ஒரு கூம்பின் இடைக்கண்டச் சாயுயரம் $5\text{ செ.மீ}$ ஆகும். அதன் இரு ஆரங்கள் $4\text{ செ.மீ}$ மற்றும் $1\text{ செ.மீ}$ எனில், இடைக்கண்டத்தின் வளைபரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+சாயுயரம் $l = 5\text{ செ.மீ}, R = 4\text{ செ.மீ}, r = 1\text{ செ.மீ}$.
+
+இடைக்கண்டத்தின் வளைபரப்பு:
+$$\text{CSA} = \pi (R + r) l = \frac{22}{7} \times (4 + 1) \times 5 = \frac{550}{7} \approx 78.57\text{ ச.செ.மீ}$$
+
+**விடை:**
+$$\mathbf{\frac{550}{7}\text{ ச.செ.மீ}} \quad \text{(அல்லது } \mathbf{78.57\text{ ச.செ.மீ}}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+ஒரு கனச்சதுரத்தின் கன அளவிற்குள் சரியாகப் பொருந்தும் மிகப்பெரிய கோளத்தின் கன அளவிற்கும் உள்ள விகிதம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கனச்சதுரத்தின் பக்கம் $a$ என்க.
+- கனச்சதுரத்தின் கன அளவு $V_1 = a^3$
+- கோளத்தின் ஆரம் $r = \frac{a}{2}$
+- கோளத்தின் கன அளவு $V_2 = \frac{4}{3}\pi \left(\frac{a}{2}\right)^3 = \frac{\pi a^3}{6}$
+
+விகிதம்:
+$$\frac{V_1}{V_2} = \frac{a^3}{\frac{\pi a^3}{6}} = \frac{6}{\pi} = \frac{6}{\frac{22}{7}} = \frac{21}{11}$$
+
+**விடை:**
+$$\mathbf{6 : \pi} \quad \text{(அல்லது } \mathbf{21 : 11}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+ஓர் உருளையின் ஆரம் மற்றும் உயரங்களின் விகிதம் $5 : 7$ ஆகும். அதன் வளைபரப்பு $5500\text{ ச.செ.மீ}$ எனில், உருளையின் ஆரம் மற்றும் உயரம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$r : h = 5 : 7 \implies r = 5x, h = 7x$.
+$$\text{வளைபரப்பு} = 2\pi r h = 5500$$
+$$2 \times \frac{22}{7} \times 5x \times 7x = 5500$$
+$$220x^2 = 5500 \implies x^2 = 25 \implies x = 5$$
+
+- ஆரம் $r = 5(5) = 25\text{ செ.மீ}$
+- உயரம் $h = 7(5) = 35\text{ செ.மீ}$
+
+**விடை:**
+$$\mathbf{r = 25\text{ செ.மீ}, \quad h = 35\text{ செ.மீ}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$45\text{ செ.மீ}$ உயரமுள்ள ஓர் இடைக்கண்டத்தின் இரு புற ஆரங்கள் முறையே $28\text{ செ.மீ}$ மற்றும் $7\text{ செ.மீ}$ எனில், இடைக்கண்டத்தின் கன அளவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இடைக்கண்டத்தின் கன அளவு:
+$$V = \frac{1}{3}\pi h (R^2 + Rr + r^2)$$
+$$= \frac{1}{3} \times \frac{22}{7} \times 45 \times (28^2 + 28 \times 7 + 7^2)$$
+$$= 15 \times \frac{22}{7} \times 1029 = 15 \times 22 \times 147 = 48510\text{ செ.மீ}^3$$
+
+**விடை:**
+$$\mathbf{48,510\text{ செ.மீ}^3}$$
+
+</div>
+
+</details>
+
+---
+
+$6\text{ செ.மீ}$ ஆரம் மற்றும் $15\text{ செ.மீ}$ உயரம் கொண்ட ஒரு நேர்வட்ட உருளை வடிவப் பாத்திரம் முழுவதுமாக பனிக்கூழ் (Ice-cream) உள்ளது. அந்தப் பனிக்கூழானது, கூம்பு மற்றும் அரைக்கோளம் இணைந்த வடிவில் நிரப்பப்படுகிறது. கூம்பின் உயரம் $9\text{ செ.மீ}$ மற்றும் ஆரம் $3\text{ செ.மீ}$ எனில், பாத்திரத்தில் உள்ள பனிக்கூழைக் கொண்டு எத்தனை கூம்புகளை நிரப்பலாம்?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+1. உருளையின் கன அளவு $V_1 = \pi R^2 H = \pi \times 6^2 \times 15 = 540\pi$
+2. ஒரு பனிக்கூழின் கன அளவு:
+$$V_2 = \frac{1}{3}\pi r^2 h + \frac{2}{3}\pi r^3 = \frac{1}{3}\pi (9)(9) + \frac{2}{3}\pi (27) = 27\pi + 18\pi = 45\pi$$
+3. கூம்புகளின் எண்ணிக்கை:
+$$n = \frac{540\pi}{45\pi} = 12$$
+
+**விடை:**
+**12 கூம்புகள்**.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+நாதன் என்ற பொறியியல் மாணவர் ஓர் உருளையின் இருபுறமும் கூம்புகள் உள்ளவாறு மாதிரி ஒன்றை உருவாக்கினார். மாதிரியின் நீளம் $12\text{ செ.மீ}$ மற்றும் விட்டம் $3\text{ செ.மீ}$ ஆகும். ஒவ்வொரு கூம்பின் உயரமும் $2\text{ செ.மீ}$ இருக்குமானால் நாதன் உருவாக்கிய மாதிரியின் கன அளவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+ஆரம் $r = 1.5\text{ செ.மீ}$.
+கூம்பின் உயரம் $h_1 = 2\text{ செ.மீ}$.
+உருளையின் உயரம் $h_2 = 12 - 4 = 8\text{ செ.மீ}$.
+
+$$V = \pi r^2 h_2 + 2 \times \frac{1}{3}\pi r^2 h_1 = \pi r^2\left(h_2 + \frac{4}{3}\right)$$
+$$= \frac{22}{7} \times \frac{9}{4} \times \frac{28}{3} = 22 \times 3 = 66\text{ செ.மீ}^3$$
+
+**விடை:**
+மாதிரியின் கன அளவு = **$66\text{ செ.மீ}^3$**.
+
+</div>
+
+</details>
+
+---
+
+$16\text{ செ.மீ}$ ஆரமுள்ள ஓர் உலோகப் பந்து, உருக்கப்பட்டு $2\text{ செ.மீ}$ ஆரமுள்ள சிறு பந்துகளாக்கப்பட்டால், எத்தனை பந்துகள் கிடைக்கும்?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+பெரிய கோளத்தின் ஆரம் $R = 16\text{ செ.மீ}$.
+சிறு கோளத்தின் ஆரம் $r = 2\text{ செ.மீ}$.
+
+சிறு பந்துகளின் எண்ணிக்கை:
+$$n = \left(\frac{R}{r}\right)^3 = \left(\frac{16}{2}\right)^3 = 8^3 = 512$$
+
+**விடை:**
+$$\mathbf{512\text{ பந்துகள்}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+நீளம் $3\text{ மீ}$ மற்றும் விட்டம் $2.8\text{ மீ}$ உடைய ஒரு சமன்படுத்தும் உருளையைக் கொண்டு ஒரு தோட்டம் சமன்படுத்தப்படுகிறது. 8 சுற்றுகளில் எவ்வளவு பரப்பை உருளை சமன் செய்யும்?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$r = 1.4\text{ மீ}, h = 3\text{ மீ}$.
+1 சுற்றில் சமன் செய்யப்படும் பரப்பு:
+$$\text{வளைபரப்பு} = 2\pi r h = 2 \times \frac{22}{7} \times 1.4 \times 3 = 26.4\text{ ச.மீ}$$
+
+8 சுற்றுகளில் சமன் செய்யப்படும் மொத்தப் பரப்பு:
+$$= 8 \times 26.4 = 211.2\text{ ச.மீ}$$
+
+**விடை:**
+$$\mathbf{211.2\text{ ச.மீ}}$$
+
+</div>
+
+</details>
+
+---
+
+விட்டம் $14\text{ செ.மீ}$, உயரம் $8\text{ செ.மீ}$ உடைய ஒரு திண்ம நேர்வட்டக் கூம்பு ஓர் உள்ளீடற்ற கோளமாக உருமாற்றப்படுகிறது. கோளத்தின் வெளிவிட்டம் $10\text{ செ.மீ}$ எனில், உள்விட்டத்தைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூம்பின் ஆரம் $r = 7\text{ செ.மீ}$, உயரம் $h = 8\text{ செ.மீ}$.
+கோளத்தின் வெளி ஆரம் $R = 5\text{ செ.மீ}$, உள் ஆரம் $r_i$.
+
+$$\frac{4}{3}\pi (5^3 - r_i^3) = \frac{1}{3}\pi (7^2)(8)$$
+$$4(125 - r_i^3) = 392$$
+$$125 - r_i^3 = 98 \implies r_i^3 = 27 \implies r_i = 3\text{ செ.மீ}$$
+
+உள்விட்டம் $= 2 \times 3 = 6\text{ செ.மீ}$.
+
+**விடை:**
+உள்விட்டம் = **$6\text{ செ.மீ}$**.
+
+</div>
+
+</details>
+
+---
