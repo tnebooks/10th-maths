@@ -28,7 +28,6 @@ references:
 summary: "Apollonius, born at Perga, authored Conics and introduced curves like the circle and parabola. He is hailed as The Great Geometer."
 ---
 
-# 5 Coordinate Geometry
 
 > “A line is breadthless length” — Euclid
 

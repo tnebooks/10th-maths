@@ -27,11 +27,7 @@ references:
 summary: "Srinivasa Ramanujan, born in a poor family in Erode, was a great Indian mathematical genius who derived thousands of formulae. Working with G.H. Hardy at Cambridge, he became a Fellow of the Royal Society."
 ---
 
-# Chapter 2
-
-## NUMBERS AND SEQUENCES
-
-"I know numbers are beautiful, if they aren't beautiful, nothing is" – Paul Erdos
+> "I know numbers are beautiful, if they aren't beautiful, nothing is" – Paul Erdos
 
 Srinivasa Ramanujan was an Indian mathematical genius who was born in Erode in a poor family. He was a child prodigy and made calculations at lightning speed. He produced thousands of precious formulae, jotting them on his three notebooks which are now preserved at the University of Madras. With the help of several notable men, he became the first research scholar in the mathematics department of University of Madras. Subsequently, he went to England and collaborated with G.H. Hardy for five years from 1914 to 1919.
 

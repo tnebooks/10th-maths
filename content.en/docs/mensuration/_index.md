@@ -29,11 +29,7 @@ references:
 summary: "Pappus of Alexandria, Egypt, was a great Greek geometer. His masterwork, the eight-book compilation Synagogue, describes solids such as the right circular cylinder, cone, sphere and frustum."
 ---
 
-# Chapter 7
-
-## MENSURATION
-
-"Nature is an infinite sphere of which the centre is everywhere and the circumference nowhere". – Blaise Pascal
+> "Nature is an infinite sphere of which the centre is everywhere and the circumference nowhere". – Blaise Pascal
 
 Pappus, born at Alexandria, Egypt is the last of the great Greek geometers. Pappus major work 'Synagoge' or 'The Mathematical Collection' is a collection of mathematical writings in eight books.
 

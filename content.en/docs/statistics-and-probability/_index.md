@@ -29,7 +29,6 @@ references:
 summary: "Prasanta Chandra Mahalanobis, an Indian statistician, devised measures to compare data sets and pioneered large-scale sample surveys. He is hailed as the Father of Indian Statistics."
 ---
 
-# 8 Statistics and Probability
 
 > “Life is a School of Probability” — Walter Bagehot
 

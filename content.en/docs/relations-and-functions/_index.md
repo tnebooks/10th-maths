@@ -27,11 +27,7 @@ references:
 summary: "Gottfried Wilhelm Leibniz, a major German mathematician, philosopher and inventor, contributed to 26 fields including medicine, biology, and law. He introduced the term 'function' into mathematics."
 ---
 
-# Chapter 1
-
-## RELATIONS AND FUNCTIONS
-
-"Mathematicians do not study objects, but relations between objects . . . Content to them is irrelevant: they are interested in form only" – Henri Poincare
+> "Mathematicians do not study objects, but relations between objects . . . Content to them is irrelevant: they are interested in form only" – Henri Poincare
 
 Gottfried Wilhelm Leibniz (also known as von Leibniz) was a prominent German mathematician, philosopher, physicist and inventor. He wrote extensively on 26 topics covering wide range of subjects among which were Geology, Medicine, Biology, Epidemiology, Paleontology, Psychology, Engineering, Philology, Sociology, Ethics, History, Politics, Law and Music Theory.
 

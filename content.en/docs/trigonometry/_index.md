@@ -29,7 +29,6 @@ references:
 summary: "Francois Viete, a French mathematician, used trigonometry to solve algebraic equations and introduced the term 'coefficient'. His work Canon Mathematics covered trigonometric tables and triangle solutions."
 ---
 
-# 6 Trigonometry
 
 > “The deep study of nature is the most fruitful source of mathematical discoveries” — Joseph Fourier
 

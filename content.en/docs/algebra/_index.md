@@ -29,7 +29,6 @@ references:
 summary: "Niccolo Fontana Tartaglia, an Italian mathematician, translated Archimedes and Euclid and applied mathematics to the paths of cannonballs. He and Cardano devised methods to solve cubic equations."
 ---
 
-# 3 Algebra
 
 > “A person who can, within a year, solve $x^2-92y^2=1$ is a mathematician” — Brahmagupta
 

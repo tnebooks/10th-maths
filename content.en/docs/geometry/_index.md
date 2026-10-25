@@ -29,7 +29,6 @@ references:
 summary: "Omar Khayyam, a Persian mathematician, astronomer and poet, unified algebra and geometry and gave the first systematic method of solving cubic equations, inspiring the discovery of non-Euclidean geometry."
 ---
 
-# 4 Geometry
 
 > “The knowledge of which geometry aims is the knowledge of eternal” — Plato
 
