@@ -1943,3 +1943,370 @@ $$
 
 அல்லது விரைவுக் குறியீட்டை ஸ்கேன் செய்யவும்.
 
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+ஒரு பூனை $xy$ தளத்தில் $(-6, -4)$ என்ற புள்ளியில் உள்ளது. $(5, 11)$ என்ற புள்ளியில் ஒரு பால் புட்டி வைக்கப்பட்டுள்ளது. பூனை மிகக் குறுகிய தூரம் பயணித்துப் பால் அருந்த விரும்புகிறது எனில், பாலைப் பருகுவதற்குத் தேவையான பாதையின் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இரு புள்ளிகளுக்கு இடையே மிகக் குறுகிய தூரம் என்பது அவற்றை இணைக்கும் நேர்கோடாகும்:
+$$(x_1, y_1) = (-6, -4), \quad (x_2, y_2) = (5, 11)$$
+
+இரு புள்ளிகள் வழிச் செல்லும் நேர்கோட்டின் சமன்பாடு:
+$$\frac{y - y_1}{y_2 - y_1} = \frac{x - x_1}{x_2 - x_1}$$
+$$\frac{y - (-4)}{11 - (-4)} = \frac{x - (-6)}{5 - (-6)}$$
+$$\frac{y + 4}{15} = \frac{x + 6}{11}$$
+
+குறுக்குப் பெருக்கல் செய்ய:
+$$11(y + 4) = 15(x + 6)$$
+$$11y + 44 = 15x + 90$$
+$$15x - 11y + 46 = 0$$
+
+**விடை:**
+$$\mathbf{15x - 11y + 46 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+$12y = -(P+3)x + 12$ மற்றும் $12x - 7y = 16$ ஆகிய நேர்கோடுகள் ஒன்றுக்கொன்று செங்குத்து எனில், $P$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+1. முதல் நேர்கோடு: $(P+3)x + 12y - 12 = 0$
+$$\text{சாய்வு } m_1 = -\frac{x\text{-ன் கெழு}}{y\text{-ன் கெழு}} = -\frac{P+3}{12}$$
+
+2. இரண்டாம் நேர்கோடு: $12x - 7y - 16 = 0$
+$$\text{சாய்வு } m_2 = -\frac{12}{-7} = \frac{12}{7}$$
+
+கோடுகள் செங்குத்து என்பதால்:
+$$m_1 \times m_2 = -1$$
+$$\left(-\frac{P+3}{12}\right) \times \left(\frac{12}{7}\right) = -1$$
+$$-\frac{P+3}{7} = -1 \implies P + 3 = 7 \implies P = 4$$
+
+**விடை:**
+$$\mathbf{P = 4}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$A(-3, 9)$, $B(a, b)$ மற்றும் $C(4, -5)$ என்பன ஒரு கோடமைந்த புள்ளிகள் மற்றும் $a + b = 1$ எனில், $a$ மற்றும் $b$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$A(-3, 9), B(a, b), C(4, -5)$ ஒரு கோடமைந்தவை என்பதால்:
+$$AB\text{-ன் சாய்வு} = BC\text{-ன் சாய்வு}$$
+$$\frac{b - 9}{a + 3} = \frac{-5 - b}{4 - a}$$
+$$(b - 9)(4 - a) = (a + 3)(-5 - b)$$
+$$4b - ab - 36 + 9a = -5a - ab - 15 - 3b$$
+$$14a + 7b = 21 \implies 2a + b = 3 \quad \text{--- (1)}$$
+
+கொடுக்கப்பட்டது:
+$$a + b = 1 \quad \text{--- (2)}$$
+
+(1) - (2) $\implies a = 2$.
+$a = 2$ என (2)-ல் பிரதியிட: $b = 1 - 2 = -1$.
+
+**விடை:**
+$$\mathbf{a = 2, \quad b = -1}$$
+
+</div>
+
+</details>
+
+---
+
+$(-1, 2)$ என்ற புள்ளி வழிச் செல்வதும், சாய்வு $-\frac{5}{4}$ உடையதுமான நேர்கோட்டின் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+புள்ளி $(x_1, y_1) = (-1, 2)$, சாய்வு $m = -\frac{5}{4}$.
+
+சாய்வு-புள்ளி வடிவம்:
+$$y - y_1 = m(x - x_1)$$
+$$y - 2 = -\frac{5}{4}(x - (-1))$$
+$$4(y - 2) = -5(x + 1)$$
+$$4y - 8 = -5x - 5$$
+$$5x + 4y - 3 = 0$$
+
+**விடை:**
+$$\mathbf{5x + 4y - 3 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$(-2, a)$ மற்றும் $(9, 3)$ என்ற புள்ளிகள் வழிச்செல்லும் நேர்கோட்டின் சாய்வு $-\frac{1}{2}$ எனில், $a$-ன் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+புள்ளிகள் $(x_1, y_1) = (-2, a), (x_2, y_2) = (9, 3)$. சாய்வு $m = -\frac{1}{2}$.
+
+சாய்வு சூத்திரம்:
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+$$-\frac{1}{2} = \frac{3 - a}{9 - (-2)} = \frac{3 - a}{11}$$
+$$-11 = 2(3 - a) = 6 - 2a$$
+$$2a = 17 \implies a = \frac{17}{2} = 8.5$$
+
+**விடை:**
+$$\mathbf{a = \frac{17}{2}} \quad \text{(அல்லது } \mathbf{8.5}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+$x - 2y + 3 = 0$ மற்றும் $6x + 3y + 8 = 0$ ஆகிய நேர்கோடுகள் ஒன்றுக்கொன்று செங்குத்தானவை எனக் காட்டுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+1. $x - 2y + 3 = 0$-ன் சாய்வு $m_1 = -\frac{1}{-2} = \frac{1}{2}$
+2. $6x + 3y + 8 = 0$-ன் சாய்வு $m_2 = -\frac{6}{3} = -2$
+
+சாய்வுகளின் பெருக்கற்பலன்:
+$$m_1 \times m_2 = \frac{1}{2} \times (-2) = -1$$
+
+சாய்வுகளின் பெருக்கற்பலன் $-1$ என்பதால் இவ்விரு நேர்கோடுகளும் **செங்குத்தானவை**.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$(14, 10)$ மற்றும் $(14, -6)$ ஆகிய புள்ளிகளை இணைக்கும் நேர்கோட்டின் சாய்வைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட புள்ளிகள் $(14, 10)$ மற்றும் $(14, -6)$.
+
+சாய்வு சூத்திரம்:
+$$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{-6 - 10}{14 - 14} = \frac{-16}{0}$$
+
+பூச்சியத்தால் வகுப்பது வரையறுக்கப்படவில்லை.
+
+**விடை:**
+சாய்வு **வரையறுக்கப்படவில்லை** (இக்கோடு $y$-அச்சுக்கு இணையானது, சாய்வுக் கோணம் $\theta = 90^\circ$).
+
+</div>
+
+</details>
+
+---
+
+4 மற்றும் $-6$-ஐ முறையே $x$ மற்றும் $y$ அச்சுகளின் வெட்டுத்துண்டுகளாகக் கொண்ட நேர்கோட்டின் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$x$-வெட்டுத்துண்டு $a = 4$, $y$-வெட்டுத்துண்டு $b = -6$.
+
+வெட்டுத்துண்டு வடிவம்:
+$$\frac{x}{a} + \frac{y}{b} = 1$$
+$$\frac{x}{4} + \frac{y}{-6} = 1 \implies \frac{x}{4} - \frac{y}{6} = 1$$
+$$\frac{3x - 2y}{12} = 1 \implies 3x - 2y - 12 = 0$$
+
+**விடை:**
+$$\mathbf{3x - 2y - 12 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+$(8, 6)$, $(5, 11)$, $(-5, 12)$ மற்றும் $(-4, 3)$ ஆகிய புள்ளிகளை முனைகளாகக் கொண்ட நாற்கரத்தின் பரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+புள்ளிகளை கடிகார முள் எதிர் வரிசையில் வரிசைப்படுத்த:
+$$A(-5, 12), \quad B(-4, 3), \quad C(8, 6), \quad D(5, 11)$$
+
+நாற்கரத்தின் பரப்பு சூத்திரம்:
+$$\text{பரப்பு} = \frac{1}{2} [(x_1 y_2 + x_2 y_3 + x_3 y_4 + x_4 y_1) - (x_2 y_1 + x_3 y_2 + x_4 y_3 + x_1 y_4)]$$
+$$= \frac{1}{2} [((-15 - 24 + 88 + 60) - (-48 + 24 + 30 - 55))]$$
+$$= \frac{1}{2} [109 - (-49)] = \frac{1}{2}(158) = 79\text{ ச. அலகுகள்}$$
+
+**விடை:**
+$$\mathbf{79\text{ சதுர அலகுகள்}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$(-9, -2)$, $(-8, -4)$, $(2, 2)$ மற்றும் $(1, -3)$ ஆகிய புள்ளிகளை முனைகளாகக் கொண்ட நாற்கரத்தின் பரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+புள்ளிகளை கடிகார முள் எதிர் வரிசையில் வரிசைப்படுத்த:
+$$A(-9, -2), \quad B(-8, -4), \quad C(1, -3), \quad D(2, 2)$$
+
+$$\text{பரப்பு} = \frac{1}{2} [(36 + 24 + 2 - 4) - (16 - 4 - 6 - 18)]$$
+$$= \frac{1}{2} [58 - (-12)] = \frac{1}{2}(70) = 35\text{ ச. அலகுகள்}$$
+
+**விடை:**
+$$\mathbf{35\text{ சதுர அலகுகள்}}$$
+
+</div>
+
+</details>
+
+---
+
+$A(-4, 2)$ மற்றும் $B(6, -4)$ என்ற புள்ளிகளை இணைக்கும் மையக் குத்துக் கோட்டின் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+1. $AB$-ன் நடுப்புள்ளி $M = \left(\frac{-4 + 6}{2}, \frac{2 - 4}{2}\right) = (1, -1)$
+2. $AB$-ன் சாய்வு $m_{AB} = \frac{-4 - 2}{6 - (-4)} = \frac{-6}{10} = -\frac{3}{5}$
+3. மையக் குத்துக் கோட்டின் சாய்வு $m = \frac{5}{3}$
+4. $(1, -1)$ வழிச்செல்லும் சமன்பாடு:
+$$y - (-1) = \frac{5}{3}(x - 1)$$
+$$3(y + 1) = 5(x - 1) \implies 5x - 3y - 8 = 0$$
+
+**விடை:**
+$$\mathbf{5x - 3y - 8 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$(-4, -2)$, $(-3, k)$, $(3, -2)$ மற்றும் $(2, 3)$ ஆகிய முனைகளை வரிசையாகக் கொண்ட நாற்கரத்தின் பரப்பு 28 ச. அலகுகள் எனில், $k$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+வரிசைப்படுத்தப்பட்ட முனைகள் $A(-4, -2), B(-3, k), C(3, -2), D(2, 3)$.
+பரப்பு $= 28\text{ ச. அலகுகள்}$.
+
+$$\frac{1}{2} [(-4k + 6 + 9 - 4) - (6 + 3k - 4 - 12)] = 28$$
+$$\frac{1}{2} [-7k + 21] = 28$$
+$$-7k + 21 = 56 \implies -7k = 35 \implies k = -5$$
+
+**விடை:**
+$$\mathbf{k = -5}$$
+
+</div>
+
+</details>
+
+---
+
+$(-3, 8)$ என்ற புள்ளி வழிச் செல்வதும், ஆய அச்சுகளின் மிகை வெட்டுத்துண்டுகளின் கூடுதல் 7 உடையதுமான நேர்கோட்டின் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$a + b = 7 \implies b = 7 - a$.
+வெட்டுத்துண்டு சமன்பாடு: $\frac{x}{a} + \frac{y}{7 - a} = 1$.
+
+$(-3, 8)$ வழியே செல்வதால்:
+$$\frac{-3}{a} + \frac{8}{7 - a} = 1$$
+$$-3(7 - a) + 8a = a(7 - a)$$
+$$a^2 + 4a - 21 = 0 \implies (a + 7)(a - 3) = 0$$
+மிகை வெட்டுத்துண்டுகள் என்பதால் $a = 3 \implies b = 4$.
+
+சமன்பாடு: $\frac{x}{3} + \frac{y}{4} = 1 \implies 4x + 3y - 12 = 0$.
+
+**விடை:**
+$$\mathbf{4x + 3y - 12 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$\triangle ABC$-ன் முனைகள் $A(-3, 0)$, $B(10, -2)$ மற்றும் $C(12, 3)$ எனில், முனை $A$-யிலிருந்து வரையப்படும் குத்துக் கோட்டின் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+முனை $A(-3, 0)$ வழியே வரையப்படும் குத்துக் கோடு $AD \perp BC$.
+1. $BC$-ன் சாய்வு $m_{BC} = \frac{3 - (-2)}{12 - 10} = \frac{5}{2}$
+2. குத்துக் கோடு $AD$-ன் சாய்வு $m = -\frac{2}{5}$
+3. $A(-3, 0)$ வழிச் செல்லும் சமன்பாடு:
+$$y - 0 = -\frac{2}{5}(x - (-3))$$
+$$5y = -2(x + 3) \implies 2x + 5y + 6 = 0$$
+
+**விடை:**
+$$\mathbf{2x + 5y + 6 = 0}$$
+
+</div>
+
+</details>
+
+---

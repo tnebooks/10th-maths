@@ -1183,3 +1183,256 @@ Hence Proved.
 
 or Scan the QR Code.
 
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+Prove that $\frac{\sec\theta}{\sin\theta} - \frac{\sin\theta}{\cos\theta} = \cot\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \frac{\sec\theta}{\sin\theta} - \frac{\sin\theta}{\cos\theta}$$
+
+Since $\sec\theta = \frac{1}{\cos\theta}$:
+$$= \frac{\frac{1}{\cos\theta}}{\sin\theta} - \frac{\sin\theta}{\cos\theta}$$
+$$= \frac{1}{\sin\theta\cos\theta} - \frac{\sin\theta}{\cos\theta}$$
+
+Taking a common denominator $\sin\theta\cos\theta$:
+$$= \frac{1 - \sin^2\theta}{\sin\theta\cos\theta}$$
+
+Using identity $1 - \sin^2\theta = \cos^2\theta$:
+$$= \frac{\cos^2\theta}{\sin\theta\cos\theta} = \frac{\cos\theta}{\sin\theta} = \cot\theta = \text{RHS}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Prove that $\sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}} = \csc\theta + \cot\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}}$$
+
+Multiplying the numerator and denominator under the square root by the conjugate $(1 + \cos\theta)$:
+$$= \sqrt{\frac{(1 + \cos\theta)(1 + \cos\theta)}{(1 - \cos\theta)(1 + \cos\theta)}}$$
+$$= \sqrt{\frac{(1 + \cos\theta)^2}{1 - \cos^2\theta}}$$
+
+Using identity $1 - \cos^2\theta = \sin^2\theta$:
+$$= \sqrt{\frac{(1 + \cos\theta)^2}{\sin^2\theta}} = \frac{1 + \cos\theta}{\sin\theta}$$
+$$= \frac{1}{\sin\theta} + \frac{\cos\theta}{\sin\theta} = \csc\theta + \cot\theta = \text{RHS}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+From the top of a rock $50\sqrt{3}\text{ m}$ high, the angle of depression of a car on the ground is observed to be $30^\circ$. Find the distance of the car from the rock.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+- Height of the rock $AB = 50\sqrt{3}\text{ m}$
+- Position of the car on the ground be $C$
+- Distance between rock and car $BC = d$
+
+By alternate angles, angle of elevation of the top of the rock from the car is $\angle ACB = 30^\circ$.
+
+In right triangle $\triangle ABC$:
+$$\tan 30^\circ = \frac{AB}{BC}$$
+$$\frac{1}{\sqrt{3}} = \frac{50\sqrt{3}}{d}$$
+
+Cross-multiplying:
+$$d = 50\sqrt{3} \times \sqrt{3} = 50 \times 3 = 150\text{ m}$$
+
+**Answer:**
+The distance of the car from the rock is **$150\text{ m}$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Prove that $\sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}} = \csc\theta + \cot\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}}$$
+$$= \sqrt{\frac{(1 + \cos\theta)(1 + \cos\theta)}{(1 - \cos\theta)(1 + \cos\theta)}} = \sqrt{\frac{(1 + \cos\theta)^2}{1 - \cos^2\theta}}$$
+$$= \sqrt{\frac{(1 + \cos\theta)^2}{\sin^2\theta}} = \frac{1 + \cos\theta}{\sin\theta}$$
+$$= \frac{1}{\sin\theta} + \frac{\cos\theta}{\sin\theta} = \csc\theta + \cot\theta = \text{RHS}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+From the top of a lighthouse, the angle of depression of two ships on the opposite sides of it are observed to be $30^\circ$ and $60^\circ$. If the height of the lighthouse is $h$ metres and the line joining the ships passes through the foot of the lighthouse, show that the distance between the ships is $\frac{4h}{\sqrt{3}}\text{ m}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+- $AB$ be the lighthouse of height $h$ metres ($AB = h$).
+- $C$ and $D$ be the positions of the two ships on opposite sides of the lighthouse, so that $C, B, D$ lie on a straight line.
+- The angle of depression of ship $C$ is $30^\circ \implies \angle ACB = 30^\circ$.
+- The angle of depression of ship $D$ is $60^\circ \implies \angle ADB = 60^\circ$.
+
+1. In right triangle $\triangle ABC$:
+$$\tan 30^\circ = \frac{AB}{BC}$$
+$$\frac{1}{\sqrt{3}} = \frac{h}{BC} \implies BC = h\sqrt{3}$$
+
+2. In right triangle $\triangle ABD$:
+$$\tan 60^\circ = \frac{AB}{BD}$$
+$$\sqrt{3} = \frac{h}{BD} \implies BD = \frac{h}{\sqrt{3}}$$
+
+3. Distance between the two ships $CD = BC + BD$:
+$$CD = h\sqrt{3} + \frac{h}{\sqrt{3}} = h \left(\sqrt{3} + \frac{1}{\sqrt{3}}\right) = h \left(\frac{3 + 1}{\sqrt{3}}\right) = \frac{4h}{\sqrt{3}}\text{ m}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Two ships are sailing in the sea on either side of a lighthouse. The angle of elevation of the top of the lighthouse as observed from the ships are $30^\circ$ and $45^\circ$ respectively. If the lighthouse is $200\text{ m}$ high, find the distance between the two ships. (Use $\sqrt{3} = 1.732$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let:
+- $AB$ be the lighthouse of height $200\text{ m}$ ($AB = 200$).
+- $C$ and $D$ be the positions of the two ships on either side of the lighthouse foot $B$.
+- $\angle ACB = 45^\circ$ and $\angle ADB = 30^\circ$.
+
+1. In right-angled triangle $\triangle ABC$:
+$$\tan 45^\circ = \frac{AB}{BC}$$
+$$1 = \frac{200}{BC} \implies BC = 200\text{ m}$$
+
+2. In right-angled triangle $\triangle ABD$:
+$$\tan 30^\circ = \frac{AB}{BD}$$
+$$\frac{1}{\sqrt{3}} = \frac{200}{BD} \implies BD = 200\sqrt{3}\text{ m}$$
+
+3. Total distance between the ships $CD = BC + BD$:
+$$CD = 200 + 200\sqrt{3} = 200(1 + \sqrt{3})$$
+$$= 200(1 + 1.732) = 200 \times 2.732 = 546.4\text{ m}$$
+
+**Answer:**
+The distance between the two ships is **$546.4\text{ m}$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Prove that:
+$$\frac{\sin^3 A + \cos^3 A}{\sin A + \cos A} + \frac{\sin^3 A - \cos^3 A}{\sin A - \cos A} = 2$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \frac{\sin^3 A + \cos^3 A}{\sin A + \cos A} + \frac{\sin^3 A - \cos^3 A}{\sin A - \cos A}$$
+
+Using algebraic identities:
+- $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
+- $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$
+
+1. First term:
+$$\frac{(\sin A + \cos A)(\sin^2 A - \sin A\cos A + \cos^2 A)}{\sin A + \cos A} = \sin^2 A - \sin A\cos A + \cos^2 A$$
+Since $\sin^2 A + \cos^2 A = 1$:
+$$= 1 - \sin A\cos A$$
+
+2. Second term:
+$$\frac{(\sin A - \cos A)(\sin^2 A + \sin A\cos A + \cos^2 A)}{\sin A - \cos A} = \sin^2 A + \sin A\cos A + \cos^2 A$$
+$$= 1 + \sin A\cos A$$
+
+Adding both terms:
+$$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 1 + 1 = 2 = \text{RHS}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Two ships are sailing in the sea on either side of a lighthouse. The angle of elevation of the top of the lighthouse as observed from the ships are $30^\circ$ and $45^\circ$ respectively. If the lighthouse is $200\text{ m}$ high, find the distance between the two ships. (Use $\sqrt{3} = 1.732$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $AB$ be the lighthouse with $AB = 200\text{ m}$.
+Let $C$ and $D$ be the two ships on opposite sides of $B$.
+
+1. In $\triangle ABC$:
+$$\tan 45^\circ = \frac{AB}{BC} \implies 1 = \frac{200}{BC} \implies BC = 200\text{ m}$$
+
+2. In $\triangle ABD$:
+$$\tan 30^\circ = \frac{AB}{BD} \implies \frac{1}{\sqrt{3}} = \frac{200}{BD} \implies BD = 200\sqrt{3}\text{ m}$$
+
+3. Total distance:
+$$CD = BC + BD = 200(1 + \sqrt{3}) = 200(1 + 1.732) = 200(2.732) = 546.4\text{ m}$$
+
+**Answer:**
+The distance between the two ships is **$546.4\text{ m}$**.
+
+</div>
+
+</details>
+
+---

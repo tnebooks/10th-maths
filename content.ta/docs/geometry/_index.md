@@ -1721,3 +1721,371 @@ $$\dfrac{BP}{PC}\times\dfrac{CQ}{QA}\times\dfrac{RA}{RB}=1 \qquad \ldots(1) \tex
 
 அல்லது விரைவுக் குறியீட்டை ஸ்கேன் செய்க.
 
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+$\triangle ABC$-ல் $AD$ என்பது $\angle BAC$-யின் உட்புற இருசமவெட்டி ஆகும். $AB = 10\text{ செ.மீ}$, $AC = 14\text{ செ.மீ}$ மற்றும் $BC = 6\text{ செ.மீ}$ எனில், $BD$ மற்றும் $DC$-ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$BD = x\text{ செ.மீ}$ என்க. $DC = (6 - x)\text{ செ.மீ}$.
+
+கோண இருசமவெட்டித் தேற்றத்தின்படி:
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+$$\frac{10}{14} = \frac{x}{6 - x}$$
+$$\frac{5}{7} = \frac{x}{6 - x}$$
+
+குறுக்குப் பெருக்கல் செய்ய:
+$$5(6 - x) = 7x$$
+$$30 - 5x = 7x$$
+$$12x = 30 \implies x = \frac{30}{12} = 2.5\text{ செ.மீ}$$
+
+எனவே:
+- $BD = 2.5\text{ செ.மீ}$
+- $DC = 6 - 2.5 = 3.5\text{ செ.மீ}$
+
+**விடை:**
+$$\mathbf{BD = 2.5\text{ செ.மீ}, \quad DC = 3.5\text{ செ.மீ}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+ஒரு மனிதன் $18\text{ மீ}$ கிழக்கே சென்று பின்னர் $24\text{ மீ}$ வடக்கே செல்கிறான். தொடக்க நிலையிலிருந்து அவர் இருக்கும் தொலைவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+தொடக்கப் புள்ளி $O$ என்க.
+- கிழக்குத் திசை தொலைவு $OA = 18\text{ மீ}$
+- வடக்குத் திசை தொலைவு $AB = 24\text{ மீ}$
+
+பிதாகரஸ் தேற்றப்படி:
+$$OB^2 = OA^2 + AB^2$$
+$$OB^2 = 18^2 + 24^2 = 324 + 576 = 900$$
+$$OB = \sqrt{900} = 30\text{ மீ}$$
+
+**விடை:**
+தொடக்க நிலையிலிருந்து இருக்கும் தொலைவு **$30\text{ மீ}$** ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+கொடுக்கப்பட்ட படத்தில் $\angle A$-ன் இருசமவெட்டி $AD$ ஆகும். $BD = 4\text{ செ.மீ}$, $DC = 3\text{ செ.மீ}$ மற்றும் $AB = 6\text{ செ.மீ}$ எனில், $AC$-ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கோண இருசமவெட்டித் தேற்றத்தின்படி:
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+$$\frac{6}{AC} = \frac{4}{3}$$
+$$4 \times AC = 18 \implies AC = \frac{18}{4} = 4.5\text{ செ.மீ}$$
+
+**விடை:**
+$$\mathbf{AC = 4.5\text{ செ.மீ}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$\triangle ABC$-ன் பக்கங்கள் $AB$ மற்றும் $AC$-ல் அமைந்த புள்ளிகள் முறையே $D$ மற்றும் $E$. மேலும் $AB = 5.6\text{ செ.மீ}$, $AD = 1.4\text{ செ.மீ}$, $AC = 7.2\text{ செ.மீ}$ மற்றும் $AE = 1.8\text{ செ.மீ}$ எனில், $DE \parallel BC$ எனக் காட்டுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+- $DB = AB - AD = 5.6 - 1.4 = 4.2\text{ செ.மீ}$
+- $EC = AC - AE = 7.2 - 1.8 = 5.4\text{ செ.மீ}$
+
+விகிதங்களைக் கணக்கிடுதல்:
+$$\frac{AD}{DB} = \frac{1.4}{4.2} = \frac{1}{3} \quad \text{--- (1)}$$
+$$\frac{AE}{EC} = \frac{1.8}{5.4} = \frac{1}{3} \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+தேல்ஸ் தேற்றத்தின் மறுதலையின்படி:
+$$\mathbf{DE \parallel BC}$$
+
+எனவே நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+'$p$' மீட்டர் இடைவெளியில் '$a$' மீட்டர் மற்றும் '$b$' மீட்டர் உயரமுள்ள இரண்டு தூண்கள் உள்ளன. தூண்களின் உச்சியிலிருந்து எதிரேயுள்ள தூண்களின் அடிக்கு வரையப்படும் கோடுகள் சந்திக்கும் புள்ளியின் உயரமானது $\frac{ab}{a+b}$ மீட்டர் என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+செங்குத்துத் தூண்கள் $AB = a$, $CD = b$. தரைத்தள இடைவெளி $BD = p$.
+கோடுகள் $AD$ மற்றும் $BC$ சந்திக்கும் புள்ளி $P$. உயரம் $PQ = h$.
+$BQ = x, QD = y \implies x + y = p$.
+
+1. $\triangle BQP \sim \triangle BCD$ என்பதால்:
+$$\frac{h}{b} = \frac{x}{p} \implies x = \frac{hp}{b} \quad \text{--- (1)}$$
+
+2. $\triangle DQP \sim \triangle DAB$ என்பதால்:
+$$\frac{h}{a} = \frac{y}{p} \implies y = \frac{hp}{a} \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-ஐக் கூட்ட:
+$$x + y = hp\left(\frac{1}{b} + \frac{1}{a}\right)$$
+$$p = hp\left(\frac{a + b}{ab}\right) \implies h = \frac{ab}{a + b}\text{ மீட்டர்}$$
+
+எனவே நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+தேல்ஸ் தேற்றத்தை எழுதி நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**தேற்றத்தின் கூற்று:**
+ஒரு நேர்கோடு முக்கோணத்தின் ஒரு பக்கத்திற்கு இணையாகவும் மற்ற இரு பக்கங்களை வெட்டுமாறும் வரையப்பட்டால், அக்கோடு அவ்விரண்டு பக்கங்களையும் சம விகிதத்தில் பிரிக்கும்.
+
+**கொடுக்கப்பட்டது:**
+$\triangle ABC$-ல் $BC$-க்கு இணையாக வரையப்பட்ட நேர்கோடு $AB$-ஐ $D$-லும், $AC$-ஐ $E$-லும் வெட்டுகிறது ($DE \parallel BC$).
+
+**நிரூபிக்க:**
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+**நிரூபணம்:**
+1. $\angle ADE = \angle ABC = \angle 1$ (ஒத்த கோணங்கள் சமம்)
+2. $\angle AED = \angle ACB = \angle 2$ (ஒத்த கோணங்கள் சமம்)
+3. $\angle DAE = \angle BAC = \angle 3$ (பொதுக் கோணம்)
+4. எனவே, $\triangle ADE \sim \triangle ABC$ (AAA விதிப்படி வடிவொத்தவை)
+5. $\frac{AD}{AB} = \frac{AE}{AC} \implies \frac{AD}{AD + DB} = \frac{AE}{AE + EC}$
+6. தலைகீழாக்க: $\frac{AD + DB}{AD} = \frac{AE + EC}{AE}$
+7. $1 + \frac{DB}{AD} = 1 + \frac{EC}{AE} \implies \frac{DB}{AD} = \frac{EC}{AE}$
+8. மீண்டும் தலைகீழாக்க: $\frac{AD}{DB} = \frac{AE}{EC}$
+
+எனவே நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+கோண இருசமவெட்டித் தேற்றத்தை எழுதி நிறுவுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**கூற்று:**
+ஒரு முக்கோணத்தின் ஒரு கோணத்தின் உட்புற இருசமவெட்டியானது அக்கோணத்தின் எதிர்ப்பக்கத்தை உட்புறமாக அக்கோணத்தினை அடக்கிய பக்கங்களின் விகிதத்தில் பிரிக்கும்.
+
+**கொடுக்கப்பட்டது:**
+$\triangle ABC$-ல் $\angle A$-ன் உட்புற இருசமவெட்டி $AD$, $BC$-ஐ $D$-ல் சந்திக்கிறது.
+
+**நிரூபிக்க:**
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+**அமைப்பு:**
+$C$ வழியே $AB$-க்கு இணையாக ஒரு கோடு வரைக. $AD$-ன் நீட்சி இக்கோட்டினை $E$-ல் சந்திக்கிறது.
+
+**நிரூபணம்:**
+1. $AB \parallel CE$ என்பதால் $\angle AEC = \angle BAE = \angle 1$ (ஒன்றுவிட்ட கோணங்கள்).
+2. $AD$ கோண இருசமவெட்டி என்பதால் $\angle BAE = \angle CAE = \angle 1$.
+3. எனவே $\triangle ACE$-ல் $\angle CAE = \angle AEC \implies AC = CE$.
+4. $\triangle ABD \sim \triangle ECD$ (வடிவொத்த முக்கோணங்கள்).
+5. $\frac{AB}{CE} = \frac{BD}{DC}$.
+6. $CE = AC$ எனப் பிரதியிட: $\frac{AB}{AC} = \frac{BD}{DC}$.
+
+எனவே நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+ஒரு முக்கோணத்தின் கோண இருசமவெட்டிகள் ஒரே புள்ளியில் சந்திக்கும் (ஒரு புள்ளியில் ஒருங்கிணையும்) எனக் காட்டுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$\triangle ABC$-ன் கோண இருசமவெட்டிகள் $AD, BE, CF$ என்க.
+
+1. கோண இருசமவெட்டித் தேற்றப்படி:
+   - $\frac{BD}{DC} = \frac{AB}{AC} \quad \text{--- (1)}$
+   - $\frac{CE}{EA} = \frac{BC}{AB} \quad \text{--- (2)}$
+   - $\frac{AF}{FB} = \frac{AC}{BC} \quad \text{--- (3)}$
+
+(1), (2), (3)-ஐப் பெருக்க:
+$$\frac{BD}{DC} \times \frac{CE}{EA} \times \frac{AF}{FB} = \frac{AB}{AC} \times \frac{BC}{AB} \times \frac{AC}{BC} = 1$$
+
+சேவாவின் தேற்றத்தின் மறுதலையின்படி, $AD, BE, CF$ என்ற கோடுகள் ஒரே புள்ளியில் ஒருங்கிணையும்.
+அப்புள்ளி முக்கோணத்தின் **உள்வட்ட மையம் ($I$)** எனப்படும்.
+
+எனவே நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+### 8 மதிப்பெண் வினாக்கள் (8 Marks)
+
+#### 2023
+
+$4\text{ செ.மீ}$ ஆரமுள்ள வட்டம் வரைந்து, அதன் மையத்திலிருந்து $11\text{ செ.மீ}$ தொலைவிலுள்ள ஒரு புள்ளியைக் குறித்து, அப்புள்ளியிலிருந்து வட்டத்திற்கு இரண்டு தொடுகோடுகள் வரைக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**வரைமுறை:**
+1. $O$-வை மையமாகக் கொண்டு $4\text{ செ.மீ}$ ஆரமுள்ள வட்டம் வரைக.
+2. $OP = 11\text{ செ.மீ}$ அளவுள்ள கோட்டுத்துண்டு வரைக.
+3. $OP$-க்கு மையக்குத்துக்கோடு வரைந்து, அது $OP$-ஐ $M$-ல் வெட்டுமாறு குறிக்க.
+4. $M$-ஐ மையமாகவும் $MO = MP$ ஆரமாகவும் கொண்டு வரையப்படும் மற்றொரு வட்டம் முந்தைய வட்டத்தை $T_1, T_2$ புள்ளிகளில் வெட்டுகிறது.
+5. $PT_1$ மற்றும் $PT_2$-ஐ இணைக்க. இவை தேவையான தொடுகோடுகள் ஆகும்.
+
+**சரிபார்த்தல்:**
+செங்கோண முக்கோணம் $\triangle OPT_1$-ல்:
+$$PT_1 = \sqrt{OP^2 - OT_1^2} = \sqrt{11^2 - 4^2} = \sqrt{105} \approx 10.25\text{ செ.மீ}$$
+
+**விடை:**
+தொடுகோட்டின் நீளம் $\approx \mathbf{10.2\text{ செ.மீ}}$.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$6\text{ செ.மீ}$ விட்டமுள்ள வட்டம் வரைந்து, வட்டத்தின் மையத்திலிருந்து $8\text{ செ.மீ}$ தொலைவில் $P$ என்ற புள்ளியைக் குறிக்கவும். அப்புள்ளியிலிருந்து $PA$ மற்றும் $PB$ என்ற இரு தொடுகோடுகள் வரைந்து அவற்றின் நீளங்களை அளவிடுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+விட்டம் $= 6\text{ செ.மீ} \implies \text{ஆரம் } r = 3\text{ செ.மீ}$. $OP = 8\text{ செ.மீ}$.
+
+**வரைமுறை:**
+1. $O$-வை மையமாகக் கொண்டு $3\text{ செ.மீ}$ ஆரமுள்ள வட்டம் வரைக.
+2. மையத்திலிருந்து $8\text{ செ.மீ}$ தொலைவில் $P$ என்ற புள்ளியைக் குறித்து $OP$-ஐ இணைக்க.
+3. $OP$-க்கு மையக்குத்துக்கோடு வரைக. அது $OP$-ஐ $M$-ல் சந்திக்கிறது.
+4. $M$-ஐ மையமாகக் கொண்டு $MO$ ஆரத்தில் வரையப்படும் வட்டம் முந்தைய வட்டத்தை $A, B$-ல் வெட்டுகிறது.
+5. $PA$ மற்றும் $PB$-ஐ இணைக்க.
+
+**கணக்கீடு:**
+$$PA = \sqrt{OP^2 - OA^2} = \sqrt{8^2 - 3^2} = \sqrt{55} \approx 7.4\text{ செ.மீ}$$
+
+**விடை:**
+தொடுகோட்டின் நீளம் $PA = PB \approx \mathbf{7.4\text{ செ.மீ}}$.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+அடிப்பக்கம் $BC = 8\text{ செ.மீ}$, $\angle A = 60^\circ$ மற்றும் $\angle A$-யின் இருசமவெட்டியானது $BC$-ஐ $D$ என்ற புள்ளியில் $BD = 6\text{ செ.மீ}$ என்றவாறு சந்திக்கும் முக்கோணம் $ABC$ வரைக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**வரைமுறை:**
+1. $BC = 8\text{ செ.மீ}$ என்ற கோட்டுத்துண்டு வரைக.
+2. $B$ வழியே $\angle CBE = 60^\circ$ கீழ்நோக்கி அமையுமாறு $BE$ வரைக.
+3. $B$ வழியே $\angle EBF = 90^\circ$ அமையுமாறு $BF$ வரைக.
+4. $BC$-க்கு மையக்குத்துக்கோடு வரைக. அது $BF$-ஐ $O$-விலும், $BC$-ஐ $G$-லும் வெட்டுகிறது.
+5. $O$-வை மையமாகவும் $OB$ ஆரமாகவும் கொண்டு வட்டம் வரைக.
+6. $BC$-ன் மீது $BD = 6\text{ செ.மீ}$ என்றவாறு $D$ என்ற புள்ளியைக் குறிக்க.
+7. மையக்குத்துக்கோடு வட்டத்தின் கீழ்ப்பகுதியை வெட்டும் புள்ளி $I$ என்க.
+8. $ID$-ஐ இணைத்து வட்டத்தின் மேற்பகுதியில் வெட்டும் வரை நீட்ட, அப்புள்ளி $A$ ஆகும்.
+9. $AB$ மற்றும் $AC$-ஐ இணைக்க. $\triangle ABC$ தேவையான முக்கோணம் ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+கொடுக்கப்பட்ட முக்கோணம் $PQR$-க்கு ஒத்த பக்கங்களின் விகிதம் $\frac{3}{5}$ என அமையுமாறு ஒரு வடிவொத்த முக்கோணம் வரைக (அளவு காரணி $\frac{3}{5} < 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**வரைமுறை:**
+1. ஏதேனும் ஓர் அளவைக் கொண்டு முக்கோணம் $PQR$ வரைக.
+2. $QR$ என்ற பக்கத்திற்கு கீழே குறுங்கோணத்தை ஏற்படுத்துமாறு $QX$ என்ற கதிர் வரைக.
+3. $QX$-ன் மீது $QQ_1 = Q_1Q_2 = Q_2Q_3 = Q_3Q_4 = Q_4Q_5$ என்றவாறு 5 புள்ளிகளைக் குறிக்க.
+4. $Q_5$-ஐயும் $R$-ஐயும் இணைக்க.
+5. $Q_3$ வழியே $Q_5R$-க்கு இணையாக வரையப்படும் கோடு $QR$-ஐ $R'$-ல் வெட்டுகிறது.
+6. $R'$ வழியே $RP$-க்கு இணையாக வரையப்படும் கோடு $QP$-ஐ $P'$-ல் வெட்டுகிறது.
+இப்போது $\triangle P'QR'$ என்பது தேவையான வடிவொத்த முக்கோணம் ஆகும்.
+
+</div>
+
+</details>
+
+---

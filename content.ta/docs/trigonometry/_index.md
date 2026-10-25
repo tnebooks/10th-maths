@@ -1234,3 +1234,220 @@ $$= PA+AQ = x+h = h\frac{\cot\theta_2}{\cot\theta_1}+h = h\left(1+\frac{\cot\the
 
 அல்லது விரைவுச் செயலியை ஸ்கேன் செய்யவும்
 
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+$\frac{\sec\theta}{\sin\theta} - \frac{\sin\theta}{\cos\theta} = \cot\theta$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \frac{\sec\theta}{\sin\theta} - \frac{\sin\theta}{\cos\theta}$$
+
+$\sec\theta = \frac{1}{\cos\theta}$ என்பதால்:
+$$= \frac{1}{\sin\theta\cos\theta} - \frac{\sin\theta}{\cos\theta}$$
+$$= \frac{1 - \sin^2\theta}{\sin\theta\cos\theta}$$
+
+$1 - \sin^2\theta = \cos^2\theta$ என்ற முற்றொருமையைப் பயன்படுத்த:
+$$= \frac{\cos^2\theta}{\sin\theta\cos\theta} = \frac{\cos\theta}{\sin\theta} = \cot\theta = \text{RHS}$$
+
+எனவே நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$\sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}} = \csc\theta + \cot\theta$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}}$$
+
+தொகுதி மற்றும் பகுதியை $(1 + \cos\theta)$-ஆல் பெருக்க:
+$$= \sqrt{\frac{(1 + \cos\theta)^2}{(1 - \cos\theta)(1 + \cos\theta)}} = \sqrt{\frac{(1 + \cos\theta)^2}{1 - \cos^2\theta}}$$
+$$= \sqrt{\frac{(1 + \cos\theta)^2}{\sin^2\theta}} = \frac{1 + \cos\theta}{\sin\theta}$$
+$$= \frac{1}{\sin\theta} + \frac{\cos\theta}{\sin\theta} = \csc\theta + \cot\theta = \text{RHS}$$
+
+எனவே நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$50\sqrt{3}\text{ மீ}$ உயரமுள்ள ஒரு பாறையின் உச்சியிலிருந்து $30^\circ$ இறக்கக் கோணத்தில் தரையிலுள்ள மகிழுந்து ஒன்று பார்க்கப்படுகிறது எனில், மகிழுந்திற்கும் பாறைக்கும் இடையேயுள்ள தொலைவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+பாறையின் உயரம் $AB = 50\sqrt{3}\text{ மீ}$.
+தரையிலுள்ள மகிழுந்து $C$. பாறைக்கும் மகிழுந்திற்கும் இடைப்பட்ட தொலைவு $BC = d$.
+ஏற்றக்கோணம் $\angle ACB = 30^\circ$.
+
+செங்கோண முக்கோணம் $\triangle ABC$-ல்:
+$$\tan 30^\circ = \frac{AB}{BC}$$
+$$\frac{1}{\sqrt{3}} = \frac{50\sqrt{3}}{d}$$
+$$d = 50\sqrt{3} \times \sqrt{3} = 50 \times 3 = 150\text{ மீ}$$
+
+**விடை:**
+மகிழுந்திற்கும் பாறைக்கும் இடையேயுள்ள தொலைவு **$150\text{ மீ}$** ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$\sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}} = \csc\theta + \cot\theta$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}} = \frac{1 + \cos\theta}{\sin\theta} = \csc\theta + \cot\theta = \text{RHS}$$
+
+எனவே நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+ஒரு கலங்கரை விளக்கத்தின் உச்சியிலிருந்து எதிரெதிர் பக்கங்களில் உள்ள இரண்டு கப்பல்கள் $30^\circ$ மற்றும் $60^\circ$ இறக்கக் கோணத்தில் பார்க்கப்படுகின்றன. கலங்கரை விளக்கத்தின் உயரம் $h$ மீ. இரு கப்பல்கள் மற்றும் கலங்கரை விளக்கத்தின் அடிப்பகுதி ஆகியவை ஒரே நேர்கோட்டில் அமைகின்றன எனில், இரண்டு கப்பல்களுக்கு இடைப்பட்ட தொலைவு $\frac{4h}{\sqrt{3}}\text{ மீ}$ என நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கலங்கரை விளக்கம் $AB = h$.
+இரு கப்பல்களின் நிலைகள் $C$ மற்றும் $D$.
+$\angle ACB = 30^\circ$, $\angle ADB = 60^\circ$.
+
+1. $\triangle ABC$-ல்:
+$$\tan 30^\circ = \frac{AB}{BC} \implies \frac{1}{\sqrt{3}} = \frac{h}{BC} \implies BC = h\sqrt{3}$$
+
+2. $\triangle ABD$-ல்:
+$$\tan 60^\circ = \frac{AB}{BD} \implies \sqrt{3} = \frac{h}{BD} \implies BD = \frac{h}{\sqrt{3}}$$
+
+3. இரு கப்பல்களுக்கு இடைப்பட்ட தொலைவு $CD = BC + BD$:
+$$CD = h\sqrt{3} + \frac{h}{\sqrt{3}} = h\left(\frac{3 + 1}{\sqrt{3}}\right) = \frac{4h}{\sqrt{3}}\text{ மீ}$$
+
+எனவே நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+இரு கப்பல்கள் கலங்கரை விளக்கத்தின் இரு பக்கங்களிலும் கடலில் பயணம் செய்கின்றன. இரு கப்பல்களிலிருந்து கலங்கரை விளக்கத்தின் உச்சியின் ஏற்றக் கோணங்கள் முறையே $30^\circ$ மற்றும் $45^\circ$ ஆகும். கலங்கரை விளக்கத்தின் உயரம் $200\text{ மீ}$ எனில், இரு கப்பல்களுக்கு இடையே உள்ள தொலைவைக் காண்க. ($\sqrt{3} = 1.732$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கலங்கரை விளக்கம் $AB = 200\text{ மீ}$. கப்பல்கள் $C$ மற்றும் $D$.
+$\angle ACB = 45^\circ, \angle ADB = 30^\circ$.
+
+1. $\triangle ABC$-ல்:
+$$\tan 45^\circ = \frac{AB}{BC} \implies 1 = \frac{200}{BC} \implies BC = 200\text{ மீ}$$
+
+2. $\triangle ABD$-ல்:
+$$\tan 30^\circ = \frac{AB}{BD} \implies \frac{1}{\sqrt{3}} = \frac{200}{BD} \implies BD = 200\sqrt{3}\text{ மீ}$$
+
+3. மொத்தத் தொலைவு $CD = BC + BD$:
+$$CD = 200 + 200\sqrt{3} = 200(1 + 1.732) = 200 \times 2.732 = 546.4\text{ மீ}$$
+
+**விடை:**
+இரு கப்பல்களுக்கு இடைப்பட்ட தொலைவு **$546.4\text{ மீ}$** ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+நிரூபிக்க:
+$$\frac{\sin^3 A + \cos^3 A}{\sin A + \cos A} + \frac{\sin^3 A - \cos^3 A}{\sin A - \cos A} = 2$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$a^3 + b^3 = (a + b)(a^2 - ab + b^2)$ மற்றும் $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$ சூத்திரங்களைப் பயன்படுத்த:
+
+1. முதல் உறுப்பு:
+$$\frac{(\sin A + \cos A)(\sin^2 A - \sin A\cos A + \cos^2 A)}{\sin A + \cos A} = 1 - \sin A\cos A$$
+
+2. இரண்டாம் உறுப்பு:
+$$\frac{(\sin A - \cos A)(\sin^2 A + \sin A\cos A + \cos^2 A)}{\sin A - \cos A} = 1 + \sin A\cos A$$
+
+கூட்ட:
+$$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 2 = \text{RHS}$$
+
+எனவே நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+இரு கப்பல்கள் கலங்கரை விளக்கத்தின் இரு பக்கங்களிலும் கடலில் பயணம் செய்கின்றன. இரு கப்பல்களிலிருந்து கலங்கரை விளக்கத்தின் உச்சியின் ஏற்றக் கோணங்கள் முறையே $30^\circ$ மற்றும் $45^\circ$ ஆகும். கலங்கரை விளக்கத்தின் உயரம் $200\text{ மீ}$ எனில், இரு கப்பல்களுக்கு இடையே உள்ள தொலைவைக் காண்க. ($\sqrt{3} = 1.732$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கலங்கரை விளக்கம் $AB = 200\text{ மீ}$.
+
+1. $\tan 45^\circ = \frac{200}{BC} \implies BC = 200\text{ மீ}$
+2. $\tan 30^\circ = \frac{200}{BD} \implies BD = 200\sqrt{3}\text{ மீ}$
+3. $CD = 200 + 200(1.732) = 546.4\text{ மீ}$
+
+**விடை:**
+இரு கப்பல்களுக்கு இடையே உள்ள தொலைவு **$546.4\text{ மீ}$** ஆகும்.
+
+</div>
+
+</details>
+
+---

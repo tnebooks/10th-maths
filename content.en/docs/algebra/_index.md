@@ -3454,3 +3454,694 @@ Hence proved.
 [https://www.geogebra.org/m/jfr2zzgy#chapter/356193](https://www.geogebra.org/m/jfr2zzgy#chapter/356193)
 
 or Scan the QR Code.
+
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+Simplify:
+$$\frac{x+2}{4y} \div \frac{x^2 - x - 6}{12y^2}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given expression:
+$$\frac{x+2}{4y} \div \frac{x^2 - x - 6}{12y^2}$$
+
+1. Factorizing the quadratic polynomial $x^2 - x - 6$:
+$$x^2 - x - 6 = (x - 3)(x + 2)$$
+
+2. Inverting the divisor and multiplying:
+$$= \frac{x+2}{4y} \times \frac{12y^2}{(x - 3)(x + 2)}$$
+
+3. Cancelling common terms $(x+2)$ and simplifying $\frac{12y^2}{4y} = 3y$:
+$$= \frac{3y}{x - 3}$$
+
+**Answer:**
+$$\mathbf{\frac{3y}{x - 3}}$$
+
+</div>
+
+</details>
+
+---
+
+Determine the nature of roots for the following quadratic equation:
+$$2x^2 - x - 1 = 0$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Comparing $2x^2 - x - 1 = 0$ with standard form $ax^2 + bx + c = 0$:
+$$a = 2, \quad b = -1, \quad c = -1$$
+
+Discriminant $\Delta$:
+$$\Delta = b^2 - 4ac$$
+$$\Delta = (-1)^2 - 4(2)(-1) = 1 + 8 = 9$$
+
+Since $\Delta = 9 > 0$, the discriminant is positive and not equal to zero.
+
+**Answer:**
+The roots are **real and unequal**.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Simplify:
+$$\frac{4x^2y}{2z^2} \times \frac{6xz^3}{20y^4}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$\frac{4x^2y}{2z^2} \times \frac{6xz^3}{20y^4}$$
+
+Grouping coefficients and powers of like variables:
+$$= \left(\frac{4 \times 6}{2 \times 20}\right) \times \frac{x^2 \cdot x \cdot y \cdot z^3}{z^2 \cdot y^4}$$
+$$= \left(\frac{24}{40}\right) \times \frac{x^3 y z^3}{y^4 z^2}$$
+$$= \frac{3}{5} \times x^3 y^{1-4} z^{3-2} = \frac{3x^3 z}{5y^3}$$
+
+**Answer:**
+$$\mathbf{\frac{3x^3 z}{5y^3}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum and product of the roots for the following quadratic equation:
+$$x^2 + 8x - 65 = 0$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Comparing $x^2 + 8x - 65 = 0$ with $ax^2 + bx + c = 0$:
+$$a = 1, \quad b = 8, \quad c = -65$$
+
+Let the roots be $\alpha$ and $\beta$:
+- **Sum of the roots:**
+$$\alpha + \beta = -\frac{b}{a} = -\frac{8}{1} = -8$$
+
+- **Product of the roots:**
+$$\alpha\beta = \frac{c}{a} = \frac{-65}{1} = -65$$
+
+**Answer:**
+- **Sum of the roots** = **-8**
+- **Product of the roots** = **-65**
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Add:
+$$\frac{x^3}{x-y} + \frac{y^3}{y-x}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$\frac{x^3}{x-y} + \frac{y^3}{y-x}$$
+
+Since $y - x = -(x - y)$:
+$$= \frac{x^3}{x-y} - \frac{y^3}{x-y}$$
+$$= \frac{x^3 - y^3}{x - y}$$
+
+Using algebraic identity $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$:
+$$= \frac{(x - y)(x^2 + xy + y^2)}{x - y} = x^2 + xy + y^2$$
+
+**Answer:**
+$$\mathbf{x^2 + xy + y^2}$$
+
+</div>
+
+</details>
+
+---
+
+If $A = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix}$ and $B = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}$, find $AB$ and $BA$. Verify if $AB = BA$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+1. Finding $AB$:
+$$AB = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} = \begin{pmatrix} 2(2) + 1(1) & 2(0) + 1(3) \\ 1(2) + 3(1) & 1(0) + 3(3) \end{pmatrix}$$
+$$= \begin{pmatrix} 4 + 1 & 0 + 3 \\ 2 + 3 & 0 + 9 \end{pmatrix} = \begin{pmatrix} 5 & 3 \\ 5 & 9 \end{pmatrix}$$
+
+2. Finding $BA$:
+$$BA = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix} = \begin{pmatrix} 2(2) + 0(1) & 2(1) + 0(3) \\ 1(2) + 3(1) & 1(1) + 3(3) \end{pmatrix}$$
+$$= \begin{pmatrix} 4 + 0 & 2 + 0 \\ 2 + 3 & 1 + 9 \end{pmatrix} = \begin{pmatrix} 4 & 2 \\ 5 & 10 \end{pmatrix}$$
+
+Comparing $AB$ and $BA$:
+$$\begin{pmatrix} 5 & 3 \\ 5 & 9 \end{pmatrix} \neq \begin{pmatrix} 4 & 2 \\ 5 & 10 \end{pmatrix}$$
+
+**Answer:**
+$$AB = \mathbf{\begin{pmatrix} 5 & 3 \\ 5 & 9 \end{pmatrix}}, \quad BA = \mathbf{\begin{pmatrix} 4 & 2 \\ 5 & 10 \end{pmatrix}}, \quad \mathbf{AB \neq BA}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Reduce the rational expression $\frac{x^2 - 16}{x^2 + 8x + 16}$ to its lowest form.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$\frac{x^2 - 16}{x^2 + 8x + 16}$$
+
+1. Factorizing the numerator:
+$$x^2 - 16 = x^2 - 4^2 = (x - 4)(x + 4)$$
+
+2. Factorizing the denominator:
+$$x^2 + 8x + 16 = (x + 4)^2 = (x + 4)(x + 4)$$
+
+3. Simplifying:
+$$= \frac{(x - 4)(x + 4)}{(x + 4)(x + 4)} = \frac{x - 4}{x + 4}$$
+
+**Answer:**
+$$\mathbf{\frac{x - 4}{x + 4}}$$
+
+</div>
+
+</details>
+
+---
+
+If the difference between a number and its reciprocal is $\frac{24}{5}$, find the number.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the number be $x$. Its reciprocal is $\frac{1}{x}$.
+
+Given:
+$$x - \frac{1}{x} = \frac{24}{5}$$
+$$\frac{x^2 - 1}{x} = \frac{24}{5}$$
+
+Cross-multiplying:
+$$5(x^2 - 1) = 24x$$
+$$5x^2 - 5 = 24x$$
+$$5x^2 - 24x - 5 = 0$$
+
+Factorizing $5x^2 - 24x - 5 = 0$:
+$$5x^2 - 25x + x - 5 = 0$$
+$$5x(x - 5) + 1(x - 5) = 0$$
+$$(5x + 1)(x - 5) = 0$$
+
+Either $x - 5 = 0 \implies x = 5$ or $5x + 1 = 0 \implies x = -\frac{1}{5}$.
+
+**Answer:**
+The number is **5** or **$-\frac{1}{5}$**.
+
+</div>
+
+</details>
+
+---
+
+Construct a $3 \times 3$ matrix whose elements are given by $a_{ij} = |i - 2j|$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+A general $3 \times 3$ matrix is:
+$$A = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix}$$
+
+Calculating elements using $a_{ij} = |i - 2j|$:
+- Row 1 ($i = 1$):
+  - $a_{11} = |1 - 2(1)| = |1 - 2| = |-1| = 1$
+  - $a_{12} = |1 - 2(2)| = |1 - 4| = |-3| = 3$
+  - $a_{13} = |1 - 2(3)| = |1 - 6| = |-5| = 5$
+
+- Row 2 ($i = 2$):
+  - $a_{21} = |2 - 2(1)| = |2 - 2| = 0$
+  - $a_{22} = |2 - 2(2)| = |2 - 4| = |-2| = 2$
+  - $a_{23} = |2 - 2(3)| = |2 - 6| = |-4| = 4$
+
+- Row 3 ($i = 3$):
+  - $a_{31} = |3 - 2(1)| = |3 - 2| = 1$
+  - $a_{32} = |3 - 2(2)| = |3 - 4| = |-1| = 1$
+  - $a_{33} = |3 - 2(3)| = |3 - 6| = |-3| = 3$
+
+**Answer:**
+$$\mathbf{A = \begin{pmatrix} 1 & 3 & 5 \\ 0 & 2 & 4 \\ 1 & 1 & 3 \end{pmatrix}}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+Solve the following system of linear equations in three variables:
+$$x + 20 = \frac{3y}{2} + 10 = 2z + 5 = 110 - (y + z)$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$x + 20 = \frac{3y}{2} + 10 = 2z + 5 = 110 - (y + z)$$
+
+1. From $x + 20 = \frac{3y}{2} + 10$:
+$$x - \frac{3y}{2} = 10 - 20 = -10 \implies 2x - 3y = -20 \quad \text{--- (1)}$$
+
+2. From $\frac{3y}{2} + 10 = 2z + 5$:
+$$\frac{3y}{2} - 2z = 5 - 10 = -5 \implies 3y - 4z = -10 \quad \text{--- (2)}$$
+
+3. From $2z + 5 = 110 - (y + z)$:
+$$2z + 5 = 110 - y - z \implies y + 3z = 105 \quad \text{--- (3)}$$
+
+Eliminating $z$ between (2) and (3):
+Multiply equation (3) by 4:
+$$4y + 12z = 420 \quad \text{--- (4)}$$
+Multiply equation (2) by 3:
+$$9y - 12z = -30 \quad \text{--- (5)}$$
+
+Adding (4) and (5):
+$$13y = 390 \implies y = 30$$
+
+Substituting $y = 30$ in (1):
+$$2x - 3(30) = -20$$
+$$2x - 90 = -20 \implies 2x = 70 \implies x = 35$$
+
+Substituting $y = 30$ in (3):
+$$30 + 3z = 105 \implies 3z = 75 \implies z = 25$$
+
+**Answer:**
+$$\mathbf{x = 35, \quad y = 30, \quad z = 25}$$
+
+</div>
+
+</details>
+
+---
+
+If $A = \begin{pmatrix} 5 & 2 & 9 \\ 1 & 2 & 8 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 7 \\ 1 & 2 \\ 5 & -1 \end{pmatrix}$, verify that $(AB)^T = B^T A^T$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \begin{pmatrix} 5 & 2 & 9 \\ 1 & 2 & 8 \end{pmatrix}_{2 \times 3}, \quad B = \begin{pmatrix} 1 & 7 \\ 1 & 2 \\ 5 & -1 \end{pmatrix}_{3 \times 2}$$
+
+**Left Hand Side (LHS):** $(AB)^T$
+$$AB = \begin{pmatrix} 5(1) + 2(1) + 9(5) & 5(7) + 2(2) + 9(-1) \\ 1(1) + 2(1) + 8(5) & 1(7) + 2(2) + 8(-1) \end{pmatrix}$$
+$$= \begin{pmatrix} 5 + 2 + 45 & 35 + 4 - 9 \\ 1 + 2 + 40 & 7 + 4 - 8 \end{pmatrix} = \begin{pmatrix} 52 & 30 \\ 43 & 3 \end{pmatrix}$$
+
+Taking transpose:
+$$(AB)^T = \begin{pmatrix} 52 & 43 \\ 30 & 3 \end{pmatrix} \quad \text{--- (1)}$$
+
+**Right Hand Side (RHS):** $B^T A^T$
+$$B^T = \begin{pmatrix} 1 & 1 & 5 \\ 7 & 2 & -1 \end{pmatrix}, \quad A^T = \begin{pmatrix} 5 & 1 \\ 2 & 2 \\ 9 & 8 \end{pmatrix}$$
+$$B^T A^T = \begin{pmatrix} 1(5) + 1(2) + 5(9) & 1(1) + 1(2) + 5(8) \\ 7(5) + 2(2) + (-1)(9) & 7(1) + 2(2) + (-1)(8) \end{pmatrix}$$
+$$= \begin{pmatrix} 5 + 2 + 45 & 1 + 2 + 40 \\ 35 + 4 - 9 & 7 + 4 - 8 \end{pmatrix} = \begin{pmatrix} 52 & 43 \\ 30 & 3 \end{pmatrix} \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$(AB)^T = B^T A^T$ is verified.**
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Find the square root of $64x^4 - 16x^3 + 17x^2 - 2x + 1$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Using long division method:
+- The first term is $64x^4$, its square root is $8x^2$.
+- Quotient term 1: $8x^2$, giving $(8x^2)^2 = 64x^4$. Remainder: $-16x^3 + 17x^2$.
+- Double the quotient: $16x^2$. Divide $-16x^3$ by $16x^2$ to get $-x$.
+- Next divisor: $16x^2 - x$. Multiply by $-x$: $-16x^3 + x^2$.
+- Subtracting gives remainder: $16x^2 - 2x + 1$.
+- Double the quotient: $16x^2 - 2x$. Divide $16x^2$ by $16x^2$ to get $+1$.
+- Next divisor: $16x^2 - 2x + 1$. Multiply by $+1$: $16x^2 - 2x + 1$.
+- Subtracting gives remainder: $0$.
+
+Therefore:
+$$\sqrt{64x^4 - 16x^3 + 17x^2 - 2x + 1} = |8x^2 - x + 1|$$
+
+**Answer:**
+$$\mathbf{|8x^2 - x + 1|}$$
+
+</div>
+
+</details>
+
+---
+
+If $A = \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix}$, show that $A^2 - 5A + 7I_2 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix}$$
+
+1. Finding $A^2$:
+$$A^2 = A \times A = \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix}$$
+$$= \begin{bmatrix} 3(3) + 1(-1) & 3(1) + 1(2) \\ -1(3) + 2(-1) & -1(1) + 2(2) \end{bmatrix} = \begin{bmatrix} 9 - 1 & 3 + 2 \\ -3 - 2 & -1 + 4 \end{bmatrix} = \begin{bmatrix} 8 & 5 \\ -5 & 3 \end{bmatrix}$$
+
+2. Finding $5A$:
+$$5A = 5 \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix} = \begin{bmatrix} 15 & 5 \\ -5 & 10 \end{bmatrix}$$
+
+3. Finding $7I_2$:
+$$7I_2 = 7 \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 7 & 0 \\ 0 & 7 \end{bmatrix}$$
+
+4. Evaluating $A^2 - 5A + 7I_2$:
+$$A^2 - 5A + 7I_2 = \begin{bmatrix} 8 & 5 \\ -5 & 3 \end{bmatrix} - \begin{bmatrix} 15 & 5 \\ -5 & 10 \end{bmatrix} + \begin{bmatrix} 7 & 0 \\ 0 & 7 \end{bmatrix}$$
+$$= \begin{bmatrix} 8 - 15 + 7 & 5 - 5 + 0 \\ -5 - (-5) + 0 & 3 - 10 + 7 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix} = \mathbf{0}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+If $A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & -1 & 1 \end{pmatrix}$ and $B = \begin{pmatrix} 2 & -1 \\ -1 & 4 \\ 0 & 2 \end{pmatrix}$, show that $(AB)^T = B^T A^T$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & -1 & 1 \end{pmatrix}_{2 \times 3}, \quad B = \begin{pmatrix} 2 & -1 \\ -1 & 4 \\ 0 & 2 \end{pmatrix}_{3 \times 2}$$
+
+**Left Hand Side (LHS):**
+$$AB = \begin{pmatrix} 1(2) + 2(-1) + 1(0) & 1(-1) + 2(4) + 1(2) \\ 2(2) + (-1)(-1) + 1(0) & 2(-1) + (-1)(4) + 1(2) \end{pmatrix}$$
+$$= \begin{pmatrix} 2 - 2 + 0 & -1 + 8 + 2 \\ 4 + 1 + 0 & -2 - 4 + 2 \end{pmatrix} = \begin{pmatrix} 0 & 9 \\ 5 & -4 \end{pmatrix}$$
+
+Taking transpose:
+$$(AB)^T = \begin{pmatrix} 0 & 5 \\ 9 & -4 \end{pmatrix} \quad \text{--- (1)}$$
+
+**Right Hand Side (RHS):**
+$$B^T = \begin{pmatrix} 2 & -1 & 0 \\ -1 & 4 & 2 \end{pmatrix}, \quad A^T = \begin{pmatrix} 1 & 2 \\ 2 & -1 \\ 1 & 1 \end{pmatrix}$$
+$$B^T A^T = \begin{pmatrix} 2(1) + (-1)(2) + 0(1) & 2(2) + (-1)(-1) + 0(1) \\ -1(1) + 4(2) + 2(1) & -1(2) + 4(-1) + 2(1) \end{pmatrix}$$
+$$= \begin{pmatrix} 2 - 2 + 0 & 4 + 1 + 0 \\ -1 + 8 + 2 & -2 - 4 + 2 \end{pmatrix} = \begin{pmatrix} 0 & 5 \\ 9 & -4 \end{pmatrix} \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$(AB)^T = B^T A^T$ is proved.**
+
+</div>
+
+</details>
+
+---
+
+Determine the nature of the roots of the equation:
+$$(x - 1)^2 + (x - 2)^2 + (x - 3)^2 = 0$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Expanding each term:
+$$(x - 1)^2 = x^2 - 2x + 1$$
+$$(x - 2)^2 = x^2 - 4x + 4$$
+$$(x - 3)^2 = x^2 - 6x + 9$$
+
+Adding the equations:
+$$(x^2 - 2x + 1) + (x^2 - 4x + 4) + (x^2 - 6x + 9) = 0$$
+$$3x^2 - 12x + 14 = 0$$
+
+Comparing with $ax^2 + bx + c = 0$:
+$$a = 3, \quad b = -12, \quad c = 14$$
+
+Discriminant $\Delta$:
+$$\Delta = b^2 - 4ac = (-12)^2 - 4(3)(14)$$
+$$\Delta = 144 - 168 = -24$$
+
+Since $\Delta = -24 < 0$:
+The roots are not real.
+
+**Answer:**
+**No real roots** (roots are imaginary/complex).
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+If $\alpha$ and $\beta$ are the roots of the equation $2x^2 - 3x + 1 = 0$, form a quadratic equation whose roots are $\frac{1}{\alpha}$ and $\frac{1}{\beta}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+For the equation $2x^2 - 3x + 1 = 0$:
+$$a = 2, \quad b = -3, \quad c = 1$$
+$$\alpha + \beta = -\frac{b}{a} = -\frac{-3}{2} = \frac{3}{2}$$
+$$\alpha\beta = \frac{c}{a} = \frac{1}{2}$$
+
+We need to form the quadratic equation with roots $\frac{1}{\alpha}$ and $\frac{1}{\beta}$:
+1. **Sum of new roots:**
+$$\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{\frac{3}{2}}{\frac{1}{2}} = 3$$
+
+2. **Product of new roots:**
+$$\frac{1}{\alpha} \times \frac{1}{\beta} = \frac{1}{\alpha\beta} = \frac{1}{\frac{1}{2}} = 2$$
+
+The required quadratic equation is:
+$$x^2 - (\text{Sum of roots})x + (\text{Product of roots}) = 0$$
+$$x^2 - 3x + 2 = 0$$
+
+**Answer:**
+$$\mathbf{x^2 - 3x + 2 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+### 8 Marks
+
+#### 2023
+
+Draw the graph of $y = x^2 - 5x - 6$ and hence solve $x^2 - 5x - 14 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Step 1: Table of values for $y = x^2 - 5x - 6$**
+
+| $x$ | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $x^2$ | 4 | 1 | 0 | 1 | 4 | 9 | 16 | 25 | 36 | 49 |
+| $-5x$ | 10 | 5 | 0 | -5 | -10 | -15 | -20 | -25 | -30 | -35 |
+| $-6$ | -6 | -6 | -6 | -6 | -6 | -6 | -6 | -6 | -6 | -6 |
+| $y$ | 8 | 0 | -6 | -10 | -12 | -12 | -10 | -6 | 0 | 8 |
+
+Plot points $(-2, 8), (-1, 0), (0, -6), (1, -10), (2, -12), (3, -12), (4, -10), (5, -6), (6, 0), (7, 8)$ and join them to form a smooth parabolic curve.
+
+**Step 2: Solving $x^2 - 5x - 14 = 0$ using the graph**
+Subtract the second equation from the first:
+$$\begin{aligned}
+y &= x^2 - 5x - 6 \\
+0 &= x^2 - 5x - 14 \\
+\hline
+y &= 8
+\end{aligned}$$
+
+The equation $y = 8$ is a horizontal straight line parallel to the $x$-axis passing through $(0, 8)$.
+
+**Step 3: Finding Points of Intersection**
+The line $y = 8$ intersects the parabola at points $(-2, 8)$ and $(7, 8)$.
+The $x$-coordinates of these intersection points are $x = -2$ and $x = 7$.
+
+**Answer:**
+The solutions to $x^2 - 5x - 14 = 0$ are **$x = -2$** and **$x = 7$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Draw the graph of $y = 2x^2 - 3x - 5$ and hence solve $2x^2 - 4x - 6 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Step 1: Table of values for $y = 2x^2 - 3x - 5$**
+
+| $x$ | -2 | -1 | 0 | 1 | 2 | 3 | 4 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $2x^2$ | 8 | 2 | 0 | 2 | 8 | 18 | 32 |
+| $-3x$ | 6 | 3 | 0 | -3 | -6 | -9 | -12 |
+| $-5$ | -5 | -5 | -5 | -5 | -5 | -5 | -5 |
+| $y$ | 9 | 0 | -5 | -6 | -3 | 4 | 15 |
+
+Plot the points $(-2, 9), (-1, 0), (0, -5), (1, -6), (2, -3), (3, 4)$ and join them with a smooth parabolic curve.
+
+**Step 2: Subtracting the given equation from the parabola equation**
+$$\begin{aligned}
+y &= 2x^2 - 3x - 5 \\
+0 &= 2x^2 - 4x - 6 \\
+\hline
+y &= x + 1
+\end{aligned}$$
+
+**Step 3: Table of values for the straight line $y = x + 1$**
+
+| $x$ | -1 | 0 | 1 | 2 | 3 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $y = x + 1$ | 0 | 1 | 2 | 3 | 4 |
+
+Plot the points $(-1, 0), (0, 1), (3, 4)$ and draw the straight line.
+
+**Step 4: Finding points of intersection**
+The straight line $y = x + 1$ intersects the parabola at $(-1, 0)$ and $(3, 4)$.
+The $x$-coordinates of the intersection points are $x = -1$ and $x = 3$.
+
+**Answer:**
+The solution set of $2x^2 - 4x - 6 = 0$ is **$\{-1, 3\}$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Graph the quadratic equation $x^2 - 9x + 20 = 0$ and state the nature of solution.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $y = x^2 - 9x + 20$.
+
+**Step 1: Table of values**
+
+| $x$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $x^2$ | 1 | 4 | 9 | 16 | 25 | 36 | 49 |
+| $-9x$ | -9 | -18 | -27 | -36 | -45 | -54 | -63 |
+| $+20$ | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
+| $y$ | 12 | 6 | 2 | 0 | 0 | 2 | 6 |
+
+Plot the points $(1, 12), (2, 6), (3, 2), (4, 0), (5, 0), (6, 2), (7, 6)$ and draw a smooth parabola.
+
+**Step 2: Nature of Solutions**
+The curve intersects the $x$-axis at two distinct points $(4, 0)$ and $(5, 0)$.
+
+Since the curve intersects the $x$-axis at two distinct points, the equation has **real and unequal roots**.
+
+**Answer:**
+The solutions are **$x = 4$ and $x = 5$**. Nature of roots: **Real and unequal roots**.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Graph the quadratic equation $x^2 - 6x + 9 = 0$ and state its nature of solutions.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $y = x^2 - 6x + 9$.
+
+**Step 1: Table of values**
+
+| $x$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $x^2$ | 0 | 1 | 4 | 9 | 16 | 25 | 36 |
+| $-6x$ | 0 | -6 | -12 | -18 | -24 | -30 | -36 |
+| $+9$ | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
+| $y$ | 9 | 4 | 1 | 0 | 1 | 4 | 9 |
+
+Plot the points $(0, 9), (1, 4), (2, 1), (3, 0), (4, 1), (5, 4), (6, 9)$ and draw a smooth parabola.
+
+**Step 2: Nature of Solutions**
+The curve touches the $x$-axis at only one point $(3, 0)$.
+
+Since the parabola touches the $x$-axis at a single point, the roots are **real and equal**.
+
+**Answer:**
+The solution is **$x = 3$**. Nature of roots: **Real and equal roots**.
+
+</div>
+
+</details>
+
+---

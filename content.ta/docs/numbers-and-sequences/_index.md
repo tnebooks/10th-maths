@@ -2304,3 +2304,509 @@ $$
 இந்தப் படிகளைக் கொண்டு மற்ற செயல்பாடுகளைச் செய்க.
 
 https://www.geogebra.org/m/jfr2zzgy#chapter/356192 அல்லது விரைவுச் செயலியை ஸ்கேன் செய்யவும்
+
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+$x+6, x+12$ மற்றும் $x+15$ என்பன ஒரு பெருக்குத் தொடர்வரிசையின் தொடர்ச்சியான மூன்று உறுப்புகள் எனில், $x$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$x+6, x+12, x+15$ என்பன ஒரு பெருக்குத் தொடர்வரிசையின் அடுத்தடுத்த மூன்று உறுப்புகள் என்க.
+இங்கு $t_1 = x+6, t_2 = x+12, t_3 = x+15$.
+
+பெருக்குத் தொடர்வரிசையில் பொதுவிகிதம் சமம்:
+$$\frac{t_2}{t_1} = \frac{t_3}{t_2}$$
+$$\frac{x+12}{x+6} = \frac{x+15}{x+12}$$
+
+குறுக்குப் பெருக்கல் செய்ய:
+$$(x+12)^2 = (x+6)(x+15)$$
+$$x^2 + 24x + 144 = x^2 + 21x + 90$$
+$$24x - 21x = 90 - 144$$
+$$3x = -54$$
+$$x = \frac{-54}{3} = -18$$
+
+**விடை:**
+$$\mathbf{x = -18}$$
+
+</div>
+
+</details>
+
+---
+
+$p^2 \times q^1 \times r^4 \times s^3 = 3,15,000$ என்றவாறு அமையும் எனில், $p, q, r$ மற்றும் $s$-ன் மதிப்புகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$p^2 \times q^1 \times r^4 \times s^3 = 3,15,000$$
+
+$3,15,000$-ஐப் பகா காரணிப்படுத்துதல்:
+$$3,15,000 = 315 \times 1000$$
+$$= (5 \times 63) \times (10^3)$$
+$$= (5 \times 9 \times 7) \times (2 \times 5)^3$$
+$$= 5 \times 3^2 \times 7 \times 2^3 \times 5^3$$
+$$= 2^3 \times 3^2 \times 5^4 \times 7^1$$
+
+$p^2 \times q^1 \times r^4 \times s^3$-உடன் ஒப்பிட:
+- அடுக்கு 2 கொண்ட அடிமானம்: $p^2 = 3^2 \implies p = 3$
+- அடுக்கு 1 கொண்ட அடிமானம்: $q^1 = 7^1 \implies q = 7$
+- அடுக்கு 4 கொண்ட அடிமானம்: $r^4 = 5^4 \implies r = 5$
+- அடுக்கு 3 கொண்ட அடிமானம்: $s^3 = 2^3 \implies s = 2$
+
+**விடை:**
+$$\mathbf{p = 3, \quad q = 7, \quad r = 5, \quad s = 2}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$a^b \times b^a = 800$ என்றவாறு அமையும் இரு மிகை முழுக்கள் '$a$' மற்றும் '$b$'-ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$a^b \times b^a = 800$$
+
+800-ஐப் பகா காரணிப்படுத்துதல்:
+$$800 = 8 \times 100 = 2^3 \times 2^2 \times 5^2 = 2^5 \times 5^2$$
+
+$a^b \times b^a$-ஐ $2^5 \times 5^2$-உடன் ஒப்பிட:
+$a = 2, b = 5$ எனில், $2^5 \times 5^2 = 32 \times 25 = 800$.
+(அல்லது $a = 5, b = 2$ எனில், $5^2 \times 2^5 = 25 \times 32 = 800$).
+
+**விடை:**
+$$\mathbf{a = 2, \quad b = 5} \quad \text{(அல்லது } \mathbf{a = 5, \quad b = 2}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+23 மற்றும் 12 ஆகியவற்றின் மீ.பொ.வ-வை யூக்ளிடின் வகுத்தல் வழிமுறையைப் பயன்படுத்திக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+யூக்ளிடின் வகுத்தல் துணைத் தேற்றப்படி, $a = bq + r, \quad 0 \le r < b$:
+
+- **படி 1:** 23 மற்றும் 12-க்கு வகுத்தல் துணைத் தேற்றத்தைப் பயன்படுத்த:
+$$23 = 12 \times 1 + 11$$
+மீதி $11 \neq 0$.
+
+- **படி 2:** 12 மற்றும் 11-க்கு வகுத்தல் துணைத் தேற்றத்தைப் பயன்படுத்த:
+$$12 = 11 \times 1 + 1$$
+மீதி $1 \neq 0$.
+
+- **படி 3:** 11 மற்றும் 1-க்கு வகுத்தல் துணைத் தேற்றத்தைப் பயன்படுத்த:
+$$11 = 1 \times 11 + 0$$
+மீதி 0 வந்துள்ளதால், இந்நிலையின் வகுத்தியே மீ.பொ.வ ஆகும்.
+
+**விடை:**
+$$\mathbf{\text{மீ.பொ.வ}(23, 12) = 1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+ஒரு நபரிடம் 532 பூந்தொட்டிகள் உள்ளன. அவர் வரிசைக்கு 21 பூந்தொட்டிகள் வீதம் அடுக்க விரும்பினார். எத்தனை வரிசைகள் முழுமை பெறும் எனவும் மற்றும் எத்தனை பூந்தொட்டிகள் மீதமிருக்கும் எனவும் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+மொத்தப் பூந்தொட்டிகள் $= 532$.
+ஒரு வரிசையில் உள்ள பூந்தொட்டிகள் $= 21$.
+
+யூக்ளிடின் வகுத்தல் துணைத் தேற்றப்படி, $a = bq + r, \quad 0 \le r < b$:
+$$532 = 21 \times 25 + 7$$
+
+இங்கு:
+- ஈவு $q = 25$
+- மீதி $r = 7$
+
+**விடை:**
+- **முழுமை பெற்ற வரிசைகளின் எண்ணிக்கை** = **25**
+- **மீதமுள்ள பூந்தொட்டிகளின் எண்ணிக்கை** = **7**
+
+</div>
+
+</details>
+
+---
+
+$\sqrt{2}, \sqrt{8}, \sqrt{18}, \sqrt{32}, \sqrt{50}, \ldots$ என்ற தொடர்வரிசை ஒரு கூட்டுத்தொடர்வரிசையா இல்லையா என்பதைச் சோதிக்க. இது ஒரு கூட்டுத்தொடர்வரிசை எனில் அதன் பொது வித்தியாசம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட தொடர்வரிசையின் உறுப்புகளைச் சுருக்குதல்:
+- $t_1 = \sqrt{2}$
+- $t_2 = \sqrt{8} = \sqrt{4 \times 2} = 2\sqrt{2}$
+- $t_3 = \sqrt{18} = \sqrt{9 \times 2} = 3\sqrt{2}$
+- $t_4 = \sqrt{32} = \sqrt{16 \times 2} = 4\sqrt{2}$
+- $t_5 = \sqrt{50} = \sqrt{25 \times 2} = 5\sqrt{2}$
+
+அடுத்தடுத்த உறுப்புகளின் வித்தியாசங்களைக் காணுதல்:
+$$t_2 - t_1 = 2\sqrt{2} - \sqrt{2} = \sqrt{2}$$
+$$t_3 - t_2 = 3\sqrt{2} - 2\sqrt{2} = \sqrt{2}$$
+$$t_4 - t_3 = 4\sqrt{2} - 3\sqrt{2} = \sqrt{2}$$
+
+அடுத்தடுத்த உறுப்புகளின் வித்தியாசம் மாறிலியாக இருப்பதால், இத்தொடர்வரிசை ஒரு **கூட்டுத்தொடர்வரிசை (A.P.)** ஆகும்.
+
+**விடை:**
+கொடுக்கப்பட்ட தொடர்வரிசை ஒரு **கூட்டுத்தொடர்வரிசை** ஆகும். அதன் பொது வித்தியாசம் $\mathbf{d = \sqrt{2}}$.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$71 \equiv x \pmod 8$ என்ற சமன்பாட்டை நிறைவு செய்யக்கூடிய குறைந்தபட்ச மிகை முழு $x$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$71 \equiv x \pmod 8$$
+
+மட்டு எண்கணிதத்தின் வரையறைப்படி:
+$$71 - x = 8k \quad (k \text{ ஒரு முழு})$$
+
+71-ஐ 8-ஆல் வகுக்கும்போது:
+$$71 = 8 \times 8 + 7$$
+$$71 - 7 = 8 \times 8$$
+
+எனவே $71 - 7$ என்பது 8-ஆல் வகுபடும். $x$-ன் குறைந்தபட்ச மிகை மதிப்பு 7 ஆகும்.
+
+**விடை:**
+$$\mathbf{x = 7}$$
+
+</div>
+
+</details>
+
+---
+
+$9 + 3 + 1 + \ldots$ என்ற முடிவுறாத் தொடரின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட தொடர்:
+$$9 + 3 + 1 + \ldots$$
+
+முதல் உறுப்பு $a = 9$.
+பொதுவிகிதம் $r = \frac{t_2}{t_1} = \frac{3}{9} = \frac{1}{3}$.
+
+இங்கு $|r| = \left|\frac{1}{3}\right| < 1$ என்பதால், முடிவுறாத் தொடரின் கூடுதல் காண இயலும்:
+$$S_\infty = \frac{a}{1 - r}$$
+$$S_\infty = \frac{9}{1 - \frac{1}{3}} = \frac{9}{\frac{2}{3}} = 9 \times \frac{3}{2} = \frac{27}{2} = 13.5$$
+
+**விடை:**
+$$\mathbf{S_\infty = \frac{27}{2}} \quad \text{(அல்லது } \mathbf{13.5}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+ஒரு தெருவிலுள்ள வீடுகளுக்கு 1 முதல் 49 வரை தொடர்ச்சியாகக் கதவிலக்கம் வழங்கப்பட்டுள்ளது. செந்திலின் வீட்டிற்கு முன்னதாக உள்ள வீடுகளின் கதவிலக்கங்களின் கூட்டுத்தொகையானது செந்திலின் வீட்டிற்குப் பின்னதாக உள்ள வீடுகளின் கதவிலக்கங்களின் கூட்டுத்தொகைக்குச் சமம் எனில் செந்திலின் வீட்டின் கதவிலக்கத்தைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+செந்திலின் வீட்டின் கதவிலக்கம் $x$ என்க.
+வீடுகளின் கதவிலக்கங்கள் $1, 2, 3, \ldots, 49$.
+
+கொடுக்கப்பட்ட நிபந்தனைப்படி:
+$$\text{செந்திலின் வீட்டிற்கு முன்னுள்ள வீடுகளின் கூடுதல்} = \text{செந்திலின் வீட்டிற்குப் பின்னுள்ள வீடுகளின் கூடுதல்}$$
+$$1 + 2 + 3 + \ldots + (x - 1) = (x + 1) + (x + 2) + \ldots + 49$$
+$$1 + 2 + 3 + \ldots + (x - 1) = (1 + 2 + \ldots + 49) - (1 + 2 + \ldots + x)$$
+
+முதல் $n$ இயல் எண்களின் கூடுதல் சூத்திரம் $S_n = \frac{n(n+1)}{2}$ பயன்படுத்த:
+$$\frac{(x-1)x}{2} = \frac{49 \times 50}{2} - \frac{x(x+1)}{2}$$
+
+இருபுறமும் 2-ஆல் பெருக்க:
+$$x(x - 1) + x(x + 1) = 49 \times 50$$
+$$x^2 - x + x^2 + x = 2450$$
+$$2x^2 = 2450$$
+$$x^2 = 1225$$
+$$x = \sqrt{1225} = 35$$
+
+**விடை:**
+செந்திலின் வீட்டின் கதவிலக்கம் **35** ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+$5 + 55 + 555 + \ldots$ என்ற தொடர்வரிசையின் முதல் $n$ உறுப்புகளின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$S_n = 5 + 55 + 555 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}$$
+
+5-ஐப் பொதுக்காரணியாக வெளியே எடுக்க:
+$$S_n = 5 [1 + 11 + 111 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}]$$
+
+9-ஆல் பெருக்கி வகுக்க:
+$$S_n = \frac{5}{9} [9 + 99 + 999 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}]$$
+$$= \frac{5}{9} [(10 - 1) + (10^2 - 1) + (10^3 - 1) + \ldots + (10^n - 1)]$$
+$$= \frac{5}{9} [(10 + 10^2 + 10^3 + \ldots + 10^n) - (1 + 1 + 1 + \ldots \text{ } n \text{ முறை})]$$
+
+$10, 10^2, 10^3, \ldots$ என்பது $a = 10, r = 10$ கொண்ட ஒரு பெருக்குத் தொடர்வரிசையாகும்:
+$$\text{கூடுதல்} = \frac{a(r^n - 1)}{r - 1} = \frac{10(10^n - 1)}{10 - 1} = \frac{10(10^n - 1)}{9}$$
+
+பிரதியிட:
+$$S_n = \frac{5}{9} \left[ \frac{10(10^n - 1)}{9} - n \right] = \frac{50}{81}(10^n - 1) - \frac{5n}{9}$$
+
+**விடை:**
+$$\mathbf{S_n = \frac{50}{81}(10^n - 1) - \frac{5n}{9}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$9^3 + 10^3 + \ldots + 21^3$-ன் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட தொடரை பின்வருமாறு எழுதலாம்:
+$$9^3 + 10^3 + \ldots + 21^3 = (1^3 + 2^3 + \ldots + 21^3) - (1^3 + 2^3 + \ldots + 8^3)$$
+
+முதல் $n$ இயல் எண்களின் கனங்களின் கூடுதல் சூத்திரம்:
+$$\sum_{k=1}^n k^3 = \left[ \frac{n(n+1)}{2} \right]^2$$
+
+1. $n = 21$ எனில்:
+$$\sum_{k=1}^{21} k^3 = \left[ \frac{21 \times 22}{2} \right]^2 = [21 \times 11]^2 = 231^2 = 53361$$
+
+2. $n = 8$ எனில்:
+$$\sum_{k=1}^{8} k^3 = \left[ \frac{8 \times 9}{2} \right]^2 = [4 \times 9]^2 = 36^2 = 1296$$
+
+கழிக்க:
+$$9^3 + 10^3 + \ldots + 21^3 = 53361 - 1296 = 52065$$
+
+**விடை:**
+$$\mathbf{52,065}$$
+
+</div>
+
+</details>
+
+---
+
+$7 + 77 + 777 + \ldots$ என்ற தொடர்வரிசையின் $n$ உறுப்புகளின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$S_n = 7 + 77 + 777 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}$$
+
+7-ஐப் பொதுக்காரணியாக வெளியே எடுக்க:
+$$S_n = 7 [1 + 11 + 111 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}]$$
+
+9-ஆல் பெருக்கி வகுக்க:
+$$S_n = \frac{7}{9} [9 + 99 + 999 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}]$$
+$$= \frac{7}{9} [(10 - 1) + (10^2 - 1) + (10^3 - 1) + \ldots + (10^n - 1)]$$
+$$= \frac{7}{9} [(10 + 10^2 + 10^3 + \ldots + 10^n) - n]$$
+
+$10, 10^2, 10^3, \ldots$ பெருக்குத் தொடர்வரிசையின் கூடுதல்:
+$$\text{கூடுதல்} = \frac{10(10^n - 1)}{10 - 1} = \frac{10(10^n - 1)}{9}$$
+
+பிரதியிட:
+$$S_n = \frac{7}{9} \left[ \frac{10(10^n - 1)}{9} - n \right] = \frac{70}{81}(10^n - 1) - \frac{7n}{9}$$
+
+**விடை:**
+$$\mathbf{S_n = \frac{70}{81}(10^n - 1) - \frac{7n}{9}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$113400 = p_1^{x_1} p_2^{x_2} p_3^{x_3} p_4^{x_4}$ இங்கு $p_1, p_2, p_3, p_4$ என்பன ஏறுவரிசையில் அமைந்த பகா எண்கள் மற்றும் $x_1, x_2, x_3, x_4$ என்பன முழுக்கள் எனில், $p_1, p_2, p_3, p_4$ மற்றும் $x_1, x_2, x_3, x_4$-ன் மதிப்புகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$113400$-ஐப் பகா காரணிப்படுத்துதல்:
+$$113400 = 1134 \times 100$$
+$$1134 = 2 \times 567 = 2 \times 3^4 \times 7$$
+$$100 = 2^2 \times 5^2$$
+$$113400 = 2^3 \times 3^4 \times 5^2 \times 7^1$$
+
+பகா எண்களை ஏறுவரிசையில் அமைத்து ஒப்பிட:
+- $p_1 = 2, \quad x_1 = 3$
+- $p_2 = 3, \quad x_2 = 4$
+- $p_3 = 5, \quad x_3 = 2$
+- $p_4 = 7, \quad x_4 = 1$
+
+**விடை:**
+$$\mathbf{p_1 = 2, \; p_2 = 3, \; p_3 = 5, \; p_4 = 7}$$
+$$\mathbf{x_1 = 3, \; x_2 = 4, \; x_3 = 2, \; x_4 = 1}$$
+
+</div>
+
+</details>
+
+---
+
+$6^2 + 7^2 + 8^2 + \ldots + 21^2$-ன் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட தொடரை பின்வருமாறு எழுதலாம்:
+$$6^2 + 7^2 + 8^2 + \ldots + 21^2 = (1^2 + 2^2 + \ldots + 21^2) - (1^2 + 2^2 + \ldots + 5^2)$$
+
+முதல் $n$ இயல் எண்களின் வர்க்கங்களின் கூடுதல் சூத்திரம்:
+$$\sum_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6}$$
+
+1. $n = 21$ எனில்:
+$$\sum_{k=1}^{21} k^2 = \frac{21 \times 22 \times 43}{6} = 7 \times 11 \times 43 = 3311$$
+
+2. $n = 5$ எனில்:
+$$\sum_{k=1}^{5} k^2 = \frac{5 \times 6 \times 11}{6} = 55$$
+
+கழிக்க:
+$$6^2 + 7^2 + 8^2 + \ldots + 21^2 = 3311 - 55 = 3256$$
+
+**விடை:**
+$$\mathbf{3,256}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+300-க்கும் 600-க்கும் இடையே 7-ஆல் வகுபடும் அனைத்து இயல் எண்களின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+300-க்கும் 600-க்கும் இடையே 7-ஆல் வகுபடும் எண்கள் ஒரு கூட்டுத்தொடர்வரிசையை அமைக்கும்:
+- 300-ஐ விடப் பெரிய முதல் எண்: $300 \div 7 = 42$ மீதி $6 \implies 300 + (7 - 6) = 301$.
+- 600-ஐ விடச் சிறிய கடைசி எண்: $600 \div 7 = 85$ மீதி $5 \implies 600 - 5 = 595$.
+
+தொடர்:
+$$301 + 308 + 315 + \ldots + 595$$
+
+இங்கு:
+- முதல் உறுப்பு $a = 301$
+- பொது வித்தியாசம் $d = 7$
+- கடைசி உறுப்பு $l = 595$
+
+உறுப்புகளின் எண்ணிக்கை $n$:
+$$n = \frac{l - a}{d} + 1 = \frac{595 - 301}{7} + 1 = \frac{294}{7} + 1 = 42 + 1 = 43$$
+
+கூடுதல் $S_n$:
+$$S_{43} = \frac{n}{2}(a + l) = \frac{43}{2}(301 + 595) = \frac{43}{2} \times 896 = 43 \times 448 = 19264$$
+
+**விடை:**
+$$\mathbf{19,264}$$
+
+</div>
+
+</details>
+
+---
+
+$3 + 33 + 333 + \ldots$ என்ற தொடர்வரிசையின் $n$ உறுப்புகளின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$S_n = 3 + 33 + 333 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}$$
+
+3-ஐப் பொதுக்காரணியாக வெளியே எடுக்க:
+$$S_n = 3 [1 + 11 + 111 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}]$$
+
+9-ஆல் பெருக்கி வகுக்க:
+$$S_n = \frac{3}{9} [9 + 99 + 999 + \ldots \text{ (} n \text{ உறுப்புகள் வரை)}]$$
+$$= \frac{1}{3} [(10 - 1) + (10^2 - 1) + (10^3 - 1) + \ldots + (10^n - 1)]$$
+$$= \frac{1}{3} [(10 + 10^2 + 10^3 + \ldots + 10^n) - n]$$
+
+பெருக்குத் தொடர்வரிசையின் கூடுதல் சூத்திரம் பயன்படுத்த:
+$$S_n = \frac{1}{3} \left[ \frac{10(10^n - 1)}{9} - n \right] = \frac{10}{27}(10^n - 1) - \frac{n}{3}$$
+
+**விடை:**
+$$\mathbf{S_n = \frac{10}{27}(10^n - 1) - \frac{n}{3}}$$
+
+</div>
+
+</details>
+
+---

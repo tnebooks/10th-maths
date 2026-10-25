@@ -2172,3 +2172,473 @@ Therefore, probability of $B$ getting selected is atmost 0.8.
 [https://www.geogebra.org/m/jfr2zzgy#chapter/359554](https://www.geogebra.org/m/jfr2zzgy#chapter/359554)
 
 or Scan the QR Code.
+
+
+---
+
+## Board Examination Questions
+
+### 2 Marks
+
+#### 2023
+
+Find the range and coefficient of range of the following data:
+$$63, 89, 98, 125, 79, 108, 117, 68$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+From the given data:
+- Largest value $L = 125$
+- Smallest value $S = 63$
+
+1. **Range ($R$):**
+$$R = L - S = 125 - 63 = 62$$
+
+2. **Coefficient of Range:**
+$$\text{Coefficient of Range} = \frac{L - S}{L + S} = \frac{125 - 63}{125 + 63} = \frac{62}{188} = \frac{31}{94} \approx 0.33$$
+
+**Answer:**
+$$\mathbf{\text{Range} = 62}, \quad \mathbf{\text{Coefficient of Range} = \frac{31}{94} \approx 0.33}$$
+
+</div>
+
+</details>
+
+---
+
+$A$ and $B$ are two candidates seeking admission to IIT. The probability that $A$ gets selected is $0.5$ and the probability that both $A$ and $B$ get selected is $0.3$. Prove that the probability of $B$ getting selected is at most $0.8$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$P(A) = 0.5, \quad P(A \cap B) = 0.3$$
+
+We know that for any two events $A$ and $B$:
+$$P(A \cup B) \le 1$$
+
+By the addition theorem of probability:
+$$P(A) + P(B) - P(A \cap B) \le 1$$
+$$0.5 + P(B) - 0.3 \le 1$$
+$$P(B) + 0.2 \le 1$$
+$$P(B) \le 1 - 0.2$$
+$$P(B) \le 0.8$$
+
+Therefore, the probability of $B$ getting selected is **at most $0.8$**.
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Find the range and coefficient of range of the following data:
+$$25, 67, 48, 53, 18, 39, 44$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given data:
+- Largest value $L = 67$
+- Smallest value $S = 18$
+
+1. **Range ($R$):**
+$$R = L - S = 67 - 18 = 49$$
+
+2. **Coefficient of Range:**
+$$\text{Coefficient of Range} = \frac{L - S}{L + S} = \frac{67 - 18}{67 + 18} = \frac{49}{85} \approx 0.576$$
+
+**Answer:**
+$$\mathbf{\text{Range} = 49}, \quad \mathbf{\text{Coefficient of Range} = \frac{49}{85} \approx 0.58}$$
+
+</div>
+
+</details>
+
+---
+
+What is the probability that a leap year selected at random will contain 53 Saturdays?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+A leap year has $366\text{ days}$:
+$$366 = 52 \times 7 + 2 = 52\text{ weeks} + 2\text{ extra days}$$
+
+The 52 complete weeks contain 52 Saturdays.
+The sample space $S$ for the 2 consecutive extra days has 7 possibilities:
+$$S = \{(\text{Sun, Mon}), (\text{Mon, Tue}), (\text{Tue, Wed}), (\text{Wed, Thu}), (\text{Thu, Fri}), (\text{Fri, Sat}), (\text{Sat, Sun})\}$$
+$$n(S) = 7$$
+
+Let $E$ be the event of having a 53rd Saturday:
+$$E = \{(\text{Fri, Sat}), (\text{Sat, Sun})\} \implies n(E) = 2$$
+
+$$P(E) = \frac{n(E)}{n(S)} = \frac{2}{7}$$
+
+**Answer:**
+$$\mathbf{\frac{2}{7}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Find the range of the following distribution:
+
+| Age (in years) | 16–18 | 18–20 | 20–22 | 22–24 | 24–26 | 26–28 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Number of Students | 0 | 4 | 6 | 8 | 2 | 2 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since the number of students in the age group 16–18 is 0, the actual distribution of students starts from 18 years.
+- Lower limit of lowest class with non-zero frequency $S = 18$
+- Upper limit of highest class with non-zero frequency $L = 28$
+
+$$\text{Range } R = L - S = 28 - 18 = 10\text{ years}$$
+
+**Answer:**
+$$\mathbf{\text{Range} = 10\text{ years}}$$
+
+</div>
+
+</details>
+
+---
+
+A flower is selected at random from a basket containing 80 yellow, 70 red and 50 white flowers. Find the probability of selecting a yellow coloured flower.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total number of flowers in the basket:
+$$n(S) = 80 + 70 + 50 = 200$$
+
+Let $Y$ be the event of selecting a yellow flower:
+$$n(Y) = 80$$
+
+$$P(Y) = \frac{n(Y)}{n(S)} = \frac{80}{200} = \frac{8}{20} = \frac{2}{5} = 0.4$$
+
+**Answer:**
+$$\mathbf{\frac{2}{5}} \quad \text{(or } \mathbf{0.4}\text{)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Find the Standard Deviation of the first 21 natural numbers.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+For the first $n$ natural numbers, the standard deviation is given by:
+$$\sigma = \sqrt{\frac{n^2 - 1}{12}}$$
+
+Given $n = 21$:
+$$\sigma = \sqrt{\frac{21^2 - 1}{12}} = \sqrt{\frac{441 - 1}{12}} = \sqrt{\frac{440}{12}} = \sqrt{\frac{110}{3}} \approx \sqrt{36.67} \approx 6.055$$
+
+**Answer:**
+$$\mathbf{\sigma \approx 6.06}$$
+
+</div>
+
+</details>
+
+---
+
+A die is rolled and a coin is tossed simultaneously. Find the probability that the die shows an odd number and the coin shows a head.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Sample space:
+$$S = \{(1, H), (1, T), (2, H), (2, T), (3, H), (3, T), (4, H), (4, T), (5, H), (5, T), (6, H), (6, T)\}$$
+$$n(S) = 6 \times 2 = 12$$
+
+Let $A$ be the event that the die shows an odd number and the coin shows a head:
+$$A = \{(1, H), (3, H), (5, H)\}$$
+$$n(A) = 3$$
+
+$$P(A) = \frac{n(A)}{n(S)} = \frac{3}{12} = \frac{1}{4}$$
+
+**Answer:**
+$$\mathbf{\frac{1}{4}}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 Marks
+
+#### 2023
+
+Two unbiased dice are rolled once. Find the probability of getting:
+(i) a doublet (equal face values)
+(ii) the product as a prime number
+(iii) the sum as a prime number
+(iv) the sum as 1
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Sample space for rolling two dice:
+$$n(S) = 6 \times 6 = 36$$
+
+**(i) A doublet:**
+$$A = \{(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)\} \implies n(A) = 6$$
+$$P(A) = \frac{6}{36} = \mathbf{\frac{1}{6}}$$
+
+**(ii) Product as a prime number:**
+Prime products can be 2, 3, or 5:
+$$B = \{(1, 2), (2, 1), (1, 3), (3, 1), (1, 5), (5, 1)\} \implies n(B) = 6$$
+$$P(B) = \frac{6}{36} = \mathbf{\frac{1}{6}}$$
+
+**(iii) Sum as a prime number:**
+Prime sums can be 2, 3, 5, 7, 11:
+- Sum 2: $(1, 1)$ [1]
+- Sum 3: $(1, 2), (2, 1)$ [2]
+- Sum 5: $(1, 4), (2, 3), (3, 2), (4, 1)$ [4]
+- Sum 7: $(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)$ [6]
+- Sum 11: $(5, 6), (6, 5)$ [2]
+$$n(C) = 1 + 2 + 4 + 6 + 2 = 15$$
+$$P(C) = \frac{15}{36} = \mathbf{\frac{5}{12}}$$
+
+**(iv) Sum as 1:**
+The minimum sum on two dice is $1 + 1 = 2$.
+$$D = \emptyset \implies n(D) = 0$$
+$$P(D) = \frac{0}{36} = \mathbf{0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+Find the coefficient of variation of $24, 26, 33, 37, 29, 31$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given $n = 6$.
+$$\sum x = 24 + 26 + 33 + 37 + 29 + 31 = 180$$
+$$\text{Mean } \bar{x} = \frac{\sum x}{n} = \frac{180}{6} = 30$$
+
+Deviation table ($d_i = x_i - 30$):
+
+| $x_i$ | $d_i = x_i - 30$ | $d_i^2$ |
+| :---: | :---: | :---: |
+| 24 | -6 | 36 |
+| 26 | -4 | 16 |
+| 33 | +3 | 9 |
+| 37 | +7 | 49 |
+| 29 | -1 | 1 |
+| 31 | +1 | 1 |
+| **Total** | **0** | **112** |
+
+Standard deviation:
+$$\sigma = \sqrt{\frac{\sum d_i^2}{n}} = \sqrt{\frac{112}{6}} = \sqrt{18.67} \approx 4.32$$
+
+Coefficient of variation:
+$$\text{C.V.} = \frac{\sigma}{\bar{x}} \times 100\% = \frac{4.32}{30} \times 100\% = 14.4\%$$
+
+**Answer:**
+$$\mathbf{\text{C.V.} = 14.4\%}$$
+
+</div>
+
+</details>
+
+---
+
+Two dice are rolled once. Find the probability of getting an even number on the first die or a total of face sum 8.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Sample space $n(S) = 36$.
+
+- Let $A$ be the event of getting an even number on the first die:
+$$A = \{(2, 1), (2, 2), \ldots, (2, 6), (4, 1), \ldots, (4, 6), (6, 1), \ldots, (6, 6)\}$$
+$$n(A) = 3 \times 6 = 18 \implies P(A) = \frac{18}{36}$$
+
+- Let $B$ be the event of getting a total sum of 8:
+$$B = \{(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)\} \implies n(B) = 5 \implies P(B) = \frac{5}{36}$$
+
+- $A \cap B$ is the event of an even number on the first die and sum 8:
+$$A \cap B = \{(2, 6), (4, 4), (6, 2)\} \implies n(A \cap B) = 3 \implies P(A \cap B) = \frac{3}{36}$$
+
+By the Addition Theorem of Probability:
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B) = \frac{18}{36} + \frac{5}{36} - \frac{3}{36} = \frac{20}{36} = \frac{5}{9}$$
+
+**Answer:**
+$$\mathbf{\frac{5}{9}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+The total marks scored by two students, Sathya and Vidhya in 5 subjects are 460 and 480 with standard deviation 4.6 and 2.4 respectively. Who is more consistent in performance?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Number of subjects $n = 5$.
+
+1. **For Sathya:**
+- Total marks $= 460 \implies \bar{x}_1 = \frac{460}{5} = 92$
+- Standard deviation $\sigma_1 = 4.6$
+$$\text{C.V.}_1 = \frac{\sigma_1}{\bar{x}_1} \times 100\% = \frac{4.6}{92} \times 100\% = 5\%$$
+
+2. **For Vidhya:**
+- Total marks $= 480 \implies \bar{x}_2 = \frac{480}{5} = 96$
+- Standard deviation $\sigma_2 = 2.4$
+$$\text{C.V.}_2 = \frac{\sigma_2}{\bar{x}_2} \times 100\% = \frac{2.4}{96} \times 100\% = 2.5\%$$
+
+Comparing the coefficients of variation:
+$$\text{C.V.}_2 < \text{C.V.}_1 \quad (2.5\% < 5\%)$$
+
+A lesser coefficient of variation indicates greater consistency.
+
+**Answer:**
+**Vidhya** is more consistent in performance.
+
+</div>
+
+</details>
+
+---
+
+A bag contains 5 red balls, 6 white balls, 7 green balls, 8 black balls. One ball is drawn at random from the bag. Find the probability that the ball drawn is:
+(i) white
+(ii) black or red
+(iii) not white
+(iv) neither white nor black
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total number of balls:
+$$n(S) = 5 + 6 + 7 + 8 = 26$$
+
+**(i) Probability of getting a white ball:**
+Number of white balls $n(W) = 6$:
+$$P(W) = \frac{6}{26} = \mathbf{\frac{3}{13}}$$
+
+**(ii) Probability of getting a black or red ball:**
+Number of black or red balls $n(B \cup R) = 8 + 5 = 13$:
+$$P(B \cup R) = \frac{13}{26} = \mathbf{\frac{1}{2}}$$
+
+**(iii) Probability of not getting a white ball:**
+$$P(\bar{W}) = 1 - P(W) = 1 - \frac{3}{13} = \mathbf{\frac{10}{13}}$$
+
+**(iv) Probability of getting neither white nor black ball (i.e. red or green):**
+Number of red or green balls $= 5 + 7 = 12$:
+$$P(\text{neither white nor black}) = \frac{12}{26} = \mathbf{\frac{6}{13}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+Find the coefficient of variation of $24, 26, 33, 37, 29, 31$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\bar{x} = \frac{24 + 26 + 33 + 37 + 29 + 31}{6} = \frac{180}{6} = 30$$
+
+Deviations $d_i = x_i - 30$: $-6, -4, 3, 7, -1, 1$.
+$$\sum d_i^2 = 36 + 16 + 9 + 49 + 1 + 1 = 112$$
+$$\sigma = \sqrt{\frac{112}{6}} = \sqrt{18.67} \approx 4.32$$
+$$\text{C.V.} = \frac{4.32}{30} \times 100\% = 14.4\%$$
+
+**Answer:**
+$$\mathbf{\text{C.V.} = 14.4\%}$$
+
+</div>
+
+</details>
+
+---
+
+Two dice are rolled together. Find the probability of getting a doublet or sum of faces as 4.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Sample space $n(S) = 36$.
+
+- Let $A$ be the event of getting a doublet:
+$$A = \{(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)\} \implies n(A) = 6 \implies P(A) = \frac{6}{36}$$
+
+- Let $B$ be the event of sum of faces equal to 4:
+$$B = \{(1, 3), (2, 2), (3, 1)\} \implies n(B) = 3 \implies P(B) = \frac{3}{36}$$
+
+- $A \cap B$ is getting a doublet whose sum is 4:
+$$A \cap B = \{(2, 2)\} \implies n(A \cap B) = 1 \implies P(A \cap B) = \frac{1}{36}$$
+
+By Addition Theorem:
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B) = \frac{6}{36} + \frac{3}{36} - \frac{1}{36} = \frac{8}{36} = \frac{2}{9}$$
+
+**Answer:**
+$$\mathbf{\frac{2}{9}}$$
+
+</div>
+
+</details>
+
+---

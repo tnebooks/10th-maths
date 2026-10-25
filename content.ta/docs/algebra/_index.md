@@ -3541,3 +3541,604 @@ $(1),(2)$ –லிருந்து $(AB)^T=B^TA^T$ என நிரூபி�
 
 அல்லது விரைவுச் செயலியை ஸ்கேன் செய்யவும்
 
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+சுருக்குக:
+$$\frac{x+2}{4y} \div \frac{x^2 - x - 6}{12y^2}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட கோவை:
+$$\frac{x+2}{4y} \div \frac{x^2 - x - 6}{12y^2}$$
+
+1. $x^2 - x - 6$-ஐக் காரணிப்படுத்த:
+$$x^2 - x - 6 = (x - 3)(x + 2)$$
+
+2. வகுத்தலை பெருக்கலாக மாற்றி தலைகீழாக்க:
+$$= \frac{x+2}{4y} \times \frac{12y^2}{(x - 3)(x + 2)}$$
+
+3. பொது உறுப்பு $(x+2)$-ஐ நீக்கி, எண்களைச் சுருக்க:
+$$= \frac{3y}{x - 3}$$
+
+**விடை:**
+$$\mathbf{\frac{3y}{x - 3}}$$
+
+</div>
+
+</details>
+
+---
+
+பின்வரும் இருபடிச் சமன்பாட்டின் மூலங்களின் தன்மையைக் காண்க:
+$$2x^2 - x - 1 = 0$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$2x^2 - x - 1 = 0$-ஐ $ax^2 + bx + c = 0$-உடன் ஒப்பிட:
+$$a = 2, \quad b = -1, \quad c = -1$$
+
+தன்மைக் காட்டி $\Delta$:
+$$\Delta = b^2 - 4ac = (-1)^2 - 4(2)(-1) = 1 + 8 = 9$$
+
+இங்கு $\Delta = 9 > 0$ (மிகை எண்).
+
+**விடை:**
+மூலங்கள் **மெய் மற்றும் சமமில்லை**.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+சுருக்குக:
+$$\frac{4x^2y}{2z^2} \times \frac{6xz^3}{20y^4}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$\frac{4x^2y}{2z^2} \times \frac{6xz^3}{20y^4}$$
+
+கெழுக்களையும் மாறிகளையும் ஒருங்கிணைக்க:
+$$= \left(\frac{4 \times 6}{2 \times 20}\right) \times \frac{x^2 \cdot x \cdot y \cdot z^3}{z^2 \cdot y^4}$$
+$$= \frac{24}{40} \times \frac{x^3 y z^3}{y^4 z^2} = \frac{3x^3 z}{5y^3}$$
+
+**விடை:**
+$$\mathbf{\frac{3x^3 z}{5y^3}}$$
+
+</div>
+
+</details>
+
+---
+
+பின்வரும் இருபடிச் சமன்பாட்டின் மூலங்களின் கூடுதல் மற்றும் பெருக்கற்பலன் காண்க:
+$$x^2 + 8x - 65 = 0$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$x^2 + 8x - 65 = 0$-ஐ $ax^2 + bx + c = 0$-உடன் ஒப்பிட:
+$$a = 1, \quad b = 8, \quad c = -65$$
+
+மூலங்கள் $\alpha, \beta$ என்க:
+- **மூலங்களின் கூடுதல்:**
+$$\alpha + \beta = -\frac{b}{a} = -\frac{8}{1} = -8$$
+
+- **மூலங்களின் பெருக்கற்பலன்:**
+$$\alpha\beta = \frac{c}{a} = \frac{-65}{1} = -65$$
+
+**விடை:**
+- **மூலங்களின் கூடுதல்** = **-8**
+- **மூலங்களின் பெருக்கற்பலன்** = **-65**
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+கூட்டுக:
+$$\frac{x^3}{x-y} + \frac{y^3}{y-x}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$\frac{x^3}{x-y} + \frac{y^3}{y-x}$$
+
+$y - x = -(x - y)$ என்பதால்:
+$$= \frac{x^3}{x-y} - \frac{y^3}{x-y}$$
+$$= \frac{x^3 - y^3}{x - y}$$
+
+$x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ என்ற முற்றொருமையைப் பயன்படுத்த:
+$$= \frac{(x - y)(x^2 + xy + y^2)}{x - y} = x^2 + xy + y^2$$
+
+**விடை:**
+$$\mathbf{x^2 + xy + y^2}$$
+
+</div>
+
+</details>
+
+---
+
+$A = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix}$ மற்றும் $B = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}$ எனில், $AB$ மற்றும் $BA$ காண்க. மேலும் $AB = BA$ என்பது சரியா என ஆராய்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+1. $AB$-ஐக் காணுதல்:
+$$AB = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} = \begin{pmatrix} 2(2) + 1(1) & 2(0) + 1(3) \\ 1(2) + 3(1) & 1(0) + 3(3) \end{pmatrix}$$
+$$= \begin{pmatrix} 4 + 1 & 0 + 3 \\ 2 + 3 & 0 + 9 \end{pmatrix} = \begin{pmatrix} 5 & 3 \\ 5 & 9 \end{pmatrix}$$
+
+2. $BA$-ஐக் காணுதல்:
+$$BA = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix} = \begin{pmatrix} 2(2) + 0(1) & 2(1) + 0(3) \\ 1(2) + 3(1) & 1(1) + 3(3) \end{pmatrix}$$
+$$= \begin{pmatrix} 4 + 0 & 2 + 0 \\ 2 + 3 & 1 + 9 \end{pmatrix} = \begin{pmatrix} 4 & 2 \\ 5 & 10 \end{pmatrix}$$
+
+$AB$ மற்றும் $BA$-ஐ ஒப்பிட:
+$$AB \neq BA$$
+
+**விடை:**
+$$AB = \mathbf{\begin{pmatrix} 5 & 3 \\ 5 & 9 \end{pmatrix}}, \quad BA = \mathbf{\begin{pmatrix} 4 & 2 \\ 5 & 10 \end{pmatrix}}, \quad \mathbf{AB \neq BA}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$\frac{x^2 - 16}{x^2 + 8x + 16}$ எனும் விகிதமுறு கோவையை எளிய வடிவில் சுருக்குக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$\frac{x^2 - 16}{x^2 + 8x + 16}$$
+
+தொகுதி மற்றும் பகுதியை காரணிப்படுத்த:
+- தொகுதி: $x^2 - 16 = x^2 - 4^2 = (x - 4)(x + 4)$
+- பகுதி: $x^2 + 8x + 16 = (x + 4)^2 = (x + 4)(x + 4)$
+
+சுருக்க:
+$$= \frac{(x - 4)(x + 4)}{(x + 4)(x + 4)} = \frac{x - 4}{x + 4}$$
+
+**விடை:**
+$$\mathbf{\frac{x - 4}{x + 4}}$$
+
+</div>
+
+</details>
+
+---
+
+ஓர் எண் மற்றும் அதன் தலைகீழி ஆகியவற்றின் வித்தியாசம் $\frac{24}{5}$ எனில், அந்த எண்ணைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+அந்த எண் $x$ என்க. அதன் தலைகீழி $\frac{1}{x}$.
+
+கொடுக்கப்பட்ட விவரப்படி:
+$$x - \frac{1}{x} = \frac{24}{5}$$
+$$\frac{x^2 - 1}{x} = \frac{24}{5}$$
+$$5(x^2 - 1) = 24x$$
+$$5x^2 - 24x - 5 = 0$$
+
+காரணிப்படுத்த:
+$$5x^2 - 25x + x - 5 = 0$$
+$$5x(x - 5) + 1(x - 5) = 0$$
+$$(5x + 1)(x - 5) = 0$$
+
+$x = 5$ அல்லது $x = -\frac{1}{5}$.
+
+**விடை:**
+அந்த எண் **5** அல்லது **$-\frac{1}{5}$** ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+$a_{ij} = |i - 2j|$ என்ற அமைப்பைக் கொண்ட $3 \times 3$ வரிசையுடைய அணியினைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+பொதுவான $3 \times 3$ அணி:
+$$A = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix}$$
+
+$a_{ij} = |i - 2j|$ சூத்திரத்தைப் பயன்படுத்த:
+- $a_{11} = |1 - 2| = 1, \quad a_{12} = |1 - 4| = 3, \quad a_{13} = |1 - 6| = 5$
+- $a_{21} = |2 - 2| = 0, \quad a_{22} = |2 - 4| = 2, \quad a_{23} = |2 - 6| = 4$
+- $a_{31} = |3 - 2| = 1, \quad a_{32} = |3 - 4| = 1, \quad a_{33} = |3 - 6| = 3$
+
+**விடை:**
+$$\mathbf{A = \begin{pmatrix} 1 & 3 & 5 \\ 0 & 2 & 4 \\ 1 & 1 & 3 \end{pmatrix}}$$
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+கீழ்காணும் மூன்று மாறிகளில் அமைந்த ஒருங்கமை நேரியல் சமன்பாட்டுத் தொகுப்பினைத் தீர்க்க:
+$$x + 20 = \frac{3y}{2} + 10 = 2z + 5 = 110 - (y + z)$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+சமன்பாடுகளை தனித்தனியே அமைத்தல்:
+1. $x + 20 = \frac{3y}{2} + 10 \implies 2x - 3y = -20 \quad \text{--- (1)}$
+2. $\frac{3y}{2} + 10 = 2z + 5 \implies 3y - 4z = -10 \quad \text{--- (2)}$
+3. $2z + 5 = 110 - (y + z) \implies y + 3z = 105 \quad \text{--- (3)}$
+
+(2) மற்றும் (3)-லிருந்து $z$-ஐ நீக்க:
+(3) $\times 4 \implies 4y + 12z = 420$
+(2) $\times 3 \implies 9y - 12z = -30$
+கூட்ட: $13y = 390 \implies y = 30$
+
+$y = 30$-ஐ (1)-ல் பிரதியிட:
+$$2x - 3(30) = -20 \implies 2x = 70 \implies x = 35$$
+
+$y = 30$-ஐ (3)-ல் பிரதியிட:
+$$30 + 3z = 105 \implies 3z = 75 \implies z = 25$$
+
+**விடை:**
+$$\mathbf{x = 35, \quad y = 30, \quad z = 25}$$
+
+</div>
+
+</details>
+
+---
+
+$A = \begin{pmatrix} 5 & 2 & 9 \\ 1 & 2 & 8 \end{pmatrix}$, $B = \begin{pmatrix} 1 & 7 \\ 1 & 2 \\ 5 & -1 \end{pmatrix}$ எனில், $(AB)^T = B^T A^T$ என்பதைச் சரிபார்க்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**இடதுபக்கம் (LHS):** $(AB)^T$
+$$AB = \begin{pmatrix} 5(1) + 2(1) + 9(5) & 5(7) + 2(2) + 9(-1) \\ 1(1) + 2(1) + 8(5) & 1(7) + 2(2) + 8(-1) \end{pmatrix} = \begin{pmatrix} 52 & 30 \\ 43 & 3 \end{pmatrix}$$
+$$(AB)^T = \begin{pmatrix} 52 & 43 \\ 30 & 3 \end{pmatrix} \quad \text{--- (1)}$$
+
+**வலதுபக்கம் (RHS):** $B^T A^T$
+$$B^T = \begin{pmatrix} 1 & 1 & 5 \\ 7 & 2 & -1 \end{pmatrix}, \quad A^T = \begin{pmatrix} 5 & 1 \\ 2 & 2 \\ 9 & 8 \end{pmatrix}$$
+$$B^T A^T = \begin{pmatrix} 52 & 43 \\ 30 & 3 \end{pmatrix} \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$(AB)^T = B^T A^T$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$64x^4 - 16x^3 + 17x^2 - 2x + 1$ என்பதன் வர்க்கமூலம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+நீள்வகுத்தல் முறைப்படி:
+- முதல் உறுப்பு $64x^4$-ன் வர்க்கமூலம் $8x^2$.
+- ஈவு $8x^2$-ஐக் கொண்டு கழிக்க மீதி: $-16x^3 + 17x^2$.
+- புதிய வகுத்தி $16x^2 - x$. $-x$-ஆல் பெருக்கிக் கழிக்க மீதி: $16x^2 - 2x + 1$.
+- புதிய வகுத்தி $16x^2 - 2x + 1$. $+1$-ஆல் பெருக்கிக் கழிக்க மீதி: 0.
+
+எனவே:
+$$\sqrt{64x^4 - 16x^3 + 17x^2 - 2x + 1} = |8x^2 - x + 1|$$
+
+**விடை:**
+$$\mathbf{|8x^2 - x + 1|}$$
+
+</div>
+
+</details>
+
+---
+
+$A = \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix}$ எனில், $A^2 - 5A + 7I_2 = 0$ என நிறுவுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+1. $A^2 = \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix} = \begin{bmatrix} 8 & 5 \\ -5 & 3 \end{bmatrix}$
+2. $5A = \begin{bmatrix} 15 & 5 \\ -5 & 10 \end{bmatrix}$
+3. $7I_2 = \begin{bmatrix} 7 & 0 \\ 0 & 7 \end{bmatrix}$
+
+பிரதியிட:
+$$A^2 - 5A + 7I_2 = \begin{bmatrix} 8 & 5 \\ -5 & 3 \end{bmatrix} - \begin{bmatrix} 15 & 5 \\ -5 & 10 \end{bmatrix} + \begin{bmatrix} 7 & 0 \\ 0 & 7 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix} = \mathbf{0}$$
+
+எனவே நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & -1 & 1 \end{pmatrix}$ மற்றும் $B = \begin{pmatrix} 2 & -1 \\ -1 & 4 \\ 0 & 2 \end{pmatrix}$ எனில், $(AB)^T = B^T A^T$ என்பதைச் சரிபார்க்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**இடதுபக்கம் (LHS):**
+$$AB = \begin{pmatrix} 0 & 9 \\ 5 & -4 \end{pmatrix} \implies (AB)^T = \begin{pmatrix} 0 & 5 \\ 9 & -4 \end{pmatrix} \quad \text{--- (1)}$$
+
+**வலதுபக்கம் (RHS):**
+$$B^T = \begin{pmatrix} 2 & -1 & 0 \\ -1 & 4 & 2 \end{pmatrix}, \quad A^T = \begin{pmatrix} 1 & 2 \\ 2 & -1 \\ 1 & 1 \end{pmatrix}$$
+$$B^T A^T = \begin{pmatrix} 0 & 5 \\ 9 & -4 \end{pmatrix} \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$(AB)^T = B^T A^T$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+$(x - 1)^2 + (x - 2)^2 + (x - 3)^2 = 0$ என்ற சமன்பாட்டின் மூலங்களின் தன்மையை ஆராய்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+விரித்தெழுதி கூட்ட:
+$$(x^2 - 2x + 1) + (x^2 - 4x + 4) + (x^2 - 6x + 9) = 0$$
+$$3x^2 - 12x + 14 = 0$$
+
+$a = 3, b = -12, c = 14$.
+
+தன்மைக் காட்டி $\Delta$:
+$$\Delta = b^2 - 4ac = (-12)^2 - 4(3)(14) = 144 - 168 = -24 < 0$$
+
+$\Delta < 0$ என்பதால், இச்சமன்பாட்டிற்கு **மெய் மூலங்கள் இல்லை**.
+
+**விடை:**
+**மெய் மூலங்கள் இல்லை** (கற்பனை மூலங்கள்).
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$\alpha, \beta$ என்பன $2x^2 - 3x + 1 = 0$ எனும் இருபடிச் சமன்பாட்டின் மூலங்கள் எனில், $\frac{1}{\alpha}$ மற்றும் $\frac{1}{\beta}$ ஆகியவற்றை மூலங்களாகக் கொண்ட இருபடிச் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$2x^2 - 3x + 1 = 0$-லிருந்து:
+$$\alpha + \beta = -\frac{-3}{2} = \frac{3}{2}, \quad \alpha\beta = \frac{1}{2}$$
+
+புதிய மூலங்களின் கூடுதல்:
+$$\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{3/2}{1/2} = 3$$
+
+புதிய மூலங்களின் பெருக்கற்பலன்:
+$$\frac{1}{\alpha\beta} = \frac{1}{1/2} = 2$$
+
+தேவையான இருபடிச் சமன்பாடு:
+$$x^2 - (\text{கூடுதல்})x + (\text{பெருக்கற்பலன்}) = 0$$
+$$x^2 - 3x + 2 = 0$$
+
+**விடை:**
+$$\mathbf{x^2 - 3x + 2 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+### 8 மதிப்பெண் வினாக்கள் (8 Marks)
+
+#### 2023
+
+$y = x^2 - 5x - 6$-ன் வரைபடம் வரைந்து, அதனைப் பயன்படுத்தி $x^2 - 5x - 14 = 0$ என்ற சமன்பாட்டைத் தீர்க்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**படி 1: $y = x^2 - 5x - 6$-க்கான அட்டவணை**
+
+| $x$ | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $y$ | 8 | 0 | -6 | -10 | -12 | -12 | -10 | -6 | 0 | 8 |
+
+புள்ளிகளைக் குறித்து பரவளைய வரைபடம் வரைக.
+
+**படி 2: சமன்பாடுகளைக் கழிக்க**
+$$\begin{aligned}
+y &= x^2 - 5x - 6 \\
+0 &= x^2 - 5x - 14 \\
+\hline
+y &= 8
+\end{aligned}$$
+
+$y = 8$ என்ற நேர்கோடு $x$-அச்சுக்கு இணையாக அமையும்.
+
+**படி 3: வெட்டும் புள்ளிகள்**
+$y = 8$ என்ற கோடு பரவளையத்தை $(-2, 8)$ மற்றும் $(7, 8)$ ஆகிய புள்ளிகளில் வெட்டுகிறது.
+அப்புள்ளிகளின் $x$-ஆயத்தொலைவுகள் $-2$ மற்றும் $7$ ஆகும்.
+
+**விடை:**
+$x^2 - 5x - 14 = 0$-ன் தீர்வுகள் **$x = -2$** மற்றும் **$x = 7$** ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$y = 2x^2 - 3x - 5$-ன் வரைபடம் வரைந்து, அதனைப் பயன்படுத்தி $2x^2 - 4x - 6 = 0$ என்ற சமன்பாட்டைத் தீர்க்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+**படி 1: $y = 2x^2 - 3x - 5$-க்கான அட்டவணை**
+
+| $x$ | -2 | -1 | 0 | 1 | 2 | 3 | 4 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $y$ | 9 | 0 | -5 | -6 | -3 | 4 | 15 |
+
+புள்ளிகளைக் குறித்து பரவளைய வரைபடம் வரைக.
+
+**படி 2: நேர்கோட்டின் சமன்பாடு**
+$$\begin{aligned}
+y &= 2x^2 - 3x - 5 \\
+0 &= 2x^2 - 4x - 6 \\
+\hline
+y &= x + 1
+\end{aligned}$$
+
+**படி 3: $y = x + 1$ நேர்கோட்டின் புள்ளிகள்**
+$(-1, 0), (0, 1), (3, 4)$ புள்ளிகள் வழி நேர்கோடு வரைக.
+
+**படி 4: வெட்டும் புள்ளிகள்**
+நேர்கோடும் பரவளையமும் $(-1, 0)$ மற்றும் $(3, 4)$ ஆகிய புள்ளிகளில் வெட்டுகின்றன.
+அவற்றின் $x$-ஆயத்தொலைவுகள் $-1$ மற்றும் $3$ ஆகும்.
+
+**விடை:**
+தீர்வு கணம் **$\{-1, 3\}$**.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$x^2 - 9x + 20 = 0$ என்ற இருபடிச் சமன்பாட்டின் வரைபடம் வரைந்து அதன் மூலம் தீர்வுகளின் தன்மையைக் கூறுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$y = x^2 - 9x + 20$ என்க.
+
+**படி 1: அட்டவணை**
+
+| $x$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $y$ | 12 | 6 | 2 | 0 | 0 | 2 | 6 |
+
+புள்ளிகளைக் குறித்து பரவளையம் வரைக.
+
+**படி 2: தீர்வுகளின் தன்மை**
+பரவளையமானது $x$-அச்சை $(4, 0)$ மற்றும் $(5, 0)$ ஆகிய இரண்டு வெவ்வேறு புள்ளிகளில் வெட்டுகிறது.
+
+எனவே, மூலங்கள் **மெய் மற்றும் சமமில்லை**.
+
+**விடை:**
+தீர்வு: **$x = 4$ மற்றும் $x = 5$**. மூலங்களின் தன்மை: **மெய் மற்றும் சமமில்லை**.
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$x^2 - 6x + 9 = 0$ என்ற இருபடிச் சமன்பாட்டின் வரைபடம் வரைக. அதன் தீர்வுகளின் தன்மையைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$y = x^2 - 6x + 9$ என்க.
+
+**படி 1: அட்டவணை**
+
+| $x$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $y$ | 9 | 4 | 1 | 0 | 1 | 4 | 9 |
+
+புள்ளிகளைக் குறித்து பரவளையம் வரைக.
+
+**படி 2: தீர்வுகளின் தன்மை**
+பரவளையமானது $x$-அச்சை $(3, 0)$ என்ற ஒரே ஒரு புள்ளியில் மட்டுமே தொட்டுச் செல்கிறது.
+
+எனவே, மூலங்கள் **மெய் மற்றும் சமம்**.
+
+**விடை:**
+தீர்வு: **$x = 3$**. மூலங்களின் தன்மை: **மெய் மற்றும் சமமான மூலங்கள்**.
+
+</div>
+
+</details>
+
+---

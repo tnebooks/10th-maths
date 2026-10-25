@@ -1601,3 +1601,533 @@ A என்ற கணமானது பொதுத்தேர்வு எழ
 https://www.geogebra.org/m/jfr2zzgy#chapter/356191
 
 அல்லது விரைவுக் குறியீட்டை ஸ்கேன் செய்யவும்.
+
+
+---
+
+## அரசு பொதுத்தேர்வு வினாக்கள் (Board Examination Questions)
+
+### 2 மதிப்பெண் வினாக்கள் (2 Marks)
+
+#### 2023
+
+$B \times A = \{(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)\}$ எனில், $A$ மற்றும் $B$ ஆகியவற்றைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$B \times A = \{(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)\}$$
+
+கார்ட்டீசியன் பெருக்கலின் வரையறைப்படி:
+- $B = B \times A$-ன் உறுப்புகளின் முதல் ஆயத்தொலைவுகளின் கணம் = $\{-2, 0, 3\}$
+- $A = B \times A$-ன் உறுப்புகளின் இரண்டாம் ஆயத்தொலைவுகளின் கணம் = $\{3, 4\}$
+
+**விடை:**
+$$\mathbf{A = \{3, 4\}}, \quad \mathbf{B = \{-2, 0, 3\}}$$
+
+</div>
+
+</details>
+
+---
+
+$f(k) = 2k - 1$ மற்றும் $f \circ f(k) = 5$ எனில், $k$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(k) = 2k - 1 \quad \text{மற்றும்} \quad f \circ f(k) = 5$$
+
+சார்புகளின் சேர்ப்பு $f \circ f(k)$-ஐக் காணுதல்:
+$$f \circ f(k) = f(f(k)) = f(2k - 1)$$
+$$= 2(2k - 1) - 1$$
+$$= 4k - 2 - 1 = 4k - 3$$
+
+கொடுக்கப்பட்ட மதிப்புடன் ஒப்பிட:
+$$4k - 3 = 5$$
+$$4k = 5 + 3 = 8$$
+$$k = \frac{8}{4} = 2$$
+
+**விடை:**
+$$\mathbf{k = 2}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$A \times B = \{(3, 2), (3, 4), (5, 2), (5, 4)\}$ எனில், $A$ மற்றும் $B$-ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A \times B = \{(3, 2), (3, 4), (5, 2), (5, 4)\}$$
+
+கார்ட்டீசியன் பெருக்கலின் வரையறைப்படி:
+- $A = A \times B$-ன் முதல் ஆயத்தொலைவுகளின் கணம் = $\{3, 5\}$
+- $B = A \times B$-ன் இரண்டாம் ஆயத்தொலைவுகளின் கணம் = $\{2, 4\}$
+
+**விடை:**
+$$\mathbf{A = \{3, 5\}}, \quad \mathbf{B = \{2, 4\}}$$
+
+</div>
+
+</details>
+
+---
+
+$f(x) = 3x - 2$, $g(x) = 2x + k$ மற்றும் $f \circ g = g \circ f$ எனில், $k$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(x) = 3x - 2, \quad g(x) = 2x + k$$
+
+1. $f \circ g(x)$-ஐக் காணுதல்:
+$$f \circ g(x) = f(g(x)) = f(2x + k) = 3(2x + k) - 2 = 6x + 3k - 2$$
+
+2. $g \circ f(x)$-ஐக் காணுதல்:
+$$g \circ f(x) = g(f(x)) = g(3x - 2) = 2(3x - 2) + k = 6x - 4 + k$$
+
+$f \circ g = g \circ f$ என்பதால்:
+$$6x + 3k - 2 = 6x - 4 + k$$
+$$3k - k = -4 + 2$$
+$$2k = -2 \implies k = -1$$
+
+**விடை:**
+$$\mathbf{k = -1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$A = \{1, 2, 3\}$ மற்றும் $B = \{x \mid x \text{ என்பது 10-ஐ விடச் சிறிய பகா எண்}\}$ எனில், $A \times B$-ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{1, 2, 3\}$$
+10-ஐ விடச் சிறிய பகா எண்கள் $2, 3, 5, 7$ ஆகும்:
+$$B = \{2, 3, 5, 7\}$$
+
+கார்ட்டீசியன் பெருக்கல் $A \times B$:
+$$A \times B = \{(1, 2), (1, 3), (1, 5), (1, 7), (2, 2), (2, 3), (2, 5), (2, 7), (3, 2), (3, 3), (3, 5), (3, 7)\}$$
+
+**விடை:**
+$$\mathbf{A \times B = \{(1, 2), (1, 3), (1, 5), (1, 7), (2, 2), (2, 3), (2, 5), (2, 7), (3, 2), (3, 3), (3, 5), (3, 7)\}}$$
+
+</div>
+
+</details>
+
+---
+
+$f(x) = 2x + 1$ மற்றும் $g(x) = x^2 - 2$ எனில், $f \circ g$ மற்றும் $g \circ f$-ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(x) = 2x + 1, \quad g(x) = x^2 - 2$$
+
+1. $f \circ g(x)$-ஐக் காணுதல்:
+$$f \circ g(x) = f(g(x)) = f(x^2 - 2) = 2(x^2 - 2) + 1 = 2x^2 - 4 + 1 = \mathbf{2x^2 - 3}$$
+
+2. $g \circ f(x)$-ஐக் காணுதல்:
+$$g \circ f(x) = g(f(x)) = g(2x + 1) = (2x + 1)^2 - 2$$
+$$= (4x^2 + 4x + 1) - 2 = \mathbf{4x^2 + 4x - 1}$$
+
+**விடை:**
+$$\mathbf{f \circ g(x) = 2x^2 - 3}, \quad \mathbf{g \circ f(x) = 4x^2 + 4x - 1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$R$ என்ற உறவு $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$ எனக் கொடுக்கப்பட்டுள்ளது. இதன் மதிப்பகத்தையும் வீச்சகத்தையும் கண்டறிக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$y = x + 3, \quad x \in \{0, 1, 2, 3, 4, 5\}$$
+
+ஒவ்வொரு $x$-ன் மதிப்பிற்கும் $y$-ஐக் கணக்கிடுதல்:
+- $x = 0 \implies y = 0 + 3 = 3$
+- $x = 1 \implies y = 1 + 3 = 4$
+- $x = 2 \implies y = 2 + 3 = 5$
+- $x = 3 \implies y = 3 + 3 = 6$
+- $x = 4 \implies y = 4 + 3 = 7$
+- $x = 5 \implies y = 5 + 3 = 8$
+
+எனவே:
+$$R = \{(0, 3), (1, 4), (2, 5), (3, 6), (4, 7), (5, 8)\}$$
+
+- **$R$-ன் மதிப்பகம்** = முதல் உறுப்புகளின் கணம் = $\{0, 1, 2, 3, 4, 5\}$
+- **$R$-ன் வீச்சகம்** = இரண்டாம் உறுப்புகளின் கணம் = $\{3, 4, 5, 6, 7, 8\}$
+
+**விடை:**
+$$\mathbf{\text{மதிப்பகம்} = \{0, 1, 2, 3, 4, 5\}}, \quad \mathbf{\text{வீச்சகம்} = \{3, 4, 5, 6, 7, 8\}}$$
+
+</div>
+
+</details>
+
+---
+
+$X = \{-5, 1, 3, 4\}$ மற்றும் $Y = \{a, b, c\}$ என்க. $R = \{(-5, a), (1, a), (3, b)\}$ என்ற உறவானது $X$-லிருந்து $Y$-க்கு ஒரு சார்பாகுமா எனத் தீர்மானிக்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$X = \{-5, 1, 3, 4\}, \quad Y = \{a, b, c\}$$
+$$R = \{(-5, a), (1, a), (3, b)\}$$
+
+உற்றுநோக்கல்:
+மதிப்பகம் $X$-ல் உள்ள $4 \in X$ என்ற உறுப்பிற்குத் துணை மதிப்பகம் $Y$-ல் நிழல் உரு இல்லை.
+
+சார்பின் வரையறைப்படி:
+மதிப்பகத்தில் உள்ள **ஒவ்வொரு** உறுப்பிற்கும் ஒரே ஒரு நிழல் உரு இருக்க வேண்டும். இங்கு 4-க்கு நிழல் உரு இல்லாததால், $R$ என்பது $X$-லிருந்து $Y$-க்கான **சார்பு ஆகாது**.
+
+**விடை:**
+**$R$ என்பது $X$-லிருந்து $Y$-க்கு ஒரு சார்பு ஆகாது.**
+
+</div>
+
+</details>
+
+---
+
+### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2023
+
+$A = \{2, 4, 6, 10, 12\}$, $B = \{0, 1, 2, 4, 5, 9\}$ என்க. $f: A \to B$ என்ற சார்பானது $f(x) = \frac{x}{2} - 1$ என வரையறுக்கப்படுகிறது. இச்சார்பினை:
+(i) வரிசைச் சோடிகளின் கணம்
+(ii) அட்டவணை
+(iii) அம்புக்குறி படம்
+(iv) வரைபடம்
+ஆகியவற்றின் மூலம் குறிக்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{2, 4, 6, 10, 12\}, \quad B = \{0, 1, 2, 4, 5, 9\}$$
+$$f(x) = \frac{x}{2} - 1$$
+
+மதிப்புகளைக் கணக்கிடுதல்:
+- $f(2) = \frac{2}{2} - 1 = 1 - 1 = 0$
+- $f(4) = \frac{4}{2} - 1 = 2 - 1 = 1$
+- $f(6) = \frac{6}{2} - 1 = 3 - 1 = 2$
+- $f(10) = \frac{10}{2} - 1 = 5 - 1 = 4$
+- $f(12) = \frac{12}{2} - 1 = 6 - 1 = 5$
+
+**(i) வரிசைச் சோடிகளின் கணம்:**
+$$\mathbf{f = \{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)\}}$$
+
+**(ii) அட்டவணை:**
+
+| $x$ | 2 | 4 | 6 | 10 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 0 | 1 | 2 | 4 | 5 |
+
+**(iii) அம்புக்குறி படம்:**
+$A$-ன் ஒவ்வொரு உறுப்பும் $B$-ல் உள்ள அதன் நிழல் உருவுடன் இணைக்கப்படுகிறது:
+- $2 \to 0$
+- $4 \to 1$
+- $6 \to 2$
+- $10 \to 4$
+- $12 \to 5$
+*(குறிப்பு: $9 \in B$-க்கு முன் உரு இல்லை).*
+
+**(iv) வரைபடம்:**
+கார்ட்டீசியன் தளத்தில் பின்வரும் புள்ளிகளைக் குறிக்க:
+$$\mathbf{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2024
+
+$A = \{x \in \mathbb{N} \mid 1 < x < 4\}$, $B = \{x \in \mathbb{W} \mid 0 \le x < 2\}$ மற்றும் $C = \{x \in \mathbb{N} \mid x < 3\}$ எனில்:
+$$A \times (B \cup C) = (A \times B) \cup (A \times C)$$
+என்பதைச் சரிபார்க்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கணங்களைப் பட்டியல் முறையில் எழுதுதல்:
+- $A = \{2, 3\}$
+- $B = \{0, 1\}$
+- $C = \{1, 2\}$
+
+**இடதுபக்கம் (LHS):**
+$$B \cup C = \{0, 1\} \cup \{1, 2\} = \{0, 1, 2\}$$
+$$A \times (B \cup C) = \{2, 3\} \times \{0, 1, 2\}$$
+$$\text{LHS} = \{(2, 0), (2, 1), (2, 2), (3, 0), (3, 1), (3, 2)\} \quad \text{--- (1)}$$
+
+**வலதுபக்கம் (RHS):**
+$$A \times B = \{2, 3\} \times \{0, 1\} = \{(2, 0), (2, 1), (3, 0), (3, 1)\}$$
+$$A \times C = \{2, 3\} \times \{1, 2\} = \{(2, 1), (2, 2), (3, 1), (3, 2)\}$$
+$$(A \times B) \cup (A \times C) = \{(2, 0), (2, 1), (2, 2), (3, 0), (3, 1), (3, 2)\} \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$A \times (B \cup C) = (A \times B) \cup (A \times C)$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+$A = \{0, 1, 2, 3\}$ மற்றும் $B = \{1, 3, 5, 7, 9\}$ என்பன இரு கணங்கள் என்க. $f: A \to B$ எனும் சார்பு $f(x) = 2x + 1$ எனக் கொடுக்கப்பட்டுள்ளது. இச்சார்பினை:
+(i) அம்புக்குறி படம்
+(ii) அட்டவணை
+(iii) வரிசைச் சோடிகளின் கணம்
+(iv) வரைபடம்
+ஆகியவற்றால் குறிக்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{0, 1, 2, 3\}, \quad B = \{1, 3, 5, 7, 9\}$$
+$$f(x) = 2x + 1$$
+
+சார்பின் மதிப்புகளைக் காணுதல்:
+- $f(0) = 2(0) + 1 = 1$
+- $f(1) = 2(1) + 1 = 3$
+- $f(2) = 2(2) + 1 = 5$
+- $f(3) = 2(3) + 1 = 7$
+
+**(i) அம்புக்குறி படம்:**
+$A$-ன் உறுப்புகள் $B$-ல் உள்ள நிழல் உருக்களுடன் இணைக்கப்படுகிறது:
+- $0 \to 1$
+- $1 \to 3$
+- $2 \to 5$
+- $3 \to 7$
+*($9 \in B$-க்கு முன் உரு இல்லை).*
+
+**(ii) அட்டவணை:**
+
+| $x$ | 0 | 1 | 2 | 3 |
+| :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 1 | 3 | 5 | 7 |
+
+**(iii) வரிசைச் சோடிகளின் கணம்:**
+$$\mathbf{f = \{(0, 1), (1, 3), (2, 5), (3, 7)\}}$$
+
+**(iv) வரைபடம்:**
+ஆயத்தளத்தில் பின்வரும் புள்ளிகளைக் குறிக்க:
+$$\mathbf{(0, 1), (1, 3), (2, 5), (3, 7)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+$A$ என்பது 8-ஐ விடக் குறைவான இயல் எண்களின் கணம், $B$ என்பது 8-ஐ விடக் குறைவான பகா எண்களின் கணம் மற்றும் $C$ என்பது இரட்டைப்படை பகா எண்ணின் கணம் எனில்:
+$$(A \cap B) \times C = (A \times C) \cap (B \times C)$$
+என்பதைச் சரிபார்க்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கணங்களைப் பட்டியல் முறையில் எழுதுதல்:
+- $A = \{1, 2, 3, 4, 5, 6, 7\}$
+- $B = \{2, 3, 5, 7\}$
+- $C = \{2\}$
+
+**இடதுபக்கம் (LHS):**
+$$A \cap B = \{2, 3, 5, 7\}$$
+$$(A \cap B) \times C = \{2, 3, 5, 7\} \times \{2\}$$
+$$\text{LHS} = \{(2, 2), (3, 2), (5, 2), (7, 2)\} \quad \text{--- (1)}$$
+
+**வலதுபக்கம் (RHS):**
+$$A \times C = \{(1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2)\}$$
+$$B \times C = \{(2, 2), (3, 2), (5, 2), (7, 2)\}$$
+$$(A \times C) \cap (B \times C) = \{(2, 2), (3, 2), (5, 2), (7, 2)\} \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$(A \cap B) \times C = (A \times C) \cap (B \times C)$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+$A = \{2, 4, 6, 10, 12\}$, $B = \{0, 1, 2, 4, 5, 9\}$ என்க. $f: A \to B$ என்ற சார்பானது $f(x) = \frac{x}{2} - 1$ என வரையறுக்கப்படுகிறது. இச்சார்பினை:
+(i) வரிசைச் சோடிகளின் கணம்
+(ii) அட்டவணை
+(iii) அம்புக்குறி படம்
+(iv) வரைபடம்
+ஆகியவற்றின் மூலம் குறிக்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{2, 4, 6, 10, 12\}, \quad B = \{0, 1, 2, 4, 5, 9\}$$
+$$f(x) = \frac{x}{2} - 1$$
+
+மதிப்புகளைக் கணக்கிடுதல்:
+- $f(2) = \frac{2}{2} - 1 = 1 - 1 = 0$
+- $f(4) = \frac{4}{2} - 1 = 2 - 1 = 1$
+- $f(6) = \frac{6}{2} - 1 = 3 - 1 = 2$
+- $f(10) = \frac{10}{2} - 1 = 5 - 1 = 4$
+- $f(12) = \frac{12}{2} - 1 = 6 - 1 = 5$
+
+**(i) வரிசைச் சோடிகளின் கணம்:**
+$$\mathbf{f = \{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)\}}$$
+
+**(ii) அட்டவணை:**
+
+| $x$ | 2 | 4 | 6 | 10 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 0 | 1 | 2 | 4 | 5 |
+
+**(iii) அம்புக்குறி படம்:**
+$A$-ன் ஒவ்வொரு உறுப்பும் $B$-ல் உள்ள அதன் நிழல் உருவுடன் இணைக்கப்படுகிறது:
+- $2 \to 0$
+- $4 \to 1$
+- $6 \to 2$
+- $10 \to 4$
+- $12 \to 5$
+*(குறிப்பு: $9 \in B$-க்கு முன் உரு இல்லை).*
+
+**(iv) வரைபடம்:**
+கார்ட்டீசியன் தளத்தில் பின்வரும் புள்ளிகளைக் குறிக்க:
+$$\mathbf{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2026
+
+$A = \{x \in \mathbb{W} \mid x < 2\}$, $B = \{x \in \mathbb{N} \mid 1 < x \le 4\}$ மற்றும் $C = \{3, 5\}$ என்க.
+$$A \times (B \cap C) = (A \times B) \cap (A \times C)$$
+என்பதைச் சரிபார்க்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கணங்களைப் பட்டியல் முறையில் எழுதுதல்:
+- $A = \{0, 1\}$
+- $B = \{2, 3, 4\}$
+- $C = \{3, 5\}$
+
+**இடதுபக்கம் (LHS):**
+$$B \cap C = \{3\}$$
+$$A \times (B \cap C) = \{0, 1\} \times \{3\}$$
+$$\text{LHS} = \{(0, 3), (1, 3)\} \quad \text{--- (1)}$$
+
+**வலதுபக்கம் (RHS):**
+$$A \times B = \{(0, 2), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4)\}$$
+$$A \times C = \{(0, 3), (0, 5), (1, 3), (1, 5)\}$$
+$$(A \times B) \cap (A \times C) = \{(0, 3), (1, 3)\} \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$A \times (B \cap C) = (A \times B) \cap (A \times C)$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+$f(x) = x - 1$, $g(x) = 3x + 1$ மற்றும் $h(x) = x^2$ எனில், $(f \circ g) \circ h = f \circ (g \circ h)$ என நிறுவுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(x) = x - 1, \quad g(x) = 3x + 1, \quad h(x) = x^2$$
+
+**இடதுபக்கம் (LHS):** $(f \circ g) \circ h$
+முதலில் $f \circ g(x)$-ஐக் கணக்கிடுதல்:
+$$(f \circ g)(x) = f(g(x)) = f(3x + 1) = (3x + 1) - 1 = 3x$$
+
+இப்போது $h(x)$-உடன் சேர்ப்பு:
+$$((f \circ g) \circ h)(x) = (f \circ g)(h(x)) = (f \circ g)(x^2) = 3(x^2) = 3x^2 \quad \text{--- (1)}$$
+
+**வலதுபக்கம் (RHS):** $f \circ (g \circ h)$
+முதலில் $g \circ h(x)$-ஐக் கணக்கிடுதல்:
+$$(g \circ h)(x) = g(h(x)) = g(x^2) = 3x^2 + 1$$
+
+இப்போது $f(x)$-உடன் சேர்ப்பு:
+$$(f \circ (g \circ h))(x) = f((g \circ h)(x)) = f(3x^2 + 1) = (3x^2 + 1) - 1 = 3x^2 \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$(f \circ g) \circ h = f \circ (g \circ h)$ என நிறுவப்பட்டது.**
+
+</div>
+
+</details>
+
+---
