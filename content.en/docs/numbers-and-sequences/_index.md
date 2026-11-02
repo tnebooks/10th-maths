@@ -1,5 +1,7 @@
 ---
 title: 'Numbers and Sequences'
+categories:
+    - numbers-and-sequences
 weight: 2
 references:
     videos:

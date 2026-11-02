@@ -1,5 +1,7 @@
 ---
 title: 'Relations and Functions'
+categories:
+    - relations-and-functions
 weight: 1
 references:
     videos:
