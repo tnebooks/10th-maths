@@ -3629,6 +3629,201 @@ $$AB = \mathbf{\begin{pmatrix} 5 & 3 \\ 5 & 9 \end{pmatrix}}, \quad BA = \mathbf
 
 ---
 
+Find the sum and product of the roots of the quadratic equation $x^2 + 3x - 28 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given the quadratic equation $x^2 + 3x - 28 = 0$, comparing with the standard form $ax^2 + bx + c = 0$:
+$$a = 1, \quad b = 3, \quad c = -28$$
+
+**Sum of roots:**
+$$\alpha + \beta = -\frac{b}{a} = -\frac{3}{1} = -3$$
+
+**Product of roots:**
+$$\alpha \beta = \frac{c}{a} = \frac{-28}{1} = -28$$
+
+**Answer:**
+$$\mathbf{\text{Sum} = -3, \quad \text{Product} = -28}$$
+
+</div>
+
+</details>
+
+---
+
+Find the nature of the roots of the quadratic equation $2x^2 - 2x + 9 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given the quadratic equation $2x^2 - 2x + 9 = 0$, comparing with the standard form $ax^2 + bx + c = 0$:
+$$a = 2, \quad b = -2, \quad c = 9$$
+
+The discriminant is:
+$$\Delta = b^2 - 4ac = (-2)^2 - 4(2)(9) = 4 - 72 = -68$$
+
+Since $\Delta = -68 < 0$, the roots are not real; they are imaginary (complex and unequal).
+
+**Answer:**
+$$\mathbf{\Delta = -68 < 0 \implies \text{the roots are imaginary (not real)}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the GCD of $p^2-3p+2$ and $p^2-4$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Factorize each polynomial:
+$$p^2-3p+2 = (p-1)(p-2)$$
+$$p^2-4 = (p-2)(p+2)$$
+
+The common factor between the two factorizations is $(p-2)$.
+
+**Answer:**
+$$\mathbf{\gcd = p-2}$$
+
+</div>
+
+</details>
+
+---
+
+Find the square root of $\dfrac{144a^8b^{12}c^{16}}{81f^{12}g^4h^{14}}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Take the square root of the numerator and denominator separately, using $\sqrt{x^{2n}} = x^n$ for each even power:
+$$\sqrt{\frac{144a^8b^{12}c^{16}}{81f^{12}g^4h^{14}}} = \frac{\sqrt{144}\cdot\sqrt{a^8}\cdot\sqrt{b^{12}}\cdot\sqrt{c^{16}}}{\sqrt{81}\cdot\sqrt{f^{12}}\cdot\sqrt{g^4}\cdot\sqrt{h^{14}}} = \frac{12\, a^4 b^6 c^8}{9\, f^6 g^2 h^7}$$
+
+Simplify the numeric coefficient $\dfrac{12}{9}$ to lowest terms, $\dfrac{4}{3}$:
+$$= \frac{4a^4b^6c^8}{3f^6g^2h^7}$$
+
+**Answer:**
+$$\mathbf{\dfrac{4a^4b^6c^8}{3f^6g^2h^7}}$$
+
+</div>
+
+</details>
+
+---
+
+If $\alpha$ and $\beta$ are the roots of the equation $3x^2+7x-2=0$, find the value of $\dfrac{\alpha}{\beta}+\dfrac{\beta}{\alpha}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Comparing $3x^2+7x-2=0$ with $ax^2+bx+c=0$: $a=3, b=7, c=-2$.
+
+$$\alpha+\beta = -\frac{b}{a} = -\frac{7}{3}, \qquad \alpha\beta = \frac{c}{a} = -\frac{2}{3}$$
+
+Rewrite the required expression using a common denominator:
+$$\frac{\alpha}{\beta}+\frac{\beta}{\alpha} = \frac{\alpha^2+\beta^2}{\alpha\beta} = \frac{(\alpha+\beta)^2-2\alpha\beta}{\alpha\beta}$$
+
+Substitute the values:
+$$(\alpha+\beta)^2 = \left(-\frac{7}{3}\right)^2 = \frac{49}{9}$$
+$$(\alpha+\beta)^2-2\alpha\beta = \frac{49}{9} - 2\left(-\frac{2}{3}\right) = \frac{49}{9}+\frac{4}{3} = \frac{49}{9}+\frac{12}{9} = \frac{61}{9}$$
+
+$$\frac{\alpha}{\beta}+\frac{\beta}{\alpha} = \frac{61/9}{-2/3} = \frac{61}{9}\times\left(-\frac{3}{2}\right) = -\frac{183}{18} = -\frac{61}{6}$$
+
+**Answer:**
+$$\mathbf{-\dfrac{61}{6}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the excluded values of the following expression $\dfrac{x^2+6x+8}{x^2+x-2}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The excluded values of a rational expression are the values of $x$ that make the denominator zero (since division by zero is undefined).
+
+**Step 1: Factorize the denominator.**
+$$x^2+x-2 = (x+2)(x-1)$$
+
+**Step 2: Set the denominator to zero and solve.**
+$$(x+2)(x-1) = 0 \implies x=-2 \text{ or } x=1$$
+
+**Answer:**
+$$\mathbf{x = -2 \text{ and } x = 1}$$
+
+</div>
+
+</details>
+
+---
+
+Determine the quadratic equation whose sum and product of roots are $-9, 20$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+A quadratic equation can be formed from the sum and product of its roots using:
+$$x^2 - (\text{sum of roots})x + (\text{product of roots}) = 0$$
+
+**Step 1: Substitute the given values.**
+
+Sum of roots $= -9$, product of roots $= 20$:
+$$x^2 - (-9)x + 20 = 0$$
+
+**Step 2: Simplify.**
+$$x^2+9x+20=0$$
+
+**Answer:**
+$$\mathbf{x^2+9x+20=0}$$
+
+</div>
+
+</details>
+
+---
+
+Find the square root of $\dfrac{400x^4y^{12}z^{16}}{100x^8y^4z^4}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Step 1: Simplify the expression inside the square root first.**
+$$\frac{400x^4y^{12}z^{16}}{100x^8y^4z^4} = \frac{400}{100}\cdot\frac{x^4}{x^8}\cdot\frac{y^{12}}{y^4}\cdot\frac{z^{16}}{z^4} = 4\cdot\frac{1}{x^4}\cdot y^8\cdot z^{12} = \frac{4y^8z^{12}}{x^4}$$
+
+**Step 2: Take the square root, using $\sqrt{x^{2n}}=x^n$ for each even power.**
+$$\sqrt{\frac{4y^8z^{12}}{x^4}} = \frac{\sqrt{4}\cdot\sqrt{y^8}\cdot\sqrt{z^{12}}}{\sqrt{x^4}} = \frac{2y^4z^6}{x^2}$$
+
+**Answer:**
+$$\mathbf{\dfrac{2y^4z^6}{x^2}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 Reduce the rational expression $\frac{x^2 - 16}{x^2 + 8x + 16}$ to its lowest form.
@@ -3721,6 +3916,236 @@ Calculating elements using $a_{ij} = |i - 2j|$:
 
 **Answer:**
 $$\mathbf{A = \begin{pmatrix} 1 & 3 & 5 \\ 0 & 2 & 4 \\ 1 & 1 & 3 \end{pmatrix}}$$
+
+</div>
+
+</details>
+
+---
+
+A cloth shop announces a flat discount on every purchase, following the table below (price $x$ in ₹, discount $y$ in ₹):
+
+| Price ($x$) | 1000 | 2000 | 3000 | 4000 | 5000 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Discount ($y$) | 500 | 1000 | 1500 | 2000 | 2500 |
+
+Draw the graph of this relation. Hence find: i) the price when a customer gets a discount of ₹3250, and ii) the discount when the price is ₹2500.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The discount $y$ increases by $500$ for every $1000$ increase in price $x$, so $y$ is directly proportional to $x$:
+$$k = \frac{500}{1000} = \frac{1}{2}, \quad y = \frac{1}{2}x$$
+
+Plotting $(1000, 500), (2000, 1000), (3000, 1500), (4000, 2000), (5000, 2500)$ gives a straight line through the origin.
+
+i) When $y = 3250$: from $y = \frac{1}{2}x$, $x = 2y = 2(3250) = 6500$.
+ii) When $x = 2500$: $y = \frac{1}{2}(2500) = 1250$.
+
+**Answer:** i) Price = **₹6500** for a discount of ₹3250. ii) Discount = **₹1250** when the price is ₹2500.
+
+</div>
+
+</details>
+
+---
+
+A bus travels at constant speed, covering distance $y$ (km) in time $x$ (hours) as follows:
+
+| Time ($x$) | 1 | 2 | 3 | 4 | 5 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Distance ($y$) | 50 | 100 | 150 | 200 | 250 |
+
+Draw the graph of this relation. Hence find: i) the distance covered in $1\frac{1}{2}$ hours, and ii) the time taken to cover 300 km.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Distance $y$ increases by $50$ for every $1$ hour, so $y$ is directly proportional to $x$:
+$$k = 50, \quad y = 50x$$
+
+Plotting $(1,50), (2,100), (3,150), (4,200), (5,250)$ gives a straight line through the origin.
+
+i) When $x = 1\frac{1}{2} = \frac{3}{2}$: $y = 50 \times \frac{3}{2} = 75$.
+ii) When $y = 300$: $x = \frac{300}{50} = 6$.
+
+**Answer:** i) Distance = **75 km** in $1\frac{1}{2}$ hours. ii) Time = **6 hours** to cover 300 km.
+
+</div>
+
+</details>
+
+---
+
+A two-wheeler charges fare $y$ (₹) for time $x$ (minutes) as follows:
+
+| Time ($x$) | 4 | 8 | 12 | 24 |
+| :---: | :---: | :---: | :---: | :---: |
+| Fare ($y$) | 60 | 120 | 180 | 360 |
+
+Draw the graph of this relation. Hence find: i) the fare for 6 minutes, and ii) the time for a fare of ₹150.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Fare $y$ increases by $15$ for every $1$ minute, so $y$ is directly proportional to $x$:
+$$k = \frac{60}{4} = 15, \quad y = 15x$$
+
+Plotting $(4,60), (8,120), (12,180), (24,360)$ gives a straight line through the origin.
+
+i) When $x = 6$: $y = 15 \times 6 = 90$.
+ii) When $y = 150$: $x = \frac{150}{15} = 10$.
+
+**Answer:** i) Fare = **₹90** for 6 minutes. ii) Time = **10 minutes** for a fare of ₹150.
+
+</div>
+
+</details>
+
+---
+
+Draw the graph of $y = \frac{1}{2}x$ using the table of values below, and use it to find: i) $y$ when $x = 9$, and ii) $x$ when $y = 7.5$.
+
+| $x$ | 2 | 4 | 6 | 8 | 10 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $y$ | 1 | 2 | 3 | 4 | 5 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The relation is direct variation with $k = \frac{1}{2}$:
+$$y = \frac{1}{2}x$$
+
+Plotting $(2,1), (4,2), (6,3), (8,4), (10,5)$ gives a straight line through the origin.
+
+i) When $x = 9$: $y = \frac{1}{2}(9) = 4.5$.
+ii) When $y = 7.5$: $x = 2(7.5) = 15$.
+
+**Answer:** i) $y = \mathbf{4.5}$ when $x = 9$. ii) $x = \mathbf{15}$ when $y = 7.5$.
+
+</div>
+
+</details>
+
+---
+
+A vehicle's speed $x$ (km/hr) and the time $y$ (hours) it takes to cover a fixed distance are related as follows:
+
+| Speed ($x$) | 1 | 2 | 3 | 4 | 6 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Time ($y$) | 12 | 6 | 4 | 3 | 2 | 1 |
+
+Draw the graph of this relation. Hence find $y$ when $x = 2.4$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $x \times y = 12$ is constant for every pair, this is an inverse variation:
+$$k = 12, \quad xy = 12 \implies y = \frac{12}{x}$$
+
+Plotting $(1,12), (2,6), (3,4), (4,3), (6,2), (12,1)$ gives a smooth curve (rectangular hyperbola) approaching both axes.
+
+When $x = 2.4$:
+$$y = \frac{12}{2.4} = 5$$
+
+**Answer:** $y = \mathbf{5}$ when $x = 2.4$.
+
+</div>
+
+</details>
+
+---
+
+A school collects a fixed total amount from its participants, with the amount per participant $y$ (₹) depending on the number of participants $x$:
+
+| Participants ($x$) | 2 | 4 | 6 | 8 | 10 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Amount ($y$) | 180 | 90 | 60 | 45 | 36 |
+
+Draw the graph of this relation. Hence find $y$ when $x = 12$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $x \times y = 360$ is constant for every pair, this is an inverse variation:
+$$k = 360, \quad xy = 360 \implies y = \frac{360}{x}$$
+
+Plotting $(2,180), (4,90), (6,60), (8,45), (10,36)$ gives a smooth curve (rectangular hyperbola) approaching both axes.
+
+When $x = 12$:
+$$y = \frac{360}{12} = 30$$
+
+**Answer:** $y = \mathbf{30}$ when $x = 12$.
+
+</div>
+
+</details>
+
+---
+
+A certain number of taps (pipes) fill a tank, with the time taken $y$ (minutes) depending on the number of taps $x$:
+
+| Taps ($x$) | 2 | 3 | 6 | 9 |
+| :---: | :---: | :---: | :---: | :---: |
+| Time ($y$) | 45 | 30 | 15 | 10 |
+
+Draw the graph of this relation. Hence find: i) $y$ when $x = 5$, and ii) $x$ when $y = 9$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $x \times y = 90$ is constant for every pair, this is an inverse variation:
+$$k = 90, \quad xy = 90 \implies y = \frac{90}{x}$$
+
+Plotting $(2,45), (3,30), (6,15), (9,10)$ gives a smooth curve (rectangular hyperbola) approaching both axes.
+
+i) When $x = 5$: $y = \frac{90}{5} = 18$.
+ii) When $y = 9$: $x = \frac{90}{9} = 10$.
+
+**Answer:** i) $y = \mathbf{18}$ when $x = 5$. ii) $x = \mathbf{10}$ when $y = 9$.
+
+</div>
+
+</details>
+
+---
+
+A fixed amount of work is shared among workers $x$, taking $y$ days to complete, as follows:
+
+| Workers ($x$) | 40 | 50 | 60 | 75 |
+| :---: | :---: | :---: | :---: | :---: |
+| Days ($y$) | 150 | 120 | 100 | 80 |
+
+Draw the graph of this relation. Hence find: i) $y$ when $x = 120$, and ii) $x$ when $y = 200$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $x \times y = 6000$ is constant for every pair, this is an inverse variation:
+$$k = 6000, \quad xy = 6000 \implies y = \frac{6000}{x}$$
+
+Plotting $(40,150), (50,120), (60,100), (75,80)$ gives a smooth curve (rectangular hyperbola) approaching both axes.
+
+i) When $x = 120$: $y = \frac{6000}{120} = 50$.
+ii) When $y = 200$: $x = \frac{6000}{200} = 30$.
+
+**Answer:** i) $y = \mathbf{50}$ when $x = 120$. ii) $x = \mathbf{30}$ when $y = 200$.
 
 </div>
 
@@ -4138,6 +4563,180 @@ Since the parabola touches the $x$-axis at a single point, the roots are **real 
 
 **Answer:**
 The solution is **$x = 3$**. Nature of roots: **Real and equal roots**.
+
+</div>
+
+</details>
+
+---
+
+#### 2025
+
+Six circles of different sizes were drawn on a sheet of paper. A rough graph was drawn for each circle's diameter against its circumference. Using the graph, find the circumference when the diameter is $6\ \text{cm}$, given the table of observed values below:
+
+| Diameter ($x$) cm | 1 | 2 | 3 | 4 | 5 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Circumference ($y$) cm | 3.1 | 6.2 | 9.3 | 12.4 | 15.5 |
+
+(OR)
+
+Draw the graph of $xy = 24,\ x, y > 0$. Using the graph, find:
+i) the value of $y$ when $x = 3$
+ii) the value of $x$ when $y = 6$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Part (i): Circumference vs. Diameter graph**
+
+The table shows circumference $y$ increasing by a constant $3.1$ for every $1\ \text{cm}$ increase in diameter $x$, so $y$ is directly proportional to $x$:
+$$y = \pi x, \quad \pi \approx 3.1$$
+
+Plotting the points $(1, 3.1), (2, 6.2), (3, 9.3), (4, 12.4), (5, 15.5)$ gives a straight line through the origin. Extending this line to $x = 6$:
+$$y = 3.1 \times 6 = 18.6$$
+
+**Answer:** When the diameter is $6\ \text{cm}$, the circumference is $\mathbf{18.6\ \text{cm}}$.
+
+---
+
+**Part (ii): Graph of $xy = 24$**
+
+Rewrite as $y = \dfrac{24}{x}$, a rectangular hyperbola in the first quadrant since $x, y > 0$.
+
+**Table of values:**
+
+| $x$ | 1 | 2 | 3 | 4 | 6 | 8 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $y = 24/x$ | 24 | 12 | 8 | 6 | 4 | 3 | 2 |
+
+Plotting these points gives a smooth curve approaching both axes but never touching them.
+
+i) From the graph, when $x = 3$: reading up to the curve and across to the $y$-axis gives
+$$y = \frac{24}{3} = 8$$
+
+ii) From the graph, when $y = 6$: reading across to the curve and down to the $x$-axis gives
+$$x = \frac{24}{6} = 4$$
+
+**Answer:** i) $y = 8$ when $x = 3$. ii) $x = 4$ when $y = 6$.
+
+</div>
+
+</details>
+
+---
+
+A cloth shop announces a 50% discount to its customers on each item purchased. Draw the graph for the marked price and the discount. Also, i) if a customer received ₹3250 as discount, find the marked price from the graph. ii) if the marked price is ₹2500, find the discount.
+
+(OR)
+
+Investigate the nature of the solutions of the quadratic equation $x^2+x-12=0$ through a graph.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Part (i)/(ii): Marked price vs. discount graph**
+
+A 50% discount means the discount $y$ is half the marked price $x$, a direct variation:
+$$y = \frac{x}{2}, \quad \text{i.e. } k = \frac{1}{2}$$
+
+**Table of values:**
+
+| Marked price ($x$) ₹ | 1000 | 2000 | 3000 | 4000 | 5000 | 6000 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Discount ($y$) ₹ | 500 | 1000 | 1500 | 2000 | 2500 | 3000 |
+
+Plotting these points gives a straight line through the origin.
+
+i) From the graph, when $y = 3250$: since $x = 2y$,
+$$x = 2 \times 3250 = 6500$$
+So the marked price is $\mathbf{₹6500}$.
+
+ii) From the graph, when $x = 2500$: since $y = \dfrac{x}{2}$,
+$$y = \frac{2500}{2} = 1250$$
+So the discount is $\mathbf{₹1250}$.
+
+**Answer:** i) Marked price $= \mathbf{₹6500}$. ii) Discount $= \mathbf{₹1250}$.
+
+---
+
+**(OR) Nature of solutions of $x^2+x-12=0$ through a graph**
+
+Let $y = x^2+x-12$.
+
+**Table of values:**
+
+| $x$ | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $x^2$ | 25 | 16 | 9 | 4 | 1 | 0 | 1 | 4 | 9 | 16 |
+| $+x$ | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 |
+| $-12$ | -12 | -12 | -12 | -12 | -12 | -12 | -12 | -12 | -12 | -12 |
+| $y$ | 8 | 0 | -6 | -10 | -12 | -12 | -10 | -6 | 0 | 8 |
+
+Plot the points $(-5,8), (-4,0), (-3,-6), (-2,-10), (-1,-12), (0,-12), (1,-10), (2,-6), (3,0), (4,8)$ and draw a smooth parabola opening upward.
+
+**Nature of solutions:**
+The curve intersects the $x$-axis at two distinct points, $(-4, 0)$ and $(3, 0)$.
+
+Since the parabola crosses the $x$-axis at two distinct points, and these $x$-coordinates are rational numbers, the equation has **real, rational, and unequal roots**. (This is confirmed algebraically: the discriminant is $\Delta = 1^2-4(1)(-12) = 1+48=49$, a perfect square, and factoring gives $x^2+x-12=(x+4)(x-3)$, so $x=-4$ or $x=3$.)
+
+**Answer:** The solutions are $\mathbf{x = -4}$ and $\mathbf{x = 3}$. Nature of roots: **real, rational, and unequal**.
+
+</div>
+
+</details>
+
+---
+
+Draw the graph of $xy=24,\ x,y>0$. Using the graph find i) $y$ when $x=3$ and ii) $x$ when $y=6$.
+
+(OR)
+
+Varshika draws $6$ circles of different sizes. Draw a graph for the relationship between the diameter and circumference (approximately related) of each circle as shown in the table and use it to find the circumference of a circle when its diameter is $6$ cm.
+
+| Diameter ($x$) cm | 1 | 2 | 3 | 4 | 5 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Circumference ($y$) cm | 3.1 | 6.2 | 9.3 | 12.4 | 15.5 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Part (அ): Graph of $xy=24$**
+
+Rewrite as $y=\dfrac{24}{x}$, a rectangular hyperbola lying entirely in the first quadrant since $x,y>0$.
+
+**Table of values:**
+
+| $x$ | 1 | 2 | 3 | 4 | 6 | 8 | 12 | 24 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $y=24/x$ | 24 | 12 | 8 | 6 | 4 | 3 | 2 | 1 |
+
+Plotting these points gives a smooth curve approaching both axes without touching them.
+
+i) From the graph, when $x=3$: reading up to the curve and across to the $y$-axis,
+$$y = \frac{24}{3} = 8$$
+
+ii) From the graph, when $y=6$: reading across to the curve and down to the $x$-axis,
+$$x = \frac{24}{6} = 4$$
+
+**Answer:** i) $y=8$ when $x=3$. ii) $x=4$ when $y=6$.
+
+---
+
+**Part (ஆ): Diameter vs. circumference graph**
+
+The table shows circumference $y$ increasing by a constant $3.1$ for every $1$ cm increase in diameter $x$, so $y$ is directly proportional to $x$:
+$$y = kx, \quad k \approx 3.1 \ (\approx \pi)$$
+
+Plotting the points $(1,3.1), (2,6.2), (3,9.3), (4,12.4), (5,15.5)$ gives a straight line through the origin. Extending this line to $x=6$:
+$$y = 3.1 \times 6 = 18.6$$
+
+**Answer:** When the diameter is $6$ cm, the circumference is $\mathbf{18.6}$ **cm**.
 
 </div>
 

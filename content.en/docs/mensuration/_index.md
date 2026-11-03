@@ -1575,6 +1575,41 @@ $$\mathbf{512\text{ small spheres}}$$
 
 ---
 
+Regha has 15 square colored papers with side lengths $10\text{ cm}, 11\text{ cm}, 12\text{ cm}, \ldots, 24\text{ cm}$ (an arithmetic progression of side lengths with common difference 1). How much total area can be decorated using these colored papers?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: side lengths $10, 11, 12, \ldots, 24$ (15 square sheets).
+
+Since the area of a square of side $n$ is $n^2$, the total area is:
+$$A = 10^2 + 11^2 + 12^2 + \cdots + 24^2 = \sum_{n=10}^{24} n^2$$
+
+This can be written as a difference of two sums of squares (using $\sum_{n=1}^{N} n^2 = \dfrac{N(N+1)(2N+1)}{6}$):
+$$\sum_{n=10}^{24} n^2 = \sum_{n=1}^{24} n^2 - \sum_{n=1}^{9} n^2$$
+
+**Step 1: Compute $\sum_{n=1}^{24} n^2$** (here $N = 24$):
+$$\sum_{n=1}^{24} n^2 = \frac{24 \times 25 \times 49}{6}$$
+$$= \frac{24 \times 25 \times 49}{6} = \frac{29400}{6} = 4900$$
+
+**Step 2: Compute $\sum_{n=1}^{9} n^2$** (here $N = 9$):
+$$\sum_{n=1}^{9} n^2 = \frac{9 \times 10 \times 19}{6}$$
+$$= \frac{1710}{6} = 285$$
+
+**Step 3: Subtract to get the required sum:**
+$$A = 4900 - 285 = 4615$$
+
+**Answer:**
+Total area that can be decorated $= \mathbf{4615\text{ cm}^2}$.
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 A garden roller whose length is $3\text{ m}$ long and whose diameter is $2.8\text{ m}$ is rolled to level a garden. How much area will it cover in 8 revolutions?

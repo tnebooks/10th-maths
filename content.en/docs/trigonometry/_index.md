@@ -1277,6 +1277,96 @@ The distance of the car from the rock is **$150\text{ m}$**.
 
 ---
 
+Prove that $\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Consider the left-hand side (LHS):
+$$\text{LHS} = \tan^2\theta - \sin^2\theta$$
+
+Writing $\tan\theta = \dfrac{\sin\theta}{\cos\theta}$, so $\tan^2\theta = \dfrac{\sin^2\theta}{\cos^2\theta}$:
+$$\text{LHS} = \frac{\sin^2\theta}{\cos^2\theta} - \sin^2\theta$$
+
+Taking $\sin^2\theta$ common:
+$$\text{LHS} = \sin^2\theta\left(\frac{1}{\cos^2\theta} - 1\right) = \sin^2\theta\left(\frac{1 - \cos^2\theta}{\cos^2\theta}\right)$$
+
+By the Pythagorean identity $\sin^2\theta + \cos^2\theta = 1$, we have $1 - \cos^2\theta = \sin^2\theta$:
+$$\text{LHS} = \sin^2\theta\left(\frac{\sin^2\theta}{\cos^2\theta}\right) = \sin^2\theta \times \tan^2\theta$$
+
+$$\text{LHS} = \tan^2\theta\sin^2\theta = \text{RHS}$$
+
+**Answer:**
+Hence, $\mathbf{\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta}$ is proved.
+
+</div>
+
+</details>
+
+---
+
+Prove that $\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta + \tan\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Consider the left-hand side (LHS):
+$$\text{LHS} = \sqrt{\frac{1+\sin\theta}{1-\sin\theta}}$$
+
+Multiply the numerator and denominator inside the square root by $(1+\sin\theta)$:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)(1+\sin\theta)}{(1-\sin\theta)(1+\sin\theta)}} = \sqrt{\frac{(1+\sin\theta)^2}{1-\sin^2\theta}}$$
+
+By the Pythagorean identity $\sin^2\theta+\cos^2\theta=1$, we have $1-\sin^2\theta=\cos^2\theta$:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)^2}{\cos^2\theta}} = \frac{1+\sin\theta}{|\cos\theta|}$$
+
+Taking $\cos\theta > 0$ (the domain where this identity is considered), $|\cos\theta|=\cos\theta$:
+$$\text{LHS} = \frac{1+\sin\theta}{\cos\theta} = \frac{1}{\cos\theta}+\frac{\sin\theta}{\cos\theta}$$
+
+Using $\sec\theta=\dfrac{1}{\cos\theta}$ and $\tan\theta=\dfrac{\sin\theta}{\cos\theta}$:
+$$\text{LHS} = \sec\theta+\tan\theta = \text{RHS}$$
+
+**Answer:** Hence, $\mathbf{\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta}$ is proved.
+
+</div>
+
+</details>
+
+---
+
+Prove the following identities: $\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Consider the left-hand side (LHS):
+$$\text{LHS} = \sqrt{\frac{1+\sin\theta}{1-\sin\theta}}$$
+
+Multiply the numerator and denominator inside the square root by $(1+\sin\theta)$:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)(1+\sin\theta)}{(1-\sin\theta)(1+\sin\theta)}} = \sqrt{\frac{(1+\sin\theta)^2}{1-\sin^2\theta}}$$
+
+By the Pythagorean identity $\sin^2\theta+\cos^2\theta=1$, we have $1-\sin^2\theta=\cos^2\theta$:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)^2}{\cos^2\theta}} = \frac{1+\sin\theta}{|\cos\theta|}$$
+
+Taking $\cos\theta > 0$ (the domain where this identity is considered), $|\cos\theta|=\cos\theta$:
+$$\text{LHS} = \frac{1+\sin\theta}{\cos\theta} = \frac{1}{\cos\theta}+\frac{\sin\theta}{\cos\theta}$$
+
+Using $\sec\theta=\dfrac{1}{\cos\theta}$ and $\tan\theta=\dfrac{\sin\theta}{\cos\theta}$:
+$$\text{LHS} = \sec\theta+\tan\theta = \text{RHS}$$
+
+**Answer:** Hence, $\mathbf{\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta}$ is proved.
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 Prove that $\sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}} = \csc\theta + \cot\theta$.
@@ -1399,6 +1489,76 @@ Adding both terms:
 $$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 1 + 1 = 2 = \text{RHS}$$
 
 Hence proved.
+
+</div>
+
+</details>
+
+---
+
+Given $\dfrac{\cos\alpha}{\cos\beta} = m$ and $\dfrac{\cos\alpha}{\sin\beta} = n$, prove that $(m^2+n^2)\cos^2\beta = n^2$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+From the given data:
+$$\frac{\cos\alpha}{\cos\beta} = m \implies \cos\alpha = m\cos\beta \qquad \text{...(1)}$$
+$$\frac{\cos\alpha}{\sin\beta} = n \implies \cos\alpha = n\sin\beta \qquad \text{...(2)}$$
+
+Squaring both equations:
+$$\cos^2\alpha = m^2\cos^2\beta \qquad \text{...(3)}$$
+$$\cos^2\alpha = n^2\sin^2\beta \qquad \text{...(4)}$$
+
+Since both equal $\cos^2\alpha$, equate (3) and (4):
+$$m^2\cos^2\beta = n^2\sin^2\beta$$
+
+Using the Pythagorean identity $\sin^2\beta = 1 - \cos^2\beta$:
+$$m^2\cos^2\beta = n^2(1 - \cos^2\beta)$$
+$$m^2\cos^2\beta = n^2 - n^2\cos^2\beta$$
+
+Bringing the $\cos^2\beta$ terms together:
+$$m^2\cos^2\beta + n^2\cos^2\beta = n^2$$
+$$(m^2+n^2)\cos^2\beta = n^2$$
+
+This is exactly the result required.
+
+**Answer:** Hence, $\mathbf{(m^2+n^2)\cos^2\beta = n^2}$ is proved.
+
+</div>
+
+</details>
+
+---
+
+Prove that $(\csc\theta-\sin\theta)(\sec\theta-\cos\theta)(\tan\theta+\cot\theta)=1$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Simplify each of the three factors separately.
+
+**First factor:**
+$$\csc\theta-\sin\theta = \frac{1}{\sin\theta}-\sin\theta = \frac{1-\sin^2\theta}{\sin\theta}$$
+
+By the Pythagorean identity $\sin^2\theta+\cos^2\theta=1$, we have $1-\sin^2\theta=\cos^2\theta$:
+$$\csc\theta-\sin\theta = \frac{\cos^2\theta}{\sin\theta}$$
+
+**Second factor:**
+$$\sec\theta-\cos\theta = \frac{1}{\cos\theta}-\cos\theta = \frac{1-\cos^2\theta}{\cos\theta} = \frac{\sin^2\theta}{\cos\theta}$$
+
+**Third factor:**
+$$\tan\theta+\cot\theta = \frac{\sin\theta}{\cos\theta}+\frac{\cos\theta}{\sin\theta} = \frac{\sin^2\theta+\cos^2\theta}{\sin\theta\cos\theta} = \frac{1}{\sin\theta\cos\theta}$$
+
+**Multiplying all three factors:**
+$$\text{LHS} = \frac{\cos^2\theta}{\sin\theta}\times\frac{\sin^2\theta}{\cos\theta}\times\frac{1}{\sin\theta\cos\theta}$$
+
+$$= \frac{\cos^2\theta\cdot\sin^2\theta}{\sin\theta\cdot\cos\theta\cdot\sin\theta\cdot\cos\theta} = \frac{\sin^2\theta\cos^2\theta}{\sin^2\theta\cos^2\theta} = 1 = \text{RHS}$$
+
+**Answer:** Hence, $\mathbf{(\csc\theta-\sin\theta)(\sec\theta-\cos\theta)(\tan\theta+\cot\theta)=1}$ is proved.
 
 </div>
 

@@ -2476,6 +2476,377 @@ The sequence is an **A.P.** with common difference $\mathbf{d = \sqrt{2}}$.
 
 ---
 
+Find the number of terms in the Arithmetic Progression $3, 6, 9, 12, \ldots, 111$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: first term $a = 3$, common difference $d = 3$, last term $l = 111$.
+
+Using $l = a + (n-1)d$:
+$$111 = 3 + (n-1)(3)$$
+$$108 = (n-1)(3)$$
+$$n - 1 = 36$$
+$$n = 37$$
+
+**Answer:**
+The number of terms is $\mathbf{n = 37}$.
+
+</div>
+
+</details>
+
+---
+
+If $3+k, 18-k, 5k+1$ are in Arithmetic Progression, find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+If three terms are in A.P., the middle term is the average of the first and third terms:
+$$2(18-k) = (3+k) + (5k+1)$$
+$$36 - 2k = 6k + 4$$
+$$36 - 4 = 6k + 2k$$
+$$32 = 8k$$
+$$k = 4$$
+
+**Answer:**
+$$\mathbf{k = 4}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum of $1 + 3 + 5 + \cdots$ up to $40$ terms.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+This is an A.P. with first term $a = 1$, common difference $d = 2$, and $n = 40$ terms.
+
+Using $S_n = \dfrac{n}{2}[2a + (n-1)d]$:
+$$S_{40} = \frac{40}{2}\big[2(1) + (40-1)(2)\big] = 20\big[2 + 78\big] = 20 \times 80 = 1600$$
+
+(This matches the known result that the sum of the first $n$ odd natural numbers is $n^2$: $40^2 = 1600$.)
+
+**Answer:**
+$$\mathbf{S_{40} = 1600}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum of the series $3 + 1 + \dfrac{1}{3} + \cdots \infty$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+This is an infinite Geometric Progression with first term $a = 3$ and common ratio:
+$$r = \frac{1}{3}, \qquad |r| < 1$$
+
+Using the sum to infinity formula $S_\infty = \dfrac{a}{1-r}$:
+$$S_\infty = \frac{3}{1 - \frac{1}{3}} = \frac{3}{\frac{2}{3}} = 3 \times \frac{3}{2} = \frac{9}{2}$$
+
+**Answer:**
+$$\mathbf{S_\infty = \dfrac{9}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the GCD of $252525$ and $363636$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By Euclid's Division Algorithm, apply the division lemma $a = bq + r$ repeatedly, replacing $a$ by $b$ and $b$ by $r$, until the remainder is $0$:
+
+$$363636 = 1 \times 252525 + 111111$$
+$$252525 = 2 \times 111111 + 30303$$
+$$111111 = 3 \times 30303 + 20202$$
+$$30303 = 1 \times 20202 + 10101$$
+$$20202 = 2 \times 10101 + 0$$
+
+The remainder is now $0$, and the divisor at this stage is $10101$.
+
+**Answer:**
+$$\mathbf{\text{GCD}(252525, 363636) = 10101}$$
+
+</div>
+
+</details>
+
+---
+
+What time will it be $100$ hours after $7$ a.m.?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since the clock repeats every $24$ hours, divide $100$ by $24$ using Euclid's Division Lemma:
+$$100 = 24 \times 4 + 4$$
+
+So $100$ hours $=$ $4$ complete days $+$ $4$ extra hours. The $4$ complete days bring the clock back to the same time of day, so only the extra $4$ hours matter:
+$$7\text{ a.m.} + 4\text{ hours} = 11\text{ a.m.}$$
+
+**Answer:**
+$$\mathbf{11 \text{ a.m.}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum of the infinite series $9 + 3 + 1 + \cdots$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+This is an infinite Geometric Progression with first term $a = 9$ and common ratio:
+$$r = \frac{3}{9} = \frac{1}{3}, \qquad |r| < 1$$
+
+Using the sum to infinity formula $S_\infty = \dfrac{a}{1-r}$:
+$$S_\infty = \frac{9}{1 - \frac{1}{3}} = \frac{9}{\frac{2}{3}} = 9 \times \frac{3}{2} = \frac{27}{2}$$
+
+**Answer:**
+$$\mathbf{S_\infty = \dfrac{27}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the $19^{\text{th}}$ term of the Arithmetic Progression $-11, -15, -19, \ldots$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: first term $a = -11$, common difference:
+$$d = -15 - (-11) = -4$$
+
+Using $t_n = a + (n-1)d$ for $n = 19$:
+$$t_{19} = -11 + (19-1)(-4) = -11 + 18(-4) = -11 - 72 = -83$$
+
+**Answer:**
+$$\mathbf{t_{19} = -83}$$
+
+</div>
+
+</details>
+
+---
+
+What is the smallest number that is exactly divisible by the first $10$ natural numbers?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The required number is the LCM of $1, 2, 3, \ldots, 10$. Finding the prime factorization of each:
+$$8 = 2^3, \quad 9 = 3^2, \quad 5 = 5, \quad 7 = 7, \quad 10 = 2 \times 5, \quad 6 = 2 \times 3, \quad 4 = 2^2$$
+
+The LCM takes the highest power of each prime appearing: $2^3$ (from $8$), $3^2$ (from $9$), $5$ (from $5$ or $10$), and $7$ (from $7$).
+
+$$\text{LCM} = 2^3 \times 3^2 \times 5 \times 7 = 8 \times 9 \times 5 \times 7 = 2520$$
+
+**Answer:**
+$$\mathbf{2520}$$
+
+</div>
+
+</details>
+
+---
+
+Find the value of $x$ such that $10^4 \equiv x \pmod{19}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Reduce $10^4$ modulo $19$ by squaring step by step.
+
+**Step 1:** $10^2 = 100 = 5 \times 19 + 5$, so $10^2 \equiv 5 \pmod{19}$.
+
+**Step 2:** $10^4 = (10^2)^2 \equiv 5^2 = 25 \pmod{19}$, and $25 = 1 \times 19 + 6$, so $25 \equiv 6 \pmod{19}$.
+
+Therefore $10^4 \equiv 6 \pmod{19}$.
+
+**Answer:**
+$$\mathbf{x = 6}$$
+
+</div>
+
+</details>
+
+---
+
+In the Arithmetic Progression $16, 11, 6, 1, \ldots$, which term is $-54$?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: first term $a = 16$, common difference $d = 11 - 16 = -5$.
+
+Using $t_n = a + (n-1)d$ with $t_n = -54$:
+$$-54 = 16 + (n-1)(-5)$$
+$$-54 - 16 = (n-1)(-5)$$
+$$-70 = -5(n-1)$$
+$$n - 1 = 14$$
+$$n = 15$$
+
+**Answer:**
+$-54$ is the $\mathbf{15^{\text{th}}}$ term.
+
+</div>
+
+</details>
+
+---
+
+$t_n$ is the $n^{\text{th}}$ term of an Arithmetic Progression. Find the value of $t_{2n} - t_n$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the A.P. have first term $a$ and common difference $d$, so $t_n = a + (n-1)d$.
+
+Writing $t_{2n}$ using the same formula with $2n$ in place of $n$:
+$$t_{2n} = a + (2n-1)d$$
+
+Subtracting:
+$$t_{2n} - t_n = \big[a + (2n-1)d\big] - \big[a + (n-1)d\big]$$
+$$= (2n-1)d - (n-1)d$$
+$$= d\big[(2n-1) - (n-1)\big]$$
+$$= d(n) = nd$$
+
+**Answer:**
+$$\mathbf{t_{2n} - t_n = nd}$$
+
+</div>
+
+</details>
+
+---
+
+$a$ and $b$ are two positive integers such that $a^b \times b^a = 800$. Find $a$ and $b$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Factorise $800$ into its prime factors:
+$$800 = 2^5 \times 5^2$$
+
+We need positive integers $a, b$ such that $a^b \times b^a = 2^5 \times 5^2$. Try small values whose powers combine to give exactly this factorisation.
+
+Try $a = 2$, $b = 5$:
+$$a^b \times b^a = 2^5 \times 5^2 = 32 \times 25 = 800$$
+
+This matches exactly.
+
+**Verification:** $2^5 = 32$, $5^2 = 25$, and $32 \times 25 = 800$. ✓ (Swapping gives $a=5, b=2$: $5^2 \times 2^5 = 25 \times 32 = 800$ also works numerically, but written as $a^b \times b^a$ with $a=2,b=5$ is the natural fit since it directly reads off the factorisation $2^5 \times 5^2$.)
+
+**Answer:**
+$$\mathbf{a = 2, \ b = 5}$$
+
+</div>
+
+</details>
+
+---
+
+In a G.P. $729, 243, 81, \ldots$, find $t_7$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Identify the first term and common ratio of the Geometric Progression:
+$$a = 729, \qquad r = \frac{243}{729} = \frac{1}{3}$$
+
+Use the general term formula $t_n = a r^{n-1}$ with $n = 7$:
+$$t_7 = 729 \times \left(\frac{1}{3}\right)^{7-1} = 729 \times \left(\frac{1}{3}\right)^{6}$$
+
+Since $729 = 3^6$:
+$$t_7 = 3^6 \times \frac{1}{3^6} = 1$$
+
+**Verification:** Listing terms: $729, 243, 81, 27, 9, 3, 1$ — the $7^{\text{th}}$ term is indeed $1$. ✓
+
+**Answer:**
+$$\mathbf{t_7 = 1}$$
+
+</div>
+
+</details>
+
+---
+
+**Compulsory Question:** Find the value of $(1^3+2^3+3^3+\cdots+15^3) - (1+2+3+\cdots+15)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Use the special series formulas: the sum of the first $n$ natural numbers, and the sum of the cubes of the first $n$ natural numbers.
+
+$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}, \qquad \sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
+
+Here $n = 15$.
+
+**Step 1: Sum of first 15 natural numbers**
+$$1+2+3+\cdots+15 = \frac{15 \times 16}{2} = 120$$
+
+**Step 2: Sum of cubes of first 15 natural numbers**
+$$1^3+2^3+3^3+\cdots+15^3 = \left[\frac{15 \times 16}{2}\right]^2 = 120^2 = 14400$$
+
+**Step 3: Subtract**
+$$(1^3+2^3+\cdots+15^3) - (1+2+\cdots+15) = 14400 - 120 = 14280$$
+
+**Verification:** $120^2 = 14400$ (since $120 \times 120 = 14400$), and $14400 - 120 = 14280$. ✓
+
+**Answer:**
+$$\mathbf{14280}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 Find the least positive value of $x$ such that $71 \equiv x \pmod 8$.
