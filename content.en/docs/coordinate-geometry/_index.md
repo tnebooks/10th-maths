@@ -2304,6 +2304,141 @@ Since the product of their slopes is $-1$, the straight lines are **perpendicula
 
 ---
 
+Find the slope of the straight line joining the points $(14, 10)$ and $(14, -6)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given points:
+$$(x_1, y_1) = (14, 10) \quad \text{and} \quad (x_2, y_2) = (14, -6)$$
+
+Slope formula:
+$$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{-6 - 10}{14 - 14} = \frac{-16}{0}$$
+
+Division by zero is undefined. Since the $x$-coordinates of both points are equal ($x_1 = x_2 = 14$), the line joining them is **vertical** (parallel to the $y$-axis).
+
+**Answer:**
+$$\mathbf{\text{Slope is undefined (the line is vertical)}}$$
+
+</div>
+
+</details>
+
+---
+
+Show that the points $P(-1.5, 3)$, $Q(6, -2)$ and $R(-3, 4)$ are collinear.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Three points are collinear if the slope between any two pairs sharing a common point is the same.
+
+Slope of $PQ$:
+$$m_{PQ} = \frac{-2 - 3}{6 - (-1.5)} = \frac{-5}{7.5} = -\frac{2}{3}$$
+
+Slope of $PR$:
+$$m_{PR} = \frac{4 - 3}{-3 - (-1.5)} = \frac{1}{-1.5} = -\frac{2}{3}$$
+
+Since $m_{PQ} = m_{PR} = -\dfrac{2}{3}$ and both pass through the common point $P(-1.5, 3)$, the points $P$, $Q$, $R$ lie on the same straight line.
+
+**Answer:** $\mathbf{P, Q, R \text{ are collinear, since } m_{PQ} = m_{PR} = -\frac{2}{3}}$
+
+</div>
+
+</details>
+
+---
+
+In each of the following, find the value of '$a$' for which the given points are collinear $(2,3)$, $(4,a)$ and $(6,-3)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Three points are collinear if the slope between any two pairs sharing a common point is the same.
+
+Slope of the segment joining $(2,3)$ and $(4,a)$:
+$$m_1 = \frac{a - 3}{4 - 2} = \frac{a-3}{2}$$
+
+Slope of the segment joining $(4,a)$ and $(6,-3)$:
+$$m_2 = \frac{-3 - a}{6 - 4} = \frac{-3-a}{2}$$
+
+For collinearity, $m_1 = m_2$:
+$$\frac{a-3}{2} = \frac{-3-a}{2}$$
+$$a - 3 = -3 - a$$
+$$2a = 0$$
+$$a = 0$$
+
+**Verification:** With $a=0$, slope of $(2,3)$-$(4,0)$ is $\dfrac{0-3}{4-2}=-\dfrac{3}{2}$; slope of $(4,0)$-$(6,-3)$ is $\dfrac{-3-0}{6-4}=-\dfrac{3}{2}$. Equal, so collinear. $\checkmark$
+
+**Answer:**
+$$\mathbf{a = 0}$$
+
+</div>
+
+</details>
+
+---
+
+Find the intercepts made by the line $4x - 9y + 36 = 0$ on the coordinate axes.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The $x$-intercept is found by setting $y = 0$:
+$$4x - 9(0) + 36 = 0 \implies 4x = -36 \implies x = -9$$
+
+The $y$-intercept is found by setting $x = 0$:
+$$4(0) - 9y + 36 = 0 \implies -9y = -36 \implies y = 4$$
+
+**Answer:**
+$$\mathbf{x\text{-intercept} = -9, \quad y\text{-intercept} = 4}$$
+
+</div>
+
+</details>
+
+---
+
+Two buildings of different heights are located at opposite sides of each other. If a heavy rod is attached joining the terrace of the buildings from $(6,10)$ to $(14,12)$, find the equation of the rod joining the buildings.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The rod joins the points $(6,10)$ and $(14,12)$.
+
+Slope of the rod:
+$$m = \frac{12 - 10}{14 - 6} = \frac{2}{8} = \frac{1}{4}$$
+
+Using the point-slope form through $(6,10)$:
+$$y - 10 = \frac{1}{4}(x - 6)$$
+
+Multiply both sides by $4$:
+$$4(y - 10) = x - 6$$
+$$4y - 40 = x - 6$$
+$$x - 4y - 6 + 40 = 0$$
+$$x - 4y + 34 = 0$$
+
+**Verification:** Substitute $(14,12)$: $14 - 4(12) + 34 = 14 - 48 + 34 = 0$ $\checkmark$
+
+**Answer:**
+$$\mathbf{x - 4y + 34 = 0}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 Find the slope of a line joining the points $(14, 10)$ and $(14, -6)$.

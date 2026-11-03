@@ -1639,6 +1639,263 @@ $$\mathbf{f \circ g(x) = 2x^2 - 3}, \quad \mathbf{g \circ f(x) = 4x^2 + 4x - 1}$
 
 ---
 
+If $B \times A = \{(-2,3), (-2,4), (0,3), (0,4), (3,3), (3,4)\}$, find $A$ and $B$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$B \times A = \{(-2,3), (-2,4), (0,3), (0,4), (3,3), (3,4)\}$$
+
+In $B \times A$, every ordered pair has the form (element of $B$, element of $A$).
+
+The set of first elements of all the pairs gives $B$:
+$$B = \{-2, 0, 3\}$$
+
+The set of second elements of all the pairs gives $A$:
+$$A = \{3, 4\}$$
+
+**Answer:**
+$$\mathbf{A = \{3, 4\}, \quad B = \{-2, 0, 3\}}$$
+
+</div>
+
+</details>
+
+---
+
+A relation $R$ is defined as $R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$. Find its domain and range.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$$
+
+The domain is the set of all $x$ values, which is given directly:
+$$\text{Domain} = \{0, 1, 2, 3, 4, 5\}$$
+
+To find the range, compute $y = x + 3$ for each value of $x$:
+$$x=0 \Rightarrow y=3,\quad x=1 \Rightarrow y=4,\quad x=2 \Rightarrow y=5$$
+$$x=3 \Rightarrow y=6,\quad x=4 \Rightarrow y=7,\quad x=5 \Rightarrow y=8$$
+
+So the range is:
+$$\text{Range} = \{3, 4, 5, 6, 7, 8\}$$
+
+**Answer:**
+$$\mathbf{\text{Domain} = \{0,1,2,3,4,5\}, \quad \text{Range} = \{3,4,5,6,7,8\}}$$
+
+</div>
+
+</details>
+
+---
+
+If $f(x) = 3x + 2$ and $g(x) = 6x - k$, and $f \circ g = g \circ f$, find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 3x + 2, \quad g(x) = 6x - k$$
+
+Finding $f \circ g(x)$:
+$$f \circ g(x) = f(6x - k) = 3(6x - k) + 2 = 18x - 3k + 2$$
+
+Finding $g \circ f(x)$:
+$$g \circ f(x) = g(3x + 2) = 6(3x + 2) - k = 18x + 12 - k$$
+
+Since $f \circ g = g \circ f$, equate the two expressions:
+$$18x - 3k + 2 = 18x + 12 - k$$
+$$-3k + 2 = 12 - k$$
+$$-3k + k = 12 - 2$$
+$$-2k = 10$$
+$$k = -5$$
+
+**Answer:**
+$$\mathbf{k = -5}$$
+
+</div>
+
+</details>
+
+---
+
+If $A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$, find $A$ and $B$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$$
+
+The set of first elements of all the ordered pairs gives $A$:
+$$A = \{3, 5\}$$
+
+The set of second elements of all the ordered pairs gives $B$:
+$$B = \{2, 4\}$$
+
+**Answer:**
+$$\mathbf{A = \{3, 5\}, \quad B = \{2, 4\}}$$
+
+</div>
+
+</details>
+
+---
+
+A relation $R$ is defined as $R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$. Find its domain and range.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$$
+
+The domain is the set of all $x$ values, which is given directly:
+$$\text{Domain} = \{0, 1, 2, 3, 4, 5\}$$
+
+To find the range, compute $y = x + 3$ for each value of $x$:
+$$x=0 \Rightarrow y=3,\quad x=1 \Rightarrow y=4,\quad x=2 \Rightarrow y=5$$
+$$x=3 \Rightarrow y=6,\quad x=4 \Rightarrow y=7,\quad x=5 \Rightarrow y=8$$
+
+So the range is:
+$$\text{Range} = \{3, 4, 5, 6, 7, 8\}$$
+
+**Answer:**
+$$\mathbf{\text{Domain} = \{0,1,2,3,4,5\}, \quad \text{Range} = \{3,4,5,6,7,8\}}$$
+
+</div>
+
+</details>
+
+---
+
+If $fof(k) = 5$ and $f(k) = 2k - 1$, find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(k) = 2k - 1$$
+
+Finding $fof(k)$:
+$$fof(k) = f(f(k)) = f(2k-1) = 2(2k-1) - 1 = 4k - 2 - 1 = 4k - 3$$
+
+Since $fof(k) = 5$:
+$$4k - 3 = 5$$
+$$4k = 8$$
+$$k = 2$$
+
+**Answer:**
+$$\mathbf{k = 2}$$
+
+</div>
+
+</details>
+
+---
+
+A Relation $R$ is given by the set $\{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$. Determine its domain and range.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$$
+
+The domain is the set of all $x$ values, given directly:
+$$\text{Domain} = \{0, 1, 2, 3, 4, 5\}$$
+
+To find the range, compute $y = x + 3$ for each value of $x$:
+$$x=0 \Rightarrow y=3,\quad x=1 \Rightarrow y=4,\quad x=2 \Rightarrow y=5$$
+$$x=3 \Rightarrow y=6,\quad x=4 \Rightarrow y=7,\quad x=5 \Rightarrow y=8$$
+
+So the range is:
+$$\text{Range} = \{3, 4, 5, 6, 7, 8\}$$
+
+**Answer:**
+$$\mathbf{\text{Domain} = \{0,1,2,3,4,5\}, \quad \text{Range} = \{3,4,5,6,7,8\}}$$
+
+</div>
+
+</details>
+
+---
+
+If $A = \{1, 2, 4\}$, $B = \{2, 4, 6\}$, $C = \{2, 5\}$, then find $(A - B) \times (B - C)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{1, 2, 4\}, \quad B = \{2, 4, 6\}, \quad C = \{2, 5\}$$
+
+**Step 1: Find $A - B$** (elements in $A$ but not in $B$).
+$$A - B = \{1, 2, 4\} - \{2, 4, 6\} = \{1\}$$
+
+**Step 2: Find $B - C$** (elements in $B$ but not in $C$).
+$$B - C = \{2, 4, 6\} - \{2, 5\} = \{4, 6\}$$
+
+**Step 3: Find $(A - B) \times (B - C)$.**
+$$(A - B) \times (B - C) = \{1\} \times \{4, 6\} = \{(1,4), (1,6)\}$$
+
+**Answer:**
+$$\mathbf{(A - B) \times (B - C) = \{(1,4), (1,6)\}}$$
+
+</div>
+
+</details>
+
+---
+
+Using the functions $f$ and $g$ given below, find $f \circ g$ and $g \circ f$. Check whether $f \circ g = g \circ f$.
+$$f(x) = 3 + x, \quad g(x) = x - 4$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 3 + x, \quad g(x) = x - 4$$
+
+**Step 1: Find $f \circ g$.**
+$$(f \circ g)(x) = f(g(x)) = f(x - 4) = 3 + (x - 4) = x - 1$$
+
+**Step 2: Find $g \circ f$.**
+$$(g \circ f)(x) = g(f(x)) = g(3 + x) = (3 + x) - 4 = x - 1$$
+
+**Step 3: Compare.**
+$$f \circ g = x - 1, \qquad g \circ f = x - 1$$
+
+Since both are equal, $f \circ g = g \circ f$ in this particular case.
+
+**Answer:**
+$$\mathbf{f \circ g = x - 1 = g \circ f \ \text{(true here)}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 A relation $R$ is given by the set $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$. Determine its domain and range.
@@ -1695,6 +1952,124 @@ Since $4 \in X$ has no image, $R$ is **not a function** from $X$ to $Y$.
 
 **Answer:**
 **$R$ is not a function from $X$ to $Y$.**
+
+</div>
+
+</details>
+
+---
+
+If $A = \{2, -2, 3\}$ and $B = \{1, -4\}$, find $A \times B$ and $B \times A$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{2, -2, 3\}, \quad B = \{1, -4\}$$
+
+**Finding $A \times B$:**
+Pairing every element of $A$ with every element of $B$:
+$$A \times B = \{(2, 1), (2, -4), (-2, 1), (-2, -4), (3, 1), (3, -4)\}$$
+
+**Finding $B \times A$:**
+Pairing every element of $B$ with every element of $A$:
+$$B \times A = \{(1, 2), (1, -2), (1, 3), (-4, 2), (-4, -2), (-4, 3)\}$$
+
+**Answer:**
+$$\mathbf{A \times B = \{(2, 1), (2, -4), (-2, 1), (-2, -4), (3, 1), (3, -4)\}}$$
+$$\mathbf{B \times A = \{(1, 2), (1, -2), (1, 3), (-4, 2), (-4, -2), (-4, 3)\}}$$
+
+</div>
+
+</details>
+
+---
+
+Let $f = \{(x, y) \mid x, y \in \mathbb{N} \text{ and } y = 2x\}$ be a relation on $\mathbb{N}$. Find the domain, co-domain, and range. Is this relation a function?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f = \{(x, y) \mid x, y \in \mathbb{N} \text{ and } y = 2x\}$$
+
+Since $x$ ranges over all of $\mathbb{N}$ and $y$ is also taken from $\mathbb{N}$:
+- **Domain** $= \mathbb{N} = \{1, 2, 3, 4, \ldots\}$
+- **Co-domain** $= \mathbb{N} = \{1, 2, 3, 4, \ldots\}$
+
+The range consists of all values $y = 2x$ as $x$ runs over $\mathbb{N}$, which gives the even natural numbers:
+- **Range** $= \{2, 4, 6, 8, \ldots\}$
+
+**Is $f$ a function?**
+By definition, a relation is a function if every element of the domain has exactly one image in the co-domain. Here, for each $x \in \mathbb{N}$, the rule $y = 2x$ assigns exactly one unique value of $y$. Therefore, $f$ **is a function**.
+
+**Answer:**
+$$\mathbf{\text{Domain} = \mathbb{N}, \quad \text{Co-domain} = \mathbb{N}, \quad \text{Range} = \{2, 4, 6, 8, \ldots\}}$$
+**Yes, $f$ is a function.**
+
+</div>
+
+</details>
+
+---
+
+If $f(x) = 3x - 2$, $g(x) = 2x + k$ and $f \circ g = g \circ f$, find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 3x - 2, \quad g(x) = 2x + k$$
+
+**Finding $f \circ g(x)$:**
+$$f \circ g(x) = f(g(x)) = 3(2x + k) - 2 = 6x + 3k - 2$$
+
+**Finding $g \circ f(x)$:**
+$$g \circ f(x) = g(f(x)) = 2(3x - 2) + k = 6x - 4 + k$$
+
+Since $f \circ g = g \circ f$:
+$$6x + 3k - 2 = 6x - 4 + k$$
+$$3k - 2 = -4 + k$$
+$$3k - k = -4 + 2$$
+$$2k = -2$$
+$$k = -1$$
+
+**Answer:**
+$$\mathbf{k = -1}$$
+
+</div>
+
+</details>
+
+---
+
+Show that the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given points: $(1, 2)$, $(2, 3)$, $(3, 4)$.
+
+Three points are collinear if the slope between any two pairs of them is the same.
+
+**Slope between $(1, 2)$ and $(2, 3)$:**
+$$m_1 = \frac{3 - 2}{2 - 1} = \frac{1}{1} = 1$$
+
+**Slope between $(2, 3)$ and $(3, 4)$:**
+$$m_2 = \frac{4 - 3}{3 - 2} = \frac{1}{1} = 1$$
+
+Since $m_1 = m_2 = 1$, and both slopes are computed using the common point $(2, 3)$, all three points lie on the same straight line.
+
+**Answer:**
+**Since the slope between each pair of points is equal ($m_1 = m_2 = 1$), the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.**
 
 </div>
 

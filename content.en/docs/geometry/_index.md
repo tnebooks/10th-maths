@@ -1846,6 +1846,86 @@ $$\mathbf{AC = 4.5\text{ cm}}$$
 
 ---
 
+$\triangle ABC$ is similar to $\triangle DEF$. If $BC = 3\text{ cm}$, $EF = 4\text{ cm}$ and the area of $\triangle ABC = 54\text{ cm}^2$, find the area of $\triangle DEF$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By the theorem on areas of similar triangles, the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides:
+$$\frac{\text{Area}(\triangle ABC)}{\text{Area}(\triangle DEF)} = \left(\frac{BC}{EF}\right)^2$$
+
+Substituting the given values:
+$$\frac{54}{\text{Area}(\triangle DEF)} = \left(\frac{3}{4}\right)^2 = \frac{9}{16}$$
+
+Solving for the area of $\triangle DEF$:
+$$\text{Area}(\triangle DEF) = \frac{54 \times 16}{9} = 6 \times 16 = 96\text{ cm}^2$$
+
+**Answer:**
+$$\mathbf{\text{Area}(\triangle DEF) = 96\text{ cm}^2}$$
+
+</div>
+
+</details>
+
+---
+
+In $\triangle ABC$, $D$ and $E$ are points on sides $AB$ and $AC$ respectively, such that $DE \parallel BC$. If $\dfrac{AD}{DB} = \dfrac{3}{4}$ and $AC = 15\text{ cm}$, find the value of $AE$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $DE \parallel BC$, by the Basic Proportionality Theorem (Thales' Theorem):
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+Given $\dfrac{AD}{DB} = \dfrac{3}{4}$, let $AE = 3k$ and $EC = 4k$ for some $k > 0$ (so that $\dfrac{AE}{EC} = \dfrac{3}{4}$).
+
+Since $AC = AE + EC$:
+$$15 = 3k + 4k = 7k$$
+$$k = \frac{15}{7}$$
+
+Therefore:
+$$AE = 3k = 3 \times \frac{15}{7} = \frac{45}{7}\text{ cm}$$
+
+**Answer:**
+$$\mathbf{AE = \frac{45}{7}\text{ cm} \approx 6.43\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
+Check whether $AD$ is the bisector of $\angle A$ of $\triangle ABC$ in the following: $AB = 4\text{ cm}$, $AC = 6\text{ cm}$, $BD = 1.6\text{ cm}$ and $CD = 2.4\text{ cm}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By the converse of the Angle Bisector Theorem, $AD$ is the bisector of $\angle A$ if and only if:
+$$\frac{AB}{AC} = \frac{BD}{CD}$$
+
+Computing the left side:
+$$\frac{AB}{AC} = \frac{4}{6} = \frac{2}{3}$$
+
+Computing the right side:
+$$\frac{BD}{CD} = \frac{1.6}{2.4} = \frac{2}{3}$$
+
+Since $\dfrac{AB}{AC} = \dfrac{BD}{CD} = \dfrac{2}{3}$, the Angle Bisector Theorem condition is satisfied.
+
+**Answer:**
+$$\mathbf{\text{Yes, } AD \text{ is the bisector of } \angle A}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 $D$ and $E$ are points on the sides $AB$ and $AC$ respectively of a $\triangle ABC$ such that $AB = 5.6\text{ cm}$, $AD = 1.4\text{ cm}$, $AC = 7.2\text{ cm}$ and $AE = 1.8\text{ cm}$. Show that $DE \parallel BC$.
@@ -2003,6 +2083,185 @@ Hence proved.
 
 ---
 
+State and prove Thales' Theorem (Basic Proportionality Theorem).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+If a line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, the other two sides are divided in the same ratio.
+
+**Given:**
+In $\triangle ABC$, $D$ is a point on $AB$ and $E$ is a point on $AC$ such that $DE \parallel BC$.
+
+**To Prove:**
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+**Construction:**
+Join $BE$ and $CD$. Draw $EF \perp AB$ and $DG \perp AC$.
+
+**Proof:**
+
+Area of a triangle $= \dfrac{1}{2} \times \text{base} \times \text{height}$.
+
+1. Consider $\triangle ADE$ and $\triangle DBE$, both having vertex $E$ and bases $AD$, $DB$ on the same line $AB$, with $EF$ as the common perpendicular height from $E$:
+$$\frac{\text{Area}(\triangle ADE)}{\text{Area}(\triangle DBE)} = \frac{\frac{1}{2} \times AD \times EF}{\frac{1}{2} \times DB \times EF} = \frac{AD}{DB} \quad \text{--- (1)}$$
+
+2. Consider $\triangle ADE$ and $\triangle DCE$, both having vertex $D$ and bases $AE$, $EC$ on the same line $AC$, with $DG$ as the common perpendicular height from $D$:
+$$\frac{\text{Area}(\triangle ADE)}{\text{Area}(\triangle DCE)} = \frac{\frac{1}{2} \times AE \times DG}{\frac{1}{2} \times EC \times DG} = \frac{AE}{EC} \quad \text{--- (2)}$$
+
+3. Now consider $\triangle DBE$ and $\triangle DCE$. Both have the same base $DE$, and since $DE \parallel BC$, both $B$ and $C$ are at the same perpendicular distance from line $DE$. Hence these two triangles have equal height on base $DE$, so:
+$$\text{Area}(\triangle DBE) = \text{Area}(\triangle DCE) \quad \text{--- (3)}$$
+
+4. From (1), (2) and (3), since the denominators in (1) and (2) are equal by (3), the numerators give equal ratios:
+$$\frac{\text{Area}(\triangle ADE)}{\text{Area}(\triangle DBE)} = \frac{\text{Area}(\triangle ADE)}{\text{Area}(\triangle DCE)} \implies \frac{AD}{DB} = \frac{AE}{EC}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+State and prove the Basic Proportionality Theorem (Thales' Theorem).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+If a line is drawn parallel to one side of a triangle intersecting the other two sides at distinct points, then it divides the two sides in the same ratio.
+
+**Given:**
+In $\triangle ABC$, $D$ is a point on $AB$ and $E$ is a point on $AC$ such that $DE \parallel BC$.
+
+**To Prove:**
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+**Construction:**
+Join $BE$ and $CD$. Draw $DM \perp AC$ and $EN \perp AB$.
+
+**Proof:**
+
+Area of a triangle $= \dfrac{1}{2} \times \text{base} \times \text{height}$.
+
+1. In $\triangle ADE$ and $\triangle BDE$, taking $AD$ and $DB$ as the bases on the same straight line $AB$, both triangles have the same vertex $E$ and hence the same perpendicular height $EN$ from $E$ to line $AB$:
+$$\text{Area}(\triangle ADE) = \frac{1}{2} \times AD \times EN, \qquad \text{Area}(\triangle BDE) = \frac{1}{2} \times DB \times EN$$
+$$\implies \frac{\text{Area}(\triangle ADE)}{\text{Area}(\triangle BDE)} = \frac{AD}{DB} \quad \text{--- (1)}$$
+
+2. In $\triangle ADE$ and $\triangle CDE$, taking $AE$ and $EC$ as the bases on the same straight line $AC$, both triangles have the same vertex $D$ and hence the same perpendicular height $DM$ from $D$ to line $AC$:
+$$\text{Area}(\triangle ADE) = \frac{1}{2} \times AE \times DM, \qquad \text{Area}(\triangle CDE) = \frac{1}{2} \times EC \times DM$$
+$$\implies \frac{\text{Area}(\triangle ADE)}{\text{Area}(\triangle CDE)} = \frac{AE}{EC} \quad \text{--- (2)}$$
+
+3. Now consider $\triangle BDE$ and $\triangle CDE$. Both have the common base $DE$. Since $DE \parallel BC$, the vertices $B$ and $C$ both lie on the line $BC$, which is parallel to $DE$; hence both triangles have equal perpendicular distance (height) from $DE$ to $BC$. Triangles with the same base and equal height have equal area:
+$$\text{Area}(\triangle BDE) = \text{Area}(\triangle CDE) \quad \text{--- (3)}$$
+
+4. Dividing (1) by (2):
+$$\frac{\text{Area}(\triangle ADE)/\text{Area}(\triangle BDE)}{\text{Area}(\triangle ADE)/\text{Area}(\triangle CDE)} = \frac{AD/DB}{AE/EC}$$
+
+Using (3), $\text{Area}(\triangle BDE) = \text{Area}(\triangle CDE)$, so the left side simplifies to $1$:
+$$1 = \frac{AD/DB}{AE/EC} \implies \frac{AD}{DB} = \frac{AE}{EC}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+State and prove Thales Theorem.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+If a line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, the other two sides are divided in the same ratio.
+
+**Given:**
+In $\triangle ABC$, $D$ is a point on $AB$ and $E$ is a point on $AC$ such that $DE \parallel BC$.
+
+**To Prove:**
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+**Proof (using AA similarity):**
+
+1. In $\triangle ADE$ and $\triangle ABC$:
+   - $\angle DAE = \angle BAC$ (common angle at $A$) $\quad \text{--- (1)}$
+   - $\angle ADE = \angle ABC$ (corresponding angles, since $DE \parallel BC$ with $AB$ as transversal) $\quad \text{--- (2)}$
+
+2. From (1) and (2), by the AA similarity criterion:
+$$\triangle ADE \sim \triangle ABC$$
+
+3. Since the triangles are similar, their corresponding sides are proportional:
+$$\frac{AD}{AB} = \frac{AE}{AC}$$
+
+4. Since $D$ lies on $AB$, $AB = AD + DB$. Similarly, since $E$ lies on $AC$, $AC = AE + EC$. Substituting:
+$$\frac{AD}{AD + DB} = \frac{AE}{AE + EC}$$
+
+5. Cross-multiplying:
+$$AD(AE + EC) = AE(AD + DB)$$
+$$AD \cdot AE + AD \cdot EC = AE \cdot AD + AE \cdot DB$$
+
+6. The term $AD \cdot AE$ appears on both sides, so it cancels:
+$$AD \cdot EC = AE \cdot DB$$
+
+7. Dividing both sides by $DB \cdot EC$:
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+A man whose eye-level is $2\text{ m}$ above the ground wishes to find the height of a tree. He places a mirror horizontally on the ground $20\text{ m}$ from the tree and finds that if he stands at a point $C$ which is $4\text{ m}$ from the mirror, he can see the reflection of the top of the tree. How high is the tree? (The man's foot, the mirror, and the man are on the same straight line.)
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the foot of the tree be $A$, the top of the tree be $T$, the position of the mirror on the ground be $B$, and the man's eye position be $E$, with foot $C$ directly below $E$.
+
+Given: $AB = 20\text{ m}$ (distance from tree to mirror), $BC = 4\text{ m}$ (distance from mirror to man), $CE = 2\text{ m}$ (the man's eye-level height).
+
+By the law of reflection, the angle of incidence equals the angle of reflection at the mirror point $B$. Since both the tree $TA$ and the man $EC$ stand vertically (perpendicular to the ground $AC$) and both make equal angles with the ground at $B$:
+$$\angle TBA = \angle EBC$$
+
+In $\triangle TAB$ and $\triangle ECB$:
+- $\angle TAB = \angle ECB = 90^\circ$ (both the tree and the man are perpendicular to the ground)
+- $\angle TBA = \angle EBC$ (angle of incidence = angle of reflection, shown above)
+
+By the AA similarity criterion:
+$$\triangle TAB \sim \triangle ECB$$
+
+Since the triangles are similar, corresponding sides are proportional:
+$$\frac{TA}{EC} = \frac{AB}{CB}$$
+
+Let $TA = h$ (the height of the tree). Substituting the known values:
+$$\frac{h}{2} = \frac{20}{4}$$
+
+Solving for $h$:
+$$h = \frac{20 \times 2}{4} = \frac{40}{4} = 10\text{ m}$$
+
+**Answer:**
+$$\mathbf{\text{Height of the tree} = 10\text{ m}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 Show that the angle bisectors of a triangle are concurrent using Ceva's Theorem.
@@ -2125,6 +2384,217 @@ Given: Base $BC = 8\text{ cm}$, Vertical angle $\angle A = 60^\circ$, $BD = 6\te
 8. Join $ID$ and extend it to intersect the circle at the upper segment at vertex $A$.
 9. Join $AB$ and $AC$.
 Then $\triangle ABC$ is the required triangle.
+
+</div>
+
+</details>
+
+---
+
+Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\frac{7}{3}$ of the corresponding sides of the triangle $PQR$ (scale factor $\frac{7}{3} > 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+*Note: the given triangle $PQR$'s side measurements are taken from the triangle shown in the exam paper's diagram; any convenient triangle $PQR$ may be drawn first, since the construction method below applies to a triangle of any size with scale factor $\frac{7}{3} > 1$.*
+
+Given: A triangle $PQR$ and scale factor $\frac{7}{3} > 1$.
+
+**Steps of Construction:**
+1. Construct a $\triangle PQR$ with the given (or any convenient) measurements.
+2. Draw a ray $QX$ making an acute angle with side $QR$, on the side opposite to vertex $P$.
+3. Locate 7 points (the greater of 7 and 3 in $\frac{7}{3}$), namely $Q_1, Q_2, Q_3, Q_4, Q_5, Q_6, Q_7$ on $QX$, such that $QQ_1 = Q_1Q_2 = Q_2Q_3 = Q_3Q_4 = Q_4Q_5 = Q_5Q_6 = Q_6Q_7$.
+4. Join $Q_3$ (the 3rd point, the smaller of 7 and 3) to $R$.
+5. Draw a line through $Q_7$ parallel to $Q_3R$, intersecting the extended line segment $QR$ at $R'$.
+6. Draw a line through $R'$ parallel to $RP$, intersecting the extended line segment $QP$ at $P'$.
+
+Then $\triangle P'QR'$ is the required triangle, each of whose sides is $\frac{7}{3}$ of the corresponding sides of $\triangle PQR$.
+
+**Reasoning:** By construction, $\triangle QQ_3R \sim \triangle QQ_7R'$ (since $Q_3R \parallel Q_7R'$), so $\dfrac{QR'}{QR} = \dfrac{QQ_7}{QQ_3} = \dfrac{7}{3}$. Also $R'P' \parallel RP$ gives $\triangle QRP \sim \triangle QR'P'$ by AA similarity, so every side of $\triangle P'QR'$ is $\dfrac{7}{3}$ times the corresponding side of $\triangle PQR$.
+
+</div>
+
+</details>
+
+---
+
+Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\frac{7}{4}$ of the corresponding sides of the triangle $PQR$ (scale factor $\frac{7}{4} > 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+*Note: the given triangle $PQR$'s side measurements are taken from the triangle shown in the exam paper's diagram; any convenient triangle $PQR$ may be drawn first, since the construction method below applies to a triangle of any size with scale factor $\frac{7}{4} > 1$.*
+
+Given: A triangle $PQR$ and scale factor $\frac{7}{4} > 1$.
+
+**Steps of Construction (Basic Proportionality Theorem construction method):**
+1. Construct a $\triangle PQR$ with the given (or any convenient) measurements.
+2. Draw a ray $QX$ making an acute angle with side $QR$, on the side opposite to vertex $P$.
+3. Locate 7 points (the greater of 7 and 4 in $\frac{7}{4}$), namely $Q_1, Q_2, Q_3, Q_4, Q_5, Q_6, Q_7$ on $QX$, such that $QQ_1 = Q_1Q_2 = Q_2Q_3 = Q_3Q_4 = Q_4Q_5 = Q_5Q_6 = Q_6Q_7$.
+4. Join $Q_4$ (the 4th point, the smaller of 7 and 4) to $R$.
+5. Draw a line through $Q_7$ parallel to $Q_4R$, intersecting the extended line segment $QR$ at $R'$.
+6. Draw a line through $R'$ parallel to $RP$, intersecting the extended line segment $QP$ at $P'$.
+
+Then $\triangle P'QR'$ is the required triangle, each of whose sides is $\frac{7}{4}$ of the corresponding sides of $\triangle PQR$.
+
+**Reasoning:** By construction, $\triangle QQ_4R \sim \triangle QQ_7R'$ (since $Q_4R \parallel Q_7R'$), so $\dfrac{QR'}{QR} = \dfrac{QQ_7}{QQ_4} = \dfrac{7}{4}$. Also $R'P' \parallel RP$ gives $\triangle QRP \sim \triangle QR'P'$ by AA similarity, so every side of $\triangle P'QR'$ is $\dfrac{7}{4}$ times the corresponding side of $\triangle PQR$.
+
+</div>
+
+</details>
+
+---
+
+Construct a triangle similar to a given triangle $LMN$ with its sides equal to $\frac{4}{5}$ of the corresponding sides of the triangle $LMN$ (scale factor $\frac{4}{5} < 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+*Note: the given triangle $LMN$'s side measurements are taken from the triangle shown in the exam paper's diagram; any convenient triangle $LMN$ may be drawn first, since the construction method below applies to a triangle of any size with scale factor $\frac{4}{5} < 1$.*
+
+Given: A triangle $LMN$ and scale factor $\frac{4}{5} < 1$.
+
+**Steps of Construction (Basic Proportionality Theorem construction method):**
+1. Construct a $\triangle LMN$ with the given (or any convenient) measurements.
+2. Draw a ray $MX$ making an acute angle with side $MN$, on the side opposite to vertex $L$.
+3. Locate 5 points (the greater of 4 and 5 in $\frac{4}{5}$), namely $M_1, M_2, M_3, M_4, M_5$ on $MX$, such that $MM_1 = M_1M_2 = M_2M_3 = M_3M_4 = M_4M_5$.
+4. Join $M_5$ (the 5th point, the denominator) to $N$.
+5. Draw a line through $M_4$ (the 4th point, the numerator) parallel to $M_5N$, intersecting $MN$ at $N'$ (since $4 < 5$, this parallel is drawn from an **interior** division point, unlike the scale-factor-$>1$ case where it is drawn from the outermost point and the resulting line meets the *extended* side).
+6. Draw a line through $N'$ parallel to $NL$, intersecting $ML$ at $L'$.
+
+Then $\triangle L'MN'$ is the required triangle, each of whose sides is $\frac{4}{5}$ of the corresponding sides of $\triangle LMN$ — smaller than $\triangle LMN$, since $\frac{4}{5} < 1$.
+
+**Reasoning:** By construction, $\triangle MM_4N' \sim \triangle MM_5N$ (since $M_4N' \parallel M_5N$), so $\dfrac{MN'}{MN} = \dfrac{MM_4}{MM_5} = \dfrac{4}{5}$. Also $N'L' \parallel NL$ gives $\triangle MNL \sim \triangle MN'L'$ by AA similarity, so every side of $\triangle L'MN'$ is $\dfrac{4}{5}$ times the corresponding side of $\triangle LMN$.
+
+</div>
+
+</details>
+
+---
+
+Draw a triangle similar to the given triangle $PQR$, with its sides in the ratio $\dfrac{7}{4}$ to the corresponding sides of $\triangle PQR$ (scale factor $\dfrac{7}{4} > 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+*Note: the side measurements of the given triangle $PQR$ are taken from the triangle shown in the exam paper's diagram; any convenient triangle $PQR$ may be drawn first, since the construction method below applies to a triangle of any size with scale factor $\frac{7}{4} > 1$.*
+
+Given: A triangle $PQR$ and scale factor $\frac{7}{4} > 1$.
+
+**Steps of Construction (Basic Proportionality Theorem construction method):**
+1. Construct a $\triangle PQR$ with the given (or any convenient) measurements.
+2. Draw a ray $QX$ making an acute angle with side $QR$, on the side opposite to vertex $P$.
+3. Locate 7 points (the greater of 7 and 4 in $\frac{7}{4}$), namely $Q_1, Q_2, Q_3, Q_4, Q_5, Q_6, Q_7$ on $QX$, such that $QQ_1 = Q_1Q_2 = Q_2Q_3 = Q_3Q_4 = Q_4Q_5 = Q_5Q_6 = Q_6Q_7$.
+4. Join $Q_4$ (the 4th point, the smaller of 7 and 4) to $R$.
+5. Draw a line through $Q_7$ parallel to $Q_4R$, intersecting the extended line segment $QR$ at $R'$.
+6. Draw a line through $R'$ parallel to $RP$, intersecting the extended line segment $QP$ at $P'$.
+
+Then $\triangle P'QR'$ is the required triangle, each of whose sides is $\frac{7}{4}$ of the corresponding sides of $\triangle PQR$.
+
+**Reasoning:** By construction, $\triangle QQ_4R \sim \triangle QQ_7R'$ (since $Q_4R \parallel Q_7R'$), so $\dfrac{QR'}{QR} = \dfrac{QQ_7}{QQ_4} = \dfrac{7}{4}$. Also $R'P' \parallel RP$ gives $\triangle QRP \sim \triangle QR'P'$ by AA similarity, so every side of $\triangle P'QR'$ is $\dfrac{7}{4}$ times the corresponding side of $\triangle PQR$.
+
+</div>
+
+</details>
+
+**(OR)**
+
+Draw a $\triangle PQR$ with $PQ = 4.5\text{ cm}$, $\angle R = 35^\circ$, and the length of the median drawn from vertex $R$ equal to $RG = 6\text{ cm}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $PQ = 4.5\text{ cm}$, $\angle R = 35^\circ$ (the angle opposite side $PQ$), and the median $RG = 6\text{ cm}$ where $G$ is the midpoint of $PQ$.
+
+This is the standard construction "triangle given one side, the angle opposite to it, and the median to that side." The key idea is that vertex $R$ must satisfy two conditions simultaneously: (i) $R$ lies on the arc of a circle through $P$ and $Q$ on which $PQ$ subtends an angle of $35^\circ$ (so that $\angle PRQ = 35^\circ$), and (ii) $R$ lies on a circle of radius $6\text{ cm}$ centred at $G$, the midpoint of $PQ$ (so that $RG = 6\text{ cm}$). The intersection of these two loci locates $R$.
+
+**Steps of Construction:**
+1. Draw a rough sketch of $\triangle PQR$ and mark the given measurements to plan the construction.
+2. Draw the line segment $PQ = 4.5\text{ cm}$.
+3. Since $G$ is the midpoint of $PQ$, mark the point $G$ on $PQ$ such that $PG = GQ = 2.25\text{ cm}$.
+4. **Construct the locus on which $PQ$ subtends $35^\circ$:** At $P$, draw a ray $PX$ such that $\angle QPX = 35^\circ$ (using the tangent–chord angle idea: $PX$ is drawn so that the angle it makes with chord $PQ$ equals the angle to be subtended at the circumference, $35^\circ$).
+5. Draw $PY \perp PX$ at $P$ (the perpendicular to $PX$ at $P$ is, by the tangent–chord angle construction, a radius of the required circle — i.e., it passes through the circle's centre).
+6. Draw the perpendicular bisector of $PQ$. Let it meet $PY$ at the point $O$.
+7. With $O$ as centre and radius $OP (= OQ)$, draw a circle. By construction (tangent–chord angle theorem, converse), any point on the major arc of this circle subtends an angle of $35^\circ$ on $PQ$; so $R$ must lie on this arc.
+8. **Construct the locus for the median length:** With $G$ as centre and radius $GR = 6\text{ cm}$, draw an arc.
+9. Mark the point $R$ where the arc drawn in Step 8 intersects the arc (circle) drawn in Step 7 — this point satisfies both $\angle PRQ = 35^\circ$ and $RG = 6\text{ cm}$.
+10. Join $RP$ and $RQ$.
+
+Then $\triangle PQR$ is the required triangle.
+
+**Verification:** Since $R$ lies on the circle through $P$ and $Q$ constructed with the $35^\circ$ tangent–chord angle, $\angle PRQ = 35^\circ$. Since $R$ lies on the arc of radius $6\text{ cm}$ centred at $G$ (the midpoint of $PQ$), the median $RG = 6\text{ cm}$. Both given conditions are satisfied.
+
+</div>
+
+</details>
+
+---
+
+Construct a triangle similar to a given triangle $PQR$ with its sides equal to $\frac{7}{4}$ of the corresponding sides of the triangle $PQR$. (Scale factor $\frac{7}{4} > 1$.)
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+*Note: the given triangle $PQR$'s side measurements are taken from the triangle shown in the exam paper's diagram; any convenient triangle $PQR$ may be drawn first, since the construction method below applies to a triangle of any size with scale factor $\frac{7}{4} > 1$.*
+
+Given: A triangle $PQR$ and scale factor $\frac{7}{4} > 1$.
+
+**Steps of Construction (Basic Proportionality Theorem construction method):**
+1. Construct a $\triangle PQR$ with the given (or any convenient) measurements.
+2. Draw a ray $QX$ making an acute angle with side $QR$, on the side opposite to vertex $P$.
+3. Since $\frac{7}{4}$ has $7$ as the greater number, locate $7$ equal-length divisions on $QX$, namely $Q_1, Q_2, Q_3, Q_4, Q_5, Q_6, Q_7$, using a compass so that $QQ_1 = Q_1Q_2 = Q_2Q_3 = Q_3Q_4 = Q_4Q_5 = Q_5Q_6 = Q_6Q_7$.
+4. Join the $4$th division point $Q_4$ (the smaller of $7$ and $4$) to $R$.
+5. Draw a line through the $7$th (outermost) division point $Q_7$ parallel to $Q_4R$, meeting the extended line segment $QR$ at $R'$.
+6. Draw a line through $R'$ parallel to $RP$, meeting the extended line segment $QP$ at $P'$.
+
+Then $\triangle P'QR'$ is the required triangle, each of whose sides is $\frac{7}{4}$ of the corresponding sides of $\triangle PQR$.
+
+**Reasoning:** By construction, $Q_4R \parallel Q_7R'$, so in $\triangle QQ_4R$ and $\triangle QQ_7R'$, $\angle Q$ is common and $\angle QQ_4R = \angle QQ_7R'$ (corresponding angles), giving $\triangle QQ_4R \sim \triangle QQ_7R'$ by AA similarity. Hence $\dfrac{QR'}{QR} = \dfrac{QQ_7}{QQ_4} = \dfrac{7}{4}$. Since $R'P' \parallel RP$, similarly $\triangle QRP \sim \triangle QR'P'$, so every side of $\triangle P'QR'$ is $\dfrac{7}{4}$ times the corresponding side of $\triangle PQR$.
+
+</div>
+
+</details>
+
+**(OR)**
+
+Construct a $\triangle PQR$ in which the base $PQ = 4.5\text{ cm}$, $\angle R = 35^\circ$ and the median $RG$ from $R$ to $PQ$ is $6\text{ cm}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $PQ = 4.5\text{ cm}$, $\angle R = 35^\circ$ (angle opposite side $PQ$), and median $RG = 6\text{ cm}$, where $G$ is the midpoint of $PQ$.
+
+This is the "side + opposite angle + median to that side" construction. Vertex $R$ must satisfy two loci simultaneously: (i) $R$ lies on an arc through $P$ and $Q$ on which chord $PQ$ subtends $35^\circ$ at the circumference — located using the tangent–chord angle construction, by drawing the angle $35^\circ$ at $P$ between $PQ$ and a ray $PX$, then the perpendicular to $PX$ at $P$ passes through the circle's centre (the alternate segment theorem guarantees every point on the resulting major arc sees $PQ$ at $35^\circ$); and (ii) $R$ lies on a circle of radius $6\text{ cm}$ centred at $G$, the midpoint of $PQ$.
+
+**Steps of Construction:**
+1. Draw a rough sketch of $\triangle PQR$ and mark the given measurements.
+2. Draw the line segment $PQ = 4.5\text{ cm}$.
+3. Mark $G$, the midpoint of $PQ$, so that $PG = GQ = 2.25\text{ cm}$.
+4. At $P$, draw a ray $PX$ making $\angle QPX = 35^\circ$ with $PQ$ (the tangent–chord angle equal to the angle to be subtended at the circumference).
+5. Draw $PY \perp PX$ at $P$; by the tangent–chord construction, $PY$ passes through the centre of the required circle.
+6. Draw the perpendicular bisector of $PQ$; let it meet $PY$ at $O$.
+7. With centre $O$ and radius $OP\,(=OQ)$, draw a circle. By the converse of the tangent–chord (alternate segment) theorem, every point on the major arc of this circle subtends $35^\circ$ on $PQ$, so $R$ lies on this arc.
+8. With centre $G$ and radius $6\text{ cm}$, draw an arc.
+9. Mark $R$ at the intersection of the arc from Step 8 and the arc (circle) from Step 7.
+10. Join $RP$ and $RQ$.
+
+Then $\triangle PQR$ is the required triangle.
+
+**Verification:** Since $R$ lies on the circle constructed with the $35^\circ$ tangent–chord angle through $P$ and $Q$, $\angle PRQ = 35^\circ$. Since $R$ lies on the arc of radius $6\text{ cm}$ centred at $G$, the median $RG = 6\text{ cm}$. Both given conditions are satisfied.
 
 </div>
 

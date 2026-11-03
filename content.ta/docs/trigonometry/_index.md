@@ -1317,6 +1317,96 @@ $$d = 50\sqrt{3} \times \sqrt{3} = 50 \times 3 = 150\text{ மீ}$$
 
 ---
 
+$\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இடப்புறத்தை (LHS) எடுத்துக் கொள்ள:
+$$\text{LHS} = \tan^2\theta - \sin^2\theta$$
+
+$\tan\theta = \dfrac{\sin\theta}{\cos\theta}$ என்பதால் $\tan^2\theta = \dfrac{\sin^2\theta}{\cos^2\theta}$:
+$$\text{LHS} = \frac{\sin^2\theta}{\cos^2\theta} - \sin^2\theta$$
+
+$\sin^2\theta$ -ஐ பொது காரணியாக எடுக்க:
+$$\text{LHS} = \sin^2\theta\left(\frac{1}{\cos^2\theta} - 1\right) = \sin^2\theta\left(\frac{1 - \cos^2\theta}{\cos^2\theta}\right)$$
+
+பித்தாகரஸ் முற்றொருமை $\sin^2\theta + \cos^2\theta = 1$ -ஐப் பயன்படுத்த, $1 - \cos^2\theta = \sin^2\theta$:
+$$\text{LHS} = \sin^2\theta\left(\frac{\sin^2\theta}{\cos^2\theta}\right) = \sin^2\theta \times \tan^2\theta$$
+
+$$\text{LHS} = \tan^2\theta\sin^2\theta = \text{RHS}$$
+
+**விடை:**
+எனவே, $\mathbf{\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta}$ என்பது நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+$\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இடப்புறத்தை (LHS) எடுத்துக் கொள்ள:
+$$\text{LHS} = \sqrt{\frac{1+\sin\theta}{1-\sin\theta}}$$
+
+வர்க்கமூலத்தின் உள்ளே உள்ள தொகுதி மற்றும் பகுதியை $(1+\sin\theta)$ ஆல் பெருக்க:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)(1+\sin\theta)}{(1-\sin\theta)(1+\sin\theta)}} = \sqrt{\frac{(1+\sin\theta)^2}{1-\sin^2\theta}}$$
+
+பித்தாகரஸ் முற்றொருமை $\sin^2\theta+\cos^2\theta=1$-ஐப் பயன்படுத்த, $1-\sin^2\theta=\cos^2\theta$:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)^2}{\cos^2\theta}} = \frac{1+\sin\theta}{|\cos\theta|}$$
+
+இந்த முற்றொருமை பொருந்தும் வட்டத்தில் $\cos\theta > 0$ என்பதால், $|\cos\theta|=\cos\theta$:
+$$\text{LHS} = \frac{1+\sin\theta}{\cos\theta} = \frac{1}{\cos\theta}+\frac{\sin\theta}{\cos\theta}$$
+
+$\sec\theta=\dfrac{1}{\cos\theta}$ மற்றும் $\tan\theta=\dfrac{\sin\theta}{\cos\theta}$ என்பதைப் பயன்படுத்த:
+$$\text{LHS} = \sec\theta+\tan\theta = \text{RHS}$$
+
+**விடை:** எனவே, $\mathbf{\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta}$ என்பது நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+பின்வரும் முற்றொருமைகளை நிரூபிக்கவும்: $\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இடப்புறத்தை (LHS) எடுத்துக் கொள்ள:
+$$\text{LHS} = \sqrt{\frac{1+\sin\theta}{1-\sin\theta}}$$
+
+வர்க்கமூலத்தின் உள்ளே உள்ள தொகுதி மற்றும் பகுதியை $(1+\sin\theta)$ ஆல் பெருக்க:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)(1+\sin\theta)}{(1-\sin\theta)(1+\sin\theta)}} = \sqrt{\frac{(1+\sin\theta)^2}{1-\sin^2\theta}}$$
+
+பித்தாகரஸ் முற்றொருமை $\sin^2\theta+\cos^2\theta=1$-ஐப் பயன்படுத்த, $1-\sin^2\theta=\cos^2\theta$:
+$$\text{LHS} = \sqrt{\frac{(1+\sin\theta)^2}{\cos^2\theta}} = \frac{1+\sin\theta}{|\cos\theta|}$$
+
+இந்த முற்றொருமை பொருந்தும் வட்டத்தில் $\cos\theta > 0$ என்பதால், $|\cos\theta|=\cos\theta$:
+$$\text{LHS} = \frac{1+\sin\theta}{\cos\theta} = \frac{1}{\cos\theta}+\frac{\sin\theta}{\cos\theta}$$
+
+$\sec\theta=\dfrac{1}{\cos\theta}$ மற்றும் $\tan\theta=\dfrac{\sin\theta}{\cos\theta}$ என்பதைப் பயன்படுத்த:
+$$\text{LHS} = \sec\theta+\tan\theta = \text{RHS}$$
+
+**விடை:** எனவே, $\mathbf{\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta}$ என்பது நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 $\sqrt{\frac{1 + \cos\theta}{1 - \cos\theta}} = \csc\theta + \cot\theta$ என்பதை நிரூபிக்கவும்.
@@ -1420,6 +1510,76 @@ $$\frac{(\sin A - \cos A)(\sin^2 A + \sin A\cos A + \cos^2 A)}{\sin A - \cos A} 
 $$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 2 = \text{RHS}$$
 
 எனவே நிரூபிக்கப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+$\dfrac{\cos\alpha}{\cos\beta} = m$ மற்றும் $\dfrac{\cos\alpha}{\sin\beta} = n$, எனக் கொண்டு $(m^2+n^2)\cos^2\beta = n^2$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட தரவுகளிலிருந்து:
+$$\frac{\cos\alpha}{\cos\beta} = m \implies \cos\alpha = m\cos\beta \qquad \text{...(1)}$$
+$$\frac{\cos\alpha}{\sin\beta} = n \implies \cos\alpha = n\sin\beta \qquad \text{...(2)}$$
+
+இரு சமன்பாடுகளையும் வர்க்கப்படுத்த:
+$$\cos^2\alpha = m^2\cos^2\beta \qquad \text{...(3)}$$
+$$\cos^2\alpha = n^2\sin^2\beta \qquad \text{...(4)}$$
+
+இரண்டும் $\cos^2\alpha$-க்குச் சமமாக இருப்பதால், (3) மற்றும் (4)-ஐ சமப்படுத்த:
+$$m^2\cos^2\beta = n^2\sin^2\beta$$
+
+பித்தாகரஸ் முற்றொருமை $\sin^2\beta = 1 - \cos^2\beta$-ஐப் பயன்படுத்த:
+$$m^2\cos^2\beta = n^2(1 - \cos^2\beta)$$
+$$m^2\cos^2\beta = n^2 - n^2\cos^2\beta$$
+
+$\cos^2\beta$ உறுப்புகளை ஒன்றாக்க:
+$$m^2\cos^2\beta + n^2\cos^2\beta = n^2$$
+$$(m^2+n^2)\cos^2\beta = n^2$$
+
+இதுவே தேவையான முடிவு.
+
+**விடை:** எனவே, $\mathbf{(m^2+n^2)\cos^2\beta = n^2}$ என்பது நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+$(\csc\theta-\sin\theta)(\sec\theta-\cos\theta)(\tan\theta+\cot\theta)=1$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+மூன்று காரணிகளையும் தனித்தனியாக எளிமைப்படுத்துவோம்.
+
+**முதல் காரணி:**
+$$\csc\theta-\sin\theta = \frac{1}{\sin\theta}-\sin\theta = \frac{1-\sin^2\theta}{\sin\theta}$$
+
+பித்தாகரஸ் முற்றொருமை $\sin^2\theta+\cos^2\theta=1$ என்பதால், $1-\sin^2\theta=\cos^2\theta$:
+$$\csc\theta-\sin\theta = \frac{\cos^2\theta}{\sin\theta}$$
+
+**இரண்டாம் காரணி:**
+$$\sec\theta-\cos\theta = \frac{1}{\cos\theta}-\cos\theta = \frac{1-\cos^2\theta}{\cos\theta} = \frac{\sin^2\theta}{\cos\theta}$$
+
+**மூன்றாம் காரணி:**
+$$\tan\theta+\cot\theta = \frac{\sin\theta}{\cos\theta}+\frac{\cos\theta}{\sin\theta} = \frac{\sin^2\theta+\cos^2\theta}{\sin\theta\cos\theta} = \frac{1}{\sin\theta\cos\theta}$$
+
+**மூன்று காரணிகளையும் பெருக்க:**
+$$\text{LHS} = \frac{\cos^2\theta}{\sin\theta}\times\frac{\sin^2\theta}{\cos\theta}\times\frac{1}{\sin\theta\cos\theta}$$
+
+$$= \frac{\cos^2\theta\cdot\sin^2\theta}{\sin\theta\cdot\cos\theta\cdot\sin\theta\cdot\cos\theta} = \frac{\sin^2\theta\cos^2\theta}{\sin^2\theta\cos^2\theta} = 1 = \text{RHS}$$
+
+**விடை:** எனவே, $\mathbf{(\csc\theta-\sin\theta)(\sec\theta-\cos\theta)(\tan\theta+\cot\theta)=1}$ என்பது நிறுவப்பட்டது.
 
 </div>
 

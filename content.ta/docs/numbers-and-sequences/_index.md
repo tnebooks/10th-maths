@@ -2492,6 +2492,377 @@ $$t_4 - t_3 = 4\sqrt{2} - 3\sqrt{2} = \sqrt{2}$$
 
 ---
 
+$3, 6, 9, 12, \ldots, 111$ என்ற கூட்டுத்தொடர்வரிசையில் உள்ள உறுப்புகளின் எண்ணிக்கையைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட கூட்டுத்தொடர்வரிசை: முதல் உறுப்பு $a = 3$, பொது வித்தியாசம் $d = 3$, கடைசி உறுப்பு $l = 111$.
+
+$l = a + (n-1)d$ என்ற வாய்பாட்டின்படி:
+$$111 = 3 + (n-1)(3)$$
+$$108 = (n-1)(3)$$
+$$n - 1 = 36$$
+$$n = 37$$
+
+**விடை:**
+உறுப்புகளின் எண்ணிக்கை $\mathbf{n = 37}$.
+
+</div>
+
+</details>
+
+---
+
+$3+k, 18-k, 5k+1$ ஆகியவை ஒரு கூட்டுத் தொடர்வரிசையில் உள்ளன எனில், $k$ யின் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+மூன்று உறுப்புகள் கூட்டுத்தொடர்வரிசையில் இருந்தால், நடு உறுப்பு முதல் மற்றும் மூன்றாம் உறுப்புகளின் சராசரிக்குச் சமமாகும்:
+$$2(18-k) = (3+k) + (5k+1)$$
+$$36 - 2k = 6k + 4$$
+$$36 - 4 = 6k + 2k$$
+$$32 = 8k$$
+$$k = 4$$
+
+**விடை:**
+$$\mathbf{k = 4}$$
+
+</div>
+
+</details>
+
+---
+
+$1 + 3 + 5 + \cdots$ என்ற தொடரின் $40$ உறுப்புகள் வரையிலான கூடுதலைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இது முதல் உறுப்பு $a = 1$, பொது வித்தியாசம் $d = 2$, மற்றும் $n = 40$ உறுப்புகள் கொண்ட ஒரு கூட்டுத்தொடர்வரிசை ஆகும்.
+
+$S_n = \dfrac{n}{2}[2a + (n-1)d]$ என்ற வாய்பாட்டின்படி:
+$$S_{40} = \frac{40}{2}\big[2(1) + (40-1)(2)\big] = 20\big[2 + 78\big] = 20 \times 80 = 1600$$
+
+(இது, முதல் $n$ ஒற்றை இயல் எண்களின் கூடுதல் $n^2$ எனும் அறிந்த முடிவுடன் பொருந்துகிறது: $40^2 = 1600$.)
+
+**விடை:**
+$$\mathbf{S_{40} = 1600}$$
+
+</div>
+
+</details>
+
+---
+
+$3 + 1 + \dfrac{1}{3} + \cdots \infty$ என்ற தொடரின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இது முதல் உறுப்பு $a = 3$ மற்றும் பொது விகிதம் கொண்ட ஒரு முடிவிலாப் பெருக்குத்தொடர்வரிசை ஆகும்:
+$$r = \frac{1}{3}, \qquad |r| < 1$$
+
+முடிவிலா கூடுதல் வாய்பாடு $S_\infty = \dfrac{a}{1-r}$ பயன்படுத்த:
+$$S_\infty = \frac{3}{1 - \frac{1}{3}} = \frac{3}{\frac{2}{3}} = 3 \times \frac{3}{2} = \frac{9}{2}$$
+
+**விடை:**
+$$\mathbf{S_\infty = \dfrac{9}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+\(252525\) மற்றும் \(363636\) என்ற எண்களின் மீ.பொ.வ காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+யூக்ளிடின் வகுத்தல் வழிமுறையின்படி, வகுத்தல் துணைத்தேற்றம் \(a = bq + r\)-ஐ மீண்டும் மீண்டும் பயன்படுத்தி, \(a\)-வை \(b\)-ஆலும் \(b\)-வை \(r\)-ஆலும் மாற்றி, மீதி \(0\) ஆகும் வரை தொடரவும்:
+
+$$363636 = 1 \times 252525 + 111111$$
+$$252525 = 2 \times 111111 + 30303$$
+$$111111 = 3 \times 30303 + 20202$$
+$$30303 = 1 \times 20202 + 10101$$
+$$20202 = 2 \times 10101 + 0$$
+
+இப்போது மீதி \(0\) ஆகும்; இந்தப் படிநிலையில் உள்ள வகுக்கும் எண் \(10101\).
+
+**விடை:**
+$$\mathbf{\text{மீ.பொ.வ.}(252525, 363636) = 10101}$$
+
+</div>
+
+</details>
+
+---
+
+முற்பகல் \(7\) மணிக்கு \(100\) மணி நேரத்திற்குப் பிறகு நேரம் என்ன?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கடிகாரம் ஒவ்வொரு \(24\) மணி நேரத்திற்கும் மீண்டும் தொடங்குவதால், \(100\)-ஐ \(24\)-ஆல் யூக்ளிடின் வகுத்தல் துணைத்தேற்றத்தைப் பயன்படுத்தி வகுக்கவும்:
+$$100 = 24 \times 4 + 4$$
+
+எனவே \(100\) மணி நேரம் \(=\) \(4\) முழு நாட்கள் \(+\) \(4\) கூடுதல் மணி நேரம். \(4\) முழு நாட்கள் கடிகார நேரத்தை அதே நிலைக்குத் திரும்பக் கொண்டுவரும், எனவே கூடுதல் \(4\) மணி நேரம் மட்டுமே கணக்கில் கொள்ளப்பட வேண்டும்:
+$$\text{முற்பகல் } 7\text{ மணி} + 4\text{ மணி நேரம்} = \text{முற்பகல் } 11\text{ மணி}$$
+
+**விடை:**
+$$\mathbf{\text{முற்பகல் } 11 \text{ மணி}}$$
+
+</div>
+
+</details>
+
+---
+
+\(9 + 3 + 1 + \cdots\) என்ற முடிவிலாத் தொடரின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இது முதல் உறுப்பு \(a = 9\) மற்றும் பொது விகிதம் கொண்ட ஒரு முடிவிலாப் பெருக்குத்தொடர்வரிசை ஆகும்:
+$$r = \frac{3}{9} = \frac{1}{3}, \qquad |r| < 1$$
+
+முடிவிலா கூடுதல் வாய்பாடு \(S_\infty = \dfrac{a}{1-r}\) பயன்படுத்த:
+$$S_\infty = \frac{9}{1 - \frac{1}{3}} = \frac{9}{\frac{2}{3}} = 9 \times \frac{3}{2} = \frac{27}{2}$$
+
+**விடை:**
+$$\mathbf{S_\infty = \dfrac{27}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+\(-11, -15, -19 \ldots\) என்ற கூட்டுத்தொடர் வரிசையின் \(19\)-வது உறுப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட கூட்டுத்தொடர்வரிசை: முதல் உறுப்பு \(a = -11\), பொது வித்தியாசம்:
+$$d = -15 - (-11) = -4$$
+
+\(t_n = a + (n-1)d\) என்ற வாய்பாட்டின்படி, \(n = 19\)-க்கு:
+$$t_{19} = -11 + (19-1)(-4) = -11 + 18(-4) = -11 - 72 = -83$$
+
+**விடை:**
+$$\mathbf{t_{19} = -83}$$
+
+</div>
+
+</details>
+
+---
+
+முதல் \(10\) இயல் எண்களாலும் மீதியின்றி வகுபடக்கூடிய சிறிய எண் எது?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+தேவையான எண் \(1, 2, 3, \ldots, 10\) ஆகியவற்றின் மீ.சி.ம ஆகும். ஒவ்வொரு எண்ணின் பகா எண் காரணிப் பிரித்தல்:
+$$8 = 2^3, \quad 9 = 3^2, \quad 5 = 5, \quad 7 = 7, \quad 10 = 2 \times 5, \quad 6 = 2 \times 3, \quad 4 = 2^2$$
+
+மீ.சி.ம ஆனது ஒவ்வொரு பகா எண்ணின் அதிக அடுக்கையும் எடுத்துக் கொள்ளும்: \(2^3\) (\(8\)-இலிருந்து), \(3^2\) (\(9\)-இலிருந்து), \(5\) (\(5\) அல்லது \(10\)-இலிருந்து), மற்றும் \(7\) (\(7\)-இலிருந்து).
+
+$$\text{மீ.சி.ம} = 2^3 \times 3^2 \times 5 \times 7 = 8 \times 9 \times 5 \times 7 = 2520$$
+
+**விடை:**
+$$\mathbf{2520}$$
+
+</div>
+
+</details>
+
+---
+
+\(10^4 \equiv x \pmod{19}\) என்றவாறு அமைய \(x\) யின் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+\(10^4\)-ஐ \(19\) மட்டில் படிப்படியாக வர்க்கமிட்டுச் சுருக்குவோம்.
+
+**படி 1:** \(10^2 = 100 = 5 \times 19 + 5\), எனவே \(10^2 \equiv 5 \pmod{19}\).
+
+**படி 2:** \(10^4 = (10^2)^2 \equiv 5^2 = 25 \pmod{19}\), மற்றும் \(25 = 1 \times 19 + 6\), எனவே \(25 \equiv 6 \pmod{19}\).
+
+எனவே \(10^4 \equiv 6 \pmod{19}\).
+
+**விடை:**
+$$\mathbf{x = 6}$$
+
+</div>
+
+</details>
+
+---
+
+\(16, 11, 6, 1, \ldots\) என்ற கூட்டுத்தொடர் வரிசையில் \(-54\) என்பது எத்தனையாவது உறுப்பு?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட கூட்டுத்தொடர்வரிசை: முதல் உறுப்பு \(a = 16\), பொது வித்தியாசம் \(d = 11 - 16 = -5\).
+
+\(t_n = a + (n-1)d\) என்ற வாய்பாட்டின்படி, \(t_n = -54\) எனில்:
+$$-54 = 16 + (n-1)(-5)$$
+$$-54 - 16 = (n-1)(-5)$$
+$$-70 = -5(n-1)$$
+$$n - 1 = 14$$
+$$n = 15$$
+
+**விடை:**
+\(-54\) என்பது \(\mathbf{15}\)-வது உறுப்பு.
+
+</div>
+
+</details>
+
+---
+
+\(t_n\) என்பது ஒரு கூட்டுத் தொடர்வரிசையின் \(n\) ஆவது உறுப்பு எனில், \(t_{2n} - t_n\) யின் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூட்டுத்தொடர்வரிசையின் முதல் உறுப்பு \(a\) மற்றும் பொது வித்தியாசம் \(d\) எனில், \(t_n = a + (n-1)d\).
+
+\(t_{2n}\)-ஐ அதே வாய்பாட்டில் \(n\) இடத்தில் \(2n\) பிரதியிட்டுக் காணலாம்:
+$$t_{2n} = a + (2n-1)d$$
+
+கழிக்க:
+$$t_{2n} - t_n = \big[a + (2n-1)d\big] - \big[a + (n-1)d\big]$$
+$$= (2n-1)d - (n-1)d$$
+$$= d\big[(2n-1) - (n-1)\big]$$
+$$= d(n) = nd$$
+
+**விடை:**
+$$\mathbf{t_{2n} - t_n = nd}$$
+
+</div>
+
+</details>
+
+---
+
+\(a\) மற்றும் \(b\) ஆகியவை \(a^b \times b^a = 800\) என்றவாறு அமையும் இரு மிகை முழுக்கள். \(a\) மற்றும் \(b\) ஐ காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+\(800\) ஐ அதன் பகா எண் காரணிகளாகப் பிரிக்க:
+$$800 = 2^5 \times 5^2$$
+
+\(a^b \times b^a = 2^5 \times 5^2\) ஆக அமையும் மிகை முழுக்கள் \(a, b\) தேவை. இந்த பகாக் காரணிப் பிரிவுக்குப் பொருந்தும் சிறிய மதிப்புகளைச் சோதிப்போம்.
+
+\(a = 2\), \(b = 5\) எனக் கொள்ள:
+$$a^b \times b^a = 2^5 \times 5^2 = 32 \times 25 = 800$$
+
+இது சரியாகப் பொருந்துகிறது.
+
+**சரிபார்ப்பு:** \(2^5 = 32\), \(5^2 = 25\), மற்றும் \(32 \times 25 = 800\). ✓ (\(a\) மற்றும் \(b\) ஐ மாற்றினால் \(a=5, b=2\): \(5^2 \times 2^5 = 25 \times 32 = 800\) எண்ணியல் முடிவு அதேயாக இருந்தாலும், \(a=2,b=5\) எனும் தேர்வு \(2^5 \times 5^2\) என்ற காரணிப் பிரிவுடன் நேரடியாகப் பொருந்துவதால் இயல்பான தேர்வாகும்.)
+
+**விடை:**
+$$\mathbf{a = 2, \ b = 5}$$
+
+</div>
+
+</details>
+
+---
+
+\(729, 243, 81,\ldots\) என்ற பெருக்குத் தொடர்வரிசையின் \(7\)-வது உறுப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+பெருக்குத் தொடர்வரிசையின் முதல் உறுப்பு மற்றும் பொது விகிதத்தை அடையாளம் காண்க:
+$$a = 729, \qquad r = \frac{243}{729} = \frac{1}{3}$$
+
+பொது உறுப்பு வாய்பாடு \(t_n = a r^{n-1}\) ஐ \(n = 7\) உடன் பயன்படுத்த:
+$$t_7 = 729 \times \left(\frac{1}{3}\right)^{7-1} = 729 \times \left(\frac{1}{3}\right)^{6}$$
+
+\(729 = 3^6\) என்பதால்:
+$$t_7 = 3^6 \times \frac{1}{3^6} = 1$$
+
+**சரிபார்ப்பு:** உறுப்புகளைப் பட்டியலிட: \(729, 243, 81, 27, 9, 3, 1\) — \(7\)-வது உறுப்பு உண்மையில் \(1\) ஆகும். ✓
+
+**விடை:**
+$$\mathbf{t_7 = 1}$$
+
+</div>
+
+</details>
+
+---
+
+**கட்டாய வினா:** \((1^3+2^3+3^3+\cdots+15^3) - (1+2+3+\cdots+15)\) யின் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+சிறப்புத் தொடர்கள் வாய்பாடுகளைப் பயன்படுத்துவோம்: முதல் \(n\) இயல் எண்களின் கூடுதல், மற்றும் முதல் \(n\) இயல் எண்களின் கனங்களின் கூடுதல்.
+
+$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}, \qquad \sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
+
+இங்கு \(n = 15\).
+
+**படி 1: முதல் 15 இயல் எண்களின் கூடுதல்**
+$$1+2+3+\cdots+15 = \frac{15 \times 16}{2} = 120$$
+
+**படி 2: முதல் 15 இயல் எண்களின் கனங்களின் கூடுதல்**
+$$1^3+2^3+3^3+\cdots+15^3 = \left[\frac{15 \times 16}{2}\right]^2 = 120^2 = 14400$$
+
+**படி 3: கழித்தல்**
+$$(1^3+2^3+\cdots+15^3) - (1+2+\cdots+15) = 14400 - 120 = 14280$$
+
+**சரிபார்ப்பு:** \(120^2 = 14400\) (\(120 \times 120 = 14400\) என்பதால்), மற்றும் \(14400 - 120 = 14280\). ✓
+
+**விடை:**
+$$\mathbf{14280}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 $71 \equiv x \pmod 8$ என்ற சமன்பாட்டை நிறைவு செய்யக்கூடிய குறைந்தபட்ச மிகை முழு $x$-ன் மதிப்பைக் காண்க.

@@ -1769,6 +1769,263 @@ $$\mathbf{f \circ g(x) = 2x^2 - 3}, \quad \mathbf{g \circ f(x) = 4x^2 + 4x - 1}$
 
 ---
 
+$B \times A = \{(-2,3), (-2,4), (0,3), (0,4), (3,3), (3,4)\}$ எனில் $A$ மற்றும் $B$ ஆகியவற்றைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$B \times A = \{(-2,3), (-2,4), (0,3), (0,4), (3,3), (3,4)\}$$
+
+$B \times A$-ல் ஒவ்வொரு வரிசைச் சோடியும் ($B$-ன் உறுப்பு, $A$-ன் உறுப்பு) என்ற வடிவில் இருக்கும்.
+
+அனைத்து சோடிகளின் முதல் உறுப்புகளின் கணம் $B$ ஆகும்:
+$$B = \{-2, 0, 3\}$$
+
+அனைத்து சோடிகளின் இரண்டாம் உறுப்புகளின் கணம் $A$ ஆகும்:
+$$A = \{3, 4\}$$
+
+**விடை:**
+$$\mathbf{A = \{3, 4\}, \quad B = \{-2, 0, 3\}}$$
+
+</div>
+
+</details>
+
+---
+
+$R$ என்ற ஒரு உறவு $R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$ எனக் கொடுக்கப்பட்டுள்ளது. இதன் சார்பகத்தையும், வீச்சகத்தையும் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$$
+
+சார்பகம் என்பது $x$-ன் அனைத்து மதிப்புகளின் கணம், இது நேரடியாகக் கொடுக்கப்பட்டுள்ளது:
+$$\text{சார்பகம்} = \{0, 1, 2, 3, 4, 5\}$$
+
+வீச்சகத்தைக் காண, ஒவ்வொரு $x$ மதிப்பிற்கும் $y = x + 3$ எனக் கணக்கிடுக:
+$$x=0 \Rightarrow y=3,\quad x=1 \Rightarrow y=4,\quad x=2 \Rightarrow y=5$$
+$$x=3 \Rightarrow y=6,\quad x=4 \Rightarrow y=7,\quad x=5 \Rightarrow y=8$$
+
+எனவே வீச்சகம்:
+$$\text{வீச்சகம்} = \{3, 4, 5, 6, 7, 8\}$$
+
+**விடை:**
+$$\mathbf{\text{சார்பகம்} = \{0,1,2,3,4,5\}, \quad \text{வீச்சகம்} = \{3,4,5,6,7,8\}}$$
+
+</div>
+
+</details>
+
+---
+
+$f(x) = 3x + 2$, $g(x) = 6x - k$; $f \circ g = g \circ f$ எனில் $k$ ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(x) = 3x + 2, \quad g(x) = 6x - k$$
+
+$f \circ g(x)$ ஐக் காணுதல்:
+$$f \circ g(x) = f(6x - k) = 3(6x - k) + 2 = 18x - 3k + 2$$
+
+$g \circ f(x)$ ஐக் காணுதல்:
+$$g \circ f(x) = g(3x + 2) = 6(3x + 2) - k = 18x + 12 - k$$
+
+$f \circ g = g \circ f$ என்பதால், இரு வெளிப்பாடுகளையும் சமப்படுத்த:
+$$18x - 3k + 2 = 18x + 12 - k$$
+$$-3k + 2 = 12 - k$$
+$$-3k + k = 12 - 2$$
+$$-2k = 10$$
+$$k = -5$$
+
+**விடை:**
+$$\mathbf{k = -5}$$
+
+</div>
+
+</details>
+
+---
+
+$A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$ எனில் $A$ மற்றும் $B$ ஆகியவற்றைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$$
+
+அனைத்து வரிசைச் சோடிகளின் முதல் உறுப்புகளின் கணம் $A$ ஆகும்:
+$$A = \{3, 5\}$$
+
+அனைத்து வரிசைச் சோடிகளின் இரண்டாம் உறுப்புகளின் கணம் $B$ ஆகும்:
+$$B = \{2, 4\}$$
+
+**விடை:**
+$$\mathbf{A = \{3, 5\}, \quad B = \{2, 4\}}$$
+
+</div>
+
+</details>
+
+---
+
+$R$ என்ற ஒரு உறவு $R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$ எனக் கொடுக்கப்பட்டுள்ளது. இதன் மதிப்பகத்தினையும், வீச்சகத்தையும் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$$
+
+சார்பகம் என்பது $x$-ன் அனைத்து மதிப்புகளின் கணம், இது நேரடியாகக் கொடுக்கப்பட்டுள்ளது:
+$$\text{சார்பகம்} = \{0, 1, 2, 3, 4, 5\}$$
+
+வீச்சகத்தைக் காண, ஒவ்வொரு $x$ மதிப்பிற்கும் $y = x + 3$ எனக் கணக்கிடுக:
+$$x=0 \Rightarrow y=3,\quad x=1 \Rightarrow y=4,\quad x=2 \Rightarrow y=5$$
+$$x=3 \Rightarrow y=6,\quad x=4 \Rightarrow y=7,\quad x=5 \Rightarrow y=8$$
+
+எனவே வீச்சகம்:
+$$\text{வீச்சகம்} = \{3, 4, 5, 6, 7, 8\}$$
+
+**விடை:**
+$$\mathbf{\text{சார்பகம்} = \{0,1,2,3,4,5\}, \quad \text{வீச்சகம்} = \{3,4,5,6,7,8\}}$$
+
+</div>
+
+</details>
+
+---
+
+$fof(k) = 5$ மற்றும் $f(k) = 2k-1$ எனில் $k$ யின் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(k) = 2k - 1$$
+
+$fof(k)$ ஐக் காணுதல்:
+$$fof(k) = f(f(k)) = f(2k-1) = 2(2k-1) - 1 = 4k - 2 - 1 = 4k - 3$$
+
+$fof(k) = 5$ என்பதால்:
+$$4k - 3 = 5$$
+$$4k = 8$$
+$$k = 2$$
+
+**விடை:**
+$$\mathbf{k = 2}$$
+
+</div>
+
+</details>
+
+---
+
+$R$ என்ற ஒரு உறவு $\{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$ எனக் கொடுக்கப்பட்டுள்ளது. இதன் சார்பகத்தையும், வீச்சகத்தையும் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$R = \{(x,y) \mid y = x + 3,\ x \in \{0,1,2,3,4,5\}\}$$
+
+சார்பகம் என்பது $x$-ன் அனைத்து மதிப்புகளின் கணம், இது நேரடியாகக் கொடுக்கப்பட்டுள்ளது:
+$$\text{சார்பகம்} = \{0, 1, 2, 3, 4, 5\}$$
+
+வீச்சகத்தைக் காண, ஒவ்வொரு $x$ மதிப்பிற்கும் $y = x + 3$ எனக் கணக்கிடுக:
+$$x=0 \Rightarrow y=3,\quad x=1 \Rightarrow y=4,\quad x=2 \Rightarrow y=5$$
+$$x=3 \Rightarrow y=6,\quad x=4 \Rightarrow y=7,\quad x=5 \Rightarrow y=8$$
+
+எனவே வீச்சகம்:
+$$\text{வீச்சகம்} = \{3, 4, 5, 6, 7, 8\}$$
+
+**விடை:**
+$$\mathbf{\text{சார்பகம்} = \{0,1,2,3,4,5\}, \quad \text{வீச்சகம்} = \{3,4,5,6,7,8\}}$$
+
+</div>
+
+</details>
+
+---
+
+$A=\{1,2,4\}$, $B=\{2,4,6\}$, $C=\{2,5\}$ எனில் $(A-B) \times (B-C)$ காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{1, 2, 4\}, \quad B = \{2, 4, 6\}, \quad C = \{2, 5\}$$
+
+**படி 1: $A - B$ ஐக் காணுதல்** ($A$-ல் உள்ள, $B$-ல் இல்லாத உறுப்புகள்).
+$$A - B = \{1, 2, 4\} - \{2, 4, 6\} = \{1\}$$
+
+**படி 2: $B - C$ ஐக் காணுதல்** ($B$-ல் உள்ள, $C$-ல் இல்லாத உறுப்புகள்).
+$$B - C = \{2, 4, 6\} - \{2, 5\} = \{4, 6\}$$
+
+**படி 3: $(A - B) \times (B - C)$ ஐக் காணுதல்.**
+$$(A - B) \times (B - C) = \{1\} \times \{4, 6\} = \{(1,4), (1,6)\}$$
+
+**விடை:**
+$$\mathbf{(A - B) \times (B - C) = \{(1,4), (1,6)\}}$$
+
+</div>
+
+</details>
+
+---
+
+கீழேக் கொடுக்கப்பட்டுள்ள $f$ மற்றும் $g$ எனும் சார்புகளைப் பயன்படுத்தி $f \circ g$ மற்றும் $g \circ f$-ஐக் காண்க. $f \circ g = g \circ f$ என்பது சரியா சோதிக்க.
+$$f(x) = 3 + x, \quad g(x) = x - 4$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(x) = 3 + x, \quad g(x) = x - 4$$
+
+**படி 1: $f \circ g$ ஐக் காணுதல்.**
+$$(f \circ g)(x) = f(g(x)) = f(x - 4) = 3 + (x - 4) = x - 1$$
+
+**படி 2: $g \circ f$ ஐக் காணுதல்.**
+$$(g \circ f)(x) = g(f(x)) = g(3 + x) = (3 + x) - 4 = x - 1$$
+
+**படி 3: ஒப்பிடுதல்.**
+$$f \circ g = x - 1, \qquad g \circ f = x - 1$$
+
+இரண்டும் சமமாக இருப்பதால், இந்த நிகழ்விற்கு $f \circ g = g \circ f$ என்பது உண்மை.
+
+**விடை:**
+$$\mathbf{f \circ g = x - 1 = g \circ f \ \text{(இங்கு உண்மை)}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 $R$ என்ற உறவு $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$ எனக் கொடுக்கப்பட்டுள்ளது. இதன் மதிப்பகத்தையும் வீச்சகத்தையும் கண்டறிக.
@@ -1823,6 +2080,124 @@ $$R = \{(-5, a), (1, a), (3, b)\}$$
 
 **விடை:**
 **$R$ என்பது $X$-லிருந்து $Y$-க்கு ஒரு சார்பு ஆகாது.**
+
+</div>
+
+</details>
+
+---
+
+$A = \{2, -2, 3\}$ மற்றும் $B = \{1, -4\}$ எனில், $A \times B$ மற்றும் $B \times A$ ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{2, -2, 3\}, \quad B = \{1, -4\}$$
+
+**$A \times B$ ஐக் காணுதல்:**
+$A$-ன் ஒவ்வொரு உறுப்பையும் $B$-ன் ஒவ்வொரு உறுப்புடனும் சோடி செய்தால்:
+$$A \times B = \{(2, 1), (2, -4), (-2, 1), (-2, -4), (3, 1), (3, -4)\}$$
+
+**$B \times A$ ஐக் காணுதல்:**
+$B$-ன் ஒவ்வொரு உறுப்பையும் $A$-ன் ஒவ்வொரு உறுப்புடனும் சோடி செய்தால்:
+$$B \times A = \{(1, 2), (1, -2), (1, 3), (-4, 2), (-4, -2), (-4, 3)\}$$
+
+**விடை:**
+$$\mathbf{A \times B = \{(2, 1), (2, -4), (-2, 1), (-2, -4), (3, 1), (3, -4)\}}$$
+$$\mathbf{B \times A = \{(1, 2), (1, -2), (1, 3), (-4, 2), (-4, -2), (-4, 3)\}}$$
+
+</div>
+
+</details>
+
+---
+
+$f = \{(x, y) \mid x, y \in \mathbb{N}$ மற்றும் $y = 2x\}$ ஆனது $\mathbb{N}$ ன் மீதான ஓர் உறவு எனில், மதிப்பகம், துணை மதிப்பகம் மற்றும் வீச்சகத்தைக் காண்க. இந்த உறவு சார்பாகுமா?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f = \{(x, y) \mid x, y \in \mathbb{N} \text{ மற்றும் } y = 2x\}$$
+
+$x$ ஆனது $\mathbb{N}$-ல் உள்ள அனைத்து மதிப்புகளையும் பெறுவதாலும், $y$ ஆனது $\mathbb{N}$-லிருந்தே எடுக்கப்படுவதாலும்:
+- **மதிப்பகம்** $= \mathbb{N} = \{1, 2, 3, 4, \ldots\}$
+- **துணை மதிப்பகம்** $= \mathbb{N} = \{1, 2, 3, 4, \ldots\}$
+
+$x$ ஆனது $\mathbb{N}$-ல் மாறும்போது $y = 2x$ என்ற மதிப்புகளின் தொகுப்பே வீச்சகம் ஆகும், இது இரட்டைப்படை இயல் எண்களைக் கொண்டது:
+- **வீச்சகம்** $= \{2, 4, 6, 8, \ldots\}$
+
+**இது சார்பாகுமா?**
+மதிப்பகத்தில் உள்ள ஒவ்வொரு உறுப்பிற்கும் துணை மதிப்பகத்தில் ஒரே ஒரு நிழல் உரு இருந்தால் அந்த உறவு சார்பாகும். இங்கு ஒவ்வொரு $x \in \mathbb{N}$-க்கும் $y = 2x$ என்ற விதி ஒரே ஒரு தனித்த $y$ மதிப்பை அளிக்கிறது. எனவே, $f$ **ஒரு சார்பாகும்**.
+
+**விடை:**
+$$\mathbf{\text{மதிப்பகம்} = \mathbb{N}, \quad \text{துணை மதிப்பகம்} = \mathbb{N}, \quad \text{வீச்சகம்} = \{2, 4, 6, 8, \ldots\}}$$
+**ஆம், $f$ ஒரு சார்பாகும்.**
+
+</div>
+
+</details>
+
+---
+
+$f(x) = 3x - 2$, $g(x) = 2x + k$ மற்றும் $f \circ g = g \circ f$ எனில், $k$ யின் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$f(x) = 3x - 2, \quad g(x) = 2x + k$$
+
+**$f \circ g(x)$ ஐக் காணுதல்:**
+$$f \circ g(x) = f(g(x)) = 3(2x + k) - 2 = 6x + 3k - 2$$
+
+**$g \circ f(x)$ ஐக் காணுதல்:**
+$$g \circ f(x) = g(f(x)) = 2(3x - 2) + k = 6x - 4 + k$$
+
+$f \circ g = g \circ f$ என்பதால்:
+$$6x + 3k - 2 = 6x - 4 + k$$
+$$3k - 2 = -4 + k$$
+$$3k - k = -4 + 2$$
+$$2k = -2$$
+$$k = -1$$
+
+**விடை:**
+$$\mathbf{k = -1}$$
+
+</div>
+
+</details>
+
+---
+
+$(1, 2)$, $(2, 3)$ மற்றும் $(3, 4)$ என்ற புள்ளிகள் ஒரு கோடமைந்தவை (collinear) எனக் காட்டுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட புள்ளிகள்: $(1, 2)$, $(2, 3)$, $(3, 4)$.
+
+மூன்று புள்ளிகளும் ஒரு கோடமைந்தவையாக இருக்க வேண்டுமெனில், ஏதேனும் இரு சோடிப் புள்ளிகளுக்கிடையேயான சாய்வு சமமாக இருக்க வேண்டும்.
+
+**$(1, 2)$ மற்றும் $(2, 3)$ க்கு இடையேயான சாய்வு:**
+$$m_1 = \frac{3 - 2}{2 - 1} = \frac{1}{1} = 1$$
+
+**$(2, 3)$ மற்றும் $(3, 4)$ க்கு இடையேயான சாய்வு:**
+$$m_2 = \frac{4 - 3}{3 - 2} = \frac{1}{1} = 1$$
+
+$m_1 = m_2 = 1$ ஆகவும், இரு சாய்வுகளும் பொதுவான புள்ளி $(2, 3)$ வழியாகக் கணக்கிடப்பட்டுள்ளதாலும், மூன்று புள்ளிகளும் ஒரே நேர்கோட்டில் அமைந்துள்ளன.
+
+**விடை:**
+**ஒவ்வொரு சோடிப் புள்ளிகளுக்கிடையேயான சாய்வும் சமமாக உள்ளதால் ($m_1 = m_2 = 1$), $(1, 2)$, $(2, 3)$ மற்றும் $(3, 4)$ என்ற புள்ளிகள் ஒரு கோடமைந்தவை.**
 
 </div>
 
