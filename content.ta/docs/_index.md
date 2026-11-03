@@ -1,7 +1,5 @@
 ---
 title: 'கணிதம்'
-categories:
-    - maths
 weight: 1
 --- 
 
