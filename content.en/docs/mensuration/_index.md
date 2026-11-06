@@ -2,6 +2,8 @@
 title: 'Mensuration'
 categories:
     - mensuration
+tags:
+    - mid-term-2
 weight: 7
 references:
     videos:

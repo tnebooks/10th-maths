@@ -2,6 +2,8 @@
 title: 'trigonometry'
 categories:
     - trigonometry
+tags:
+    - quarterly
 weight: 6
 references:
     videos:

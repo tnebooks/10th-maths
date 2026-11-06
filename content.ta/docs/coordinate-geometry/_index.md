@@ -2,6 +2,8 @@
 title: 'ஆயத்தொலைவு வடிவியல்'
 categories:
     - coordinate-geometry
+tags:
+    - quarterly
 weight: 5
 references:
     videos:

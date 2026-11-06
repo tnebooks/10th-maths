@@ -2,6 +2,8 @@
 title: 'இயற்கணிதம்'
 categories:
     - algebra
+tags:
+    - quarterly
 weight: 3
 references:
     videos:

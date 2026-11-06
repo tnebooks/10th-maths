@@ -2,6 +2,8 @@
 title: 'Coordinate Geometry'
 categories:
     - coordinate-geometry
+tags:
+    - quarterly
 weight: 5
 references:
     videos:

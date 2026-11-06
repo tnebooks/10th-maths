@@ -2,6 +2,8 @@
 title: 'முக்கோணவியல்'
 categories:
     - trigonometry
+tags:
+    - quarterly
 weight: 6
 references:
     videos:

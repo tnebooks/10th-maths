@@ -2,6 +2,8 @@
 title: 'Algebra'
 categories:
     - algebra
+tags:
+    - quarterly
 weight: 3
 references:
     videos:

@@ -2,6 +2,9 @@
 title: 'Relations and Functions'
 categories:
     - relations-and-functions
+tags:
+    - mid-term-1
+    - quarterly
 weight: 1
 references:
     videos:

@@ -2,6 +2,9 @@
 title: 'எண்களும் தொடர்களும்'
 categories:
     - numbers-and-sequences
+tags:
+    - mid-term-1
+    - quarterly
 weight: 2
 references:
     videos:

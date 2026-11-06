@@ -2,6 +2,9 @@
 title: 'geometry'
 categories:
     - geometry
+tags:
+    - mid-term-1
+    - quarterly
 weight: 4
 references:
     videos:
