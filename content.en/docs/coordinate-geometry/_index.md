@@ -2699,6 +2699,34 @@ $$\mathbf{3x - 2y - 12 = 0}$$
 
 ---
 
+Show that the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given points: $(1, 2)$, $(2, 3)$, $(3, 4)$.
+
+Three points are collinear if the slope between any two pairs of them is the same.
+
+**Slope between $(1, 2)$ and $(2, 3)$:**
+$$m_1 = \frac{3 - 2}{2 - 1} = \frac{1}{1} = 1$$
+
+**Slope between $(2, 3)$ and $(3, 4)$:**
+$$m_2 = \frac{4 - 3}{3 - 2} = \frac{1}{1} = 1$$
+
+Since $m_1 = m_2 = 1$, and both slopes are computed using the common point $(2, 3)$, all three points lie on the same straight line.
+
+**Answer:**
+**Since the slope between each pair of points is equal ($m_1 = m_2 = 1$), the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.**
+
+</div>
+
+</details>
+
+---
+
 ### 5 Marks
 
 #### 2020

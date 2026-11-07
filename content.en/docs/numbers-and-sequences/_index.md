@@ -3189,6 +3189,43 @@ $$\mathbf{S_\infty = \frac{27}{2}} \quad \text{(or } \mathbf{13.5}\text{)}$$
 
 ---
 
+Find the 12th term from the end of the arithmetic progression $-2, -4, -6, \dots, -100$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given arithmetic progression:
+$$-2, -4, -6, \dots, -100$$
+
+Here:
+- First term $a = -2$
+- Common difference $d = -4 - (-2) = -2$
+- Last term $l = -100$
+
+Number of terms $n$ in the AP:
+$$n = \frac{l - a}{d} + 1 = \frac{-100 - (-2)}{-2} + 1 = \frac{-98}{-2} + 1 = 49 + 1 = 50$$
+
+The $k$-th term from the end is the $(n - k + 1)$-th term from the beginning.
+For $k = 12$:
+$$\text{Term number} = 50 - 12 + 1 = 39$$
+
+Now, finding $t_{39}$:
+$$t_{39} = a + (39 - 1)d = -2 + 38(-2) = -2 - 76 = -78$$
+
+*(Alternatively, writing the AP in reverse order: $-100, -98, -96, \dots$ with $a' = -100$ and $d' = +2$:
+$t_{12} = a' + (12 - 1)d' = -100 + 11(2) = -100 + 22 = -78$.)*
+
+**Answer:**
+$$\mathbf{-78}$$
+
+</div>
+
+</details>
+
+---
+
 ### 5 Marks
 
 #### 2023

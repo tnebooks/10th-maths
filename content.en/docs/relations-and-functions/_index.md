@@ -2239,27 +2239,31 @@ $$\mathbf{k = -1}$$
 
 ---
 
-Show that the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.
+If $A = \{1, 3, 5\}$ and $B = \{2, 3\}$, then show that $n(A \times B) = n(B \times A) = n(A) \times n(B)$.
 
 <details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
 <summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
 
 <div class="pt-3">
 
-Given points: $(1, 2)$, $(2, 3)$, $(3, 4)$.
+Given $A = \{1, 3, 5\}$ and $B = \{2, 3\}$.
+Here, $n(A) = 3$ and $n(B) = 2$.
 
-Three points are collinear if the slope between any two pairs of them is the same.
+1. Finding $A \times B$:
+   $$A \times B = \{(1, 2), (1, 3), (3, 2), (3, 3), (5, 2), (5, 3)\}$$
+   $$n(A \times B) = 6 \quad \text{--- (1)}$$
 
-**Slope between $(1, 2)$ and $(2, 3)$:**
-$$m_1 = \frac{3 - 2}{2 - 1} = \frac{1}{1} = 1$$
+2. Finding $B \times A$:
+   $$B \times A = \{(2, 1), (2, 3), (2, 5), (3, 1), (3, 3), (3, 5)\}$$
+   $$n(B \times A) = 6 \quad \text{--- (2)}$$
 
-**Slope between $(2, 3)$ and $(3, 4)$:**
-$$m_2 = \frac{4 - 3}{3 - 2} = \frac{1}{1} = 1$$
+3. Finding $n(A) \times n(B)$:
+   $$n(A) \times n(B) = 3 \times 2 = 6 \quad \text{--- (3)}$$
 
-Since $m_1 = m_2 = 1$, and both slopes are computed using the common point $(2, 3)$, all three points lie on the same straight line.
+From (1), (2), and (3):
+$$n(A \times B) = n(B \times A) = n(A) \times n(B) = 6$$
 
-**Answer:**
-**Since the slope between each pair of points is equal ($m_1 = m_2 = 1$), the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.**
+Hence shown.
 
 </div>
 
@@ -2758,6 +2762,47 @@ From (1) and (2):
 $$\text{LHS} = \text{RHS}$$
 
 Hence proved that **$(f \circ g) \circ h = f \circ (g \circ h)$**.
+
+</div>
+
+</details>
+
+---
+
+A function $f: A \to B$ is defined by $f(x) = \dfrac{x}{2} - 1$, where $A = \{2, 4, 6, 10, 12\}$ and $B = \{0, 1, 2, 4, 5, 9\}$. Represent $f$ by:
+(i) set of ordered pairs
+(ii) an arrow diagram
+(iii) a table
+(iv) a graph
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given $f(x) = \dfrac{x}{2} - 1$:
+- $f(2) = \dfrac{2}{2} - 1 = 1 - 1 = 0$
+- $f(4) = \dfrac{4}{2} - 1 = 2 - 1 = 1$
+- $f(6) = \dfrac{6}{2} - 1 = 3 - 1 = 2$
+- $f(10) = \dfrac{10}{2} - 1 = 5 - 1 = 4$
+- $f(12) = \dfrac{12}{2} - 1 = 6 - 1 = 5$
+
+**(i) Set of ordered pairs:**
+$$f = \{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)\}$$
+
+**(ii) Arrow diagram:**
+Each element $x \in A$ is connected to its image $f(x) \in B$:
+$2 \to 0,\ 4 \to 1,\ 6 \to 2,\ 10 \to 4,\ 12 \to 5$.
+*(Note: $9 \in B$ has no pre-image).*
+
+**(iii) A table:**
+
+| $x$ | 2 | 4 | 6 | 10 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 0 | 1 | 2 | 4 | 5 |
+
+**(iv) A graph:**
+In the $xy$-plane, plot the points $(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)$.
 
 </div>
 
