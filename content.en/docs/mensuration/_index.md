@@ -1266,6 +1266,36 @@ The adjacent figure shows a cylindrical can with two balls. The can is just larg
 
 ### 2 Marks
 
+#### 2022
+
+The radius and height of a cylinder are in the ratio $5:7$ and its curved surface area is $5500\text{ sq. cm}$. Find its radius and height.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let radius $r = 5x$ and height $h = 7x$.
+Curved surface area of a cylinder $= 2\pi rh = 5500$.
+
+$$2 \times \frac{22}{7} \times (5x) \times (7x) = 5500$$
+$$2 \times 22 \times 5x^2 = 5500$$
+$$220x^2 = 5500$$
+$$x^2 = \frac{5500}{220} = 25 \implies x = 5$$
+
+Therefore:
+- Radius $r = 5x = 5(5) = 25\text{ cm}$
+- Height $h = 7x = 7(5) = 35\text{ cm}$
+
+**Answer:**
+$$\mathbf{\text{Radius} = 25\text{ cm}, \quad \text{Height} = 35\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 The radius of a conical tent is $7\text{ m}$ and its height is $24\text{ m}$. Calculate the length of the canvas used to make the tent if the width of the rectangular canvas is $4\text{ m}$.
@@ -1428,6 +1458,57 @@ $$\mathbf{6 : \pi} \quad \text{(or } \mathbf{21 : 11}\text{)}$$
 ---
 
 ### 5 Marks
+
+#### 2021
+
+If the radii of the circular ends of a frustum which is $45\text{ cm}$ high are $28\text{ cm}$ and $7\text{ cm}$, find the volume of the frustum.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $h = 45\text{ cm}, R = 28\text{ cm}, r = 7\text{ cm}$.
+
+$$V = \frac{1}{3}\pi h (R^2 + Rr + r^2)$$
+$$R^2 + Rr + r^2 = 28^2 + 28(7) + 7^2 = 784 + 196 + 49 = 1029$$
+
+$$V = \frac{1}{3} \times \frac{22}{7} \times 45 \times 1029 = 15 \times 22 \times 147 = 48510\text{ cm}^3$$
+
+**Answer:**
+$$\mathbf{48510\text{ cm}^3}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+A container open at the top is in the form of a frustum of a cone of height $16\text{ cm}$ with radii of its lower and upper ends as $8\text{ cm}$ and $20\text{ cm}$ respectively. Find the cost of milk which can completely fill a container at the rate of ₹40 per litre.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $h = 16\text{ cm}, r = 8\text{ cm}, R = 20\text{ cm}$.
+Rate = ₹40 per litre.
+
+$$V = \frac{1}{3}\pi h (R^2 + Rr + r^2) = \frac{1}{3} \times \frac{22}{7} \times 16 \times (400 + 160 + 64)$$
+$$V = \frac{352}{21} \times 624 = 10459.43\text{ cm}^3 = 10.459\text{ litres}$$
+
+$$\text{Total Cost} = 10.459 \times 40 = ₹418.36$$
+
+**Answer:**
+$$\mathbf{₹418.36}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 

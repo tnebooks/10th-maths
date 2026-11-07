@@ -1611,6 +1611,99 @@ https://www.geogebra.org/m/jfr2zzgy#chapter/356191
 
 ### 2 மதிப்பெண் வினாக்கள் (2 Marks)
 
+#### 2020
+
+$A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$ எனில், $A$ மற்றும் $B$-ஐக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$$
+
+அனைத்து வரிசைச் சோடிகளின் முதல் உறுப்புகளின் கணம் $A$ ஆகும்:
+$$A = \{3, 5\}$$
+
+அனைத்து வரிசைச் சோடிகளின் இரண்டாம் உறுப்புகளின் கணம் $B$ ஆகும்:
+$$B = \{2, 4\}$$
+
+**விடை:**
+$$\mathbf{A = \{3, 5\}, \quad B = \{2, 4\}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+$A = \{1, 2, 3, 4, \ldots, 45\}$ மற்றும் $R$ என்ற உறவு "$A$-ன் மீது, ஓர் எண்ணின் வர்க்கம்" என வரையறுக்கப்பட்டால், $R$-ஐ $A \times A$-ன் உட்கணமாக எழுதுக. மேலும் $R$-க்கான மதிப்பகத்தையும், வீச்சகத்தையும் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $A = \{1, 2, 3, \ldots, 45\}$ மற்றும் $R = \{(x, y) \mid y = x^2,\ x, y \in A\}$.
+
+$A$-ல் உள்ள எண்களின் எல்லை 45 என்பதால், $x^2 \le 45$ என்றவாறுள்ள $x \in A$-ஐக் காண வேண்டும்:
+$$1^2 = 1,\ 2^2 = 4,\ 3^2 = 9,\ 4^2 = 16,\ 5^2 = 25,\ 6^2 = 36,\ 7^2 = 49 > 45$$
+
+எனவே $x \in \{1, 2, 3, 4, 5, 6\}$.
+
+$R$-ஐ வரிசைச் சோடிகளின் கணமாக எழுத:
+$$\mathbf{R = \{(1,1), (2,4), (3,9), (4,16), (5,25), (6,36)\}}$$
+
+$R$-ன் உறுப்புகள் அனைத்தும் $A \times A$-ல் உள்ளதால், $R \subseteq A \times A$ ஆகும்.
+
+$R$-ன் மதிப்பகம் மற்றும் வீச்சகம்:
+$$\text{மதிப்பகம்}(R) = \{1, 2, 3, 4, 5, 6\}$$
+$$\text{வீச்சகம்}(R) = \{1, 4, 9, 16, 25, 36\}$$
+
+**விடை:**
+$$\mathbf{R = \{(1,1), (2,4), (3,9), (4,16), (5,25), (6,36)\}}$$
+$$\mathbf{\text{மதிப்பகம்} = \{1,2,3,4,5,6\}, \quad \text{வீச்சகம்} = \{1,4,9,16,25,36\}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+$A = \{1, 2, 3\}$ மற்றும் $B = \{x \mid x \text{ என்பது } 10\text{-ஐ விடச் சிறிய பகா எண்}\}$ எனில், $A \times B$ மற்றும் $B \times A$ ஆகியவற்றைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{1, 2, 3\}$$
+$$B = \{2, 3, 5, 7\}$$
+
+**1. $A \times B$-ஐக் காணுதல்:**
+$$A \times B = \{1, 2, 3\} \times \{2, 3, 5, 7\}$$
+$$A \times B = \{(1,2), (1,3), (1,5), (1,7), (2,2), (2,3), (2,5), (2,7), (3,2), (3,3), (3,5), (3,7)\}$$
+
+**2. $B \times A$-ஐக் காணுதல்:**
+$$B \times A = \{2, 3, 5, 7\} \times \{1, 2, 3\}$$
+$$B \times A = \{(2,1), (2,2), (2,3), (3,1), (3,2), (3,3), (5,1), (5,2), (5,3), (7,1), (7,2), (7,3)\}$$
+
+**விடை:**
+$$\mathbf{A \times B = \{(1,2), (1,3), (1,5), (1,7), (2,2), (2,3), (2,5), (2,7), (3,2), (3,3), (3,5), (3,7)\}$$
+$$\mathbf{B \times A = \{(2,1), (2,2), (2,3), (3,1), (3,2), (3,3), (5,1), (5,2), (5,3), (7,1), (7,2), (7,3)\}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 $B \times A = \{(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)\}$ எனில், $A$ மற்றும் $B$ ஆகியவற்றைக் காண்க.
@@ -2029,6 +2122,45 @@ $$\mathbf{f \circ g = x - 1 = g \circ f \ \text{(இங்கு உண்மை
 
 ---
 
+
+
+
+
+
+
+
+
+
+$X = \{-5, 1, 3, 4\}$ மற்றும் $Y = \{a, b, c\}$ எனில், $X$-லிருந்து $Y$-க்குப் பின்வரும் உறவுகளில் எவை சார்பாகும்?
+i) $R_1 = \{(-5, a), (1, a), (3, b)\}$
+ii) $R_2 = \{(-5, b), (1, b), (3, a), (4, c)\}$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $X = \{-5, 1, 3, 4\}$, $Y = \{a, b, c\}$.
+
+$X$-லிருந்து $Y$-க்கான ஒரு உறவு சார்பாக இருக்க வேண்டுமெனில், **$X$-ன் ஒவ்வொரு உறுப்புக்கும்** $Y$-ல் **சரியாக ஒரு** உருவம் இருக்க வேண்டும்.
+
+**$R_1 = \{(-5, a), (1, a), (3, b)\}$-ஐச் சோதித்தல்:**
+முதல் ஆயத்தொலைவுகளாக $-5, 1, 3$ மட்டுமே உள்ளன. $4 \in X$ முதல் ஆயமாக வரவில்லை — அதற்கு உருவம் இல்லை.
+$$\mathbf{R_1 \text{ சார்பு அல்ல.}}$$
+
+**$R_2 = \{(-5, b), (1, b), (3, a), (4, c)\}$-ஐச் சோதித்தல்:**
+முதல் ஆயத்தொலைவுகளாக $-5, 1, 3, 4$ உள்ளன — $X$-ன் ஒவ்வொரு உறுப்பும் சரியாக ஒரு முறை, தனித்த உருவத்துடன் வருகிறது.
+$$\mathbf{R_2 \text{ சார்பு ஆகும்.}}$$
+
+**விடை:**
+$$\mathbf{R_1 \text{ சார்பு அல்ல; } R_2 \text{ சார்பு ஆகும்.}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 $R$ என்ற உறவு $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$ எனக் கொடுக்கப்பட்டுள்ளது. இதன் மதிப்பகத்தையும் வீச்சகத்தையும் கண்டறிக.
@@ -2208,7 +2340,241 @@ $m_1 = m_2 = 1$ ஆகவும், இரு சாய்வுகளும் 
 
 ---
 
+$A = \{1, 3, 5\}$ மற்றும் $B = \{2, 3\}$ எனில், $n(A \times B) = n(B \times A) = n(A) \times n(B)$ எனக் காட்டுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $A = \{1, 3, 5\}$ மற்றும் $B = \{2, 3\}$.
+இங்கு, $n(A) = 3$ மற்றும் $n(B) = 2$.
+
+1. $A \times B$ காணுதல்:
+   $$A \times B = \{(1, 2), (1, 3), (3, 2), (3, 3), (5, 2), (5, 3)\}$$
+   $$n(A \times B) = 6 \quad \text{--- (1)}$$
+
+2. $B \times A$ காணுதல்:
+   $$B \times A = \{(2, 1), (2, 3), (2, 5), (3, 1), (3, 3), (3, 5)\}$$
+   $$n(B \times A) = 6 \quad \text{--- (2)}$$
+
+3. $n(A) \times n(B)$ காணுதல்:
+   $$n(A) \times n(B) = 3 \times 2 = 6 \quad \text{--- (3)}$$
+
+(1), (2) மற்றும் (3)-லிருந்து:
+$$n(A \times B) = n(B \times A) = n(A) \times n(B) = 6$$
+
+எனவே நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
 ### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2020
+
+$A = \{x \in \mathbb{N} \mid x < 8\}$, $B = \{x \mid x \text{ என்பது } 8\text{-ஐ விடக் குறைவான பகா எண்}\}$ மற்றும் $C = \{2\}$ என்க. $(A \setminus B) \times C = (A \times C) \setminus (B \times C)$ என்பதைச் சரிபார்க்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$A = \{1, 2, 3, 4, 5, 6, 7\}, \quad B = \{2, 3, 5, 7\}, \quad C = \{2\}$
+
+**படி 1: இடப்பக்கம் (LHS) = $(A \setminus B) \times C$ ஐக் கணக்கிடுதல்**
+$$A \setminus B = \{1, 2, 3, 4, 5, 6, 7\} \setminus \{2, 3, 5, 7\} = \{1, 4, 6\}$$
+$$\text{LHS} = (A \setminus B) \times C = \{1, 4, 6\} \times \{2\} = \{(1, 2), (4, 2), (6, 2)\} \quad \text{--- (1)}$$
+
+**படி 2: வலப்பக்கம் (RHS) = $(A \times C) \setminus (B \times C)$ ஐக் கணக்கிடுதல்**
+$$A \times C = \{(1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2)\}$$
+$$B \times C = \{(2, 2), (3, 2), (5, 2), (7, 2)\}$$
+$$\text{RHS} = (A \times C) \setminus (B \times C) = \{(1, 2), (4, 2), (6, 2)\} \quad \text{--- (2)}$$
+
+**படி 3: (1) மற்றும் (2)-ஐ ஒப்பிடுதல்**
+(1) மற்றும் (2)-லிருந்து:
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$(A \setminus B) \times C = (A \times C) \setminus (B \times C)$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+$A = \{1, 3, 5\}$ மற்றும் $B = \{2, 3\}$ எனில்,
+(i) $A \times B$ மற்றும் $B \times A$-ஐக் காண்க.
+(ii) $A \times B = B \times A$ ஆகுமா? இல்லையெனில் ஏன்?
+(iii) $n(A \times B) = n(B \times A) = n(A) \times n(B)$ எனக் காட்டுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $A = \{1, 3, 5\}$ மற்றும் $B = \{2, 3\}$.
+
+**(i) $A \times B$ மற்றும் $B \times A$-ஐக் காணுதல்:**
+$$A \times B = \{1, 3, 5\} \times \{2, 3\} = \{(1, 2), (1, 3), (3, 2), (3, 3), (5, 2), (5, 3)\}$$
+$$B \times A = \{2, 3\} \times \{1, 3, 5\} = \{(2, 1), (2, 3), (2, 5), (3, 1), (3, 3), (3, 5)\}$$
+
+**(ii) $A \times B = B \times A$ ஆகுமா? இல்லையெனில் ஏன்?**
+(i)-லிருந்து வரிசைச் சோடிகளை ஒப்பிடும்போது:
+$$(1, 2) \ne (2, 1), \quad (1, 3) \ne (3, 1)$$
+எனவே $A \times B \ne B \times A$ ஆகும். வரிசைச் சோடிகளில் உறுப்புகளின் வரிசை முக்கியம் என்பதால் இவை சமமல்ல.
+
+**(iii) $n(A \times B) = n(B \times A) = n(A) \times n(B)$ எனக் காட்டுதல்:**
+$$n(A) = 3, \quad n(B) = 2$$
+$$n(A) \times n(B) = 3 \times 2 = 6$$
+$$n(A \times B) = 6, \quad n(B \times A) = 6$$
+
+எனவே, **$n(A \times B) = n(B \times A) = n(A) \times n(B) = 6$ என்பது காட்டப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+$A = \{x \in \mathbb{W} \mid x < 2\}$, $B = \{x \in \mathbb{N} \mid 1 < x \le 4\}$ மற்றும் $C = \{3, 5\}$ எனில், $A \times (B \cap C) = (A \times B) \cap (A \times C)$ என்பதைச் சரிபார்க்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$$A = \{0, 1\}, \quad B = \{2, 3, 4\}, \quad C = \{3, 5\}$$
+
+**படி 1: இடப்பக்கம் (LHS) = $A \times (B \cap C)$ ஐக் கணக்கிடுதல்**
+$$B \cap C = \{2, 3, 4\} \cap \{3, 5\} = \{3\}$$
+$$\text{LHS} = A \times (B \cap C) = \{0, 1\} \times \{3\} = \{(0, 3), (1, 3)\} \quad \text{--- (1)}$$
+
+**படி 2: வலப்பக்கம் (RHS) = $(A \times B) \cap (A \times C)$ ஐக் கணக்கிடுதல்**
+$$A \times B = \{(0, 2), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4)\}$$
+$$A \times C = \{(0, 3), (0, 5), (1, 3), (1, 5)\}$$
+$$\text{RHS} = (A \times B) \cap (A \times C) = \{(0, 3), (1, 3)\} \quad \text{--- (2)}$$
+
+**படி 3: (1) மற்றும் (2)-ஐ ஒப்பிடுதல்**
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$A \times (B \cap C) = (A \times B) \cap (A \times C)$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+$A = \{x \in \mathbb{N} \mid x < 8\}$, $B = \{x \mid x \text{ என்பது } 8\text{-ஐ விடக் குறைவான பகா எண்}\}$ மற்றும் $C = \{2\}$ என்க. $A \times (B \setminus C) = (A \times B) \setminus (A \times C)$ என்பதைச் சரிபார்க்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது:
+$A = \{1, 2, 3, 4, 5, 6, 7\}, \quad B = \{2, 3, 5, 7\}, \quad C = \{2\}$
+
+**படி 1: இடப்பக்கம் (LHS) = $A \times (B \setminus C)$ ஐக் கணக்கிடுதல்**
+$$B \setminus C = \{2, 3, 5, 7\} \setminus \{2\} = \{3, 5, 7\}$$
+$$\text{LHS} = A \times (B \setminus C) = \{1, 2, 3, 4, 5, 6, 7\} \times \{3, 5, 7\}$$
+$$= \{(1,3),(1,5),(1,7),(2,3),(2,5),(2,7),(3,3),(3,5),(3,7),(4,3),(4,5),(4,7),$$
+$$(5,3),(5,5),(5,7),(6,3),(6,5),(6,7),(7,3),(7,5),(7,7)\} \quad \text{--- (1)}$$
+
+**படி 2: வலப்பக்கம் (RHS) = $(A \times B) \setminus (A \times C)$ ஐக் கணக்கிடுதல்**
+$$A \times B = \{(x, y) \mid x \in A, y \in B\}$$
+$$A \times C = \{(1,2),(2,2),(3,2),(4,2),(5,2),(6,2),(7,2)\}$$
+
+$A \times B$-லிருந்து $A \times C$-ன் உறுப்புகளை நீக்க:
+$$\text{RHS} = (A \times B) \setminus (A \times C)$$
+$$= \{(1,3),(1,5),(1,7),(2,3),(2,5),(2,7),(3,3),(3,5),(3,7),(4,3),(4,5),(4,7),$$
+$$(5,3),(5,5),(5,7),(6,3),(6,5),(6,7),(7,3),(7,5),(7,7)\} \quad \text{--- (2)}$$
+
+**படி 3: (1) மற்றும் (2)-ஐ ஒப்பிடுதல்**
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$A \times (B \setminus C) = (A \times B) \setminus (A \times C)$ என்பது சரிபார்க்கப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+$A = \{5, 6\}$, $B = \{4, 5, 6\}$ மற்றும் $C = \{5, 6, 7\}$ எனில், $A \times A = (B \times B) \cap (C \times C)$ எனக் காட்டுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $A = \{5, 6\}$, $B = \{4, 5, 6\}$, $C = \{5, 6, 7\}$.
+
+**படி 1: இடப்பக்கம் (LHS) = $A \times A$ ஐக் கணக்கிடுதல்**
+$$\text{LHS} = \{5, 6\} \times \{5, 6\} = \{(5, 5), (5, 6), (6, 5), (6, 6)\} \quad \text{--- (1)}$$
+
+**படி 2: $B \times B$ மற்றும் $C \times C$ ஐக் கணக்கிடுதல்**
+$$B \times B = \{(4,4), (4,5), (4,6), (5,4), (5,5), (5,6), (6,4), (6,5), (6,6)\}$$
+$$C \times C = \{(5,5), (5,6), (5,7), (6,5), (6,6), (6,7), (7,5), (7,6), (7,7)\}$$
+
+**படி 3: வலப்பக்கம் (RHS) = $(B \times B) \cap (C \times C)$ ஐக் கணக்கிடுதல்**
+$$\text{RHS} = \{(5, 5), (5, 6), (6, 5), (6, 6)\} \quad \text{--- (2)}$$
+
+**படி 4: (1) மற்றும் (2)-ஐ ஒப்பிடுதல்**
+$$\text{LHS} = \text{RHS}$$
+
+எனவே, **$A \times A = (B \times B) \cap (C \times C)$ என்பது காட்டப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+கொடுக்கப்பட்ட உறவை (a) அம்புக்குறி படம், (b) வரைபடம் மற்றும் (c) பட்டியல் முறையில் குறிக்க:
+$$R = \{(x, y) \mid y = x + 3,\ x, y \text{ என்பவை } < 10 \text{ என்ற இயல் எண்கள்}\}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $x, y \in \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ மற்றும் $y = x + 3$.
+
+ஒவ்வொரு $x$-க்கும் $y$-ன் மதிப்புகளைக் கணக்கிடுதல்:
+- $x = 1 \implies y = 4$
+- $x = 2 \implies y = 5$
+- $x = 3 \implies y = 6$
+- $x = 4 \implies y = 7$
+- $x = 5 \implies y = 8$
+- $x = 6 \implies y = 9$
+
+**(a) அம்புக்குறி படம்:**
+மதிப்பக நீள்வட்டத்தில் $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$-ஐயும், துணை மதிப்பக நீள்வட்டத்தில் $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$-ஐயும் குறிக்க. பின்வரும் அம்புக்குறிகளை வரைக:
+$$1 \to 4, \quad 2 \to 5, \quad 3 \to 6, \quad 4 \to 7, \quad 5 \to 8, \quad 6 \to 9$$
+
+**(b) வரைபடம்:**
+தளத்தில் பின்வரும் புள்ளிகளைக் குறித்துக் காட்டுக:
+$$(1, 4), \quad (2, 5), \quad (3, 6), \quad (4, 7), \quad (5, 8), \quad (6, 9)$$
+
+**(c) பட்டியல் முறை:**
+$$\mathbf{R = \{(1, 4), (2, 5), (3, 6), (4, 7), (5, 8), (6, 9)\}}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 
@@ -2502,6 +2868,47 @@ $$(f \circ (g \circ h))(x) = f((g \circ h)(x)) = f(3x^2 + 1) = (3x^2 + 1) - 1 = 
 $$\text{LHS} = \text{RHS}$$
 
 எனவே, **$(f \circ g) \circ h = f \circ (g \circ h)$ என நிறுவப்பட்டது.**
+
+</div>
+
+</details>
+
+---
+
+$f: A \to B$ எனும் சார்பானது $f(x) = \dfrac{x}{2} - 1$ என வரையறுக்கப்படுகிறது. இங்கு $A = \{2, 4, 6, 10, 12\}$, $B = \{0, 1, 2, 4, 5, 9\}$ ஆக இருக்கும் போது சார்பு $f$-ஐப் பின்வரும் முறைகளில் குறிக்கவும்:
+(i) வரிசைச் சோடிகளின் கணம்
+(ii) அம்புக்குறி படம்
+(iii) அட்டவணை
+(iv) வரைபடம்
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $f(x) = \dfrac{x}{2} - 1$:
+- $f(2) = \dfrac{2}{2} - 1 = 1 - 1 = 0$
+- $f(4) = \dfrac{4}{2} - 1 = 2 - 1 = 1$
+- $f(6) = \dfrac{6}{2} - 1 = 3 - 1 = 2$
+- $f(10) = \dfrac{10}{2} - 1 = 5 - 1 = 4$
+- $f(12) = \dfrac{12}{2} - 1 = 6 - 1 = 5$
+
+**(i) வரிசைச் சோடிகளின் கணம்:**
+$$f = \{(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)\}$$
+
+**(ii) அம்புக்குறி படம்:**
+மதிப்பகம் $A$-ல் உள்ள உறுப்புகள் துணை மதிப்பகம் $B$-ல் உள்ள அவற்றின் நிழலுருக்களுடன் அம்புக்குறியால் இணைக்கப்படுகின்றன:
+$2 \to 0,\ 4 \to 1,\ 6 \to 2,\ 10 \to 4,\ 12 \to 5$.
+($9 \in B$ என்ற உறுப்பிற்கு $A$-ல் முன் உரு இல்லை.)
+
+**(iii) அட்டவணை:**
+
+| $x$ | 2 | 4 | 6 | 10 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $f(x)$ | 0 | 1 | 2 | 4 | 5 |
+
+**(iv) வரைபடம்:**
+கார்ட்டீசியன் தளத்தில் $(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)$ ஆகிய புள்ளிகள் குறிக்கப்படுகின்றன.
 
 </div>
 

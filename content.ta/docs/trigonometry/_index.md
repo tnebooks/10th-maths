@@ -1242,6 +1242,83 @@ $$= PA+AQ = x+h = h\frac{\cot\theta_2}{\cot\theta_1}+h = h\left(1+\frac{\cot\the
 
 ### 2 மதிப்பெண் வினாக்கள் (2 Marks)
 
+#### 2020
+
+$\sqrt{\dfrac{1 + \sin\theta}{1 - \sin\theta}} = \sec\theta + \tan\theta$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+வர்க்கமூலத்தின் உள்ளே தொகுதி மற்றும் பகுதியை $(1 + \sin\theta)$ ஆல் பெருக்க:
+$$\text{LHS} = \sqrt{\frac{1 + \sin\theta}{1 - \sin\theta} \times \frac{1 + \sin\theta}{1 + \sin\theta}} = \sqrt{\frac{(1 + \sin\theta)^2}{1 - \sin^2\theta}}$$
+
+$1 - \sin^2\theta = \cos^2\theta$ என்பதால்:
+$$= \sqrt{\frac{(1 + \sin\theta)^2}{\cos^2\theta}} = \frac{1 + \sin\theta}{\cos\theta}$$
+$$= \frac{1}{\cos\theta} + \frac{\sin\theta}{\cos\theta} = \sec\theta + \tan\theta = \text{RHS}$$
+
+**விடை:**
+$$\mathbf{\sqrt{\dfrac{1 + \sin\theta}{1 - \sin\theta}} = \sec\theta + \tan\theta \ \text{நிரூபிக்கப்பட்டது}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+$10\sqrt{3}\text{ மீ}$ உயரமுள்ள கோபுரத்தின் அடியிலிருந்து $30\text{ மீ}$ தொலைவில் தரையில் உள்ள ஒரு புள்ளியிலிருந்து கோபுர உச்சியின் ஏற்றக் கோணத்தைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கோபுரத்தின் உயரம் $h = 10\sqrt{3}\text{ மீ}$, தொலைவு $d = 30\text{ மீ}$.
+ஏற்றக் கோணம் $\theta$ என்க.
+
+$$\tan\theta = \frac{\text{எதிர்ப்பக்கம்}}{\text{அடுத்துள்ள பக்கம்}} = \frac{10\sqrt{3}}{30} = \frac{\sqrt{3}}{3} = \frac{1}{\sqrt{3}}$$
+
+$\tan 30^\circ = \dfrac{1}{\sqrt{3}}$ என்பதால்:
+$$\theta = 30^\circ$$
+
+**விடை:**
+$$\mathbf{30^\circ}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+$50\sqrt{3}\text{ மீ}$ உயரமுள்ள ஒரு பாறையின் உச்சியிலிருந்து $30^\circ$ இறக்கக் கோணத்தில் தரையிலுள்ள மகிழுந்து ஒன்று பார்க்கப்படுகிறது எனில், பாறைக்கும் மகிழுந்திற்கும் இடையேயுள்ள தொலைவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+பாறையின் உயரம் $AB = 50\sqrt{3}\text{ மீ}$. மகிழுந்தின் அமைவிடம் $C$ என்க.
+இறக்கக் கோணம் $30^\circ$ என்பதால், ஏற்றக் கோணம் $\angle ACB = 30^\circ$.
+
+செங்கோண $\triangle ABC$-யில்:
+$$\tan 30^\circ = \frac{AB}{BC}$$
+$$\frac{1}{\sqrt{3}} = \frac{50\sqrt{3}}{BC}$$
+$$BC = 50\sqrt{3} \times \sqrt{3} = 50 \times 3 = 150\text{ மீ}$$
+
+**விடை:**
+$$\mathbf{150\text{ மீ}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 $\frac{\sec\theta}{\sin\theta} - \frac{\sin\theta}{\cos\theta} = \cot\theta$ என்பதை நிரூபிக்கவும்.
@@ -1402,6 +1479,36 @@ $\sec\theta=\dfrac{1}{\cos\theta}$ மற்றும் $\tan\theta=\dfrac{\sin
 $$\text{LHS} = \sec\theta+\tan\theta = \text{RHS}$$
 
 **விடை:** எனவே, $\mathbf{\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta}$ என்பது நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+$\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta$ என்பதை நிரூபிக்கவும்.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+இடப்புறத்தை (LHS) எடுத்துக் கொள்ள:
+$$\text{LHS} = \tan^2\theta - \sin^2\theta$$
+
+$\tan^2\theta = \dfrac{\sin^2\theta}{\cos^2\theta}$ என எழுத:
+$$\text{LHS} = \frac{\sin^2\theta}{\cos^2\theta} - \sin^2\theta$$
+
+$\sin^2\theta$ -ஐ பொது காரணியாக எடுக்க:
+$$\text{LHS} = \sin^2\theta\left(\frac{1}{\cos^2\theta} - 1\right) = \sin^2\theta\left(\frac{1 - \cos^2\theta}{\cos^2\theta}\right)$$
+
+பித்தாகரஸ் முற்றொருமை $\sin^2\theta + \cos^2\theta = 1$ -ஐப் பயன்படுத்த, $1 - \cos^2\theta = \sin^2\theta$:
+$$\text{LHS} = \sin^2\theta\left(\frac{\sin^2\theta}{\cos^2\theta}\right) = \sin^2\theta \times \tan^2\theta$$
+
+$$\text{LHS} = \tan^2\theta\sin^2\theta = \text{RHS}$$
+
+**விடை:**
+எனவே, $\mathbf{\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta}$ என்பது நிறுவப்பட்டது.
 
 </div>
 
@@ -1582,6 +1689,43 @@ $$\text{LHS} = \frac{\cos^2\theta}{\sin\theta}\times\frac{\sin^2\theta}{\cos\the
 $$= \frac{\cos^2\theta\cdot\sin^2\theta}{\sin\theta\cdot\cos\theta\cdot\sin\theta\cdot\cos\theta} = \frac{\sin^2\theta\cos^2\theta}{\sin^2\theta\cos^2\theta} = 1 = \text{RHS}$$
 
 **விடை:** எனவே, $\mathbf{(\csc\theta-\sin\theta)(\sec\theta-\cos\theta)(\tan\theta+\cot\theta)=1}$ என்பது நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+நிரூபிக்க:
+$$\frac{\sin^3 A + \cos^3 A}{\sin A + \cos A} + \frac{\sin^3 A - \cos^3 A}{\sin A - \cos A} = 2$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \frac{\sin^3 A + \cos^3 A}{\sin A + \cos A} + \frac{\sin^3 A - \cos^3 A}{\sin A - \cos A}$$
+
+கன கூட்டுத்தொகை மற்றும் கன வித்தியாச சூத்திரங்களைப் பயன்படுத்த:
+- $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
+- $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$
+
+1. முதல் உறுப்பு — $\sin^3 A + \cos^3 A$ -ஐ காரணிப்படுத்தி $(\sin A + \cos A)$-ஐ நீக்க ($\sin A + \cos A \neq 0$ எனில்):
+$$\frac{(\sin A + \cos A)(\sin^2 A - \sin A\cos A + \cos^2 A)}{\sin A + \cos A} = \sin^2 A - \sin A\cos A + \cos^2 A$$
+
+$\sin^2 A + \cos^2 A = 1$ என்பதால்:
+$$= 1 - \sin A\cos A$$
+
+2. இரண்டாம் உறுப்பு — $\sin^3 A - \cos^3 A$ -ஐ காரணிப்படுத்தி $(\sin A - \cos A)$-ஐ நீக்க ($\sin A \neq \cos A$ எனில்):
+$$\frac{(\sin A - \cos A)(\sin^2 A + \sin A\cos A + \cos^2 A)}{\sin A - \cos A} = \sin^2 A + \sin A\cos A + \cos^2 A$$
+
+$$= 1 + \sin A\cos A$$
+
+இரு உறுப்புகளையும் கூட்ட:
+$$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 2 = \text{RHS}$$
+
+**விடை:**
+எனவே, $\mathbf{\dfrac{\sin^3 A+\cos^3 A}{\sin A+\cos A} + \dfrac{\sin^3 A-\cos^3 A}{\sin A-\cos A} = 2}$ என்பது நிறுவப்பட்டது.
 
 </div>
 

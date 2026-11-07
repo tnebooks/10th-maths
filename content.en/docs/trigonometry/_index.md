@@ -1191,6 +1191,83 @@ or Scan the QR Code.
 
 ### 2 Marks
 
+#### 2020
+
+Prove that $\sqrt{\dfrac{1 + \sin\theta}{1 - \sin\theta}} = \sec\theta + \tan\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Multiply the numerator and denominator inside the square root by $(1 + \sin\theta)$:
+$$\text{LHS} = \sqrt{\frac{1 + \sin\theta}{1 - \sin\theta} \times \frac{1 + \sin\theta}{1 + \sin\theta}} = \sqrt{\frac{(1 + \sin\theta)^2}{1 - \sin^2\theta}}$$
+
+Since $1 - \sin^2\theta = \cos^2\theta$:
+$$= \sqrt{\frac{(1 + \sin\theta)^2}{\cos^2\theta}} = \frac{1 + \sin\theta}{\cos\theta}$$
+$$= \frac{1}{\cos\theta} + \frac{\sin\theta}{\cos\theta} = \sec\theta + \tan\theta = \text{RHS}$$
+
+**Answer:**
+$$\mathbf{\sqrt{\dfrac{1 + \sin\theta}{1 - \sin\theta}} = \sec\theta + \tan\theta \ \text{is proved}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+From a point on the ground, which is $30\text{ m}$ away from the foot of a tower of height $10\sqrt{3}\text{ m}$, find the angle of elevation of the top of the tower.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the height of the tower be $h = 10\sqrt{3}\text{ m}$ and the distance from the foot be $d = 30\text{ m}$.
+Let $\theta$ be the angle of elevation.
+
+$$\tan\theta = \frac{\text{opposite}}{\text{adjacent}} = \frac{10\sqrt{3}}{30} = \frac{\sqrt{3}}{3} = \frac{1}{\sqrt{3}}$$
+
+Since $\tan 30^\circ = \dfrac{1}{\sqrt{3}}$:
+$$\theta = 30^\circ$$
+
+**Answer:**
+$$\mathbf{30^\circ}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+From the top of a rock $50\sqrt{3}\text{ m}$ high, the angle of depression of a car on the ground is observed to be $30^\circ$. Find the distance of the car from the rock.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $AB$ be the rock of height $50\sqrt{3}\text{ m}$ and $C$ be the position of the car.
+The angle of depression is $30^\circ$, so the angle of elevation from the car to the top of the rock is $\angle ACB = 30^\circ$.
+
+In right $\triangle ABC$:
+$$\tan 30^\circ = \frac{AB}{BC}$$
+$$\frac{1}{\sqrt{3}} = \frac{50\sqrt{3}}{BC}$$
+$$BC = 50\sqrt{3} \times \sqrt{3} = 50 \times 3 = 150\text{ m}$$
+
+**Answer:**
+$$\mathbf{150\text{ m}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 Prove that $\frac{\sec\theta}{\sin\theta} - \frac{\sin\theta}{\cos\theta} = \cot\theta$.
@@ -1362,6 +1439,36 @@ Using $\sec\theta=\dfrac{1}{\cos\theta}$ and $\tan\theta=\dfrac{\sin\theta}{\cos
 $$\text{LHS} = \sec\theta+\tan\theta = \text{RHS}$$
 
 **Answer:** Hence, $\mathbf{\sqrt{\dfrac{1+\sin\theta}{1-\sin\theta}} = \sec\theta+\tan\theta}$ is proved.
+
+</div>
+
+</details>
+
+---
+
+Prove that $\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Consider the left-hand side (LHS):
+$$\text{LHS} = \tan^2\theta - \sin^2\theta$$
+
+Writing $\tan^2\theta = \dfrac{\sin^2\theta}{\cos^2\theta}$:
+$$\text{LHS} = \frac{\sin^2\theta}{\cos^2\theta} - \sin^2\theta$$
+
+Taking $\sin^2\theta$ common:
+$$\text{LHS} = \sin^2\theta\left(\frac{1}{\cos^2\theta} - 1\right) = \sin^2\theta\left(\frac{1 - \cos^2\theta}{\cos^2\theta}\right)$$
+
+By the Pythagorean identity $\sin^2\theta + \cos^2\theta = 1$, we have $1 - \cos^2\theta = \sin^2\theta$:
+$$\text{LHS} = \sin^2\theta\left(\frac{\sin^2\theta}{\cos^2\theta}\right) = \sin^2\theta \times \tan^2\theta$$
+
+$$\text{LHS} = \tan^2\theta\sin^2\theta = \text{RHS}$$
+
+**Answer:**
+Hence, $\mathbf{\tan^2\theta - \sin^2\theta = \tan^2\theta\sin^2\theta}$ is proved.
 
 </div>
 
@@ -1561,6 +1668,43 @@ $$\text{LHS} = \frac{\cos^2\theta}{\sin\theta}\times\frac{\sin^2\theta}{\cos\the
 $$= \frac{\cos^2\theta\cdot\sin^2\theta}{\sin\theta\cdot\cos\theta\cdot\sin\theta\cdot\cos\theta} = \frac{\sin^2\theta\cos^2\theta}{\sin^2\theta\cos^2\theta} = 1 = \text{RHS}$$
 
 **Answer:** Hence, $\mathbf{(\csc\theta-\sin\theta)(\sec\theta-\cos\theta)(\tan\theta+\cot\theta)=1}$ is proved.
+
+</div>
+
+</details>
+
+---
+
+Prove that:
+$$\frac{\sin^3 A + \cos^3 A}{\sin A + \cos A} + \frac{\sin^3 A - \cos^3 A}{\sin A - \cos A} = 2$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \frac{\sin^3 A + \cos^3 A}{\sin A + \cos A} + \frac{\sin^3 A - \cos^3 A}{\sin A - \cos A}$$
+
+Using the algebraic identities for sum and difference of cubes:
+- $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
+- $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$
+
+1. First term — factor $\sin^3 A + \cos^3 A$ and cancel $(\sin A + \cos A)$ (valid for $\sin A + \cos A \neq 0$):
+$$\frac{(\sin A + \cos A)(\sin^2 A - \sin A\cos A + \cos^2 A)}{\sin A + \cos A} = \sin^2 A - \sin A\cos A + \cos^2 A$$
+
+Since $\sin^2 A + \cos^2 A = 1$:
+$$= 1 - \sin A\cos A$$
+
+2. Second term — factor $\sin^3 A - \cos^3 A$ and cancel $(\sin A - \cos A)$ (valid for $\sin A \neq \cos A$):
+$$\frac{(\sin A - \cos A)(\sin^2 A + \sin A\cos A + \cos^2 A)}{\sin A - \cos A} = \sin^2 A + \sin A\cos A + \cos^2 A$$
+
+$$= 1 + \sin A\cos A$$
+
+Adding both simplified terms:
+$$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 2 = \text{RHS}$$
+
+**Answer:**
+Hence, $\mathbf{\dfrac{\sin^3 A+\cos^3 A}{\sin A+\cos A} + \dfrac{\sin^3 A-\cos^3 A}{\sin A-\cos A} = 2}$ is proved.
 
 </div>
 

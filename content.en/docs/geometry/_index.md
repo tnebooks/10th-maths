@@ -1753,6 +1753,83 @@ or Scan the QR Code.
 
 ### 2 Marks
 
+#### 2020
+
+Check whether $AD$ is the bisector of $\angle A$ of $\triangle ABC$ if $AB = 5\text{ cm}, AC = 10\text{ cm}, BD = 1.5\text{ cm}$ and $CD = 3.5\text{ cm}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By the Angle Bisector Theorem converse, $AD$ bisects $\angle A$ if $\dfrac{AB}{AC} = \dfrac{BD}{CD}$.
+
+$$\frac{AB}{AC} = \frac{5}{10} = \frac{1}{2} = 0.5$$
+$$\frac{BD}{CD} = \frac{1.5}{3.5} = \frac{15}{35} = \frac{3}{7} \approx 0.43$$
+
+Since $\dfrac{AB}{AC} \ne \dfrac{BD}{CD}$:
+
+**Answer:**
+$$\mathbf{AD \text{ is NOT the bisector of } \angle A}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+In $\triangle ABC$, $D$ and $E$ are points on $AB$ and $AC$ respectively such that $DE \parallel BC$. If $\dfrac{AD}{DB} = \dfrac{3}{4}$ and $AC = 15\text{ cm}$, find $AE$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $DE \parallel BC$, $\dfrac{AD}{DB} = \dfrac{3}{4}$, and $AC = 15\text{ cm}$.
+Let $AE = x\text{ cm}$. Then $EC = AC - AE = 15 - x\text{ cm}$.
+
+By Thales' Theorem:
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+$$\frac{3}{4} = \frac{x}{15 - x}$$
+$$3(15 - x) = 4x$$
+$$45 - 3x = 4x$$
+$$7x = 45 \implies x = \frac{45}{7} = 6.43\text{ cm}$$
+
+**Answer:**
+$$\mathbf{AE = 6.43\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+In $\triangle ABC$, $AD$ is the bisector of $\angle A$. If $BD = 4\text{ cm}$, $DC = 3\text{ cm}$ and $AB = 6\text{ cm}$, find $AC$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By the Angle Bisector Theorem, since $AD$ bisects $\angle A$:
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+$$\frac{6}{AC} = \frac{4}{3}$$
+$$4 \times AC = 18 \implies AC = \frac{18}{4} = 4.5\text{ cm}$$
+
+**Answer:**
+$$\mathbf{AC = 4.5\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 In $\triangle ABC$, $AD$ is the internal bisector of $\angle BAC$ meeting $BC$ at $D$. If $AB = 10\text{ cm}$, $AC = 14\text{ cm}$ and $BC = 6\text{ cm}$, find $BD$ and $DC$.
@@ -1821,33 +1898,6 @@ The distance from the starting point is **$30\text{ m}$**.
 ---
 
 #### 2025
-
-In $\triangle ABC$, $AD$ is the bisector of $\angle A$. If $BD = 4\text{ cm}$, $DC = 3\text{ cm}$ and $AB = 6\text{ cm}$, find $AC$.
-
-<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
-<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
-
-<div class="pt-3">
-
-By the Angle Bisector Theorem (ABT):
-$$\frac{AB}{AC} = \frac{BD}{DC}$$
-
-Substituting the given values:
-$$\frac{6}{AC} = \frac{4}{3}$$
-
-Cross-multiplying:
-$$4 \times AC = 6 \times 3$$
-$$4 \times AC = 18$$
-$$AC = \frac{18}{4} = 4.5\text{ cm}$$
-
-**Answer:**
-$$\mathbf{AC = 4.5\text{ cm}}$$
-
-</div>
-
-</details>
-
----
 
 $\triangle ABC$ is similar to $\triangle DEF$. If $BC = 3\text{ cm}$, $EF = 4\text{ cm}$ and the area of $\triangle ABC = 54\text{ cm}^2$, find the area of $\triangle DEF$.
 
@@ -1929,6 +1979,33 @@ $$\mathbf{\text{Yes, } AD \text{ is the bisector of } \angle A}$$
 
 ---
 
+In $\triangle ABC$, $AD$ is the bisector of $\angle A$. If $BD = 4\text{ cm}$, $DC = 3\text{ cm}$ and $AB = 6\text{ cm}$, find $AC$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By the Angle Bisector Theorem, since $AD$ bisects $\angle A$ in $\triangle ABC$:
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+Substituting the given values:
+$$\frac{6}{AC} = \frac{4}{3}$$
+
+Cross-multiplying:
+$$AC = \frac{6 \times 3}{4} = \frac{18}{4} = 4.5\text{ cm}$$
+
+**Answer:**
+$$\mathbf{AC = 4.5\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
+
+
 #### 2026
 
 $D$ and $E$ are points on the sides $AB$ and $AC$ respectively of a $\triangle ABC$ such that $AB = 5.6\text{ cm}$, $AD = 1.4\text{ cm}$, $AC = 7.2\text{ cm}$ and $AE = 1.8\text{ cm}$. Show that $DE \parallel BC$.
@@ -1961,6 +2038,97 @@ Hence proved.
 ---
 
 ### 5 Marks
+
+#### 2020
+
+State and prove Angle Bisector Theorem.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+The internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle.
+
+**Proof:**
+Given: In $\triangle ABC$, $AD$ is internal bisector of $\angle A$.
+To prove: $\dfrac{AB}{AC} = \dfrac{BD}{CD}$.
+Construction: Draw line through $C$ parallel to $AB$, meeting extended $AD$ at $E$.
+
+1. $\angle BAD = \angle CED$ (alternate interior angles, $AB \parallel CE$).
+2. $\angle DAC = \angle BAD$ ($AD$ is bisector), so $\angle CAE = \angle CEA \implies AC = CE$ (in $\triangle ACE$).
+3. $\triangle ABD \sim \triangle ECD$ by AA similarity $\implies \dfrac{AB}{CE} = \dfrac{BD}{CD}$.
+4. Substituting $CE = AC$: $\dfrac{AB}{AC} = \dfrac{BD}{CD}$.
+
+**Answer:**
+$$\mathbf{\dfrac{AB}{AC} = \dfrac{BD}{CD} \ \text{is proved}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+State and prove Pythagoras Theorem.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+In a right-angled triangle, the square on the hypotenuse is equal to the sum of the squares on the other two sides.
+
+**Proof:**
+Given: In $\triangle ABC$, $\angle A = 90^\circ$. Draw $AD \perp BC$.
+1. $\triangle ABC \sim \triangle DBA$ by AA similarity: $\dfrac{AB}{BD} = \dfrac{BC}{AB} \implies AB^2 = BC \times BD$ (1).
+2. $\triangle ABC \sim \triangle DAC$ by AA similarity: $\dfrac{BC}{AC} = \dfrac{AC}{DC} \implies AC^2 = BC \times DC$ (2).
+3. Adding (1) and (2):
+$$AB^2 + AC^2 = BC(BD + DC) = BC(BC) = BC^2$$
+
+**Answer:**
+$$\mathbf{AB^2 + AC^2 = BC^2 \ \text{is proved}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+State and prove Thales' Theorem (Basic Proportionality Theorem).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+A straight line drawn parallel to a side of a triangle intersecting the other two sides divides the sides in the same ratio.
+
+**Proof:**
+Given: In $\triangle ABC$, $DE \parallel BC$.
+To prove: $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+
+1. $\angle ADE = \angle ABC$ (corresponding angles).
+2. $\angle AED = \angle ACB$ (corresponding angles).
+3. $\angle DAE = \angle BAC$ (common angle).
+4. By AAA similarity, $\triangle ABC \sim \triangle ADE \implies \dfrac{AB}{AD} = \dfrac{AC}{AE}$.
+5. $\dfrac{AD + DB}{AD} = \dfrac{AE + EC}{AE} \implies 1 + \dfrac{DB}{AD} = 1 + \dfrac{EC}{AE} \implies \dfrac{DB}{AD} = \dfrac{EC}{AE}$.
+6. Taking reciprocals: $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+
+**Answer:**
+$$\mathbf{\dfrac{AD}{DB} = \dfrac{AE}{EC} \ \text{is proved}}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 
@@ -2258,6 +2426,143 @@ $$h = \frac{20 \times 2}{4} = \frac{40}{4} = 10\text{ m}$$
 
 **Answer:**
 $$\mathbf{\text{Height of the tree} = 10\text{ m}}$$
+
+</div>
+
+</details>
+
+---
+
+The hypotenuse of a right triangle is $25\text{ cm}$ and its perimeter is $56\text{ cm}$. Find the length of the smaller side of the triangle.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the two legs (sides forming the right angle) of the right triangle be $a$ and $b$, with hypotenuse $c = 25\text{ cm}$.
+
+By the Pythagoras Theorem:
+$$a^2 + b^2 = c^2 = 25^2 = 625 \quad \text{--- (1)}$$
+
+Since the perimeter is $56\text{ cm}$:
+$$a + b + c = 56 \implies a + b = 56 - 25 = 31 \quad \text{--- (2)}$$
+
+Squaring (2):
+$$(a + b)^2 = 31^2 = 961$$
+$$a^2 + 2ab + b^2 = 961$$
+
+Substituting $a^2 + b^2 = 625$ from (1):
+$$625 + 2ab = 961$$
+$$2ab = 336 \implies ab = 168 \quad \text{--- (3)}$$
+
+Now $a$ and $b$ are the two roots of the quadratic equation formed using their sum (2) and product (3):
+$$t^2 - (a+b)t + ab = 0 \implies t^2 - 31t + 168 = 0$$
+
+Using the quadratic formula:
+$$t = \frac{31 \pm \sqrt{31^2 - 4 \times 168}}{2} = \frac{31 \pm \sqrt{961 - 672}}{2} = \frac{31 \pm \sqrt{289}}{2} = \frac{31 \pm 17}{2}$$
+
+So $t = \dfrac{48}{2} = 24$ or $t = \dfrac{14}{2} = 7$.
+
+The two legs are $24\text{ cm}$ and $7\text{ cm}$. (Check: $24^2 + 7^2 = 576 + 49 = 625 = 25^2$ ✓, and $24 + 7 + 25 = 56$ ✓.)
+
+The smaller side is:
+$$\mathbf{7\text{ cm}}$$
+
+</div>
+
+</details>
+
+---
+
+State and prove Thales' Theorem.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Statement:**
+If a line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, the other two sides are divided in the same ratio.
+
+**Given:**
+In $\triangle ABC$, $D$ is a point on $AB$ and $E$ is a point on $AC$ such that $DE \parallel BC$.
+
+**To Prove:**
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+**Construction:**
+Draw a line through $D$ parallel to $AC$, meeting $BC$ at $F$.
+
+**Proof:**
+
+1. Since $DE \parallel BC$ (given) and $DF \parallel AC$ (by construction), the quadrilateral $DFCE$ has both pairs of opposite sides parallel: $DE \parallel FC$ (as $DE \parallel BC$ and $F, C$ both lie on line $BC$), and $DF \parallel EC$ (as $DF \parallel AC$ and $E, C$ both lie on line $AC$). Hence $DFCE$ is a parallelogram.
+
+2. In a parallelogram, opposite sides are equal, so:
+$$DF = EC \quad \text{--- (1)}$$
+
+3. Consider $\triangle ADE$ and $\triangle DBF$.
+   - Since $DF \parallel AC$ and $AB$ is a transversal cutting both $DF$ and $AC$, $\angle BDF = \angle DAE$ (corresponding angles, both equal to $\angle A$ of the triangle, since $D$ lies on $AB$).
+   - Since $DE \parallel BC$ and $DF \parallel AC$, $\angle ADE = \angle DBF$ (corresponding angles: $DE \parallel BF$ with transversal $AB$, so $\angle ADE = \angle ABC = \angle DBF$).
+
+   By the AA similarity criterion:
+$$\triangle ADE \sim \triangle DBF$$
+
+4. Since the triangles are similar, their corresponding sides are proportional. The side $AD$ (opposite $\angle AED$ in $\triangle ADE$) corresponds to $DB$ (opposite the equal angle $\angle DFB$ in $\triangle DBF$), and the side $DE$ corresponds to $BF$, and the side $AE$ corresponds to $DF$:
+$$\frac{AD}{DB} = \frac{AE}{DF}$$
+
+5. Using (1), $DF = EC$, substitute into the proportion:
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---
+
+Prove, using the concept of distance and slope, that the line segment joining the midpoints of two sides of a triangle is parallel to the third side and is half of it. (Midpoint Theorem — coordinate geometry proof)
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Given:** Let $\triangle ABC$ have vertices $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$, taken as general (arbitrary) points. Let $D$ be the midpoint of $AB$ and $E$ be the midpoint of $AC$.
+
+By the midpoint formula:
+$$D = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right), \qquad E = \left(\frac{x_1+x_3}{2}, \frac{y_1+y_3}{2}\right)$$
+
+**To Prove:** $DE \parallel BC$ and $DE = \dfrac{1}{2}BC$.
+
+**Proof (Parallelism, using slope):**
+
+Slope of $DE$:
+$$m_{DE} = \frac{\dfrac{y_1+y_3}{2} - \dfrac{y_1+y_2}{2}}{\dfrac{x_1+x_3}{2} - \dfrac{x_1+x_2}{2}} = \frac{\dfrac{y_3 - y_2}{2}}{\dfrac{x_3 - x_2}{2}} = \frac{y_3 - y_2}{x_3 - x_2}$$
+
+Slope of $BC$:
+$$m_{BC} = \frac{y_3 - y_2}{x_3 - x_2}$$
+
+Since $m_{DE} = m_{BC}$, the line $DE$ is parallel to the line $BC$ (two distinct lines with equal slope are parallel):
+$$DE \parallel BC$$
+
+**Proof (Half-length, using the distance formula):**
+
+$$DE = \sqrt{\left(\frac{x_1+x_3}{2} - \frac{x_1+x_2}{2}\right)^2 + \left(\frac{y_1+y_3}{2} - \frac{y_1+y_2}{2}\right)^2}$$
+
+$$= \sqrt{\left(\frac{x_3-x_2}{2}\right)^2 + \left(\frac{y_3-y_2}{2}\right)^2}$$
+
+$$= \frac{1}{2}\sqrt{(x_3-x_2)^2 + (y_3-y_2)^2}$$
+
+By the distance formula, $\sqrt{(x_3-x_2)^2 + (y_3-y_2)^2} = BC$. Therefore:
+$$DE = \frac{1}{2} \times BC$$
+
+**Conclusion:**
+Since both conditions hold for arbitrary vertices $A(x_1,y_1)$, $B(x_2,y_2)$, $C(x_3,y_3)$, the line segment joining the midpoints of two sides of any triangle is parallel to the third side and equal to half of it:
+$$\mathbf{DE \parallel BC \text{ and } DE = \frac{1}{2}BC}$$
+
+Hence proved.
 
 </div>
 
@@ -2598,6 +2903,128 @@ This is the "side + opposite angle + median to that side" construction. Vertex $
 Then $\triangle PQR$ is the required triangle.
 
 **Verification:** Since $R$ lies on the circle constructed with the $35^\circ$ tangent–chord angle through $P$ and $Q$, $\angle PRQ = 35^\circ$. Since $R$ lies on the arc of radius $6\text{ cm}$ centred at $G$, the median $RG = 6\text{ cm}$. Both given conditions are satisfied.
+
+</div>
+
+</details>
+
+---
+
+Construct a triangle similar to a given triangle $ABC$ with its sides equal to $\frac{6}{5}$ of the corresponding sides of the triangle $ABC$ (scale factor $\frac{6}{5} > 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+*Note: the given triangle $ABC$'s side measurements are taken from the triangle shown in the exam paper's diagram; any convenient triangle $ABC$ may be drawn first, since the construction method below applies to a triangle of any size with scale factor $\frac{6}{5} > 1$.*
+
+Given: A triangle $ABC$ and scale factor $\frac{6}{5} > 1$.
+
+**Steps of Construction (Basic Proportionality Theorem construction method):**
+1. Construct a $\triangle ABC$ with the given (or any convenient) measurements.
+2. Draw a ray $BX$ making an acute angle with side $BC$, on the side opposite to vertex $A$.
+3. Since $\frac{6}{5}$ has $6$ as the greater number, locate $6$ equal-length divisions on $BX$, namely $B_1, B_2, B_3, B_4, B_5, B_6$, using a compass so that $BB_1 = B_1B_2 = B_2B_3 = B_3B_4 = B_4B_5 = B_5B_6$.
+4. Join the $5$th division point $B_5$ (the smaller of $6$ and $5$) to $C$.
+5. Draw a line through the $6$th (outermost) division point $B_6$ parallel to $B_5C$, meeting the extended line segment $BC$ at $C'$.
+6. Draw a line through $C'$ parallel to $CA$, meeting the extended line segment $BA$ at $A'$.
+
+Then $\triangle A'BC'$ is the required triangle, each of whose sides is $\frac{6}{5}$ of the corresponding sides of $\triangle ABC$.
+
+**Reasoning:** By construction, $B_5C \parallel B_6C'$, so in $\triangle BB_5C$ and $\triangle BB_6C'$, $\angle B$ is common and $\angle BB_5C = \angle BB_6C'$ (corresponding angles), giving $\triangle BB_5C \sim \triangle BB_6C'$ by AA similarity. Hence $\dfrac{BC'}{BC} = \dfrac{BB_6}{BB_5} = \dfrac{6}{5}$. Since $C'A' \parallel CA$, similarly $\triangle BCA \sim \triangle BC'A'$, so every side of $\triangle A'BC'$ is $\dfrac{6}{5}$ times the corresponding side of $\triangle ABC$.
+
+</div>
+
+</details>
+
+**(OR)**
+
+Construct a $\triangle PQR$ in which $QR = 5\text{ cm}$, $\angle P = 30^\circ$, and the length of the perpendicular (altitude) drawn from $P$ to $QR$ is $4.2\text{ cm}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $QR = 5\text{ cm}$, $\angle P = 30^\circ$ (the angle opposite side $QR$), and the altitude from $P$ to $QR$ is $4.2\text{ cm}$.
+
+This is the standard construction "triangle given one side, the angle opposite to it, and the altitude to that side." Vertex $P$ must satisfy two conditions simultaneously: (i) $P$ lies on the arc of a circle through $Q$ and $R$ on which $QR$ subtends an angle of $30^\circ$ (so that $\angle QPR = 30^\circ$) — located using the tangent–chord angle construction, and (ii) $P$ lies on a line parallel to $QR$ at a perpendicular distance of $4.2\text{ cm}$ from it (so that the altitude from $P$ to $QR$ is $4.2\text{ cm}$). The intersection of these two loci locates $P$.
+
+**Steps of Construction:**
+1. Draw a rough sketch of $\triangle PQR$ and mark the given measurements to plan the construction.
+2. Draw the line segment $QR = 5\text{ cm}$.
+3. **Construct the locus on which $QR$ subtends $30^\circ$:** At $Q$, draw a ray $QX$ such that $\angle RQX = 30^\circ$ (the tangent–chord angle equal to the angle to be subtended at the circumference).
+4. Draw $QY \perp QX$ at $Q$ (by the tangent–chord angle construction, $QY$ passes through the centre of the required circle).
+5. Draw the perpendicular bisector of $QR$; let it meet $QY$ at the point $O$.
+6. With $O$ as centre and radius $OQ\,(=OR)$, draw a circle. By the converse of the tangent–chord (alternate segment) theorem, any point on the major arc of this circle subtends an angle of $30^\circ$ on $QR$; so $P$ must lie on this arc.
+7. **Construct the locus for the altitude:** Draw a line $l$ parallel to $QR$ at a perpendicular distance of $4.2\text{ cm}$ from it, on the same side as the arc from Step 6 (constructed by drawing perpendiculars to $QR$ of length $4.2\text{ cm}$ at two convenient points on $QR$, then joining their endpoints).
+8. Mark the point $P$ where the line $l$ (Step 7) intersects the arc (Step 6) — this point satisfies both $\angle QPR = 30^\circ$ and the altitude from $P$ to $QR$ equal to $4.2\text{ cm}$.
+9. Join $PQ$ and $PR$.
+
+Then $\triangle PQR$ is the required triangle.
+
+**Verification:** Since $P$ lies on the circle through $Q$ and $R$ constructed with the $30^\circ$ tangent–chord angle, $\angle QPR = 30^\circ$. Since $P$ lies on the line parallel to $QR$ at perpendicular distance $4.2\text{ cm}$, the altitude from $P$ to $QR$ is $4.2\text{ cm}$. Both given conditions are satisfied.
+
+</div>
+
+</details>
+
+---
+
+Construct a triangle similar to a given triangle $LMN$ with its sides equal to $\frac{4}{5}$ of the corresponding sides of the triangle $LMN$ (scale factor $\frac{4}{5} < 1$).
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+*Note: the given triangle $LMN$'s side measurements are taken from the triangle shown in the exam paper's diagram; any convenient triangle $LMN$ may be drawn first, since the construction method below applies to a triangle of any size with scale factor $\frac{4}{5} < 1$.*
+
+Given: A triangle $LMN$ and scale factor $\frac{4}{5} < 1$.
+
+**Steps of Construction:**
+1. Construct a $\triangle LMN$ with the given (or any convenient) measurements.
+2. Draw a ray $MX$ making an acute angle with side $MN$, on the side opposite to vertex $L$.
+3. Locate 5 points (the greater of 4 and 5), namely $M_1, M_2, M_3, M_4, M_5$, on $MX$ such that $MM_1 = M_1M_2 = M_2M_3 = M_3M_4 = M_4M_5$.
+4. Join the $5$th point $M_5$ to $N$.
+5. Draw a line through $M_4$ (the 4th point, the numerator) parallel to $M_5N$, meeting $MN$ at $N'$ (since $4 < 5$, this parallel is drawn from an **interior** division point, so $N'$ lies between $M$ and $N$, unlike the scale-factor-$>1$ case where the line is drawn from the outermost point and meets the *extended* side).
+6. Draw a line through $N'$ parallel to $NL$, meeting $ML$ at $L'$.
+
+Then $\triangle L'MN'$ is the required triangle, each of whose sides is $\frac{4}{5}$ of the corresponding sides of $\triangle LMN$.
+
+**Reasoning:** By construction, $M_4N' \parallel M_5N$, so $\triangle MM_4N' \sim \triangle MM_5N$ by AA similarity, giving $\dfrac{MN'}{MN} = \dfrac{MM_4}{MM_5} = \dfrac{4}{5}$. Also $N'L' \parallel NL$ gives $\triangle MNL \sim \triangle MN'L'$, so every side of $\triangle L'MN'$ is $\dfrac{4}{5}$ times the corresponding side of $\triangle LMN$.
+
+</div>
+
+</details>
+
+**(OR)**
+
+Construct a $\triangle PQR$ in which $QR = 6.5\text{ cm}$, $\angle P = 60^\circ$, and the length of the perpendicular (altitude) drawn from vertex $P$ to $QR$ is $4.5\text{ cm}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $QR = 6.5\text{ cm}$, $\angle P = 60^\circ$ (the angle opposite side $QR$), and the altitude from $P$ to $QR$ is $4.5\text{ cm}$. This is the same type of construction as the Sivagangai paper's altitude-construction above ("side + opposite angle + altitude to that side"), with different numbers.
+
+Vertex $P$ must satisfy two conditions simultaneously: (i) $P$ lies on the arc of a circle through $Q$ and $R$ on which $QR$ subtends an angle of $60^\circ$, and (ii) $P$ lies on a line parallel to $QR$ at perpendicular distance $4.5\text{ cm}$ from it.
+
+**Steps of Construction:**
+1. Draw a rough sketch of $\triangle PQR$ and mark the given measurements.
+2. Draw the line segment $QR = 6.5\text{ cm}$.
+3. At $Q$, draw a ray $QX$ such that $\angle RQX = 60^\circ$ (tangent–chord angle).
+4. Draw $QY \perp QX$ at $Q$; $QY$ passes through the centre of the required circle.
+5. Draw the perpendicular bisector of $QR$; let it meet $QY$ at $O$.
+6. With $O$ as centre and radius $OQ\,(=OR)$, draw a circle. Any point on the major arc of this circle subtends $60^\circ$ on $QR$ (converse of the tangent–chord/alternate segment theorem); so $P$ lies on this arc.
+7. Draw a line $l$ parallel to $QR$ at perpendicular distance $4.5\text{ cm}$ from it, on the side of the arc from Step 6.
+8. Mark $P$ at the intersection of line $l$ (Step 7) and the arc (Step 6).
+9. Join $PQ$ and $PR$.
+
+Then $\triangle PQR$ is the required triangle.
+
+**Verification:** Since $P$ lies on the circle constructed with the $60^\circ$ tangent–chord angle through $Q$ and $R$, $\angle QPR = 60^\circ$. Since $P$ lies on the line parallel to $QR$ at distance $4.5\text{ cm}$, the altitude from $P$ to $QR$ is $4.5\text{ cm}$. Both given conditions are satisfied.
 
 </div>
 

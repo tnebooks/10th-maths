@@ -2123,6 +2123,60 @@ or Scan the QR Code.
 
 ### 2 Marks
 
+#### 2022
+
+Show that the points $P(-1.5, 3)$, $Q(6, -2)$ and $R(-3, 4)$ are collinear.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Three points are collinear if the area of the triangle formed by them is zero (or slope of $PQ = \text{slope of } QR$).
+
+Using the area of triangle formula:
+$$\text{Area} = \frac{1}{2} \Big[x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\Big]$$
+$$\text{Area} = \frac{1}{2} \Big[-1.5(-2 - 4) + 6(4 - 3) + (-3)(3 - (-2))\Big]$$
+$$= \frac{1}{2} \Big[-1.5(-6) + 6(1) + (-3)(5)\Big] = \frac{1}{2} [9 + 6 - 15] = \frac{1}{2}(0) = 0$$
+
+Since the area of $\triangle PQR = 0$:
+
+**Answer:**
+$$\mathbf{\text{The points } P, Q, R \text{ are collinear}}$$
+
+</div>
+
+</details>
+
+---
+
+If the points $A(-1, 2)$, $B(k, -2)$ and $C(7, 4)$ are collinear, find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $A(-1, 2)$, $B(k, -2)$ and $C(7, 4)$ are collinear, $\text{Slope of } AB = \text{Slope of } BC$:
+$$\text{Slope of } AB = \frac{-2 - 2}{k - (-1)} = \frac{-4}{k + 1}$$
+$$\text{Slope of } BC = \frac{4 - (-2)}{7 - k} = \frac{6}{7 - k}$$
+
+Equating the slopes:
+$$\frac{-4}{k + 1} = \frac{6}{7 - k}$$
+$$-4(7 - k) = 6(k + 1)$$
+$$-28 + 4k = 6k + 6$$
+$$4k - 6k = 6 + 28$$
+$$-2k = 34 \implies k = -17$$
+
+**Answer:**
+$$\mathbf{k = -17}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 A cat is located at the point $(-6, -4)$ in the $xy$-plane. A bottle of milk is kept at $(5, 11)$. The cat wishes to consume the milk travelling through the shortest possible distance. Find the equation of the path it needs to follow for its milk.
@@ -2441,6 +2495,157 @@ $$\mathbf{x - 4y + 34 = 0}$$
 
 ---
 
+Show that the points $(-3,-4)$, $(7,2)$ and $(12,5)$ are collinear.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Three points are collinear if the slope between any two pairs sharing a common point is the same.
+
+Slope of the segment joining $(-3,-4)$ and $(7,2)$:
+$$m_1 = \frac{2 - (-4)}{7 - (-3)} = \frac{6}{10} = \frac{3}{5}$$
+
+Slope of the segment joining $(7,2)$ and $(12,5)$:
+$$m_2 = \frac{5 - 2}{12 - 7} = \frac{3}{5}$$
+
+Since $m_1 = m_2 = \dfrac{3}{5}$ and both pass through the common point $(7,2)$, the points $(-3,-4)$, $(7,2)$, $(12,5)$ are collinear.
+
+**Answer:**
+$$\mathbf{(-3,-4), (7,2), (12,5) \text{ are collinear, since } m_1 = m_2 = \frac{3}{5}}$$
+
+</div>
+
+</details>
+
+---
+
+A cat is at the point $(-6,-4)$ on the $xy$-plane. The cat wants to reach a bowl of milk placed at $(5,11)$ by travelling the shortest possible distance. Find the equation of the path the cat must take to drink the milk.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The shortest path between two points is the straight line segment joining them, so the cat's path is the line through $(-6,-4)$ and $(5,11)$.
+
+Slope of the path:
+$$m = \frac{11 - (-4)}{5 - (-6)} = \frac{15}{11}$$
+
+Using the point-slope form through $(-6,-4)$:
+$$y - (-4) = \frac{15}{11}(x - (-6))$$
+$$y + 4 = \frac{15}{11}(x + 6)$$
+
+Multiply both sides by $11$:
+$$11(y+4) = 15(x+6)$$
+$$11y + 44 = 15x + 90$$
+$$15x - 11y + 90 - 44 = 0$$
+$$15x - 11y + 46 = 0$$
+
+**Answer:**
+$$\mathbf{15x - 11y + 46 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+Test whether the lines $\dfrac{x}{3} + \dfrac{y}{4} + \dfrac{1}{7} = 0$ and $\dfrac{2x}{3} + \dfrac{y}{2} + \dfrac{1}{10} = 0$ are parallel or perpendicular.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Line 1:** $\dfrac{x}{3} + \dfrac{y}{4} + \dfrac{1}{7} = 0$. Multiplying by the LCM of $3,4,7$, which is $84$:
+$$28x + 21y + 12 = 0 \implies m_1 = -\frac{28}{21} = -\frac{4}{3}$$
+
+**Line 2:** $\dfrac{2x}{3} + \dfrac{y}{2} + \dfrac{1}{10} = 0$. Multiplying by the LCM of $3,2,10$, which is $30$:
+$$20x + 15y + 3 = 0 \implies m_2 = -\frac{20}{15} = -\frac{4}{3}$$
+
+Since $m_1 = m_2 = -\dfrac{4}{3}$, the two lines have **equal slopes**, so they are **parallel** (not perpendicular, since perpendicular lines require $m_1 \times m_2 = -1$).
+
+**Answer:**
+$$\mathbf{\text{The lines are parallel}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the area of the triangle formed by the points $(1,-1)$, $(-4,6)$ and $(-3,-5)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Using the area formula for a triangle with vertices $(x_1,y_1), (x_2,y_2), (x_3,y_3)$:
+$$\text{Area} = \frac{1}{2} \left| x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2) \right|$$
+
+Substituting $(1,-1)$, $(-4,6)$, $(-3,-5)$:
+$$\text{Area} = \frac{1}{2} \left| 1(6-(-5)) + (-4)(-5-(-1)) + (-3)(-1-6) \right|$$
+$$= \frac{1}{2} \left| 1(11) + (-4)(-4) + (-3)(-7) \right|$$
+$$= \frac{1}{2} \left| 11 + 16 + 21 \right| = \frac{1}{2}(48) = 24$$
+
+**Answer:**
+$$\mathbf{\text{Area} = 24 \text{ sq. units}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the slope of a line whose angle of inclination is $90°$ with the positive direction of the $x$-axis.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+A line with inclination angle $90°$ to the positive $x$-axis is a **vertical** line (parallel to the $y$-axis).
+
+Slope formula: $m = \tan\theta$. At $\theta = 90°$, $\tan 90°$ is undefined.
+
+**Answer:**
+$$\mathbf{\text{Slope is undefined (the line is vertical)}}$$
+
+</div>
+
+</details>
+
+---
+
+Find the equation of the straight line passing through the point $(-1,2)$ and having slope $-\dfrac{5}{4}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Using the point-slope form through $(-1,2)$ with slope $-\dfrac{5}{4}$:
+$$y - 2 = -\frac{5}{4}(x - (-1))$$
+$$y - 2 = -\frac{5}{4}(x + 1)$$
+
+Multiply both sides by $4$:
+$$4(y-2) = -5(x+1)$$
+$$4y - 8 = -5x - 5$$
+$$5x + 4y - 8 + 5 = 0$$
+$$5x + 4y - 3 = 0$$
+
+**Answer:**
+$$\mathbf{5x + 4y - 3 = 0}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 Find the slope of a line joining the points $(14, 10)$ and $(14, -6)$.
@@ -2496,7 +2701,84 @@ $$\mathbf{3x - 2y - 12 = 0}$$
 
 ---
 
+Show that the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given points: $(1, 2)$, $(2, 3)$, $(3, 4)$.
+
+Three points are collinear if the slope between any two pairs of them is the same.
+
+**Slope between $(1, 2)$ and $(2, 3)$:**
+$$m_1 = \frac{3 - 2}{2 - 1} = \frac{1}{1} = 1$$
+
+**Slope between $(2, 3)$ and $(3, 4)$:**
+$$m_2 = \frac{4 - 3}{3 - 2} = \frac{1}{1} = 1$$
+
+Since $m_1 = m_2 = 1$, and both slopes are computed using the common point $(2, 3)$, all three points lie on the same straight line.
+
+**Answer:**
+**Since the slope between each pair of points is equal ($m_1 = m_2 = 1$), the points $(1, 2)$, $(2, 3)$ and $(3, 4)$ are collinear.**
+
+</div>
+
+</details>
+
+---
+
 ### 5 Marks
+
+#### 2020
+
+If the area of the quadrilateral with vertices $(-4, -2)$, $(-3, k)$, $(3, -2)$ and $(2, 3)$ is $28\text{ sq. units}$, find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: Vertices taken in order $A(-4, -2), B(-3, k), C(3, -2), D(2, 3)$ and Area $= 28\text{ sq. units}$.
+
+$$\text{Area} = \frac{1}{2} \Big[(-4k + 6 + 9 - 4) - (6 + 3k - 4 - 12)\Big] = 28$$
+$$\frac{1}{2} \Big[(-4k + 11) - (3k - 10)\Big] = 28$$
+$$-7k + 21 = 56$$
+$$-7k = 35 \implies k = -5$$
+
+**Answer:**
+$$\mathbf{k = -5}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+Find the area of the quadrilateral formed by the points $(8, 6)$, $(5, 11)$, $(-5, 12)$ and $(-4, 3)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the vertices in order be $A(8, 6), B(5, 11), C(-5, 12), D(-4, 3)$.
+
+$$\text{Area} = \frac{1}{2} \Big[(8 \times 11 + 5 \times 12 + (-5) \times 3 + (-4) \times 6) - (6 \times 5 + 11 \times (-5) + 12 \times (-4) + 3 \times 8)\Big]$$
+$$\text{Area} = \frac{1}{2} [(88 + 60 - 15 - 24) - (30 - 55 - 48 + 24)]$$
+$$= \frac{1}{2} [109 - (-49)] = \frac{1}{2} (158) = 79\text{ sq. units}$$
+
+**Answer:**
+$$\mathbf{79\text{ sq. units}}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 
