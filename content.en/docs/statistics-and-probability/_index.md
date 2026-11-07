@@ -2179,6 +2179,84 @@ or Scan the QR Code.
 
 ### 2 Marks
 
+#### 2020
+
+Find the range and coefficient of range of the following data: $63, 89, 98, 125, 79, 108, 117, 68$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Largest value $L = 125$
+Smallest value $S = 63$
+
+$$\text{Range } R = L - S = 125 - 63 = 62$$
+$$\text{Coefficient of Range} = \frac{L - S}{L + S} = \frac{125 - 63}{125 + 63} = \frac{62}{188} = 0.33$$
+
+**Answer:**
+$$\mathbf{\text{Range} = 62, \quad \text{Coefficient of Range} = 0.33}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+A die is rolled and a coin is tossed at the same time. Find the probability that the die shows an odd number and the coin shows a head.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The sample space is:
+$$S = \{1H, 1T, 2H, 2T, 3H, 3T, 4H, 4T, 5H, 5T, 6H, 6T\}$$
+$$n(S) = 12$$
+
+Let $A$ be the event that the die shows an odd number and the coin shows a head:
+$$A = \{1H, 3H, 5H\}$$
+$$n(A) = 3$$
+
+$$P(A) = \frac{n(A)}{n(S)} = \frac{3}{12} = \frac{1}{4}$$
+
+**Answer:**
+$$\mathbf{\frac{1}{4}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+Two coins are tossed together. What is the probability of getting different faces on the coins?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+When two coins are tossed, the sample space is:
+$$S = \{HH, HT, TH, TT\} \implies n(S) = 4$$
+
+Let $A$ be the event of getting different faces:
+$$A = \{HT, TH\} \implies n(A) = 2$$
+
+$$P(A) = \frac{n(A)}{n(S)} = \frac{2}{4} = \frac{1}{2}$$
+
+**Answer:**
+$$\mathbf{\frac{1}{2}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 Find the range and coefficient of range of the following data:
@@ -2399,6 +2477,117 @@ $$\mathbf{\frac{1}{4}}$$
 ---
 
 ### 5 Marks
+
+#### 2020
+
+Two unbiased dice are rolled once. Find the probability of getting:
+(i) a doublet (equal numbers on both dice)
+(ii) the product as a prime number
+(iii) the sum as a prime number
+(iv) the sum as 1
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Sample space: $n(S) = 36$.
+
+**(i) Doublet:** $A = \{(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)\} \implies P(A) = \frac{6}{36} = \frac{1}{6}$.
+**(ii) Product is prime:** $B = \{(1,2), (2,1), (1,3), (3,1), (1,5), (5,1)\} \implies P(B) = \frac{6}{36} = \frac{1}{6}$.
+**(iii) Sum is prime:** $C = \text{sums of } 2, 3, 5, 7, 11 \implies n(C) = 15 \implies P(C) = \frac{15}{36} = \frac{5}{12}$.
+**(iv) Sum is 1:** Impossible event $\implies n(D) = 0 \implies P(D) = 0$.
+
+**Answer:**
+$$\mathbf{\text{(i) } \frac{1}{6}, \quad \text{(ii) } \frac{1}{6}, \quad \text{(iii) } \frac{5}{12}, \quad \text{(iv) } 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+Two dice are rolled. Find the probability that the sum of outcomes is:
+(i) equal to $4$
+(ii) greater than $10$
+(iii) less than $13$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Sample space: $n(S) = 36$.
+
+**(i) Sum equals 4:** $A = \{(1,3), (2,2), (3,1)\} \implies P(A) = \frac{3}{36} = \frac{1}{12}$.
+**(ii) Sum greater than 10:** $B = \{(5,6), (6,5), (6,6)\} \implies P(B) = \frac{3}{36} = \frac{1}{12}$.
+**(iii) Sum less than 13:** All outcomes have sum $\le 12 < 13 \implies n(C) = 36 \implies P(C) = \frac{36}{36} = 1$.
+
+**Answer:**
+$$\mathbf{\text{(i) } \frac{1}{12}, \quad \text{(ii) } \frac{1}{12}, \quad \text{(iii) } 1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+A bag contains $5$ red balls, $6$ white balls, $7$ green balls and $8$ black balls. One ball is drawn at random from the bag. Find the probability that the ball drawn is:
+(i) white
+(ii) black or red
+(iii) not white
+(iv) neither white nor black
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total balls $n(S) = 5 + 6 + 7 + 8 = 26$.
+
+**(i) White:** $n(W) = 6 \implies P(W) = \frac{6}{26} = \frac{3}{13}$.
+**(ii) Black or red:** $n(B \cup R) = 8 + 5 = 13 \implies P(B \cup R) = \frac{13}{26} = \frac{1}{2}$.
+**(iii) Not white:** $P(W') = 1 - \frac{3}{13} = \frac{10}{13}$.
+**(iv) Neither white nor black:** Red or green balls $= 5 + 7 = 12 \implies P(\text{neither}) = \frac{12}{26} = \frac{6}{13}$.
+
+**Answer:**
+$$\mathbf{\text{(i) } \frac{3}{13}, \quad \text{(ii) } \frac{1}{2}, \quad \text{(iii) } \frac{10}{13}, \quad \text{(iv) } \frac{6}{13}}$$
+
+</div>
+
+</details>
+
+---
+
+In a class of $50$ students, $28$ opted for NCC, $30$ opted for NSS and $18$ opted for both NCC and NSS. One student is selected at random. Find the probability that:
+(i) the student opted for NCC but not NSS
+(ii) the student opted for NSS but not NCC
+(iii) the student opted for exactly one of them
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total students $n(S) = 50$.
+$n(A) = 28$ (NCC), $n(B) = 30$ (NSS), $n(A \cap B) = 18$ (both).
+
+**(i) NCC but not NSS:** $n(A \setminus B) = 28 - 18 = 10 \implies P(A \setminus B) = \frac{10}{50} = \frac{1}{5}$.
+**(ii) NSS but not NCC:** $n(B \setminus A) = 30 - 18 = 12 \implies P(B \setminus A) = \frac{12}{50} = \frac{6}{25}$.
+**(iii) Exactly one:** $\frac{10 + 12}{50} = \frac{22}{50} = \frac{11}{25}$.
+
+**Answer:**
+$$\mathbf{\text{(i) } \frac{1}{5}, \quad \text{(ii) } \frac{6}{25}, \quad \text{(iii) } \frac{11}{25}}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 

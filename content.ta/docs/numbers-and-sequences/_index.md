@@ -2311,6 +2311,124 @@ https://www.geogebra.org/m/jfr2zzgy#chapter/356192 அல்லது விர�
 
 ### 2 மதிப்பெண் வினாக்கள் (2 Marks)
 
+#### 2021
+
+$3 + k, 18 - k, 5k + 1$ என்பவை ஒரு கூட்டுத் தொடர்வரிசையில் உள்ளன எனில், $k$-யின் மதிப்புக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$a, b, c$ என்பவை கூட்டுத் தொடர்வரிசையில் அமைய நிபந்தனை $2b = a + c$:
+$$2(18-k) = (3+k) + (5k+1)$$
+$$36 - 2k = 6k + 4$$
+$$8k = 32 \implies k = 4$$
+
+**விடை:**
+$$\mathbf{k = 4}$$
+
+</div>
+
+</details>
+
+---
+
+$3, 6, 9, 12, \ldots, 111$ என்ற கூட்டுத் தொடர்வரிசையில் உள்ள உறுப்புகளின் எண்ணிக்கையைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட கூட்டுத் தொடர்வரிசை: $3, 6, 9, 12, \ldots, 111$
+முதல் உறுப்பு $a = 3$, பொது வித்தியாசம் $d = 6 - 3 = 3$, கடைசி உறுப்பு $l = 111$.
+
+உறுப்புகளின் எண்ணிக்கை $n$:
+$$n = \left(\frac{l - a}{d}\right) + 1$$
+$$n = \left(\frac{111 - 3}{3}\right) + 1 = \frac{108}{3} + 1 = 36 + 1 = 37$$
+
+**விடை:**
+$$\mathbf{n = 37}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+$13824 = 2^a \times 3^b$ எனில், $a$ மற்றும் $b$-ன் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+$13824$-ஐ பகா காரணிப்படுத்த:
+$$13824 = 2^9 \times 3^3$$
+
+இதை $2^a \times 3^b$ உடன் ஒப்பிட:
+$$a = 9, \quad b = 3$$
+
+**விடை:**
+$$\mathbf{a = 9, \quad b = 3}$$
+
+</div>
+
+</details>
+
+---
+
+$16, 11, 6, 1, \ldots$ என்ற கூட்டுத் தொடர்வரிசையில் $-54$ என்பது எத்தனையாவது உறுப்பு?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட கூட்டுத் தொடர்வரிசை: $16, 11, 6, 1, \ldots$
+முதல் உறுப்பு $a = 16$, பொது வித்தியாசம் $d = 11 - 16 = -5$.
+$t_n = -54$ என்க.
+
+$$t_n = a + (n - 1)d$$
+$$-54 = 16 + (n - 1)(-5)$$
+$$-70 = -5(n - 1)$$
+$$n - 1 = 14 \implies n = 15$$
+
+**விடை:**
+$$\mathbf{15\text{-வது உறுப்பு}}$$
+
+</div>
+
+</details>
+
+---
+
+$-11, -15, -19, \ldots$ என்ற கூட்டுத் தொடர்வரிசையின் $19$-வது உறுப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட கூட்டுத் தொடர்வரிசை: $-11, -15, -19, \ldots$
+முதல் உறுப்பு $a = -11$, பொது வித்தியாசம் $d = -15 - (-11) = -4$.
+
+$n$-வது உறுப்பு:
+$$t_n = a + (n - 1)d$$
+$$t_{19} = -11 + (19 - 1)(-4) = -11 + 18(-4) = -11 - 72 = -83$$
+
+**விடை:**
+$$\mathbf{t_{19} = -83}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 $x+6, x+12$ மற்றும் $x+15$ என்பன ஒரு பெருக்குத் தொடர்வரிசையின் தொடர்ச்சியான மூன்று உறுப்புகள் எனில், $x$-ன் மதிப்பைக் காண்க.
@@ -2856,6 +2974,231 @@ $$(1^3+2^3+\cdots+15^3) - (1+2+\cdots+15) = 14400 - 120 = 14280$$
 
 **விடை:**
 $$\mathbf{14280}$$
+
+</div>
+
+</details>
+
+---
+
+கொடுக்கப்பட்ட காரணிப் பிரித்தலில், \(m\) மற்றும் \(n\) என்ற எண்களைக் காண்க. [காரணி மரம்: மேல் முடிச்சு \(m\) மற்றும் \(150\) என இரு கிளைகளாகப் பிரிகிறது; \(150\) என்ற கிளை மேலும் \(50\), பின் \(10\), பின் ஒரு பிரைம் இலை \(n\) வரை காரணிப்படுத்தப்படுகிறது.]
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**இந்த வினா பற்றிய குறிப்பு:** மூல வினாத்தாளில் இது ஒரு காரணி மரப் படம் (text சமன்பாடு அல்ல), மேலும் extract செய்யப்பட்ட உரையிலிருந்து அந்தப் படத்தை முழுமையாகப் படியெடுக்க முடியவில்லை (" \(m\)", "\(150\)", "\(50\)", "\(10\)" மற்றும் ஒரு பிரைம் இலை "\(n\)" ஆகிய லேபிள்கள் மட்டுமே தெளிவாகப் படிக்க முடிந்தது, மரத்தின் சரியான இணைப்புக் கோடுகள் இல்லை). கீழே உள்ள மீள்கட்டமைப்பு இந்த லேபிள்களுக்குப் பொருந்தக்கூடிய மிகச் சீரான வாசிப்பு ஆகும், இறுதி விடையாக எடுத்துக்கொள்வதற்கு முன் **மூல அச்சிடப்பட்ட படத்துடன் சரிபார்க்கப்பட வேண்டும்**.
+
+ஒரு காரணி மரம் ஒரு கூட்டெண்ணை ஒவ்வொரு முடிச்சிலும் இரு காரணிகளாகத் தொடர்ந்து பிரிக்கிறது, ஒவ்வொரு இலையும் ஒரு பிரைம் எண்ணாக மாறும் வரை.
+
+**சாத்தியமான மரத்தை மீள்கட்டமைத்தல்:** லேபிள்களை மேலிருந்து கீழாகப் படிக்கும்போது — மூலம் \(m\) மற்றும் \(150\) ஆகப் பிரிகிறது; பின்னர் \(150\) மேலும் \(50\), பின் \(10\), பின் ஒரு பிரைம் \(n\) வரை பிரிகிறது — இதற்குப் பொருந்தும் ஒரு சீரான தொடர்:
+$$300 = m \times 150, \qquad 150 = 3 \times 50, \qquad 50 = 5 \times 10, \qquad 10 = 2 \times n$$
+
+\(10 = 2 \times n\) இலிருந்து, பிரைம் இலை \(n = 5\).
+\(300 = m \times 150\) இலிருந்து, \(m = \dfrac{300}{150} = 2\).
+
+**சரிபார்ப்பு:** \(300 = 2 \times 150 = 2 \times 3 \times 50 = 2 \times 3 \times 5 \times 10 = 2 \times 3 \times 5 \times 2 \times 5 = 2^2 \times 3 \times 5^2\), மற்றும் மீண்டும் பெருக்கினால்: \(2^2 \times 3 \times 5^2 = 4 \times 3 \times 25 = 300\). ✓ இது ஒரு சீரான காரணி மரம் தான், ஆனால் படம் முழுமையாகப் படிக்க முடியாததால், \(m=2, n=5\) என்பதை **ஒரு சிறந்த மீள்கட்டமைப்பாகவே கருதவும், உறுதியானதாக அல்ல** — மூலத் தாளுடன் சரிபார்க்கவும்.
+
+**விடை:**
+$$\mathbf{m = 2, \ n = 5 \ \text{(மீள்கட்டமைக்கப்பட்டது — மூலப் படத்துடன் சரிபார்க்கவும்)}}$$
+
+</div>
+
+</details>
+
+---
+
+\(3+k, 18-k, 5k+1\) என்பவை ஒரு கூட்டுத் தொடர்வரிசையில் உள்ளன எனில், \(k\) யின் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+மூன்று உறுப்புகள் கூட்டுத் தொடர்வரிசையில் இருக்க, நடுவண் உறுப்பின் இருமடங்கு இரு பக்க உறுப்புகளின் கூடுதலுக்குச் சமம்.
+
+$$2(18-k) = (3+k)+(5k+1)$$
+$$36 - 2k = 6k + 4$$
+$$36 - 4 = 6k + 2k$$
+$$32 = 8k$$
+$$k = 4$$
+
+**சரிபார்ப்பு:** \(k=4\)-ஐப் பிரதியிட: உறுப்புகள் \(3+4=7\), \(18-4=14\), \(5(4)+1=21\) ஆகும். கூட்டுத்தொடர் சரிபார்ப்பு: \(14-7=7\) மற்றும் \(21-14=7\) — பொது வித்தியாசம் மாறாமல் உள்ளது. ✓
+
+**விடை:**
+$$\mathbf{k = 4}$$
+
+</div>
+
+</details>
+
+---
+
+\(1+2+3+\cdots+k = 325\) எனில், \(1^3+2^3+3^3+\cdots+k^3\) ன் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**படி 1: கொடுக்கப்பட்ட கூடுதலிலிருந்து \(k\)-ஐக் காணுதல்**
+
+$$1+2+\cdots+k = \frac{k(k+1)}{2} = 325$$
+$$k(k+1) = 650$$
+$$k^2+k-650=0$$
+
+இருபடிச் சமன்பாட்டு வாய்பாட்டைப் பயன்படுத்த:
+$$k = \frac{-1\pm\sqrt{1+2600}}{2} = \frac{-1\pm\sqrt{2601}}{2} = \frac{-1\pm51}{2}$$
+
+நேர்மூலத்தை எடுத்துக்கொண்டால்:
+$$k = \frac{50}{2} = 25$$
+
+**படி 2: கனங்களின் கூடுதலைக் காணுதல்**
+
+\(\displaystyle\sum_{i=1}^{k} i^3 = \left[\frac{k(k+1)}{2}\right]^2\) என்ற சூத்திரத்தைப் பயன்படுத்த:
+
+$$1^3+2^3+\cdots+25^3 = (325)^2 = 105625$$
+
+**சரிபார்ப்பு:** \(325^2 = 325 \times 325\). \(325 \times 300 = 97500\), \(325\times25=8125\); கூடுதல் \(=97500+8125=105625\). ✓ மேலும் \(k=25\): \(25\times26/2 = 325\) கொடுக்கப்பட்ட கூடுதலுடன் பொருந்துகிறது. ✓
+
+**விடை:**
+$$\mathbf{105625}$$
+
+</div>
+
+</details>
+
+---
+
+\(a^b \times b^a = 800\) என்றவாறு இரு மிகை முழுக்கள் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+\(800\)-ஐ பிரைம் காரணிகளாகப் பிரிக்க:
+$$800 = 2^5 \times 5^2$$
+
+\(a^b \times b^a = 2^5 \times 5^2\) என்றவாறு மிகை முழுக்கள் \(a, b\) தேவை. \(a=2, b=5\) எனச் சோதிக்க:
+$$a^b \times b^a = 2^5 \times 5^2 = 32 \times 25 = 800$$
+
+இது சரியாகப் பொருந்துகிறது.
+
+**சரிபார்ப்பு:** \(2^5=32\), \(5^2=25\), \(32\times25=800\). ✓
+
+**விடை:**
+$$\mathbf{a=2, \ b=5}$$
+
+</div>
+
+</details>
+
+---
+
+\(a_n = 2n^2-6\) என்ற \(n\)-வது உறுப்பைக் கொண்ட முதல் நான்கு உறுப்புகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+\(a_n = 2n^2-6\) இல் \(n=1,2,3,4\)-ஐப் பிரதியிடுக.
+
+$$a_1 = 2(1)^2-6 = 2-6 = -4$$
+$$a_2 = 2(2)^2-6 = 8-6 = 2$$
+$$a_3 = 2(3)^2-6 = 18-6 = 12$$
+$$a_4 = 2(4)^2-6 = 32-6 = 26$$
+
+**சரிபார்ப்பு:** வித்தியாசங்கள்: \(2-(-4)=6\), \(12-2=10\), \(26-12=14\) — ஒவ்வொரு முறையும் \(4\) அதிகரிக்கிறது, இருபடிச் சூத்திரத்துடன் பொருந்துகிறது (இரண்டாம் வித்தியாசம் மாறாமல் \(=2a\), இங்கு \(n^2\)-இன் கெழு \(2\), எனவே இரண்டாம் வித்தியாசம் \(=2\times2=4\)). ✓
+
+**விடை:**
+$$\mathbf{-4, \ 2, \ 12, \ 26}$$
+
+</div>
+
+</details>
+
+---
+
+\(9+3+1+\cdots\) என்ற முடிவிலித் தொடரின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+இது முதல் உறுப்பு \(a=9\) மற்றும் பொது விகிதம் கொண்ட ஒரு முடிவிலி பெருக்குத்தொடர்வரிசை:
+$$r = \frac{3}{9} = \frac{1}{3}$$
+
+\(|r|<1\) என்பதால், முடிவிலி கூடுதல் வாய்பாடு பொருந்தும்:
+$$S_\infty = \frac{a}{1-r}$$
+
+$$S_\infty = \frac{9}{1-\frac{1}{3}} = \frac{9}{\frac{2}{3}} = 9 \times \frac{3}{2} = \frac{27}{2}$$
+
+**சரிபார்ப்பு:** பகுதித் தொகைகள் \(\frac{27}{2}=13.5\)-ஐ நெருங்குகின்றன: \(9+3+1+\frac{1}{3}+\frac{1}{9}+\cdots \approx 9+3+1+0.333+0.111+\cdots = 13.44\ldots\), இது \(13.5\) நோக்கி ஒன்றிணைகிறது. ✓
+
+**விடை:**
+$$\mathbf{\dfrac{27}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+ஓர் எண் மற்றும் அதன் தலைகீழி ஆகியவற்றின் வித்தியாசம் \(\dfrac{24}{5}\) எனில் அந்த எண்ணைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+எண்ணை \(x\) எனக் கொள்வோம். அப்போது:
+$$x - \frac{1}{x} = \frac{24}{5}$$
+
+இரு பக்கங்களையும் \(5x\)-ஆல் பெருக்க:
+$$5x^2 - 5 = 24x$$
+$$5x^2 - 24x - 5 = 0$$
+
+நடுத்தரப் பதத்தைப் பிரித்து காரணிப்படுத்த (\(-24x = -25x+x\), ஏனெனில் \(-25\times1=-25\) மற்றும் \(-25+1=-24\)):
+$$5x^2 - 25x + x - 5 = 0$$
+$$5x(x-5) + 1(x-5) = 0$$
+$$(5x+1)(x-5) = 0$$
+
+எனவே \(x = 5\) அல்லது \(x = -\dfrac{1}{5}\).
+
+**சரிபார்ப்பு:** \(x=5\) ஆனால்: \(5-\frac{1}{5} = \frac{25-1}{5}=\frac{24}{5}\). ✓ \(x=-\frac{1}{5}\) ஆனால்: \(-\frac{1}{5}-\frac{1}{-1/5} = -\frac{1}{5}+5 = \frac{-1+25}{5}=\frac{24}{5}\). ✓
+
+**விடை:**
+$$\mathbf{x = 5 \ \text{அல்லது} \ x = -\dfrac{1}{5}}$$
+
+</div>
+
+</details>
+
+---
+
+**கட்டாய வினா:** மணி என்ற சிறுவன் முதல் நாள் ரூ.\(5\) சேமிக்கிறான். பின் ஒவ்வொரு நாளும் ரூ.\(3\) அதிகம் சேமித்தால், \(15\) நாளில் அவன் சேமித்த மொத்த தொகை எவ்வளவு?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+மணியின் தின சேமிப்புகள் முதல் உறுப்பு \(a=5\) மற்றும் பொது வித்தியாசம் \(d=3\) கொண்ட ஒரு கூட்டுத் தொடர்வரிசையை உருவாக்குகின்றன. முதல் \(n=15\) உறுப்புகளின் கூடுதல் தேவை.
+
+$$S_n = \frac{n}{2}\big[2a+(n-1)d\big]$$
+
+$$S_{15} = \frac{15}{2}\big[2(5)+(15-1)(3)\big] = \frac{15}{2}\big[10+42\big] = \frac{15}{2}(52)$$
+
+$$S_{15} = 15 \times 26 = 390$$
+
+**சரிபார்ப்பு:** கடைசி நாள் சேமிப்பு: \(t_{15}=5+14(3)=5+42=47\). \(S_n=\frac{n}{2}(a+l)\) மூலம் சரிபார்க்க: \(\frac{15}{2}(5+47)=\frac{15}{2}(52)=390\). ✓ பொருந்துகிறது.
+
+**விடை:**
+$$\mathbf{\text{ரூ. } 390}$$
 
 </div>
 

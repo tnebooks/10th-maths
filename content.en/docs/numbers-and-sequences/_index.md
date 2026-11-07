@@ -2295,6 +2295,124 @@ Say True or False. Justify them.
 
 ### 2 Marks
 
+#### 2021
+
+If $3+k, 18-k, 5k+1$ are in Arithmetic Progression, find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+For three terms $a, b, c$ to be in A.P., $2b = a + c$:
+$$2(18-k) = (3+k)+(5k+1)$$
+$$36 - 2k = 6k + 4$$
+$$8k = 32 \implies k = 4$$
+
+**Answer:**
+$$\mathbf{k = 4}$$
+
+</div>
+
+</details>
+
+---
+
+Find the number of terms in the Arithmetic Progression $3, 6, 9, 12, \ldots, 111$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: $3, 6, 9, 12, \ldots, 111$
+First term $a = 3$, common difference $d = 6 - 3 = 3$, last term $l = 111$.
+
+The number of terms $n$ is given by:
+$$n = \left(\frac{l - a}{d}\right) + 1$$
+$$n = \left(\frac{111 - 3}{3}\right) + 1 = \frac{108}{3} + 1 = 36 + 1 = 37$$
+
+**Answer:**
+$$\mathbf{n = 37}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+If $13824 = 2^a \times 3^b$, find $a$ and $b$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Prime factorising $13824$:
+$$13824 = 2^9 \times 3^3$$
+
+Comparing with $2^a \times 3^b$:
+$$a = 9, \quad b = 3$$
+
+**Answer:**
+$$\mathbf{a = 9, \quad b = 3}$$
+
+</div>
+
+</details>
+
+---
+
+In the Arithmetic Progression $16, 11, 6, 1, \ldots$, which term is $-54$?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: $16, 11, 6, 1, \ldots$
+First term $a = 16$, common difference $d = 11 - 16 = -5$.
+Let $t_n = -54$.
+
+$$t_n = a + (n - 1)d$$
+$$-54 = 16 + (n - 1)(-5)$$
+$$-70 = -5(n - 1)$$
+$$n - 1 = 14 \implies n = 15$$
+
+**Answer:**
+$$\mathbf{15^{\text{th}} \text{ term}}$$
+
+</div>
+
+</details>
+
+---
+
+In the Arithmetic Progression $-11, -15, -19, \ldots$, find the $19^{\text{th}}$ term.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: $-11, -15, -19, \ldots$
+First term $a = -11$, common difference $d = -15 - (-11) = -4$.
+
+The $n^{\text{th}}$ term is:
+$$t_n = a + (n - 1)d$$
+$$t_{19} = -11 + (19 - 1)(-4) = -11 + 18(-4) = -11 - 72 = -83$$
+
+**Answer:**
+$$\mathbf{t_{19} = -83}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 Find $x$ so that $x+6, x+12$ and $x+15$ are consecutive terms of a Geometric Progression.
@@ -2840,6 +2958,173 @@ $$(1^3+2^3+\cdots+15^3) - (1+2+\cdots+15) = 14400 - 120 = 14280$$
 
 **Answer:**
 $$\mathbf{14280}$$
+
+</div>
+
+</details>
+
+---
+
+In the given factorisation, find the numbers $m$ and $n$. [Factor tree: the top node branches into $m$ and $150$; the branch labelled $150$ is further factorised down through $50$, then $10$, then to a prime leaf labelled $n$.]
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Note on this question:** The original scanned paper shows a factor-tree diagram, not a text equation, and the diagram could not be fully transcribed from the extracted text (only the branch labels "$m$", "$150$", "$50$", "$10$", and a prime leaf "$n$" were legible, without the tree's exact connecting lines). The reconstruction below is the most consistent reading of those labels and **should be verified against the original printed diagram** before being treated as final.
+
+A factor tree repeatedly splits a composite number into a pair of factors at each node, continuing until every leaf is a prime number.
+
+**Reconstructing the likely tree:** Reading the labels top-down — root splits into $m$ and $150$; then $150$ splits further through $50$, then $10$, down to a prime $n$ — a consistent chain is:
+$$300 = m \times 150, \qquad 150 = 3 \times 50, \qquad 50 = 5 \times 10, \qquad 10 = 2 \times n$$
+
+From $10 = 2 \times n$, the prime leaf is $n = 5$.
+From $300 = m \times 150$, $m = \dfrac{300}{150} = 2$.
+
+**Verification:** $300 = 2 \times 150 = 2 \times 3 \times 50 = 2 \times 3 \times 5 \times 10 = 2 \times 3 \times 5 \times 2 \times 5 = 2^2 \times 3 \times 5^2$, and multiplying back out: $2^2 \times 3 \times 5^2 = 4 \times 3 \times 25 = 300$. ✓ This is a self-consistent factor tree, but since the diagram itself was not fully readable, treat $m=2, n=5$ as a **best reconstruction, not a certainty** — please check against the original paper.
+
+**Answer:**
+$$\mathbf{m = 2, \ n = 5 \ \text{(reconstructed — verify against original diagram)}}$$
+
+</div>
+
+</details>
+
+---
+
+If $1+2+3+\cdots+k = 325$, find the value of $1^3+2^3+3^3+\cdots+k^3$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Step 1: Find $k$ from the given sum**
+
+$$1+2+\cdots+k = \frac{k(k+1)}{2} = 325$$
+$$k(k+1) = 650$$
+$$k^2+k-650=0$$
+
+Using the quadratic formula:
+$$k = \frac{-1\pm\sqrt{1+2600}}{2} = \frac{-1\pm\sqrt{2601}}{2} = \frac{-1\pm51}{2}$$
+
+Taking the positive root:
+$$k = \frac{50}{2} = 25$$
+
+**Step 2: Find the sum of cubes**
+
+Using the identity $\displaystyle\sum_{i=1}^{k} i^3 = \left[\frac{k(k+1)}{2}\right]^2$:
+
+$$1^3+2^3+\cdots+25^3 = (325)^2 = 105625$$
+
+**Verification:** $325^2 = 325 \times 325$. $325 \times 300 = 97500$, $325\times25=8125$; sum $=97500+8125=105625$. ✓ Also check $k=25$: $25\times26/2 = 325$ matches the given sum. ✓
+
+**Answer:**
+$$\mathbf{105625}$$
+
+</div>
+
+</details>
+
+---
+
+Find two positive integers $a$ and $b$ such that $a^b \times b^a = 800$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Factorise $800$ into its prime factors:
+$$800 = 2^5 \times 5^2$$
+
+We need positive integers $a, b$ such that $a^b \times b^a = 2^5 \times 5^2$. Try $a=2, b=5$:
+$$a^b \times b^a = 2^5 \times 5^2 = 32 \times 25 = 800$$
+
+This matches exactly.
+
+**Verification:** $2^5=32$, $5^2=25$, $32\times25=800$. ✓
+
+**Answer:**
+$$\mathbf{a=2, \ b=5}$$
+
+</div>
+
+</details>
+
+---
+
+Find the first four terms of the sequence whose $n^{\text{th}}$ term is $a_n = 2n^2-6$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Substitute $n=1,2,3,4$ into $a_n = 2n^2-6$.
+
+$$a_1 = 2(1)^2-6 = 2-6 = -4$$
+$$a_2 = 2(2)^2-6 = 8-6 = 2$$
+$$a_3 = 2(3)^2-6 = 18-6 = 12$$
+$$a_4 = 2(4)^2-6 = 32-6 = 26$$
+
+**Verification:** Differences: $2-(-4)=6$, $12-2=10$, $26-12=14$ — increasing by $4$ each time, consistent with the quadratic rule (second difference constant $=2a=4$ for $a_n=an^2+\ldots$, here coefficient of $n^2$ is $2$, so second difference $=2\times2=4$). ✓
+
+**Answer:**
+$$\mathbf{-4, \ 2, \ 12, \ 26}$$
+
+</div>
+
+</details>
+
+---
+
+Find the sum of the infinite series $9+3+1+\cdots$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+This is an infinite Geometric Progression with first term $a=9$ and common ratio:
+$$r = \frac{3}{9} = \frac{1}{3}$$
+
+Since $|r|<1$, the sum to infinity formula applies:
+$$S_\infty = \frac{a}{1-r}$$
+
+$$S_\infty = \frac{9}{1-\frac{1}{3}} = \frac{9}{\frac{2}{3}} = 9 \times \frac{3}{2} = \frac{27}{2}$$
+
+**Verification:** Partial sums approach $\frac{27}{2}=13.5$: $9+3+1+\frac{1}{3}+\frac{1}{9}+\cdots \approx 9+3+1+0.333+0.111+\cdots = 13.44\ldots$, converging toward $13.5$. ✓
+
+**Answer:**
+$$\mathbf{\dfrac{27}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+**Compulsory Question:** Mani saves $\text{Rs. }5$ on the first day. If he saves $\text{Rs. }3$ more than the previous day on each subsequent day, find the total amount he has saved in $15$ days.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Mani's daily savings form an Arithmetic Progression with first term $a=5$ and common difference $d=3$. We need the sum of the first $n=15$ terms.
+
+$$S_n = \frac{n}{2}\big[2a+(n-1)d\big]$$
+
+$$S_{15} = \frac{15}{2}\big[2(5)+(15-1)(3)\big] = \frac{15}{2}\big[10+42\big] = \frac{15}{2}(52)$$
+
+$$S_{15} = 15 \times 26 = 390$$
+
+**Verification:** Last day's saving: $t_{15}=5+14(3)=5+42=47$. Sum check using $S_n=\frac{n}{2}(a+l)$: $\frac{15}{2}(5+47)=\frac{15}{2}(52)=390$. ✓ Matches.
+
+**Answer:**
+$$\mathbf{\text{Rs. } 390}$$
 
 </div>
 

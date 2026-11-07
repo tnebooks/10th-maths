@@ -1286,6 +1286,35 @@ $$= \dfrac{\dfrac{22}{7}\times 6 \times 6 \times 15}{\dfrac{22}{7}\times 45} = 1
 
 ### 2 மதிப்பெண் வினாக்கள் (2 Marks)
 
+#### 2022
+
+ஓர் உருளையின் ஆரம் மற்றும் உயரங்களின் விகிதம் $5:7$ ஆகும். அதன் வளைபரப்பு $5500\text{ ச.செ.மீ}$ எனில், உருளையின் ஆரம் மற்றும் உயரம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+ஆரம் $r = 5x$ மற்றும் உயரம் $h = 7x$ என்க.
+உருளையின் வளைபரப்பு $= 2\pi rh = 5500$.
+
+$$2 \times \frac{22}{7} \times 5x \times 7x = 5500$$
+$$220x^2 = 5500$$
+$$x^2 = 25 \implies x = 5$$
+
+எனவே:
+- ஆரம் $r = 5(5) = 25\text{ செ.மீ}$
+- உயரம் $h = 7(5) = 35\text{ செ.மீ}$
+
+**விடை:**
+$$\mathbf{\text{ஆரம்} = 25\text{ செ.மீ}, \quad \text{உயரம்} = 35\text{ செ.மீ}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 கித்தானைக் கொண்டு $7\text{ மீ}$ ஆரமும், $24\text{ மீ}$ உயரமும் உடைய ஒரு கூம்பு வடிவக் கூடாரம் உருவாக்கப்படுகிறது. செவ்வக வடிவக் கித்தானின் அகலம் $4\text{ மீ}$ எனில், அதன் நீளம் காண்க.
@@ -1428,6 +1457,53 @@ $$\mathbf{6 : \pi} \quad \text{(அல்லது } \mathbf{21 : 11}\text{)}$$
 ---
 
 ### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2021
+
+$45\text{ செ.மீ}$ உயரமுள்ள ஓர் இடைக்கண்டத்தின் இருபுற ஆரங்கள் முறையே $28\text{ செ.மீ}$ மற்றும் $7\text{ செ.மீ}$ எனில், இடைக்கண்டத்தின் கனஅளவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+தரவு: $h = 45\text{ செ.மீ}, R = 28\text{ செ.மீ}, r = 7\text{ செ.மீ}$.
+
+$$V = \frac{1}{3}\pi h (R^2 + Rr + r^2)$$
+$$R^2 + Rr + r^2 = 28^2 + 28(7) + 7^2 = 784 + 196 + 49 = 1029$$
+$$V = \frac{1}{3} \times \frac{22}{7} \times 45 \times 1029 = 15 \times 22 \times 147 = 48510\text{ செ.மீ}^3$$
+
+**விடை:**
+$$\mathbf{48510\text{ செ.மீ}^3}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+உயரம் $16\text{ செ.மீ}$ உடைய ஒரு கூம்பின் இடைக்கண்ட வடிவில் அமைந்த கொள்கலன் ஒன்றின் மேற்புறம் திறந்த நிலையில் உள்ளது. கீழ்ப்புற ஆரம் $8\text{ செ.மீ}$ மற்றும் மேற்புற ஆரம் $20\text{ செ.மீ}$ கொண்ட கொள்கலனில் முழுமையாகப் பால் நிரப்பப்படுகிறது. ஒரு லிட்டர் பாலின் விலை ₹40 எனில், நிரப்பப்படும் பாலின் மொத்த விலையைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+தரவு: $h = 16\text{ செ.மீ}, r = 8\text{ செ.மீ}, R = 20\text{ செ.மீ}$, விலை = ₹40/லிட்டர்.
+
+$$V = \frac{1}{3}\pi h (R^2 + Rr + r^2) = \frac{1}{3} \times \frac{22}{7} \times 16 \times 624 = 10459.43\text{ செ.மீ}^3 = 10.459\text{ லிட்டர்}$$
+$$\text{மொத்த விலை} = 10.459 \times 40 = ₹418.36$$
+
+**விடை:**
+$$\mathbf{₹418.36}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 

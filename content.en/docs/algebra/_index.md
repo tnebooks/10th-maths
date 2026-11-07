@@ -3461,6 +3461,85 @@ or Scan the QR Code.
 
 ### 2 Marks
 
+#### 2020
+
+If $A = \begin{pmatrix} \sqrt{7} & -3 \\ -\sqrt{5} & 2 \\ \sqrt{3} & -5 \end{pmatrix}$, then find the transpose of $-A$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \begin{pmatrix} \sqrt{7} & -3 \\ -\sqrt{5} & 2 \\ \sqrt{3} & -5 \end{pmatrix}$$
+
+Then $-A$ is:
+$$-A = \begin{pmatrix} -\sqrt{7} & 3 \\ \sqrt{5} & -2 \\ -\sqrt{3} & 5 \end{pmatrix}$$
+
+Taking transpose $(-A)^T$ (interchanging rows and columns):
+$$(-A)^T = \begin{pmatrix} -\sqrt{7} & \sqrt{5} & -\sqrt{3} \\ 3 & -2 & 5 \end{pmatrix}$$
+
+**Answer:**
+$$\mathbf{(-A)^T = \begin{pmatrix} -\sqrt{7} & \sqrt{5} & -\sqrt{3} \\ 3 & -2 & 5 \end{pmatrix}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+Determine the quadratic equation whose sum and product of roots are $-9$ and $20$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+A quadratic equation with given sum and product of roots has the form:
+$$x^2 - (\text{sum of roots})x + (\text{product of roots}) = 0$$
+
+Given:
+$$\text{Sum of roots} = -9, \quad \text{Product of roots} = 20$$
+
+Substituting the values:
+$$x^2 - (-9)x + 20 = 0$$
+$$x^2 + 9x + 20 = 0$$
+
+**Answer:**
+$$\mathbf{x^2 + 9x + 20 = 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+Find the excluded value of the expression $\dfrac{y}{y^2 - 25}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The excluded values are those values of $y$ which make the denominator zero.
+Set the denominator to $0$:
+$$y^2 - 25 = 0$$
+$$(y - 5)(y + 5) = 0$$
+$$y = 5 \quad \text{or} \quad y = -5$$
+
+**Answer:**
+$$\mathbf{5, \ -5}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 Simplify:
@@ -3595,6 +3674,115 @@ $$= \frac{(x - y)(x^2 + xy + y^2)}{x - y} = x^2 + xy + y^2$$
 
 **Answer:**
 $$\mathbf{x^2 + xy + y^2}$$
+
+</div>
+
+</details>
+
+---
+
+Add: $\dfrac{x^3}{x-y} + \dfrac{y^3}{y-x}$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$\frac{x^3}{x-y} + \frac{y^3}{y-x}$$
+
+Since $y - x = -(x - y)$:
+$$\frac{y^3}{y-x} = \frac{y^3}{-(x-y)} = -\frac{y^3}{x-y}$$
+
+So the expression becomes:
+$$= \frac{x^3}{x-y} - \frac{y^3}{x-y} = \frac{x^3-y^3}{x-y}$$
+
+Using the algebraic identity $x^3-y^3=(x-y)(x^2+xy+y^2)$:
+$$= \frac{(x-y)(x^2+xy+y^2)}{x-y} = x^2+xy+y^2 \quad (x\neq y)$$
+
+**Answer:**
+$$\mathbf{x^2+xy+y^2}$$
+
+</div>
+
+</details>
+
+---
+
+A rectangle has area $\dfrac{(x-4)(x+3)}{3x-12}$ (sq. units) and its length is $\dfrac{x-3}{3}$ (units). Find its width.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Step 1: Simplify the area expression first.**
+
+Factor the denominator: $3x-12=3(x-4)$.
+$$\text{Area} = \frac{(x-4)(x+3)}{3(x-4)} = \frac{x+3}{3} \quad (x\neq 4)$$
+
+**Step 2: Use Width = Area ÷ Length.**
+$$\text{Width} = \frac{\text{Area}}{\text{Length}} = \frac{\dfrac{x+3}{3}}{\dfrac{x-3}{3}}$$
+
+**Step 3: Convert division into multiplication by the reciprocal.**
+$$\text{Width} = \frac{x+3}{3}\times\frac{3}{x-3} = \frac{x+3}{x-3} \quad (x\neq 3)$$
+
+**Answer:**
+$$\mathbf{\dfrac{x+3}{x-3}}$$
+
+</div>
+
+</details>
+
+---
+
+Find a quadratic equation whose sum of roots is $-9$ and product of roots is $20$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+A quadratic equation with sum of roots $S$ and product of roots $P$ is given by:
+$$x^2-Sx+P=0$$
+
+Here $S=-9$ and $P=20$:
+$$x^2-(-9)x+20=0$$
+$$x^2+9x+20=0$$
+
+**Verification:** Factorizing, we need two numbers that multiply to $20$ and add to $9$: these are $4$ and $5$.
+$$x^2+4x+5x+20=0 \implies x(x+4)+5(x+4)=0 \implies (x+4)(x+5)=0$$
+So the roots are $x=-4,\ x=-5$. Sum $=-4+(-5)=-9$ ✓, Product $=(-4)(-5)=20$ ✓.
+
+**Answer:**
+$$\mathbf{x^2+9x+20=0}$$
+
+</div>
+
+</details>
+
+---
+
+Solve by the formula method: $x^2+2x-2=0$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Comparing $x^2+2x-2=0$ with $ax^2+bx+c=0$: $a=1,\ b=2,\ c=-2$.
+
+Using the quadratic formula:
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+Substituting:
+$$x=\frac{-2\pm\sqrt{(2)^2-4(1)(-2)}}{2(1)} = \frac{-2\pm\sqrt{4+8}}{2} = \frac{-2\pm\sqrt{12}}{2}$$
+
+Simplify $\sqrt{12}=2\sqrt{3}$:
+$$x=\frac{-2\pm2\sqrt{3}}{2} = -1\pm\sqrt{3}$$
+
+**Answer:**
+$$\mathbf{x=-1+\sqrt{3} \ \text{ or } \ x=-1-\sqrt{3}}$$
 
 </div>
 
@@ -4155,6 +4343,91 @@ ii) When $y = 200$: $x = \frac{6000}{200} = 30$.
 
 ### 5 Marks
 
+#### 2020
+
+If $A = \begin{pmatrix} 5 & 2 & 9 \\ 1 & 2 & 8 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 7 \\ 1 & 2 \\ 5 & -1 \end{pmatrix}$, verify that $(AB)^T = B^T A^T$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $A$ is of order $2 \times 3$ and $B$ is of order $3 \times 2$.
+
+**Step 1: Compute $AB$**
+$$AB = \begin{pmatrix} 5(1)+2(1)+9(5) & 5(7)+2(2)+9(-1) \\ 1(1)+2(1)+8(5) & 1(7)+2(2)+8(-1) \end{pmatrix} = \begin{pmatrix} 52 & 30 \\ 43 & 3 \end{pmatrix}$$
+
+**Step 2: Transpose $(AB)^T$**
+$$(AB)^T = \begin{pmatrix} 52 & 43 \\ 30 & 3 \end{pmatrix} \quad \text{--- (1)}$$
+
+**Step 3: Compute $B^T A^T$**
+$$B^T = \begin{pmatrix} 1 & 1 & 5 \\ 7 & 2 & -1 \end{pmatrix}, \quad A^T = \begin{pmatrix} 5 & 1 \\ 2 & 2 \\ 9 & 8 \end{pmatrix}$$
+$$B^T A^T = \begin{pmatrix} 1(5)+1(2)+5(9) & 1(1)+1(2)+5(8) \\ 7(5)+2(2)+(-1)(9) & 7(1)+2(2)+(-1)(8) \end{pmatrix} = \begin{pmatrix} 52 & 43 \\ 30 & 3 \end{pmatrix} \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$(AB)^T = B^T A^T$$
+
+**Answer:**
+$$\mathbf{(AB)^T = B^T A^T \ \text{is verified}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+Find the square root of $64x^4 - 16x^3 + 17x^2 - 2x + 1$ by division method.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Using long division of polynomials:
+- First term: $\sqrt{64x^4} = 8x^2$.
+- Second divisor term: $16x^2 - x$, bringing down $-16x^3 + 17x^2$. Subtracting gives remainder $16x^2 - 2x + 1$.
+- Third divisor term: $16x^2 - 2x + 1$, multiplying by $1$ leaves remainder $0$.
+
+$$\sqrt{64x^4 - 16x^3 + 17x^2 - 2x + 1} = |8x^2 - x + 1|$$
+
+**Answer:**
+$$\mathbf{|8x^2 - x + 1|}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+If $36x^4 - 60x^3 + 61x^2 - mx + n$ is a perfect square, find the values of $m$ and $n$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Using the division method:
+- First term: $6x^2$. Subtract $36x^4$, leaving $-60x^3 + 61x^2$.
+- Divisor: $12x^2 - 5x$. Multiply by $-5x$: $-60x^3 + 25x^2$. Subtracting leaves $36x^2 - mx + n$.
+- Divisor: $12x^2 - 10x + 3$. Multiply by $3$: $36x^2 - 30x + 9$.
+
+Since the expression is a perfect square, remainder is $0$:
+$$-mx = -30x \implies m = 30$$
+$$n = 9$$
+
+**Answer:**
+$$\mathbf{m = 30, \quad n = 9}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 Solve the following system of linear equations in three variables:
@@ -4534,35 +4807,52 @@ The solutions are **$x = 4$ and $x = 5$**. Nature of roots: **Real and unequal r
 
 ---
 
-#### 2026
+a) Draw the graph of the linear equation/function $y=\dfrac{1}{2}x$. Identify the constant of variation and verify it with the graph. Also find: i) $y$ when $x=9$ ii) $x$ when $y=7.5$
 
-Graph the quadratic equation $x^2 - 6x + 9 = 0$ and state its nature of solutions.
+**(OR)**
+
+b) A company started a work with 40 workers to complete it in 150 days. Later, to finish the work faster, it increased the number of workers as follows.
+
+| Number of workers ($x$) | 40 | 50 | 60 | 75 |
+| :---: | :---: | :---: | :---: | :---: |
+| Number of days ($y$) | 150 | 120 | 100 | 80 |
+
+i) Draw the graph for the data given above and identify the type of variation. ii) From the graph, if the company wants to employ 120 workers, find how many days the work will take to complete. iii) If the work must be completed in 200 days, how many workers are needed?
 
 <details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
 <summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
 
 <div class="pt-3">
 
-Let $y = x^2 - 6x + 9$.
+**Part (a):**
 
-**Step 1: Table of values**
+The equation $y=\dfrac{1}{2}x$ represents **direct variation**, $y=kx$, with constant of variation $k=\dfrac{1}{2}$.
 
-| $x$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $x^2$ | 0 | 1 | 4 | 9 | 16 | 25 | 36 |
-| $-6x$ | 0 | -6 | -12 | -18 | -24 | -30 | -36 |
-| $+9$ | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
-| $y$ | 9 | 4 | 1 | 0 | 1 | 4 | 9 |
+**Table of values:**
 
-Plot the points $(0, 9), (1, 4), (2, 1), (3, 0), (4, 1), (5, 4), (6, 9)$ and draw a smooth parabola.
+| $x$ | 0 | 2 | 4 | 6 |
+| :---: | :---: | :---: | :---: | :---: |
+| $y$ | 0 | 1 | 2 | 3 |
 
-**Step 2: Nature of Solutions**
-The curve touches the $x$-axis at only one point $(3, 0)$.
+Plotting these points gives a straight line through the origin with slope $\dfrac{1}{2}$, confirming $k=\dfrac{1}{2}$ — the slope of the graph equals the constant of variation.
 
-Since the parabola touches the $x$-axis at a single point, the roots are **real and equal**.
+i) When $x=9$: $y=\dfrac{1}{2}(9)=4.5$
+
+ii) When $y=7.5$: $x=2(7.5)=15$
+
+**Part (b):**
+
+Check the product $xy$ for each pair: $40\times150=6000$, $50\times120=6000$, $60\times100=6000$, $75\times80=6000$. Since the product $xy$ is constant ($=6000$) rather than the ratio $\dfrac{y}{x}$, this is an **inverse variation**: $xy=k=6000$, i.e. $y=\dfrac{6000}{x}$.
+
+i) Plotting $(40,150),(50,120),(60,100),(75,80)$ gives a curve (rectangular hyperbola) sloping downward — confirming inverse variation, since $y$ decreases as $x$ increases with $xy$ constant.
+
+ii) When $x=120$: $y=\dfrac{6000}{120}=50$ days.
+
+iii) When $y=200$: $x=\dfrac{6000}{200}=30$ workers.
 
 **Answer:**
-The solution is **$x = 3$**. Nature of roots: **Real and equal roots**.
+a) Direct variation, $k=\dfrac{1}{2}$; i) $y=4.5$ ii) $x=15$.
+b) Inverse variation ($xy=6000$); ii) $50$ days iii) $30$ workers.
 
 </div>
 
@@ -4570,7 +4860,58 @@ The solution is **$x = 3$**. Nature of roots: **Real and equal roots**.
 
 ---
 
-#### 2025
+a) Draw the graph of $xy=24$. Using the graph, find: 1) $y$ when $x=3$ 2) $x$ when $y=6$
+
+**(OR)**
+
+b) A textile shop announces a $50\%$ discount to its customers on every item purchased. Draw the graph relating the marked price and the discount. Also find: 1) From the graph, the marked price if a customer receives a discount of ₹3250. 2) The discount if the marked price is ₹2500.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Part (a):**
+
+$xy=24$ is an **inverse variation**: $y=\dfrac{24}{x}$.
+
+**Table of values:**
+
+| $x$ | 2 | 3 | 4 | 6 | 8 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $y$ | 12 | 8 | 6 | 4 | 3 |
+
+Plotting these points gives a smooth downward curve (rectangular hyperbola).
+
+1) When $x=3$: $y=\dfrac{24}{3}=8$
+
+2) When $y=6$: $x=\dfrac{24}{6}=4$
+
+**Part (b):**
+
+A $50\%$ discount means the discount $y$ is half the marked price $x$: $y=\dfrac{1}{2}x$ — a **direct variation** with $k=\dfrac{1}{2}$.
+
+**Table of values:**
+
+| Marked price ($x$) | 1000 | 2000 | 3000 | 4000 |
+| :---: | :---: | :---: | :---: | :---: |
+| Discount ($y$) | 500 | 1000 | 1500 | 2000 |
+
+Plotting these points gives a straight line through the origin with slope $\dfrac{1}{2}$.
+
+1) When $y=3250$: $x=2(3250)=6500$. Marked price $=$ ₹6500.
+
+2) When $x=2500$: $y=\dfrac{2500}{2}=1250$. Discount $=$ ₹1250.
+
+**Answer:**
+a) Inverse variation ($xy=24$); 1) $y=8$ 2) $x=4$.
+b) Direct variation ($y=\dfrac{1}{2}x$); 1) Marked price $=$ ₹6500 2) Discount $=$ ₹1250.
+
+</div>
+
+</details>
+
+---
 
 Six circles of different sizes were drawn on a sheet of paper. A rough graph was drawn for each circle's diameter against its circumference. Using the graph, find the circumference when the diameter is $6\ \text{cm}$, given the table of observed values below:
 
@@ -4742,4 +5083,39 @@ $$y = 3.1 \times 6 = 18.6$$
 
 </details>
 
+#### 2026
+
+Graph the quadratic equation $x^2 - 6x + 9 = 0$ and state its nature of solutions.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $y = x^2 - 6x + 9$.
+
+**Step 1: Table of values**
+
+| $x$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $x^2$ | 0 | 1 | 4 | 9 | 16 | 25 | 36 |
+| $-6x$ | 0 | -6 | -12 | -18 | -24 | -30 | -36 |
+| $+9$ | 9 | 9 | 9 | 9 | 9 | 9 | 9 |
+| $y$ | 9 | 4 | 1 | 0 | 1 | 4 | 9 |
+
+Plot the points $(0, 9), (1, 4), (2, 1), (3, 0), (4, 1), (5, 4), (6, 9)$ and draw a smooth parabola.
+
+**Step 2: Nature of Solutions**
+The curve touches the $x$-axis at only one point $(3, 0)$.
+
+Since the parabola touches the $x$-axis at a single point, the roots are **real and equal**.
+
+**Answer:**
+The solution is **$x = 3$**. Nature of roots: **Real and equal roots**.
+
+</div>
+
+</details>
+
 ---
+

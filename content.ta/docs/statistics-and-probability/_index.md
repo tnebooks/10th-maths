@@ -2111,6 +2111,82 @@ $$
 
 ### 2 மதிப்பெண் வினாக்கள் (2 Marks)
 
+#### 2020
+
+கீழ்க்காணும் தரவுகளுக்கு வீச்சு மற்றும் வீச்சுக் கெழுவைக் காண்க: $63, 89, 98, 125, 79, 108, 117, 68$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+மிகப் பெரிய மதிப்பு $L = 125$, மிகச் சிறிய மதிப்பு $S = 63$.
+
+$$\text{வீச்சு } R = L - S = 125 - 63 = 62$$
+$$\text{வீச்சுக் கெழு} = \frac{L - S}{L + S} = \frac{125 - 63}{125 + 63} = \frac{62}{188} = 0.33$$
+
+**விடை:**
+$$\mathbf{\text{வீச்சு} = 62, \quad \text{வீச்சுக் கெழு} = 0.33}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+ஒரு பகடை உருட்டப்படும் அதே நேரத்தில் ஒரு நாணயமும் சுண்டப்படுகிறது. பகடையில் ஒற்றைப்படை எண் கிடைப்பதற்கும், நாணயத்தில் தலைக் கிடைப்பதற்குமான நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூறுவெளி:
+$$S = \{1H, 1T, 2H, 2T, 3H, 3T, 4H, 4T, 5H, 5T, 6H, 6T\}$$
+$$n(S) = 12$$
+
+பகடையில் ஒற்றைப்படை எண் மற்றும் நாணயத்தில் தலை கிடைக்கும் நிகழ்ச்சி $A$ என்க:
+$$A = \{1H, 3H, 5H\} \implies n(A) = 3$$
+
+$$P(A) = \frac{n(A)}{n(S)} = \frac{3}{12} = \frac{1}{4}$$
+
+**விடை:**
+$$\mathbf{\frac{1}{4}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+இரண்டு நாணயங்கள் ஒன்றாகச் சுண்டப்படுகின்றன. இரண்டு நாணயங்களிலும் வெவ்வேறு முகங்கள் கிடைப்பதற்கான நிகழ்தகவு என்ன?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூறுவெளி:
+$$S = \{HH, HT, TH, TT\} \implies n(S) = 4$$
+
+வெவ்வேறு முகங்கள் கிடைக்கும் நிகழ்ச்சி $A$ என்க:
+$$A = \{HT, TH\} \implies n(A) = 2$$
+
+$$P(A) = \frac{n(A)}{n(S)} = \frac{2}{4} = \frac{1}{2}$$
+
+**விடை:**
+$$\mathbf{\frac{1}{2}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 கொடுக்கப்பட்ட தரவுப் புள்ளிகளுக்கு வீச்சு மற்றும் வீச்சுக் கெழுவைக் காண்க:
@@ -2306,6 +2382,120 @@ $$\mathbf{\frac{1}{4}}$$
 ---
 
 ### 5 மதிப்பெண் வினாக்கள் (5 Marks)
+
+#### 2020
+
+இரண்டு சீரான பகடைகள் முறையாக ஒரே நேரத்தில் உருட்டப்படுகின்றன. பின்வரும் நிகழ்ச்சிகளுக்கான நிகழ்தகவைக் காண்க:
+(i) இரண்டு பகடைகளிலும் ஒரே முக மதிப்பு கிடைக்க
+(ii) முக மதிப்புகளின் பெருக்கற்பலன் பகா எண்ணாகக் கிடைக்க
+(iii) முக மதிப்புகளின் கூடுதல் பகா எண்ணாகக் கிடைக்க
+(iv) முக மதிப்புகளின் கூடுதல் 1 ஆக இருக்க
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூறுவெளி: $n(S) = 36$.
+
+(i) ஒரே முக மதிப்பு: $P(A) = \frac{6}{36} = \frac{1}{6}$.
+(ii) பெருக்கற்பலன் பகா எண்: $P(B) = \frac{6}{36} = \frac{1}{6}$.
+(iii) கூடுதல் பகா எண்: $P(C) = \frac{15}{36} = \frac{5}{12}$.
+(iv) கூடுதல் 1: இயலாத நிகழ்ச்சி, $P(D) = 0$.
+
+**விடை:**
+$$\mathbf{\text{(i) } \frac{1}{6}, \quad \text{(ii) } \frac{1}{6}, \quad \text{(iii) } \frac{5}{12}, \quad \text{(iv) } 0}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+இரண்டு பகடைகள் உருட்டப்படுகின்றன. கிடைக்கப்பெறும் முக மதிப்புகளின் கூடுதல்:
+(i) $4$-க்குச் சமமாக
+(ii) $10$-ஐ விடப் பெரிதாக
+(iii) $13$-ஐ விடக் குறைவாக
+இருப்பதற்கான நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+கூறுவெளி: $n(S) = 36$.
+
+(i) கூடுதல் 4: $A = \{(1,3),(2,2),(3,1)\} \implies P(A) = \frac{3}{36} = \frac{1}{12}$.
+(ii) கூடுதல் > 10: $B = \{(5,6),(6,5),(6,6)\} \implies P(B) = \frac{3}{36} = \frac{1}{12}$.
+(iii) கூடுதல் < 13: உறுதி நிகழ்ச்சி, $P(C) = \frac{36}{36} = 1$.
+
+**விடை:**
+$$\mathbf{\text{(i) } \frac{1}{12}, \quad \text{(ii) } \frac{1}{12}, \quad \text{(iii) } 1}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+ஒரு பையில் $5$ சிவப்பு நிறப் பந்துகளும், $6$ வெள்ளை நிறப் பந்துகளும், $7$ பச்சை நிறப் பந்துகளும் மற்றும் $8$ கருப்பு நிறப் பந்துகளும் உள்ளன. சமவாய்ப்பு முறையில் பையிலிருந்து ஒரு பந்து எடுக்கப்படுகிறது. அந்தப் பந்து:
+(i) வெள்ளையாக
+(ii) கருப்பு அல்லது சிவப்பாக
+(iii) வெள்ளையாக இல்லாமல்
+(iv) வெள்ளையாகவும், கருப்பாகவும் இல்லாமல்
+இருப்பதற்கான நிகழ்தகவுகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+மொத்தப் பந்துகள் $n(S) = 5 + 6 + 7 + 8 = 26$.
+
+(i) வெள்ளை: $P(W) = \frac{6}{26} = \frac{3}{13}$.
+(ii) கருப்பு அல்லது சிவப்பு: $P(B \cup R) = \frac{13}{26} = \frac{1}{2}$.
+(iii) வெள்ளையாக இல்லாமல்: $P(W') = 1 - \frac{3}{13} = \frac{10}{13}$.
+(iv) வெள்ளையுமல்ல, கருப்புமல்ல: $P(\text{சிவப்பு அல்லது பச்சை}) = \frac{12}{26} = \frac{6}{13}$.
+
+**விடை:**
+$$\mathbf{\text{(i) } \frac{3}{13}, \quad \text{(ii) } \frac{1}{2}, \quad \text{(iii) } \frac{10}{13}, \quad \text{(iv) } \frac{6}{13}}$$
+
+</div>
+
+</details>
+
+---
+
+$50$ மாணவர்கள் உள்ள ஒரு வகுப்பில், $28$ பேர் NCC-யிலும், $30$ பேர் NSS-லும் மற்றும் $18$ பேர் NCC மற்றும் NSS இரண்டிலும் சேர்கிறார்கள். ஒரு மாணவர் சமவாய்ப்பு முறையில் தேர்ந்தெடுக்கப்படுகிறார். அவர்:
+(i) NCC-யில் சேர்ந்து, ஆனால் NSS-ல் சேராமல்
+(ii) NSS-ல் சேர்ந்து, ஆனால் NCC-யில் சேராமல்
+(iii) ஒன்றில் மட்டும் சேர்ந்து
+இருப்பதற்கான நிகழ்தகவுகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை மற்றும் தீர்வு</summary>
+
+<div class="pt-3">
+
+மொத்த மாணவர்கள் $n(S) = 50$.
+$n(A) = 28$ (NCC), $n(B) = 30$ (NSS), $n(A \cap B) = 18$.
+
+(i) NCC மட்டும்: $n(A \setminus B) = 28 - 18 = 10 \implies P(A \setminus B) = \frac{10}{50} = \frac{1}{5}$.
+(ii) NSS மட்டும்: $n(B \setminus A) = 30 - 18 = 12 \implies P(B \setminus A) = \frac{12}{50} = \frac{6}{25}$.
+(iii) ஒன்றில் மட்டும்: $P(\text{ஒன்றில் மட்டும்}) = \frac{10 + 12}{50} = \frac{22}{50} = \frac{11}{25}$.
+
+**விடை:**
+$$\mathbf{\text{(i) } \frac{1}{5}, \quad \text{(ii) } \frac{6}{25}, \quad \text{(iii) } \frac{11}{25}}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 

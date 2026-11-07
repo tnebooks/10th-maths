@@ -1478,6 +1478,97 @@ A function $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x) = c, \ \forall\ x \in \m
 
 ### 2 Marks
 
+#### 2020
+
+If $A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$, find $A$ and $B$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A \times B = \{(3,2), (3,4), (5,2), (5,4)\}$$
+
+The set of first elements of all the ordered pairs gives $A$:
+$$A = \{3, 5\}$$
+
+The set of second elements of all the ordered pairs gives $B$:
+$$B = \{2, 4\}$$
+
+**Answer:**
+$$\mathbf{A = \{3, 5\}, \quad B = \{2, 4\}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+Let $A = \{1, 2, 3, 4, \ldots, 45\}$ and $R$ be the relation on $A$ defined as "the square of a number." Write $R$ as a subset of $A \times A$. Also find the domain and range of $R$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $A = \{1, 2, 3, \ldots, 45\}$ and $R = \{(x, y) \mid y = x^2,\ x, y \in A\}$.
+
+Since $A$ contains numbers only up to $45$, we need $x^2 \le 45$:
+$$1^2 = 1,\ 2^2 = 4,\ 3^2 = 9,\ 4^2 = 16,\ 5^2 = 25,\ 6^2 = 36,\ 7^2 = 49 \ (\text{exceeds } 45)$$
+
+So $x$ can only be $1, 2, 3, 4, 5, 6$.
+
+Write $R$ as a set of ordered pairs:
+$$\mathbf{R = \{(1,1), (2,4), (3,9), (4,16), (5,25), (6,36)\}}$$
+
+Find the domain and range:
+$$\text{Domain}(R) = \{1, 2, 3, 4, 5, 6\}$$
+$$\text{Range}(R) = \{1, 4, 9, 16, 25, 36\}$$
+
+**Answer:**
+$$\mathbf{R = \{(1,1), (2,4), (3,9), (4,16), (5,25), (6,36)\}}$$
+$$\mathbf{\text{Domain} = \{1,2,3,4,5,6\}, \quad \text{Range} = \{1,4,9,16,25,36\}}$$
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+If $A = \{1, 2, 3\}$ and $B = \{x \mid x \text{ is a prime number less than } 10\}$, find $A \times B$ and $B \times A$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{1, 2, 3\}$$
+$$B = \{x \mid x \text{ is prime } < 10\} = \{2, 3, 5, 7\}$$
+
+**1. Finding $A \times B$:**
+$$A \times B = \{1, 2, 3\} \times \{2, 3, 5, 7\}$$
+$$A \times B = \{(1,2), (1,3), (1,5), (1,7), (2,2), (2,3), (2,5), (2,7), (3,2), (3,3), (3,5), (3,7)\}$$
+
+**2. Finding $B \times A$:**
+$$B \times A = \{2, 3, 5, 7\} \times \{1, 2, 3\}$$
+$$B \times A = \{(2,1), (2,2), (2,3), (3,1), (3,2), (3,3), (5,1), (5,2), (5,3), (7,1), (7,2), (7,3)\}$$
+
+**Answer:**
+$$\mathbf{A \times B = \{(1,2), (1,3), (1,5), (1,7), (2,2), (2,3), (2,5), (2,7), (3,2), (3,3), (3,5), (3,7)\}$$
+$$\mathbf{B \times A = \{(2,1), (2,2), (2,3), (3,1), (3,2), (3,3), (5,1), (5,2), (5,3), (7,1), (7,2), (7,3)\}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2023
 
 If $B \times A = \{(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)\}$, find $A$ and $B$.
@@ -1896,6 +1987,105 @@ $$\mathbf{f \circ g = x - 1 = g \circ f \ \text{(true here)}}$$
 
 ---
 
+The function $f(x) = 2x - 1$ is defined from $A = \{5, 6, 8, 10\}$ to $B = \{19, 15, 9, 11\}$. The table below represents this function. Find the values of $a$ and $b$.
+
+| $x$ | 5 | 6 | 8 | 10 |
+|---
+
+A function $f$ is defined by $f(x) = 3 - 2x$. If $f(x^2) = [f(x)]^2$, find the value of $x$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 3 - 2x$$
+
+**Step 1: Find $f(x^2)$.**
+$$f(x^2) = 3 - 2x^2$$
+
+**Step 2: Find $[f(x)]^2$.**
+$$[f(x)]^2 = (3 - 2x)^2 = 9 - 12x + 4x^2$$
+
+**Step 3: Set $f(x^2) = [f(x)]^2$ and solve for $x$.**
+$$3 - 2x^2 = 9 - 12x + 4x^2$$
+$$0 = 9 - 12x + 4x^2 - 3 + 2x^2$$
+$$0 = 6x^2 - 12x + 6$$
+$$0 = x^2 - 2x + 1 \quad \text{(dividing throughout by 6)}$$
+$$0 = (x - 1)^2$$
+$$x = 1$$
+
+**Answer:**
+$$\mathbf{x = 1}$$
+
+</div>
+
+</details>
+
+---
+
+If $f(x) = 2x - 1$ and $g(x) = \dfrac{x+1}{2}$, prove that $f \circ g = g \circ f = x$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 2x - 1, \quad g(x) = \frac{x+1}{2}$$
+
+**Step 1: Find $f \circ g(x)$.**
+$$f \circ g(x) = f(g(x)) = f\left(\frac{x+1}{2}\right) = 2\left(\frac{x+1}{2}\right) - 1 = (x+1) - 1 = x$$
+
+**Step 2: Find $g \circ f(x)$.**
+$$g \circ f(x) = g(f(x)) = g(2x - 1) = \frac{(2x-1)+1}{2} = \frac{2x}{2} = x$$
+
+**Step 3: Compare.**
+Both compositions simplify to $x$:
+$$f \circ g(x) = x \quad \text{and} \quad g \circ f(x) = x$$
+
+Hence $f \circ g = g \circ f = x$ is proved.
+
+**Answer:**
+$$\mathbf{f \circ g(x) = g \circ f(x) = x}$$
+
+</div>
+
+</details>
+
+---
+
+Let $X = \{-5, 1, 3, 4\}$ and $Y = \{a, b, c\}$. Which of the following relations from $X$ to $Y$ are functions?
+i) $R_1 = \{(-5, a), (1, a), (3, b)\}$
+ii) $R_2 = \{(-5, b), (1, b), (3, a), (4, c)\}$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $X = \{-5, 1, 3, 4\}$, $Y = \{a, b, c\}$.
+
+A relation from $X$ to $Y$ is a function only if **every element of $X$** has **exactly one** image in $Y$.
+
+**Checking $R_1 = \{(-5, a), (1, a), (3, b)\}$:**
+The first coordinates appearing are $-5, 1, 3$. The element $4 \in X$ does not appear as a first coordinate — it has no image.
+$$\mathbf{R_1 \text{ is NOT a function.}}$$
+
+**Checking $R_2 = \{(-5, b), (1, b), (3, a), (4, c)\}$:**
+The first coordinates are $-5, 1, 3, 4$ — every element of $X$ appears exactly once as a first coordinate, each with a unique image.
+$$\mathbf{R_2 \text{ IS a function.}}$$
+
+**Answer:**
+$$\mathbf{R_1 \text{ is not a function; } R_2 \text{ is a function.}}$$
+
+</div>
+
+</details>
+
+---
+
 #### 2026
 
 A relation $R$ is given by the set $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$. Determine its domain and range.
@@ -2078,6 +2268,209 @@ Since $m_1 = m_2 = 1$, and both slopes are computed using the common point $(2, 
 ---
 
 ### 5 Marks
+
+#### 2020
+
+Let $A = \{x \in \mathbb{N} \mid x < 8\}$, $B = \{x \mid x \text{ is a prime number } < 8\}$ and $C = \{2\}$. Verify that $(A \setminus B) \times C = (A \times C) \setminus (B \times C)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$A = \{1, 2, 3, 4, 5, 6, 7\}$
+$B = \{2, 3, 5, 7\}$
+$C = \{2\}$
+
+**Step 1: Compute LHS = $(A \setminus B) \times C$**
+$$A \setminus B = \{1, 2, 3, 4, 5, 6, 7\} \setminus \{2, 3, 5, 7\} = \{1, 4, 6\}$$
+$$\text{LHS} = (A \setminus B) \times C = \{1, 4, 6\} \times \{2\} = \{(1, 2), (4, 2), (6, 2)\} \quad \text{--- (1)}$$
+
+**Step 2: Compute RHS = $(A \times C) \setminus (B \times C)$**
+$$A \times C = \{(1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2)\}$$
+$$B \times C = \{(2, 2), (3, 2), (5, 2), (7, 2)\}$$
+$$\text{RHS} = (A \times C) \setminus (B \times C) = \{(1, 2), (4, 2), (6, 2)\} \quad \text{--- (2)}$$
+
+**Step 3: Compare (1) and (2)**
+From (1) and (2):
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$(A \setminus B) \times C = (A \times C) \setminus (B \times C)$ is verified.**
+
+</div>
+
+</details>
+
+---
+
+#### 2021
+
+If $A = \{1, 3, 5\}$ and $B = \{2, 3\}$, then
+(i) Find $A \times B$ and $B \times A$.
+(ii) Is $A \times B = B \times A$? If not, why?
+(iii) Show that $n(A \times B) = n(B \times A) = n(A) \times n(B)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $A = \{1, 3, 5\}$ and $B = \{2, 3\}$.
+
+**(i) Find $A \times B$ and $B \times A$:**
+$$A \times B = \{1, 3, 5\} \times \{2, 3\} = \{(1, 2), (1, 3), (3, 2), (3, 3), (5, 2), (5, 3)\}$$
+$$B \times A = \{2, 3\} \times \{1, 3, 5\} = \{(2, 1), (2, 3), (2, 5), (3, 1), (3, 3), (3, 5)\}$$
+
+**(ii) Is $A \times B = B \times A$? If not, why?**
+Comparing the ordered pairs: $(1, 2) \ne (2, 1)$, $(1, 3) \ne (3, 1)$.
+Therefore, $A \times B \ne B \times A$ because the order of elements in ordered pairs matters.
+
+**(iii) Show that $n(A \times B) = n(B \times A) = n(A) \times n(B)$:**
+$$n(A) = 3, \quad n(B) = 2$$
+$$n(A) \times n(B) = 3 \times 2 = 6$$
+$$n(A \times B) = 6, \quad n(B \times A) = 6$$
+
+Hence, **$n(A \times B) = n(B \times A) = n(A) \times n(B) = 6$ is shown.**
+
+</div>
+
+</details>
+
+---
+
+Let $A = \{x \in \mathbb{W} \mid x < 2\}$, $B = \{x \in \mathbb{N} \mid 1 < x \le 4\}$ and $C = \{3, 5\}$. Verify that $A \times (B \cap C) = (A \times B) \cap (A \times C)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$A = \{0, 1\}, \quad B = \{2, 3, 4\}, \quad C = \{3, 5\}$$
+
+**Step 1: Compute LHS = $A \times (B \cap C)$**
+$$B \cap C = \{2, 3, 4\} \cap \{3, 5\} = \{3\}$$
+$$\text{LHS} = A \times (B \cap C) = \{0, 1\} \times \{3\} = \{(0, 3), (1, 3)\} \quad \text{--- (1)}$$
+
+**Step 2: Compute RHS = $(A \times B) \cap (A \times C)$**
+$$A \times B = \{(0, 2), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4)\}$$
+$$A \times C = \{(0, 3), (0, 5), (1, 3), (1, 5)\}$$
+$$\text{RHS} = (A \times B) \cap (A \times C) = \{(0, 3), (1, 3)\} \quad \text{--- (2)}$$
+
+**Step 3: Compare (1) and (2)**
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$A \times (B \cap C) = (A \times B) \cap (A \times C)$ is verified.**
+
+</div>
+
+</details>
+
+---
+
+#### 2022
+
+Let $A = \{x \in \mathbb{N} \mid x < 8\}$, $B = \{x \mid x \text{ is a prime number } < 8\}$ and $C = \{2\}$. Verify that $A \times (B \setminus C) = (A \times B) \setminus (A \times C)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$A = \{1, 2, 3, 4, 5, 6, 7\}, \quad B = \{2, 3, 5, 7\}, \quad C = \{2\}$
+
+**Step 1: Compute LHS = $A \times (B \setminus C)$**
+$$B \setminus C = \{2, 3, 5, 7\} \setminus \{2\} = \{3, 5, 7\}$$
+$$\text{LHS} = A \times (B \setminus C) = \{1, 2, 3, 4, 5, 6, 7\} \times \{3, 5, 7\}$$
+$$= \{(1,3),(1,5),(1,7),(2,3),(2,5),(2,7),(3,3),(3,5),(3,7),(4,3),(4,5),(4,7),$$
+$$(5,3),(5,5),(5,7),(6,3),(6,5),(6,7),(7,3),(7,5),(7,7)\} \quad \text{--- (1)}$$
+
+**Step 2: Compute RHS = $(A \times B) \setminus (A \times C)$**
+$$A \times B = \{(x, y) \mid x \in \{1,2,3,4,5,6,7\}, y \in \{2,3,5,7\}\}$$
+$$A \times C = \{(1,2),(2,2),(3,2),(4,2),(5,2),(6,2),(7,2)\}$$
+
+Removing elements of $A \times C$ from $A \times B$:
+$$\text{RHS} = (A \times B) \setminus (A \times C)$$
+$$= \{(1,3),(1,5),(1,7),(2,3),(2,5),(2,7),(3,3),(3,5),(3,7),(4,3),(4,5),(4,7),$$
+$$(5,3),(5,5),(5,7),(6,3),(6,5),(6,7),(7,3),(7,5),(7,7)\} \quad \text{--- (2)}$$
+
+**Step 3: Compare (1) and (2)**
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$A \times (B \setminus C) = (A \times B) \setminus (A \times C)$ is verified.**
+
+</div>
+
+</details>
+
+---
+
+If $A = \{5, 6\}$, $B = \{4, 5, 6\}$ and $C = \{5, 6, 7\}$, show that $A \times A = (B \times B) \cap (C \times C)$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $A = \{5, 6\}$, $B = \{4, 5, 6\}$, $C = \{5, 6, 7\}$.
+
+**Step 1: Compute LHS = $A \times A$**
+$$\text{LHS} = \{5, 6\} \times \{5, 6\} = \{(5, 5), (5, 6), (6, 5), (6, 6)\} \quad \text{--- (1)}$$
+
+**Step 2: Compute $B \times B$ and $C \times C$**
+$$B \times B = \{(4,4), (4,5), (4,6), (5,4), (5,5), (5,6), (6,4), (6,5), (6,6)\}$$
+$$C \times C = \{(5,5), (5,6), (5,7), (6,5), (6,6), (6,7), (7,5), (7,6), (7,7)\}$$
+
+**Step 3: Compute RHS = $(B \times B) \cap (C \times C)$**
+$$\text{RHS} = \{(5, 5), (5, 6), (6, 5), (6, 6)\} \quad \text{--- (2)}$$
+
+**Step 4: Compare (1) and (2)**
+$$\text{LHS} = \text{RHS}$$
+
+Hence, **$A \times A = (B \times B) \cap (C \times C)$ is shown.**
+
+</div>
+
+</details>
+
+---
+
+Represent the given relation by (a) an arrow diagram, (b) a graph and (c) a set in roster form:
+$$R = \{(x, y) \mid y = x + 3,\ x, y \text{ are natural numbers } < 10\}$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $x, y \in \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ and $y = x + 3$.
+
+Calculate $y$ for each $x$:
+- For $x = 1 \implies y = 4$
+- For $x = 2 \implies y = 5$
+- For $x = 3 \implies y = 6$
+- For $x = 4 \implies y = 7$
+- For $x = 5 \implies y = 8$
+- For $x = 6 \implies y = 9$
+(For $x \ge 7$, $y \ge 10$, which exceeds $9$).
+
+**(a) Arrow Diagram:**
+Draw domain oval $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ and co-domain oval $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$. Connect arrows from $1 \to 4, 2 \to 5, 3 \to 6, 4 \to 7, 5 \to 8, 6 \to 9$.
+
+**(b) Graph:**
+Plot the points on the coordinate plane:
+$$(1, 4), \quad (2, 5), \quad (3, 6), \quad (4, 7), \quad (5, 8), \quad (6, 9)$$
+
+**(c) Set in Roster Form:**
+$$\mathbf{R = \{(1, 4), (2, 5), (3, 6), (4, 7), (5, 8), (6, 9)\}}$$
+
+</div>
+
+</details>
+
+---
 
 #### 2023
 
