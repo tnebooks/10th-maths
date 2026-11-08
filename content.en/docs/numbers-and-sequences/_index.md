@@ -3500,3 +3500,65 @@ $$\mathbf{S_n = \frac{10}{27}(10^n - 1) - \frac{n}{3}}$$
 </details>
 
 ---
+
+#### PTA / Model (2 Marks)
+
+If $1^3 + 2^3 + 3^3 + \dots + k^3 = 16900$, find the value of $1 + 2 + 3 + \dots + k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+We know the relation between the sum of the first $k$ natural numbers and the sum of their cubes:
+$$1^3 + 2^3 + 3^3 + \dots + k^3 = \left(1 + 2 + 3 + \dots + k\right)^2$$
+
+Given:
+$$\left(1 + 2 + 3 + \dots + k\right)^2 = 16900$$
+
+Taking square root on both sides:
+$$1 + 2 + 3 + \dots + k = \sqrt{16900} = 130$$
+
+**Answer:** $\mathbf{130}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+Find the sum of all three-digit natural numbers which are divisible by 9.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The smallest three-digit natural number divisible by $9$ is $108$.
+The largest three-digit natural number divisible by $9$ is $999$.
+
+The three-digit numbers divisible by $9$ form an Arithmetic Progression (A.P.):
+$$108, 117, 126, \dots, 999$$
+
+Here:
+- First term $a = 108$
+- Common difference $d = 9$
+- Last term $l = 999$
+
+**Step 1: Find the number of terms ($n$)**
+$$n = \dfrac{l - a}{d} + 1$$
+$$n = \dfrac{999 - 108}{9} + 1 = \dfrac{891}{9} + 1 = 99 + 1 = 100$$
+
+**Step 2: Find the sum ($S_n$)**
+$$S_n = \dfrac{n}{2}(a + l)$$
+$$S_{100} = \dfrac{100}{2}(108 + 999) = 50 \times 1107 = 55350$$
+
+**Answer:** $\mathbf{55350}$
+
+</div>
+
+</details>
+
+---

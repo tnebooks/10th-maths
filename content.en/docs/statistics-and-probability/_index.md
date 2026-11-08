@@ -2851,3 +2851,85 @@ The temperatures of two cities A and B during winter are given below:
 
 ---
 
+
+#### PTA / Model (5 Marks)
+
+From a well-shuffled pack of 52 cards, a card is drawn at random. Find the probability that it is either a King or a Heart or a Red card.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total number of cards in the pack:
+$$n(S) = 52$$
+
+Let the events be:
+- $A$: Event of drawing a King card
+- $B$: Event of drawing a Heart card
+- $C$: Event of drawing a Red card
+
+Then:
+- $n(A) = 4 \implies P(A) = \dfrac{4}{52}$
+- $n(B) = 13 \implies P(B) = \dfrac{13}{52}$
+- $n(C) = 26 \implies P(C) = \dfrac{26}{52}$
+
+Intersections:
+- $A \cap B$: Drawing a King of Hearts:
+  $$n(A \cap B) = 1 \implies P(A \cap B) = \dfrac{1}{52}$$
+- $B \cap C$: Drawing a Heart and Red card. Since all 13 Hearts are Red, $B \cap C = B$:
+  $$n(B \cap C) = 13 \implies P(B \cap C) = \dfrac{13}{52}$$
+- $A \cap C$: Drawing a Red King (King of Hearts, King of Diamonds):
+  $$n(A \cap C) = 2 \implies P(A \cap C) = \dfrac{2}{52}$$
+- $A \cap B \cap C$: Drawing a Red King of Hearts:
+  $$n(A \cap B \cap C) = 1 \implies P(A \cap B \cap C) = \dfrac{1}{52}$$
+
+By the Addition Theorem of Probability:
+$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(B \cap C) - P(A \cap C) + P(A \cap B \cap C)$$
+$$P(A \cup B \cup C) = \dfrac{4 + 13 + 26 - 1 - 13 - 2 + 1}{52} = \dfrac{28}{52} = \dfrac{7}{13}$$
+
+**Answer:** $\mathbf{\dfrac{7}{13}}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+Find the coefficient of variation of 18, 20, 15, 12, 25.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given data in ascending order: $12, 15, 18, 20, 25$.
+Number of observations $n = 5$.
+
+**Step 1: Calculate the Mean ($\overline{x}$)**
+$$\overline{x} = \dfrac{\sum x}{n} = \dfrac{12 + 15 + 18 + 20 + 25}{5} = \dfrac{90}{5} = 18$$
+
+**Step 2: Calculate Deviations $d = x - \overline{x}$ and $d^2$**
+- For $x = 12$: $d = 12 - 18 = -6 \implies d^2 = 36$
+- For $x = 15$: $d = 15 - 18 = -3 \implies d^2 = 9$
+- For $x = 18$: $d = 18 - 18 = 0 \implies d^2 = 0$
+- For $x = 20$: $d = 20 - 18 = 2 \implies d^2 = 4$
+- For $x = 25$: $d = 25 - 18 = 7 \implies d^2 = 49$
+
+$$\sum d^2 = 36 + 9 + 0 + 4 + 49 = 98$$
+
+**Step 3: Calculate Standard Deviation ($\sigma$)**
+$$\sigma = \sqrt{\dfrac{\sum d^2}{n}} = \sqrt{\dfrac{98}{5}} = \sqrt{19.6} \approx 4.43$$
+
+**Step 4: Calculate Coefficient of Variation ($C.V.$)**
+$$C.V. = \dfrac{\sigma}{\overline{x}} \times 100\% = \dfrac{4.43}{18} \times 100\% \approx 24.6\%$$
+
+**Answer:** $\mathbf{24.6\%}$
+
+</div>
+
+</details>
+
+---

@@ -3560,3 +3560,65 @@ $$\mathbf{S_n = \frac{10}{27}(10^n - 1) - \frac{n}{3}}$$
 </details>
 
 ---
+
+#### PTA / மாதிரி வினாத்தாள் (2 மதிப்பெண்கள்)
+
+$1^3 + 2^3 + 3^3 + \dots + k^3 = 16900$, எனில் $1 + 2 + 3 + \dots + k$ - ன் மதிப்பு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+முதல் $k$ இயல் எண்களின் கூடுதல் மற்றும் அவற்றின் கனங்களின் கூடுதலுக்கு இடையேயான தொடர்பு:
+$$1^3 + 2^3 + 3^3 + \dots + k^3 = \left(1 + 2 + 3 + \dots + k\right)^2$$
+
+கொடுக்கப்பட்டது:
+$$\left(1 + 2 + 3 + \dots + k\right)^2 = 16900$$
+
+இருபுறமும் வர்க்கமூலம் காண:
+$$1 + 2 + 3 + \dots + k = \sqrt{16900} = 130$$
+
+**விடை:** $\mathbf{130}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+9 ஆல் வகுபடும் அனைத்து மூன்றிலக்க இயல் எண்களின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+9 ஆல் வகுபடும் மிகச்சிறிய மூன்றிலக்க இயல் எண் $108$.
+9 ஆல் வகுபடும் மிகப்பெரிய மூன்றிலக்க இயல் எண் $999$.
+
+9 ஆல் வகுபடும் மூன்றிலக்க இயல் எண்கள் ஒரு கூட்டுத்தொடர்வரிசையை அமைக்கின்றன:
+$$108, 117, 126, \dots, 999$$
+
+இங்கு:
+- முதல் உறுப்பு $a = 108$
+- பொது வித்தியாசம் $d = 9$
+- கடைசி உறுப்பு $l = 999$
+
+**படி 1: உறுப்புகளின் எண்ணிக்கை ($n$) காணல்:**
+$$n = \dfrac{l - a}{d} + 1$$
+$$n = \dfrac{999 - 108}{9} + 1 = \dfrac{891}{9} + 1 = 99 + 1 = 100$$
+
+**படி 2: கூடுதல் ($S_n$) காணல்:**
+$$S_n = \dfrac{n}{2}(a + l)$$
+$$S_{100} = \dfrac{100}{2}(108 + 999) = 50 \times 1107 = 55350$$
+
+**விடை:** $\mathbf{55350}$
+
+</div>
+
+</details>
+
+---

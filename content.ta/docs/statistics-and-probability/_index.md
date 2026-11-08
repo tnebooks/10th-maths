@@ -2693,3 +2693,86 @@ $$\mathbf{\frac{2}{9}}$$
 
 ---
 
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+52 சீட்டுகள் கொண்ட சீட்டுக்கட்டிலிருந்து ஒரு சீட்டு எடுக்கப்படுகின்றது. அந்த சீட்டு இராசா அல்லது ஹார்ட் அல்லது சிவப்பு நிறச் சீட்டாக இருப்பதற்கான நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+கூறுவெளியின் மொத்த சீட்டுகளின் எண்ணிக்கை:
+$$n(S) = 52$$
+
+நிகழ்ச்சிகள்:
+- $A$: இராசா சீட்டு கிடைப்பதற்கான நிகழ்ச்சி
+- $B$: ஹார்ட் சீட்டு கிடைப்பதற்கான நிகழ்ச்சி
+- $C$: சிவப்பு நிறச் சீட்டு கிடைப்பதற்கான நிகழ்ச்சி
+
+எனவே:
+- $n(A) = 4 \implies P(A) = \dfrac{4}{52}$
+- $n(B) = 13 \implies P(B) = \dfrac{13}{52}$
+- $n(C) = 26 \implies P(C) = \dfrac{26}{52}$
+
+வெட்டு நிகழ்ச்சிகள்:
+- $A \cap B$: ஹார்ட் இராசா சீட்டாக இருத்தல்:
+  $$n(A \cap B) = 1 \implies P(A \cap B) = \dfrac{1}{52}$$
+- $B \cap C$: ஹார்ட் மற்றும் சிவப்பு சீட்டாக இருத்தல். அனைத்து 13 ஹார்ட் சீட்டுகளும் சிவப்பு நிறமுடையவை என்பதால்:
+  $$n(B \cap C) = 13 \implies P(B \cap C) = \dfrac{13}{52}$$
+- $A \cap C$: சிவப்பு இராசா சீட்டாக இருத்தல் (ஹார்ட் இராசா, டைமண்ட் இராசா):
+  $$n(A \cap C) = 2 \implies P(A \cap C) = \dfrac{2}{52}$$
+- $A \cap B \cap C$: சிவப்பு ஹார்ட் இராசா சீட்டாக இருத்தல்:
+  $$n(A \cap B \cap C) = 1 \implies P(A \cap B \cap C) = \dfrac{1}{52}$$
+
+மூன்று நிகழ்ச்சிகளுக்கான நிகழ்தகவின் கூட்டல் தேற்றப்படி:
+$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(B \cap C) - P(A \cap C) + P(A \cap B \cap C)$$
+$$P(A \cup B \cup C) = \dfrac{4 + 13 + 26 - 1 - 13 - 2 + 1}{52} = \dfrac{28}{52} = \dfrac{7}{13}$$
+
+**விடை:** $\mathbf{\dfrac{7}{13}}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+18, 20, 15, 12, 25 ஆகியவற்றின் மாறுபாட்டுக் கெழுவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட விவரங்கள் ஏறுவரிசையில்: $12, 15, 18, 20, 25$.
+விவரங்களின் எண்ணிக்கை $n = 5$.
+
+**படி 1: கூட்டுச் சராசரி ($\overline{x}$) காணல்:**
+$$\overline{x} = \dfrac{\sum x}{n} = \dfrac{12 + 15 + 18 + 20 + 25}{5} = \dfrac{90}{5} = 18$$
+
+**படி 2: விலக்கங்கள் $d = x - \overline{x}$ மற்றும் $d^2$ அட்டவணை:**
+$\overline{x} = 18$ எனக்கொள்க:
+- $x = 12 \implies d = 12 - 18 = -6 \implies d^2 = 36$
+- $x = 15 \implies d = 15 - 18 = -3 \implies d^2 = 9$
+- $x = 18 \implies d = 18 - 18 = 0 \implies d^2 = 0$
+- $x = 20 \implies d = 20 - 18 = 2 \implies d^2 = 4$
+- $x = 25 \implies d = 25 - 18 = 7 \implies d^2 = 49$
+
+$$\sum d^2 = 36 + 9 + 0 + 4 + 49 = 98$$
+
+**படி 3: திட்டவிலக்கம் ($\sigma$) காணல்:**
+$$\sigma = \sqrt{\dfrac{\sum d^2}{n}} = \sqrt{\dfrac{98}{5}} = \sqrt{19.6} \approx 4.43$$
+
+**படி 4: மாறுபாட்டுக் கெழு ($C.V.$) காணல்:**
+$$C.V. = \dfrac{\sigma}{\overline{x}} \times 100\% = \dfrac{4.43}{18} \times 100\% \approx 24.6\%$$
+
+**விடை:** $\mathbf{24.6\%}$
+
+</div>
+
+</details>
+
+---
