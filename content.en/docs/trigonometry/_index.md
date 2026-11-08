@@ -1757,3 +1757,30 @@ A $1.2\text{ m}$ tall girl spots a balloon moving with the wind in a horizontal 
 
 ---
 
+#### PTA / Model (2 Marks)
+
+Prove that $\sqrt{\dfrac{\sec\theta - \tan\theta}{\sec\theta + \tan\theta}} = \dfrac{1 - \sin\theta}{\cos\theta}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \sqrt{\frac{\sec\theta - \tan\theta}{\sec\theta + \tan\theta}}$$
+
+Multiply the numerator and denominator inside the square root by $(\sec\theta - \tan\theta)$:
+$$\text{LHS} = \sqrt{\frac{(\sec\theta - \tan\theta)(\sec\theta - \tan\theta)}{(\sec\theta + \tan\theta)(\sec\theta - \tan\theta)}} = \sqrt{\frac{(\sec\theta - \tan\theta)^2}{\sec^2\theta - \tan^2\theta}}$$
+
+Using the Pythagorean identity $\sec^2\theta - \tan^2\theta = 1$:
+$$\text{LHS} = \sqrt{\frac{(\sec\theta - \tan\theta)^2}{1}} = \sec\theta - \tan\theta$$
+
+Writing in terms of $\sin\theta$ and $\cos\theta$:
+$$\sec\theta - \tan\theta = \frac{1}{\cos\theta} - \frac{\sin\theta}{\cos\theta} = \frac{1 - \sin\theta}{\cos\theta} = \text{RHS}$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---

@@ -1772,3 +1772,30 @@ $$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 2 = \text{RHS}$$
 
 ---
 
+#### PTA / Model (2 Marks)
+
+$\sqrt{\dfrac{\sec\theta - \tan\theta}{\sec\theta + \tan\theta}} = \dfrac{1 - \sin\theta}{\cos\theta}$ என நிறுவுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+$$\text{LHS} = \sqrt{\frac{\sec\theta - \tan\theta}{\sec\theta + \tan\theta}}$$
+
+வர்க்கமூலத்தின் உள்ளே தொகுதி மற்றும் பகுதியை $(\sec\theta - \tan\theta)$-ஆல் பெருக்க:
+$$\text{LHS} = \sqrt{\frac{(\sec\theta - \tan\theta)(\sec\theta - \tan\theta)}{(\sec\theta + \tan\theta)(\sec\theta - \tan\theta)}} = \sqrt{\frac{(\sec\theta - \tan\theta)^2}{\sec^2\theta - \tan^2\theta}}$$
+
+முக்கோணவியல் முற்றொருமை $\sec^2\theta - \tan^2\theta = 1$ என்பதால்:
+$$\text{LHS} = \sqrt{\frac{(\sec\theta - \tan\theta)^2}{1}} = \sec\theta - \tan\theta$$
+
+$\sin\theta, \cos\theta$ உறுப்புகளில் எழுத:
+$$\sec\theta - \tan\theta = \frac{1}{\cos\theta} - \frac{\sin\theta}{\cos\theta} = \frac{1 - \sin\theta}{\cos\theta} = \text{RHS}$$
+
+என நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---

@@ -5213,3 +5213,174 @@ $$a = 8, \quad b = 0, \quad c = -25$$
 </details>
 
 ---
+Find the square root of $\dfrac{144 a^8 b^{12} c^{16}}{81 f^{12} g^4 h^{14}}$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$\sqrt{\frac{144 a^8 b^{12} c^{16}}{81 f^{12} g^4 h^{14}}} = \frac{\sqrt{144}}{\sqrt{81}} \left| \frac{\sqrt{a^8 b^{12} c^{16}}}{\sqrt{f^{12} g^4 h^{14}}} \right|$$
+$$= \frac{12}{9} \left| \frac{a^4 b^6 c^8}{f^6 g^2 h^7} \right|$$
+$$= \mathbf{\frac{4}{3} \left| \frac{a^4 b^6 c^8}{f^6 g^2 h^7} \right|}$$
+
+</div>
+
+</details>
+
+---
+
+If $A = \begin{pmatrix} 0 & 4 & 9 \\ 8 & 3 & 7 \end{pmatrix}$ and $B = \begin{pmatrix} 7 & 3 & 8 \\ 1 & 4 & 9 \end{pmatrix}$, find the value of $3A - 9B$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+$$3A = 3 \begin{pmatrix} 0 & 4 & 9 \\ 8 & 3 & 7 \end{pmatrix} = \begin{pmatrix} 0 & 12 & 27 \\ 24 & 9 & 21 \end{pmatrix}$$
+$$9B = 9 \begin{pmatrix} 7 & 3 & 8 \\ 1 & 4 & 9 \end{pmatrix} = \begin{pmatrix} 63 & 27 & 72 \\ 9 & 36 & 81 \end{pmatrix}$$
+
+$$3A - 9B = \begin{pmatrix} 0 - 63 & 12 - 27 & 27 - 72 \\ 24 - 9 & 9 - 36 & 21 - 81 \end{pmatrix}$$
+$$= \mathbf{\begin{pmatrix} -63 & -15 & -45 \\ 15 & -27 & -60 \end{pmatrix}}$$
+
+</div>
+
+</details>
+
+---
+
+If $x = \dfrac{1}{\sqrt{3}}$ is a root of the equation $px^2 + (\sqrt{3} - \sqrt{2})x - 1 = 0$, find the value of $p$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given equation: $px^2 + (\sqrt{3} - \sqrt{2})x - 1 = 0$.
+Since $x = \dfrac{1}{\sqrt{3}}$ is a root, substituting $x = \dfrac{1}{\sqrt{3}}$:
+$$p \left(\frac{1}{\sqrt{3}}\right)^2 + (\sqrt{3} - \sqrt{2})\left(\frac{1}{\sqrt{3}}\right) - 1 = 0$$
+$$p \left(\frac{1}{3}\right) + \frac{\sqrt{3}}{\sqrt{3}} - \frac{\sqrt{2}}{\sqrt{3}} - 1 = 0$$
+$$\frac{p}{3} + 1 - \frac{\sqrt{2}}{\sqrt{3}} - 1 = 0$$
+$$\frac{p}{3} - \frac{\sqrt{2}}{\sqrt{3}} = 0$$
+$$\frac{p}{3} = \frac{\sqrt{2}}{\sqrt{3}}$$
+$$p = 3 \times \frac{\sqrt{2}}{\sqrt{3}} = \sqrt{3} \times \sqrt{3} \times \frac{\sqrt{2}}{\sqrt{3}} = \sqrt{3} \times \sqrt{2} = \sqrt{6}$$
+
+**Answer:** $\mathbf{p = \sqrt{6}}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+Solve the following system of linear equations in three variables:
+$$x + y + z = 5$$
+$$2x - y + z = 9$$
+$$x - 2y + 3z = 16$$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given system of equations:
+$$x + y + z = 5 \quad \text{--- (1)}$$
+$$2x - y + z = 9 \quad \text{--- (2)}$$
+$$x - 2y + 3z = 16 \quad \text{--- (3)}$$
+
+1. **Eliminate $y$ using (1) and (2):**
+   Adding (1) and (2):
+   $$(x + y + z) + (2x - y + z) = 5 + 9$$
+   $$3x + 2z = 14 \quad \text{--- (4)}$$
+
+2. **Eliminate $y$ using (1) and (3):**
+   Multiply equation (1) by $2$:
+   $$2x + 2y + 2z = 10 \quad \text{--- (5)}$$
+   Adding (5) and (3):
+   $$(2x + 2y + 2z) + (x - 2y + 3z) = 10 + 16$$
+   $$3x + 5z = 26 \quad \text{--- (6)}$$
+
+3. **Solve (4) and (6) for $x$ and $z$:**
+   Subtracting (4) from (6):
+   $$(3x + 5z) - (3x + 2z) = 26 - 14$$
+   $$3z = 12 \implies z = 4$$
+
+   Substitute $z = 4$ into (4):
+   $$3x + 2(4) = 14$$
+   $$3x + 8 = 14 \implies 3x = 6 \implies x = 2$$
+
+4. **Find $y$:**
+   Substitute $x = 2$ and $z = 4$ into (1):
+   $$2 + y + 4 = 5$$
+   $$y + 6 = 5 \implies y = -1$$
+
+**Answer:** $\mathbf{x = 2, \ y = -1, \ z = 4}$
+
+</div>
+
+</details>
+
+---
+
+If $9x^4 + 12x^3 + 28x^2 + ax + b$ is a perfect square, find the values of $a$ and $b$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $9x^4 + 12x^3 + 28x^2 + ax + b$ is a perfect square, let its square root be of the form $3x^2 + px + q$.
+
+Squaring $(3x^2 + px + q)$:
+$$(3x^2 + px + q)^2 = 9x^4 + 6px^3 + (p^2 + 6q)x^2 + 2pqx + q^2$$
+
+Comparing coefficients with $9x^4 + 12x^3 + 28x^2 + ax + b$:
+1. Coefficient of $x^3$:
+   $$6p = 12 \implies p = 2$$
+2. Coefficient of $x^2$:
+   $$p^2 + 6q = 28 \implies 2^2 + 6q = 28 \implies 4 + 6q = 28 \implies 6q = 24 \implies q = 4$$
+3. Coefficient of $x$:
+   $$a = 2pq = 2(2)(4) = 16$$
+4. Constant term:
+   $$b = q^2 = 4^2 = 16$$
+
+**Answer:** $\mathbf{a = 16, \ b = 16}$
+
+</div>
+
+</details>
+
+---
+
+If $A = \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix}$, show that $A^2 - 4A + 5I_2 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $A = \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix}$.
+
+1. **Finding $A^2$:**
+   $$A^2 = A \times A = \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = \begin{bmatrix} 1(1) + (-1)(2) & 1(-1) + (-1)(3) \\ 2(1) + 3(2) & 2(-1) + 3(3) \end{bmatrix}$$
+   $$= \begin{bmatrix} 1 - 2 & -1 - 3 \\ 2 + 6 & -2 + 9 \end{bmatrix} = \begin{bmatrix} -1 & -4 \\ 8 & 7 \end{bmatrix}$$
+
+2. **Finding $4A$:**
+   $$4A = 4 \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = \begin{bmatrix} 4 & -4 \\ 8 & 12 \end{bmatrix}$$
+
+3. **Finding $5I_2$:**
+   $$5I_2 = 5 \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 5 & 0 \\ 0 & 5 \end{bmatrix}$$
+
+4. **Evaluating $A^2 - 4A + 5I_2$:**
+   $$A^2 - 4A + 5I_2 = \begin{bmatrix} -1 & -4 \\ 8 & 7 \end{bmatrix} - \begin{bmatrix} 4 & -4 \\ 8 & 12 \end{bmatrix} + \begin{bmatrix} 5 & 0 \\ 0 & 5 \end{bmatrix}$$
+   $$= \begin{bmatrix} -1 - 4 + 5 & -4 - (-4) + 0 \\ 8 - 8 + 0 & 7 - 12 + 5 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix} = 0$$
+
+Hence proved.
+
+</div>
+
+</details>
+
+---

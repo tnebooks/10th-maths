@@ -3562,3 +3562,81 @@ $$S_{100} = \dfrac{100}{2}(108 + 999) = 50 \times 1107 = 55350$$
 </details>
 
 ---
+If $3 + k$, $18 - k$, $5k + 1$ are in A.P., then find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $3 + k$, $18 - k$, and $5k + 1$ are in Arithmetic Progression, the difference between consecutive terms is constant:
+$$t_2 - t_1 = t_3 - t_2$$
+$$(18 - k) - (3 + k) = (5k + 1) - (18 - k)$$
+$$18 - k - 3 - k = 5k + 1 - 18 + k$$
+$$15 - 2k = 6k - 17$$
+$$15 + 17 = 6k + 2k$$
+$$32 = 8k$$
+$$k = \frac{32}{8} = 4$$
+
+**Answer:** $\mathbf{k = 4}$
+
+</div>
+
+</details>
+
+---
+
+In a Geometric Progression, the first term $a = -7$ and common ratio $r = 6$. Find the G.P.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The general form of a Geometric Progression is:
+$$a, \ ar, \ ar^2, \ ar^3, \ldots$$
+
+Given: $a = -7$ and $r = 6$.
+- First term: $t_1 = a = -7$
+- Second term: $t_2 = ar = (-7) \times 6 = -42$
+- Third term: $t_3 = ar^2 = (-42) \times 6 = -252$
+
+Therefore, the required Geometric Progression is:
+$$\mathbf{-7, \ -42, \ -252, \ \ldots}$$
+
+</div>
+
+</details>
+
+---
+
+Which term of the A.P. $21, 18, 15, \ldots$ is $-81$? Further, is $0$ a term of this A.P.? Give reason.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: $21, 18, 15, \ldots$
+First term $a = 21$, common difference $d = 18 - 21 = -3$.
+Formula for $n^{\text{th}}$ term: $t_n = a + (n - 1)d$.
+
+1. **Finding the term that is $-81$:**
+   $$21 + (n - 1)(-3) = -81$$
+   $$(n - 1)(-3) = -81 - 21 = -102$$
+   $$n - 1 = \frac{-102}{-3} = 34$$
+   $$n = 35$$
+   Therefore, **$-81$ is the $35^{\text{th}}$ term**.
+
+2. **Checking if $0$ is a term of this A.P.:**
+   $$t_n = 21 + (n - 1)(-3) = 0$$
+   $$(n - 1)(-3) = -21$$
+   $$n - 1 = \frac{-21}{-3} = 7$$
+   $$n = 8$$
+   Since $n = 8$ is a positive integer, **$0$ is the $8^{\text{th}}$ term** of this A.P.
+
+</div>
+
+</details>
+
+---

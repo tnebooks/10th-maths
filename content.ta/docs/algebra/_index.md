@@ -5207,3 +5207,171 @@ $$a = 8, \quad b = 0, \quad c = -25$$
 </details>
 
 ---
+$\dfrac{144 a^8 b^{12} c^{16}}{81 f^{12} g^4 h^{14}}$ -ன் வர்க்கமூலம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+$$\sqrt{\frac{144 a^8 b^{12} c^{16}}{81 f^{12} g^4 h^{14}}} = \frac{\sqrt{144}}{\sqrt{81}} \left| \frac{\sqrt{a^8 b^{12} c^{16}}}{\sqrt{f^{12} g^4 h^{14}}} \right|$$
+$$= \frac{12}{9} \left| \frac{a^4 b^6 c^8}{f^6 g^2 h^7} \right|$$
+$$= \mathbf{\frac{4}{3} \left| \frac{a^4 b^6 c^8}{f^6 g^2 h^7} \right|}$$
+
+</div>
+
+</details>
+
+---
+
+$A = \begin{pmatrix} 0 & 4 & 9 \\ 8 & 3 & 7 \end{pmatrix}$ மற்றும் $B = \begin{pmatrix} 7 & 3 & 8 \\ 1 & 4 & 9 \end{pmatrix}$ எனில் $3A - 9B$ -ன் மதிப்புக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+$$3A = 3 \begin{pmatrix} 0 & 4 & 9 \\ 8 & 3 & 7 \end{pmatrix} = \begin{pmatrix} 0 & 12 & 27 \\ 24 & 9 & 21 \end{pmatrix}$$
+$$9B = 9 \begin{pmatrix} 7 & 3 & 8 \\ 1 & 4 & 9 \end{pmatrix} = \begin{pmatrix} 63 & 27 & 72 \\ 9 & 36 & 81 \end{pmatrix}$$
+
+$$3A - 9B = \begin{pmatrix} 0 - 63 & 12 - 27 & 27 - 72 \\ 24 - 9 & 9 - 36 & 21 - 81 \end{pmatrix}$$
+$$= \mathbf{\begin{pmatrix} -63 & -15 & -45 \\ 15 & -27 & -60 \end{pmatrix}}$$
+
+</div>
+
+</details>
+
+---
+
+$px^2 + (\sqrt{3} - \sqrt{2})x - 1 = 0$ எனக் கொடுக்கப்பட்ட சமன்பாட்டின் ஒரு மூலம் $x = \dfrac{1}{\sqrt{3}}$ எனில், $p$-ன் மதிப்புக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட சமன்பாடு: $px^2 + (\sqrt{3} - \sqrt{2})x - 1 = 0$.
+$x = \dfrac{1}{\sqrt{3}}$ என்பது ஒரு மூலம் என்பதால், $x$-க்கு பதிலாக $\dfrac{1}{\sqrt{3}}$ பிரதியிட:
+$$p \left(\frac{1}{\sqrt{3}}\right)^2 + (\sqrt{3} - \sqrt{2})\left(\frac{1}{\sqrt{3}}\right) - 1 = 0$$
+$$p \left(\frac{1}{3}\right) + \frac{\sqrt{3}}{\sqrt{3}} - \frac{\sqrt{2}}{\sqrt{3}} - 1 = 0$$
+$$\frac{p}{3} + 1 - \frac{\sqrt{2}}{\sqrt{3}} - 1 = 0$$
+$$\frac{p}{3} - \frac{\sqrt{2}}{\sqrt{3}} = 0$$
+$$\frac{p}{3} = \frac{\sqrt{2}}{\sqrt{3}}$$
+$$p = 3 \times \frac{\sqrt{2}}{\sqrt{3}} = \sqrt{3} \times \sqrt{3} \times \frac{\sqrt{2}}{\sqrt{3}} = \sqrt{3} \times \sqrt{2} = \sqrt{6}$$
+
+**விடை:** $\mathbf{p = \sqrt{6}}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+$x + y + z = 5, 2x - y + z = 9, x - 2y + 3z = 16$ என்ற மூன்று மாறிகளில் அமைந்த ஒருங்கமை நேரியல் சமன்பாட்டுத் தொகுப்பின் தீர்வு காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட சமன்பாடுகள்:
+$$x + y + z = 5 \quad \text{--- (1)}$$
+$$2x - y + z = 9 \quad \text{--- (2)}$$
+$$x - 2y + 3z = 16 \quad \text{--- (3)}$$
+
+1. **(1) மற்றும் (2)-லிருந்து $y$-ஐ நீக்க:**
+   (1) மற்றும் (2)-ஐக் கூட்ட:
+   $$(x + y + z) + (2x - y + z) = 5 + 9$$
+   $$3x + 2z = 14 \quad \text{--- (4)}$$
+
+2. **(1) மற்றும் (3)-லிருந்து $y$-ஐ நீக்க:**
+   சமன்பாடு (1)-ஐ $2$-ஆல் பெருக்க:
+   $$2x + 2y + 2z = 10 \quad \text{--- (5)}$$
+   (5) மற்றும் (3)-ஐக் கூட்ட:
+   $$(2x + 2y + 2z) + (x - 2y + 3z) = 10 + 16$$
+   $$3x + 5z = 26 \quad \text{--- (6)}$$
+
+3. **(4) மற்றும் (6)-லிருந்து $x, z$ காணல்:**
+   (6)-லிருந்து (4)-ஐக் கழிக்க:
+   $$(3x + 5z) - (3x + 2z) = 26 - 14$$
+   $$3z = 12 \implies z = 4$$
+
+   $z = 4$ என சமன்பாடு (4)-ல் பிரதியிட:
+   $$3x + 2(4) = 14$$
+   $$3x + 8 = 14 \implies 3x = 6 \implies x = 2$$
+
+4. **$y$-ன் மதிப்பு காணல்:**
+   $x = 2$ மற்றும் $z = 4$ என (1)-ல் பிரதியிட:
+   $$2 + y + 4 = 5$$
+   $$y + 6 = 5 \implies y = -1$$
+
+**விடை:** $\mathbf{x = 2, \ y = -1, \ z = 4}$
+
+</div>
+
+</details>
+
+---
+
+$9x^4 + 12x^3 + 28x^2 + ax + b$ என்பது ஒரு முழு வர்க்கம் எனில் $a, b$ ஆகியவற்றின் மதிப்புகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+$9x^4 + 12x^3 + 28x^2 + ax + b$ என்பது ஒரு முழு வர்க்கம் என்பதால், அதன் வர்க்கமூலம் $3x^2 + px + q$ வடிவில் இருக்கும்.
+
+$(3x^2 + px + q)$-ஐ விரிக்க:
+$$(3x^2 + px + q)^2 = 9x^4 + 6px^3 + (p^2 + 6q)x^2 + 2pqx + q^2$$
+
+$9x^4 + 12x^3 + 28x^2 + ax + b$-ன் கெழுக்களுடன் ஒப்பிட:
+1. $x^3$-ன் கெழு:
+   $$6p = 12 \implies p = 2$$
+2. $x^2$-ன் கெழு:
+   $$p^2 + 6q = 28 \implies 2^2 + 6q = 28 \implies 4 + 6q = 28 \implies 6q = 24 \implies q = 4$$
+3. $x$-ன் கெழு:
+   $$a = 2pq = 2(2)(4) = 16$$
+4. மாறிலி உறுப்பு:
+   $$b = q^2 = 4^2 = 16$$
+
+**விடை:** $\mathbf{a = 16, \ b = 16}$
+
+</div>
+
+</details>
+
+---
+
+$A = \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix}$ எனில், $A^2 - 4A + 5I_2 = 0$ என நிறுவுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+தரவு: $A = \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix}$.
+
+1. **$A^2$ காணல்:**
+   $$A^2 = A \times A = \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = \begin{bmatrix} 1(1) + (-1)(2) & 1(-1) + (-1)(3) \\ 2(1) + 3(2) & 2(-1) + 3(3) \end{bmatrix}$$
+   $$= \begin{bmatrix} 1 - 2 & -1 - 3 \\ 2 + 6 & -2 + 9 \end{bmatrix} = \begin{bmatrix} -1 & -4 \\ 8 & 7 \end{bmatrix}$$
+
+2. **$4A$ காணல்:**
+   $$4A = 4 \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = \begin{bmatrix} 4 & -4 \\ 8 & 12 \end{bmatrix}$$
+
+3. **$5I_2$ காணல்:**
+   $$5I_2 = 5 \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 5 & 0 \\ 0 & 5 \end{bmatrix}$$
+
+4. **$A^2 - 4A + 5I_2$-ன் மதிப்பைக் கணக்கிடுதல்:**
+   $$A^2 - 4A + 5I_2 = \begin{bmatrix} -1 & -4 \\ 8 & 7 \end{bmatrix} - \begin{bmatrix} 4 & -4 \\ 8 & 12 \end{bmatrix} + \begin{bmatrix} 5 & 0 \\ 0 & 5 \end{bmatrix}$$
+   $$= \begin{bmatrix} -1 - 4 + 5 & -4 - (-4) + 0 \\ 8 - 8 + 0 & 7 - 12 + 5 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix} = 0$$
+
+என நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---

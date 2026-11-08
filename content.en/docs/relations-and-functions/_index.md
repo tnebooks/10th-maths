@@ -2809,3 +2809,93 @@ In the $xy$-plane, plot the points $(2, 0), (4, 1), (6, 2), (10, 4), (12, 5)$.
 </details>
 
 ---
+#### PTA / Model (2 Marks)
+
+Let $A = \{1, 2, 3, 4\}$ and $B = \mathbb{N}$. Let $f: A \to B$ be defined by $f(x) = x^3$. Then,
+(i) find the range of $f$
+(ii) identify the type of function.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $A = \{1, 2, 3, 4\}$, $B = \mathbb{N}$ and $f(x) = x^3$.
+
+1. **Finding the range of $f$:**
+   - For $x = 1$, $f(1) = 1^3 = 1$
+   - For $x = 2$, $f(2) = 2^3 = 8$
+   - For $x = 3$, $f(3) = 3^3 = 27$
+   - For $x = 4$, $f(4) = 4^3 = 64$
+
+   $$\text{Range of } f = \{1, 8, 27, 64\}$$
+
+2. **Type of function:**
+   - Different elements in $A$ have different images in $B$. Therefore, $f$ is a **one-one function**.
+   - Since the co-domain is $\mathbb{N}$ and the range $\{1, 8, 27, 64\} \neq \mathbb{N}$, $f$ is an **into function**.
+   - Hence, $f$ is a **one-one and into function**.
+
+</div>
+
+</details>
+
+---
+
+A relation $R$ is given by the set $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$. Determine its domain and range.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given: $R = \{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$.
+
+Substitute each value of $x$:
+- When $x = 0$, $y = 0 + 3 = 3$
+- When $x = 1$, $y = 1 + 3 = 4$
+- When $x = 2$, $y = 2 + 3 = 5$
+- When $x = 3$, $y = 3 + 3 = 6$
+- When $x = 4$, $y = 4 + 3 = 7$
+- When $x = 5$, $y = 5 + 3 = 8$
+
+The relation is:
+$$R = \{(0, 3), (1, 4), (2, 5), (3, 6), (4, 7), (5, 8)\}$$
+
+- **Domain of $R$:** $\{0, 1, 2, 3, 4, 5\}$
+- **Range of $R$:** $\{3, 4, 5, 6, 7, 8\}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+If $f(x) = 2x + 3$, $g(x) = 1 - 2x$ and $h(x) = 3x$, prove that $f \circ (g \circ h) = (f \circ g) \circ h$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given:
+$$f(x) = 2x + 3, \quad g(x) = 1 - 2x, \quad h(x) = 3x$$
+
+1. **Finding LHS $= f \circ (g \circ h)(x)$:**
+   $$(g \circ h)(x) = g(h(x)) = g(3x) = 1 - 2(3x) = 1 - 6x$$
+   $$f \circ (g \circ h)(x) = f(1 - 6x) = 2(1 - 6x) + 3 = 2 - 12x + 3 = 5 - 12x \quad \text{--- (1)}$$
+
+2. **Finding RHS $= (f \circ g) \circ h(x)$:**
+   $$(f \circ g)(x) = f(g(x)) = f(1 - 2x) = 2(1 - 2x) + 3 = 2 - 4x + 3 = 5 - 4x$$
+   $$((f \circ g) \circ h)(x) = (f \circ g)(h(x)) = (f \circ g)(3x) = 5 - 4(3x) = 5 - 12x \quad \text{--- (2)}$$
+
+From (1) and (2):
+$$\mathbf{f \circ (g \circ h) = (f \circ g) \circ h}$$
+Hence proved.
+
+</div>
+
+</details>
+
+---
