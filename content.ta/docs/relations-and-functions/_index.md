@@ -2915,3 +2915,93 @@ $2 \to 0,\ 4 \to 1,\ 6 \to 2,\ 10 \to 4,\ 12 \to 5$.
 </details>
 
 ---
+#### PTA / Model (2 Marks)
+
+$A = \{1, 2, 3, 4\}$ மற்றும் $B = \mathbb{N}$ என்க. மேலும் $f: A \to B$ ஆனது, $f(x) = x^3$ என வரையறுக்கப்படுகிறது எனில்,
+(i) $f$-யின் வீச்சகத்தைக் காண்க.
+(ii) $f$ எவ்வகை சார்பு எனக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+தரவு: $A = \{1, 2, 3, 4\}$, $B = \mathbb{N}$ மற்றும் $f(x) = x^3$.
+
+1. **$f$-ன் வீச்சகம் காண்க:**
+   - $x = 1$ எனில், $f(1) = 1^3 = 1$
+   - $x = 2$ எனில், $f(2) = 2^3 = 8$
+   - $x = 3$ எனில், $f(3) = 3^3 = 27$
+   - $x = 4$ எனில், $f(4) = 4^3 = 64$
+
+   $$f\text{-ன் வீச்சகம்} = \{1, 8, 27, 64\}$$
+
+2. **சார்பின் வகை:**
+   - $A$-ல் உள்ள வெவ்வேறு உறுப்புகளுக்கு $B$-ல் வெவ்வேறு நிழல் உருக்கள் உள்ளன. எனவே, $f$ ஒரு **ஒன்றுக்கு ஒன்றான சார்பு** ஆகும்.
+   - வீச்சகம் $\{1, 8, 27, 64\} \neq B$ (துணை மதிப்பகம் $\mathbb{N}$) என்பதால், இது ஒரு **உட்சார்பு** ஆகும்.
+   - எனவே, $f$ என்பது **ஒன்றுக்கு ஒன்றான மற்றும் உட்சார்பு** ஆகும்.
+
+</div>
+
+</details>
+
+---
+
+$R$ என்ற ஒரு உறவு $\{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$ எனக் கொடுக்கப்பட்டுள்ளது. இதன் மதிப்பகத்தையும் வீச்சகத்தையும் கண்டறிக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்டது: $R = \{(x, y) \mid y = x + 3, x \in \{0, 1, 2, 3, 4, 5\}\}$.
+
+ஒவ்வொரு $x$ மதிப்பையும் பிரதியிட:
+- $x = 0$ எனில், $y = 0 + 3 = 3$
+- $x = 1$ எனில், $y = 1 + 3 = 4$
+- $x = 2$ எனில், $y = 2 + 3 = 5$
+- $x = 3$ எனில், $y = 3 + 3 = 6$
+- $x = 4$ எனில், $y = 4 + 3 = 7$
+- $x = 5$ எனில், $y = 5 + 3 = 8$
+
+உறவு:
+$$R = \{(0, 3), (1, 4), (2, 5), (3, 6), (4, 7), (5, 8)\}$$
+
+- **$R$-ன் மதிப்பகம்:** $\{0, 1, 2, 3, 4, 5\}$
+- **$R$-ன் வீச்சகம்:** $\{3, 4, 5, 6, 7, 8\}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+$f(x) = 2x + 3$, $g(x) = 1 - 2x$ மற்றும் $h(x) = 3x$ எனில் $f \circ (g \circ h) = (f \circ g) \circ h$ என நிறுவுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+தரவு:
+$$f(x) = 2x + 3, \quad g(x) = 1 - 2x, \quad h(x) = 3x$$
+
+1. **இடதுபக்கம் $= f \circ (g \circ h)(x)$ காணல்:**
+   $$(g \circ h)(x) = g(h(x)) = g(3x) = 1 - 2(3x) = 1 - 6x$$
+   $$f \circ (g \circ h)(x) = f(1 - 6x) = 2(1 - 6x) + 3 = 2 - 12x + 3 = 5 - 12x \quad \text{--- (1)}$$
+
+2. **வலதுபக்கம் $= (f \circ g) \circ h(x)$ காணல்:**
+   $$(f \circ g)(x) = f(g(x)) = f(1 - 2x) = 2(1 - 2x) + 3 = 2 - 4x + 3 = 5 - 4x$$
+   $$((f \circ g) \circ h)(x) = (f \circ g)(h(x)) = (f \circ g)(3x) = 5 - 4(3x) = 5 - 12x \quad \text{--- (2)}$$
+
+(1) மற்றும் (2)-லிருந்து:
+$$\mathbf{f \circ (g \circ h) = (f \circ g) \circ h}$$
+என நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---

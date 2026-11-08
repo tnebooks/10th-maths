@@ -1707,3 +1707,150 @@ $$125 - r_i^3 = 98 \implies r_i^3 = 27 \implies r_i = 3\text{ செ.மீ}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+உயரம் $10\text{ செ.மீ}$ மற்றும் விட்டம் $4.5\text{ செ.மீ}$ உடைய ஒரு நேர்வட்ட உருளையை உருவாக்க $1.5\text{ செ.மீ}$ விட்டமும் $2\text{ மி.மீ}$ தடிமனும் கொண்ட எத்தனை வட்ட வில்லைகள் (நாணயங்கள்) தேவை?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+ஒரு வட்டக் கோணப்பகுதி வடிவில் உள்ள உலோகத் தகட்டின் ஆரம் $21\text{ செ.மீ}$ மற்றும் மையக்கோணம் $216^\circ$ ஆகும். வட்டக் கோணப்பகுதியின் ஆரங்களை இணைத்து உருவாக்கப்படும் கூம்பின் கன அளவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+ஓர் இறகு பந்தின் மேற்புறம் கூம்பின் இடைக்கண்ட வடிவிலும் கீழ்ப்புறம் அரைக்கோள வடிவிலும் உள்ளது. இடைக்கண்டத்தின் விட்டங்கள் $5\text{ செ.மீ}$ மற்றும் $2\text{ செ.மீ}$ ஆகவும், இறகுபந்தின் மொத்த உயரம் $7\text{ செ.மீ}$ ஆகவும் இருக்குமானால் இறகு பந்தின் புறப்பரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+32 செ.மீ உயரமும் 18 செ.மீ ஆரமும் உடைய ஓர் உருளை வடிவ வாளியில் முழுமையாக மணல் உள்ளது. இந்த மணல் தரையில் கொட்டப்பட்டு கூம்பு வடிவில் அமைக்கப்படுகிறது. அந்தக் கூம்பின் உயரம் 24 செ.மீ எனில், அதன் ஆரம் மற்றும் சாயுயரத்தைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+உருளை வடிவ வாளியின் ஆரம் $r_1$ மற்றும் உயரம் $h_1$ என்க:
+$$r_1 = 18\text{ செ.மீ}, \quad h_1 = 32\text{ செ.மீ}$$
+
+கூம்பு வடிவ மணல் குவியலின் ஆரம் $r_2$, உயரம் $h_2$ மற்றும் சாயுயரம் $l$ என்க:
+$$h_2 = 24\text{ செ.மீ}$$
+
+உருளை வடிவ வாளியிலுள்ள மணலின் கனஅளவும் கூம்பு வடிவ மணல் குவியலின் கனஅளவும் சமமாகும்:
+$$\text{கூம்பின் கனஅளவு} = \text{உருளையின் கனஅளவு}$$
+$$\dfrac{1}{3}\pi r_2^2 h_2 = \pi r_1^2 h_1$$
+
+இருபுறமும் $\pi$-ஐ நீக்க:
+$$\dfrac{1}{3} r_2^2 (24) = 18^2 \times 32$$
+$$8 r_2^2 = 324 \times 32$$
+$$r_2^2 = \dfrac{324 \times 32}{8} = 324 \times 4 = 1296$$
+$$r_2 = \sqrt{1296} = 36\text{ செ.மீ}$$
+
+கூம்பின் சாயுயரம் $l$ காணல்:
+$$l = \sqrt{r_2^2 + h_2^2} = \sqrt{36^2 + 24^2} = \sqrt{1296 + 576} = \sqrt{1872}$$
+$$l = \sqrt{144 \times 13} = 12\sqrt{13}\text{ செ.மீ} \approx 43.27\text{ செ.மீ}$$
+
+**விடை:** கூம்பின் ஆரம் $= \mathbf{36\text{ செ.மீ}}$, சாயுயரம் $= \mathbf{12\sqrt{13}\text{ செ.மீ}}$ (அல்லது $\mathbf{43.27\text{ செ.மீ}}$)
+
+</div>
+
+</details>
+
+---
+$6\text{ செ.மீ}$ ஆரம், $15\text{ செ.மீ}$ உயரம் கொண்ட ஓர் உருளை வடிவப் பாத்திரம் முழுவதுமாக பனிக்கூழ் உள்ளது. அந்த பனிக்கூழானது, கூம்பு மற்றும் அரைக்கோளம் இணைந்த வடிவத்தில் நிரப்பப்படுகிறது. கூம்பின் உயரம் $9\text{ செ.மீ}$ மற்றும் ஆரம் $3\text{ செ.மீ}$ எனில், பாத்திரத்தில் உள்ள பனிக்கூழை நிரப்ப எத்தனை கூம்புகள் தேவை?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+**1. உருளை:**
+- ஆரம் $R = 6\text{ செ.மீ}$, உயரம் $H = 15\text{ செ.மீ}$
+$$\text{உருளையின் கனஅளவு } V_1 = \pi R^2 H = \pi \times 6^2 \times 15 = 540\pi\text{ செ.மீ}^3$$
+
+**2. ஒரு பனிக்கூழ் கூம்பு (கூம்பு + அரைக்கோள உச்சி):**
+- ஆரம் $r = 3\text{ செ.மீ}$, கூம்பின் உயரம் $h = 9\text{ செ.மீ}$
+$$\text{கூம்பின் கனஅளவு} = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \times 3^2 \times 9 = 27\pi\text{ செ.மீ}^3$$
+$$\text{அரைக்கோளத்தின் கனஅளவு} = \frac{2}{3}\pi r^3 = \frac{2}{3}\pi \times 3^3 = 18\pi\text{ செ.மீ}^3$$
+$$\text{ஒரு பனிக்கூழின் மொத்த கனஅளவு } V_2 = 27\pi + 18\pi = 45\pi\text{ செ.மீ}^3$$
+
+**3. தேவையான கூம்புகளின் எண்ணிக்கை:**
+$$\text{கூம்புகளின் எண்ணிக்கை} = \frac{\text{உருளையின் கனஅளவு}}{\text{ஒரு பனிக்கூழ் கூம்பின் கனஅளவு}} = \frac{540\pi}{45\pi} = 12$$
+
+**விடை:** $\mathbf{12\text{ கூம்புகள்}}$
+
+</div>
+
+</details>
+
+---
+
+$3\text{ மீ}$ விட்டமும் $14\text{ மீ}$ ஆழமுள்ள ஒரு கிணறு உருளை வடிவில் வெட்டப்படுகிறது. அவ்வாறு வெட்டும் போது தோண்டியெடுக்கப்பட்ட மண் $4\text{ மீ}$ அகலமுள்ள வட்ட வடிவமாக சீராக பரப்பப்பட்டு ஒரு மேடை அமைக்கப்பட்டால் அம்மேடையின் உயரத்தைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+**1. கிணற்றிலிருந்து தோண்டி எடுக்கப்பட்ட மண்:**
+- கிணறு உருளை வடிவம், விட்டம் $d = 3\text{ மீ} \implies$ ஆரம் $r = \frac{3}{2} = 1.5\text{ மீ}$
+- ஆழம் $h = 14\text{ மீ}$
+$$\text{தோண்டியெடுக்கப்பட்ட மண்ணின் கனஅளவு } V = \pi r^2 h = \pi \left(\frac{3}{2}\right)^2 (14) = \frac{63\pi}{2}\text{ மீ}^3$$
+
+**2. மேடை (உள்ளீடற்ற உருளை வளையம்):**
+- உள் ஆரம் $r = 1.5\text{ மீ}$
+- அகலம் $w = 4\text{ மீ} \implies$ வெளி ஆரம் $R = 1.5 + 4 = 5.5 = \frac{11}{2}\text{ மீ}$
+- மேடையின் அடிப்பரப்பு:
+  $$A = \pi (R^2 - r^2) = \pi \left[\left(\frac{11}{2}\right)^2 - \left(\frac{3}{2}\right)^2\right] = \pi \left(\frac{121 - 9}{4}\right) = 28\pi\text{ மீ}^2$$
+
+**3. மேடையின் உயரம் $H$:**
+$$\text{மேடையின் கனஅளவு} = \text{மண்ணின் கனஅளவு}$$
+$$28\pi \times H = \frac{63\pi}{2}$$
+$$H = \frac{63}{2 \times 28} = \frac{9}{8} = 1.125\text{ மீ}$$
+
+**விடை:** $\mathbf{1.125\text{ மீ}}$ (அல்லது $1\dfrac{1}{8}\text{ மீ}$)
+
+</div>
+
+</details>
+
+---

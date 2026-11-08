@@ -2717,3 +2717,88 @@ $$\mathbf{2x + 5y + 6 = 0}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+நாற்கர வடிவ நீச்சல் குளத்தின் கான்கிரீட் உள்முற்றமானது படத்தில் காட்டியுள்ளபடி அமைக்கப்பட்டுள்ளது. வெளிப்புற முனைகள் $A(-4, -8)$, $B(8, -4)$, $C(6, 10)$, $D(-10, 6)$ மற்றும் நீச்சல் குளத்தின் உட்புற முனைகள் $E(-3, -5)$, $F(6, -2)$, $G(3, 7)$, $H(-6, 4)$ எனில், கான்கிரீட் உள்முற்றத்தின் பரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+
+#### PTA / மாதிரி வினாத்தாள் (2 மதிப்பெண்கள்)
+
+$3x - 5y + 7 = 0$ மற்றும் $15x + 9y + 4 = 0$ ஆகிய நேர்க்கோடுகள் ஒன்றுக்கொன்று செங்குத்து என நிறுவுக.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+$ax + by + c = 0$ என்ற நேர்க்கோட்டின் சாய்வு $m = -\dfrac{a}{b}$.
+
+1. $3x - 5y + 7 = 0$ என்ற கோட்டின் சாய்வு:
+   $$m_1 = -\dfrac{3}{-5} = \dfrac{3}{5}$$
+
+2. $15x + 9y + 4 = 0$ என்ற கோட்டின் சாய்வு:
+   $$m_2 = -\dfrac{15}{9} = -\dfrac{5}{3}$$
+
+சாய்வுகளின் பெருக்கற்பலன்:
+$$m_1 \times m_2 = \dfrac{3}{5} \times \left(-\dfrac{5}{3}\right) = -1$$
+
+சாய்வுகளின் பெருக்கற்பலன் $-1$ என்பதால், இவ்விரு நேர்க்கோடுகளும் ஒன்றுக்கொன்று **செங்குத்தானவை** ஆகும். எனவே நிறுவப்பட்டது.
+
+</div>
+
+</details>
+
+---
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+$7x - 3y = -2$ மற்றும் $2y = x + 3$ ஆகிய நேர்க்கோடுகள் சந்திக்கும் புள்ளியையும் $3x + y + 2 = 0$ மற்றும் $x - 2y - 4 = 0$ ஆகிய நேர்க்கோடுகள் சந்திக்கும் புள்ளியையும் இணைக்கும் நேர்க்கோட்டின் சமன்பாட்டைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+**படி 1: $7x - 3y = -2$ மற்றும் $2y = x + 3$-ன் வெட்டுப்புள்ளி காணல்**
+இரண்டாவது சமன்பாட்டிலிருந்து, $x = 2y - 3$.
+இதை முதல் சமன்பாட்டில் பிரதியிட:
+$$7(2y - 3) - 3y = -2$$
+$$14y - 21 - 3y = -2 \implies 11y = 19 \implies y = \dfrac{19}{11}$$
+$$x = 2\left(\dfrac{19}{11}\right) - 3 = \dfrac{5}{11}$$
+வெட்டுப்புள்ளி $A = \left(\dfrac{5}{11}, \dfrac{19}{11}\right)$.
+
+**படி 2: $3x + y + 2 = 0$ மற்றும் $x - 2y - 4 = 0$-ன் வெட்டுப்புள்ளி காணல்**
+$3x + y + 2 = 0 \implies y = -3x - 2$.
+இதை $x - 2y - 4 = 0$-ல் பிரதியிட:
+$$x - 2(-3x - 2) - 4 = 0$$
+$$x + 6x + 4 - 4 = 0 \implies 7x = 0 \implies x = 0$$
+$$y = -3(0) - 2 = -2$$
+வெட்டுப்புள்ளி $B = (0, -2)$.
+
+**படி 3: $A\left(\dfrac{5}{11}, \dfrac{19}{11}\right)$ மற்றும் $B(0, -2)$ ஆகிய புள்ளிகளை இணைக்கும் நேர்க்கோட்டின் சமன்பாடு:**
+இரு புள்ளிகள் வடிவம்: $\dfrac{y - y_1}{y_2 - y_1} = \dfrac{x - x_1}{x_2 - x_1}$
+சாய்வு $m = \dfrac{-2 - \frac{19}{11}}{0 - \frac{5}{11}} = \dfrac{-\frac{41}{11}}{-\frac{5}{11}} = \dfrac{41}{5}$.
+
+$(0, -2)$ வழிச்செல்லும் சமன்பாடு:
+$$y - (-2) = \dfrac{41}{5}(x - 0)$$
+$$5(y + 2) = 41x \implies \mathbf{41x - 5y - 10 = 0}$$
+
+</div>
+
+</details>
+
+---

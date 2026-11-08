@@ -2976,3 +2976,89 @@ $$\mathbf{2x + 5y + 6 = 0}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+A quadrilateral swimming pool is surrounded by a concrete patio. The vertices of the outer boundary are $A(-4, -8)$, $B(8, -4)$, $C(6, 10)$, and $D(-10, 6)$, and the vertices of the swimming pool are $E(-3, -5)$, $F(6, -2)$, $G(3, 7)$, and $H(-6, 4)$. Find the area of the concrete patio.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+
+#### PTA / Model (2 Marks)
+
+Prove that the straight lines $3x - 5y + 7 = 0$ and $15x + 9y + 4 = 0$ are perpendicular to each other.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The slope of a straight line $ax + by + c = 0$ is given by $m = -\dfrac{a}{b}$.
+
+1. For the line $3x - 5y + 7 = 0$:
+   $$m_1 = -\dfrac{3}{-5} = \dfrac{3}{5}$$
+
+2. For the line $15x + 9y + 4 = 0$:
+   $$m_2 = -\dfrac{15}{9} = -\dfrac{5}{3}$$
+
+Product of their slopes:
+$$m_1 \times m_2 = \dfrac{3}{5} \times \left(-\dfrac{5}{3}\right) = -1$$
+
+Since $m_1 \times m_2 = -1$, the two straight lines are **perpendicular to each other**. Hence proved.
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+Find the equation of the straight line joining the point of intersection of $7x - 3y = -2$ and $2y = x + 3$ to the point of intersection of $3x + y + 2 = 0$ and $x - 2y - 4 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**Step 1: Find the point of intersection of $7x - 3y = -2$ and $2y = x + 3$**
+From $2y = x + 3$, we have $x = 2y - 3$.
+Substituting in $7x - 3y = -2$:
+$$7(2y - 3) - 3y = -2$$
+$$14y - 21 - 3y = -2 \implies 11y = 19 \implies y = \dfrac{19}{11}$$
+$$x = 2\left(\dfrac{19}{11}\right) - 3 = \dfrac{38 - 33}{11} = \dfrac{5}{11}$$
+Point of intersection: $A\left(\dfrac{5}{11}, \dfrac{19}{11}\right)$.
+
+*(Note: For the textbook variant $7x - 3y = -12$, the point is $\left(-\dfrac{15}{11}, \dfrac{9}{11}\right)$).*
+
+**Step 2: Find the point of intersection of $3x + y + 2 = 0$ and $x - 2y - 4 = 0$**
+From $3x + y + 2 = 0 \implies y = -3x - 2$.
+Substituting into $x - 2y - 4 = 0$:
+$$x - 2(-3x - 2) - 4 = 0$$
+$$x + 6x + 4 - 4 = 0 \implies 7x = 0 \implies x = 0$$
+$$y = -3(0) - 2 = -2$$
+Point of intersection: $B(0, -2)$.
+
+**Step 3: Equation of the line joining $A\left(\dfrac{5}{11}, \dfrac{19}{11}\right)$ and $B(0, -2)$**
+Slope $m = \dfrac{-2 - \frac{19}{11}}{0 - \frac{5}{11}} = \dfrac{-\frac{41}{11}}{-\frac{5}{11}} = \dfrac{41}{5}$.
+
+Using point-slope form with $B(0, -2)$:
+$$y - (-2) = \dfrac{41}{5}(x - 0)$$
+$$5(y + 2) = 41x \implies \mathbf{41x - 5y - 10 = 0}$$
+
+</div>
+
+</details>
+
+---

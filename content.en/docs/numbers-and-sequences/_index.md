@@ -3503,3 +3503,143 @@ $$\mathbf{S_n = \frac{10}{27}(10^n - 1) - \frac{n}{3}}$$
 </details>
 
 ---
+
+#### PTA / Model (2 Marks)
+
+If $1^3 + 2^3 + 3^3 + \dots + k^3 = 16900$, find the value of $1 + 2 + 3 + \dots + k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+We know the relation between the sum of the first $k$ natural numbers and the sum of their cubes:
+$$1^3 + 2^3 + 3^3 + \dots + k^3 = \left(1 + 2 + 3 + \dots + k\right)^2$$
+
+Given:
+$$\left(1 + 2 + 3 + \dots + k\right)^2 = 16900$$
+
+Taking square root on both sides:
+$$1 + 2 + 3 + \dots + k = \sqrt{16900} = 130$$
+
+**Answer:** $\mathbf{130}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+Find the sum of all three-digit natural numbers which are divisible by 9.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The smallest three-digit natural number divisible by $9$ is $108$.
+The largest three-digit natural number divisible by $9$ is $999$.
+
+The three-digit numbers divisible by $9$ form an Arithmetic Progression (A.P.):
+$$108, 117, 126, \dots, 999$$
+
+Here:
+- First term $a = 108$
+- Common difference $d = 9$
+- Last term $l = 999$
+
+**Step 1: Find the number of terms ($n$)**
+$$n = \dfrac{l - a}{d} + 1$$
+$$n = \dfrac{999 - 108}{9} + 1 = \dfrac{891}{9} + 1 = 99 + 1 = 100$$
+
+**Step 2: Find the sum ($S_n$)**
+$$S_n = \dfrac{n}{2}(a + l)$$
+$$S_{100} = \dfrac{100}{2}(108 + 999) = 50 \times 1107 = 55350$$
+
+**Answer:** $\mathbf{55350}$
+
+</div>
+
+</details>
+
+---
+If $3 + k$, $18 - k$, $5k + 1$ are in A.P., then find the value of $k$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Since $3 + k$, $18 - k$, and $5k + 1$ are in Arithmetic Progression, the difference between consecutive terms is constant:
+$$t_2 - t_1 = t_3 - t_2$$
+$$(18 - k) - (3 + k) = (5k + 1) - (18 - k)$$
+$$18 - k - 3 - k = 5k + 1 - 18 + k$$
+$$15 - 2k = 6k - 17$$
+$$15 + 17 = 6k + 2k$$
+$$32 = 8k$$
+$$k = \frac{32}{8} = 4$$
+
+**Answer:** $\mathbf{k = 4}$
+
+</div>
+
+</details>
+
+---
+
+In a Geometric Progression, the first term $a = -7$ and common ratio $r = 6$. Find the G.P.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+The general form of a Geometric Progression is:
+$$a, \ ar, \ ar^2, \ ar^3, \ldots$$
+
+Given: $a = -7$ and $r = 6$.
+- First term: $t_1 = a = -7$
+- Second term: $t_2 = ar = (-7) \times 6 = -42$
+- Third term: $t_3 = ar^2 = (-42) \times 6 = -252$
+
+Therefore, the required Geometric Progression is:
+$$\mathbf{-7, \ -42, \ -252, \ \ldots}$$
+
+</div>
+
+</details>
+
+---
+
+Which term of the A.P. $21, 18, 15, \ldots$ is $-81$? Further, is $0$ a term of this A.P.? Give reason.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given A.P.: $21, 18, 15, \ldots$
+First term $a = 21$, common difference $d = 18 - 21 = -3$.
+Formula for $n^{\text{th}}$ term: $t_n = a + (n - 1)d$.
+
+1. **Finding the term that is $-81$:**
+   $$21 + (n - 1)(-3) = -81$$
+   $$(n - 1)(-3) = -81 - 21 = -102$$
+   $$n - 1 = \frac{-102}{-3} = 34$$
+   $$n = 35$$
+   Therefore, **$-81$ is the $35^{\text{th}}$ term**.
+
+2. **Checking if $0$ is a term of this A.P.:**
+   $$t_n = 21 + (n - 1)(-3) = 0$$
+   $$(n - 1)(-3) = -21$$
+   $$n - 1 = \frac{-21}{-3} = 7$$
+   $$n = 8$$
+   Since $n = 8$ is a positive integer, **$0$ is the $8^{\text{th}}$ term** of this A.P.
+
+</div>
+
+</details>
+
+---

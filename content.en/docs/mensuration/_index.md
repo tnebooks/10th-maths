@@ -1755,3 +1755,151 @@ Internal diameter = **$6\text{ cm}$**.
 </details>
 
 ---
+
+#### PTA / Model
+
+How many circular coins $1.5\text{ cm}$ in diameter and of thickness $2\text{ mm}$ must be melted to form a right circular cylinder of height $10\text{ cm}$ and diameter $4.5\text{ cm}$?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+The radius of a sector of a circle is $21\text{ cm}$ and its central angle is $216^\circ$. It is bent to form a cone by joining its bounding radii. Find the volume of the cone.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+A shuttle cock used for playing badminton has the shape of the combination of the frustum of a cone mounted on a hemisphere. The diameters of the frustum are $5\text{ cm}$ and $2\text{ cm}$, and the total height of the shuttle cock is $7\text{ cm}$. Find the external surface area.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+
+#### PTA / Model (5 Marks)
+
+A cylindrical bucket, 32 cm high and with radius of base 18 cm, is filled with sand. This bucket is emptied on the ground and a conical heap of sand is formed. If the height of the conical heap is 24 cm, find the radius and slant height of the heap.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $r_1$ and $h_1$ be the radius and height of the cylindrical bucket:
+$$r_1 = 18\text{ cm}, \quad h_1 = 32\text{ cm}$$
+
+Let $r_2$, $h_2$, and $l$ be the radius, height, and slant height of the conical heap of sand:
+$$h_2 = 24\text{ cm}$$
+
+Since the volume of sand in the cylindrical bucket equals the volume of the conical heap:
+$$\text{Volume of conical heap} = \text{Volume of cylindrical bucket}$$
+$$\dfrac{1}{3}\pi r_2^2 h_2 = \pi r_1^2 h_1$$
+
+Dividing both sides by $\pi$:
+$$\dfrac{1}{3} r_2^2 (24) = 18^2 \times 32$$
+$$8 r_2^2 = 324 \times 32$$
+$$r_2^2 = \dfrac{324 \times 32}{8} = 324 \times 4 = 1296$$
+$$r_2 = \sqrt{1296} = 36\text{ cm}$$
+
+Now, find the slant height $l$ of the conical heap:
+$$l = \sqrt{r_2^2 + h_2^2} = \sqrt{36^2 + 24^2} = \sqrt{1296 + 576} = \sqrt{1872}$$
+$$l = \sqrt{144 \times 13} = 12\sqrt{13}\text{ cm} \approx 43.27\text{ cm}$$
+
+**Answer:** Radius of heap $= \mathbf{36\text{ cm}}$, Slant height $= \mathbf{12\sqrt{13}\text{ cm}}$ (or $\mathbf{43.27\text{ cm}}$)
+
+</div>
+
+</details>
+
+---
+A cylindrical container of radius $6\text{ cm}$ and height $15\text{ cm}$ is completely filled with ice cream. The ice cream is to be filled into cones of height $9\text{ cm}$ and radius $3\text{ cm}$, having a hemispherical shape on the top. Find the number of such cones which can be filled with ice cream.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**1. Cylinder:**
+- Radius $R = 6\text{ cm}$, Height $H = 15\text{ cm}$
+$$\text{Volume of cylinder } V_1 = \pi R^2 H = \pi \times 6^2 \times 15 = 540\pi\text{ cm}^3$$
+
+**2. One Ice Cream Cone (Cone + Hemispherical top):**
+- Radius $r = 3\text{ cm}$, Height of cone $h = 9\text{ cm}$
+$$\text{Volume of cone} = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \times 3^2 \times 9 = 27\pi\text{ cm}^3$$
+$$\text{Volume of hemisphere} = \frac{2}{3}\pi r^3 = \frac{2}{3}\pi \times 3^3 = 18\pi\text{ cm}^3$$
+$$\text{Volume of one ice cream cone } V_2 = 27\pi + 18\pi = 45\pi\text{ cm}^3$$
+
+**3. Number of cones needed:**
+$$\text{Number of cones} = \frac{\text{Volume of cylinder}}{\text{Volume of one ice cream cone}} = \frac{540\pi}{45\pi} = 12$$
+
+**Answer:** $\mathbf{12\text{ cones}}$
+
+</div>
+
+</details>
+
+---
+
+A well of diameter $3\text{ m}$ is dug $14\text{ m}$ deep. The earth taken out of it has been spread evenly all around it in the shape of a circular ring of width $4\text{ m}$ to form an embankment. Find the height of the embankment.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+**1. Earth dug from the well:**
+- Well is cylindrical with diameter $d = 3\text{ m} \implies$ radius $r = \frac{3}{2} = 1.5\text{ m}$
+- Depth $h = 14\text{ m}$
+$$\text{Volume of earth dug out } V = \pi r^2 h = \pi \left(\frac{3}{2}\right)^2 (14) = \pi \times \frac{9}{4} \times 14 = \frac{63\pi}{2}\text{ m}^3$$
+
+**2. Embankment (Hollow cylindrical ring):**
+- Inner radius $r = 1.5\text{ m}$
+- Width $= 4\text{ m} \implies$ Outer radius $R = 1.5 + 4 = 5.5 = \frac{11}{2}\text{ m}$
+- Base area of embankment:
+  $$A = \pi (R^2 - r^2) = \pi \left[\left(\frac{11}{2}\right)^2 - \left(\frac{3}{2}\right)^2\right] = \pi \left(\frac{121 - 9}{4}\right) = 28\pi\text{ m}^2$$
+
+**3. Height of embankment $H$:**
+$$\text{Volume of embankment} = \text{Volume of earth dug out}$$
+$$A \times H = V$$
+$$28\pi \times H = \frac{63\pi}{2}$$
+$$H = \frac{63}{2 \times 28} = \frac{63}{56} = \frac{9}{8} = 1.125\text{ m}$$
+
+**Answer:** $\mathbf{1.125\text{ m}}$ (or $1\dfrac{1}{8}\text{ m}$)
+
+</div>
+
+</details>
+
+---

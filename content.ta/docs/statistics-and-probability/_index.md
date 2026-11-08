@@ -2672,3 +2672,271 @@ $$\mathbf{\frac{2}{9}}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+இரண்டு நகரங்கள் A மற்றும் B-யின் குளிர்காலத்தில் நிலவும் வெப்பநிலை அளவுகள் கீழே கொடுக்கப்பட்டுள்ளன:
+ நகரம் A: $18^\circ\text{C}, 20^\circ\text{C}, 22^\circ\text{C}, 24^\circ\text{C}, 26^\circ\text{C}$
+ நகரம் B: $11^\circ\text{C}, 14^\circ\text{C}, 15^\circ\text{C}, 17^\circ\text{C}, 18^\circ\text{C}$
+ எந்த நகரமானது வெப்பநிலை மாறுபாடுகளில் அதிகமான நிலைத் தன்மை கொண்டது?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+52 சீட்டுகள் கொண்ட சீட்டுக்கட்டிலிருந்து ஒரு சீட்டு எடுக்கப்படுகின்றது. அந்த சீட்டு இராசா அல்லது ஹார்ட் அல்லது சிவப்பு நிறச் சீட்டாக இருப்பதற்கான நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+கூறுவெளியின் மொத்த சீட்டுகளின் எண்ணிக்கை:
+$$n(S) = 52$$
+
+நிகழ்ச்சிகள்:
+- $A$: இராசா சீட்டு கிடைப்பதற்கான நிகழ்ச்சி
+- $B$: ஹார்ட் சீட்டு கிடைப்பதற்கான நிகழ்ச்சி
+- $C$: சிவப்பு நிறச் சீட்டு கிடைப்பதற்கான நிகழ்ச்சி
+
+எனவே:
+- $n(A) = 4 \implies P(A) = \dfrac{4}{52}$
+- $n(B) = 13 \implies P(B) = \dfrac{13}{52}$
+- $n(C) = 26 \implies P(C) = \dfrac{26}{52}$
+
+வெட்டு நிகழ்ச்சிகள்:
+- $A \cap B$: ஹார்ட் இராசா சீட்டாக இருத்தல்:
+  $$n(A \cap B) = 1 \implies P(A \cap B) = \dfrac{1}{52}$$
+- $B \cap C$: ஹார்ட் மற்றும் சிவப்பு சீட்டாக இருத்தல். அனைத்து 13 ஹார்ட் சீட்டுகளும் சிவப்பு நிறமுடையவை என்பதால்:
+  $$n(B \cap C) = 13 \implies P(B \cap C) = \dfrac{13}{52}$$
+- $A \cap C$: சிவப்பு இராசா சீட்டாக இருத்தல் (ஹார்ட் இராசா, டைமண்ட் இராசா):
+  $$n(A \cap C) = 2 \implies P(A \cap C) = \dfrac{2}{52}$$
+- $A \cap B \cap C$: சிவப்பு ஹார்ட் இராசா சீட்டாக இருத்தல்:
+  $$n(A \cap B \cap C) = 1 \implies P(A \cap B \cap C) = \dfrac{1}{52}$$
+
+மூன்று நிகழ்ச்சிகளுக்கான நிகழ்தகவின் கூட்டல் தேற்றப்படி:
+$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(B \cap C) - P(A \cap C) + P(A \cap B \cap C)$$
+$$P(A \cup B \cup C) = \dfrac{4 + 13 + 26 - 1 - 13 - 2 + 1}{52} = \dfrac{28}{52} = \dfrac{7}{13}$$
+
+**விடை:** $\mathbf{\dfrac{7}{13}}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+18, 20, 15, 12, 25 ஆகியவற்றின் மாறுபாட்டுக் கெழுவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட விவரங்கள் ஏறுவரிசையில்: $12, 15, 18, 20, 25$.
+விவரங்களின் எண்ணிக்கை $n = 5$.
+
+**படி 1: கூட்டுச் சராசரி ($\overline{x}$) காணல்:**
+$$\overline{x} = \dfrac{\sum x}{n} = \dfrac{12 + 15 + 18 + 20 + 25}{5} = \dfrac{90}{5} = 18$$
+
+**படி 2: விலக்கங்கள் $d = x - \overline{x}$ மற்றும் $d^2$ அட்டவணை:**
+$\overline{x} = 18$ எனக்கொள்க:
+- $x = 12 \implies d = 12 - 18 = -6 \implies d^2 = 36$
+- $x = 15 \implies d = 15 - 18 = -3 \implies d^2 = 9$
+- $x = 18 \implies d = 18 - 18 = 0 \implies d^2 = 0$
+- $x = 20 \implies d = 20 - 18 = 2 \implies d^2 = 4$
+- $x = 25 \implies d = 25 - 18 = 7 \implies d^2 = 49$
+
+$$\sum d^2 = 36 + 9 + 0 + 4 + 49 = 98$$
+
+**படி 3: திட்டவிலக்கம் ($\sigma$) காணல்:**
+$$\sigma = \sqrt{\dfrac{\sum d^2}{n}} = \sqrt{\dfrac{98}{5}} = \sqrt{19.6} \approx 4.43$$
+
+**படி 4: மாறுபாட்டுக் கெழு ($C.V.$) காணல்:**
+$$C.V. = \dfrac{\sigma}{\overline{x}} \times 100\% = \dfrac{4.43}{18} \times 100\% \approx 24.6\%$$
+
+**விடை:** $\mathbf{24.6\%}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / மாதிரி வினாத்தாள் (5 மதிப்பெண்கள்)
+
+ஒரு குடும்பத்தில் குறிப்பிட்ட வாரத்தில் உட்கொள்ளப்பட்ட கொய்யா மற்றும் ஆரஞ்சு பழங்களின் எண்ணிக்கைகள் கீழே கொடுக்கப்பட்டுள்ளன:
+- கொய்யாப் பழங்களின் எண்ணிக்கை: $3, 5, 6, 4, 3, 5, 4$
+- ஆரஞ்சு பழங்களின் எண்ணிக்கை: $1, 3, 7, 9, 2, 6, 2$
+
+இங்கு, எந்த பழம் சீராக எடுத்துக்கொள்ளப்பட்டது?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+எந்த பழம் சீராக எடுத்துக்கொள்ளப்பட்டது என்பதை அறிய இரண்டிற்கும் மாறுபாட்டுக் கெழு ($C.V.$) கணக்கிட வேண்டும். குறைவான மாறுபாட்டுக் கெழுவைக் கொண்ட பழமே மிகவும் சீராக எடுத்துக்கொள்ளப்பட்டதாகும்.
+
+**1. கொய்யாப் பழங்கள் ($x$):**
+விவரங்கள்: $3, 5, 6, 4, 3, 5, 4$ ($n = 7$)
+$$\sum x = 30 \implies \overline{x} = \dfrac{30}{7} \approx 4.29$$
+$$\sum x^2 = 9 + 25 + 36 + 16 + 9 + 25 + 16 = 136$$
+
+திட்டவிலக்கம் ($\sigma_1$):
+$$\sigma_1 = \sqrt{\dfrac{\sum x^2}{n} - (\overline{x})^2} = \sqrt{\dfrac{136}{7} - \left(\dfrac{30}{7}\right)^2} = \sqrt{\dfrac{52}{49}} = \dfrac{\sqrt{52}}{7} \approx 1.03$$
+
+மாறுபாட்டுக் கெழு:
+$$C.V._1 = \dfrac{\sigma_1}{\overline{x}} \times 100\% = \dfrac{1.03}{4.29} \times 100\% \approx 24.01\%$$
+
+**2. ஆரஞ்சு பழங்கள் ($y$):**
+விவரங்கள்: $1, 3, 7, 9, 2, 6, 2$ ($n = 7$)
+$$\sum y = 30 \implies \overline{y} = \dfrac{30}{7} \approx 4.29$$
+$$\sum y^2 = 1 + 9 + 49 + 81 + 4 + 36 + 4 = 184$$
+
+திட்டவிலக்கம் ($\sigma_2$):
+$$\sigma_2 = \sqrt{\dfrac{\sum y^2}{n} - (\overline{y})^2} = \sqrt{\dfrac{184}{7} - \left(\dfrac{30}{7}\right)^2} = \sqrt{\dfrac{388}{49}} = \dfrac{\sqrt{388}}{7} \approx 2.81$$
+
+மாறுபாட்டுக் கெழு:
+$$C.V._2 = \dfrac{\sigma_2}{\overline{y}} \times 100\% = \dfrac{2.81}{4.29} \times 100\% \approx 65.50\%$$
+
+**முடிவு:**
+$C.V.(\text{கொய்யா}) < C.V.(\text{ஆரஞ்சு})$ என்பதால், **கொய்யாப் பழமே** சீராக எடுத்துக்கொள்ளப்பட்டது ஆகும்.
+
+</div>
+
+</details>
+
+---
+கொடுக்கப்பட்ட பரவலின் வீச்சு காண்க:
+
+| வயது (வருடங்களில்) | 16–18 | 18–20 | 20–22 | 22–24 | 24–26 | 26–28 |
+|---|---|---|---|---|---|---|
+| மாணவர் எண்ணிக்கை | 0 | 4 | 6 | 8 | 2 | 2 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+கொடுக்கப்பட்ட தொடர் நிகழ்வெண் பரவலில், $16–18$ என்ற பிரிவு இடைவெளியின் நிகழ்வெண் $0$ ஆகும்.
+எனவே, உண்மையான தரவுகள் $18$ முதல் $28$ வரை உள்ளன.
+
+- மிகப்பெரிய மதிப்பு $L =$ உச்ச பிரிவு எல்லை $= 28$
+- மிகச்சிறிய மதிப்பு $S =$ பூச்சியமற்ற நிகழ்வெண் கொண்ட தொடக்க எல்லை $= 18$
+
+$$\text{வீச்சு } R = L - S = 28 - 18 = 10\text{ ஆண்டுகள்}$$
+
+*(குறிப்பு: அட்டவணையின் எல்லைகளை நேரடியாகக் கொண்டால்: $R = 28 - 16 = 12\text{ ஆண்டுகள்}$).*
+
+**விடை:** $\mathbf{10\text{ ஆண்டுகள்}}$ (அல்லது $12\text{ ஆண்டுகள்}$)
+
+</div>
+
+</details>
+
+---
+
+மூன்று சீரான நாணயங்கள் முறையாக ஒரே நேரத்தில் சுண்டப்படுகின்றன.
+(i) குறைந்தபட்சம் ஒரு பூ கிடைக்க மற்றும்
+(ii) அதிகபட்சம் ஒரு தலை கிடைக்க நிகழ்தகவுகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+மூன்று சீரான நாணயங்கள் சுண்டப்படும்போது, கூறுவெளி:
+$$S = \{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\} \implies n(S) = 8$$
+
+1. **நிகழ்ச்சி $A$: குறைந்தபட்சம் ஒரு பூ கிடைத்தல்**
+   $HHH$ தவிர்ந்த பிற அனைத்து கூறுகளும் இதில் அடங்கும்:
+   $$A = \{HHT, HTH, HTT, THH, THT, TTH, TTT\} \implies n(A) = 7$$
+   $$P(A) = \frac{n(A)}{n(S)} = \mathbf{\frac{7}{8}}$$
+
+2. **நிகழ்ச்சி $B$: அதிகபட்சம் ஒரு தலை கிடைத்தல்**
+   0 தலை அல்லது 1 தலை கொண்ட கூறுகள்:
+   $$B = \{HTT, THT, TTH, TTT\} \implies n(B) = 4$$
+   $$P(B) = \frac{n(B)}{n(S)} = \frac{4}{8} = \mathbf{\frac{1}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+$50$ மாணவர்கள் $100$ மீட்டர் தூரத்தை கடக்க எடுத்துக் கொண்ட கால அளவுகள் கீழேக் கொடுக்கப்பட்டுள்ளன. அவற்றின் திட்டவிலக்கம் காண்க.
+
+| எடுத்துக்கொண்ட நேரம் (விநாடிகளில்) | 8.5–9.5 | 9.5–10.5 | 10.5–11.5 | 11.5–12.5 | 12.5–13.5 |
+|---|---|---|---|---|---|
+| மாணவர்களின் எண்ணிக்கை | 6 | 8 | 17 | 10 | 9 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+ஊகிக்கப்பட்ட சராசரி $A = 11$ என்க.
+
+| பிரிவு இடைவெளி | நடுமதிப்பு ($x_i$) | $d_i = x_i - 11$ | நிகழ்வெண் ($f_i$) | $f_i d_i$ | $f_i d_i^2$ |
+|---|---|---|---|---|---|
+| 8.5–9.5 | 9 | -2 | 6 | -12 | 24 |
+| 9.5–10.5 | 10 | -1 | 8 | -8 | 8 |
+| 10.5–11.5 | 11 | 0 | 17 | 0 | 0 |
+| 11.5–12.5 | 12 | 1 | 10 | 10 | 10 |
+| 12.5–13.5 | 13 | 2 | 9 | 18 | 36 |
+| **மொத்தம்** | | | **$N = 50$** | **$\sum f_i d_i = 8$** | **$\sum f_i d_i^2 = 78$** |
+
+திட்டவிலக்க சூத்திரம்:
+$$\sigma = \sqrt{\frac{\sum f_i d_i^2}{N} - \left(\frac{\sum f_i d_i}{N}\right)^2}$$
+$$= \sqrt{\frac{78}{50} - \left(\frac{8}{50}\right)^2} = \sqrt{1.56 - 0.0256} = \sqrt{1.5344} \approx \mathbf{1.24\text{ விநாடிகள்}}$$
+
+</div>
+
+</details>
+
+---
+
+$52$ சீட்டுகள் கொண்ட சீட்டுக் கட்டிலிருந்து ஒரு சீட்டு எடுக்கப்படுகின்றது. அந்த சீட்டு இராணியாக அல்லது டைமண்ட் அல்லது கருப்பு நிறச் சீட்டாக இருக்க நிகழ்தகவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+மொத்த சீட்டுகளின் எண்ணிக்கை $n(S) = 52$.
+
+- $A$ என்பது இராணி சீட்டு எடுக்கும் நிகழ்ச்சி என்க $\implies n(A) = 4, \quad P(A) = \dfrac{4}{52}$
+- $B$ என்பது டைமண்ட் சீட்டு எடுக்கும் நிகழ்ச்சி என்க $\implies n(B) = 13, \quad P(B) = \dfrac{13}{52}$
+- $C$ என்பது கருப்பு நிறச் சீட்டு எடுக்கும் நிகழ்ச்சி என்க $\implies n(C) = 26, \quad P(C) = \dfrac{26}{52}$
+
+வெட்டு நிகழ்ச்சிகள்:
+- $A \cap B$: டைமண்ட் இராணி $\implies n(A \cap B) = 1, \quad P(A \cap B) = \dfrac{1}{52}$
+- $B \cap C$: டைமண்ட் மற்றும் கருப்பு சீட்டு $\implies$ டைமண்ட் சீட்டுகள் அனைத்தும் சிவப்பு நிறம் என்பதால் $B \cap C = \emptyset \implies P(B \cap C) = 0$
+- $A \cap C$: கருப்பு நிற இராணிகள் (ஸ்பேடு, கிளாவர்) $\implies n(A \cap C) = 2, \quad P(A \cap C) = \dfrac{2}{52}$
+- $A \cap B \cap C$: கருப்பு நிற டைமண்ட் இராணி $\implies \emptyset \implies P(A \cap B \cap C) = 0$
+
+நிகழ்தகவின் கூட்டல் தேற்றத்தின்படி:
+$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(B \cap C) - P(A \cap C) + P(A \cap B \cap C)$$
+$$= \frac{4}{52} + \frac{13}{52} + \frac{26}{52} - \frac{1}{52} - 0 - \frac{2}{52} + 0$$
+$$= \frac{4 + 13 + 26 - 1 - 2}{52} = \frac{40}{52} = \mathbf{\frac{10}{13}}$$
+
+</div>
+
+</details>
+
+---

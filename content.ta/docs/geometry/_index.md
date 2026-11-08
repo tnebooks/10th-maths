@@ -2993,3 +2993,27 @@ $QR = 6.5$செ.மீ, $\angle P = 60^\circ$ மற்றும் உச்�
 </details>
 
 ---
+#### PTA / Model (2 Marks)
+
+$\triangle ABC$-யில் $AD$ என்பது $\angle A$-ன் இருசமவெட்டி ஆகும். $BD = 4\text{ செ.மீ}$, $DC = 3\text{ செ.மீ}$ மற்றும் $AB = 6\text{ செ.மீ}$ எனில் $AC$-ன் மதிப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">மாதிரி விடை & தீர்வு காண்க</summary>
+
+<div class="pt-3">
+
+கோண இருசமவெட்டி தேற்றத்தின்படி, ஒரு முக்கோணத்தின் ஒரு கோணத்தின் உட்புற இருசமவெட்டியானது அக்கோணத்தின் எதிர்ப்பக்கத்தை உட்புறமாக அக்கோணத்தினை அடக்கிய பக்கங்களின் விகிதத்தில் பிரிக்கும்:
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+கொடுக்கப்பட்ட மதிப்புகளைப் பிரதியிட ($AB = 6\text{ செ.மீ}$, $BD = 4\text{ செ.மீ}$, $DC = 3\text{ செ.மீ}$):
+$$\frac{6}{AC} = \frac{4}{3}$$
+$$4 \cdot AC = 6 \times 3 = 18$$
+$$AC = \frac{18}{4} = 4.5\text{ செ.மீ}$$
+
+**விடை:** $\mathbf{AC = 4.5\text{ செ.மீ}}$
+
+</div>
+
+</details>
+
+---

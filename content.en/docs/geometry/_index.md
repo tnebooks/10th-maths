@@ -3057,3 +3057,27 @@ Then $\triangle P'QR'$ is the required triangle whose sides are $\frac{3}{5}$ of
 </details>
 
 ---
+#### PTA / Model (2 Marks)
+
+In $\triangle ABC$, $AD$ is the bisector of $\angle A$. If $BD = 4\text{ cm}$, $DC = 3\text{ cm}$ and $AB = 6\text{ cm}$, find the length of $AC$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+By the Angle Bisector Theorem, the internal bisector of an angle of a triangle divides the opposite side internally in the ratio of the corresponding sides containing the angle:
+$$\frac{AB}{AC} = \frac{BD}{DC}$$
+
+Substituting the given values $AB = 6\text{ cm}$, $BD = 4\text{ cm}$, and $DC = 3\text{ cm}$:
+$$\frac{6}{AC} = \frac{4}{3}$$
+$$4 \cdot AC = 6 \times 3 = 18$$
+$$AC = \frac{18}{4} = 4.5\text{ cm}$$
+
+**Answer:** $\mathbf{AC = 4.5\text{ cm}}$
+
+</div>
+
+</details>
+
+---

@@ -2830,3 +2830,273 @@ $$\mathbf{\frac{2}{9}}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+The temperatures of two cities A and B during winter are given below:
+ City A: $18^\circ\text{C}, 20^\circ\text{C}, 22^\circ\text{C}, 24^\circ\text{C}, 26^\circ\text{C}$
+ City B: $11^\circ\text{C}, 14^\circ\text{C}, 15^\circ\text{C}, 17^\circ\text{C}, 18^\circ\text{C}$
+ Which city is more consistent in temperature?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+
+#### PTA / Model (5 Marks)
+
+From a well-shuffled pack of 52 cards, a card is drawn at random. Find the probability that it is either a King or a Heart or a Red card.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total number of cards in the pack:
+$$n(S) = 52$$
+
+Let the events be:
+- $A$: Event of drawing a King card
+- $B$: Event of drawing a Heart card
+- $C$: Event of drawing a Red card
+
+Then:
+- $n(A) = 4 \implies P(A) = \dfrac{4}{52}$
+- $n(B) = 13 \implies P(B) = \dfrac{13}{52}$
+- $n(C) = 26 \implies P(C) = \dfrac{26}{52}$
+
+Intersections:
+- $A \cap B$: Drawing a King of Hearts:
+  $$n(A \cap B) = 1 \implies P(A \cap B) = \dfrac{1}{52}$$
+- $B \cap C$: Drawing a Heart and Red card. Since all 13 Hearts are Red, $B \cap C = B$:
+  $$n(B \cap C) = 13 \implies P(B \cap C) = \dfrac{13}{52}$$
+- $A \cap C$: Drawing a Red King (King of Hearts, King of Diamonds):
+  $$n(A \cap C) = 2 \implies P(A \cap C) = \dfrac{2}{52}$$
+- $A \cap B \cap C$: Drawing a Red King of Hearts:
+  $$n(A \cap B \cap C) = 1 \implies P(A \cap B \cap C) = \dfrac{1}{52}$$
+
+By the Addition Theorem of Probability:
+$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(B \cap C) - P(A \cap C) + P(A \cap B \cap C)$$
+$$P(A \cup B \cup C) = \dfrac{4 + 13 + 26 - 1 - 13 - 2 + 1}{52} = \dfrac{28}{52} = \dfrac{7}{13}$$
+
+**Answer:** $\mathbf{\dfrac{7}{13}}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+Find the coefficient of variation of 18, 20, 15, 12, 25.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Given data in ascending order: $12, 15, 18, 20, 25$.
+Number of observations $n = 5$.
+
+**Step 1: Calculate the Mean ($\overline{x}$)**
+$$\overline{x} = \dfrac{\sum x}{n} = \dfrac{12 + 15 + 18 + 20 + 25}{5} = \dfrac{90}{5} = 18$$
+
+**Step 2: Calculate Deviations $d = x - \overline{x}$ and $d^2$**
+- For $x = 12$: $d = 12 - 18 = -6 \implies d^2 = 36$
+- For $x = 15$: $d = 15 - 18 = -3 \implies d^2 = 9$
+- For $x = 18$: $d = 18 - 18 = 0 \implies d^2 = 0$
+- For $x = 20$: $d = 20 - 18 = 2 \implies d^2 = 4$
+- For $x = 25$: $d = 25 - 18 = 7 \implies d^2 = 49$
+
+$$\sum d^2 = 36 + 9 + 0 + 4 + 49 = 98$$
+
+**Step 3: Calculate Standard Deviation ($\sigma$)**
+$$\sigma = \sqrt{\dfrac{\sum d^2}{n}} = \sqrt{\dfrac{98}{5}} = \sqrt{19.6} \approx 4.43$$
+
+**Step 4: Calculate Coefficient of Variation ($C.V.$)**
+$$C.V. = \dfrac{\sigma}{\overline{x}} \times 100\% = \dfrac{4.43}{18} \times 100\% \approx 24.6\%$$
+
+**Answer:** $\mathbf{24.6\%}$
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model (5 Marks)
+
+The consumption of the number of guavas and oranges in a particular week by a family are given below:
+- Number of Guavas: $3, 5, 6, 4, 3, 5, 4$
+- Number of Oranges: $1, 3, 7, 9, 2, 6, 2$
+
+Which fruit is consistently consumed?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+To find which fruit is consistently consumed, we calculate the Coefficient of Variation ($C.V.$) for both fruits. The fruit with the lower $C.V.$ is consumed more consistently.
+
+**1. For Guavas ($x$):**
+Observations: $3, 5, 6, 4, 3, 5, 4$ ($n = 7$)
+$$\sum x = 3 + 5 + 6 + 4 + 3 + 5 + 4 = 30$$
+$$\text{Mean } \overline{x} = \dfrac{\sum x}{n} = \dfrac{30}{7} \approx 4.29$$
+$$\sum x^2 = 3^2 + 5^2 + 6^2 + 4^2 + 3^2 + 5^2 + 4^2 = 9 + 25 + 36 + 16 + 9 + 25 + 16 = 136$$
+
+Standard deviation ($\sigma_1$):
+$$\sigma_1 = \sqrt{\dfrac{\sum x^2}{n} - (\overline{x})^2} = \sqrt{\dfrac{136}{7} - \left(\dfrac{30}{7}\right)^2} = \sqrt{\dfrac{952 - 900}{49}} = \sqrt{\dfrac{52}{49}} = \dfrac{\sqrt{52}}{7} \approx \dfrac{7.21}{7} \approx 1.03$$
+
+Coefficient of variation:
+$$C.V._1 = \dfrac{\sigma_1}{\overline{x}} \times 100\% = \dfrac{1.03}{4.29} \times 100\% \approx 24.01\%$$
+
+**2. For Oranges ($y$):**
+Observations: $1, 3, 7, 9, 2, 6, 2$ ($n = 7$)
+$$\sum y = 1 + 3 + 7 + 9 + 2 + 6 + 2 = 30$$
+$$\text{Mean } \overline{y} = \dfrac{\sum y}{n} = \dfrac{30}{7} \approx 4.29$$
+$$\sum y^2 = 1^2 + 3^2 + 7^2 + 9^2 + 2^2 + 6^2 + 2^2 = 1 + 9 + 49 + 81 + 4 + 36 + 4 = 184$$
+
+Standard deviation ($\sigma_2$):
+$$\sigma_2 = \sqrt{\dfrac{\sum y^2}{n} - (\overline{y})^2} = \sqrt{\dfrac{184}{7} - \left(\dfrac{30}{7}\right)^2} = \sqrt{\dfrac{1288 - 900}{49}} = \sqrt{\dfrac{388}{49}} = \dfrac{\sqrt{388}}{7} \approx \dfrac{19.70}{7} \approx 2.81$$
+
+Coefficient of variation:
+$$C.V._2 = \dfrac{\sigma_2}{\overline{y}} \times 100\% = \dfrac{2.81}{4.29} \times 100\% \approx 65.50\%$$
+
+**Conclusion:**
+Since $C.V.(\text{Guava}) < C.V.(\text{Orange})$, the consumption of **Guava** is more consistent.
+
+</div>
+
+</details>
+
+---
+Find the range of the following distribution:
+
+| Age (in years) | 16–18 | 18–20 | 20–22 | 22–24 | 24–26 | 26–28 |
+|---|---|---|---|---|---|---|
+| Number of students | 0 | 4 | 6 | 8 | 2 | 2 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+In the given continuous frequency distribution, the frequency for the class interval $16–18$ is $0$.
+Therefore, the actual observations lie between $18$ and $28$.
+
+- Largest value $L =$ Upper boundary of the highest class with data $= 28$
+- Smallest value $S =$ Lower boundary of the lowest class with non-zero frequency $= 18$
+
+$$\text{Range } R = L - S = 28 - 18 = 10\text{ years}$$
+
+*(Note: If calculated directly from the table endpoints: $R = 28 - 16 = 12\text{ years}$).*
+
+**Answer:** $\mathbf{10\text{ years}}$ (or $12\text{ years}$)
+
+</div>
+
+</details>
+
+---
+
+Three fair coins are tossed together. Find the probability of getting:
+(i) at least one tail
+(ii) at most one head
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+When three fair coins are tossed, the sample space is:
+$$S = \{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\} \implies n(S) = 8$$
+
+1. **Event $A$: Getting at least one tail**
+   $A$ contains all outcomes except $HHH$:
+   $$A = \{HHT, HTH, HTT, THH, THT, TTH, TTT\} \implies n(A) = 7$$
+   $$P(A) = \frac{n(A)}{n(S)} = \mathbf{\frac{7}{8}}$$
+
+2. **Event $B$: Getting at most one head**
+   $B$ contains outcomes with 0 heads or 1 head:
+   $$B = \{HTT, THT, TTH, TTT\} \implies n(B) = 4$$
+   $$P(B) = \frac{n(B)}{n(S)} = \frac{4}{8} = \mathbf{\frac{1}{2}}$$
+
+</div>
+
+</details>
+
+---
+
+The time taken, in seconds, to complete a $100\text{ m}$ race by $50$ students are given below. Find their standard deviation.
+
+| Time taken (sec) | 8.5–9.5 | 9.5–10.5 | 10.5–11.5 | 11.5–12.5 | 12.5–13.5 |
+|---|---|---|---|---|---|
+| Number of students | 6 | 8 | 17 | 10 | 9 |
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let the assumed mean be $A = 11$.
+
+| Class Interval | Mid-value ($x_i$) | $d_i = x_i - 11$ | Frequency ($f_i$) | $f_i d_i$ | $f_i d_i^2$ |
+|---|---|---|---|---|---|
+| 8.5–9.5 | 9 | -2 | 6 | -12 | 24 |
+| 9.5–10.5 | 10 | -1 | 8 | -8 | 8 |
+| 10.5–11.5 | 11 | 0 | 17 | 0 | 0 |
+| 11.5–12.5 | 12 | 1 | 10 | 10 | 10 |
+| 12.5–13.5 | 13 | 2 | 9 | 18 | 36 |
+| **Total** | | | **$N = 50$** | **$\sum f_i d_i = 8$** | **$\sum f_i d_i^2 = 78$** |
+
+Standard deviation formula:
+$$\sigma = \sqrt{\frac{\sum f_i d_i^2}{N} - \left(\frac{\sum f_i d_i}{N}\right)^2}$$
+$$= \sqrt{\frac{78}{50} - \left(\frac{8}{50}\right)^2} = \sqrt{1.56 - (0.16)^2} = \sqrt{1.56 - 0.0256}$$
+$$= \sqrt{1.5344} \approx \mathbf{1.24\text{ seconds}}$$
+
+</div>
+
+</details>
+
+---
+
+From a well-shuffled pack of $52$ cards, a card is drawn at random. Find the probability that it will be either a Queen or a Diamond or a black card.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Total number of cards $n(S) = 52$.
+
+- Let $A$ be the event of drawing a Queen $\implies n(A) = 4, \quad P(A) = \dfrac{4}{52}$
+- Let $B$ be the event of drawing a Diamond card $\implies n(B) = 13, \quad P(B) = \dfrac{13}{52}$
+- Let $C$ be the event of drawing a Black card $\implies n(C) = 26, \quad P(C) = \dfrac{26}{52}$
+
+Now determine the intersections:
+- $A \cap B$: Queen of Diamonds $\implies n(A \cap B) = 1, \quad P(A \cap B) = \dfrac{1}{52}$
+- $B \cap C$: Diamond and Black card $\implies$ Diamonds are all red, so $B \cap C = \emptyset \implies P(B \cap C) = 0$
+- $A \cap C$: Black Queens (Spades Queen, Clubs Queen) $\implies n(A \cap C) = 2, \quad P(A \cap C) = \dfrac{2}{52}$
+- $A \cap B \cap C$: Queen of Diamonds which is Black $\implies \emptyset \implies P(A \cap B \cap C) = 0$
+
+By the Addition Theorem of Probability:
+$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(B \cap C) - P(A \cap C) + P(A \cap B \cap C)$$
+$$= \frac{4}{52} + \frac{13}{52} + \frac{26}{52} - \frac{1}{52} - 0 - \frac{2}{52} + 0$$
+$$= \frac{4 + 13 + 26 - 1 - 2}{52} = \frac{40}{52} = \mathbf{\frac{10}{13}}$$
+
+</div>
+
+</details>
+
+---
