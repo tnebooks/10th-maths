@@ -1705,3 +1705,55 @@ $$125 - r_i^3 = 98 \implies r_i^3 = 27 \implies r_i = 3\text{ செ.மீ}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+உயரம் $10\text{ செ.மீ}$ மற்றும் விட்டம் $4.5\text{ செ.மீ}$ உடைய ஒரு நேர்வட்ட உருளையை உருவாக்க $1.5\text{ செ.மீ}$ விட்டமும் $2\text{ மி.மீ}$ தடிமனும் கொண்ட எத்தனை வட்ட வில்லைகள் (நாணயங்கள்) தேவை?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+ஒரு வட்டக் கோணப்பகுதி வடிவில் உள்ள உலோகத் தகட்டின் ஆரம் $21\text{ செ.மீ}$ மற்றும் மையக்கோணம் $216^\circ$ ஆகும். வட்டக் கோணப்பகுதியின் ஆரங்களை இணைத்து உருவாக்கப்படும் கூம்பின் கன அளவைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+ஓர் இறகு பந்தின் மேற்புறம் கூம்பின் இடைக்கண்ட வடிவிலும் கீழ்ப்புறம் அரைக்கோள வடிவிலும் உள்ளது. இடைக்கண்டத்தின் விட்டங்கள் $5\text{ செ.மீ}$ மற்றும் $2\text{ செ.மீ}$ ஆகவும், இறகுபந்தின் மொத்த உயரம் $7\text{ செ.மீ}$ ஆகவும் இருக்குமானால் இறகு பந்தின் புறப்பரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

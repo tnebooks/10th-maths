@@ -2715,3 +2715,21 @@ $$\mathbf{2x + 5y + 6 = 0}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+நாற்கர வடிவ நீச்சல் குளத்தின் கான்கிரீட் உள்முற்றமானது படத்தில் காட்டியுள்ளபடி அமைக்கப்பட்டுள்ளது. வெளிப்புற முனைகள் $A(-4, -8)$, $B(8, -4)$, $C(6, 10)$, $D(-10, 6)$ மற்றும் நீச்சல் குளத்தின் உட்புற முனைகள் $E(-3, -5)$, $F(6, -2)$, $G(3, 7)$, $H(-6, 4)$ எனில், கான்கிரீட் உள்முற்றத்தின் பரப்பைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

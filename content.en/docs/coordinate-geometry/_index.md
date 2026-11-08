@@ -2974,3 +2974,21 @@ $$\mathbf{2x + 5y + 6 = 0}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+A quadrilateral swimming pool is surrounded by a concrete patio. The vertices of the outer boundary are $A(-4, -8)$, $B(8, -4)$, $C(6, 10)$, and $D(-10, 6)$, and the vertices of the swimming pool are $E(-3, -5)$, $F(6, -2)$, $G(3, 7)$, and $H(-6, 4)$. Find the area of the concrete patio.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

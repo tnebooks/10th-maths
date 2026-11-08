@@ -1753,3 +1753,55 @@ Internal diameter = **$6\text{ cm}$**.
 </details>
 
 ---
+
+#### PTA / Model
+
+How many circular coins $1.5\text{ cm}$ in diameter and of thickness $2\text{ mm}$ must be melted to form a right circular cylinder of height $10\text{ cm}$ and diameter $4.5\text{ cm}$?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+The radius of a sector of a circle is $21\text{ cm}$ and its central angle is $216^\circ$. It is bent to form a cone by joining its bounding radii. Find the volume of the cone.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+A shuttle cock used for playing badminton has the shape of the combination of the frustum of a cone mounted on a hemisphere. The diameters of the frustum are $5\text{ cm}$ and $2\text{ cm}$, and the total height of the shuttle cock is $7\text{ cm}$. Find the external surface area.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

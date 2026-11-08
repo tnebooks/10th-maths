@@ -1739,3 +1739,21 @@ The distance between the two ships is **$546.4\text{ m}$**.
 </details>
 
 ---
+
+#### PTA / Model
+
+A $1.2\text{ m}$ tall girl spots a balloon moving with the wind in a horizontal line at a height of $88.2\text{ m}$ from the ground. The angle of elevation of the balloon from the eyes of the girl at an instant is $60^\circ$. After some time, the angle of elevation reduces to $30^\circ$. Find the distance travelled by the balloon during the interval.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

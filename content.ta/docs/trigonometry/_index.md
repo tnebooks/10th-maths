@@ -1754,3 +1754,21 @@ $$\text{LHS} = (1 - \sin A\cos A) + (1 + \sin A\cos A) = 2 = \text{RHS}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+ஒரு சிறுமியின் உயரம் $1.2\text{ மீ}$ ஆகும். $88.2\text{ மீ}$ உயரத்தில் கிடைமட்டமாக காற்றில் நகரும் பலூனை அவள் தரையில் நின்றவாறு பார்க்கிறாள். ஒரு புள்ளியில் பலூனின் ஏற்றக்கோணம் $60^\circ$. சிறிது நேரத்தில் மற்றொரு புள்ளியில் பலூனின் ஏற்றக்கோணம் $30^\circ$ ஆகக் குறைகிறது. இந்த இடைவெளியில் பலூன் கடந்த தூரத்தைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

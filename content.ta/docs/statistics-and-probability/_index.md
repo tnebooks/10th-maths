@@ -2672,3 +2672,24 @@ $$\mathbf{\frac{2}{9}}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+இரண்டு நகரங்கள் A மற்றும் B-யின் குளிர்காலத்தில் நிலவும் வெப்பநிலை அளவுகள் கீழே கொடுக்கப்பட்டுள்ளன:
+ நகரம் A: $18^\circ\text{C}, 20^\circ\text{C}, 22^\circ\text{C}, 24^\circ\text{C}, 26^\circ\text{C}$
+ நகரம் B: $11^\circ\text{C}, 14^\circ\text{C}, 15^\circ\text{C}, 17^\circ\text{C}, 18^\circ\text{C}$
+ எந்த நகரமானது வெப்பநிலை மாறுபாடுகளில் அதிகமான நிலைத் தன்மை கொண்டது?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

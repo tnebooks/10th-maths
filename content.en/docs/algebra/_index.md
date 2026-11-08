@@ -4676,6 +4676,74 @@ $$\mathbf{x^2 - 3x + 2 = 0}$$
 
 ---
 
+#### PTA / Model
+
+Find the sum to $n$ terms of the series $3 + 33 + 333 + \ldots$
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+In a place, a flock of $x^2$ swans was present. Due to the gathering of clouds, $10x$ swans went to the lake. One-eighth of the total number of swans flew to the garden. The remaining three pairs played in the water. Find the total number of swans.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+The base of a triangle is $4\text{ cm}$ more than its altitude. If the area of the triangle is $48\text{ cm}^2$, find its base and altitude.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+A motor boat whose speed is $18\text{ km/hr}$ in still water takes $1\text{ hour}$ more to go $24\text{ km}$ upstream than to return downstream to the same spot. Find the speed of the stream.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
 ### 8 Marks
 
 #### 2023

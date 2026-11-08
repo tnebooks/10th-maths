@@ -2830,3 +2830,24 @@ $$\mathbf{\frac{2}{9}}$$
 </details>
 
 ---
+
+#### PTA / Model
+
+The temperatures of two cities A and B during winter are given below:
+ City A: $18^\circ\text{C}, 20^\circ\text{C}, 22^\circ\text{C}, 24^\circ\text{C}, 26^\circ\text{C}$
+ City B: $11^\circ\text{C}, 14^\circ\text{C}, 15^\circ\text{C}, 17^\circ\text{C}, 18^\circ\text{C}$
+ Which city is more consistent in temperature?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+

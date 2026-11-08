@@ -5113,3 +5113,71 @@ $y = x^2 - 6x + 9$ என்க.
 
 ---
 
+#### PTA / Model
+
+$3 + 33 + 333 + \ldots$ என்ற தொடர்வரிசையின் முதல் $n$ உறுப்புகளின் கூடுதல் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+ஓர் இடத்தில் $x^2$ அன்னங்கள் கூட்டமாக இருந்தன. மேகங்கள் கூடியதால் $10x$ அன்னங்கள் ஏரிக்குச் சென்றன. மொத்த அன்னங்களில் எட்டில் ஒரு பங்கு தோட்டத்திற்குப் பறந்தன. மிதமுள்ள மூன்று ஜோடிகள் நீரில் விளையாடின எனில், மொத்த அன்னங்களின் எண்ணிக்கையைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+ஒரு முக்கோணத்தின் அடிப்பக்கம் அதன் குத்துயரத்தை விட $4\text{ செ.மீ}$ அதிகம். முக்கோணத்தின் பரப்பளவு $48\text{ சதுர செ.மீ}$ எனில், அதன் அடிப்பக்கம் மற்றும் குத்துயரத்தின் அளவுகளைக் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
+#### PTA / Model
+
+நிலையான நீரில் $18\text{ கி.மீ/மணி}$ வேகத்தில் செல்லும் ஓர் இயந்திரப் படகானது $24\text{ கி.மீ}$ தூரத்தை நீரின் திசையில் கடக்கும் நேரத்தை விட நீரின் எதிர்திசையில் கடக்க கூடுதலாக $1\text{ மணி}$ நேரம் தேவைப்படுகிறது எனில் நீரின் வேகம் காண்க.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">விடை மற்றும் தீர்வைக் காண்க</summary>
+
+<div class="pt-3">
+
+
+
+</div>
+
+</details>
+
+---
+
