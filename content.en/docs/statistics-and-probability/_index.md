@@ -2933,3 +2933,51 @@ $$C.V. = \dfrac{\sigma}{\overline{x}} \times 100\% = \dfrac{4.43}{18} \times 100
 </details>
 
 ---
+
+#### PTA / Model (5 Marks)
+
+The consumption of the number of guavas and oranges in a particular week by a family are given below:
+- Number of Guavas: $3, 5, 6, 4, 3, 5, 4$
+- Number of Oranges: $1, 3, 7, 9, 2, 6, 2$
+
+Which fruit is consistently consumed?
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+To find which fruit is consistently consumed, we calculate the Coefficient of Variation ($C.V.$) for both fruits. The fruit with the lower $C.V.$ is consumed more consistently.
+
+**1. For Guavas ($x$):**
+Observations: $3, 5, 6, 4, 3, 5, 4$ ($n = 7$)
+$$\sum x = 3 + 5 + 6 + 4 + 3 + 5 + 4 = 30$$
+$$\text{Mean } \overline{x} = \dfrac{\sum x}{n} = \dfrac{30}{7} \approx 4.29$$
+$$\sum x^2 = 3^2 + 5^2 + 6^2 + 4^2 + 3^2 + 5^2 + 4^2 = 9 + 25 + 36 + 16 + 9 + 25 + 16 = 136$$
+
+Standard deviation ($\sigma_1$):
+$$\sigma_1 = \sqrt{\dfrac{\sum x^2}{n} - (\overline{x})^2} = \sqrt{\dfrac{136}{7} - \left(\dfrac{30}{7}\right)^2} = \sqrt{\dfrac{952 - 900}{49}} = \sqrt{\dfrac{52}{49}} = \dfrac{\sqrt{52}}{7} \approx \dfrac{7.21}{7} \approx 1.03$$
+
+Coefficient of variation:
+$$C.V._1 = \dfrac{\sigma_1}{\overline{x}} \times 100\% = \dfrac{1.03}{4.29} \times 100\% \approx 24.01\%$$
+
+**2. For Oranges ($y$):**
+Observations: $1, 3, 7, 9, 2, 6, 2$ ($n = 7$)
+$$\sum y = 1 + 3 + 7 + 9 + 2 + 6 + 2 = 30$$
+$$\text{Mean } \overline{y} = \dfrac{\sum y}{n} = \dfrac{30}{7} \approx 4.29$$
+$$\sum y^2 = 1^2 + 3^2 + 7^2 + 9^2 + 2^2 + 6^2 + 2^2 = 1 + 9 + 49 + 81 + 4 + 36 + 4 = 184$$
+
+Standard deviation ($\sigma_2$):
+$$\sigma_2 = \sqrt{\dfrac{\sum y^2}{n} - (\overline{y})^2} = \sqrt{\dfrac{184}{7} - \left(\dfrac{30}{7}\right)^2} = \sqrt{\dfrac{1288 - 900}{49}} = \sqrt{\dfrac{388}{49}} = \dfrac{\sqrt{388}}{7} \approx \dfrac{19.70}{7} \approx 2.81$$
+
+Coefficient of variation:
+$$C.V._2 = \dfrac{\sigma_2}{\overline{y}} \times 100\% = \dfrac{2.81}{4.29} \times 100\% \approx 65.50\%$$
+
+**Conclusion:**
+Since $C.V.(\text{Guava}) < C.V.(\text{Orange})$, the consumption of **Guava** is more consistent.
+
+</div>
+
+</details>
+
+---

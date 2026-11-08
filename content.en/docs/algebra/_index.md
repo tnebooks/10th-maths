@@ -5187,3 +5187,29 @@ The solution is **$x = 3$**. Nature of roots: **Real and equal roots**.
 
 ---
 
+
+#### PTA / Model (2 Marks)
+
+Find the sum and product of the roots for the quadratic equation $8x^2 - 25 = 0$.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Comparing the given quadratic equation $8x^2 - 25 = 0$ with the standard form $ax^2 + bx + c = 0$:
+$$a = 8, \quad b = 0, \quad c = -25$$
+
+1. Sum of the roots:
+   $$\text{Sum} = -\dfrac{b}{a} = -\dfrac{0}{8} = 0$$
+
+2. Product of the roots:
+   $$\text{Product} = \dfrac{c}{a} = \dfrac{-25}{8} = -\dfrac{25}{8}$$
+
+**Answer:** Sum of roots $= \mathbf{0}$, Product of roots $= \mathbf{-\dfrac{25}{8}}$
+
+</div>
+
+</details>
+
+---

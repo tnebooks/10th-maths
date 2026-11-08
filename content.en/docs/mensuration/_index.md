@@ -1805,3 +1805,40 @@ A shuttle cock used for playing badminton has the shape of the combination of th
 
 ---
 
+
+#### PTA / Model (5 Marks)
+
+A cylindrical bucket, 32 cm high and with radius of base 18 cm, is filled with sand. This bucket is emptied on the ground and a conical heap of sand is formed. If the height of the conical heap is 24 cm, find the radius and slant height of the heap.
+
+<details class="not-annotatable border rounded p-3 my-3 bg-light-subtle">
+<summary class="not-annotatable fw-bold text-primary" style="cursor: pointer;" onclick="event.stopPropagation();">View Model Answer & Solution</summary>
+
+<div class="pt-3">
+
+Let $r_1$ and $h_1$ be the radius and height of the cylindrical bucket:
+$$r_1 = 18\text{ cm}, \quad h_1 = 32\text{ cm}$$
+
+Let $r_2$, $h_2$, and $l$ be the radius, height, and slant height of the conical heap of sand:
+$$h_2 = 24\text{ cm}$$
+
+Since the volume of sand in the cylindrical bucket equals the volume of the conical heap:
+$$\text{Volume of conical heap} = \text{Volume of cylindrical bucket}$$
+$$\dfrac{1}{3}\pi r_2^2 h_2 = \pi r_1^2 h_1$$
+
+Dividing both sides by $\pi$:
+$$\dfrac{1}{3} r_2^2 (24) = 18^2 \times 32$$
+$$8 r_2^2 = 324 \times 32$$
+$$r_2^2 = \dfrac{324 \times 32}{8} = 324 \times 4 = 1296$$
+$$r_2 = \sqrt{1296} = 36\text{ cm}$$
+
+Now, find the slant height $l$ of the conical heap:
+$$l = \sqrt{r_2^2 + h_2^2} = \sqrt{36^2 + 24^2} = \sqrt{1296 + 576} = \sqrt{1872}$$
+$$l = \sqrt{144 \times 13} = 12\sqrt{13}\text{ cm} \approx 43.27\text{ cm}$$
+
+**Answer:** Radius of heap $= \mathbf{36\text{ cm}}$, Slant height $= \mathbf{12\sqrt{13}\text{ cm}}$ (or $\mathbf{43.27\text{ cm}}$)
+
+</div>
+
+</details>
+
+---
